@@ -1,0 +1,16 @@
+
+.socials {
+	display: flex;
+}
+
+.tags svg, .bible-books svg, .socials svg {
+	display: inline;
+	margin-left: 0;
+	margin-right: 0.35rem;
+	width: 18px;
+	fill: #121212;
+}
+
+footer .socials svg {
+	fill: #F8F9FA;
+}

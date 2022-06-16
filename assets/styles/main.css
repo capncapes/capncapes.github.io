@@ -1,0 +1,1082 @@
+/* ----------------------------------------------------------------
+TABLE OF CONTENTS
+	0	Imports + Root
+	1	Customizations
+	2	Typography
+	3	Header
+	4	Hero Section
+	5	Tabs Section
+	6	Posts Section
+	7	Countdown Section
+	8	CTA Section
+	9	Form Section
+	10	Single Post
+	11	Related Posts
+	12	Gallery Layouts
+	13	Tables
+	14	Content Layouts
+	15	Page Navigation
+	16	Buttons + Links
+	17	Blockquotes
+	18	Code Blocks
+	19	Utilities
+	20	Footer
+	21	Responsive
+---------------------------------------------------------------- */
+
+/* ================================================================
+	0	Imports + Root
+================================================================ */
+
+@import url(global/icons.css);
+@import url(global/layout.css);
+@import url(global/flex.css);
+@import url('https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,500;0,700;1,500;1,700&family=Open+Sans:ital,wght@0,400;0,600;1,400;1,600&display=swap');
+
+:root {
+	font-size: 16px;
+	line-height: 200%;
+	color: #121212;
+	--splendid-red: #F05454;
+	--splendid-green: #2CA096;
+	--splendid-blue: #30475E;
+	--splendid-yellow: #F9D423;
+	--splendid-orange: #F77825;
+	--splendid-stone: #EDEDE2;
+	--splendid-sand: #DEDECA;
+	--splendid-black: #121212;
+}
+
+/* ================================================================
+	1	Customizations
+================================================================ */
+
+/* Accent Color */
+
+::selection { color: #000000; background: #F9D423; }
+.accent, #footer a { color: #F9D423 !important; }
+section .splendid-cta { color: #F05454 !important; text-decoration: none !important; }
+.bg-accent { background-color: #F05454 !important; }
+
+/* Buttons + Links */
+
+.splendid-button.primary { background-color: #F05454; }
+
+/* Background Colors */
+
+.bg-red { background-color: #F05454; }
+.bg-green { background-color: #2CA096; }
+.bg-blue { background-color: #30475E; }
+.bg-yellow { background-color: #F9D423; }
+.bg-orange { background-color: #F77825; }
+.bg-stone, html body { background-color: #EDEDE2; }
+.bg-sand { background-color: #DEDECA; }
+.bg-black { background-color: #121212; }
+.bg-white { background-color: #F8F9FA; }
+
+/* Typography */
+
+body *, .splendid-button, blockquote {
+	font-family: 'Open Sans', 'Roboto', 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6, blockquote > p:first-child::before {
+	font-family: 'Cormorant', 'Cambria', 'Cochin', 'Georgia', 'Times', 'Times New Roman', serif;
+}
+
+code, code span, pre, pre span {
+	font-family: 'Monaco', 'Lucida Console', 'Courier', monospace;
+}
+
+.text-red { color: #F05454; }
+.text-green { color: #2CA096; }
+.text-blue { color: #30475E; }
+.text-yellow { color: #F9D423; }
+.text-orange { color: #F77825; }
+.text-stone { color: #EDEDE2; }
+.text-sand { color: #DEDECA; }
+.text-black { color: #121212; }
+.text-white { color: #F8F9FA; }
+
+body a, body p a, body p a:visited, .card .read-more:hover, #post article .tags a.tag:hover {
+	color: #F05454;
+}
+
+body p a, #post article .tags a.tag:hover {
+	border-color: #F05454;
+}
+
+#post article .bible-books a.bible-book:hover {
+	color: #2CA096;
+	border-color: #2CA096;
+}
+
+body a:hover, body p a:hover {
+	color: #121212;
+}
+
+body p a:hover, body p a:active, #post article .tags a, #book-review article .tags a, #post article .bible-books a {
+	color: #121212;
+	border-color: #121212;
+}
+
+/* Border Colors */
+
+.border-red { border-color: #F05454; }
+.border-green { border-color: #2CA096; }
+.border-blue { border-color: #30475E; }
+.border-yellow { border-color: #F9D423; }
+.border-orange { border-color: #F77825; }
+.border-stone { border-color: #EDEDE2; }
+.border-sand { border-color: #DEDECA; }
+.border-black { border-color: #121212; }
+.border-white { border-color: #F8F9FA; }
+
+/* Forms */
+
+.form-group .form-field > input[type=checkbox]:checked + label::before,
+.form-group .form-field > input[type=radio]:checked + label::before {
+	background-color: #2CA096;
+}
+
+.form-field.dropdown .select-items div:hover, .same-as-selected {
+	color: #FFFFFF;
+	background-color: #2CA096;
+}
+
+/* ================================================================
+	2	Typography
+================================================================ */
+
+body, *.text-base {
+	font-size: 1.25rem;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+body a, body p a {
+	font-weight: 600;
+	text-decoration: none;
+}
+
+body p a {
+	border-bottom-width: 2px;
+	border-bottom-style: solid;
+}
+
+h1, h1 > a {
+	font-size: 2.5rem !important;
+	line-height: 3rem;
+}
+
+h2, h2 > a {
+	font-size: 2rem !important;
+	line-height: 2.5rem;
+}
+
+h3, h3 > a {
+	font-size: 1.75rem !important;
+	line-height: 2.25rem;
+}
+
+h4, h4 > a {
+	font-size: 1.5rem !important;
+	line-height: 2rem;
+}
+
+h5, h5 > a {
+	font-size: 1.25rem !important;
+	line-height: 1.75rem;
+}
+
+h6, h6 > a {
+	font-size: 1rem !important;
+	line-height: 1.5rem;
+}
+
+h1, h1 > a, h2, h2 > a, h3, h3 > a, h4, h4 > a, h5, h5 > a, h6, h6 > a {
+	margin-top: 0;
+	font-weight: 900 !important;
+	line-height: 1.5;
+}
+
+body *.text-xs { font-size: 0.85rem !important; }
+body *.text-sm { font-size: 1rem !important; }
+body *.text-base { font-size: 1.25rem !important; }
+body *.text-lg { font-size: 1.5rem !important; }
+body *.text-xl { font-size: 1.75rem !important; }
+body *.text-2xl { font-size: 2rem !important; }
+body *.text-3xl { font-size: 2.5rem !important; }
+body *.text-4xl { font-size: 3rem !important; }
+
+.thin {
+	font-weight: 300;
+	font-weight: 200;
+	font-weight: 100;
+}
+
+body *, .font-medium {
+	font-weight: 600;
+	font-weight: 500;
+	font-weight: 400;
+	font-weight: normal;
+}
+
+.font-bold {
+	font-weight: 900;
+	font-weight: 800;
+	font-weight: 700;
+	font-weight: bold;
+}
+
+.normal { font-style: normal; }
+.italic { font-style: italic; }
+
+body address, body address * {
+	font-size: 1rem;
+	font-style: normal;
+	line-height: 1.5;
+}
+
+/* ================================================================
+	3	Header
+================================================================ */
+
+#splendid-header {
+	height: 15vh;
+	background-color: #FFFFFF;
+	z-index: 10100;
+}
+
+header .splendid-logo a {
+	font-size: 2rem;
+	background-color: transparent;
+	border: none !important;
+	outline: none !important;
+	text-decoration: none;
+	cursor: pointer;
+	z-index: 20200;
+}
+
+.logo img, img.logo {
+	margin: 0 !important;
+	max-width: 100%;
+	height: auto;
+	max-height: 12vh;
+	border-radius: 50px;
+}
+
+header .splendid-logo a, .nav-link {
+	line-height: 2.25rem;
+}
+
+#nav-container {
+	display: flex;
+	width: 100%;
+	max-width: 60rem;
+	flex-flow: row nowrap;
+	justify-content: space-between;
+	align-items: center;
+	gap: 1rem;
+}
+
+#nav-container .splendid-logo {
+	width: 50%;
+	max-width: 200px;
+}
+
+#nav-container nav {
+	font-size: calc(1.15rem + (2 - 1.15) * ((100vw - 300px) / 600));
+	overflow: scroll;
+	-webkit-transition: all 0.2s ease-in-out;
+	-o-transition: all 0.2s ease-in-out;
+	-moz-transition: all 0.2s ease-in-out;
+	transition: all 0.2s ease-in-out;
+	z-index: 10010;
+}
+
+#secondary-menu ul.navbar-nav {
+	font-size: 1.15rem;
+}
+
+ul.navbar-nav {
+	margin: 0 !important;
+	padding-left: 0 !important;
+	padding-right: 0 !important;
+	list-style: none !important;
+}
+
+.nav-link, .nav-link:focus, .nav-link:active {
+	color: #121212;
+	background-image: linear-gradient(#121212, #121212);
+	background-size: 0% 0.1em;
+	background-position-y: 100%;
+	background-position-x: 0%;
+	background-repeat: no-repeat;
+	text-align: center;
+	transition: background-size 0.3s ease-in-out;
+	text-decoration: none;
+}
+
+.nav-link:hover, .nav-link:focus, .nav-link:active {
+	background-size: 100% 0.1em;
+}
+
+/* ================================================================
+	4	Hero Section
+================================================================ */
+
+.hero-section {
+	padding: 3.5rem 0;
+	width: 100%;
+	max-width: 100%;
+}
+
+.hero-section > * {
+	padding: 0 1.75rem;
+}
+
+/* ================================================================
+	5	Tabs Section
+================================================================ */
+
+/* Header Area */
+
+.tabs-section header {
+	padding: 2.5rem 4rem;
+}
+
+.tabs-section header h2 {
+	margin-bottom: 1.5rem;
+	font-size: 3rem;
+}
+
+b.tabs-section header p {
+	margin: 0;
+}
+
+.tabs-section header p + p {
+	margin-top: 1rem;
+}
+  
+/* Tabs Area */
+
+.tabs-section .tabs-container {
+	background-color: #FFFFFF;
+}
+
+.tabs-container .tabs .tab, .tabs-container .tabs input[type=radio] {
+	display: none;
+}
+
+.tabs-container .tabs input[type=radio] + label {
+	display: inline-block;
+	margin: 0;
+	padding: 0.5rem 1.5rem;
+	font-size: 1.15rem;
+	opacity: 0.6;
+	cursor: pointer;
+	user-select: none;
+}
+
+.tabs-container .tabs input[type=radio]:checked + label {
+	border-bottom: 2px solid #000;
+	opacity: 1;
+}
+
+.tabs-container .tabs .tab {
+	margin: 0;
+	padding: 2rem 1rem;
+	border-top-width: 2px;
+	border-top-style: solid;
+	border-color: #121212;
+}
+
+.tabs input:first-of-type:checked + label ~ .tab:first-of-type,
+.tabs input:nth-of-type(2):checked + label ~ .tab:nth-of-type(2),
+.tabs input:nth-of-type(3):checked + label ~ .tab:nth-of-type(3) {
+	display: block;
+}
+
+.tabs-container .tabs .tab p {
+	margin: 1.5rem;
+}
+
+/* ================================================================
+	6	Posts Section
+================================================================ */
+
+.posts-section .cards-gallery {
+	margin: 0 auto;
+	width: calc(100% - 3.5rem);
+}
+
+/* ================================================================
+	7	Countdown Section
+================================================================ */
+
+.countdown-section > header {
+	padding: 5rem 1.5rem 0;
+	max-width: 40rem;
+}
+
+.countdown-section > header + .countdown {
+	padding: 2.5rem 1.5rem 5rem;
+}
+
+.countdown {
+	padding: 5rem 0;
+	width: auto;
+	max-width: 40rem;
+	gap: 1.5rem;
+	text-align: center;
+}
+
+.countdown > div {
+	margin: 0;
+	padding: 1rem 0.5rem;
+	width: auto;
+	flex: 1 1 0;
+	font-size: 2.5rem;
+	line-height: 1.25;
+	background-color: #FFFFFF;
+	overflow: hidden;
+	box-shadow: 0 5px 35px 0 rgb(0 0 0 / 15%);
+	user-select: none;
+}
+
+.countdown.rounded, .countdown.rounded > div {
+	border-radius: 4px;
+}
+
+.days::after, .hours::after, .minutes::after, .seconds::after {
+	content: attr(class);
+	display: block;
+	font-size: 1rem;
+	font-weight: normal;
+	line-height: 1;
+	color: rgba(18, 18, 18, 0.75);
+}
+
+/* ================================================================
+	8	CTA Section
+================================================================ */
+
+.cta-section {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	max-width: 100%;
+}
+
+.cta-section > * {
+	margin: 0 auto;
+	max-width: 60rem;
+	font-size: inherit;
+	line-height: inherit;
+}
+
+.cta-section > *:first-child:nth-last-child(2), .cta-section > *:nth-child(2):last-child {
+	width: 50%;
+	max-width: 30rem;
+}
+
+/* ================================================================
+	9	Form Section
+================================================================ */
+
+/* ================================================================
+	10	Single Post
+================================================================ */
+
+#post article {
+	max-width: 80rem;
+}
+
+#post article .meta {
+	gap: 2.5rem;
+}
+
+#post article header > .label,
+#book-review article header > .label {
+	line-height: 1;
+	letter-spacing: 0.15rem;
+}
+
+#post article .tags,
+#post article .bible-books,
+#book-review article .tags {
+	gap: 1rem;
+}
+
+#post article h2, #post article h3, #post article h4, #post article h5, #post article h6, #post article > p, #post article > ol, #post article > ul, #post article > table, #post article figure,
+#book-review article h2, #book-review article h3, #book-review article h4, #book-review article h5, #book-review article h6, #book-review article > p, #book-review article > ol, #book-review article > ul, #book-review article > table, #book-review article figure {
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 60rem;
+}
+
+#post article time + .tags,
+#post article time + .bible-books,
+#book-review article time + .tags {
+	padding-top: 0.25rem;
+}
+
+#post article > p:first-of-type
+#book-review article > p:first-of-type {
+	margin-top: 9rem;
+}
+
+#post article > .tags ~ p:first-of-type,
+#post article > .bible-books ~ p:first-of-type,
+#book-review article > .tags ~ p:first-of-type {
+	margin-top: 6rem;
+}
+
+/* ================================================================
+	11	Related Posts
+================================================================ */
+
+#post main + .related-posts::before {
+	content: "";
+	display: block;
+	margin: 0 auto 4rem;
+	width: 100%;
+	max-width: 30rem;
+	height: 1px;
+	background-color: rgba(18, 18, 18, 0.5);
+}
+
+.related-posts header {
+	display: flex;
+	height: 100%;
+	flex-flow: column nowrap;
+	justify-content: space-evenly;
+	box-shadow: none;
+}
+
+.related-posts h3 {
+	height: 25%;
+	line-height: 200%;
+	box-shadow: none;
+}
+
+.related-posts h3::after {
+	content: "";
+	display: block;
+	width: 25%;
+	height: 2px;
+	background-color: #121212;
+	box-shadow: none;
+}
+
+/* ================================================================
+	12	Gallery Layouts
+================================================================ */
+
+/* Cards Gallery */
+
+.cards-gallery {
+	display: -ms-grid;
+	display: grid;
+	width: auto;
+	grid-auto-flow: row;
+	gap: 1.5rem;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	list-style: none;
+}
+
+.cards-gallery > * {
+	height: 0;
+	box-shadow: 0 0 0 1px rgba(0,0,0,0.25) inset, 0 0 0 1px rgb(0 0 0) inset;
+}
+
+.cards-gallery > .featured {
+	width: 100%;
+}
+
+body .card a, body .card a:hover, body .card a:active, body .card a:visited {
+	color: #FFFFFF;
+}
+
+.card .info {
+	background: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0.75));
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+.card .info .title {
+	line-height: 125%;
+	transition: all 0.2s ease-in;
+}
+
+.card:hover .info .title {
+	transform: translateY(-0.5rem);
+}
+
+/* Books Gallery */
+
+.books-gallery {
+	display: -ms-grid;
+	display: grid;
+	width: auto;
+	grid-auto-flow: row;
+	gap: 1.5rem;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	list-style: none;
+}
+
+.books-gallery article * {
+	line-height: 125%;
+}
+
+.books-gallery article a img, .books-gallery article a .placeholder {
+	position: relative;
+	transition: all 0.2s ease-in;
+}
+
+.books-gallery article a img::before {
+	content: attr(alt);
+	position: absolute;
+	inset: 0;
+	padding: 5% 10%;
+	font-size: 0.85rem;
+	color: #121212;
+	background-color: #DEDECA;
+	border-radius: 4px;
+}
+
+.books-gallery article a:hover img, .books-gallery article a:hover .placeholder {
+	transform: translateY(-0.5rem);
+}
+
+.books-gallery article a .placeholder {
+	height: 0;
+	padding-top: calc(100% * (3 / 2));
+}
+
+.books-gallery article a .placeholder::before {
+	content: attr(data-content);
+	position: absolute;
+	inset: 5% 10%;
+	font-size: 0.85rem;
+	color: #121212;
+}
+
+/* ================================================================
+	13	Tables
+================================================================ */
+
+table {
+	width: 100%;
+	text-align: left;
+	border-collapse: collapse;
+}
+
+tr:nth-of-type(odd) {
+	background: #EDEDE2;
+}
+
+th {
+	padding: 0.5rem;
+	font-weight: bold;
+	background-color: rgba(0,0,0,0.1);
+	border: 1px solid #DEDECA;
+}
+
+/* ================================================================
+	14	Content Layouts
+================================================================ */
+
+#splendid-header + * {
+	margin-top: 15vh;
+}
+
+body section {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+
+body section > * {
+	margin: 0 auto;
+}
+
+.two-columns, .three-columns, .four-columns, .five-columns, .six-columns {
+	margin: 0;
+}
+
+ul.two-columns, ul.three-columns, ul.four-columns, ul.five-columns, ul.six-columns,
+ol.two-columns, ol.three-columns, ol.four-columns, ol.five-columns, ol.six-columns {
+	padding-left: 0;
+	list-style: none;
+}
+
+audio, canvas, embed, iframe, img, object, svg, video {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 100%;
+	border-radius: 4px;
+}
+
+.object-cover {
+	-o-object-fit: cover;
+	object-fit: cover
+}
+
+/* ================================================================
+	15	Page Navigation
+================================================================ */
+
+.page-nav {
+	display: flex;
+	width: 100%;
+	max-width: 12rem;
+	flex-flow: row nowrap;
+	justify-content: center;
+	align-items: center;
+	gap: 1rem;
+}
+
+.page-nav > a {
+	font-size: 1.25rem;
+	line-height: 1;
+	text-align: center;
+}
+
+/* ================================================================
+	16	Buttons + Links
+================================================================ */
+
+.splendid-button {
+	display: inline-block;
+	position: relative;
+	margin: 0;
+	padding: 0.5rem 0.95rem;
+	font-size: 1.15rem;
+	font-weight: bold;
+	font-weight: 700;
+	background-color: transparent;
+	background-size: 200% 200%;
+	background-position: 100%;
+	border-width: 3px;
+	border-style: solid;
+	border-radius: 4px;
+	text-decoration: none;
+	cursor: pointer;
+	transition: all 0.3s ease-in-out;
+}
+
+.splendid-button, .splendid-button.light {
+	color: #FFFFFF;
+	background-image: linear-gradient(90deg, #FFFFFF 50%, rgba(255,255,255,0) 0);
+	border-color: #FFFFFF;
+}
+
+.splendid-button.dark {
+	color: #121212;
+	background-image: linear-gradient(90deg, #121212 50%, rgba(0,0,0,0) 0);
+	border-color: #121212;
+}
+
+.splendid-button.primary {
+	border-left: 5px solid #121212;
+	border-width: 5px;
+}
+
+.splendid-button:hover {
+	color: #121212;
+	background-position: 0;
+}
+
+.splendid-button.reverse:hover {
+	background-position: 199%;
+}
+
+.splendid-button.light:hover {
+	color: #121212;
+}
+
+.splendid-button.dark:hover {
+	color: #FFFFFF;
+}
+
+a.splendid-cta {
+	display: inline-block;
+	transition: transform 0.2s ease-out;
+}
+
+a.splendid-cta:hover {
+	transform: translateX(0.75rem);
+}
+
+a.splendid-cta::after {
+	content: '\290F';
+	margin-left: 0.5rem;
+	font-size: 125%;
+	line-height: inherit;
+}
+
+/* ================================================================
+	17	Blockquotes
+================================================================ */
+
+blockquote {
+	position: relative;
+	margin-top: 3rem;
+	margin-bottom: 3rem;
+	margin-left: -1.75rem;
+	margin-right: -1.75rem;
+	padding: 2rem 1.5rem;
+	font-weight: normal;
+	font-weight: 400;
+	line-height: 2;
+	color: #121212;
+	background-color: #DEDECA;
+	overflow: visible;
+}
+
+blockquote::before {
+	content: "“";
+	position: absolute;
+	top: 0;
+	left: 0.75rem;
+	font-family: 'Cormorant', serif;
+	font-size: 9rem;
+	font-style: normal;
+	font-weight: bold;
+	font-weight: 900;
+	line-height: 1;
+	color: #EDEDE2;
+}
+
+blockquote[class*="border"] { border: none; }
+
+blockquote > p {
+	position: relative;
+	margin: 0 2rem;
+	font-size: 1.15rem;
+	font-style: italic;
+	z-index: 10;
+}
+
+blockquote cite {
+	position: relative;
+	margin: 0;
+	font-size: 1rem;
+	font-weight: bold;
+	font-weight: 900;
+	order: 10;
+}
+
+blockquote cite::before {
+	content: "\2015";
+	margin-right: 0.25rem;
+}
+
+/* ================================================================
+	18	Code Blocks
+================================================================ */
+
+#splendid figure {
+	margin-top: 3rem;
+	margin-bottom: 3rem;
+	padding: 0;
+}
+
+#splendid figure pre {
+	padding: 0;
+	background-color: #121212;
+	color: #EDEDE2;
+	border-radius: 8px;
+	overflow: hidden;
+}
+
+#splendid figure pre code {
+	display: block;
+	position: relative;
+	padding: 2rem;
+	font-size: 0.9rem;
+	border-left: 8px solid transparent;
+	border-right: 8px solid transparent;
+	overflow-x: scroll;
+}
+
+#splendid figure pre code::before {
+	content: attr(data-lang);
+	position: absolute;
+	top: 0;
+	right: 0;
+	font-family: 'Open Sans', 'Roboto', 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+	font-weight: bold;
+	font-weight: 900;
+	user-select: none;
+}
+
+#splendid figure pre code.language-html {
+	border-left-color: #E34F26;
+}
+
+#splendid figure pre code.language-css {
+	border-left-color: #264DE4;
+}
+
+#splendid figure pre code.language-javascript {
+	border-left-color: #F7DF1E;
+}
+
+#splendid figure pre code.language-ruby {
+	border-left-color: #CC342D;
+}
+
+#splendid figure pre code.language-php {
+	border-left-color: #8892BE;
+}
+
+#splendid figure pre code.language-git {
+	border-left-color: #F1502F;
+}
+
+#splendid figure pre code.language-sass {
+	border-left-color: #CD6799;
+}
+
+#splendid figure pre code.language-sql {
+	border-left-color: #00758F;
+}
+
+#splendid figure pre code.language-liquid {
+	border-left-color: #000099;
+}
+
+#splendid figure pre code span.nf {
+	color: #2CA096;
+}
+
+#splendid figure pre code span.nl, #splendid figure pre code span.py {
+	color: #F9D423;
+}
+
+#splendid figure pre code span.n, #splendid figure pre code span.nb {
+	color: #F77825;
+}
+
+#splendid figure pre code span.m, #splendid figure pre code span.err {
+	color: #F05454;
+}
+
+#splendid figure pre code span.nc {
+	color: #516cb9;
+}
+
+#splendid figure pre code span.c {
+	color: #999999;
+}
+
+#splendid figure pre code span.nd, #splendid figure pre code span.p, #splendid figure pre code span.o {
+	color: #F8F9FA;
+}
+
+.highlighter-rouge { font-size: 1rem; }
+
+/* ================================================================
+	19	Utilities
+================================================================ */
+
+.block { display: block !important; }
+.inline { display: inline !important; }
+
+.sticky {
+	position: fixed !important;
+	left: 0 !important;
+	right: 0 !important;
+}
+
+.shadow { box-shadow: 0 5px 35px 0 rgb(0 0 0 / 15%); }
+
+img[src=""] { display: none !important; }
+.rounded, img.rounded, img.rounded * { border-radius: 4px !important; }
+
+.list-none { padding: 0; list-style: none; }
+
+.capitalize { text-transform: capitalize !important; }
+.lowercase { text-transform: lowercase !important; }
+.uppercase { text-transform: uppercase !important; }
+
+/* Opacity */
+
+.opacity-0 { opacity: 0 !important; }
+.opacity-50 { opacity: 50% !important; }
+.opacity-100 { opacity: 100% !important; }
+
+/* Borders */
+
+.border-0 { border-width: 0; }
+.border { border-width: 1px; }
+.border-1 { border-width: 0.25rem; }
+.border-2 { border-width: 0.5rem; }
+.border-3 { border-width: 0.75rem; }
+.border-4 { border-width: 1rem; }
+
+.border-none { border-style: none; }
+.border-solid { border-style: solid; }
+.border-dashed { border-style: dashed; }
+.border-dotted { border-style: dotted; }
+.border-double { border-style: double; }
+
+.z-0 { z-index: 0; }
+.z-10 { z-index: 10; }
+.z-20 { z-index: 20; }
+.z-30 { z-index: 30; }
+.z-40 { z-index: 40; }
+.z-50 { z-index: 50; }
+
+/* ================================================================
+	20	Footer
+================================================================ */
+
+#footer {
+	display: block;
+	position: sticky;
+	top: 100vh;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+
+#footer > * {
+	display: flex;
+	margin: 0 auto;
+	padding: 4rem 1.5rem 1rem;
+	width: calc(100% - 3rem);
+	max-width: 60rem;
+	row-gap: 1.5rem;
+	column-gap: calc(40% - (100% / 3));
+	flex-flow: row wrap;
+	font-size: 1.25rem;
+	line-height: 2;
+}
+
+#footer .text-white {
+	color: rgba(248,249,250,0.75);
+}
+
+#footer .text-black {
+	color: rgba(18,18,18,0.75);
+}
+
+#footer a {
+	color: inherit;
+	text-decoration: none;
+}
+
+/* ================================================================
+	21	Responsive
+================================================================ */

@@ -1,0 +1,25 @@
+<header id="splendid-header" itemscope itemtype="https://schema.org/WPHeader" class="splendid-flex sticky flex-col justify-center items-center shadow">
+	<div id="nav-container" class="container">
+		<div itemscope itemtype="https://schema.org/Brand" class="splendid-logo">
+			<a class="branding splendid-flex" href="{{ site.baseurl }}/" title="{{ site.meta.title }}" rel="home">
+				<img src="{{ site.logo }}" itemprop="logo" class="logo">
+			</a>
+		</div>
+		<div class="menu-icon bars closed" type="button" aria-controls="main-menu secondary-menu" aria-expanded="false" aria-label="Toggle navigation"></div>
+
+		<!-- Main Menu : START -->
+		<nav id="main-menu" class="hide w-full">
+			<ul itemscope itemtype="https://schema.org/SiteNavigationElement" role="menu" aria-label="Main" class="navbar-nav w-full">
+				{% for page in site.pages %}
+					{% if page.title and page.hide != true %}
+						<li itemprop="name" role="menuitem" class="menu-item">
+							<a class="nav-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
+						</li>
+					{% endif %}
+				{% endfor %}
+			</ul>
+		</nav>
+		<!-- Main Menu : END -->
+
+	</div>
+</header>

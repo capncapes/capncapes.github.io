@@ -1,0 +1,51 @@
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.meta.title }}</title>
+	<meta name="description" content="{% if page.description %}{{ page.description | strip_html | strip_newlines | truncate: 140 }}{% else %}{{ site.theme_settings.description }}{% endif %}">
+	<meta name="author" content="{{ site.author.name }}">
+	<meta http-equiv="X-Frame-Options" content="sameorigin">
+
+	<!-- Open Graph -->
+	<meta property="og:url" content="{{ page.url | replace: '/index.html','/' | prepend: site.baseurl | prepend: site.url }}">
+	<meta property="og:type" content="{% if page.date %}article{% else %}website{% endif %}">
+	<meta property="og:title" content="{% if page.title %}{{ page.title | smartify | strip_html | strip_newlines | escape_once }}{% else %}{{ site.name }}{% endif %}">
+	<meta property="og:image" content="{% if page.social-share %}{{ page.url | prepend: site.baseurl | prepend: site.url }}{{ page.social-share }}{% else %}img/brandon_caples.jpg{% endif %}">
+	<meta property="og:description" content="{% if page.description %}{{page.description | strip_html | strip_newlines | truncate: 140 }}{% else %}{{ site.theme_settings.description }}{% endif %}">
+
+	<!-- CSS -->
+	<link rel="stylesheet" type="text/css" href="/assets/styles/enhancements/patterns.css" media="all">
+	<link rel="stylesheet" type="text/css" href="/assets/styles/global/layout.css" media="all">
+	<link rel="stylesheet" href="{{ "/assets/styles/main.css" | prepend: site.baseurl }}" media="all">
+	<link rel="stylesheet" type="text/css" href="/assets/styles/global/responsive/sm.css" media="screen and (max-width: 599px)">
+	<link rel="stylesheet" type="text/css" href="/assets/styles/global/responsive/md.css" media="screen and (min-width: 600px)">
+	<link rel="stylesheet" type="text/css" href="/assets/styles/global/responsive/lg.css" media="screen and (min-width: 900px)">
+	<link rel="stylesheet" type="text/css" href="/assets/styles/global/responsive/xl.css" media="screen and (min-width: 1200px)">
+
+	<!--Favicon-->
+	<link rel="shortcut icon" href="{{ "/favicon.ico" | prepend: site.baseurl }}" type="image/x-icon">
+
+	<!-- Canonical -->
+	{% if page.canonical %}
+		<link rel="canonical" href="{{ page.canonical }}" />
+	{% else %}
+		<link rel="canonical" href="{{ page.url }}" />
+	{% endif %}
+
+	<!-- RSS -->
+	<link rel="alternate" type="application/atom+xml" title="{{ site.meta.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}" />
+
+	<!-- KaTeX -->
+	{% if site.scripts.katex %}
+	<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/KaTeX/0.3.0/katex.min.css">
+	<script src="//cdnjs.cloudflare.com/ajax/libs/KaTeX/0.3.0/katex.min.js"></script>
+	{% endif %}
+
+	<!-- JavaScript -->
+	<script type="text/javascript" async src="{{ site.url }}/assets/js/main.js"></script>
+
+	<!-- Google Analytics 4 -->
+	{% if site.scripts.ga4 %}
+	
+	{% endif %}
+</head>

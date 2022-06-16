@@ -1,0 +1,50 @@
+/* ----------------------------------------------------------------
+TABLE OF CONTENTS
+	2	Typography
+	10	Single Post
+	12	Gallery Layouts
+---------------------------------------------------------------- */
+
+/* ================================================================
+	2	Typography
+================================================================ */
+
+body *.xl\:text-xs { font-size: 0.85rem !important; }
+body *.xl\:text-sm { font-size: 1rem !important; }
+body *.xl\:text-lg { font-size: 1.5rem !important; }
+body *.xl\:text-xl { font-size: 1.75rem !important; }
+body *.xl\:text-2xl { font-size: 2rem !important; }
+body *.xl\:text-3xl { font-size: 2.5rem !important; }
+body *.xl\:text-4xl { font-size: 3rem !important; }
+
+/* ================================================================
+	10	Single Post
+================================================================ */
+
+#post article .card {
+	flex-direction: row;
+}
+
+#post article header + picture {
+	margin-left: -4rem;
+}
+
+#post article header + picture.absolute {
+	inset: -2rem 3rem -2rem 65%;
+}
+
+#post article > ol, #post article > ul {
+	padding-left: 9rem;
+	padding-right: 3rem;
+}
+
+/* ================================================================
+	12	Gallery Layouts
+================================================================ */
+
+/* Cards Gallery */
+
+.cards-gallery {
+	-ms-grid-columns: (1fr)[3];
+	grid-template-columns: repeat(3, 1fr);
+}

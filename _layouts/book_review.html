@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html id="splendid" lang="en-US" class="no-js">
+	{% include head.html %}
+	<body id="book-review">
+		<script type="application/ld+json" class="splendid-schema-graph">
+			{
+				"@context": "https://schema.org/",
+				"@type": "Book",
+				{% if page.book.isbn %}
+					"isbn": "{{ page.book.isbn }}",
+				{% endif %}
+				"name": "{{ page.book.title }}",
+				{% if page.book.pages %}
+					"numberOfPages": "{{ page.book.pages }}",
+				{% endif %}
+				"author": "{{ page.book.author }}",
+				"image": "{{ site.url }}/assets/img/books/{{ page.featured_image.src }}",
+				{% if page.book.publisher %}
+					"publisher": {
+						"@type": "Organization",
+						"name": "{{ page.book.publisher }}"
+					},
+				{% endif %}
+				"inLanguage": "English",
+				"review": {
+					"@type": "Review",
+					"author": {
+						"@type": "Person",
+						"name": "Brandon Caples"
+					},
+					"name": "{{ page.title }}",
+					"datePublished": "{{ page.date | date: "%Y-%m-%d" }}",
+					"description": "{{ page.description }}",
+					"reviewBody": "{{ content | strip_html }}",
+					"url": "{{ page.url }}"
+				}
+			}
+		</script>
+		{% include header.html %}
+		<main class="md:pt-16 lg:pt-24 pb-16 md:px-10">
+
+			<!-- Book Review : BEGIN -->
+			<article>
+				<div class="card splendid-flex relative w-full max-w-5 mx-auto justify-between bg-blue md:rounded shadow">
+					<header class="lg:w-half max-w-4 p-7 md:px-12 md:pt-20 md:pb-24 lg:py-12 lg:px-20 text-white">
+						<div class="label mb-4 font-bold text-xs uppercase opacity-50">Book Review</div>
+						<h1 class="mb-6 mx-auto p-0 sm:text-xl md:text-2xl lg:text-3xl font-bold italic">{{ page.book.title }}</h1>
+						<div class="meta splendid-flex mb-0 mx-auto p-0 flex-row justify-start flex-wrap">
+							<div class="author text-sm md:text-base">by {{ page.book.author }}</div>
+						</div>
+					</header>
+					<img class="absolute rounded shadow" src="{{ site.url }}/assets/img/books/{{ page.featured_image.src }}" alt="{{ page.featured_image.alt }}">
+				</div>
+				{% if page.date %}
+					<time datetime="{{ page.date | date: '%Y-%m-%dT%H:%M:%S-05:00' }}" class="block w-50 md:w-40 lg:w-full max-w-4 m-0 lg:mx-auto pt-12 px-7 md:px-12 text-sm normal">{{ page.date | date: "%B %d, %Y" }}</time>
+				{% endif %}
+				{% if page.tags %}
+					{% include tags.html %}
+				{% endif %}
+				{{ content }}
+			</article>
+			<!-- Book Review : END -->
+
+		</main>
+		{% include footer.html %}
+	</body>
+</html>

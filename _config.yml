@@ -1,0 +1,100 @@
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+#
+# If you need help with YAML syntax, here are some quick references for you: 
+# https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
+# https://learnxinyminutes.com/docs/yaml/
+
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+logo: "https://pbs.twimg.com/profile_images/1482576665838600195/KmXL8nh7_400x400.jpg"
+permalink: /:slugified_categories/:year/:title
+
+# AUTHOR
+author:
+  name: "Brandon Caples"
+  email:
+  phone:
+
+# META
+meta:
+  title: "Brandon Caples"
+  description: "A great site."
+
+# SOCIALS
+social:
+  facebook:
+  github: capncapes
+  goodreads: caples
+  instagram: capncapes
+  linkedin: "https://www.linkedin.com/in/brandoncaples"
+  pinterest:
+  reddit:
+  stack_exchange: "https://stackexchange.com/users/9627195/brandon"
+  tiktok:
+  twitter: caplesweb
+  youtube:
+
+# SCRIPTS
+scripts:
+  ga4: # Google Analytics 4
+  google_fonts: "Roboto:300,600|Roboto+Condensed:700|Playfair+Display:900"
+  disqus_shortname:
+  katex: true # Enable if using math markup
+
+# PAGINATION
+# paginate: 3
+# paginate_path: "faith/:num"
+
+# paginate: 4
+# pagination:
+#   - paginate:
+#     path: /faith/:num
+#     per_page: 3
+#   - paginate:
+#     path: /martech/:num
+#     per_page: 2
+
+# COLLECTIONS
+collections:
+  book_reviews:
+    output: true
+    permalink: /book-reviews/:path
+
+# BUILD SETTINGS
+markdown: kramdown
+sass:
+  sass_dir: _sass
+  style: :compressed
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+highlighter: rouge
+input: GFM
+
+# Exclude from processing.
+# The following items will not be processed, by default.
+# Any item listed under the `exclude:` key here will be automatically added to
+# the internal "default list".
+#
+# Excluded items can be processed by explicitly listing the directories or
+# their entries' file path in the `include:` list.
+#
+# exclude:
+#   - .sass-cache/
+#   - .jekyll-cache/
+#   - gemfiles/
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules/
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
+
+theme: jekyll-theme-leap-day
