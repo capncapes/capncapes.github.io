@@ -13,7 +13,7 @@
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 logo: "https://pbs.twimg.com/profile_images/1482576665838600195/KmXL8nh7_400x400.jpg"
-permalink: /:slugified_categories/:year/:title
+permalink: /:categories/:year/:title
 
 # AUTHOR
 author:
