@@ -64,7 +64,7 @@ scripts:
 collections:
   book_reviews:
     output: true
-    permalink: /book-reviews/:path
+    permalink: /book-reviews/:title
 
 # BUILD SETTINGS
 markdown: kramdown
