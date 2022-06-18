@@ -10,7 +10,7 @@ featured_image: {
 description: "“I will restore to you the years that the swarming locust has eaten…”"
 category: Faith
 bible_books: ["Deuteronomy", "Joel"]
-tags: "restoration"
+tags: ["restoration"]
 featured: false
 ---
 

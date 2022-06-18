@@ -1,0 +1,31 @@
+---
+---
+{
+	"categories": [
+		{%- for category in site.categories -%}
+			"{{ category[0] }}"{% unless forloop.last %},{% endunless %}
+		{%- endfor -%}
+	],
+	"tags": [
+		{%- for tag in site.tags -%}
+			"{{ tag[0] }}"{% unless forloop.last %},{% endunless %}
+		{%- endfor -%}
+	],
+	"bible": [
+		{%- assign allBibleBookTags = site.categories["Faith"] | map: "bible_books" | uniq -%}
+		{%- for bibleTag in allBibleBookTags -%}
+			"{{ bibleTag }}"{% unless forloop.last %},{% endunless %}
+		{%- endfor -%}
+	],
+	"years": [
+		{%- assign dates = site.posts | map: "date" | join: "," | split: "," -%}
+		{%- assign years = "" | split: "" -%}
+		{%- for date in dates -%}
+			{% assign dateYear = date | date: "%Y" | split: "," %}
+			{% assign years = years | concat: dateYear | uniq %}
+		{%- endfor -%}
+		{%- for year in years -%}
+			"{{ year }}"{% unless forloop.last %},{% endunless %}
+		{%- endfor -%}
+	]
+}

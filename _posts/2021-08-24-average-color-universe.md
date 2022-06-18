@@ -7,7 +7,7 @@ featured_image: {
   title: "Colors of the universe",
   alt: "Stars and galaxies" }
 category: MarTech
-tags: "graphic design"
+tags: ["graphic design"]
 featured: false
 ---
 

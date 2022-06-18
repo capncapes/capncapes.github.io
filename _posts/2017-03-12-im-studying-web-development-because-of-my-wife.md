@@ -7,7 +7,7 @@ featured_image: {
   title: "I’m Studying Web Development Because of My Wife",
   alt: "Brandon and Jacqueline Caples wedding" }
 category: MarTech
-tags: "web development"
+tags: ["web development"]
 featured: false
 ---
 

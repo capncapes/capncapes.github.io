@@ -7,7 +7,7 @@ featured_image: {
   title: "SEO Terms Explained",
   alt: "Man writing SEO terminology" }
 category: MarTech
-tags: "SEO"
+tags: ["SEO"]
 featured: false
 ---
 

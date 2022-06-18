@@ -9,7 +9,7 @@ featured_image: {
 }
 category: Faith
 bible_books: Jeremiah
-tags: "relationships"
+tags: ["relationships"]
 featured: false
 ---
 

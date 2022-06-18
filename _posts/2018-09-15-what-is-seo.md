@@ -7,7 +7,7 @@ featured_image: {
   title: "What is Search Engine Optimization?",
   alt: "Google search engine query" }
 category: MarTech
-tags: "SEO"
+tags: ["SEO"]
 featured: true
 ---
 
