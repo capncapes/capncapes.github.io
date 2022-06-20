@@ -90,7 +90,9 @@ ul.navbar-nav {
 }
 
 #post article .card + *,
-#book-review article .card + * {
+#post.has-featured-image article .card + *,
+#book-review article .card + *,
+#book-review.has-featured-image article .card + * {
 	margin-top: 0;
 }
 

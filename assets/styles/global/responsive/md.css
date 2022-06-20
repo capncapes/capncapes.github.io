@@ -236,7 +236,7 @@ body > header {
 	padding-right: 3rem;
 }
 
-#post.has-featured-image article .card + * {
+#post.has-featured-image article .card + *, #book-review.has-featured-image article .card + * {
 	margin-top: 17rem;
 }
 
@@ -278,7 +278,9 @@ body > header {
 
 .cards-gallery > *:nth-child(1) {
 	-ms-grid-row: 1;
+	grid-row: 1;
 	-ms-grid-column: 1;
+	grid-column: 1;
 }
 
 .cards-gallery > .featured {

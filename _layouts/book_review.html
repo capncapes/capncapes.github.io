@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html id="splendid" lang="en-US" class="no-js">
 	{% include head.html %}
-	<body id="book-review" data-book="{{ page.book.title }}">
+	<body id="book-review" data-book="{{ page.book.title }}"{% if page.featured_image.src != '' %} class="has-featured-image"{% endif %}>
 		<script type="application/ld+json" class="splendid-schema-graph">
 			{
 				"@context": "https://schema.org/",
