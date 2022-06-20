@@ -263,7 +263,7 @@ header .splendid-logo a {
 	max-width: 100%;
 	height: auto;
 	max-height: 12vh;
-	border-radius: 50px;
+	border-radius: 50%;
 }
 
 header .splendid-logo a, .nav-link {

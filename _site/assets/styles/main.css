@@ -263,7 +263,7 @@ header .splendid-logo a {
 	max-width: 100%;
 	height: auto;
 	max-height: 12vh;
-	border-radius: 50px;
+	border-radius: 50%;
 }
 
 header .splendid-logo a, .nav-link {
@@ -287,7 +287,8 @@ header .splendid-logo a, .nav-link {
 
 #nav-container nav {
 	font-size: calc(1.15rem + (2 - 1.15) * ((100vw - 300px) / 600));
-	overflow: scroll;
+	overflow-x: hidden;
+	overflow-y: scroll;
 	-webkit-transition: all 0.2s ease-in-out;
 	-o-transition: all 0.2s ease-in-out;
 	-moz-transition: all 0.2s ease-in-out;

@@ -10,13 +10,15 @@
 		<!-- Main Menu : START -->
 		<nav id="main-menu" class="hide w-full">
 			<ul itemscope itemtype="https://schema.org/SiteNavigationElement" role="menu" aria-label="Main" class="navbar-nav w-full">
-				{% for page in site.pages %}
-					{% if page.title and page.hide != true %}
-						<li itemprop="name" role="menuitem" class="menu-item">
-							<a class="nav-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
-						</li>
-					{% endif %}
-				{% endfor %}
+				<li itemprop="name" role="menuitem" class="menu-item">
+					<a class="nav-link" href="/about/">About</a>
+				</li>
+				<li itemprop="name" role="menuitem" class="menu-item">
+					<a class="nav-link" href="/faith/">Faith Blog</a>
+				</li>
+				<li itemprop="name" role="menuitem" class="menu-item">
+					<a class="nav-link" href="/martech/">MarTech Blog</a>
+				</li>
 			</ul>
 		</nav>
 		<!-- Main Menu : END -->
