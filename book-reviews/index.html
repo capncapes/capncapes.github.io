@@ -1,0 +1,53 @@
+---
+layout: category
+title: Book Reviews
+description: Read my reviews of books I've read.
+category: Book Reviews
+---
+
+<!-- Blog Section : START -->
+<main class="blog pt-24 pb-16 px-10">
+	<header class="w-full max-w-4">
+		<h1>{{ page.title }}</h1>
+		<p class="p-0">As I finish books on my <a href="https://www.goodreads.com/review/list/146252565?shelf=to-read" target="_blank">reading list</a>, you can find my reviews of them here.</p>
+	</header>
+
+	<!-- Books Gallery : START -->
+	<div class="books-gallery mt-16 lg:mt-24">
+
+		{% for post in site.book_reviews %}
+		<article itemscope itemtype="https://schema.org/Book" class="splendid-flex flex-col justify-between" style="grid-auto-rows:1fr;">
+			<div class="overflow-hidden rounded shadow" data-item="book-cover">
+				<a href="{{ post.url }}">
+					{% if post.featured_image.src != '' %}
+						<img class="rounded shadow" src="{{ site.url }}/assets/img/books/{{ post.featured_image.src }}" title="{{ post.book.title }}" alt="{{ post.featured_image.alt }}">
+					{% else %}
+						<div class="placeholder relative w-full h-0 bg-sand rounded shadow" data-content="&ldquo;{{ post.book.title }}&rdquo; by {{ post.book.author }}"></div>
+					{% endif %}
+				</a>
+			</div>
+			<div class="info splendid-flex p-0 flex-col justify-end items-start flex-nowrap rounded" data-item="book-title">
+				<a href="{{ post.url }}" title="{{ post.title }}">
+					<h4 itemprop="name" class="title w-90 mt-3 mb-1 mx-auto p-0 text-base normal text-black">{{ post.title }}</h4>
+				</a>
+				<div class="splendid-flex w-90 mb-2 mx-auto p-0 flex-row justify-between flex-nowrap">
+					<time itemprop="datePublished" datetime="{{ post.date | date: '%Y-%m-%dT%H:%M:%S-05:00' }}" class="p-0 text-xs normal">{{ post.date | date: "%b %d, %Y" }}</time>
+				</div>
+			</div>
+		</article>
+		{% endfor %}
+
+	</div>
+	<!-- Books Gallery : END -->
+
+  {% if site.book_reviews > 12 %}
+  <!-- Page Navigation : BEGIN -->
+  <div role="navigation" aria-label="Posts page navigation" class="page-nav w-full max-w-1 mt-12 mx-auto">
+    <a href="/book-reviews/" class="splendid-button reverse dark grow-2" title="Previous page: 1" aria-label="Previous page">← Back</a>
+    <a href="/book-reviews/2/" class="splendid-button dark grow-3" title="Next page: 2" aria-label="Next page">Next →</a>
+  </div>
+  <!-- Page Navigation : END -->
+  {% endif %}
+
+</main>
+<!-- Blog Section : END -->

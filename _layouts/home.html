@@ -100,7 +100,7 @@
 							<div class="books-gallery">
 
 								{% for post in site.book_reviews %}
-								<article itemscope itemtype="https://schema.org/BlogPosting" class="splendid-flex flex-col justify-between" style="grid-auto-rows:1fr;">
+								<article itemscope itemtype="https://schema.org/Book" class="splendid-flex flex-col justify-between" style="grid-auto-rows:1fr;">
 									<div class="overflow-hidden rounded shadow" data-item="book-cover">
 										<a href="{{ post.url }}">
 											{% if post.featured_image.src != '' %}
