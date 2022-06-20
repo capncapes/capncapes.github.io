@@ -100,15 +100,17 @@
 							<div class="books-gallery">
 
 								{% for post in site.book_reviews %}
-								<article itemscope itemtype="https://schema.org/BlogPosting" class="">
-									<a href="{{ post.url }}">
-										{% if post.featured_image.src != '' %}
-											<img class="rounded shadow" src="{{ site.url }}/assets/img/books/{{ post.featured_image.src }}" title="{{ post.book.title }}" alt="{{ post.featured_image.alt }}">
-										{% else %}
-											<div class="placeholder relative w-full h-0 bg-sand rounded shadow" data-content="&ldquo;{{ post.book.title }}&rdquo; by {{ post.book.author }}"></div>
-										{% endif %}
-									</a>
-									<div class="info splendid-flex p-0 flex-col justify-end items-end flex-nowrap rounded">
+								<article itemscope itemtype="https://schema.org/BlogPosting" class="splendid-flex flex-col justify-between" style="grid-auto-rows:1fr;">
+									<div class="overflow-hidden rounded shadow" data-item="book-cover">
+										<a href="{{ post.url }}">
+											{% if post.featured_image.src != '' %}
+												<img class="rounded shadow" src="{{ site.url }}/assets/img/books/{{ post.featured_image.src }}" title="{{ post.book.title }}" alt="{{ post.featured_image.alt }}">
+											{% else %}
+												<div class="placeholder relative w-full h-0 bg-sand rounded shadow" data-content="&ldquo;{{ post.book.title }}&rdquo; by {{ post.book.author }}"></div>
+											{% endif %}
+										</a>
+									</div>
+									<div class="info splendid-flex p-0 flex-col justify-end items-start flex-nowrap rounded" data-item="book-title">
 										<a href="{{ post.url }}" title="{{ post.title }}">
 											<h4 itemprop="name" class="title w-90 mt-3 mb-1 mx-auto p-0 text-base normal text-black">{{ post.title }}</h4>
 										</a>
