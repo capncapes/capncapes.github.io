@@ -1079,7 +1079,6 @@ img[src=""] { display: none !important; }
 #footer > * {
 	display: flex;
 	margin: 0 auto;
-	padding: 4rem 1.5rem 1rem;
 	width: calc(100% - 3rem);
 	max-width: 60rem;
 	row-gap: 1.5rem;

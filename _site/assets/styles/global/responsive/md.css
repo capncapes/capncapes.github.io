@@ -41,11 +41,7 @@ body *.md\:text-4xl { font-size: 3rem !important; }
 	3	Header
 ================================================================ */
 
-body > header {
-	padding-left: 2.5rem;
-	padding-right: 2.5rem;
-	overflow: hidden;
-}
+body > header { overflow: hidden; }
 
 @media only screen and (max-width:899px) {
 	#nav-container nav {
