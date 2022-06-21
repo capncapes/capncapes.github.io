@@ -45,6 +45,7 @@ TABLE OF CONTENTS
 	--splendid-stone: #EDEDE2;
 	--splendid-sand: #DEDECA;
 	--splendid-black: #121212;
+	--splendid-white: #F8F9FA;
 }
 
 /* ================================================================
@@ -140,7 +141,7 @@ body p a:hover, body p a:active, #post article .tags a, #book-review article .ta
 }
 
 .form-field.dropdown .select-items div:hover, .same-as-selected {
-	color: #FFFFFF;
+	color: #F8F9FA;
 	background-color: #2CA096;
 }
 
@@ -244,7 +245,7 @@ body address, body address * {
 
 #splendid-header {
 	height: 15vh;
-	background-color: #FFFFFF;
+	background-color: #F8F9FA;
 	z-index: 10100;
 }
 
@@ -363,7 +364,7 @@ b.tabs-section header p {
 /* Tabs Area */
 
 .tabs-section .tabs-container {
-	background-color: #FFFFFF;
+	background-color: #F8F9FA;
 }
 
 .tabs-container .tabs .tab, .tabs-container .tabs input[type=radio] {
@@ -440,7 +441,7 @@ b.tabs-section header p {
 	flex: 1 1 0;
 	font-size: 2.5rem;
 	line-height: 1.25;
-	background-color: #FFFFFF;
+	background-color: #F8F9FA;
 	overflow: hidden;
 	box-shadow: 0 5px 35px 0 rgb(0 0 0 / 15%);
 	user-select: none;
@@ -599,7 +600,7 @@ b.tabs-section header p {
 }
 
 body .card a, body .card a:hover, body .card a:active, body .card a:visited {
-	color: #FFFFFF;
+	color: #F8F9FA;
 }
 
 .card .info {
@@ -671,7 +672,7 @@ body .card a, body .card a:hover, body .card a:active, body .card a:visited {
 
 body[data-category="Book Reviews"] .books-gallery article a img::before,
 body[data-category="Book Reviews"] .books-gallery article a .placeholder::before {
-	background-color: #FFFFFF;
+	background-color: #F8F9FA;
 }
 
 .books-gallery article > div[data-item=book-cover] {
@@ -799,9 +800,9 @@ audio, canvas, embed, iframe, img, object, svg, video {
 }
 
 .splendid-button, .splendid-button.light {
-	color: #FFFFFF;
-	background-image: linear-gradient(90deg, #FFFFFF 50%, rgba(255,255,255,0) 0);
-	border-color: #FFFFFF;
+	color: #F8F9FA;
+	background-image: linear-gradient(90deg, #F8F9FA 50%, rgba(255,255,255,0) 0);
+	border-color: #F8F9FA;
 }
 
 .splendid-button.dark {
@@ -829,7 +830,7 @@ audio, canvas, embed, iframe, img, object, svg, video {
 }
 
 .splendid-button.dark:hover {
-	color: #FFFFFF;
+	color: #F8F9FA;
 }
 
 a.splendid-cta {
