@@ -26,10 +26,12 @@ I love this book for its delicate approach to the heart of Jesus, much like Chri
 >
 > <cite>Matthew 11:28–30, ESV</cite>
 
-In 23 rather short chapters, this book makes the case that Jesus loves us deeply, not in spite of our sin, but because of it. Ortlund invokes Romans 5:20 to remind the reader that God’s grace overwhelms our sin. “When we sin, the very heart of Christ is drawn out to us.”
+In 23 rather short chapters, this book makes the case that Jesus loves us deeply, not in spite of our sin, but because of it. Ortlund invokes Romans 5:20 to remind the reader that God’s grace overwhelms our sin. “When we sin, the very heart of Christ is drawn out to us.” Indeed, the compassion of Christ is the attribute most noted by His followers.
 
 > Not only are holiness and sinfulness mutually exclusive, but Christ, being perfectly holy, knows and feels the horror and weight of sin more deeply than any of us sinful ones could—just as the purer a man’s heart, the more horrified he is at the thought of his neighbors being robbed or abused.
 >
 > <cite>Dane Ortlund, Gentle and Lowly</cite>
 
-I thoroughly enjoyed this book; I even shared it with my wife and brother-in-law, and we gave a copy to my dad. *Gentle and Lowly* addresses what I think is a common misconception: that God is impatient with our sinful hearts and that Christ looks disapprovingly on us because of it. Rest assured, Christian, that the heart of Christ is drawn out to you more because of your sin, and He sides with you against your sin. What a wonderful God we serve!
+I thoroughly enjoyed this book; I even shared it with my wife and brother-in-law, and we gave a copy to my dad. This is a great book to re-read every year for a warm reminder of God's love for us, even when it's difficult to love ourselves. It's all there in the Scriptures, but Dane Ortlund does an excellent job of pulling out these pearls of truth from the depths of Gospel narratives and New Testament theological treatises.
+
+*Gentle and Lowly* addresses what I think is a common misconception: that God is impatient with our sinful hearts and that Christ looks disapprovingly on us because of it. Rest assured, Christian, that the heart of Christ is drawn out to you more because of your sin, and He sides with you against your sin. What a wonderful God we serve!
