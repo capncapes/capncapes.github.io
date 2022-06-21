@@ -22,7 +22,7 @@ category: Book Reviews
 					{% if post.featured_image.src != '' %}
 						<img class="rounded shadow" src="{{ site.url }}/assets/img/books/{{ post.featured_image.src }}" title="{{ post.book.title }}" alt="{{ post.featured_image.alt }}">
 					{% else %}
-						<div class="placeholder relative w-full h-0 bg-sand rounded shadow" data-content="&ldquo;{{ post.book.title }}&rdquo; by {{ post.book.author }}"></div>
+						<div class="placeholder relative w-full h-0 bg-white rounded shadow" data-content="&ldquo;{{ post.book.title }}&rdquo; by {{ post.book.author }}"></div>
 					{% endif %}
 				</a>
 			</div>
@@ -30,7 +30,7 @@ category: Book Reviews
 				<a href="{{ post.url }}" title="{{ post.title }}">
 					<h4 itemprop="name" class="title w-90 mt-3 mb-1 mx-auto p-0 text-base normal text-black">{{ post.title }}</h4>
 				</a>
-				<div class="splendid-flex w-90 mb-2 mx-auto p-0 flex-row justify-between flex-nowrap">
+				<div class="splendid-flex mb-2 p-0 flex-row justify-between flex-nowrap">
 					<time itemprop="datePublished" datetime="{{ post.date | date: '%Y-%m-%dT%H:%M:%S-05:00' }}" class="p-0 text-xs normal">{{ post.date | date: "%b %d, %Y" }}</time>
 				</div>
 			</div>

@@ -637,15 +637,41 @@ body .card a, body .card a:hover, body .card a:active, body .card a:visited {
 	line-height: 125%;
 }
 
+.books-gallery article a img {
+	font-size: 0.9rem;
+	line-height: 3;
+}
+
 .books-gallery article a img::before {
 	content: attr(alt);
 	position: absolute;
 	inset: 0;
 	padding: 5% 10%;
 	font-size: 0.85rem;
+	line-height: 2;
 	color: #121212;
 	background-color: #DEDECA;
 	border-radius: 4px;
+}
+
+.books-gallery article a .placeholder {
+	height: 0;
+	padding-top: calc(100% * (3 / 2));
+}
+
+.books-gallery article a .placeholder::before {
+	content: attr(data-content);
+	position: absolute;
+	inset: 5% 10%;
+	font-size: 0.85rem;
+	line-height: 2;
+	color: #121212;
+	background-color: #DEDECA;
+}
+
+body[data-category="Book Reviews"] .books-gallery article a img::before,
+body[data-category="Book Reviews"] .books-gallery article a .placeholder::before {
+	background-color: #FFFFFF;
 }
 
 .books-gallery article > div[data-item=book-cover] {
@@ -659,24 +685,12 @@ body .card a, body .card a:hover, body .card a:active, body .card a:visited {
 
 .books-gallery article .info .title {
 	display: -webkit-box;
+	width: 100%;
 	overflow: hidden;
 	text-overflow: ellipsis;
 	-webkit-line-clamp: 2;
 	line-clamp: 2; 
 	-webkit-box-orient: vertical;
-}
-
-.books-gallery article a .placeholder {
-	height: 0;
-	padding-top: calc(100% * (3 / 2));
-}
-
-.books-gallery article a .placeholder::before {
-	content: attr(data-content);
-	position: absolute;
-	inset: 5% 10%;
-	font-size: 0.85rem;
-	color: #121212;
 }
 
 /* ================================================================
