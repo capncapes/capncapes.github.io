@@ -37,25 +37,31 @@
 			}
 		</script>
 		{% include header.html %}
-		<main class="md:pt-16 lg:pt-24 pb-16 md:px-10">
+		<main class="lg:pt-24 pb-16 px-7 md:px-10">
 
 			<!-- Book Review : BEGIN -->
 			<article>
-				<div class="card splendid-flex relative w-full max-w-5 mx-auto justify-between bg-blue md:rounded shadow">
-					<header class="lg:w-half max-w-4 p-7 md:px-12 md:pt-20 md:pb-24 lg:py-12 lg:px-20 text-white">
+				<div class="card splendid-flex relative w-full max-w-5 mx-auto justify-between bg-blue lg:rounded shadow">
+					<header class="lg:w-half max-w-4 p-7 sm:px-14 md:px-20 md:pt-20 md:pb-24 lg:py-12 lg:px-20 text-white">
 						<div class="label mb-4 font-bold text-xs uppercase opacity-50">Book Review</div>
 						<h1 class="mb-6 mx-auto p-0 sm:text-xl md:text-2xl lg:text-3xl font-bold italic">{{ page.book.title }}</h1>
 						<div class="meta splendid-flex mb-0 mx-auto p-0 flex-row justify-start flex-wrap">
 							<div class="author text-sm md:text-base">by {{ page.book.author }}</div>
 						</div>
 					</header>
-					<img class="absolute rounded shadow" src="{{ site.url }}/assets/img/books/{{ page.featured_image.src }}" alt="{{ page.featured_image.alt }}">
+					{% if page.featured_image.src != '' %}
+						<img class="absolute rounded shadow" src="{{ site.url }}/assets/img/books/{{ page.featured_image.src }}" alt="{{ page.featured_image.alt }}">
+					{% endif %}
 				</div>
-				{% if page.date %}
-					<time datetime="{{ page.date | date: '%Y-%m-%dT%H:%M:%S-05:00' }}" class="block w-50 md:w-40 lg:w-full max-w-4 m-0 lg:mx-auto pt-12 px-7 md:px-12 text-sm normal">{{ page.date | date: "%B %d, %Y" }}</time>
-				{% endif %}
-				{% if page.tags %}
-					{% include tags.html %}
+				{% if page.date or page.tags %}
+					<div class="relative mb-20 lg:pt-10 pb-10 px-7 md:px-12 border-b-1 border-b-solid border-sand">
+					{% if page.date %}
+						<time datetime="{{ page.date | date: '%Y-%m-%dT%H:%M:%S-05:00' }}" class="block w-full max-w-4 m-0 lg:mx-auto pt-4 text-sm normal">{{ page.date | date: "%B %d, %Y" }}</time>
+					{% endif %}
+					{% if page.tags %}
+						{% include tags.html %}
+					{% endif %}
+					</div>
 				{% endif %}
 				{{ content }}
 			</article>

@@ -14,15 +14,19 @@
 					</header>
 					{% if page.featured_image.src != '' %}
 						<picture class="absolute">
-							<img class="w-full h-full object-cover rounded shadow" src="{{ site.url }}/assets/img/{{ page.featured_image.src }}" alt="{{ page.featured_image.alt }}">
+							<img class="w-full h-full object-cover rounded shadow" src="{{ site.url }}/assets/img/{{ page.category | downcase }}/{{ page.featured_image.src }}" alt="{{ page.featured_image.alt }}">
 						</picture>
 					{% endif %}
 				</div>
-				{% if page.date %}
-					<time datetime="{{ page.date | date: '%Y-%m-%dT%H:%M:%S-05:00' }}" class="block max-w-4 mx-auto pt-12 md:px-12 text-base normal">{{ page.date | date: "%B %d, %Y" }}</time>
-				{% endif %}
-				{% if page.tags or page.bible_books %}
-					{% include tags.html %}
+				{% if page.date or page.tags or page.bible_books %}
+				<div class="relative mb-20 lg:pt-10 pb-10 px-7 md:px-12 border-b-1 border-b-solid border-sand">
+					{% if page.date %}
+						<time datetime="{{ page.date | date: '%Y-%m-%dT%H:%M:%S-05:00' }}" class="block max-w-4 mx-auto pt-12 text-sm normal">{{ page.date | date: "%B %d, %Y" }}</time>
+					{% endif %}
+					{% if page.tags or page.bible_books %}
+						{% include tags.html %}
+					{% endif %}
+				</div>
 				{% endif %}
 				{{ content }}
 			</article>

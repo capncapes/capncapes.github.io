@@ -5,7 +5,7 @@ TABLE OF CONTENTS
 	5	Tabs Section
 	10	Single Post
 	12	Gallery Layouts
-	14	Content Layouts
+	19	Utilities
 	21	Responsive
 			21.1	Display / Position / Overflow
 			21.2	Width
@@ -147,7 +147,13 @@ main > *, main .cards-gallery {
 }
 
 /* ================================================================
-	21	Responsive ====================================================
+	19	Utilities
+================================================================ */
+
+.lg\:rounded, img.lg\:rounded, img.lg\:rounded * { border-radius: 4px !important; }
+
+/* ================================================================
+	21	Responsive
 ================================================================ */
 
 /* ================================================================

@@ -74,6 +74,7 @@ section .splendid-cta { color: #F05454 !important; text-decoration: none !import
 .bg-sand { background-color: #DEDECA; }
 .bg-black { background-color: #121212; }
 .bg-white { background-color: #F8F9FA; }
+.bg-transparent { background-color: transparent; }
 
 /* Typography */
 
@@ -120,18 +121,6 @@ body p a:hover, body p a:active, #post article .tags a, #book-review article .ta
 	color: #121212;
 	border-color: #121212;
 }
-
-/* Border Colors */
-
-.border-red { border-color: #F05454; }
-.border-green { border-color: #2CA096; }
-.border-blue { border-color: #30475E; }
-.border-yellow { border-color: #F9D423; }
-.border-orange { border-color: #F77825; }
-.border-stone { border-color: #EDEDE2; }
-.border-sand { border-color: #DEDECA; }
-.border-black { border-color: #121212; }
-.border-white { border-color: #F8F9FA; }
 
 /* Forms */
 
@@ -491,8 +480,17 @@ b.tabs-section header p {
 	10	Single Post
 ================================================================ */
 
-#post article {
+#post article, #book-review article {
 	max-width: 80rem;
+}
+
+#book-review article .card {
+	background: linear-gradient(110deg, #30475E 40%, rgba(48, 71, 94, 0.8)), url(/assets/img/books.jpeg);
+	background-clip: border-box;
+	background-origin: border-box;
+	background-position: center 70%;
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
 #post article .meta {
@@ -503,6 +501,11 @@ b.tabs-section header p {
 #book-review article header > .label {
 	line-height: 1;
 	letter-spacing: 0.15rem;
+}
+
+#post article .card + *,
+#book-review article .card + * {
+	margin-top: 17rem;
 }
 
 #post article .tags,
@@ -1050,11 +1053,73 @@ img[src=""] { display: none !important; }
 .border-3 { border-width: 0.75rem; }
 .border-4 { border-width: 1rem; }
 
+.border-t-0 { border-top-width: 0; }
+.border-t { border-top-width: 1px; }
+.border-t-1 { border-top-width: 0.25rem; }
+.border-t-2 { border-top-width: 0.5rem; }
+.border-t-3 { border-top-width: 0.75rem; }
+.border-t-4 { border-top-width: 1rem; }
+
+.border-b-0 { border-bottom-width: 0; }
+.border-b { border-bottom-width: 1px; }
+.border-b-1 { border-bottom-width: 0.25rem; }
+.border-b-2 { border-bottom-width: 0.5rem; }
+.border-b-3 { border-bottom-width: 0.75rem; }
+.border-b-4 { border-bottom-width: 1rem; }
+
+.border-l-0 { border-left-width: 0; }
+.border-l { border-left-width: 1px; }
+.border-l-1 { border-left-width: 0.25rem; }
+.border-l-2 { border-left-width: 0.5rem; }
+.border-l-3 { border-left-width: 0.75rem; }
+.border-l-4 { border-left-width: 1rem; }
+
+.border-r-0 { border-right-width: 0; }
+.border-r { border-right-width: 1px; }
+.border-r-1 { border-right-width: 0.25rem; }
+.border-r-2 { border-right-width: 0.5rem; }
+.border-r-3 { border-right-width: 0.75rem; }
+.border-r-4 { border-right-width: 1rem; }
+
 .border-none { border-style: none; }
 .border-solid { border-style: solid; }
 .border-dashed { border-style: dashed; }
 .border-dotted { border-style: dotted; }
 .border-double { border-style: double; }
+
+.border-t-none { border-top-style: none; }
+.border-t-solid { border-top-style: solid; }
+.border-t-dashed { border-top-style: dashed; }
+.border-t-dotted { border-top-style: dotted; }
+.border-t-double { border-top-style: double; }
+
+.border-b-none { border-bottom-style: none; }
+.border-b-solid { border-bottom-style: solid; }
+.border-b-dashed { border-bottom-style: dashed; }
+.border-b-dotted { border-bottom-style: dotted; }
+.border-b-double { border-bottom-style: double; }
+
+.border-l-none { border-left-style: none; }
+.border-l-solid { border-left-style: solid; }
+.border-l-dashed { border-left-style: dashed; }
+.border-l-dotted { border-left-style: dotted; }
+.border-l-double { border-left-style: double; }
+
+.border-r-none { border-right-style: none; }
+.border-r-solid { border-right-style: solid; }
+.border-r-dashed { border-right-style: dashed; }
+.border-r-dotted { border-right-style: dotted; }
+.border-r-double { border-right-style: double; }
+
+.border-red { border-color: #F05454; }
+.border-green { border-color: #2CA096; }
+.border-blue { border-color: #30475E; }
+.border-yellow { border-color: #F9D423; }
+.border-orange { border-color: #F77825; }
+.border-stone { border-color: #EDEDE2; }
+.border-sand { border-color: #DEDECA; }
+.border-black { border-color: #121212; }
+.border-white { border-color: #F8F9FA; }
 
 .z-0 { z-index: 0; }
 .z-10 { z-index: 10; }

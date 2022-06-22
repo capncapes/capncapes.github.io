@@ -180,7 +180,8 @@ body > header { overflow: scroll; }
 	10	Single Post
 ================================================================ */
 
-#post article .card {
+#post article .card,
+#book-review article .card {
 	margin: 0 -2.5rem;
 	width: calc(100% + 5rem);
 	flex-direction: column;
@@ -197,10 +198,6 @@ body > header { overflow: scroll; }
 	transform: translate(0, -3rem);
 }
 
-#post.has-featured-image article .tags {
-	margin-top: 16rem;
-}
-
 #post article > ol, #post article > ul {
 	padding-left: 3rem;
 	padding-right: 3rem;
@@ -214,9 +211,9 @@ body > header { overflow: scroll; }
 }
 
 #book-review article header + img.absolute {
-	height: 100%;
-	max-height: 100%;
-	inset: 85% 0 -19rem 19rem;
+	max-width: 50%;
+	max-height: 17rem;
+	inset: 90% -50% 0 -50%;
 }
 
 /* ================================================================
@@ -238,7 +235,9 @@ body > header { overflow: scroll; }
 
 .cards-gallery > *:nth-child(1) {
 	-ms-grid-row: 1;
+	grid-row: 1;
 	-ms-grid-column: 1;
+	grid-column: 1;
 }
 
 .cards-gallery > .featured {
