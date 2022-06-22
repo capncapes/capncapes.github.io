@@ -21,6 +21,12 @@ body *.xl\:text-4xl { font-size: 3rem !important; }
 	10	Single Post
 ================================================================ */
 
+#post article .card,
+#book-review article .card {
+	margin: unset;
+	width: unset;
+}
+
 #post article .card {
 	flex-direction: row;
 }
