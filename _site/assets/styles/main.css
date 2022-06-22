@@ -514,8 +514,9 @@ b.tabs-section header p {
 	gap: 1rem;
 }
 
-#post article h2, #post article h3, #post article h4, #post article h5, #post article h6, #post article > p, #post article > ol, #post article > ul, #post article > table, #post article figure,
-#book-review article h2, #book-review article h3, #book-review article h4, #book-review article h5, #book-review article h6, #book-review article > p, #book-review article > ol, #book-review article > ul, #book-review article > table, #book-review article figure {
+#splendid main h2, #splendid main h3, #splendid main h4, #splendid main h5, #splendid main h6, #splendid main p, #splendid main ol, #splendid main ul, #splendid main table, #splendid main figure {
+	margin-top: 1.25rem;
+	margin-bottom: 1.25rem;
 	margin-left: auto;
 	margin-right: auto;
 	max-width: 60rem;
