@@ -11,6 +11,7 @@ category: Faith
 bible_books: Jeremiah
 tags: ["relationships"]
 featured: false
+published: false
 ---
 
 In his book, *Marriage: 6 Gospel Commitments Every Couple Needs to Make*, Paul David Tripp compares marriage to a garden, which needs constant care to blossom, lest weeds spring up from inattention or flowers wither and die. I’ll go a step further to say that every relationship you have is its own garden, including your relationship with Jesus.

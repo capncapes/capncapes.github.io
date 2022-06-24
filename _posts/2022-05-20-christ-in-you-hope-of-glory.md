@@ -11,6 +11,7 @@ category: Faith
 bible_books: Colossians
 tags: ["Christ", "Paul's letters"]
 featured: false
+published: false
 ---
 
 Is there a Christian teacher whom you greatly respect but have never met? How would it feel to receive a personal letter from that person commending you for your faith and revealing their prayers for you? That is how the church in Colossae must have felt to receive a letter from the apostle Paul. By the time he wrote Colossians, Paul was well-known in the growing Christian movement, and Colossae was a small city with little influence.

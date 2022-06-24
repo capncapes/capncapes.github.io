@@ -11,6 +11,7 @@ category: Faith
 bible_books: ["Genesis", "Revelation"]
 tags: ["creation", "eschatology", "restoration"]
 featured: false
+published: false
 ---
 
 "The story that has creation for its first word, has creation for its last word."

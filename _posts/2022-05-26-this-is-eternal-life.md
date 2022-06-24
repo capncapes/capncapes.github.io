@@ -12,6 +12,7 @@ category: Faith
 bible_books: "John"
 tags: ["eternal life", "eschatology", "gospels"]
 featured: false
+published: true
 ---
 
 "Is this real life?" [David After Dentist](https://youtu.be/txqiwrbYGrs) is a hilarious viral video of a 7-year old boy fresh out of a dental procedure who is clearly still feeling the effects of nitrous oxide, or laughing gas. David's father assures him that, yes, this is real life. But for Christians, this is also eternal life. We're living in it now.

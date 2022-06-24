@@ -11,6 +11,7 @@ category: Faith
 bible_books: "John"
 tags: ["Christ", "gospels"]
 featured: true
+published: false
 ---
 
 The prologue of John's gospel is quite possibly the most beautifully profound passage of Scripture in the whole Bible&mdash;in both form and content. Gary M. Burge even asserts that John's prologue, originally sung as a hymn, was worn around the neck to prevent sickness, and recited to the sick and newly baptized.

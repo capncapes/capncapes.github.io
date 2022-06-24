@@ -11,9 +11,10 @@ book: {
 }
 description: ""
 featured_image: {
-  src: "img.jpg",
+  src: "is-christmas-unbelievable.jpg",
   title: "Is Christmas Unbelievable?, by Rebecca McLaughlin",
   alt: "Is Christmas Unbelievable?: Four Questions Everyone Should Ask About the World's Most Famous Story"
 }
 tags: "Christian"
+published: false
 ---

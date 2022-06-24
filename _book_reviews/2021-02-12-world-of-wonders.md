@@ -16,6 +16,7 @@ featured_image: {
   alt: "World of Wonders: In Praise of Fireflies, Whale Sharks, and Other Astonishments"
 }
 tags: ["memoir", "nature"]
+published: false
 ---
 
 Aimee Nezhukumatathil's book is a joy to read. *World of Wonders* imaginatively tells the stories of the natural world—animals, plants, insects, weather—through anecdotes from the author's fascinating life.

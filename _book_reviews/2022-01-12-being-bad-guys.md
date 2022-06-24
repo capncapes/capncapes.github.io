@@ -11,11 +11,12 @@ book: {
 }
 description: "This book explains the timeless, uncompromising movement of God’s people showing God’s love and sharing God’s good news to God’s creation."
 featured_image: {
-  src: "",
+  src: "being-the-bad-guys.jpeg",
   title: "Being the Bad Guys, by Stephen McAlpine",
   alt: "Being the Bad Guys: How to Live for Jesus in a World That Says You Shouldn’t"
 }
 tags: "Christian"
+published: false
 ---
 
 I have to admit, *Being the Bad Guys* initially rubbed me the wrong way. McAlpine introduces the book as a sort of guide to understanding and applying the dichotomy of being “the best bad guys we can be” as Christians. It seemed like stubbornly leaning into our role as an exclusive, judgmental cult was an appropriate response to society’s criticisms of the Christian faith. But the more I read, the more Christianity was presented in its biblically intended form: the timeless, uncompromising movement of God’s people showing God’s love and sharing God’s good news to God’s creation.
