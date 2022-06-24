@@ -16,6 +16,7 @@ featured_image: {
   alt: "Hinds' Feet on High Places, by Hannah Hurnard"
 }
 tags: ["fiction", "Christian", "allegory"]
+published: true
 ---
 
 I’m not usually a fan of fiction, even allegory, but *Hinds’ Feet on High Places* was recommended to my wife, who gave it to me. I’m glad for the exception.

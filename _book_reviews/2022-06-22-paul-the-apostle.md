@@ -16,4 +16,5 @@ featured_image: {
   alt: "Paul the Apostle, by Robert E. Picirilli"
 }
 tags: ["Christian", "history", "biblical studies"]
+published: false
 ---

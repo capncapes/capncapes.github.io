@@ -16,6 +16,7 @@ featured_image: {
   alt: "Gentle and Lowly: The Heart of Christ for Sinners and Sufferers"
 }
 tags: "Christian"
+published: true
 ---
 
 I love this book for its delicate approach to the heart of Jesus, much like Christ’s own tenderness when interacting with the lowly and cast off in society. In *Gentle and Lowly*, Dane Ortlund draws from Scripture and the saints before him—many of them Puritans—to craft a careful picture of Jesus Christ as the One to turn to when mired in sin and suffering hardships.

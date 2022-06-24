@@ -16,6 +16,7 @@ featured_image: {
   alt: "The Concise History of the Crusades: Third Student Edition"
 }
 tags: ["history", "Christian"]
+published: true
 ---
 
 In the preface to the third student edition of his book, Thomas F. Madden describes its purpose: <q>to tell the story of the crusades in a concise, understandable, and engaging manner.</q> I think he accomplished this splendidly. The book is not too short, nor does it cover nearly every detail. My goal before reading this book was to learn more than I previously did about the crusades, which was next to nothing. The structure of the book and Madden’s writing are well-suited to the stated purpose. I recommend this book for anyone without a history degree or any level of scholarship in the subject of the crusades, but who wants to have a thorough and practical understanding of these religious wars.

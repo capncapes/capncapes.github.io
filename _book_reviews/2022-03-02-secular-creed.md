@@ -16,4 +16,5 @@ featured_image: {
   alt: "The Secular Creed: Engaging Five Contemporary Claims"
 }
 tags: "Christian"
+published: false
 ---
