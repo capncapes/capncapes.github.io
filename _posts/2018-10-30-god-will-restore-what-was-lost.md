@@ -3,15 +3,17 @@ layout: post
 title: "God will restore what was lost"
 date: 2018-10-30 05:45:47 -0400
 featured_image: {
-  src: "",
+  src: "god-will-restore-what-was-lost.jpeg",
   title: "God will restore what was lost",
-  alt: ""
+  alt: "A man kneeling on the beach to pray"
 }
 description: "“I will restore to you the years that the swarming locust has eaten…”"
+canonical: "https://mercymultiplied.com/god-will-restore-what-was-lost/"
 category: Faith
 bible_books: ["Deuteronomy", "Joel"]
 tags: ["restoration"]
 featured: false
+published: true
 ---
 
 <p class="note">The original article, published on October 9, 2018, can be found at the <a href="https://mercymultiplied.com/god-will-restore-what-was-lost/" target="_blank">Mercy Multiplied blog</a>.</p>

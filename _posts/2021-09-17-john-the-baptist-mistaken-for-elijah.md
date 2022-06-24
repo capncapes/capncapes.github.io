@@ -3,15 +3,16 @@ layout: post
 title: "Why was John the Baptist mistaken for Elijah?"
 date: 2021-09-17 01:11:10 -0400
 featured_image: {
-  src: "",
+  src: "john-the-baptist-elijah-the-tishbite.jpeg",
   title: "Why was John the Baptist mistaken for Elijah?",
-  alt: ""
+  alt: "John the Baptist preaches to a crowd"
 }
 description: "The life of John the Baptist is a great example of what God can accomplish through someone who embraces his or her calling."
 category: Faith
 bible_books: ["2 Kings", "Isaiah", "Malachi", "Matthew", "John"]
 tags: ["Elijah", "John the Baptist"]
 featured: false
+published: true
 ---
 
 Do you ever wonder about John the Baptist? Why did he dress in camel's hair? What made him decide to live in the wilderness? Why was he mistaken for the prophet Elijah? The gospels make it clear that John was the appointed messenger to prepare the way for Jesus Christ. But why was his life so strange? It turns out, he was simply committing to his God-given mission, and he didn't want anyone to miss the Messiah when he arrived.
