@@ -954,6 +954,14 @@ blockquote cite::before {
 	18	Code Blocks
 ================================================================ */
 
+body p > code {
+	padding: 1px 3px;
+	color: #121212;
+	background-color: #DEDECA;
+	font-weight: bold;
+	border-radius: 4px;
+}
+
 #splendid figure {
 	margin-top: 3rem;
 	margin-bottom: 3rem;
