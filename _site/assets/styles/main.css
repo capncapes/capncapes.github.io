@@ -284,7 +284,7 @@ header .branding svg #logomark {
 }
 
 header .branding:hover svg #logomark {
-	stroke: #F05454;
+	stroke: #30475E;
 }
 
 header .branding div {
@@ -297,7 +297,7 @@ header .branding div {
 }
 
 header .branding:hover div {
-	color: #F05454;
+	color: #30475E;
 }
 
 #nav-container {
