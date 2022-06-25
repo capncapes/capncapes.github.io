@@ -1,8 +1,9 @@
 <header id="splendid-header" itemscope itemtype="https://schema.org/WPHeader" class="splendid-flex sticky py-0 px-10 flex-col justify-center items-center shadow">
 	<div id="nav-container" class="container">
 		<div itemscope itemtype="https://schema.org/Brand" class="splendid-logo">
-			<a class="branding splendid-flex" href="{{ site.baseurl }}/" title="{{ site.meta.title }}" rel="home">
-				<img src="{{ site.logo }}" itemprop="logo" class="logo">
+			<a class="branding splendid-flex flex-row items-center" href="{{ site.baseurl }}/" title="{{ site.meta.title }}" rel="home">
+				{% include logomark.html %}
+				<div class="ml-4 text-3xl font-bold uppercase">BC</div>
 			</a>
 		</div>
 		<div class="menu-icon bars closed" type="button" aria-controls="main-menu secondary-menu" aria-expanded="false" aria-label="Toggle navigation"></div>

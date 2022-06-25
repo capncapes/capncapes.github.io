@@ -1,0 +1,55 @@
+/* ANIMATIONS */
+
+@-webkit-keyframes draw {
+	from {
+		stroke-dashoffset: 100;
+	}
+	to {
+		stroke-dashoffset: 0;
+	}
+}
+
+@keyframes draw {
+	from {
+		stroke-dashoffset: 100;
+	}
+	to {
+		stroke-dashoffset: 0;
+	}
+}
+
+@-webkit-keyframes appear {
+	0% {
+		-webkit-transform: translateY(-0.5rem);
+		transform: translateY(-0.5rem);
+		opacity: 0;
+	}
+	50% {
+		-webkit-transform: translateY(-0.25rem);
+		transform: translateY(-0.25rem);
+		opacity: 0.2;
+	}
+	100% {
+		-webkit-transform: translateY(0);
+		transform: translateY(0);
+		opacity: 1;
+	}
+}
+
+@keyframes appear {
+	0% {
+		-webkit-transform: translateY(-0.5rem);
+		transform: translateY(-0.5rem);
+		opacity: 0;
+	}
+	50% {
+		-webkit-transform: translateY(-0.25rem);
+		transform: translateY(-0.25rem);
+		opacity: 0.2;
+	}
+	100% {
+		-webkit-transform: translateY(0);
+		transform: translateY(0);
+		opacity: 1;
+	}
+}
