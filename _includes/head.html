@@ -10,12 +10,12 @@
 	<meta property="og:url" content="{{ page.url | replace: '/index.html','/' | prepend: site.baseurl | prepend: site.url }}">
 	<meta property="og:type" content="{% if page.date %}article{% else %}website{% endif %}">
 	<meta property="og:title" content="{% if page.title %}{{ page.title | smartify | strip_html | strip_newlines | escape_once }}{% else %}{{ site.name }}{% endif %}">
-	<meta property="og:image" content="{% if page.social-share %}{{ page.url | prepend: site.baseurl | prepend: site.url }}{{ page.social-share }}{% else %}img/brandon_caples.jpg{% endif %}">
+	<meta property="og:image" content="{{ site.url }}/assets/img/{% if page.featured_image %}{{ page.featured_image.src }}{% else %}{{ brandon_caples.jpg }}{% endif %}">
 	<meta property="og:description" content="{% if page.description %}{{page.description | strip_html | strip_newlines | truncate: 140 }}{% else %}{{ site.theme_settings.description }}{% endif %}">
 
 	<!-- CSS -->
 	<link rel="stylesheet" type="text/css" href="/assets/styles/global/layout.css" media="all">
-	<link rel="stylesheet" href="{{ "/assets/styles/main.css" | prepend: site.baseurl }}" media="all">
+	<link rel="stylesheet" type="text/css" href="/assets/styles/main.css" media="all">
 	<link rel="stylesheet" type="text/css" href="/assets/styles/global/responsive/sm.css" media="screen and (max-width: 599px)">
 	<link rel="stylesheet" type="text/css" href="/assets/styles/global/responsive/md.css" media="screen and (min-width: 600px)">
 	<link rel="stylesheet" type="text/css" href="/assets/styles/global/responsive/lg.css" media="screen and (min-width: 900px)">
