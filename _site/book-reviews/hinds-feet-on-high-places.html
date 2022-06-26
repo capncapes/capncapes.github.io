@@ -50,33 +50,46 @@
 		<script type="application/ld+json" class="splendid-schema-graph">
 			{
 				"@context": "https://schema.org/",
-				"@type": "Book",
-				
-					"isbn": "978-0-8423-1429-9",
-				
-				"name": "Hinds' Feet on High Places",
-				
-					"numberOfPages": "297",
-				
-				"author": "Hannah Hurnard",
-				"image": "http://localhost:4000/assets/img/books/hinds-feet-on-high-places.jpeg",
-				
-					"publisher": {
-						"@type": "Organization",
-						"name": "Tyndale House Publishers"
+				"@graph": [
+					{
+						"@type": "WebSite",
+						"@id": "http://localhost:4000#website",
+						"url": "http://localhost:4000",
+						"name": "Brandon Caples",
+						"description": "A great site.",
+						"publisher": {
+							"@id": "http://localhost:4000#/schema/person/3fbbe8e23fcabc3da5c9cbc102d346c9"
+						},
+						"inLanguage": "en-US"
 					},
-				
-				"inLanguage": "English",
-				"review": {
-					"@type": "Review",
-					"author": {
-						"@type": "Person",
-						"name": "Brandon Caples"
-					},
-					"name": "Hinds' Feet on High Places",
-					"datePublished": "2021-04-30",
-					"description": "This is a beautiful story of laying down one’s own will for the glory of God and being made new by Him.",
-					"reviewBody": "I’m not usually a fan of fiction, even allegory, but Hinds’ Feet on High Places was recommended to my wife, who gave it to me. I’m glad for the exception.
+					{
+						"@type": "Book",
+						
+							"isbn": "978-0-8423-1429-9",
+						
+						"name": "Hinds' Feet on High Places",
+						
+							"numberOfPages": "297",
+						
+						"author": "Hannah Hurnard",
+						"image": "http://localhost:4000/assets/img/books/hinds-feet-on-high-places.jpeg",
+						
+							"publisher": {
+								"@type": "Organization",
+								"name": "Tyndale House Publishers"
+							},
+						
+						"inLanguage": "English",
+						"review": {
+							"@type": "Review",
+							"author": {
+								"@type": "Person",
+								"name": "Brandon Caples"
+							},
+							"name": "Hinds' Feet on High Places",
+							"datePublished": "2021-04-30",
+							"description": "This is a beautiful story of laying down one’s own will for the glory of God and being made new by Him.",
+							"reviewBody": "I’m not usually a fan of fiction, even allegory, but Hinds’ Feet on High Places was recommended to my wife, who gave it to me. I’m glad for the exception.
 
 Written by Hannah Hurnard, the story follows Much-Afraid as she ventures to the High Places to be transformed and renamed by her loving Shepherd. Along the way, she encounters dangers, villains, and long detours, accompanied by two companions, Sorrow and Suffering. After receiving her hinds’ feet (Psalm 18:33, Habakkuk 3:19) and her new name (Revelation 3:12), she returns to her home in the valley to work in service of the Shepherd.
 
@@ -112,8 +125,37 @@ My favorite uses of Scripture throughout this book are songs that the characters
 
 I really enjoyed this book and recommend it to anyone who desires to understand Christ’s love for His church and the Christian’s journey toward maturity more deeply. It’s also a fun read!
 ",
-					"url": "/book-reviews/hinds-feet-on-high-places"
-				}
+							"url": "/book-reviews/hinds-feet-on-high-places"
+						}
+					},
+					{
+						"@type": [
+							"Person",
+							"Organization"
+						],
+						"@id": "http://localhost:4000#/schema/person/3fbbe8e23fcabc3da5c9cbc102d346c9",
+						"name": "Brandon Caples",
+						"image": {
+							"@type": "ImageObject",
+							"inLanguage": "en-US",
+							"@id": "http://localhost:4000#/schema/person/image/",
+							"url": "http://localhost:4000/assets/img/brandon_caples.jpg",
+							"contentUrl": "http://localhost:4000/assets/img/brandon_caples.jpg",
+							"width": 600,
+							"height": 600,
+							"caption": "Brandon Caples"
+						},
+						"logo": {
+							"@id": "http://localhost:4000#/schema/person/image/"
+						},
+						"description": "I live in Ooltewah, Tennessee with my wife, our son, and our goldendoodle.",
+						"sameAs": [
+							"bcaples",
+							"brandoncaples",
+							"https://twitter.com/caplesweb"
+						]
+					}
+				]
 			}
 		</script>
 		<header id="splendid-header" itemscope itemtype="https://schema.org/WPHeader" class="splendid-flex sticky py-0 px-10 flex-col justify-center items-center shadow">
@@ -183,7 +225,7 @@ I really enjoyed this book and recommend it to anyone who desires to understand 
 				
 					<div class="relative mb-20 lg:pt-10 pb-10 px-7 md:px-12 border-b-1 border-b-solid border-sand">
 					
-						<time datetime="2021-04-30T07:30:27-05:00" class="block w-full max-w-4 m-0 lg:mx-auto pt-4 text-sm normal">April 30, 2021</time>
+						<time datetime="2021-04-30T07:30:27-04:00" class="block w-full max-w-4 m-0 lg:mx-auto pt-4 text-sm normal">April 30, 2021</time>
 					
 					
 						

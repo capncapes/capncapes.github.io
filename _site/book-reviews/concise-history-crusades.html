@@ -50,33 +50,46 @@
 		<script type="application/ld+json" class="splendid-schema-graph">
 			{
 				"@context": "https://schema.org/",
-				"@type": "Book",
-				
-					"isbn": "978-1-4422-1574-0",
-				
-				"name": "The Concise History of the Crusades: Third Student Edition",
-				
-					"numberOfPages": "244",
-				
-				"author": "Thomas F. Madden",
-				"image": "http://localhost:4000/assets/img/books/concise-history-crusades.jpeg",
-				
-					"publisher": {
-						"@type": "Organization",
-						"name": "Rowman & Littlefield"
+				"@graph": [
+					{
+						"@type": "WebSite",
+						"@id": "http://localhost:4000#website",
+						"url": "http://localhost:4000",
+						"name": "Brandon Caples",
+						"description": "A great site.",
+						"publisher": {
+							"@id": "http://localhost:4000#/schema/person/3fbbe8e23fcabc3da5c9cbc102d346c9"
+						},
+						"inLanguage": "en-US"
 					},
-				
-				"inLanguage": "English",
-				"review": {
-					"@type": "Review",
-					"author": {
-						"@type": "Person",
-						"name": "Brandon Caples"
-					},
-					"name": "The Concise History of the Crusades Book Review",
-					"datePublished": "2022-03-31",
-					"description": "",
-					"reviewBody": "In the preface to the third student edition of his book, Thomas F. Madden describes its purpose: to tell the story of the crusades in a concise, understandable, and engaging manner. I think he accomplished this splendidly. The book is not too short, nor does it cover nearly every detail. My goal before reading this book was to learn more than I previously did about the crusades, which was next to nothing. The structure of the book and Madden’s writing are well-suited to the stated purpose. I recommend this book for anyone without a history degree or any level of scholarship in the subject of the crusades, but who wants to have a thorough and practical understanding of these religious wars.
+					{
+						"@type": "Book",
+						
+							"isbn": "978-1-4422-1574-0",
+						
+						"name": "The Concise History of the Crusades: Third Student Edition",
+						
+							"numberOfPages": "244",
+						
+						"author": "Thomas F. Madden",
+						"image": "http://localhost:4000/assets/img/books/concise-history-crusades.jpeg",
+						
+							"publisher": {
+								"@type": "Organization",
+								"name": "Rowman & Littlefield"
+							},
+						
+						"inLanguage": "English",
+						"review": {
+							"@type": "Review",
+							"author": {
+								"@type": "Person",
+								"name": "Brandon Caples"
+							},
+							"name": "The Concise History of the Crusades Book Review",
+							"datePublished": "2022-03-31",
+							"description": "",
+							"reviewBody": "In the preface to the third student edition of his book, Thomas F. Madden describes its purpose: to tell the story of the crusades in a concise, understandable, and engaging manner. I think he accomplished this splendidly. The book is not too short, nor does it cover nearly every detail. My goal before reading this book was to learn more than I previously did about the crusades, which was next to nothing. The structure of the book and Madden’s writing are well-suited to the stated purpose. I recommend this book for anyone without a history degree or any level of scholarship in the subject of the crusades, but who wants to have a thorough and practical understanding of these religious wars.
 
 To be honest, history books don’t tend to put me on the edge of my seat or excite my fascination. But I truly appreciate the journey that Madden took me on as I learned about the various crusades, the politics behind them, the heroes and villains of these holy wars, and plenty of other details in the book that don’t dive too deep for a casual reader like myself.
 
@@ -116,8 +129,37 @@ Conclusion
 
 As I’ve mentioned, this book was exactly what I was looking for: concise and descriptive, with enough story to make the history interesting to someone like me. I may never read another book about the crusades, but I’m certainly glad I read this one. I wholeheartedly recommend reading The Concise History of the Crusades if you want an abridged journey through the most prolific Christian conflicts of the past two thousand years.
 ",
-					"url": "/book-reviews/concise-history-crusades"
-				}
+							"url": "/book-reviews/concise-history-crusades"
+						}
+					},
+					{
+						"@type": [
+							"Person",
+							"Organization"
+						],
+						"@id": "http://localhost:4000#/schema/person/3fbbe8e23fcabc3da5c9cbc102d346c9",
+						"name": "Brandon Caples",
+						"image": {
+							"@type": "ImageObject",
+							"inLanguage": "en-US",
+							"@id": "http://localhost:4000#/schema/person/image/",
+							"url": "http://localhost:4000/assets/img/brandon_caples.jpg",
+							"contentUrl": "http://localhost:4000/assets/img/brandon_caples.jpg",
+							"width": 600,
+							"height": 600,
+							"caption": "Brandon Caples"
+						},
+						"logo": {
+							"@id": "http://localhost:4000#/schema/person/image/"
+						},
+						"description": "I live in Ooltewah, Tennessee with my wife, our son, and our goldendoodle.",
+						"sameAs": [
+							"bcaples",
+							"brandoncaples",
+							"https://twitter.com/caplesweb"
+						]
+					}
+				]
 			}
 		</script>
 		<header id="splendid-header" itemscope itemtype="https://schema.org/WPHeader" class="splendid-flex sticky py-0 px-10 flex-col justify-center items-center shadow">
@@ -187,7 +229,7 @@ As I’ve mentioned, this book was exactly what I was looking for: concise and d
 				
 					<div class="relative mb-20 lg:pt-10 pb-10 px-7 md:px-12 border-b-1 border-b-solid border-sand">
 					
-						<time datetime="2022-03-31T23:47:11-05:00" class="block w-full max-w-4 m-0 lg:mx-auto pt-4 text-sm normal">March 31, 2022</time>
+						<time datetime="2022-03-31T23:47:11-04:00" class="block w-full max-w-4 m-0 lg:mx-auto pt-4 text-sm normal">March 31, 2022</time>
 					
 					
 						

@@ -5,35 +5,77 @@
 		<script type="application/ld+json" class="splendid-schema-graph">
 			{
 				"@context": "https://schema.org/",
-				"@type": "Book",
-				{% if page.book.isbn %}
-					"isbn": "{{ page.book.isbn }}",
-				{% endif %}
-				"name": "{{ page.book.title }}",
-				{% if page.book.pages %}
-					"numberOfPages": "{{ page.book.pages }}",
-				{% endif %}
-				"author": "{{ page.book.author }}",
-				"image": "{{ site.url }}/assets/img/books/{{ page.featured_image.src }}",
-				{% if page.book.publisher %}
-					"publisher": {
-						"@type": "Organization",
-						"name": "{{ page.book.publisher }}"
+				"@graph": [
+					{
+						"@type": "WebSite",
+						"@id": "{{ site.url }}#website",
+						"url": "{{ site.url }}",
+						"name": "{{ site.meta.title }}",
+						"description": "{{ site.meta.description }}",
+						"publisher": {
+							"@id": "{{ site.url }}#/schema/person/3fbbe8e23fcabc3da5c9cbc102d346c9"
+						},
+						"inLanguage": "en-US"
 					},
-				{% endif %}
-				"inLanguage": "English",
-				"review": {
-					"@type": "Review",
-					"author": {
-						"@type": "Person",
-						"name": "Brandon Caples"
+					{
+						"@type": "Book",
+						{% if page.book.isbn %}
+							"isbn": "{{ page.book.isbn }}",
+						{% endif %}
+						"name": "{{ page.book.title }}",
+						{% if page.book.pages %}
+							"numberOfPages": "{{ page.book.pages }}",
+						{% endif %}
+						"author": "{{ page.book.author }}",
+						"image": "{{ site.url }}/assets/img/books/{{ page.featured_image.src }}",
+						{% if page.book.publisher %}
+							"publisher": {
+								"@type": "Organization",
+								"name": "{{ page.book.publisher }}"
+							},
+						{% endif %}
+						"inLanguage": "English",
+						"review": {
+							"@type": "Review",
+							"author": {
+								"@type": "Person",
+								"name": "Brandon Caples"
+							},
+							"name": "{{ page.title }}",
+							"datePublished": "{{ page.date | date: "%Y-%m-%d" }}",
+							"description": "{{ page.description }}",
+							"reviewBody": "{{ content | strip_html }}",
+							"url": "{{ page.url }}"
+						}
 					},
-					"name": "{{ page.title }}",
-					"datePublished": "{{ page.date | date: "%Y-%m-%d" }}",
-					"description": "{{ page.description }}",
-					"reviewBody": "{{ content | strip_html }}",
-					"url": "{{ page.url }}"
-				}
+					{
+						"@type": [
+							"Person",
+							"Organization"
+						],
+						"@id": "{{ site.url }}#/schema/person/3fbbe8e23fcabc3da5c9cbc102d346c9",
+						"name": "{{ site.meta.title }}",
+						"image": {
+							"@type": "ImageObject",
+							"inLanguage": "en-US",
+							"@id": "{{ site.url }}#/schema/person/image/",
+							"url": "{{ site.url }}/assets/img/brandon_caples.jpg",
+							"contentUrl": "{{ site.url }}/assets/img/brandon_caples.jpg",
+							"width": 600,
+							"height": 600,
+							"caption": "{{ site.meta.title }}"
+						},
+						"logo": {
+							"@id": "{{ site.url }}#/schema/person/image/"
+						},
+						"description": "I live in Ooltewah, Tennessee with my wife, our son, and our goldendoodle.",
+						"sameAs": [
+							"bcaples",
+							"brandoncaples",
+							"https://twitter.com/caplesweb"
+						]
+					}
+				]
 			}
 		</script>
 		{% include header.html %}
@@ -56,7 +98,7 @@
 				{% if page.date or page.tags %}
 					<div class="relative mb-20 lg:pt-10 pb-10 px-7 md:px-12 border-b-1 border-b-solid border-sand">
 					{% if page.date %}
-						<time datetime="{{ page.date | date: '%Y-%m-%dT%H:%M:%S-05:00' }}" class="block w-full max-w-4 m-0 lg:mx-auto pt-4 text-sm normal">{{ page.date | date: "%B %d, %Y" }}</time>
+						<time datetime="{{ page.date | date: '%Y-%m-%dT%H:%M:%S-04:00' }}" class="block w-full max-w-4 m-0 lg:mx-auto pt-4 text-sm normal">{{ page.date | date: "%B %d, %Y" }}</time>
 					{% endif %}
 					{% if page.tags %}
 						{% include tags.html %}

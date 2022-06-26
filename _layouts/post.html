@@ -2,6 +2,91 @@
 <html id="splendid" lang="en-US" class="no-js">
 	{% include head.html %}
 	<body id="post"{% if page.featured_image.src != '' %} class="has-featured-image"{% endif %}>
+		<script type="application/ld+json" class="splendid-schema-graph">
+			{
+				"@context": "https://schema.org/",
+				"@graph": [
+					{
+						"@type": "WebSite",
+						"@id": "{{ site.url }}#website",
+						"url": "{{ site.url }}",
+						"name": "{{ site.meta.title }}",
+						"description": "{{ site.meta.description }}",
+						"publisher": {
+							"@id": "{{ site.url }}#/schema/person/3fbbe8e23fcabc3da5c9cbc102d346c9"
+						},
+						"inLanguage": "en-US"
+					},
+					{% if page.featured_image.src %}
+					{
+						"@type": "ImageObject",
+						"inLanguage": "en-US",
+						"@id": "{{ page.url }}#primaryimage",
+						"url": "{{ page.featured_image.src }}",
+						"contentUrl": "{{ page.featured_image.src }}",
+						"caption": "{{ page.featured_image.alt }}"
+					},
+					{% endif %}
+					{
+						"@type": [
+							"Article",
+							"BlogPosting"
+						],
+						"@id": "{{ page.url }}#article",
+						"isPartOf": {
+							"@id": "{{ page.url }}#webpage"
+						},
+						"author": {
+							"@id": "{{ site.url }}#/schema/person/3fbbe8e23fcabc3da5c9cbc102d346c9"
+						},
+						"headline": "{{ page.title }}",
+						"datePublished": "{{ page.date | date: '%Y-%m-%dT%H:%M:%S-05:00' }}",
+						"mainEntityOfPage": {
+							"@id": "{{ page.url }}#webpage"
+						},
+						"publisher": {
+							"@id": "{{ site.url }}#/schema/person/3fbbe8e23fcabc3da5c9cbc102d346c9"
+						},
+						"image": {
+							"@id": "{{ page.url }}#primaryimage"
+						},
+						"thumbnailUrl": "{{ page.featured_image.src }}",
+						"keywords": {{ page.tags }},
+						"articleSection": [
+							"{{ page.category }}"
+						],
+						"inLanguage": "en-US"
+					},
+					{
+						"@type": [
+							"Person",
+							"Organization"
+						],
+						"@id": "{{ site.url }}#/schema/person/3fbbe8e23fcabc3da5c9cbc102d346c9",
+						"name": "{{ site.meta.title }}",
+						"image": {
+							"@type": "ImageObject",
+							"inLanguage": "en-US",
+							"@id": "{{ site.url }}#/schema/person/image/",
+							"url": "{{ site.url }}/assets/img/brandon_caples.jpg",
+							"contentUrl": "{{ site.url }}/assets/img/brandon_caples.jpg",
+							"width": 600,
+							"height": 600,
+							"caption": "{{ site.meta.title }}"
+						},
+						"logo": {
+							"@id": "{{ site.url }}#/schema/person/image/"
+						},
+						"description": "I live in Ooltewah, Tennessee with my wife, our son, and our goldendoodle.",
+						"sameAs": [
+							"bcaples",
+							"brandoncaples",
+							"https://twitter.com/caplesweb"
+						]
+					}
+				]
+			}
+		</script>
 		{% include header.html %}
 		<main class="lg:pt-24 pb-16 px-7 md:px-10">
 
@@ -21,7 +106,7 @@
 				{% if page.date or page.tags or page.bible_books %}
 				<div class="relative mb-20 lg:pt-10 pb-10 px-7 md:px-12 border-b-1 border-b-solid border-sand">
 					{% if page.date %}
-						<time datetime="{{ page.date | date: '%Y-%m-%dT%H:%M:%S-05:00' }}" class="block max-w-4 mx-auto pt-12 text-sm normal">{{ page.date | date: "%B %d, %Y" }}</time>
+						<time datetime="{{ page.date | date: '%Y-%m-%dT%H:%M:%S-04:00' }}" class="block max-w-4 mx-auto pt-12 text-sm normal">{{ page.date | date: "%B %d, %Y" }}</time>
 					{% endif %}
 					{% if page.tags or page.bible_books %}
 						{% include tags.html %}

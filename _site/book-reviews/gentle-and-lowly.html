@@ -50,33 +50,46 @@
 		<script type="application/ld+json" class="splendid-schema-graph">
 			{
 				"@context": "https://schema.org/",
-				"@type": "Book",
-				
-					"isbn": "1-4335-6613-3",
-				
-				"name": "Gentle and Lowly: The Heart of Christ for Sinners and Sufferers",
-				
-					"numberOfPages": "224",
-				
-				"author": "Dane Ortlund",
-				"image": "http://localhost:4000/assets/img/books/gentle-and-lowly.jpeg",
-				
-					"publisher": {
-						"@type": "Organization",
-						"name": "Crossway"
+				"@graph": [
+					{
+						"@type": "WebSite",
+						"@id": "http://localhost:4000#website",
+						"url": "http://localhost:4000",
+						"name": "Brandon Caples",
+						"description": "A great site.",
+						"publisher": {
+							"@id": "http://localhost:4000#/schema/person/3fbbe8e23fcabc3da5c9cbc102d346c9"
+						},
+						"inLanguage": "en-US"
 					},
-				
-				"inLanguage": "English",
-				"review": {
-					"@type": "Review",
-					"author": {
-						"@type": "Person",
-						"name": "Brandon Caples"
-					},
-					"name": "A Review of Gentle and Lowly",
-					"datePublished": "2021-09-30",
-					"description": "I love this book for its delicate approach to the heart of Jesus. Gentle and Lowly is not about what Christ has done, but who He is.",
-					"reviewBody": "I love this book for its delicate approach to the heart of Jesus, much like Christ’s own tenderness when interacting with the lowly and cast off in society. In Gentle and Lowly, Dane Ortlund draws from Scripture and the saints before him—many of them Puritans—to craft a careful picture of Jesus Christ as the One to turn to when mired in sin and suffering hardships.
+					{
+						"@type": "Book",
+						
+							"isbn": "1-4335-6613-3",
+						
+						"name": "Gentle and Lowly: The Heart of Christ for Sinners and Sufferers",
+						
+							"numberOfPages": "224",
+						
+						"author": "Dane Ortlund",
+						"image": "http://localhost:4000/assets/img/books/gentle-and-lowly.jpeg",
+						
+							"publisher": {
+								"@type": "Organization",
+								"name": "Crossway"
+							},
+						
+						"inLanguage": "English",
+						"review": {
+							"@type": "Review",
+							"author": {
+								"@type": "Person",
+								"name": "Brandon Caples"
+							},
+							"name": "A Review of Gentle and Lowly",
+							"datePublished": "2021-09-30",
+							"description": "I love this book for its delicate approach to the heart of Jesus. Gentle and Lowly is not about what Christ has done, but who He is.",
+							"reviewBody": "I love this book for its delicate approach to the heart of Jesus, much like Christ’s own tenderness when interacting with the lowly and cast off in society. In Gentle and Lowly, Dane Ortlund draws from Scripture and the saints before him—many of them Puritans—to craft a careful picture of Jesus Christ as the One to turn to when mired in sin and suffering hardships.
 
 Gentle and Lowly is not about what Christ has done, but who He is. Ortlund begins his book with a memory of his father revealing to him that, of the 89 chapters of Gospel writing, there’s only one place where Jesus tells us about His own heart:
 
@@ -98,8 +111,37 @@ I thoroughly enjoyed this book; I even shared it with my wife and brother-in-law
 
 Gentle and Lowly addresses what I think is a common misconception: that God is impatient with our sinful hearts and that Christ looks disapprovingly on us because of it. Rest assured, Christian, that the heart of Christ is drawn out to you more because of your sin, and He sides with you against your sin. What a wonderful God we serve!
 ",
-					"url": "/book-reviews/gentle-and-lowly"
-				}
+							"url": "/book-reviews/gentle-and-lowly"
+						}
+					},
+					{
+						"@type": [
+							"Person",
+							"Organization"
+						],
+						"@id": "http://localhost:4000#/schema/person/3fbbe8e23fcabc3da5c9cbc102d346c9",
+						"name": "Brandon Caples",
+						"image": {
+							"@type": "ImageObject",
+							"inLanguage": "en-US",
+							"@id": "http://localhost:4000#/schema/person/image/",
+							"url": "http://localhost:4000/assets/img/brandon_caples.jpg",
+							"contentUrl": "http://localhost:4000/assets/img/brandon_caples.jpg",
+							"width": 600,
+							"height": 600,
+							"caption": "Brandon Caples"
+						},
+						"logo": {
+							"@id": "http://localhost:4000#/schema/person/image/"
+						},
+						"description": "I live in Ooltewah, Tennessee with my wife, our son, and our goldendoodle.",
+						"sameAs": [
+							"bcaples",
+							"brandoncaples",
+							"https://twitter.com/caplesweb"
+						]
+					}
+				]
 			}
 		</script>
 		<header id="splendid-header" itemscope itemtype="https://schema.org/WPHeader" class="splendid-flex sticky py-0 px-10 flex-col justify-center items-center shadow">
@@ -169,7 +211,7 @@ Gentle and Lowly addresses what I think is a common misconception: that God is i
 				
 					<div class="relative mb-20 lg:pt-10 pb-10 px-7 md:px-12 border-b-1 border-b-solid border-sand">
 					
-						<time datetime="2021-09-30T14:04:55-05:00" class="block w-full max-w-4 m-0 lg:mx-auto pt-4 text-sm normal">September 30, 2021</time>
+						<time datetime="2021-09-30T14:04:55-04:00" class="block w-full max-w-4 m-0 lg:mx-auto pt-4 text-sm normal">September 30, 2021</time>
 					
 					
 						
