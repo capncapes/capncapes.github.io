@@ -1,10 +1,10 @@
 ---
 layout: post
-title: "SEO Terms Explained"
+title: "SEO terms explained"
 date: 2020-04-26 14:25:20 -0400
 featured_image: {
   src: "seo-terms-explained.jpeg",
-  title: "SEO Terms Explained",
+  title: "SEO terms explained",
   alt: "Man writing SEO terminology" }
 category: MarTech
 tags: ["SEO"]

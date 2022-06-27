@@ -104,9 +104,9 @@
 					{% endif %}
 				</div>
 				{% if page.date or page.tags or page.bible_books %}
-				<div class="relative mb-20 lg:pt-10 pb-10 px-7 md:px-12 border-b-1 border-b-solid border-sand">
+				<div class="relative max-w-4 mx-auto mb-20 lg:pt-10 pb-10 md:px-12 border-b-1 border-b-solid border-sand">
 					{% if page.date %}
-						<time datetime="{{ page.date | date: '%Y-%m-%dT%H:%M:%S-04:00' }}" class="block max-w-4 mx-auto pt-12 text-sm normal">{{ page.date | date: "%B %d, %Y" }}</time>
+						<time datetime="{{ page.date | date: '%Y-%m-%dT%H:%M:%S-04:00' }}" class="block pt-12 text-sm normal">{{ page.date | date: "%B %d, %Y" }}</time>
 					{% endif %}
 					{% if page.tags or page.bible_books %}
 						{% include tags.html %}

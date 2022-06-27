@@ -169,36 +169,6 @@ body p a:hover, body p a:active, #post article .tags a, #book-review article .ta
 	font-style: italic;
 }
 
-/* Galileo */
-
-@font-face {
-	font-family: 'GalileoFLF';
-	src: url('../../webfonts/galileo/GalileoFLF-Roman.ttf') format('truetype');
-	font-weight: normal;
-	font-style: normal;
-}
-
-@font-face {
-	font-family: 'GalileoFLF';
-	src: url('../../webfonts/galileo/GalileoFLF-Italic.ttf') format('truetype');
-	font-weight: normal;
-	font-style: italic;
-}
-
-@font-face {
-	font-family: 'GalileoFLF';
-	src: url('../../webfonts/galileo/GalileoFLF-Bold.ttf') format('truetype');
-	font-weight: bold;
-	font-style: normal;
-}
-
-@font-face {
-	font-family: 'GalileoFLF';
-	src: url('../../webfonts/galileo/GalileoFLF-BoldItalic.ttf') format('truetype');
-	font-weight: bold;
-	font-style: italic;
-}
-
 body, *.text-base {
 	font-size: 1.25rem;
 	-webkit-font-smoothing: antialiased;
@@ -1022,13 +992,17 @@ body p > code {
 	border-radius: 4px;
 }
 
-#splendid figure {
+#splendid .highlighter-rouge {
+	max-width: 60rem;
 	margin-top: 3rem;
 	margin-bottom: 3rem;
+	margin-left: auto;
+	margin-right: auto;
 	padding: 0;
+	font-size: 1rem;
 }
 
-#splendid figure pre {
+#splendid .highlighter-rouge pre {
 	padding: 0;
 	background-color: #121212;
 	color: #EDEDE2;
@@ -1036,7 +1010,7 @@ body p > code {
 	overflow: hidden;
 }
 
-#splendid figure pre code {
+#splendid .highlighter-rouge pre code {
 	display: block;
 	position: relative;
 	padding: 2rem;
@@ -1046,7 +1020,7 @@ body p > code {
 	overflow-x: scroll;
 }
 
-#splendid figure pre code::before {
+#splendid .highlighter-rouge pre code::before {
 	content: attr(data-lang);
 	position: absolute;
 	top: 0;
@@ -1057,71 +1031,69 @@ body p > code {
 	user-select: none;
 }
 
-#splendid figure pre code.language-html {
+#splendid .highlighter-rouge pre code.language-html {
 	border-left-color: #E34F26;
 }
 
-#splendid figure pre code.language-css {
+#splendid .highlighter-rouge pre code.language-css {
 	border-left-color: #264DE4;
 }
 
-#splendid figure pre code.language-javascript {
+#splendid .highlighter-rouge pre code.language-javascript {
 	border-left-color: #F7DF1E;
 }
 
-#splendid figure pre code.language-ruby {
+#splendid .highlighter-rouge pre code.language-ruby {
 	border-left-color: #CC342D;
 }
 
-#splendid figure pre code.language-php {
+#splendid .highlighter-rouge pre code.language-php {
 	border-left-color: #8892BE;
 }
 
-#splendid figure pre code.language-git {
+#splendid .highlighter-rouge pre code.language-git {
 	border-left-color: #F1502F;
 }
 
-#splendid figure pre code.language-sass {
+#splendid .highlighter-rouge pre code.language-sass {
 	border-left-color: #CD6799;
 }
 
-#splendid figure pre code.language-sql {
+#splendid .highlighter-rouge pre code.language-sql {
 	border-left-color: #00758F;
 }
 
-#splendid figure pre code.language-liquid {
+#splendid .highlighter-rouge pre code.language-liquid {
 	border-left-color: #000099;
 }
 
-#splendid figure pre code span.nf {
+#splendid .highlighter-rouge pre code span.nf {
 	color: #2CA096;
 }
 
-#splendid figure pre code span.nl, #splendid figure pre code span.py {
+#splendid .highlighter-rouge pre code span.nl, #splendid .highlighter-rouge pre code span.py {
 	color: #F9D423;
 }
 
-#splendid figure pre code span.n, #splendid figure pre code span.nb {
+#splendid .highlighter-rouge pre code span.n, #splendid .highlighter-rouge pre code span.nb {
 	color: #F77825;
 }
 
-#splendid figure pre code span.m, #splendid figure pre code span.err {
+#splendid .highlighter-rouge pre code span.m, #splendid .highlighter-rouge pre code span.err {
 	color: #F05454;
 }
 
-#splendid figure pre code span.nc {
+#splendid .highlighter-rouge pre code span.nc {
 	color: #516cb9;
 }
 
-#splendid figure pre code span.c {
+#splendid .highlighter-rouge pre code span.c {
 	color: #999999;
 }
 
-#splendid figure pre code span.nd, #splendid figure pre code span.p, #splendid figure pre code span.o {
+#splendid .highlighter-rouge pre code span.nd, #splendid .highlighter-rouge pre code span.p, #splendid .highlighter-rouge pre code span.o {
 	color: #F8F9FA;
 }
-
-.highlighter-rouge { font-size: 1rem; }
 
 /* ================================================================
 	19	Utilities
