@@ -32,7 +32,7 @@ TABLE OF CONTENTS
 @import url(global/animations.css);
 @import url(global/layout.css);
 @import url(global/flex.css);
-@import url('https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,500;0,700;1,500;1,700&family=Open+Sans:ital,wght@0,400;0,600;1,400;1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap&family=Open+Sans:ital,wght@0,400;0,600;1,400;1,600&display=swap');
 
 :root {
 	font-size: 16px;
@@ -84,11 +84,11 @@ body *, .splendid-button, blockquote {
 }
 
 h1, h2, h3, h4, h5, h6, blockquote > p:first-child::before {
-	font-family: 'Cormorant', 'Cambria', 'Cochin', 'Georgia', 'Times', 'Times New Roman', serif;
+	font-family: 'BodoniFLF', 'Cambria', 'Cochin', 'Georgia', 'Times', 'Times New Roman', serif;
 }
 
 code, code span, pre, pre span {
-	font-family: 'Monaco', 'Lucida Console', 'Courier', monospace;
+	font-family: 'Share Tech Mono', 'Lucida Console', 'Courier', monospace;
 }
 
 .text-red { color: #F05454; }
@@ -138,6 +138,36 @@ body p a:hover, body p a:active, #post article .tags a, #book-review article .ta
 /* ================================================================
 	2	Typography
 ================================================================ */
+
+/* Bodoni */
+
+@font-face {
+	font-family: 'BodoniFLF';
+	src: url('../../webfonts/bodoni/BodoniFLF-Roman.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'BodoniFLF';
+	src: url('../../webfonts/bodoni/BodoniFLF-Italic.ttf') format('truetype');
+	font-weight: normal;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'BodoniFLF';
+	src: url('../../webfonts/bodoni/BodoniFLF-Bold.ttf') format('truetype');
+	font-weight: bold;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'BodoniFLF';
+	src: url('../../webfonts/bodoni/BodoniFLF-BoldItalic.ttf') format('truetype');
+	font-weight: bold;
+	font-style: italic;
+}
 
 body, *.text-base {
 	font-size: 1.25rem;
@@ -917,7 +947,7 @@ blockquote::before {
 	position: absolute;
 	top: 0;
 	left: 0.75rem;
-	font-family: 'Cormorant', serif;
+	font-family: 'BodoniFLF', serif;
 	font-size: 9rem;
 	font-style: normal;
 	font-weight: bold;
