@@ -32,7 +32,7 @@ TABLE OF CONTENTS
 @import url(global/animations.css);
 @import url(global/layout.css);
 @import url(global/flex.css);
-@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap&family=Open+Sans:ital,wght@0,400;0,600;1,400;1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&&family=Playfair+Display:wght@900&family=Open+Sans:ital,wght@0,400;0,600;1,400;1,600&display=swap');
 
 :root {
 	font-size: 16px;
@@ -143,28 +143,28 @@ body p a:hover, body p a:active, #post article .tags a, #book-review article .ta
 
 @font-face {
 	font-family: 'BodoniFLF';
-	src: url('../../webfonts/bodoni/BodoniFLF-Roman.ttf') format('truetype');
+	src: url('../webfonts/bodoni/BodoniFLF-Roman.ttf') format('truetype');
 	font-weight: normal;
 	font-style: normal;
 }
 
 @font-face {
 	font-family: 'BodoniFLF';
-	src: url('../../webfonts/bodoni/BodoniFLF-Italic.ttf') format('truetype');
+	src: url('../webfonts/bodoni/BodoniFLF-Italic.ttf') format('truetype');
 	font-weight: normal;
 	font-style: italic;
 }
 
 @font-face {
 	font-family: 'BodoniFLF';
-	src: url('../../webfonts/bodoni/BodoniFLF-Bold.ttf') format('truetype');
+	src: url('../webfonts/bodoni/BodoniFLF-Bold.ttf') format('truetype');
 	font-weight: bold;
 	font-style: normal;
 }
 
 @font-face {
 	font-family: 'BodoniFLF';
-	src: url('../../webfonts/bodoni/BodoniFLF-BoldItalic.ttf') format('truetype');
+	src: url('../webfonts/bodoni/BodoniFLF-BoldItalic.ttf') format('truetype');
 	font-weight: bold;
 	font-style: italic;
 }
@@ -947,7 +947,7 @@ blockquote::before {
 	position: absolute;
 	top: 0;
 	left: 0.75rem;
-	font-family: 'BodoniFLF', serif;
+	font-family: 'Playfair Display', 'BodoniFLF', serif;
 	font-size: 9rem;
 	font-style: normal;
 	font-weight: bold;
@@ -992,7 +992,7 @@ body p > code {
 	border-radius: 4px;
 }
 
-#splendid .highlighter-rouge {
+#splendid figure, #splendid .highlighter-rouge {
 	max-width: 60rem;
 	margin-top: 3rem;
 	margin-bottom: 3rem;
@@ -1002,7 +1002,7 @@ body p > code {
 	font-size: 1rem;
 }
 
-#splendid .highlighter-rouge pre {
+#splendid figure pre, #splendid .highlighter-rouge pre {
 	padding: 0;
 	background-color: #121212;
 	color: #EDEDE2;
@@ -1010,7 +1010,7 @@ body p > code {
 	overflow: hidden;
 }
 
-#splendid .highlighter-rouge pre code {
+#splendid figure pre code, #splendid .highlighter-rouge pre code {
 	display: block;
 	position: relative;
 	padding: 2rem;
@@ -1020,7 +1020,7 @@ body p > code {
 	overflow-x: scroll;
 }
 
-#splendid .highlighter-rouge pre code::before {
+#splendid figure pre code::before, #splendid .highlighter-rouge pre code::before {
 	content: attr(data-lang);
 	position: absolute;
 	top: 0;
@@ -1031,67 +1031,76 @@ body p > code {
 	user-select: none;
 }
 
-#splendid .highlighter-rouge pre code.language-html {
+#splendid figure pre code.language-html,
+#splendid .highlighter-rouge.language-html pre code {
 	border-left-color: #E34F26;
 }
 
-#splendid .highlighter-rouge pre code.language-css {
+#splendid figure pre code.language-css,
+#splendid .highlighter-rouge.language-css pre code {
 	border-left-color: #264DE4;
 }
 
-#splendid .highlighter-rouge pre code.language-javascript {
+#splendid figure pre code.language-javascript,
+#splendid .highlighter-rouge.language-javascript pre code {
 	border-left-color: #F7DF1E;
 }
 
-#splendid .highlighter-rouge pre code.language-ruby {
+#splendid figure pre code.language-ruby,
+#splendid .highlighter-rouge.language-ruby pre code {
 	border-left-color: #CC342D;
 }
 
-#splendid .highlighter-rouge pre code.language-php {
+#splendid figure pre code.language-php,
+#splendid .highlighter-rouge.language-php pre code {
 	border-left-color: #8892BE;
 }
 
-#splendid .highlighter-rouge pre code.language-git {
+#splendid figure pre code.language-git,
+#splendid .highlighter-rouge.language-git pre code {
 	border-left-color: #F1502F;
 }
 
-#splendid .highlighter-rouge pre code.language-sass {
+#splendid figure pre code.language-sass,
+#splendid .highlighter-rouge.language-sass pre code {
 	border-left-color: #CD6799;
 }
 
-#splendid .highlighter-rouge pre code.language-sql {
+#splendid figure pre code.language-sql,
+#splendid .highlighter-rouge.language-sql pre code {
 	border-left-color: #00758F;
 }
 
-#splendid .highlighter-rouge pre code.language-liquid {
+#splendid figure pre code.language-liquid,
+#splendid .highlighter-rouge.language-liquid pre code {
 	border-left-color: #000099;
 }
 
-#splendid .highlighter-rouge pre code span.nf {
+#splendid figure pre code span.nf {
 	color: #2CA096;
 }
 
-#splendid .highlighter-rouge pre code span.nl, #splendid .highlighter-rouge pre code span.py {
+#splendid figure pre code span.nl, #splendid figure pre code span.py {
 	color: #F9D423;
 }
 
-#splendid .highlighter-rouge pre code span.n, #splendid .highlighter-rouge pre code span.nb {
+#splendid figure pre code span.n, #splendid figure pre code span.nb {
 	color: #F77825;
 }
 
-#splendid .highlighter-rouge pre code span.m, #splendid .highlighter-rouge pre code span.err {
+#splendid figure pre code span.m, #splendid figure pre code span.err {
 	color: #F05454;
 }
 
-#splendid .highlighter-rouge pre code span.nc {
+#splendid figure pre code span.nc {
 	color: #516cb9;
 }
 
-#splendid .highlighter-rouge pre code span.c {
+#splendid figure pre code span.c {
 	color: #999999;
 }
 
-#splendid .highlighter-rouge pre code span.nd, #splendid .highlighter-rouge pre code span.p, #splendid .highlighter-rouge pre code span.o {
+#splendid figure pre code span.nd, #splendid figure pre code span.p, #splendid figure pre code span.o {
 	color: #F8F9FA;
 }
 
