@@ -1002,6 +1002,16 @@ body p > code {
 	font-size: 1rem;
 }
 
+#splendid h1 > .highlighter-rouge,
+#splendid h2 > .highlighter-rouge,
+#splendid h3 > .highlighter-rouge,
+#splendid h4 > .highlighter-rouge,
+#splendid h5 > .highlighter-rouge,
+#splendid h6 > .highlighter-rouge {
+	font-size: 90%;
+	font-weight: inherit;
+}
+
 #splendid figure pre, #splendid .highlighter-rouge pre {
 	padding: 0;
 	background-color: #121212;
