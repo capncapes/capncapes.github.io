@@ -104,6 +104,13 @@ ul.navbar-nav {
 
 /* Book Review */
 
+#book-review .meta > div:nth-child(2)::before {
+	content: "//";
+	margin-left: 0.5rem;
+	margin-right: 0.5rem;
+	opacity: 50%;
+}
+
 #book-review article header + img.absolute {
 	height: 100%;
 	max-height: 100%;

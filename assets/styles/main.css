@@ -559,11 +559,7 @@ b.tabs-section header p {
 	10	Single Post
 ================================================================ */
 
-#post article, #book-review article {
-	max-width: 80rem;
-}
-
-#book-review article .card {
+#book-review .card {
 	background: linear-gradient(110deg, #30475E 40%, rgba(48, 71, 94, 0.8)), url(/assets/img/books.jpeg);
 	background-clip: border-box;
 	background-origin: border-box;
