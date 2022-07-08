@@ -297,6 +297,7 @@ header .splendid-logo a {
 }
 
 .nav-link {
+	font-family: 'Raginy', 'Bodoni', 'Open Sans', sans-serif;
 	line-height: 2.25rem;
 }
 
@@ -308,7 +309,7 @@ header .branding svg {
 header .branding svg #logomark {
 	fill:none;
 	stroke: #121212;
-	stroke-width:1.68463707;
+	stroke-width:2;
 	stroke-linecap:round;
 	stroke-linejoin:round;
 	stroke-miterlimit:4;
@@ -323,7 +324,7 @@ header .branding svg #logomark {
 }
 
 header .branding:hover svg #logomark {
-	stroke: #30475E;
+	stroke: #2CA096;
 }
 
 header .branding div {
@@ -336,23 +337,14 @@ header .branding div {
 }
 
 header .branding:hover div {
-	color: #30475E;
+	color: #2CA096;
 }
 
 #nav-container {
-	display: flex;
-	width: 100%;
-	max-width: 60rem;
-	flex-flow: row nowrap;
-	justify-content: space-between;
-	align-items: center;
 	gap: 1rem;
 }
 
-#nav-container .splendid-logo {
-	width: 50%;
-	max-width: 200px;
-}
+md:splendid-flex relative w-full max-w-5 mx-auto p-7 sm:px-14 md:px-20 md:pt-20 md:pb-24 lg:py-12 lg:px-20
 
 #nav-container nav {
 	font-size: calc(1.15rem + (2 - 1.15) * ((100vw - 300px) / 600));
