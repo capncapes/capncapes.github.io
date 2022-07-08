@@ -84,7 +84,7 @@ body *, .splendid-button, blockquote {
 }
 
 h1, h2, h3, h4, h5, h6, blockquote > p:first-child::before {
-	font-family: 'BodoniFLF', 'Cambria', 'Cochin', 'Georgia', 'Times', 'Times New Roman', serif;
+	font-family: 'Bodoni', 'Cambria', 'Cochin', 'Georgia', 'Times', 'Times New Roman', serif;
 }
 
 code, code span, pre, pre span {
@@ -142,31 +142,40 @@ body p a:hover, body p a:active, #post article .tags a, #book-review article .ta
 /* Bodoni */
 
 @font-face {
-	font-family: 'BodoniFLF';
+	font-family: 'Bodoni';
 	src: url('../webfonts/bodoni/BodoniFLF-Roman.ttf') format('truetype');
 	font-weight: normal;
 	font-style: normal;
 }
 
 @font-face {
-	font-family: 'BodoniFLF';
+	font-family: 'Bodoni';
 	src: url('../webfonts/bodoni/BodoniFLF-Italic.ttf') format('truetype');
 	font-weight: normal;
 	font-style: italic;
 }
 
 @font-face {
-	font-family: 'BodoniFLF';
+	font-family: 'Bodoni';
 	src: url('../webfonts/bodoni/BodoniFLF-Bold.ttf') format('truetype');
 	font-weight: bold;
 	font-style: normal;
 }
 
 @font-face {
-	font-family: 'BodoniFLF';
+	font-family: 'Bodoni';
 	src: url('../webfonts/bodoni/BodoniFLF-BoldItalic.ttf') format('truetype');
 	font-weight: bold;
 	font-style: italic;
+}
+
+/* Raginy */
+
+@font-face {
+	font-family: 'Raginy';
+	src: url('../webfonts/RaginyRegular.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
 }
 
 body, *.text-base {
@@ -830,6 +839,8 @@ audio, canvas, embed, iframe, img, object, svg, video {
 	object-fit: cover
 }
 
+#default h1 { font-family: 'Raginy', 'Bodoni', 'Cambria', 'Cochin', 'Georgia', 'Times', 'Times New Roman', serif; }
+
 /* ================================================================
 	15	Page Navigation
 ================================================================ */
@@ -947,7 +958,7 @@ blockquote::before {
 	position: absolute;
 	top: 0;
 	left: 0.75rem;
-	font-family: 'Playfair Display', 'BodoniFLF', serif;
+	font-family: 'Playfair Display', 'Bodoni', serif;
 	font-size: 9rem;
 	font-style: normal;
 	font-weight: bold;
