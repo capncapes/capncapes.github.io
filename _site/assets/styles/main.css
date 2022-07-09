@@ -1017,6 +1017,7 @@ body p > code {
 	color: #EDEDE2;
 	border-radius: 8px;
 	overflow: hidden;
+	box-shadow: 0 5px 35px 0 rgb(0 0 0 / 15%);
 }
 
 #splendid figure pre code, #splendid .highlighter-rouge pre code {
@@ -1085,7 +1086,12 @@ body p > code {
 	border-left-color: #000099;
 }
 
-#splendid figure pre code span.nf {
+#splendid figure pre code.language-console,
+#splendid .highlighter-rouge.language-console pre code {
+	border-left-color: #FFFFFF;
+}
+
+/* #splendid figure pre code span.nf {
 	color: #2CA096;
 }
 
@@ -1111,7 +1117,7 @@ body p > code {
 
 #splendid figure pre code span.nd, #splendid figure pre code span.p, #splendid figure pre code span.o {
 	color: #F8F9FA;
-}
+} */
 
 /* ================================================================
 	19	Utilities
