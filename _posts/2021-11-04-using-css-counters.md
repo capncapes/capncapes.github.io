@@ -25,7 +25,7 @@ We’ll use the `counter-reset` property to create our counter on the parent ele
 
 Note: The increment number can be a little confusing because the value provided is the starting point, so the first counted item will display the next incremented value.
 
-{% highlight css %}
+{% highlight css linenos %}
 #one {
 	counter-reset: myCounter;
 	counter-reset: myCounter 0; /* Same result as above */
@@ -39,7 +39,7 @@ As the name suggests, `counter-reset` can also reset an existing counter.
 
 The `counter-increment` property defines the increment on the specified counter. This property can accept one or two values: either the name of a counter to increment or the name of a counter plus a number specifying the increment amount. If only the name of a counter is provided, the default increment of 1 is used.
 
-{% highlight css %}
+{% highlight css linenos %}
 #one {
 	counter-reset: myCounter;
 }
@@ -64,7 +64,7 @@ Now that we have defined our counters and their increments, we can *set* a start
 
 Note: We could leave out this property to let the counting start at the default of 1.
 
-{% highlight css %}
+{% highlight css linenos %}
 #one {
 	counter-reset: myCounter;
 }
@@ -97,7 +97,7 @@ The `counter()` function returns a string representing the value of the specifie
 
 To display our counter, we need to provide the counter name to the `counter()` function. The function accepts a second argument to define the style. Any valid [`list-style-type`](https://developer.mozilla.org/en-US/docs/Web/CSS/list-style-type) value is also valid here.
 
-{% highlight css %}
+{% highlight css linenos %}
 #one {
 	counter-reset: myCounter;
 }
