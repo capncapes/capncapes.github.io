@@ -37,6 +37,7 @@ TABLE OF CONTENTS
 :root {
 	font-size: 16px;
 	line-height: 200%;
+	scroll-behavior: smooth;
 	color: #121212;
 	--splendid-red: #F05454;
 	--splendid-green: #2CA096;
