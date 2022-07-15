@@ -179,6 +179,9 @@ body p a:hover, body p a:active, #post article .tags a, #book-review article .ta
 	font-style: normal;
 }
 
+strong { font-weight: bold !important; }
+em { font-style: italic !important; }
+
 body, *.text-base {
 	font-size: 1.25rem;
 	-webkit-font-smoothing: antialiased;
@@ -590,6 +593,11 @@ b.tabs-section header p {
 	max-width: 60rem;
 }
 
+#splendid section p {
+	margin-top: 0.75rem;
+	margin-bottom: 0.75rem;
+}
+
 #post article time + .tags,
 #post article time + .bible-books,
 #book-review article time + .tags {
@@ -605,6 +613,11 @@ b.tabs-section header p {
 #post article > .bible-books ~ p:first-of-type,
 #book-review article > .tags ~ p:first-of-type {
 	margin-top: 6rem;
+}
+
+#post article section.schema-how-to li,
+#post article section.schema-how-to p {
+	line-height: 150%;
 }
 
 /* ================================================================

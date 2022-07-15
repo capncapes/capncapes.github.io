@@ -1,6 +1,6 @@
 {
 	"categories": ["MarTech","Faith"],
-	"tags": ["web development","SEO","restoration","graphic design","Elijah","John the Baptist","CSS","eternal life","eschatology","gospels"],
+	"tags": ["web development","CSS","graphic design","SEO","restoration","Elijah","John the Baptist","eternal life","eschatology","gospels"],
 	"bible": ["John","2 Kings","Isaiah","Malachi","Matthew","Deuteronomy","Joel"],
 	"years": ["2022","2021","2020","2018","2017"]
 }

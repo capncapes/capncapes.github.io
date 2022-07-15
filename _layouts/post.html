@@ -83,7 +83,33 @@
 							"brandoncaples",
 							"https://twitter.com/caplesweb"
 						]
-					}
+					}{% if page.howto %},
+					{
+						"@type": "HowTo",
+						"@id": "{{ page.url }}#howto-1",
+						"name": "{{ page.howto.title }}",
+						"mainEntityOfPage": {
+							"@id": "{{ page.url }}#article"
+						},
+						"description": "{{ page.howto.description }}",
+						"totalTime": "{{ page.howto.time }}",
+						"step": [
+						{% for step in page.howto.steps %}
+							{
+								"@type": "HowToStep",
+								"url": "{{ page.url }}#how-to-step-{{ forloop.index0 | plus: 1 }}",
+								"name": "{{ step.name }}",
+								"itemListElement": [
+									{
+										"@type": "HowToDirection",
+										"text": "{{ step.text }}"
+									}
+								]
+							},
+						{% endfor %}
+						],
+						"inLanguage": "en-US"
+					}{% endif %}
 				]
 			}
 		</script>
@@ -113,6 +139,22 @@
 					{% endif %}
 				</div>
 				{% endif %}
+
+				{% if page.howto %}
+					<section class="schema-how-to max-w-4 mb-20 mx-auto py-4 px-6 text-sm bg-sand rounded">
+						<p class="mt-0 text-xs">Time needed: <time datetime="{{ page.howto.time }}">{{ page.howto.time }}</time></p>
+						<p>{{ page.howto.description }}</p>
+						<ol class="schema-how-to-steps mb-0 pl-4">
+							{% for step in page.howto.steps %}
+								<li class="schema-how-to-step my-4" id="how-to-step-{{ forloop.index0 | plus: 1 }}">
+									<strong class="schema-how-to-step-name">{{ step.name }}</strong>
+									<p class="schema-how-to-step-text mb-0">{{ step.text }}</p>
+								</li>
+							{% endfor %}
+						</ol>
+					</section>
+				{% endif %}
+
 				{{ content }}
 			</article>
 			<!-- Blog Post : END -->

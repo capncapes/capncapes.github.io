@@ -317,7 +317,8 @@ main > * {
 	max-width: 60rem;
 }
 
-body section > * {
+#home section > *,
+#default section > * {
 	padding: 0 0 5rem;
 	max-width: 60rem;
 }
