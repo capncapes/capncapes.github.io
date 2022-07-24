@@ -1,7 +1,7 @@
 ---
 layout: book_review
 date: 2022-07-17 17:17:17 -0400
-title: "Truth and Fiction in The Da Vinci Code: A Historian Reveals What We Really Know about Jesus, Mary Magdalene, and Constantine"
+title: "Truth and Fiction in The Da Vinci Code"
 book: {
   title: "Truth and Fiction in The Da Vinci Code: A Historian Reveals What We Really Know about Jesus, Mary Magdalene, and Constantine",
   isbn: "978-0-1951-8140-1",
