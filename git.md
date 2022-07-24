@@ -98,6 +98,6 @@ Displays the working tree status, showing paths that have differences between th
 
 ### Remove all instances of a file
 
-To remove all occurences of a specific file, use the following command. This is useful for Mac users who constantly battle the `.DS_Store` file that creeps into project directories.
+To remove all occurences of a specific file, use the following command. This is useful for Mac users who constantly battle the `.DS_Store` file that creeps into project directories. See my [blog post on the `.DS_Store` file](/martech/2022/git-remove-ds-store) for more information.
 
 `find . -name .DS_Store -print0 | xargs -0 git rm -f --ignore-unmatch`

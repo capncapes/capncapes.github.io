@@ -201,7 +201,7 @@
 
 <h3 id="remove-all-instances-of-a-file">Remove all instances of a file</h3>
 
-<p>To remove all occurences of a specific file, use the following command. This is useful for Mac users who constantly battle the <code class="language-plaintext highlighter-rouge">.DS_Store</code> file that creeps into project directories.</p>
+<p>To remove all occurences of a specific file, use the following command. This is useful for Mac users who constantly battle the <code class="language-plaintext highlighter-rouge">.DS_Store</code> file that creeps into project directories. See my <a href="/martech/2022/git-remove-ds-store">blog post on the <code class="language-plaintext highlighter-rouge">.DS_Store</code> file</a> for more information.</p>
 
 <p><code class="language-plaintext highlighter-rouge">find . -name .DS_Store -print0 | xargs -0 git rm -f --ignore-unmatch</code></p>
 

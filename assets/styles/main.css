@@ -1013,6 +1013,8 @@ body p > code {
 	border-radius: 4px;
 }
 
+body p a code { font-weight: bold; }
+
 #splendid figure, #splendid .highlighter-rouge {
 	max-width: 60rem;
 	margin-top: 3rem;
