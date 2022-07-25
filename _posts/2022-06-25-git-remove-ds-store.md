@@ -5,7 +5,8 @@ date: 2022-06-25 23:14:39 -0400
 featured_image: {
   src: "git-remove-ds-store.png",
   title: "Remove .DS_Store with Git",
-  alt: ".DS_Store file on a Mac computer" }
+  alt: ".DS_Store file on a Mac computer",
+  position: "left" }
 category: MarTech
 tags: ["web development", "Git"]
 howto: {

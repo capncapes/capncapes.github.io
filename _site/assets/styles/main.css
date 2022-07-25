@@ -842,6 +842,21 @@ audio, canvas, embed, iframe, img, object, svg, video {
 	object-fit: cover
 }
 
+.object-center {
+	-o-object-position: center;
+	object-position: center;
+}
+
+.object-left {
+	-o-object-position: left;
+	object-position: left;
+}
+
+.object-right {
+	-o-object-position: right;
+	object-position: right;
+}
+
 #default h1 { font-family: 'Raginy', 'Bodoni', 'Cambria', 'Cochin', 'Georgia', 'Times', 'Times New Roman', serif; }
 
 .footnotes { font-size: 0.85rem; }
