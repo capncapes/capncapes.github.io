@@ -1,460 +1,394 @@
-genesis:
-  name: Genesis
+- name: Genesis
   order: 1
   permalink: /faith/genesis
   description:
   image:
 
-exodus:
-  name: Exodus
+- name: Exodus
   order: 2
   permalink: /faith/exodus
   description:
   image:
 
-leviticus:
-  name: Leviticus
+- name: Leviticus
   order: 3
   permalink: /faith/leviticus
   description:
   image:
 
-numbers:
-  name: Numbers
+- name: Numbers
   order: 4
   permalink: /faith/numbers
   description:
   image:
 
-deuteronomy:
-  name: Deuteronomy
+- name: Deuteronomy
   order: 5
   permalink: /faith/deuteronomy
   description:
   image:
 
-joshua:
-  name: Joshua
+- name: Joshua
   order: 6
   permalink: /faith/joshua
   description:
   image:
 
-judges:
-  name: Judges
+- name: Judges
   order: 7
   permalink: /faith/judges
   description:
   image:
 
-ruth:
-  name: Ruth
+- name: Ruth
   order: 8
   permalink: /faith/ruth
   description:
   image: https://res.cloudinary.com/caples/image/upload/v1654119783/Books%20of%20the%20Bible/ruth_tltntf.jpg
 
-1-samuel:
-  name: 1 Samuel
+- name: 1 Samuel
   order: 9
   permalink: /faith/1-samuel
   description:
   image:
 
-2-samuel:
-  name: 2 Samuel
+- name: 2 Samuel
   order: 10
   permalink: /faith/2-samuel
   description:
   image:
 
-1-kings:
-  name: 1 Kings
+- name: 1 Kings
   order: 11
   permalink: /faith/1-kings
   description:
   image:
 
-2-kings:
-  name: 2 Kings
+- name: 2 Kings
   order: 12
   permalink: /faith/2-kings
   description:
   image:
 
-1-chronicles:
-  name: 1 Chronicles
+- name: 1 Chronicles
   order: 13
   permalink: /faith/1-chronicles
   description:
   image:
 
-2-chronicles:
-  name: 2 Chronicles
+- name: 2 Chronicles
   order: 14
   permalink: /faith/2-chronicles
   description:
   image:
 
-ezra:
-  name: Ezra
+- name: Ezra
   order: 15
   permalink: /faith/ezra
   description:
   image:
 
-nehemiah:
-  name: Nehemiah
+- name: Nehemiah
   order: 16
   permalink: /faith/nehemiah
   description:
   image:
 
-esther:
-  name: Esther
+- name: Esther
   order: 17
   permalink: /faith/esther
   description:
   image:
 
-job:
-  name: Job
+- name: Job
   order: 18
   permalink: /faith/job
   description:
   image:
 
-psalms:
-  name: Psalms
+- name: Psalms
   order: 19
   permalink: /faith/psalms
   description:
   image:
 
-proverbs:
-  name: Proverbs
+- name: Proverbs
   order: 20
   permalink: /faith/proverbs
   description:
   image:
 
-ecclesiastes:
-  name: Ecclesiastes
+- name: Ecclesiastes
   order: 21
   permalink: /faith/ecclesiastes
   description:
   image:
 
-song-of-solomon:
-  name: Song of Solomon
+- name: Song of Solomon
   order: 22
   permalink: /faith/song-of-solomon
   description:
   image:
 
-isaiah:
-  name: Isaiah
+- name: Isaiah
   order: 23
   permalink: /faith/isaiah
   description:
   image:
 
-jeremiah:
-  name: Jeremiah
+- name: Jeremiah
   order: 24
   permalink: /faith/jeremiah
   description:
   image:
 
-lamentations:
-  name: Lamentations
+- name: Lamentations
   order: 25
   permalink: /faith/lamentations
   description:
   image:
 
-ezekiel:
-  name: Ezekiel
+- name: Ezekiel
   order: 26
   permalink: /faith/ezekiel
   description:
   image:
 
-daniel:
-  name: Daniel
+- name: Daniel
   order: 27
   permalink: /faith/daniel
   description:
   image:
 
-hosea:
-  name: Hosea
+- name: Hosea
   order: 28
   permalink: /faith/hosea
   description:
   image:
 
-joel:
-  name: Joel
+- name: Joel
   order: 29
   permalink: /faith/joel
   description:
   image:
 
-amos:
-  name: Amos
+- name: Amos
   order: 30
   permalink: /faith/amos
   description:
   image:
 
-obadiah:
-  name: Obadiah
+- name: Obadiah
   order: 31
   permalink: /faith/obadiah
   description:
   image:
 
-jonah:
-  name: Jonah
+- name: Jonah
   order: 32
   permalink: /faith/jonah
   description:
   image:
 
-micah:
-  name: Micah
+- name: Micah
   order: 33
   permalink: /faith/micah
   description:
   image:
 
-nahum:
-  name: Nahum
+- name: Nahum
   order: 34
   permalink: /faith/nahum
   description:
   image:
 
-habakkuk:
-  name: Habakkuk
+- name: Habakkuk
   order: 35
   permalink: /faith/habakkuk
   description:
   image:
 
-zephaniah:
-  name: Zephaniah
+- name: Zephaniah
   order: 36
   permalink: /faith/zephaniah
   description:
   image: 
 
-haggai:
-  name: Haggai
+- name: Haggai
   order: 37
   permalink: /faith/haggai
   description:
   image:
 
-zechariah:
-  name: Zechariah
+- name: Zechariah
   order: 38
   permalink: /faith/zechariah
   description:
   image: 
 
-malachi:
-  name: Malachi
+- name: Malachi
   order: 39
   permalink: /faith/malachi
   description:
   image:
 
-matthew:
-  name: Matthew
+- name: Matthew
   order: 40
   permalink: /faith/matthew
   description:
   image: https://res.cloudinary.com/caples/image/upload/v1654119782/Books%20of%20the%20Bible/matthew_skpq7w.jpg
 
-mark:
-  name: Mark
+- name: Mark
   order: 41
   permalink: /faith/mark
   description:
   image:
 
-luke:
-  name: Luke
+- name: Luke
   order: 42
   permalink: /faith/luke
   description:
   image:
 
-john:
-  name: John
+- name: John
   order: 43
   permalink: /faith/john
   description:
   image:
 
-acts:
-  name: Acts
+- name: Acts
   order: 44
   permalink: /faith/acts
   description:
   image:
 
-romans:
-  name: Romans
+- name: Romans
   order: 45
   permalink: /faith/romans
   description:
   image:
 
-1-corinthians:
-  name: 1 Corinthians
+- name: 1 Corinthians
   order: 46
   permalink: /faith/1-corinthians
   description:
   image:
 
-2-corinthians:
-  name: 2 Corinthians
+- name: 2 Corinthians
   order: 47
   permalink: /faith/2-corinthians
   description: ""
   image: ""
 
-galatians:
-  name: Galatians
+- name: Galatians
   order: 48
   permalink: /faith/galatians
   description:
   image:
 
-ephesians:
-  name: Ephesians
+- name: Ephesians
   order: 49
   permalink: /faith/ephesians
   description:
   image:
 
-philippians:
-  name: Philippians
+- name: Philippians
   order: 50
   permalink: /faith/philippians
   description:
   image:
 
-colossians:
-  name: Colossians
+- name: Colossians
   order: 51
   permalink: /faith/colossians
   description: "Written to the Colossian church, this short letter by the apostle Paul is overflowing with Christology. The church at Colossae (a.k.a. Colosse) was in a small town located in the Lycus river valley, within the Phrygian region in Asia. Many scholars agree that Paul did not start this church, and that it was likely Epaphras who planted and pastored the church. The letter was written was Paul to address a heresy that had arisen, but the specific false belief is not mentioned&mdash;only Paul's response, which is to affirm the deity of Jesus Christ. Paul also addresses a few other points, with his primary concern being the proper place of Christ as central to the believer's life: &ldquo;the substance is Christ&rdquo; (2:17, CSB)."
   image:
 
-1-thessalonians:
-  name: 1 Thessalonians
+- name: 1 Thessalonians
   order: 52
   permalink: /faith/1-thessalonians
   description:
   image:
 
-2-thessalonians:
-  name: 2 Thessalonians
+- name: 2 Thessalonians
   order: 53
   permalink: /faith/2-thessalonians
   description:
   image:
 
-1-timothy:
-  name: 1 Timothy
+- name: 1 Timothy
   order: 54
   permalink: /faith/1-timothy
   description:
   image:
 
-2-timothy:
-  name: 2 Timothy
+- name: 2 Timothy
   order: 55
   permalink: /faith/2-timothy
   description:
   image:
 
-titus:
-  name: Titus
+- name: Titus
   order: 56
   permalink: /faith/titus
   description:
   image:
 
-philemon:
-  name: Philemon
+- name: Philemon
   order: 57
   permalink: /faith/philemon
   description:
   image:
 
-hebrews:
-  name: Hebrews
+- name: Hebrews
   order: 58
   permalink: /faith/hebrews
   description:
   image:
 
-james:
-  name: James
+- name: James
   order: 59
   permalink: /faith/james
   description:
   image:
 
-1-peter:
-  name: 1 Peter
+- name: 1 Peter
   order: 60
   permalink: /faith/1-peter
   description:
   image:
 
-2-peter:
-  name: 2 Peter
+- name: 2 Peter
   order: 61
   permalink: /faith/2-peter
   description:
   image:
 
-1-john:
-  name: 1 John
+- name: 1 John
   order: 62
   permalink: /faith/1-john
   description:
   image:
 
-2-john:
-  name: 2 John
+- name: 2 John
   order: 63
   permalink: /faith/2-john
   description:
   image:
 
-3-john:
-  name: 3 John
+- name: 3 John
   order: 64
   permalink: /faith/3-john
   description:
   image:
 
-jude:
-  name: Jude
+- name: Jude
   order: 65
   permalink: /faith/jude
   description:
   image:
 
-revelation:
-  name: Revelation
+- name: Revelation
   order: 66
   permalink: /faith/revelation
   description:

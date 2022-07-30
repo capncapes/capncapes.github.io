@@ -27,9 +27,13 @@ I love this book for its delicate approach to the heart of Jesus, much like Chri
 >
 > <cite>Matthew 11:28–30, ESV</cite>
 
-In 23 rather short chapters, this book makes the case that Jesus loves us deeply, not in spite of our sin, but because of it. Ortlund invokes Romans 5:20 to remind the reader that God’s grace overwhelms our sin. “When we sin, the very heart of Christ is drawn out to us.” Indeed, the compassion of Christ is the attribute most noted by His followers.
+In 23 rather short chapters, this book makes the case that Jesus loves us deeply, not in spite of our sin, but because of it. Ortlund invokes Romans 5:20 to remind the reader that God’s grace overwhelms our sin. <q>When we sin, the very heart of Christ is drawn out to us.</q> Indeed, the compassion of Christ is the attribute most noted by His followers.
 
 > Not only are holiness and sinfulness mutually exclusive, but Christ, being perfectly holy, knows and feels the horror and weight of sin more deeply than any of us sinful ones could—just as the purer a man’s heart, the more horrified he is at the thought of his neighbors being robbed or abused.
+>
+> <cite>Dane Ortlund, Gentle and Lowly</cite>
+
+> Though the crowds call him the friend of sinners as an indictment, the label is one of unspeakable comfort for those who know themselves to be sinners. That Jesus is friend to sinners is only contemptible to those who feel themselves not to be in that category.
 >
 > <cite>Dane Ortlund, Gentle and Lowly</cite>
 
