@@ -8,7 +8,7 @@ featured_image: {
   alt: ""
 }
 category: Faith
-bible_books: Colossians
+bible_books: "Colossians"
 tags: ["Christ", "Paul's letters"]
 featured: false
 published: false

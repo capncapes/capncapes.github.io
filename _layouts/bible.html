@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html id="splendid" lang="en-US" class="no-js">
+	{% include head.html %}
+	<body id="bible" class="{{ page.id }}" data-book="{{ page.title }}">
+		{% include header.html %}
+		{% assign book = site.data.bible | where: "name", page.title %}
+		{% for b in book %}
+			<div class="px-7 bg-sand">
+				<h1 class="relative max-w-4 mx-auto md:mx-10 lg:mx-auto pt-20 lg:px-10 text-3xl lg:text-4xl font-bold">{{ b.name }}</h1>
+				<div class="meta lg:splendid-flex max-w-4 mx-auto md:mx-10 lg:mx-auto pt-0 pb-4 lg:px-10 flex-row justify-start flex-wrap text-sm font-normal border-b border-b-solid border-black">
+					<div>{{ b.group }}</div>
+					<div>{{ b.set }}</div>
+					<div>Author: {{ b.author }}</div>
+				</div>
+				<p class="relative max-w-4 mx-auto md:mx-10 lg:mx-auto pt-0 pb-10 lg:px-10 text-xs lg:text-sm font-normal">{{ b.description }}</p>
+			</div>
+		{% endfor %}
+		<main class="blog lg:pt-8 pb-16 px-7 md:px-10">
+			{{ content }}
+		</main>
+		{% include footer.html %}
+	</body>
+</html>

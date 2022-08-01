@@ -9,6 +9,7 @@ featured_image: {
 category: MarTech
 tags: ["web development", "CSS"]
 featured: false
+published: true
 ---
 
 CSS. Developers tend to either love it or hate it—sometimes depending on the day. Well, here’s a reason to love it: CSS counters.
@@ -130,6 +131,6 @@ If the standard list-style-type values aren’t sufficient, you could define you
 
 > The initial version of CSS defined a set of useful counter styles. However, although more styles were added to this set of predefined styles over the years, this system proved too restrictive to fulfill the needs of worldwide typography. The @counter-style at-rule addresses this shortcoming in an open-ended manner, by allowing authors to define their own counter styles when the pre-defined styles aren’t fitting their needs.
 
-I won’t get into `@counter-style` this time, but check out the tutorial on the [`@counter-style` CSS at-rule](https://www.quackit.com/css/at-rules/css_counter-style_at-rule.cfm) over at Quackit. To see the rest of the CSS counter tools in action, take a look at this [Codepen collection about CSS counters](https://codepen.io/collection/gYzzQv).
+I won’t get into `@counter-style` this time, but check out the tutorial on the [`@counter-style` CSS at-rule](https://www.quackit.com/css/at-rules/css_counter-style_at-rule.cfm) over at Quackit. To see the rest of the CSS counter tools in action, take a look at this [Codepen collection about CSS counters](https://codepen.io/collection/gYzzQv), and watch this [video tutorial by Chris Coyier](https://youtu.be/XFXVJBzsMCA) about ordered lists and CSS counters.
 
 Using CSS counters is pretty easy once you understand the the few properties involved. I prefer CSS counters when the task is about styling. If you need proper list markup, this isn’t the method to use. (You’re probably looking for [HTML lists](https://www.freecodecamp.org/news/html-list-how-to-use-bullet-points-ordered-and-unordered-lists/).) Nevertheless, there’s a lot you can do with only a handful of CSS.

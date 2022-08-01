@@ -145,7 +145,7 @@
 - name: Lamentations
   order: 25
   permalink: /faith/lamentations
-  description:
+  description: "The book of Lamentations is a poetic work of five chapters written by the prophet Jeremiah in response to the destruction of Jerusalem by Nebuchadnezzar of Babylon. In Lamentations, each chapter is an acrostic poem. Chapters 1, 2, 4, and 5 all contain 22 verses, each beginning with a letter from the Hebrew alphabet, in ascending order."
   image:
 
 - name: Ezekiel
@@ -234,162 +234,199 @@
 
 - name: Matthew
   order: 40
+  author: Matthew
+  group: New Testament
+  set: Gospels
   permalink: /faith/matthew
   description:
   image: https://res.cloudinary.com/caples/image/upload/v1654119782/Books%20of%20the%20Bible/matthew_skpq7w.jpg
 
 - name: Mark
   order: 41
+  author: Mark
+  group: New Testament
+  set: Gospels
   permalink: /faith/mark
   description:
   image:
 
 - name: Luke
   order: 42
+  author: Luke
+  group: New Testament
+  set: Gospels
   permalink: /faith/luke
   description:
   image:
 
 - name: John
   order: 43
+  author: John
+  group: New Testament
+  set: Gospels
   permalink: /faith/john
   description:
   image:
 
 - name: Acts
   order: 44
+  author: Luke
   permalink: /faith/acts
   description:
   image:
 
 - name: Romans
   order: 45
+  author: Paul
   permalink: /faith/romans
   description:
   image:
 
 - name: 1 Corinthians
   order: 46
+  author: Paul
   permalink: /faith/1-corinthians
   description:
   image:
 
 - name: 2 Corinthians
   order: 47
+  author: Paul
   permalink: /faith/2-corinthians
   description: ""
   image: ""
 
 - name: Galatians
   order: 48
+  author: Paul
   permalink: /faith/galatians
   description:
   image:
 
 - name: Ephesians
   order: 49
+  author: Paul
   permalink: /faith/ephesians
   description:
   image:
 
 - name: Philippians
   order: 50
+  author: Paul
   permalink: /faith/philippians
   description:
   image:
 
 - name: Colossians
   order: 51
+  author: Paul
+  group: New Testament
+  set: Epistles
   permalink: /faith/colossians
-  description: "Written to the Colossian church, this short letter by the apostle Paul is overflowing with Christology. The church at Colossae (a.k.a. Colosse) was in a small town located in the Lycus river valley, within the Phrygian region in Asia. Many scholars agree that Paul did not start this church, and that it was likely Epaphras who planted and pastored the church. The letter was written was Paul to address a heresy that had arisen, but the specific false belief is not mentioned&mdash;only Paul's response, which is to affirm the deity of Jesus Christ. Paul also addresses a few other points, with his primary concern being the proper place of Christ as central to the believer's life: &ldquo;the substance is Christ&rdquo; (2:17, CSB)."
+  description: "Written to the Colossian church, this short letter by the apostle Paul is overflowing with Christology. The church at Colossae (a.k.a. Colosse) was in a small town located in the Lycus river valley, within the Phrygian region in Asia. Many scholars agree that it was likely Epaphras, not Paul, who planted and pastored the church. The letter addresses a heresy that had arisen, but specifics are not mentioned&mdash;only Paul's response, which is to affirm the deity of Jesus Christ and to establish Christ as central to the believer's life: &ldquo;the substance is Christ&rdquo; (2:17, CSB)."
   image:
 
 - name: 1 Thessalonians
   order: 52
+  author: Paul
   permalink: /faith/1-thessalonians
   description:
   image:
 
 - name: 2 Thessalonians
   order: 53
+  author: Paul
   permalink: /faith/2-thessalonians
   description:
   image:
 
 - name: 1 Timothy
   order: 54
+  author: Paul
   permalink: /faith/1-timothy
   description:
   image:
 
 - name: 2 Timothy
   order: 55
+  author: Paul
   permalink: /faith/2-timothy
   description:
   image:
 
 - name: Titus
   order: 56
+  author:
   permalink: /faith/titus
   description:
   image:
 
 - name: Philemon
   order: 57
+  author: Paul
   permalink: /faith/philemon
   description:
   image:
 
 - name: Hebrews
   order: 58
+  author: Unknown
   permalink: /faith/hebrews
   description:
   image:
 
 - name: James
   order: 59
+  author: James
   permalink: /faith/james
   description:
   image:
 
 - name: 1 Peter
   order: 60
+  author: Peter
   permalink: /faith/1-peter
   description:
   image:
 
 - name: 2 Peter
   order: 61
+  author: Peter
   permalink: /faith/2-peter
   description:
   image:
 
 - name: 1 John
   order: 62
+  author: John
   permalink: /faith/1-john
   description:
   image:
 
 - name: 2 John
   order: 63
+  author: John
   permalink: /faith/2-john
   description:
   image:
 
 - name: 3 John
   order: 64
+  author: John
   permalink: /faith/3-john
   description:
   image:
 
 - name: Jude
   order: 65
+  author:
   permalink: /faith/jude
   description:
   image:
 
 - name: Revelation
   order: 66
+  author: John
   permalink: /faith/revelation
   description:
   image: https://res.cloudinary.com/caples/image/upload/v1654119783/Books%20of%20the%20Bible/revelation_wzosto.jpg

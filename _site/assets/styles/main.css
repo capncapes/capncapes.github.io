@@ -198,6 +198,12 @@ body p a {
 	border-bottom-style: solid;
 }
 
+body p a[rel=footnote],
+body .footnotes p a[role=doc-backlink] {
+	border-bottom-width: 0;
+	border-bottom-style: none;
+}
+
 h1, h1 > * {
 	font-size: 2.5rem !important;
 	line-height: 3rem;
@@ -829,6 +835,30 @@ ol.two-columns, ol.three-columns, ol.four-columns, ol.five-columns, ol.six-colum
 	list-style: none;
 }
 
+.footnotes {
+	margin-top: 3rem;
+	font-size: 0.85rem;
+	border-top: 1px solid #121212;
+}
+
+.footnotes > ol, .footnotes > ul {
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+	padding-left: 3rem;
+	padding-right: 3rem;
+	list-style-position: inside !important;
+}
+
+.footnotes > ol > li::marker, .footnotes > ul > li::marker {
+	font-weight: bold;
+}
+
+.footnotes > ol > li > p, .footnotes > ul > li > p {
+	display: inline !important;
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+}
+
 audio, canvas, embed, iframe, img, object, svg, video {
 	display: block;
 	margin-left: auto;
@@ -858,8 +888,6 @@ audio, canvas, embed, iframe, img, object, svg, video {
 }
 
 #default h1 { font-family: 'Raginy', 'Bodoni', 'Cambria', 'Cochin', 'Georgia', 'Times', 'Times New Roman', serif; }
-
-.footnotes { font-size: 0.85rem; }
 
 body hr {
 	margin: 3rem 0 1rem;

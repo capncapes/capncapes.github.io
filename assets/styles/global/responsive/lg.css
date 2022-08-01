@@ -160,6 +160,15 @@ main > *, main .cards-gallery {
 
 #default h1 { width: calc(100% - 5rem); }
 
+/* Archives */
+
+#bible .meta > div:not(:first-child)::before {
+	content: "//";
+	margin-left: 0.5rem;
+	margin-right: 0.5rem;
+	opacity: 50%;
+}
+
 /* ================================================================
 	19	Utilities
 ================================================================ */

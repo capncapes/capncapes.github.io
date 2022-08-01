@@ -8,7 +8,7 @@ featured_image: {
   alt: ""
 }
 category: Faith
-bible_books: Jeremiah
+bible_books: "Jeremiah"
 tags: ["relationships"]
 featured: false
 published: false
