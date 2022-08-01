@@ -1,7 +1,7 @@
 ---
 layout: book_review
 date: 2022-07-31 20:40:03 -0400
-title: "The Gospel Comes with a House Key: Practicing Radically Ordinary Hospitality in Our Post-Christian World"
+title: "The Gospel Comes with a House Key"
 book: {
   title: "The Gospel Comes with a House Key: Practicing Radically Ordinary Hospitality in Our Post-Christian World",
   isbn: "978-1-4335-5786-6",
