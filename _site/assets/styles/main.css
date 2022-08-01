@@ -102,11 +102,11 @@ code, code span, pre, pre span {
 .text-black { color: #121212; }
 .text-white { color: #F8F9FA; }
 
-body a, body p a, body p a:visited, .card .read-more:hover, #post article .tags a.tag:hover {
+body a, body p a, body p a:visited, .card .read-more:hover, #post article .tags a.tag:hover, #book-review article .tags a.tag:hover {
 	color: #F05454;
 }
 
-body p a, #post article .tags a.tag:hover {
+body p a, #post article .tags a.tag:hover, #book-review article .tags a.tag:hover {
 	border-color: #F05454;
 }
 

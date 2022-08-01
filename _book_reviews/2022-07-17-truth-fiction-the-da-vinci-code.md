@@ -140,5 +140,4 @@ Likewise, I enjoyed reading <a href="https://www.amazon.com/Truth-Fiction-Vinci-
 
 I recommend this book for anyone interested in a non-religious, expert perspective on biblical texts, religious history, and textual criticism.
 
-<hr>
 [^1]: Though _pagan_ can sometimes have negative connotations, the word generally refers to adherents of polytheistic religions, which is how Dr. Ehrman defines it in the opening chapter.
