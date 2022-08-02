@@ -15,7 +15,7 @@ category: Book Reviews
 	<!-- Books Gallery : START -->
 	<div class="books-gallery mt-16 lg:mt-24">
 
-		{% for post in site.book_reviews %}
+		{% for post in site.book_reviews reversed %}
 		<article itemscope itemtype="https://schema.org/Book" class="splendid-flex flex-col justify-between" style="grid-auto-rows:1fr;">
 			<div class="overflow-hidden rounded shadow" data-item="book-cover">
 				<a href="{{ post.url }}">
