@@ -304,6 +304,10 @@ main.px-10 article blockquote {
 	19	Utilities
 ================================================================ */
 
+.sm\:block { display: block !important; }
+.sm\:inline { display: inline !important; }
+.sm\:hidden { display: none !important; }
+
 .sm\:rounded, img.sm\:rounded, img.sm\:rounded * { border-radius: 4px !important; }
 
 .sm\:shadow { box-shadow: 0 5px 35px 0 rgb(0 0 0 / 15%); }

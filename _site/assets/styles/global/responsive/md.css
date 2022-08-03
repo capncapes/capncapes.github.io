@@ -375,6 +375,10 @@ blockquote {
 	19	Utilities
 ================================================================ */
 
+.md\:block { display: block !important; }
+.md\:inline { display: inline !important; }
+.md\:hidden { display: none !important; }
+
 .md\:rounded, img.md\:rounded, img.md\:rounded * { border-radius: 4px !important; }
 
 /* ================================================================

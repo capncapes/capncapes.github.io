@@ -65,6 +65,10 @@ body *.xl\:text-4xl { font-size: 3rem !important; }
 	19	Utilities
 ================================================================ */
 
+.xl\:block { display: block !important; }
+.xl\:inline { display: inline !important; }
+.xl\:hidden { display: none !important; }
+
 .xl\:rounded, img.xl\:rounded, img.xl\:rounded * { border-radius: 4px !important; }
 
 /* ================================================================

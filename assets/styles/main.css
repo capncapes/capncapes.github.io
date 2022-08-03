@@ -179,6 +179,22 @@ body p a:hover, body p a:active, #post article .tags a, #book-review article .ta
 	font-style: normal;
 }
 
+body *.font-sans {
+	font-family: 'Open Sans', sans-serif;
+}
+
+body *.font-serif {
+	font-family: 'Bodoni', serif;
+}
+
+body *.font-display {
+	font-family: 'Raginy';
+}
+
+body *.font-monospace {
+	font-family: 'Share Tech Mono', monospace;
+}
+
 strong { font-weight: bold !important; }
 em { font-style: italic !important; }
 
@@ -328,14 +344,25 @@ header .branding svg #logomark {
 	stroke-opacity:1;
 	-webkit-animation: draw 1.2s ease-in 0s 1 running;
 	animation: draw 1.2s ease-in 0s 1 running;
-	-webkit-transition: stroke 0.2s ease-in-out;
-	-o-transition: stroke 0.2s ease-in-out;
-	-moz-transition: stroke 0.2s ease-in-out;
-	transition: stroke 0.2s ease-in-out;
+	-webkit-transition: stroke 0.15s ease-in-out;
+	-o-transition: stroke 0.15s ease-in-out;
+	-moz-transition: stroke 0.15s ease-in-out;
+	transition: stroke 0.15s ease-in-out;
+}
+
+header .branding > span {
+	-webkit-transition: color 0.15s ease-in-out;
+	-o-transition: color 0.15s ease-in-out;
+	-moz-transition: color 0.15s ease-in-out;
+	transition: color 0.15s ease-in-out;
 }
 
 header .branding:hover svg #logomark {
 	stroke: #2CA096;
+}
+
+header .branding:hover > span {
+	color: #2CA096;
 }
 
 header .branding div {
@@ -1192,6 +1219,7 @@ body p a code { font-weight: bold; }
 
 .block { display: block !important; }
 .inline { display: inline !important; }
+.hidden { display: none !important; }
 
 .sticky {
 	position: fixed !important;

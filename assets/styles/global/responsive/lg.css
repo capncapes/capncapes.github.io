@@ -173,6 +173,10 @@ main > *, main .cards-gallery {
 	19	Utilities
 ================================================================ */
 
+.lg\:block { display: block !important; }
+.lg\:inline { display: inline !important; }
+.lg\:hidden { display: none !important; }
+
 .lg\:rounded, img.lg\:rounded, img.lg\:rounded * { border-radius: 4px !important; }
 
 /* ================================================================
