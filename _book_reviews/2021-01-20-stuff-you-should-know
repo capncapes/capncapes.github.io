@@ -1,0 +1,20 @@
+---
+layout: book_review
+date: 2021-01-20 04:40:30 -0400
+title: "Stuff You Should Know"
+book: {
+  title: "Stuff You Should Know: An Incomplete Compendium of Mostly Interesting Things",
+  isbn: "978-1-250-26850-1",
+  pages: "304",
+  publisher: "Flatiron Books",
+  author: ["Josh Clark", "Chuck Bryant"]
+}
+description: ""
+featured_image: {
+  src: "sysk-book.jpeg",
+  title: "Stuff You Should Know, by Josh Clark and Chuck Bryant",
+  alt: "Stuff You Should Know: An Incomplete Compendium of Mostly Interesting Things"
+}
+tags: ["trivia", "nonfiction", "history", "science"]
+published: false
+---
