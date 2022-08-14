@@ -37,12 +37,16 @@ body *.xl\:text-4xl { font-size: 3rem !important; }
 	flex-direction: row;
 }
 
-#post article header + picture {
+/* #post article header + picture {
 	margin-left: -4rem;
-}
+} */
 
-#post article header + picture.absolute {
-	inset: -2rem 3rem -2rem 65%;
+#post .card header picture.absolute {
+    width: 40%;
+	max-width: 40%;
+    height: 16rem;
+    max-height: 16rem;
+    inset: auto 0 -9rem auto;
 }
 
 #post article > ol, #post article > ul {

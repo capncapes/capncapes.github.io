@@ -608,9 +608,15 @@ b.tabs-section header p {
 	letter-spacing: 0.15rem;
 }
 
-#post article .card + *,
+#post main > *,
 #book-review article .card + * {
-	margin-top: 17rem;
+	margin-top: 15rem;
+}
+
+#post .card header picture.absolute {
+	height: 15rem;
+	left: 0;
+	right: 0;
 }
 
 #post article .tags,
@@ -1345,7 +1351,6 @@ img[src=""] { display: none !important; }
 	display: flex;
 	margin: 0 auto;
 	width: calc(100% - 3rem);
-	max-width: 60rem;
 	row-gap: 1.5rem;
 	column-gap: calc(40% - (100% / 3));
 	flex-flow: row wrap;

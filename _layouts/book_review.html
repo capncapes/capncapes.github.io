@@ -79,8 +79,8 @@
 			}
 		</script>
 		{% include header.html %}
-		<div class="card w-full bg-blue">
-			<header class="md:splendid-flex relative w-full max-w-5 mx-auto p-7 sm:px-14 md:px-20 md:pt-20 md:pb-24 lg:py-12 lg:px-20 flex-row justify-between items-start text-white">
+		<div class="card w-full px-7 bg-blue">
+			<header class="md:splendid-flex relative w-full max-w-4 mx-auto p-7 sm:px-14 md:px-0 md:pt-20 md:pb-24 lg:py-12 lg:px-0 flex-row justify-between items-start text-white">
 				<div class="md:mr-12 grow-1">
 					<div class="label mb-4 font-bold text-xs uppercase opacity-50">Book Review</div>
 					<h1 class="mb-6 mx-auto p-0 sm:text-xl md:text-2xl lg:text-3xl font-bold italic">{{ page.book.title }}</h1>
@@ -97,7 +97,7 @@
 		<main class="pb-16 px-7 md:px-10">
 
 			<!-- Book Review : BEGIN -->
-			<article class="max-w-5">
+			<article class="max-w-text">
 				{% if page.date or page.tags %}
 					<div class="relative max-w-4 mb-16 -ml-7 md:ml-auto -mr-7 md:mr-auto py-10 px-7 md:px-12 border-b-1 border-b-solid border-sand">
 					{% if page.date %}

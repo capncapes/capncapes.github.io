@@ -81,13 +81,24 @@ ul.navbar-nav {
 	width: 50%;
 }
 
-#post article header + picture {
-	margin-left: -4rem;
+#post .card header div:first-child {
+	margin-right: 40%;
 }
+
+/* #post article header + picture {
+	margin-left: -4rem;
+} */
 
 #post article header + picture.absolute {
 	inset: 2rem -2rem -2rem 70%;
 	transform: none;
+}
+
+#post .card header picture.absolute {
+	max-width: 40%;
+	height: 100%;
+	max-height: 100%;
+	inset: auto 0 -5rem auto;
 }
 
 #post article .card + *,
@@ -100,6 +111,10 @@ ul.navbar-nav {
 #post article > ol, #post article > ul {
 	padding-left: 7rem;
 	padding-right: 3rem;
+}
+
+#post main > *, #book-review article .card + * {
+	margin-top: 0;
 }
 
 /* Book Review */

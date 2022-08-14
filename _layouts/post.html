@@ -114,25 +114,27 @@
 			}
 		</script>
 		{% include header.html %}
+		<div class="card w-full px-7 bg-blue">
+			<header class="md:splendid-flex relative w-full max-w-5 mx-auto p-7 sm:px-14 md:px-20 lg:px-20 flex-row justify-between items-start text-white">
+				<div class="grow-1">
+					<div class="label mb-4 font-bold text-xs uppercase opacity-50">{{ page.category }}</div>
+					<h1 class="mb-6 mx-auto p-0 sm:text-xl md:text-2xl lg:text-3xl font-bold">{{ page.title }}</h1>
+				</div>
+				{% if page.featured_image.src != '' %}
+					<picture class="absolute">
+						<img class="w-full h-full object-cover object-{% unless page.featured_image.position %}center{% else %}{{ page.featured_image.position }}{% endunless %} rounded shadow" src="{{ site.url }}/assets/img/{{ page.category | downcase }}/{{ page.featured_image.src }}" alt="{{ page.featured_image.alt }}">
+					</picture>
+				{% endif %}
+			</header>
+		</div>
 		<main class="lg:pt-24 pb-16 px-7 md:px-10">
 
 			<!-- Blog Post : BEGIN -->
-			<article itemscope itemtype="https://schema.org/BlogPosting" class="max-w-5">
-				<div class="card splendid-flex relative w-full justify-between bg-green lg:rounded shadow">
-					<header class="md:w-half max-w-4 sm:px-12 md:py-20 md:px-20 lg:p-12 text-white">
-						<div class="label mb-4 font-bold text-xs uppercase opacity-50">{{ page.category }}</div>
-						<h1 itemprop="name" class="mb-6 mx-auto p-0 sm:text-xl md:text-2xl lg:text-3xl font-medium normal">{{ page.title }}</h1>
-					</header>
-					{% if page.featured_image.src != '' %}
-						<picture class="absolute">
-							<img class="w-full h-full object-cover object-{% unless page.featured_image.position %}center{% else %}{{ page.featured_image.position }}{% endunless %} rounded shadow" src="{{ site.url }}/assets/img/{{ page.category | downcase }}/{{ page.featured_image.src }}" alt="{{ page.featured_image.alt }}">
-						</picture>
-					{% endif %}
-				</div>
+			<article itemscope itemtype="https://schema.org/BlogPosting" class="max-w-text">
 				{% if page.date or page.tags or page.bible_books %}
-				<div class="relative max-w-4 mx-auto mb-20 lg:pt-10 pb-10 md:px-12 border-b-1 border-b-solid border-sand">
+				<div class="relative max-w-4 mx-auto mb-20 lg:pt-0 pb-10 md:px-12 border-b-1 border-b-solid border-sand">
 					{% if page.date %}
-						<time datetime="{{ page.date | date: '%Y-%m-%dT%H:%M:%S-04:00' }}" class="block pt-12 text-sm normal">{{ page.date | date: "%B %d, %Y" }}</time>
+						<time datetime="{{ page.date | date: '%Y-%m-%dT%H:%M:%S-04:00' }}" class="block pt-0 text-sm normal">{{ page.date | date: "%B %d, %Y" }}</time>
 					{% endif %}
 					{% if page.tags or page.bible_books %}
 						{% include tags.html %}

@@ -223,8 +223,8 @@ body > header { overflow: hidden; }
 	width: calc(100% - 10rem);
 }
 
-#post article header + picture.absolute {
-	inset: 100% 2.5rem -20rem 2.5rem;
+#post .card header picture.absolute {
+	inset: 110% 2.5rem -20rem 2.5rem;
 	transform: translate(0, -3rem);
 }
 
