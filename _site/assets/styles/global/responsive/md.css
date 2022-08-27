@@ -3,21 +3,22 @@ TABLE OF CONTENTS
 	2	Typography
 	3	Header
 	5	Tabs Section
-	7	Countdown Section
-	9	Form Section
-	10	Single Post
-	12	Cards Gallery
-	13	Tables
-	14	Content Layouts
-	17	Blockquotes
-	18	Code Blocks
-	19	Utilities
-	21	Responsive
-		21.1	Display / Position / Overflow
-		21.2	Width
-		21.3	Margin
-		21.4	Padding
-		21.5	Utilities
+	7	Carousel Section
+	8	Countdown Section
+	10	Form Section
+	11	Single Post
+	13	Gallery Layouts
+	14	Tables
+	15	Content Layouts
+	18	Blockquotes
+	19	Code Blocks
+	20	Utilities
+	22	Responsive
+		22.1	Display / Position / Overflow
+		22.2	Width
+		22.3	Margin
+		22.4	Padding
+		22.5	Utilities
 ---------------------------------------------------------------- */
 
 /* ================================================================
@@ -188,7 +189,20 @@ body > header { overflow: hidden; }
 }
 
 /* ================================================================
-	7	Countdown Section
+	7	Carousel Section
+================================================================ */
+
+.carousel-section > .carousel > div::before,
+.carousel-section > .carousel > div::after {
+	width: 3rem;
+}
+
+.carousel-section > .carousel article {
+	width: 40%;
+}
+
+/* ================================================================
+	8	Countdown Section
 ================================================================ */
 
 .countdown {
@@ -200,7 +214,7 @@ body > header { overflow: hidden; }
 }
 
 /* ================================================================
-	9	Form Section
+	10	Form Section
 ================================================================ */
 
 .form-row, .form-group {
@@ -208,7 +222,7 @@ body > header { overflow: hidden; }
 }
 
 /* ================================================================
-	10	Single Post
+	11	Single Post
 ================================================================ */
 
 #post article .card,
@@ -258,7 +272,7 @@ body > header { overflow: hidden; }
 }
 
 /* ================================================================
-	12	Gallery Layouts
+	13	Gallery Layouts
 ================================================================ */
 
 /* Cards Gallery */
@@ -293,7 +307,7 @@ body > header { overflow: hidden; }
 }
 
 /* ================================================================
-	13	Tables
+	14	Tables
 ================================================================ */
 
 th, td {
@@ -303,7 +317,7 @@ th, td {
 }
 
 /* ================================================================
-	14	Content Layouts
+	15	Content Layouts
 ================================================================ */
 
 .container {
@@ -353,7 +367,7 @@ p:last-child {
 }
 
 /* ================================================================
-	17	Blockquotes
+	18	Blockquotes
 ================================================================ */
 
 blockquote {
@@ -364,7 +378,7 @@ blockquote {
 }
 
 /* ================================================================
-	18	Code Blocks
+	19	Code Blocks
 ================================================================ */
 
 #splendid figure pre {
@@ -372,7 +386,7 @@ blockquote {
 }
 
 /* ================================================================
-	19	Utilities
+	20	Utilities
 ================================================================ */
 
 .md\:block { display: block !important; }
@@ -382,11 +396,11 @@ blockquote {
 .md\:rounded, img.md\:rounded, img.md\:rounded * { border-radius: 4px !important; }
 
 /* ================================================================
-	21	Responsive ====================================================
+	22	Responsive ====================================================
 ================================================================ */
 
 /* ================================================================
-	21.1	Display / Position / Overflow
+	22.1	Display / Position / Overflow
 ================================================================ */
 
 .md\:splendid-block { display: block; }
@@ -411,7 +425,7 @@ blockquote {
 .md\:overflow-visible { overflow: visible; }
 
 /* ================================================================
-	21.2	Width
+	22.2	Width
 ================================================================ */
 
 .md\:w-auto { width: auto; }
@@ -431,7 +445,7 @@ blockquote {
 .md\:w-10 { width: 10%; }
 
 /* ================================================================
-	21.3	Margin
+	22.3	Margin
 ================================================================ */
 
 .md\:m-0 { margin: 0 !important; }
@@ -744,7 +758,7 @@ blockquote {
 .md\:mr-auto { margin-right: auto !important; }
 
 /* ================================================================
-    21.4   Padding
+    22.4   Padding
 ================================================================ */
 
 .md\:p-0 { padding: 0 !important; }
@@ -1054,7 +1068,7 @@ blockquote {
 .md\:pr-1\/4 { padding-right: 25% !important; }
 
 /* ================================================================
-	21.5	Utilities
+	22.5	Utilities
 ================================================================ */
 
 .md\:shadow { box-shadow: 0 5px 35px 0 rgb(0 0 0 / 15%); }

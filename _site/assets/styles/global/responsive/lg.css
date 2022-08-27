@@ -3,15 +3,15 @@ TABLE OF CONTENTS
 	2	Typography
 	3	Header
 	5	Tabs Section
-	10	Single Post
-	12	Gallery Layouts
-	14	Content Layouts
-	19	Utilities
-	21	Responsive
-			21.1	Display / Position / Overflow
-			21.2	Width
-			21.3	Margin
-			21.4	Padding
+	11	Single Post
+	13	Gallery Layouts
+	15	Content Layouts
+	20	Utilities
+	22	Responsive
+			22.1	Display / Position / Overflow
+			22.2	Width
+			22.3	Margin
+			22.4	Padding
 ---------------------------------------------------------------- */
 
 /* ================================================================
@@ -66,7 +66,7 @@ ul.navbar-nav {
 }
 
 /* ================================================================
-	10	Single Post
+	11	Single Post
 ================================================================ */
 
 #post article .card {
@@ -133,7 +133,7 @@ ul.navbar-nav {
 }
 
 /* ================================================================
-	12	Gallery Layouts
+	13	Gallery Layouts
 ================================================================ */
 
 /* Cards Gallery */
@@ -170,7 +170,7 @@ main > *, main .cards-gallery {
 }
 
 /* ================================================================
-	14	Content Layouts
+	15	Content Layouts
 ================================================================ */
 
 #default h1 { width: calc(100% - 5rem); }
@@ -185,7 +185,7 @@ main > *, main .cards-gallery {
 }
 
 /* ================================================================
-	19	Utilities
+	20	Utilities
 ================================================================ */
 
 .lg\:block { display: block !important; }
@@ -195,11 +195,11 @@ main > *, main .cards-gallery {
 .lg\:rounded, img.lg\:rounded, img.lg\:rounded * { border-radius: 4px !important; }
 
 /* ================================================================
-	21	Responsive
+	22	Responsive
 ================================================================ */
 
 /* ================================================================
-	21.1	Display / Position / Overflow
+	22.1	Display / Position / Overflow
 ================================================================ */
 
 .lg\:splendid-block { display: block; }
@@ -224,7 +224,7 @@ main > *, main .cards-gallery {
 .lg\:overflow-visible { overflow: visible; }
 
 /* ================================================================
-	21.2	Width
+	22.2	Width
 ================================================================ */
 
 .lg\:w-auto { width: auto; }
@@ -244,7 +244,7 @@ main > *, main .cards-gallery {
 .lg\:w-10 { width: 10%; }
 
 /* ================================================================
-	21.3	Margin
+	22.3	Margin
 ================================================================ */
 
 .lg\:m-0 { margin: 0 !important; }
@@ -557,7 +557,7 @@ main > *, main .cards-gallery {
 .lg\:mr-auto { margin-right: auto !important; }
 
 /* ================================================================
-	21.4	Padding
+	22.4	Padding
 ================================================================ */
 
 .lg\:p-0 { padding: 0 !important; }

@@ -7,21 +7,22 @@ TABLE OF CONTENTS
 	4	Hero Section
 	5	Tabs Section
 	6	Posts Section
-	7	Countdown Section
-	8	CTA Section
-	9	Form Section
-	10	Single Post
-	11	Related Posts
-	12	Gallery Layouts
-	13	Tables
-	14	Content Layouts
-	15	Page Navigation
-	16	Buttons + Links
-	17	Blockquotes
-	18	Code Blocks
-	19	Utilities
-	20	Footer
-	21	Responsive
+	7	Carousel Section
+	8	Countdown Section
+	9	CTA Section
+	10	Form Section
+	11	Single Post
+	12	Related Posts
+	13	Gallery Layouts
+	14	Tables
+	15	Content Layouts
+	16	Page Navigation
+	17	Buttons + Links
+	18	Blockquotes
+	19	Code Blocks
+	20	Utilities
+	21	Footer
+	22	Responsive
 ---------------------------------------------------------------- */
 
 /* ================================================================
@@ -512,7 +513,62 @@ b.tabs-section header p {
 }
 
 /* ================================================================
-	7	Countdown Section
+	7	Carousel Section
+================================================================ */
+
+/* .carousel-section > .carousel::before,
+.carousel-section > .carousel::after {
+	content: "";
+	position: absolute;
+	width: 3rem;
+	height: 100%;
+	background-color: #F05454;
+} */
+
+.carousel-section > .carousel {
+	padding-bottom: 0 !important;
+	max-width: 100% !important;
+}
+
+.carousel-section > .carousel > div {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	width: 100%;
+	/* max-width: 60rem; */
+	margin: 0 auto;
+	padding-bottom: 2.5rem;
+	column-gap: 2rem;
+	overflow: auto;
+	-ms-scroll-snap-type: x mandatory;
+	scroll-snap-type: x mandatory;
+}
+
+.carousel-section > .carousel > div::before,
+.carousel-section > .carousel > div::after {
+	content: "";
+	position: relative;
+	width: 0;
+	height: 16rem;
+	-ms-flex-negative: 0;
+	flex-shrink: 0;
+	scroll-snap-align: start;
+	z-index: 99999;
+}
+
+/* .carousel-section.bg-blue > .carousel::before { background: linear-gradient(to right, #30475E, transparent); }
+.carousel-section.bg-blue > .carousel::after { background: linear-gradient(to left, #30475E, transparent); } */
+
+.carousel-section > .carousel article {
+	width: 55%;
+	height: 16rem;
+	-ms-flex-negative: 0;
+	flex-shrink: 0;
+	scroll-snap-align: start;
+}
+
+/* ================================================================
+	8	Countdown Section
 ================================================================ */
 
 .countdown-section > header {

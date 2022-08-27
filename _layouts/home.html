@@ -127,6 +127,37 @@
 		</section>
 		<!-- Tabs Section : END -->
 
+		<!-- Carousel Section : BEGIN -->
+		<section class="carousel-section py-12 bg-blue">
+			<header class="mx-8 md:mx-20 pb-8 text-white">
+				<h2>Carousel Section</h2>
+			</header>
+			<div class="carousel splendid-flex relative">
+				<div>
+					{% for post in site.categories["Faith"] %}
+					<article itemscope itemtype="https://schema.org/BlogPosting" title="{{ post.title }}" class="card relative{% if post.featured == true %} featured{% endif %} rounded bg-yellow shadow">
+						<a href="{{ post.url }}">
+							<div>
+								<div class="absolute inset-0 w-full h-full z-0">
+									<picture>
+										<img class="w-full h-full object-cover rounded" src="{{ site.url }}/assets/img/{{ post.category | downcase }}/{{ post.featured_image.src }}" alt="{{ post.featured_image.alt }}">
+									</picture>
+								</div>
+							</div>
+							<div class="info absolute w-full h-full top-0 p-0 splendid-flex flex-col justify-end items-end flex-nowrap rounded">
+								<h4 itemprop="name" class="title w-90 mb-4 mx-auto p-0 text-lg normal">{{ post.title }}</h4>
+								<div class="splendid-flex w-90 mb-3 mx-auto p-0 flex-row justify-between flex-nowrap">
+									<time itemprop="datePublished" datetime="{{ post.date | date: '%Y-%m-%dT%H:%M:%S-05:00' }}" class="p-0 text-xs normal">{{ post.date | date: "%b %d, %Y" }}</time>
+								</div>
+							</div>
+						</a>
+					</article>
+					{% endfor %}
+				</div>
+			</div>
+		</section>
+		<!-- Carousel Section : END -->
+
 		<!-- CTA Section : BEGIN -->
 		<section class="cta-section bg-sand">
 			<div class="md:splendid-flex pt-20 px-6 pb-20 flex-row justify-between items-center">

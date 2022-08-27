@@ -3,19 +3,19 @@ TABLE OF CONTENTS
 	2	Typography
 	3	Header
 	5	Tabs Section
-	7	Countdown Section
-	9	Form Section
-	10	Single Post
-	12	Gallery Layouts
-	13	Tables
-	14	Content Layouts
-	17	Blockquotes
-	19	Utilities
-	21	Responsive
-		21.1	Display / Position / Overflow
-		21.2	Width
-		21.3	Margin
-		21.4	Padding
+	8	Countdown Section
+	10	Form Section
+	11	Single Post
+	13	Gallery Layouts
+	14	Tables
+	15	Content Layouts
+	18	Blockquotes
+	20	Utilities
+	22	Responsive
+		22.1	Display / Position / Overflow
+		22.2	Width
+		22.3	Margin
+		22.4	Padding
 ---------------------------------------------------------------- */
 
 /* ================================================================
@@ -155,7 +155,7 @@ body > header { overflow: scroll; }
 }
 
 /* ================================================================
-	7	Countdown Section
+	8	Countdown Section
 ================================================================ */
 
 .countdown-section > * {
@@ -169,7 +169,7 @@ body > header { overflow: scroll; }
 }
 
 /* ================================================================
-	9	Form Section
+	10	Form Section
 ================================================================ */
 
 .form-row, .form-group {
@@ -177,7 +177,7 @@ body > header { overflow: scroll; }
 }
 
 /* ================================================================
-	10	Single Post
+	11	Single Post
 ================================================================ */
 
 #post article .card,
@@ -217,7 +217,7 @@ body > header { overflow: scroll; }
 }
 
 /* ================================================================
-	12	Gallery Layouts
+	13	Gallery Layouts
 ================================================================ */
 
 /* Cards Gallery */
@@ -252,7 +252,7 @@ body > header { overflow: scroll; }
 }
 
 /* ================================================================
-	13	Tables
+	14	Tables
 ================================================================ */
 
 table, thead, tbody, th, td, tr {
@@ -279,7 +279,7 @@ td::before {
 }
 
 /* ================================================================
-	14	Content Layouts
+	15	Content Layouts
 ================================================================ */
 
 body section > * {
@@ -292,7 +292,7 @@ body section > * {
 }
 
 /* ================================================================
-	17	Blockquotes
+	18	Blockquotes
 ================================================================ */
 
 main.px-10 article blockquote {
@@ -301,7 +301,7 @@ main.px-10 article blockquote {
 }
 
 /* ================================================================
-	19	Utilities
+	20	Utilities
 ================================================================ */
 
 .sm\:block { display: block !important; }
@@ -313,11 +313,11 @@ main.px-10 article blockquote {
 .sm\:shadow { box-shadow: 0 5px 35px 0 rgb(0 0 0 / 15%); }
 
 /* ================================================================
-	21	Responsive ====================================================
+	22	Responsive ====================================================
 ================================================================ */
 
 /* ================================================================
-	21.1	Display / Position / Overflow
+	22.1	Display / Position / Overflow
 ================================================================ */
 
 .sm\:splendid-block { display: block; }
@@ -342,7 +342,7 @@ main.px-10 article blockquote {
 .sm\:overflow-visible { overflow: visible; }
 
 /* ================================================================
-	21.2	Width
+	22.2	Width
 ================================================================ */
 
 .sm\:w-auto { width: auto; }
@@ -362,7 +362,7 @@ main.px-10 article blockquote {
 .sm\:w-10 { width: 10%; }
 
 /* ================================================================
-	21.3	Margin
+	22.3	Margin
 ================================================================ */
 
 .sm\:m-0 { margin: 0; }
@@ -675,7 +675,7 @@ main.px-10 article blockquote {
 .sm\:mr-auto { margin-right: auto; }
 
 /* ================================================================
-	21.4	Padding
+	22.4	Padding
 ================================================================ */
 
 .sm\:p-0 { padding: 0; }

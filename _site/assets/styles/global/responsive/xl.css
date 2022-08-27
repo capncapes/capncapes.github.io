@@ -1,14 +1,15 @@
 /* ----------------------------------------------------------------
 TABLE OF CONTENTS
 	2	Typography
-	10	Single Post
-	12	Gallery Layouts
-	19	Utilities
-	21	Responsive
-			21.1	Display / Position / Overflow
-			21.2	Width
-			21.3	Margin
-			21.4	Padding
+	7	Carousel Section
+	11	Single Post
+	13	Gallery Layouts
+	20	Utilities
+	22	Responsive
+			22.1	Display / Position / Overflow
+			22.2	Width
+			22.3	Margin
+			22.4	Padding
 ---------------------------------------------------------------- */
 
 /* ================================================================
@@ -24,7 +25,15 @@ body *.xl\:text-3xl { font-size: 2.5rem !important; }
 body *.xl\:text-4xl { font-size: 3rem !important; }
 
 /* ================================================================
-	10	Single Post
+	7	Carousel Section
+================================================================ */
+
+.carousel-section > .carousel article {
+	width: 25%;
+}
+
+/* ================================================================
+	11	Single Post
 ================================================================ */
 
 #post article .card,
@@ -55,7 +64,7 @@ body *.xl\:text-4xl { font-size: 3rem !important; }
 }
 
 /* ================================================================
-	12	Gallery Layouts
+	13	Gallery Layouts
 ================================================================ */
 
 /* Cards Gallery */
@@ -66,7 +75,7 @@ body *.xl\:text-4xl { font-size: 3rem !important; }
 }
 
 /* ================================================================
-	19	Utilities
+	20	Utilities
 ================================================================ */
 
 .xl\:block { display: block !important; }
@@ -76,11 +85,11 @@ body *.xl\:text-4xl { font-size: 3rem !important; }
 .xl\:rounded, img.xl\:rounded, img.xl\:rounded * { border-radius: 4px !important; }
 
 /* ================================================================
-	21	Responsive
+	22	Responsive
 ================================================================ */
 
 /* ================================================================
-	21.1	Display / Position / Overflow
+	22.1	Display / Position / Overflow
 ================================================================ */
 
 .xl\:splendid-block { display: block; }
@@ -105,7 +114,7 @@ body *.xl\:text-4xl { font-size: 3rem !important; }
 .xl\:overflow-visible { overflow: visible; }
 
 /* ================================================================
-	21.2	Width
+	22.2	Width
 ================================================================ */
 
 .xl\:w-auto { width: auto; }
@@ -125,7 +134,7 @@ body *.xl\:text-4xl { font-size: 3rem !important; }
 .xl\:w-10 { width: 10%; }
 
 /* ================================================================
-	21.3	Margin
+	22.3	Margin
 ================================================================ */
 
 .xl\:m-0 { margin: 0 !important; }
@@ -438,7 +447,7 @@ body *.xl\:text-4xl { font-size: 3rem !important; }
 .xl\:mr-auto { margin-right: auto !important; }
 
 /* ================================================================
-	21.4	Padding
+	22.4	Padding
 ================================================================ */
 
 .xl\:p-0 { padding: 0 !important; }
