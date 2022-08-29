@@ -559,9 +559,9 @@ b.tabs-section header p {
 /* .carousel-section.bg-blue > .carousel::before { background: linear-gradient(to right, #30475E, transparent); }
 .carousel-section.bg-blue > .carousel::after { background: linear-gradient(to left, #30475E, transparent); } */
 
-.carousel-section > .carousel article {
-	width: 55%;
-	height: 16rem;
+.carousel-section > .carousel article[itemtype="https://schema.org/Book"] {
+	width: 10rem;
+	height: auto;
 	-ms-flex-negative: 0;
 	flex-shrink: 0;
 	scroll-snap-align: start;
@@ -815,16 +815,19 @@ body .card a, body .card a:hover, body .card a:active, body .card a:visited {
 	list-style: none;
 }
 
-.books-gallery article * {
+.books-gallery article *,
+.carousel article[itemtype="https://schema.org/Book"] * {
 	line-height: 125%;
 }
 
-.books-gallery article a img {
+.books-gallery article a img,
+.carousel article[itemtype="https://schema.org/Book"] a img {
 	font-size: 0.9rem;
 	line-height: 3;
 }
 
-.books-gallery article a img::before {
+.books-gallery article a img::before,
+.carousel article[itemtype="https://schema.org/Book"] a img::before {
 	content: attr(alt);
 	position: absolute;
 	inset: 0;
@@ -836,12 +839,14 @@ body .card a, body .card a:hover, body .card a:active, body .card a:visited {
 	border-radius: 4px;
 }
 
-.books-gallery article a .placeholder {
+.books-gallery article a .placeholder,
+.carousel article[itemtype="https://schema.org/Book"] a .placeholder {
 	height: 0;
 	padding-top: calc(100% * (3 / 2));
 }
 
-.books-gallery article a .placeholder::before {
+.books-gallery article a .placeholder::before,
+.carousel article[itemtype="https://schema.org/Book"] a .placeholder::before {
 	content: attr(data-content);
 	position: absolute;
 	inset: 5% 10%;
@@ -856,16 +861,17 @@ body[data-category="Book Reviews"] .books-gallery article a .placeholder::before
 	background-color: #F8F9FA;
 }
 
-.books-gallery article > div[data-item=book-cover] {
+article > div[data-item=book-cover] {
 	position: relative;
 	transition: all 0.2s ease-in;
 }
 
-.books-gallery article:hover > div[data-item=book-cover] {
+article:hover > div[data-item=book-cover] {
 	transform: translateY(-0.5rem);
 }
 
-.books-gallery article .info .title {
+.books-gallery article .info .title,
+.carousel article[itemtype="https://schema.org/Book"] .info .title {
 	display: -webkit-box;
 	width: 100%;
 	overflow: hidden;
@@ -1287,6 +1293,22 @@ body p a code { font-weight: bold; }
 	position: fixed !important;
 	left: 0 !important;
 	right: 0 !important;
+}
+
+.scroll-style::-webkit-scrollbar {
+	width: 20px;
+}
+	  
+.scroll-style::-webkit-scrollbar-track {
+	background: transparent; 
+}
+
+.scroll-style::-webkit-scrollbar-thumb {
+	background: rgba(0,0,0,0.25); 
+}
+
+.scroll-style::-webkit-scrollbar-thumb:hover {
+	background: rgba(0,0,0,0.5); 
 }
 
 .shadow { box-shadow: 0 5px 35px 0 rgb(0 0 0 / 15%); }

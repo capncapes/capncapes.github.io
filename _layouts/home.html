@@ -21,8 +21,7 @@
 			<div class="mt-10">
 				<header>
 					<h2>Blogs</h2>
-					<p>This is where I keep my thoughts. Sometimes, I learn something and want to share it. Mostly, I want a place to record my journeys professionally and spiritually. This is that place.</p>
-					<p>MarTech is a blog dedicated to marketing and technology. Faith is a journal of my own wanderings in faith.</p>
+					<p>This is where I organize the things I've learned, whether marketing technology skills or journeys in faith. (All opinions are my own, unless otherwise noted, and I do not claim expert knowledge of the subjects.)</p>
 				</header>
 				<div class="tabs-container md:shadow">
 					<div class="tabs">
@@ -31,9 +30,6 @@
 		
 						<input type="radio" name="tabs" id="tab-2" aria-controls="tab-two">
 						<label class="bold" for="tab-2">MarTech</label>
-
-						<input type="radio" name="tabs" id="tab-3" aria-controls="tab-three">
-						<label class="bold" for="tab-3">Book Reviews</label>
 
 						<!-- Tab 1 : START -->
 						<div class="tab" id="tab-one">
@@ -91,36 +87,6 @@
 						</div>
 						<!-- Tab 2 : END -->
 
-						<!-- Tab 3 : START -->
-						<div class="tab" id="tab-three">
-							<div class="books-gallery">
-
-								{% for post in site.book_reviews reversed %}
-								<article itemscope itemtype="https://schema.org/Book" class="splendid-flex flex-col justify-between" style="grid-auto-rows:1fr;">
-									<div class="overflow-hidden rounded shadow" data-item="book-cover">
-										<a href="{{ post.url }}">
-											{% if post.featured_image.src != '' %}
-												<img class="rounded shadow" src="{{ site.url }}/assets/img/books/{{ post.featured_image.src }}" title="{{ post.book.title }}" alt="{{ post.featured_image.alt }}">
-											{% else %}
-												<div class="placeholder relative w-full h-0 bg-sand rounded shadow" data-content="&ldquo;{{ post.book.title }}&rdquo; by {{ post.book.author }}"></div>
-											{% endif %}
-										</a>
-									</div>
-									<div class="info splendid-flex p-0 flex-col justify-end items-start flex-nowrap rounded" data-item="book-title">
-										<a href="{{ post.url }}" title="{{ post.title }}">
-											<h4 itemprop="name" class="title w-90 mt-3 mb-1 mx-auto p-0 text-base normal text-black">{{ post.title }}</h4>
-										</a>
-										<div class="splendid-flex mb-2 p-0 flex-row justify-between flex-nowrap">
-											<time itemprop="datePublished" datetime="{{ post.date | date: '%Y-%m-%dT%H:%M:%S-05:00' }}" class="p-0 text-xs normal">{{ post.date | date: "%b %d, %Y" }}</time>
-										</div>
-									</div>
-								</article>
-								{% endfor %}
-
-							</div>
-						</div>
-						<!-- Tab 3 : END -->
-
 					</div>
 				</div>
 			</div>
@@ -128,29 +94,31 @@
 		<!-- Tabs Section : END -->
 
 		<!-- Carousel Section : BEGIN -->
-		<section class="carousel-section py-12 bg-blue">
-			<header class="mx-8 md:mx-20 pb-8 text-white">
-				<h2>Carousel Section</h2>
+		<section class="carousel-section pt-12 bg-blue">
+			<header class="mx-8 md:mx-20 pb-0 text-white">
+				<h2>Book reviews</h2>
 			</header>
 			<div class="carousel splendid-flex relative">
-				<div>
-					{% for post in site.categories["Faith"] %}
-					<article itemscope itemtype="https://schema.org/BlogPosting" title="{{ post.title }}" class="card relative{% if post.featured == true %} featured{% endif %} rounded bg-yellow shadow">
-						<a href="{{ post.url }}">
-							<div>
-								<div class="absolute inset-0 w-full h-full z-0">
-									<picture>
-										<img class="w-full h-full object-cover rounded" src="{{ site.url }}/assets/img/{{ post.category | downcase }}/{{ post.featured_image.src }}" alt="{{ post.featured_image.alt }}">
-									</picture>
-								</div>
+				<div class="pt-4 scroll-style">
+					{% for post in site.book_reviews reversed %}
+					<article itemscope itemtype="https://schema.org/Book" class="splendid-flex flex-col justify-between">
+						<div class="overflow-hidden rounded shadow" data-item="book-cover">
+							<a href="{{ post.url }}">
+								{% if post.featured_image.src != '' %}
+									<img class="rounded shadow" src="{{ site.url }}/assets/img/books/{{ post.featured_image.src }}" title="{{ post.book.title }}" alt="{{ post.featured_image.alt }}">
+								{% else %}
+									<div class="placeholder relative w-full h-0 bg-sand rounded shadow" data-content="&ldquo;{{ post.book.title }}&rdquo; by {{ post.book.author }}"></div>
+								{% endif %}
+							</a>
+						</div>
+						<div class="info splendid-flex p-0 flex-col justify-end items-start flex-nowrap rounded" data-item="book-title">
+							<a href="{{ post.url }}" title="{{ post.title }}">
+								<h4 itemprop="name" class="title w-90 mt-3 mb-1 mx-auto p-0 text-base normal text-white">{{ post.title }}</h4>
+							</a>
+							<div class="splendid-flex mb-2 p-0 flex-row justify-between flex-nowrap text-white">
+								<time itemprop="datePublished" datetime="{{ post.date | date: '%Y-%m-%dT%H:%M:%S-05:00' }}" class="p-0 text-xs normal">{{ post.date | date: "%b %d, %Y" }}</time>
 							</div>
-							<div class="info absolute w-full h-full top-0 p-0 splendid-flex flex-col justify-end items-end flex-nowrap rounded">
-								<h4 itemprop="name" class="title w-90 mb-4 mx-auto p-0 text-lg normal">{{ post.title }}</h4>
-								<div class="splendid-flex w-90 mb-3 mx-auto p-0 flex-row justify-between flex-nowrap">
-									<time itemprop="datePublished" datetime="{{ post.date | date: '%Y-%m-%dT%H:%M:%S-05:00' }}" class="p-0 text-xs normal">{{ post.date | date: "%b %d, %Y" }}</time>
-								</div>
-							</div>
-						</a>
+						</div>
 					</article>
 					{% endfor %}
 				</div>
