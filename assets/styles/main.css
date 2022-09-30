@@ -664,7 +664,6 @@ b.tabs-section header p {
 	letter-spacing: 0.15rem;
 }
 
-#post main > *,
 #book-review article .card + * {
 	margin-top: 15rem;
 }

@@ -664,7 +664,6 @@ b.tabs-section header p {
 	letter-spacing: 0.15rem;
 }
 
-#post main > *,
 #book-review article .card + * {
 	margin-top: 15rem;
 }
@@ -1295,21 +1294,10 @@ body p a code { font-weight: bold; }
 	right: 0 !important;
 }
 
-.scroll-style::-webkit-scrollbar {
-	width: 20px;
-}
-	  
-.scroll-style::-webkit-scrollbar-track {
-	background: transparent; 
-}
-
-.scroll-style::-webkit-scrollbar-thumb {
-	background: rgba(0,0,0,0.25); 
-}
-
-.scroll-style::-webkit-scrollbar-thumb:hover {
-	background: rgba(0,0,0,0.5); 
-}
+.scroll-style::-webkit-scrollbar { width: 20px; } 
+.scroll-style::-webkit-scrollbar-track { background: transparent; }
+.scroll-style::-webkit-scrollbar-thumb { background: rgba(0,0,0,0.25); }
+.scroll-style::-webkit-scrollbar-thumb:hover { background: rgba(0,0,0,0.5); }
 
 .shadow { box-shadow: 0 5px 35px 0 rgb(0 0 0 / 15%); }
 

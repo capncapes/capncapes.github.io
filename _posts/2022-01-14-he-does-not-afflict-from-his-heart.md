@@ -19,7 +19,7 @@ Do you ever feel like God is waiting for you to fail so he can punish you? Maybe
 
 It's hard to know for certain if our suffering is the result of the Lord's discipline[^2], because of unseen spiritual forces (Job 1&ndash;2), or for his glory[^3]. The good news is, our suffering is not God's desire. More poetically, he does not afflict from his heart (Lamentations 3:33).
 
-In the time of the prophet Jeremiah, the people of Judah had become increasingly distanced from God (Jeremiah 9:6). They weren't honoring him, and even religious practices were empty (Jeremiah 7:1&ndash;10). They went so far as to worship false gods like Baal. Because of Judah's waywardness, God tasked Jeremiah (Jeremiah 1:17) with warning the people of their coming punishment if they didn't turn back to the Lord.
+In the time of the prophet Jeremiah, the people of Judah had become increasingly distanced from God (Jeremiah 9:6). They weren't honoring him, and even religious practices were empty (Jeremiah 7:1&ndash;10). They went so far as to worship other gods like Baal. Because of Judah's waywardness, God tasked Jeremiah (Jeremiah 1:17) with warning the people of their coming punishment if they didn't turn back to the Lord.
 
 ## About Lamentations
 
