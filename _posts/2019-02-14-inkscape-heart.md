@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "How to Draw a Heart in Inkscape"
+title: "How to draw a heart in Inkscape"
 date: 2019-02-14 10:00:00 -0400
 featured_image: {
   src: "how-to-heart-feature.png",
