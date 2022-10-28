@@ -516,15 +516,6 @@ b.tabs-section header p {
 	7	Carousel Section
 ================================================================ */
 
-/* .carousel-section > .carousel::before,
-.carousel-section > .carousel::after {
-	content: "";
-	position: absolute;
-	width: 3rem;
-	height: 100%;
-	background-color: #F05454;
-} */
-
 .carousel-section > .carousel {
 	padding-bottom: 0 !important;
 	max-width: 100% !important;
@@ -535,7 +526,6 @@ b.tabs-section header p {
 	display: -ms-flexbox;
 	display: flex;
 	width: 100%;
-	/* max-width: 60rem; */
 	margin: 0 auto;
 	padding-bottom: 2.5rem;
 	column-gap: 2rem;
@@ -555,9 +545,6 @@ b.tabs-section header p {
 	scroll-snap-align: start;
 	z-index: 99999;
 }
-
-/* .carousel-section.bg-blue > .carousel::before { background: linear-gradient(to right, #30475E, transparent); }
-.carousel-section.bg-blue > .carousel::after { background: linear-gradient(to left, #30475E, transparent); } */
 
 .carousel-section > .carousel article[itemtype="https://schema.org/Book"] {
 	width: 10rem;
@@ -615,7 +602,7 @@ b.tabs-section header p {
 }
 
 /* ================================================================
-	8	CTA Section
+	9	CTA Section
 ================================================================ */
 
 .cta-section {
@@ -638,11 +625,11 @@ b.tabs-section header p {
 }
 
 /* ================================================================
-	9	Form Section
+	10	Form Section
 ================================================================ */
 
 /* ================================================================
-	10	Single Post
+	11	Single Post
 ================================================================ */
 
 #book-review .card {
@@ -716,7 +703,7 @@ b.tabs-section header p {
 }
 
 /* ================================================================
-	11	Related Posts
+	12	Related Posts
 ================================================================ */
 
 #post main + .related-posts::before {
@@ -753,7 +740,7 @@ b.tabs-section header p {
 }
 
 /* ================================================================
-	12	Gallery Layouts
+	13	Gallery Layouts
 ================================================================ */
 
 /* Cards Gallery */
@@ -881,7 +868,7 @@ article:hover > div[data-item=book-cover] {
 }
 
 /* ================================================================
-	13	Tables
+	14	Tables
 ================================================================ */
 
 table {
@@ -902,7 +889,7 @@ th {
 }
 
 /* ================================================================
-	14	Content Layouts
+	15	Content Layouts
 ================================================================ */
 
 #splendid-header + * {
@@ -989,7 +976,7 @@ body hr {
 }
 
 /* ================================================================
-	15	Page Navigation
+	16	Page Navigation
 ================================================================ */
 
 .page-nav {
@@ -1009,7 +996,7 @@ body hr {
 }
 
 /* ================================================================
-	16	Buttons + Links
+	17	Buttons + Links
 ================================================================ */
 
 .splendid-button {
@@ -1082,7 +1069,7 @@ a.splendid-cta::after {
 }
 
 /* ================================================================
-	17	Blockquotes
+	18	Blockquotes
 ================================================================ */
 
 blockquote {
@@ -1139,7 +1126,7 @@ blockquote cite::before {
 }
 
 /* ================================================================
-	18	Code Blocks
+	19	Code Blocks
 ================================================================ */
 
 body p > code {
@@ -1252,36 +1239,8 @@ body p a code { font-weight: bold; }
 	border-left-color: #FFFFFF;
 }
 
-/* #splendid figure pre code span.nf {
-	color: #2CA096;
-}
-
-#splendid figure pre code span.nl, #splendid figure pre code span.py {
-	color: #F9D423;
-}
-
-#splendid figure pre code span.n, #splendid figure pre code span.nb {
-	color: #F77825;
-}
-
-#splendid figure pre code span.m, #splendid figure pre code span.err {
-	color: #F05454;
-}
-
-#splendid figure pre code span.nc {
-	color: #516cb9;
-}
-
-#splendid figure pre code span.c {
-	color: #999999;
-}
-
-#splendid figure pre code span.nd, #splendid figure pre code span.p, #splendid figure pre code span.o {
-	color: #F8F9FA;
-} */
-
 /* ================================================================
-	19	Utilities
+	20	Utilities
 ================================================================ */
 
 .block { display: block !important; }
@@ -1401,7 +1360,7 @@ img[src=""] { display: none !important; }
 .z-50 { z-index: 50; }
 
 /* ================================================================
-	20	Footer
+	21	Footer
 ================================================================ */
 
 #footer {
@@ -1438,5 +1397,5 @@ img[src=""] { display: none !important; }
 }
 
 /* ================================================================
-	21	Responsive
+	22	Responsive
 ================================================================ */

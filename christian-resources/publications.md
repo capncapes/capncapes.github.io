@@ -6,6 +6,7 @@ featured_image: {
   title: "Print and digital Christian publications",
   alt: "TableTalk Magazine" }
 permalink: /christian-resources/publications/
+published: false
 ---
 
 ## TableTalk Magazine

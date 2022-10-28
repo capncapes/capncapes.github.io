@@ -13,6 +13,7 @@ TABLE OF CONTENTS
 	18	Blockquotes
 	19	Code Blocks
 	20	Utilities
+	21	Footer
 	22	Responsive
 		22.1	Display / Position / Overflow
 		22.2	Width
@@ -394,6 +395,17 @@ blockquote {
 .md\:hidden { display: none !important; }
 
 .md\:rounded, img.md\:rounded, img.md\:rounded * { border-radius: 4px !important; }
+
+/* ================================================================
+	21	Footer
+================================================================ */
+
+footer .legal > p:not(:first-child)::before {
+	content: "//";
+	margin-left: 0.5rem;
+	margin-right: 0.5rem;
+	opacity: 50%;
+}
 
 /* ================================================================
 	22	Responsive ====================================================

@@ -2,26 +2,20 @@
 <html id="splendid" lang="en-US" class="no-js">
 	{% include head.html %}
 	<body id="home">
+		{% if site.scripts.gtm %}
+			<!-- Google Tag Manager (noscript) -->
+			<noscript><iframe src="https://www.googletagmanager.com/ns.html?id={{ site.scripts.gtm }}"
+			height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+			<!-- End Google Tag Manager (noscript) -->
+		{% endif %}
 		{% include header.html %}
-
-		<!-- Hero Section : START -->
-		<section class="hero-section bg-blue">
-			<div class="pb-0">
-				<div class="text-white sm:px-0 md:px-16">
-					<h1>Splendid HTML Template</h1>
-					<p>A well-crafted HTML template with customizable components.</p>
-					<a href="#" class="splendid-button" role="button">Get it now</a>
-				</div>
-			</div>
-		</section>
-		<!-- Hero Section : END -->
 
 		<!-- Tabs Section : START -->
 		<section class="tabs-section">
 			<div class="mt-10">
 				<header>
 					<h2>Blogs</h2>
-					<p>This is where I organize the things I've learned, whether marketing technology skills or journeys in faith. (All opinions are my own, unless otherwise noted, and I do not claim expert knowledge of the subjects.)</p>
+					<p>This is where I organize the things I've learned, whether marketing technology skills or journeys in faith. Don't expect lengthy blog posts, but I do hope to publish often.</p>
 				</header>
 				<div class="tabs-container md:shadow">
 					<div class="tabs">
@@ -125,19 +119,6 @@
 			</div>
 		</section>
 		<!-- Carousel Section : END -->
-
-		<!-- CTA Section : BEGIN -->
-		<section class="cta-section bg-sand">
-			<div class="md:splendid-flex pt-20 px-6 pb-20 flex-row justify-between items-center">
-				<div class="md:w-half">
-					<h4>Featured Content</h4>
-					<p class="m-0">Put a call to action here.</p>
-					<a href="#" class="splendid-cta sm:mb-8">Click here</a>
-				</div>
-				<img src="https://via.placeholder.com/800x500/2CA096/F8F9FA?text=IMAGE" alt="Alt text" class="md:w-40 rounded shadow">
-			</div>
-		</section>
-		<!-- CTA Section : END -->
 
 		{% include footer.html %}
 	</body>

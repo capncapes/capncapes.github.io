@@ -2,6 +2,12 @@
 <html id="splendid" lang="en-US" class="no-js">
 	{% include head.html %}
 	<body id="archive">
+		{% if site.scripts.gtm %}
+			<!-- Google Tag Manager (noscript) -->
+			<noscript><iframe src="https://www.googletagmanager.com/ns.html?id={{ site.scripts.gtm }}"
+			height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+			<!-- End Google Tag Manager (noscript) -->
+		{% endif %}
 		{% include header.html %}
 
 		{{ content }}

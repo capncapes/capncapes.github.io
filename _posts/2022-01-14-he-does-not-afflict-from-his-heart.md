@@ -12,7 +12,7 @@ category: Faith
 bible_books: "Lamentations"
 tags: ["suffering", "Jeremiah"]
 featured: false
-published: true
+published: false
 ---
 
 Do you ever feel like God is waiting for you to fail so he can punish you? Maybe he's just trigger-happy with his discipline and delights in handing out hardship to disobedient people. If you believe that God is sovereign[^1], how does human suffering factor in?

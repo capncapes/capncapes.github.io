@@ -2,6 +2,12 @@
 <html id="splendid" lang="en-US" class="no-js">
 	{% include head.html %}
 	<body id="post"{% if page.featured_image.src != '' %} class="has-featured-image"{% endif %}>
+		{% if site.scripts.gtm %}
+			<!-- Google Tag Manager (noscript) -->
+			<noscript><iframe src="https://www.googletagmanager.com/ns.html?id={{ site.scripts.gtm }}"
+			height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+			<!-- End Google Tag Manager (noscript) -->
+		{% endif %}
 		<script type="application/ld+json" class="splendid-schema-graph">
 			{
 				"@context": "https://schema.org/",
@@ -133,9 +139,6 @@
 				<div class="relative max-w-4 mx-auto mb-20 lg:pt-0 pb-10 md:px-12 border-b-1 border-b-solid border-sand">
 					{% if page.date %}
 						<time datetime="{{ page.date | date: '%Y-%m-%dT%H:%M:%S-04:00' }}" class="block pt-0 text-sm normal">{{ page.date | date: "%B %d, %Y" }}</time>
-					{% endif %}
-					{% if page.tags or page.bible_books %}
-						{% include tags.html %}
 					{% endif %}
 				</div>
 				{% endif %}
