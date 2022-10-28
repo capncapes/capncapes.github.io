@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-10-27T22:19:17-04:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">capncapes.github.io</title><subtitle>A blog site built with Jekyll consisting of two blogs, a feed of book reviews, and other content pages.</subtitle><author><name>Brandon Caples</name></author><entry><title type="html">Remove .DS_Store with Git</title><link href="http://localhost:4000/martech/2022/git-remove-ds-store" rel="alternate" type="text/html" title="Remove .DS_Store with Git" /><published>2022-06-25T23:14:39-04:00</published><updated>2022-06-25T23:14:39-04:00</updated><id>http://localhost:4000/martech/2022/git-remove-ds-store</id><content type="html" xml:base="http://localhost:4000/martech/2022/git-remove-ds-store">&lt;p&gt;Every developer with a Mac computer has encountered the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;.DS_Store&lt;/code&gt; file in their Git code. If you don’t know what it is, this file could be alarming. Don’t worry; &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;.DS_Store&lt;/code&gt; is harmless. But it can be annoying when it shows up in every folder.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-10-28T14:45:09-04:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">capncapes.github.io</title><subtitle>A blog site built with Jekyll consisting of two blogs, a feed of book reviews, and other content pages.</subtitle><author><name>Brandon Caples</name></author><entry><title type="html">Remove .DS_Store with Git</title><link href="http://localhost:4000/martech/2022/git-remove-ds-store" rel="alternate" type="text/html" title="Remove .DS_Store with Git" /><published>2022-06-25T23:14:39-04:00</published><updated>2022-06-25T23:14:39-04:00</updated><id>http://localhost:4000/martech/2022/git-remove-ds-store</id><content type="html" xml:base="http://localhost:4000/martech/2022/git-remove-ds-store">&lt;p&gt;Every developer with a Mac computer has encountered the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;.DS_Store&lt;/code&gt; file in their Git code. If you don’t know what it is, this file could be alarming. Don’t worry; &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;.DS_Store&lt;/code&gt; is harmless. But it can be annoying when it shows up in every folder.&lt;/p&gt;
 
 &lt;h2 id=&quot;what-is-the-ds_store-file&quot;&gt;What is the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;.DS_Store&lt;/code&gt; file?&lt;/h2&gt;
 
@@ -429,7 +429,57 @@
 
 &lt;p&gt;Search engine optimization can be as simple as writing good content and linking to helpful resources, or as complicated as multiple lines of schema markup on every page of a website. Regardless of your particular approach to SEO, it’s helpful to know what these terms can mean for your website.&lt;/p&gt;
 
-&lt;p&gt;For more SEO resources, I recommend &lt;a href=&quot;https://moz.com/beginners-guide-to-seo&quot;&gt;Moz&lt;/a&gt;, &lt;a href=&quot;https://neilpatel.com/what-is-seo/&quot;&gt;Neil Patel&lt;/a&gt;, and &lt;a href=&quot;https://www.searchenginejournal.com/seo-guide/&quot;&gt;Search Engine Journal&lt;/a&gt;.&lt;/p&gt;</content><author><name>Brandon Caples</name></author><category term="MarTech" /><category term="SEO" /><summary type="html">Search engine optimization (SEO) can be very complicated, and even small changes to search engines’ algorithms can cause panic in the marketing community. There’s an entire SEO industry of professionals who spend 100% of their time optimizing websites for clients. But not everyone can afford to hire an SEO agency, so it’s helpful to have SEO terms explained in plain English for those of us who plan to get our hands dirty.</summary></entry><entry><title type="html">God will restore what was lost</title><link href="http://localhost:4000/faith/2018/god-will-restore-what-was-lost" rel="alternate" type="text/html" title="God will restore what was lost" /><published>2018-10-30T05:45:47-04:00</published><updated>2018-10-30T05:45:47-04:00</updated><id>http://localhost:4000/faith/2018/god-will-restore-what-was-lost</id><content type="html" xml:base="http://localhost:4000/faith/2018/god-will-restore-what-was-lost">&lt;p class=&quot;note&quot;&gt;The original article, published on October 9, 2018, can be found at the &lt;a href=&quot;https://mercymultiplied.com/god-will-restore-what-was-lost/&quot; target=&quot;_blank&quot;&gt;Mercy Multiplied blog&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;For more SEO resources, I recommend &lt;a href=&quot;https://moz.com/beginners-guide-to-seo&quot;&gt;Moz&lt;/a&gt;, &lt;a href=&quot;https://neilpatel.com/what-is-seo/&quot;&gt;Neil Patel&lt;/a&gt;, and &lt;a href=&quot;https://www.searchenginejournal.com/seo-guide/&quot;&gt;Search Engine Journal&lt;/a&gt;.&lt;/p&gt;</content><author><name>Brandon Caples</name></author><category term="MarTech" /><category term="SEO" /><summary type="html">Search engine optimization (SEO) can be very complicated, and even small changes to search engines’ algorithms can cause panic in the marketing community. There’s an entire SEO industry of professionals who spend 100% of their time optimizing websites for clients. But not everyone can afford to hire an SEO agency, so it’s helpful to have SEO terms explained in plain English for those of us who plan to get our hands dirty.</summary></entry><entry><title type="html">How to Draw a Heart in Inkscape</title><link href="http://localhost:4000/martech/2019/inkscape-heart" rel="alternate" type="text/html" title="How to Draw a Heart in Inkscape" /><published>2019-02-14T09:00:00-05:00</published><updated>2019-02-14T09:00:00-05:00</updated><id>http://localhost:4000/martech/2019/inkscape-heart</id><content type="html" xml:base="http://localhost:4000/martech/2019/inkscape-heart">&lt;p&gt;Inkscape is a free vector graphics editor, similar to Adobe Illustrator, just without a few bells and whistles. The free, open source editor can accomplish a lot, though. Today, we’re going to learn how to draw a heart using Inkscape.&lt;/p&gt;
+
+&lt;p&gt;Running a small business often means finding free alternatives to otherwise pricey tasks. Inkscape is a great alternative to Illustrator, and many tasks can be completed quickly.&lt;/p&gt;
+
+&lt;p&gt;First, &lt;a aria-label=&quot;download Inkscape (opens in a new tab)&quot; href=&quot;https://inkscape.org/release/&quot; target=&quot;_blank&quot; rel=&quot;noreferrer noopener&quot;&gt;download Inkscape&lt;/a&gt; and open a new document.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/martech/how-to-heart-1.png&quot; alt=&quot;A new Inkscape document&quot; class=&quot;shadow&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Select the Circle tool to draw an ellipse, or circle. Hold down the Control button as you click and drag the cursor to draw a perfect circle.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/martech/how-to-heart-2.png&quot; alt=&quot;A pink circle drawn digitally with Inkscape software&quot; class=&quot;shadow&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Next, draw a rectangle that is the same height as the circle and half the width. Align the two shapes along their right edges and centered vertically. (You can align objects by selecting “Align and Distribute…” from the &lt;strong&gt;Object&lt;/strong&gt; menu.)&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/martech/how-to-heart-3.png&quot; alt=&quot;A blue rectangle placed on top of a pink circle, drawn digitally with Inkscape software&quot; class=&quot;shadow&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Both objects are currently classified as shapes, but we need to convert them both to paths for the next steps. With both objects selected, choose “Object to Path” from the &lt;strong&gt;Path&lt;/strong&gt; menu.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/martech/how-to-heart-4.png&quot; alt=&quot;Inkscape context menu with Object to Path selected&quot; class=&quot;shadow&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;With both objects still selected and the rectangle sitting above the circle, select &lt;strong&gt;Path &amp;gt; Difference&lt;/strong&gt; to cut the circle in half using the rectangle as the difference. The rectangle will disappear.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/martech/how-to-heart-5.png&quot; alt=&quot;Inkscape context menu with Difference selected&quot; class=&quot;shadow&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;(If you do need to rearrange the order of your objects, use the Raise and Lower tools in the &lt;strong&gt;Object&lt;/strong&gt; menu.)&lt;/p&gt;
+
+&lt;p&gt;Here’s what we have so far:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/martech/how-to-heart-6.png&quot; alt=&quot;A pink half-circle drawn digitally with Inkscape software&quot; class=&quot;shadow&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Duplicate the half-circle (&lt;strong&gt;Edit &amp;gt; Duplicate&lt;/strong&gt;) and flip it horizontally (&lt;strong&gt;Object &amp;gt; Flip Horizontal&lt;/strong&gt;).&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/martech/how-to-heart-7.png&quot; alt=&quot;A pink circle drawn digitally with Inkscape software&quot; class=&quot;shadow&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Now draw a square with the same height and width as the circle.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/martech/how-to-heart-8.png&quot; alt=&quot;A pink circle and a pink square, drawn digitally with Inkscape software&quot; class=&quot;shadow&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Arrange the half-circles and the square as shown below. It finally looks like a heart!&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/martech/how-to-heart-9.png&quot; alt=&quot;A pink heart drawn digitally with Inkscape software&quot; class=&quot;shadow&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;With all three shapes in place and selected, select “Union” from the &lt;strong&gt;Path&lt;/strong&gt; menu. This merges all three shapes into one shape—a heart!&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/martech/how-to-heart-10.png&quot; alt=&quot;Inkscape context menu with Union selected&quot; class=&quot;shadow&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;You now have a perfect heart shape that will scale infinitely and is easy to recolor. Simply rotate the heart 45° to stand it upright.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/martech/how-to-heart-11.png&quot; alt=&quot;A pink heart drawn digitally with Inkscape software&quot; class=&quot;shadow&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;I hope you’ve enjoyed learning how to draw a heart in Inkscape. Keep designing!&lt;/p&gt;</content><author><name>Brandon Caples</name></author><category term="MarTech" /><category term="how to" /><category term="graphic design" /><summary type="html">Inkscape is a free vector graphics editor, similar to Adobe Illustrator, just without a few bells and whistles. The free, open source editor can accomplish a lot, though. Today, we’re going to learn how to draw a heart using Inkscape.</summary></entry><entry><title type="html">God will restore what was lost</title><link href="http://localhost:4000/faith/2018/god-will-restore-what-was-lost" rel="alternate" type="text/html" title="God will restore what was lost" /><published>2018-10-30T05:45:47-04:00</published><updated>2018-10-30T05:45:47-04:00</updated><id>http://localhost:4000/faith/2018/god-will-restore-what-was-lost</id><content type="html" xml:base="http://localhost:4000/faith/2018/god-will-restore-what-was-lost">&lt;p class=&quot;note&quot;&gt;The original article, published on October 9, 2018, can be found at the &lt;a href=&quot;https://mercymultiplied.com/god-will-restore-what-was-lost/&quot; target=&quot;_blank&quot;&gt;Mercy Multiplied blog&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;It’s a heavy thing to consider what we’ve lost because of sin. When we turn from God and choose to live selfishly, there are often consequences, and in this life, some consequences are much worse than others, so it can be hard to imagine that God will restore what was lost during our times of disobedience.&lt;/p&gt;
 
@@ -511,44 +561,4 @@
 
 &lt;p&gt;&lt;img src=&quot;/assets/img/martech/save-exif-data.jpeg&quot; alt=&quot;How to save an image without EXIF data in GIMP&quot; class=&quot;shadow&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;This removes EXIF data from your image. No matter which browser you use, now the picture will display correctly.&lt;/p&gt;</content><author><name>Brandon Caples</name></author><category term="MarTech" /><category term="CSS" /><category term="graphic design" /><summary type="html">A colleague recently emailed me to report that one of our pages was displaying sideways images. I hadn’t noticed it before, because the pictures worked fine for me in several browsers. I did some troubleshooting and discovered that both Safari and Chrome on iOS devices have a default behavior that rotates an image according to its EXIF data. So if you take a picture at an angle, it will be sideways when you upload it, and rotating the image in a media previewer won’t always correct the EXIF data.</summary></entry><entry><title type="html">Rails 5 and Rspec parameters</title><link href="http://localhost:4000/martech/2017/rails-5-rspec-parameters" rel="alternate" type="text/html" title="Rails 5 and Rspec parameters" /><published>2017-11-01T06:31:00-04:00</published><updated>2017-11-01T06:31:00-04:00</updated><id>http://localhost:4000/martech/2017/rails-5-rspec-parameters</id><content type="html" xml:base="http://localhost:4000/martech/2017/rails-5-rspec-parameters">&lt;p&gt;Because of a deprecation to Rspec in Ruby on Rails 5, parameters must now be placed inside a &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;params&lt;/code&gt; hash.&lt;/p&gt;
-
-&lt;p&gt;Say, for instance, that I have a Rails 5 app in which users can create posts. The following would have worked fine in a Rails 4 controller spec:&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
-2
-3
-4
-5
-6
-&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;n&quot;&gt;describe&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;POST create&quot;&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;do&lt;/span&gt;
-  &lt;span class=&quot;n&quot;&gt;it&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;redirects the user to the sign in view&quot;&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;do&lt;/span&gt;
-    &lt;span class=&quot;n&quot;&gt;post&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;:create&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;post_id: &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;my_post&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;id&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;comment: &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;body: &lt;/span&gt;&lt;span class=&quot;no&quot;&gt;RandomData&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;random_paragraph&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-    &lt;span class=&quot;n&quot;&gt;expect&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;response&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;).&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;to&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;redirect_to&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;new_session_path&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-  &lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
-&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;But Rails 5 provides the following error message:&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-console&quot; data-lang=&quot;console&quot;&gt;&lt;span class=&quot;go&quot;&gt;1) CommentsController guest POST create redirects the user to the sign in view   
-  Failure/Error: post :create, post_id: my_post.id, comment: { body: RandomData.random_paragraph }
-  ArgumentError: unknown keywords: post_id, comment&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;The reason for this previously accepted syntax is deprecation. I don’t know why this decision was made, but Rails 5 requires that parameters be placed inside of a &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;params&lt;/code&gt; hash. I guess it’s more human readable this way. So here are my parameters inside a &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;params&lt;/code&gt; hash:&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
-2
-3
-4
-5
-6
-&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;n&quot;&gt;describe&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;POST create&quot;&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;do&lt;/span&gt;
-  &lt;span class=&quot;n&quot;&gt;it&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;redirects the user to the sign in view&quot;&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;do&lt;/span&gt;
-    &lt;span class=&quot;n&quot;&gt;post&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;:create&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;params: &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;post_id: &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;my_post&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;id&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;comment: &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;body: &lt;/span&gt;&lt;span class=&quot;no&quot;&gt;RandomData&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;random_paragraph&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-    &lt;span class=&quot;n&quot;&gt;expect&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;response&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;).&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;to&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;redirect_to&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;new_session_path&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-  &lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
-&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;And the errors are gone!&lt;/p&gt;</content><author><name>Brandon Caples</name></author><category term="MarTech" /><category term="web development" /><summary type="html">Because of a deprecation to Rspec in Ruby on Rails 5, parameters must now be placed inside a params hash.</summary></entry></feed>
+&lt;p&gt;This removes EXIF data from your image. No matter which browser you use, now the picture will display correctly.&lt;/p&gt;</content><author><name>Brandon Caples</name></author><category term="MarTech" /><category term="CSS" /><category term="graphic design" /><summary type="html">A colleague recently emailed me to report that one of our pages was displaying sideways images. I hadn’t noticed it before, because the pictures worked fine for me in several browsers. I did some troubleshooting and discovered that both Safari and Chrome on iOS devices have a default behavior that rotates an image according to its EXIF data. So if you take a picture at an angle, it will be sideways when you upload it, and rotating the image in a media previewer won’t always correct the EXIF data.</summary></entry></feed>
