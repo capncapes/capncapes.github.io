@@ -13,7 +13,7 @@ featured: false
 
 Today is my anniversary. My first anniversary, to be exact. And if it hadn’t been for my lovely, wonderful, strong, intelligent wife Jackie, I would probably still be coding in only basic HTML and CSS.
 
-## Discovering a Passion
+## Discovering a passion
 
 Not too long ago, I discovered my interest in building websites. It began as a passion for simply organizing layouts in a content management system (CMS) like WordPress, but I quickly discovered that I enjoyed adding custom code to my pre-built themes and designs. My custom code snippets began to grow larger and larger until I started delving into the web files themselves.
 
@@ -23,11 +23,11 @@ The problems arose with the challenges. I struggled with CSS layouts and had tro
 
 Once we were engaged, my free time was consumed with wedding planning—time I loved and still cherish—and my time learning to code tapered off.
 
-## A Beautiful Wedding
+## A beautiful wedding
 
 Our wedding was perfect. The ceremony was officiated by my paternal grandfather in the sanctuary of the church that my maternal grandparents founded in the 1970s. Surrounded by everyone we love on this earth, we said our vows and began our new life together. The reception was literally the most fun I’ve ever had at a party. We rented out the [Loveless Barn](https://www.lovelessevents.com/barn) in Nashville and had a great time.
 
-## Taking My Education Seriously
+## Taking my education seriously
 
 I spent the first few months of my marriage nearly code-free. We made plans, hiked a lot, and travelled some. When I started to code again, it was still only basic stuff, and I still had no portfolio. But I talked about web development. A lot. I had started a new job with a great company about a month and a half before getting married. I didn’t realize then that web development was a real possibility for me. I considered it a hobby.
 

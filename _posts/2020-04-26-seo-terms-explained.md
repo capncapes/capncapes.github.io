@@ -111,7 +111,7 @@ Sitemap: https://www.example.com/sitemap.xml
 
 Alternatively, you can submit your sitemap to Google and other search engines directly. One thing to make sure of is that the information you’re giving to search engines is consistent. Don’t block a page in robots.txt and then list it in your sitemap. A sitemap should contain all the pages that should be indexed by a search engine.
 
-### Title Tag
+### Title tag
 
 The meta title is very important. It’s, well, the title of your web page. Like a book title, it sums up the whole web page. It tells everyone—humans and robots alike—what the page is about. Search engines use this basic piece of information to determine whether your web page is worth showing to a searcher seeking answers online.
 

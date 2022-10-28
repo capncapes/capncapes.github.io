@@ -18,7 +18,7 @@ Okay, maybe _love_ is a strong word here, at least for me. Every web developer k
 
 In my experience, many people in office settings use Internet Explorer exclusively, and a lot of corporations have even built their internal systems on Internet Explorer. It’s the default browser on many computers and email clients. IE is pretty unavoidable.
 
-## An Example of IE Incompatibility Using DOM Manipulation
+## An example of IE incompatibility using DOM manipulation
 
 Traversing the DOM is very common and even a necessary step for many JavaScript functions. A jQuery library can make this easier, but some projects don’t require jQuery; it might not make sense to employ.
 

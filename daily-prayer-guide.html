@@ -1,0 +1,241 @@
+---
+permalink: daily-prayer-guide/
+---
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+		<title>Daily Prayer Guide</title>
+		<meta name="description" content="Use this daily prayer guide, developed by Beth Moore, to strengthen your prayer life.">
+		<meta name="author" content="{{ site.author.name }}">
+		<link rel="canonical" href="https://www.lproof.org/blog/ig-live-prayer-tutorial-companion-formatting-idea-for-journaling">
+		<meta http-equiv="X-Frame-Options" content="sameorigin">
+
+		{% if site.scripts.ga4 %}
+			<!-- Google tag (gtag.js) -->
+			<script async src="https://www.googletagmanager.com/gtag/js?id={{ site.scripts.ga4 }}"></script>
+			<script>
+				window.dataLayer = window.dataLayer || [];
+				function gtag(){dataLayer.push(arguments);}
+				gtag('js', new Date());
+
+				gtag('config', '{{ site.scripts.ga4 }}');
+			</script>
+		{% endif %}
+
+		{% if site.scripts.gtm %}
+			<!-- Google Tag Manager -->
+			<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+			new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+			j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+			'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+			})(window,document,'script','dataLayer','{{ site.scripts.gtm }}');</script>
+			<!-- End Google Tag Manager -->
+		{% endif %}
+
+		<meta property="og:locale" content="en_US">
+		<meta property="og:type" content="website">
+		<meta property="og:title" content="Daily Prayer Guide">
+		<meta property="og:description" content="A daily prayer guide by Beth Moore. Visit lproof.org/blog for more information.">
+		<meta property="og:url" content="https://brandoncaples.com/daily-prayer-guide.html">
+		<meta property="og:site_name" content="Brandon Caples">
+		<meta property="og:image" content="https://brandoncaples.com/wp-content/themes/splendid/assets/images/prayer/prayer.png">
+		<meta property="og:image:width" content="1200">
+		<meta property="og:image:height" content="630">
+		<meta property="og:image:type" content="image/png">
+		<meta name="twitter:card" content="summary_large_image">
+		<meta name="twitter:site" content="@caplesweb">
+
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Bellota+Text:ital,wght@0,700;1,400&family=Bellota:ital,wght@1,300&display=swap" rel="stylesheet">
+		<style type="text/css">
+			html, body {
+				margin: 0;
+				padding: 0;
+				width: 100%;
+				height: 100%;
+				background-color: #F8F9FA;
+			}
+			body {
+				display: grid;
+				margin: 0 auto;
+				padding: 2.5% 0;
+				width: 100%;
+				max-width: 80%;
+				grid-template-rows: 5% 25% 70%;
+				font-family: 'Bellota Text', sans-serif;
+				font-size: 1rem;
+				font-style: italic;
+				font-weight: 400;
+			}
+			section {
+				display: flex;
+				flex-flow: row wrap;
+				justify-content: space-between;
+				align-items: center;
+			}
+			section h3 {
+				margin: 1.5rem 0;
+				height: 2rem;
+				flex-basis: 100%;
+				font-size: 1.5rem;
+				font-style: normal;
+				font-weight: 400;
+				text-align: center;
+			}
+			#info {
+				flex-basis: 10%;
+				column-gap: 2rem;
+				background-color: transparent;
+				border: none;
+			}
+			#info label {
+				display: flex;
+				flex-flow: row nowrap;
+				justify-content: space-between;
+				flex-grow: 1;
+				background-color: transparent;
+				border: inherit;
+			}
+			#info label[for=scripture] {
+				flex-basis: 50%;
+			}
+			#info label input {
+				padding-left: 0.5rem;
+				padding-right: 0.5rem;
+				flex-grow: 2;
+				background-color: transparent;
+				border: inherit;
+				border-bottom: 2px dotted #A4A4A4;
+			}
+			#interaction {
+				flex-flow: column nowrap;
+				background-color: transparent;
+			}
+			#interaction h3 {
+				flex-basis: auto;
+			}
+			#interaction > div {
+				position: relative;
+				width: 100%;
+				flex-grow: 2;
+			}
+			#interaction textarea {
+				width: calc(100% - 1rem - 4px);
+			}
+			#intercession {
+				display: block;
+				background-color: transparent;
+			}
+			#intercession > div {
+				display: flex;
+				width: 100%;
+				height: calc(100% - 5rem);
+				flex-flow: row wrap;
+				justify-content: space-between;
+				gap: 2rem;
+			}
+			#intercession .category {
+				display: flex;
+				position: relative;
+				flex-direction: column;
+				flex-basis: calc(50% - 1rem);
+			}
+			#interaction label, #intercession .category label {
+				position: absolute;
+				top: -0.5rem;
+				left: 1rem;
+				padding: 0 0.25rem;
+				line-height: 1rem;
+				text-align: left;
+				background-color: #F8F9FA;
+			}
+			input, textarea {
+				font-family: 'Bellota', sans-serif;
+				font-size: 1rem;
+			}
+			input:focus, input:focus-visible, textarea:focus, textarea:focus-visible {
+				border-color: #333333;
+				outline: none;
+			}
+			textarea {
+				padding: 0.5rem;
+				height: 90%;
+				background-color: #F8F9FA;
+				border: 2px dotted #A4A4A4;
+				resize: none;
+				overflow-y: scroll;
+			}
+
+			@media print {
+				body { margin: 0; padding: 0; width: 100%; max-width: 100%; background-color: transparent; }
+				#intercession .category label { background-color: #FFFFFF; }
+				input { border-color: #CBCBCB; }
+				textarea {
+					border: 2px dotted #CBCBCB;
+					resize: none;
+					overflow: hidden;
+				}
+			}
+		</style>
+		<link rel="apple-touch-icon" sizes="180x180" href="https://brandoncaples.com/wp-content/themes/splendid/assets/images/prayer/apple-touch-icon.png">
+		<link rel="icon" type="image/png" sizes="32x32" href="https://brandoncaples.com/wp-content/themes/splendid/assets/images/prayer/favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="https://brandoncaples.com/wp-content/themes/splendid/assets/images/prayer/favicon-16x16.png">
+	</head>
+	<body>
+		<!-- Google Tag Manager (noscript) : BEGIN -->
+		<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WWRT8C9"
+			height="0" width="0" style="display:none;visibility:hidden"></iframe>
+		<!-- Google Tag Manager (noscript) : END -->
+
+		</noscript>
+		<section id="info">
+			<label for="date">Date
+				<input type="text" name="date">
+			</label>
+			<label for="scripture">Scripture Reading
+				<input type="text" name="scripture">
+			</label>
+		</section>
+		<section id="interaction">
+			<h3>Interaction</h3>
+			<div>
+				<label for="interaction_content">What has the Lord taught you? What would you like to tell Him?</label>
+				<textarea id="interaction_content"></textarea>
+			</div>
+		</section>
+		<section id="intercession">
+			<h3>Intercession</h3>
+			<div>
+				<div class="category">
+					<label for="family">Family</label>
+					<textarea id="family"></textarea>
+				</div>
+				<div class="category">
+					<label for="friends">Friends</label>
+					<textarea id="friends"></textarea>
+				</div>
+				<div class="category">
+					<label for="church_ministry">Church/Ministry</label>
+					<textarea id="church_ministry"></textarea>
+				</div>
+				<div class="category">
+					<label for="sick_grieving">Sick or Grieving</label>
+					<textarea id="sick_grieving"></textarea>
+				</div>
+				<div class="category">
+					<label for="community">Community</label>
+					<textarea id="community"></textarea>
+				</div>
+				<div class="category">
+					<label for="government_other">Government/Other</label>
+					<textarea id="government_other"></textarea>
+				</div>
+			</div>
+		</section>
+	</body>
+</html>

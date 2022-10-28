@@ -16,7 +16,7 @@ CSS. Developers tend to either love it or hate it—sometimes depending on the d
 
 Of course we can simply use an ordered list to count items on a web page, but that doesn’t always fit semantically. And CSS counters are a bit more flexible than boring old lists, in my opinion.
 
-## How to Use CSS Counters
+## How to use CSS counters
 
 When using CSS counters, there are four properties and one function we can work with: `counter-reset`, `counter-increment`, `counter-set`, `content`, and the `counter()` function.
 
@@ -125,7 +125,7 @@ To display our counter, we need to provide the counter name to the `counter()` f
 }
 {% endhighlight %}
 
-## Defining Custom CSS Counters
+## Defining custom CSS counters
 
 If the standard list-style-type values aren’t sufficient, you could define your own custom counter style with the [`@counter-style`](https://developer.mozilla.org/en-US/docs/Web/CSS/@counter-style) CSS at-rule. From the MDN Web Docs:
 
