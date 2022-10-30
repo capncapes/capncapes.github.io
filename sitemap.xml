@@ -1,0 +1,44 @@
+---
+layout: null
+sitemap: false
+---
+
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+  {% for page in site.pages %}
+    {% assign ext = page.path | split: "." | last %}
+    {% unless page.sitemap == false or ext != "html" %}
+      <url>
+        <loc>{{ site.url }}{{ page.url }}</loc>
+        {% if page.modified %}
+          <lastmod>{{ page.modified | date_to_xmlschema }}</lastmod>
+        {% elsif page.date %}
+          <lastmod>{{ page.date | date_to_xmlschema }}</lastmod>
+        {% endif %}
+      </url>
+    {% endunless %}
+  {% endfor %}
+  {% for post in site.posts %}
+    {% unless post.published == false %}
+      <url>
+        <loc>{{ site.url }}{{ post.url }}</loc>
+        {% if post.modified %}
+          <lastmod>{{ post.modified | date_to_xmlschema }}</lastmod>
+        {% elsif post.date %}
+          <lastmod>{{ post.date | date_to_xmlschema }}</lastmod>
+        {% endif %}
+      </url>
+    {% endunless %}
+  {% endfor %}
+  {% for review in site.book_reviews %}
+    {% unless review.published == false %}
+      <url>
+        <loc>{{ site.url }}{{ review.url }}</loc>
+        {% if review.modified %}
+          <lastmod>{{ review.modified | date_to_xmlschema }}</lastmod>
+        {% elsif review.date %}
+          <lastmod>{{ review.date | date_to_xmlschema }}</lastmod>
+        {% endif %}
+      </url>
+    {% endunless %}
+  {% endfor %}
+</urlset>

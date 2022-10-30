@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-10-28T16:26:15-04:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">capncapes.github.io</title><subtitle>A blog site built with Jekyll consisting of two blogs, a feed of book reviews, and other content pages.</subtitle><author><name>Brandon Caples</name></author><entry><title type="html">Remove .DS_Store with Git</title><link href="http://localhost:4000/martech/2022/git-remove-ds-store" rel="alternate" type="text/html" title="Remove .DS_Store with Git" /><published>2022-06-25T23:14:39-04:00</published><updated>2022-06-25T23:14:39-04:00</updated><id>http://localhost:4000/martech/2022/git-remove-ds-store</id><content type="html" xml:base="http://localhost:4000/martech/2022/git-remove-ds-store">&lt;p&gt;Every developer with a Mac computer has encountered the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;.DS_Store&lt;/code&gt; file in their Git code. If you don’t know what it is, this file could be alarming. Don’t worry; &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;.DS_Store&lt;/code&gt; is harmless. But it can be annoying when it shows up in every folder.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-10-30T00:29:39-04:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">capncapes.github.io</title><subtitle>A blog site built with Jekyll consisting of two blogs, a feed of book reviews, and other content pages.</subtitle><author><name>Brandon Caples</name></author><entry><title type="html">Remove .DS_Store with Git</title><link href="http://localhost:4000/martech/2022/git-remove-ds-store" rel="alternate" type="text/html" title="Remove .DS_Store with Git" /><published>2022-06-25T23:14:39-04:00</published><updated>2022-06-25T23:14:39-04:00</updated><id>http://localhost:4000/martech/2022/git-remove-ds-store</id><content type="html" xml:base="http://localhost:4000/martech/2022/git-remove-ds-store">&lt;p&gt;Every developer with a Mac computer has encountered the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;.DS_Store&lt;/code&gt; file in their Git code. If you don’t know what it is, this file could be alarming. Don’t worry; &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;.DS_Store&lt;/code&gt; is harmless. But it can be annoying when it shows up in every folder.&lt;/p&gt;
 
 &lt;h2 id=&quot;what-is-the-ds_store-file&quot;&gt;What is the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;.DS_Store&lt;/code&gt; file?&lt;/h2&gt;
 
@@ -56,7 +56,7 @@
 
 &lt;p&gt;Of course we can simply use an ordered list to count items on a web page, but that doesn’t always fit semantically. And CSS counters are a bit more flexible than boring old lists, in my opinion.&lt;/p&gt;
 
-&lt;h2 id=&quot;how-to-use-css-counters&quot;&gt;How to Use CSS Counters&lt;/h2&gt;
+&lt;h2 id=&quot;how-to-use-css-counters&quot;&gt;How to use CSS counters&lt;/h2&gt;
 
 &lt;p&gt;When using CSS counters, there are four properties and one function we can work with: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;counter-reset&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;counter-increment&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;counter-set&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;content&lt;/code&gt;, and the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;counter()&lt;/code&gt; function.&lt;/p&gt;
 
@@ -230,7 +230,7 @@
 &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
 &lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
-&lt;h2 id=&quot;defining-custom-css-counters&quot;&gt;Defining Custom CSS Counters&lt;/h2&gt;
+&lt;h2 id=&quot;defining-custom-css-counters&quot;&gt;Defining custom CSS counters&lt;/h2&gt;
 
 &lt;p&gt;If the standard list-style-type values aren’t sufficient, you could define your own custom counter style with the &lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Web/CSS/@counter-style&quot;&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;@counter-style&lt;/code&gt;&lt;/a&gt; CSS at-rule. From the MDN Web Docs:&lt;/p&gt;
 
@@ -411,7 +411,7 @@
 
 &lt;p&gt;Alternatively, you can submit your sitemap to Google and other search engines directly. One thing to make sure of is that the information you’re giving to search engines is consistent. Don’t block a page in robots.txt and then list it in your sitemap. A sitemap should contain all the pages that should be indexed by a search engine.&lt;/p&gt;
 
-&lt;h3 id=&quot;title-tag&quot;&gt;Title Tag&lt;/h3&gt;
+&lt;h3 id=&quot;title-tag&quot;&gt;Title tag&lt;/h3&gt;
 
 &lt;p&gt;The meta title is very important. It’s, well, the title of your web page. Like a book title, it sums up the whole web page. It tells everyone—humans and robots alike—what the page is about. Search engines use this basic piece of information to determine whether your web page is worth showing to a searcher seeking answers online.&lt;/p&gt;
 
@@ -509,13 +509,13 @@
 
 &lt;p&gt;It can take a lot of time and energy to get SEO done right, but Google and other search engines genuinely want their search engine results pages to be helpful. While they guard their algorithms closely, the search engines want truly relevant content to be found, regardless of the size of the organization or website.&lt;/p&gt;
 
-&lt;h2 id=&quot;search-engines&quot;&gt;Search Engines&lt;/h2&gt;
+&lt;h2 id=&quot;search-engines&quot;&gt;Search engines&lt;/h2&gt;
 
 &lt;p&gt;Search engines are complex algorithms that act as matchmakers between searchers and web pages. Although search engine algorithms are very advanced these days, the goal is clear: to help a searcher find exactly what they’re looking for. Search engines scour the internet to index content to serve up on search engine results pages.&lt;/p&gt;
 
 &lt;p&gt;These algorithms are kept under lock and key, but what we do know is that each search is very unique. Searching for the exact same keyword in Lincoln, CA and Nashville, TN will produce different results. The searcher’s browsing and search history can also be factors. On top of that, web pages and their domains are constantly changing in the eyes of a search engine. Rankings fluctuate based on many different factors that Google and other search engines consider important.&lt;/p&gt;
 
-&lt;h2 id=&quot;google-search&quot;&gt;Google Search&lt;/h2&gt;
+&lt;h2 id=&quot;google-search&quot;&gt;Google search&lt;/h2&gt;
 
 &lt;p&gt;You may notice that I refer to Google a lot more than other search engines. The reason is that Google pretty much owns the search market. &lt;a href=&quot;http://gs.statcounter.com/search-engine-market-share&quot;&gt;According to StatCounter&lt;/a&gt;, Google’s share of the search engine market is nearly 91%. As a society, we even turned &lt;em&gt;google&lt;/em&gt; into a verb.&lt;/p&gt;
 
@@ -535,13 +535,13 @@
 
 &lt;p&gt;Why target long-tail keywords? There’s less competition. There are fewer web pages out there targeting a particular long-tail keyword, so when a searcher types it into the search bar, your page is more likely to show up. Furthermore, somewhere in the neighborhood of 70% of searches are for long-tail terms, because people know what they’re looking for, and they are specific in their searches.&lt;/p&gt;
 
-&lt;h2 id=&quot;be-a-good-citizen-of-the-web&quot;&gt;Be a Good Citizen of the Web&lt;/h2&gt;
+&lt;h2 id=&quot;be-a-good-citizen-of-the-web&quot;&gt;Be a good citizen of the web&lt;/h2&gt;
 
 &lt;p&gt;SEO is a complex subject, but it can also be simple. I like to tell people that if they’re a good “citizen of the web” they can rank well, but there are some technical aspects of a web page, too, that help search engines determine how relevant the page is for someone searching for something.&lt;/p&gt;
 
 &lt;p&gt;SEO is a legitimate practice, so don’t think that the goal is to manipulate search engines into ranking your site closer to the search bar. The major search engines have gotten really good at determining if a page is using bad practices like keyword stuffing or hiding content. Misleading titles and descriptions won’t help you, either. If a searcher clicks on your result from Google and realizes the page or site isn’t what they thought it was, they will leave. Not only is this person frustrated that you didn’t give them what they wanted, but Google now knows that this page isn’t a good result, so the page will rank lower.&lt;/p&gt;
 
-&lt;h2 id=&quot;so-what-is-seo&quot;&gt;So What is SEO?&lt;/h2&gt;
+&lt;h2 id=&quot;so-what-is-seo&quot;&gt;So what is SEO?&lt;/h2&gt;
 
 &lt;p&gt;It’s an ongoing process. SEO is a journey with no destination. It can be both fun and frustrating, but if you’re truly committed to providing meaningful content on your website, applying a little bit of SEO magic can go a long way.&lt;/p&gt;</content><author><name>Brandon Caples</name></author><category term="MarTech" /><category term="SEO" /><summary type="html">Most small business owners and marketers are constantly thinking of new ways to promote their business. One of the most affordable and effective tools is a well-crafted website and knowledge of search engine optimization (SEO). But what is SEO exactly?</summary></entry><entry><title type="html">How to fix sideways images on your website</title><link href="http://localhost:4000/martech/2018/fix-sideways-images" rel="alternate" type="text/html" title="How to fix sideways images on your website" /><published>2018-08-30T10:01:10-04:00</published><updated>2018-08-30T10:01:10-04:00</updated><id>http://localhost:4000/martech/2018/fix-sideways-images</id><content type="html" xml:base="http://localhost:4000/martech/2018/fix-sideways-images">&lt;p&gt;A colleague recently emailed me to report that one of our pages was displaying sideways images. I hadn’t noticed it before, because the pictures worked fine for me in several browsers. I did some troubleshooting and discovered that both Safari and Chrome on iOS devices have a default behavior that rotates an image according to its EXIF data. So if you take a picture at an angle, it will be sideways when you upload it, and rotating the image in a media previewer won’t always correct the EXIF data.&lt;/p&gt;
 
