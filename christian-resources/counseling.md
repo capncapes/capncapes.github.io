@@ -2,7 +2,8 @@
 layout: default
 title: Counseling Services
 featured_image: {
-  src: "counseling.jpeg",
+  src: "counseling.webp",
+  fallback: "counseling.jpeg",
   title: "Residential and outpatient counseling services",
   alt: "A licensed counselor with her patient" }
 permalink: /christian-resources/counseling/

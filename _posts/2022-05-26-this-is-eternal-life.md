@@ -3,7 +3,8 @@ layout: post
 title: "This is eternal life: know your God"
 date: 2022-05-26 11:39:31 -0400
 featured_image: {
-  src: "eternal-life.jpg",
+  src: "eternal-life.webp",
+  fallback: "eternal-life.jpg",
   title: "This is eternal life: know your God",
   alt: "An open door illuminated by the light outside"
 }

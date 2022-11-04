@@ -11,7 +11,8 @@ book: {
 }
 description: "Paul the Apostle is a concise treatment of the life of Paul and the most highly recommended of the shorter biographies that I could find."
 featured_image: {
-  src: "paul-the-apostle.jpeg",
+  src: "paul-the-apostle.webp",
+  fallback: "paul-the-apostle.jpeg",
   title: "Paul the Apostle, by Robert E. Picirilli",
   alt: "Paul the Apostle, by Robert E. Picirilli"
 }

@@ -3,7 +3,8 @@ layout: post
 title: "The average color of the universe"
 date: 2021-08-24 11:32:00 -0400
 featured_image: {
-  src: "average-color-universe.jpeg",
+  src: "average-color-universe.webp",
+  fallback: "average-color-universe.jpeg",
   title: "Colors of the universe",
   alt: "Stars and galaxies" }
 category: MarTech

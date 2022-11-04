@@ -3,7 +3,8 @@ layout: post
 title: "A love/hate relationship with Internet Explorer"
 date: 2017-01-06 14:34:40 -0400
 featured_image: {
-  src: "internet-explorer-frustration.jpeg",
+  src: "internet-explorer-frustration.webp",
+  fallback: "internet-explorer-frustration.jpeg",
   title: "A love/hate relationship with Internet Explorer",
   alt: "Angry man punching through a laptop screen" }
 category: MarTech

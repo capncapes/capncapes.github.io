@@ -11,7 +11,8 @@ book: {
 }
 description: ""
 featured_image: {
-  src: "weapons-of-math-destruction.jpeg",
+  src: "weapons-of-math-destruction.webp",
+  fallback: "weapons-of-math-destruction.jpeg",
   title: "Weapons of Math Destruction: How Big Data Increases Inequality and Threatens Democracy",
   alt: "Weapons of Math Destruction, by Cathy O'Neil"
 }

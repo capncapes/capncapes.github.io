@@ -65,6 +65,7 @@ html > body .max-w-4 { max-width: 60rem !important; }
 html > body .max-w-5 { max-width: 80rem !important; }
 html > body .max-w-6 { max-width: 100rem !important; }
 html > body .max-w-text { max-width: 75ch !important; }
+html > body .max-w-fill { max-width: -webkit-fill-available !important; }
 
 /* ================================================================
     3   Height

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-10-30T00:29:39-04:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">capncapes.github.io</title><subtitle>A blog site built with Jekyll consisting of two blogs, a feed of book reviews, and other content pages.</subtitle><author><name>Brandon Caples</name></author><entry><title type="html">Remove .DS_Store with Git</title><link href="http://localhost:4000/martech/2022/git-remove-ds-store" rel="alternate" type="text/html" title="Remove .DS_Store with Git" /><published>2022-06-25T23:14:39-04:00</published><updated>2022-06-25T23:14:39-04:00</updated><id>http://localhost:4000/martech/2022/git-remove-ds-store</id><content type="html" xml:base="http://localhost:4000/martech/2022/git-remove-ds-store">&lt;p&gt;Every developer with a Mac computer has encountered the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;.DS_Store&lt;/code&gt; file in their Git code. If you don’t know what it is, this file could be alarming. Don’t worry; &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;.DS_Store&lt;/code&gt; is harmless. But it can be annoying when it shows up in every folder.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-11-03T22:55:00-04:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">capncapes.github.io</title><subtitle>A blog site built with Jekyll consisting of two blogs, a feed of book reviews, and other content pages.</subtitle><author><name>Brandon Caples</name></author><entry><title type="html">Remove .DS_Store with Git</title><link href="http://localhost:4000/martech/2022/git-remove-ds-store" rel="alternate" type="text/html" title="Remove .DS_Store with Git" /><published>2022-06-25T23:14:39-04:00</published><updated>2022-06-25T23:14:39-04:00</updated><id>http://localhost:4000/martech/2022/git-remove-ds-store</id><content type="html" xml:base="http://localhost:4000/martech/2022/git-remove-ds-store">&lt;p&gt;Every developer with a Mac computer has encountered the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;.DS_Store&lt;/code&gt; file in their Git code. If you don’t know what it is, this file could be alarming. Don’t worry; &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;.DS_Store&lt;/code&gt; is harmless. But it can be annoying when it shows up in every folder.&lt;/p&gt;
 
 &lt;h2 id=&quot;what-is-the-ds_store-file&quot;&gt;What is the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;.DS_Store&lt;/code&gt; file?&lt;/h2&gt;
 
@@ -435,49 +435,82 @@
 
 &lt;p&gt;First, &lt;a aria-label=&quot;download Inkscape (opens in a new tab)&quot; href=&quot;https://inkscape.org/release/&quot; target=&quot;_blank&quot; rel=&quot;noreferrer noopener&quot;&gt;download Inkscape&lt;/a&gt; and open a new document.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/img/martech/how-to-heart-1.png&quot; alt=&quot;A new Inkscape document&quot; class=&quot;shadow&quot; /&gt;&lt;/p&gt;
+&lt;picture class=&quot;block md:mx-12 xl:mx-0&quot;&gt;
+	&lt;source type=&quot;image/webp&quot; srcset=&quot;/assets/img/martech/how-to-heart-1.webp&quot; /&gt;
+	&lt;img src=&quot;/assets/img/martech/how-to-heart-1.png&quot; class=&quot;shadow&quot; alt=&quot;A new Inkscape document&quot; /&gt;
+&lt;/picture&gt;
 
 &lt;p&gt;Select the Circle tool to draw an ellipse, or circle. Hold down the Control button as you click and drag the cursor to draw a perfect circle.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/img/martech/how-to-heart-2.png&quot; alt=&quot;A pink circle drawn digitally with Inkscape software&quot; class=&quot;shadow&quot; /&gt;&lt;/p&gt;
+&lt;picture class=&quot;block md:mx-12 xl:mx-0&quot;&gt;
+	&lt;source type=&quot;image/webp&quot; srcset=&quot;/assets/img/martech/how-to-heart-2.webp&quot; /&gt;
+	&lt;img src=&quot;/assets/img/martech/how-to-heart-2.png&quot; class=&quot;shadow&quot; alt=&quot;A pink circle drawn digitally with Inkscape software&quot; /&gt;
+&lt;/picture&gt;
 
-&lt;p&gt;Next, draw a rectangle that is the same height as the circle and half the width. Align the two shapes along their right edges and centered vertically. (You can align objects by selecting “Align and Distribute…” from the &lt;strong&gt;Object&lt;/strong&gt; menu.)&lt;/p&gt;
+&lt;p&gt;Next, draw a rectangle that is the same height as the circle and half its width. Align the two shapes along their right edges and centered vertically. (You can align objects by selecting “Align and Distribute…” from the &lt;strong&gt;Object&lt;/strong&gt; menu.)&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/img/martech/how-to-heart-3.png&quot; alt=&quot;A blue rectangle placed on top of a pink circle, drawn digitally with Inkscape software&quot; class=&quot;shadow&quot; /&gt;&lt;/p&gt;
+&lt;picture class=&quot;block md:mx-12 xl:mx-0&quot;&gt;
+	&lt;source type=&quot;image/webp&quot; srcset=&quot;/assets/img/martech/how-to-heart-3.webp&quot; /&gt;
+	&lt;img src=&quot;/assets/img/martech/how-to-heart-3.png&quot; class=&quot;shadow&quot; alt=&quot;A blue rectangle placed on top of a pink circle, drawn digitally with Inkscape software&quot; /&gt;
+&lt;/picture&gt;
 
 &lt;p&gt;Both objects are currently classified as shapes, but we need to convert them both to paths for the next steps. With both objects selected, choose “Object to Path” from the &lt;strong&gt;Path&lt;/strong&gt; menu.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/img/martech/how-to-heart-4.png&quot; alt=&quot;Inkscape context menu with Object to Path selected&quot; class=&quot;shadow&quot; /&gt;&lt;/p&gt;
+&lt;picture class=&quot;block md:mx-12 xl:mx-0&quot;&gt;
+	&lt;source type=&quot;image/webp&quot; srcset=&quot;/assets/img/martech/how-to-heart-4.webp&quot; /&gt;
+	&lt;img src=&quot;/assets/img/martech/how-to-heart-4.png&quot; class=&quot;shadow&quot; alt=&quot;Inkscape context menu with Object to Path selected&quot; /&gt;
+&lt;/picture&gt;
 
 &lt;p&gt;With both objects still selected and the rectangle sitting above the circle, select &lt;strong&gt;Path &amp;gt; Difference&lt;/strong&gt; to cut the circle in half using the rectangle as the difference. The rectangle will disappear.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/img/martech/how-to-heart-5.png&quot; alt=&quot;Inkscape context menu with Difference selected&quot; class=&quot;shadow&quot; /&gt;&lt;/p&gt;
+&lt;picture class=&quot;block md:mx-12 xl:mx-0&quot;&gt;
+	&lt;source type=&quot;image/webp&quot; srcset=&quot;/assets/img/martech/how-to-heart-5.webp&quot; /&gt;
+	&lt;img src=&quot;/assets/img/martech/how-to-heart-5.png&quot; class=&quot;shadow&quot; alt=&quot;Inkscape context menu with Difference selected&quot; /&gt;
+&lt;/picture&gt;
 
 &lt;p&gt;(If you do need to rearrange the order of your objects, use the Raise and Lower tools in the &lt;strong&gt;Object&lt;/strong&gt; menu.)&lt;/p&gt;
 
 &lt;p&gt;Here’s what we have so far:&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/img/martech/how-to-heart-6.png&quot; alt=&quot;A pink half-circle drawn digitally with Inkscape software&quot; class=&quot;shadow&quot; /&gt;&lt;/p&gt;
+&lt;picture class=&quot;block md:mx-12 xl:mx-0&quot;&gt;
+	&lt;source type=&quot;image/webp&quot; srcset=&quot;/assets/img/martech/how-to-heart-6.webp&quot; /&gt;
+	&lt;img src=&quot;/assets/img/martech/how-to-heart-6.png&quot; class=&quot;shadow&quot; alt=&quot;A pink half-circle drawn digitally with Inkscape software&quot; /&gt;
+&lt;/picture&gt;
 
 &lt;p&gt;Duplicate the half-circle (&lt;strong&gt;Edit &amp;gt; Duplicate&lt;/strong&gt;) and flip it horizontally (&lt;strong&gt;Object &amp;gt; Flip Horizontal&lt;/strong&gt;).&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/img/martech/how-to-heart-7.png&quot; alt=&quot;A pink circle drawn digitally with Inkscape software&quot; class=&quot;shadow&quot; /&gt;&lt;/p&gt;
+&lt;picture class=&quot;block md:mx-12 xl:mx-0&quot;&gt;
+	&lt;source type=&quot;image/webp&quot; srcset=&quot;/assets/img/martech/how-to-heart-7.webp&quot; /&gt;
+	&lt;img src=&quot;/assets/img/martech/how-to-heart-7.png&quot; class=&quot;shadow&quot; alt=&quot;A pink circle drawn digitally with Inkscape software&quot; /&gt;
+&lt;/picture&gt;
 
 &lt;p&gt;Now draw a square with the same height and width as the circle.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/img/martech/how-to-heart-8.png&quot; alt=&quot;A pink circle and a pink square, drawn digitally with Inkscape software&quot; class=&quot;shadow&quot; /&gt;&lt;/p&gt;
+&lt;picture class=&quot;block md:mx-12 xl:mx-0&quot;&gt;
+	&lt;source type=&quot;image/webp&quot; srcset=&quot;/assets/img/martech/how-to-heart-8.webp&quot; /&gt;
+	&lt;img src=&quot;/assets/img/martech/how-to-heart-8.png&quot; class=&quot;shadow&quot; alt=&quot;A pink circle and a pink square, drawn digitally with Inkscape software&quot; /&gt;
+&lt;/picture&gt;
 
 &lt;p&gt;Arrange the half-circles and the square as shown below. It finally looks like a heart!&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/img/martech/how-to-heart-9.png&quot; alt=&quot;A pink heart drawn digitally with Inkscape software&quot; class=&quot;shadow&quot; /&gt;&lt;/p&gt;
+&lt;picture class=&quot;block md:mx-12 xl:mx-0&quot;&gt;
+	&lt;source type=&quot;image/webp&quot; srcset=&quot;/assets/img/martech/how-to-heart-9.webp&quot; /&gt;
+	&lt;img src=&quot;/assets/img/martech/how-to-heart-9.png&quot; class=&quot;shadow&quot; alt=&quot;A pink heart drawn digitally with Inkscape software&quot; /&gt;
+&lt;/picture&gt;
 
 &lt;p&gt;With all three shapes in place and selected, select “Union” from the &lt;strong&gt;Path&lt;/strong&gt; menu. This merges all three shapes into one shape—a heart!&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/img/martech/how-to-heart-10.png&quot; alt=&quot;Inkscape context menu with Union selected&quot; class=&quot;shadow&quot; /&gt;&lt;/p&gt;
+&lt;picture class=&quot;block md:mx-12 xl:mx-0&quot;&gt;
+	&lt;source type=&quot;image/webp&quot; srcset=&quot;/assets/img/martech/how-to-heart-10.webp&quot; /&gt;
+	&lt;img src=&quot;/assets/img/martech/how-to-heart-10.png&quot; class=&quot;shadow&quot; alt=&quot;Inkscape context menu with Union selected&quot; /&gt;
+&lt;/picture&gt;
 
 &lt;p&gt;You now have a perfect heart shape that will scale infinitely and is easy to recolor. Simply rotate the heart 45° to stand it upright.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/img/martech/how-to-heart-11.png&quot; alt=&quot;A pink heart drawn digitally with Inkscape software&quot; class=&quot;shadow&quot; /&gt;&lt;/p&gt;
+&lt;picture class=&quot;block md:mx-12 xl:mx-0&quot;&gt;
+	&lt;source type=&quot;image/webp&quot; srcset=&quot;/assets/img/martech/how-to-heart-11.webp&quot; /&gt;
+	&lt;img src=&quot;/assets/img/martech/how-to-heart-11.png&quot; class=&quot;shadow&quot; alt=&quot;A pink heart drawn digitally with Inkscape software&quot; /&gt;
+&lt;/picture&gt;
 
 &lt;p&gt;I hope you’ve enjoyed learning how to draw a heart in Inkscape. Keep designing!&lt;/p&gt;</content><author><name>Brandon Caples</name></author><category term="MarTech" /><category term="how to" /><category term="graphic design" /><summary type="html">Inkscape is a free vector graphics editor, similar to Adobe Illustrator, just without a few bells and whistles. The free, open source editor can accomplish a lot, though. Today, we’re going to learn how to draw a heart using Inkscape.</summary></entry><entry><title type="html">God will restore what was lost</title><link href="http://localhost:4000/faith/2018/god-will-restore-what-was-lost" rel="alternate" type="text/html" title="God will restore what was lost" /><published>2018-10-30T05:45:47-04:00</published><updated>2018-10-30T05:45:47-04:00</updated><id>http://localhost:4000/faith/2018/god-will-restore-what-was-lost</id><content type="html" xml:base="http://localhost:4000/faith/2018/god-will-restore-what-was-lost">&lt;p class=&quot;note&quot;&gt;The original article, published on October 9, 2018, can be found at the &lt;a href=&quot;https://mercymultiplied.com/god-will-restore-what-was-lost/&quot; target=&quot;_blank&quot;&gt;Mercy Multiplied blog&lt;/a&gt;.&lt;/p&gt;
 

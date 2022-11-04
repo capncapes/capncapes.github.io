@@ -4,6 +4,7 @@ title: "Christ in you, the hope of glory"
 date: 2022-05-20 12:00:01 -0400
 featured_image: {
   src: "",
+  fallback: "",
   title: "Christ in you, the hope of glory",
   alt: ""
 }

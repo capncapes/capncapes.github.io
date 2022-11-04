@@ -11,7 +11,8 @@ book: {
 }
 description: "This is a beautiful story of laying down one’s own will for the glory of God and being made new by Him."
 featured_image: {
-  src: "hinds-feet-on-high-places.jpeg",
+  src: "hinds-feet-on-high-places.webp",
+  fallback: "hinds-feet-on-high-places.jpeg",
   title: "Hinds' Feet on High Places",
   alt: "Hinds' Feet on High Places, by Hannah Hurnard"
 }

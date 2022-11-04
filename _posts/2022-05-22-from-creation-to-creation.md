@@ -4,6 +4,7 @@ title: "From creation to creation: the restoration of all things"
 date: 2022-05-22 08:03:11 -0400
 featured_image: {
   src: "",
+  fallback: "",
   title: "From creation to creation",
   alt: ""
 }

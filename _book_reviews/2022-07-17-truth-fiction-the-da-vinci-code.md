@@ -11,7 +11,8 @@ book: {
 }
 description: "This book is a critique of the historical claims about religious documents presented as truth in The Da Vinci Code."
 featured_image: {
-  src: "truth-and-fiction-in-the-da-vinci-code.jpeg",
+  src: "truth-and-fiction-in-the-da-vinci-code.webp",
+  fallback: "truth-and-fiction-in-the-da-vinci-code.jpeg",
   title: "Truth and Fiction in The Da Vinci Code: A Historian Reveals What We Really Know about Jesus, Mary Magdalene, and Constantine",
   alt: "Truth and Fiction in The Da Vinci Code, by Bart D. Ehrman"
 }

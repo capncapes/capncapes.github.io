@@ -11,7 +11,8 @@ book: {
 }
 description: "Nezhukumatathil does a splendid job of sharing multiple narratives at once."
 featured_image: {
-  src: "world-of-wonders.jpeg",
+  src: "world-of-wonders.webp",
+  fallback: "world-of-wonders.jpeg",
   title: "World of Wonders, by Aimee Nezhukumatathil",
   alt: "World of Wonders: In Praise of Fireflies, Whale Sharks, and Other Astonishments"
 }
@@ -31,7 +32,10 @@ With only 160 pages and 28 short chapters, each chapter averages less than six p
 
 Each chapter is titled for an animal, plant, or other natural wonder, and adorned with an illustration of the subject. [Fumi Mini Nakamura](http://www.miniminiaturemouse.com/world-of-wonder) created all of the illustrations, and they truly add to the artfulness of the book in a way that most book covers simply do not. I love nature, especially animals, and this book really satisfied that fascination for me, in both the writing and the illustrations.
 
-<img src="/assets/img/books/world-of-wonders_monarch-butterfly.jpeg" class="shadow" alt="Monarch Butterfly from World of Wonders book, by Aimee Nezhukumatathil" width="960">
+<picture>
+  <source type="image/webp" srcset="/assets/img/books/world-of-wonders_monarch-butterfly.webp" >
+  <img src="/assets/img/books/world-of-wonders_monarch-butterfly.jpeg" class="shadow" alt="Monarch Butterfly from World of Wonders book, by Aimee Nezhukumatathil" width="960" />
+</picture>
 
 Nezhukumatathil does a splendid job of sharing multiple narratives at once. As she recounts experiences from her childhood, she also tells stories of her family enduring racism in everyday life. The book is both a memoir of an Asian American woman growing up in America and an appeal to better care for our natural world.
 
@@ -47,7 +51,10 @@ At the same time, she enchants the reader with facts and personal anecdotes abou
 
 Her love of nature and conservationist spirit are on every page, yet she does not condescend or scold or lament. She writes in a way that makes you, the reader, a conservationist along with her.
 
-<img src="/assets/img/books/world-of-wonders_dancing-frog.jpeg" class="shadow" alt="Dancing Frog from World of Wonders book, by Aimee Nezhukumatathil" width="960">
+<picture>
+  <source type="image/webp" srcset="/assets/img/books/world-of-wonders_dancing-frog.webp" >
+  <img src="/assets/img/books/world-of-wonders_dancing-frog.jpeg" class="shadow" alt="Dancing Frog from World of Wonders book, by Aimee Nezhukumatathil" width="960" />
+</picture>
 
 > When daily news seems to bring forth another fresh grief&mdash;more children killed, the Amazon rainforest ablaze for weeks&mdash;I think of this orange, its sweetness and the smiles it brings to so many families.
 >

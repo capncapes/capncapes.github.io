@@ -2,7 +2,8 @@
 layout: default
 title: Bible Study Resources
 featured_image: {
-  src: "bible_study.jpeg",
+  src: "bible_study.webp",
+  fallback: "bible_study.jpeg",
   title: "Bible study tools",
   alt: "Bible with text highlighted" }
 permalink: /christian-resources/bible-study/

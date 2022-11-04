@@ -3,7 +3,8 @@ layout: post
 title: "SEO terms explained"
 date: 2020-04-26 14:25:20 -0400
 featured_image: {
-  src: "seo-terms-explained.jpeg",
+  src: "seo-terms-explained.webp",
+  fallback: "seo-terms-explained.jpeg",
   title: "SEO terms explained",
   alt: "Man writing SEO terminology" }
 category: MarTech

@@ -11,7 +11,8 @@ book: {
 }
 description: ""
 featured_image: {
-  src: "confronting-christianity.jpg",
+  src: "confronting-christianity.webp",
+  fallback: "confronting-christianity.jpg",
   title: "Confronting Christianity, by Rebecca McLaughlin",
   alt: "Confronting Christianity: 12 Hard Questions for the World's Largest Religion"
 }

@@ -3,7 +3,8 @@ layout: post
 title: "He does not afflict from His heart"
 date: 2022-01-14 05:10:15 -0400
 featured_image: {
-  src: "suffering-lamenting.jpeg",
+  src: "suffering-lamenting.webp",
+  fallback: "suffering-lamenting.jpeg",
   title: "He does not afflict from His heart",
   alt: "A young woman crying, being comforted by a friend"
 }

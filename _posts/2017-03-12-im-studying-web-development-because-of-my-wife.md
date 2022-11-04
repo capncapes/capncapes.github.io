@@ -3,7 +3,8 @@ layout: post
 title: "I’m studying web development because of my wife"
 date: 2017-03-12 06:05:29 -0400
 featured_image: {
-  src: "im-studying-web-development-because-of-my-wife.jpeg",
+  src: "im-studying-web-development-because-of-my-wife.webp",
+  fallback: "im-studying-web-development-because-of-my-wife.jpeg",
   title: "I’m studying web development because of my wife",
   alt: "Brandon and Jacqueline Caples wedding" }
 category: MarTech

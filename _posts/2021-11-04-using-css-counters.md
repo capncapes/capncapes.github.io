@@ -3,7 +3,8 @@ layout: post
 title: "Using CSS counters"
 date: 2021-11-04 14:03:01 -0400
 featured_image: {
-  src: "using-css-counters.jpg",
+  src: "using-css-counters.webp",
+  fallback: "using-css-counters.jpg",
   title: "Using CSS counters",
   alt: "CSS counters" }
 category: MarTech

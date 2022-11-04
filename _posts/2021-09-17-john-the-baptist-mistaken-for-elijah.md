@@ -3,7 +3,8 @@ layout: post
 title: "Why was John the Baptist mistaken for Elijah?"
 date: 2021-09-17 01:11:10 -0400
 featured_image: {
-  src: "john-the-baptist-elijah-the-tishbite.jpeg",
+  src: "john-the-baptist-elijah-the-tishbite.webp",
+  fallback: "john-the-baptist-elijah-the-tishbite.jpeg",
   title: "Why was John the Baptist mistaken for Elijah?",
   alt: "John the Baptist preaches to a crowd"
 }

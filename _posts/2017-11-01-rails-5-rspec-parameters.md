@@ -3,7 +3,8 @@ layout: post
 title: "Rails 5 and Rspec parameters"
 date: 2017-11-01 06:31:00 -0400
 featured_image: {
-  src: "rails-5-rspec-parameters.jpeg",
+  src: "rails-5-rspec-parameters.webp",
+  fallback: "rails-5-rspec-parameters.jpeg",
   title: "Rails 5 and Rspec parameters",
   alt: "Ruby on Rails and Rspec" }
 category: MarTech

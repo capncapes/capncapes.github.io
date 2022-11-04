@@ -2,7 +2,8 @@
 layout: default
 title: Christian Resources
 featured_image: {
-  src: "small_group.jpeg",
+  src: "small_group.webp",
+  fallback: "small_group.jpeg",
   title: "Christian resources",
   alt: "Small group of people" }
 permalink: /christian-resources/

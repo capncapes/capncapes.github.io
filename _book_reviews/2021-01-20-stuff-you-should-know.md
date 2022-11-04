@@ -11,7 +11,8 @@ book: {
 }
 description: ""
 featured_image: {
-  src: "sysk-book.jpeg",
+  src: "sysk-book.webp",
+  fallback: "sysk-book.jpeg",
   title: "Stuff You Should Know, by Josh Clark and Chuck Bryant",
   alt: "Stuff You Should Know: An Incomplete Compendium of Mostly Interesting Things"
 }

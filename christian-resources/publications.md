@@ -2,7 +2,8 @@
 layout: default
 title: Publications
 featured_image: {
-  src: "tabletalk.jpeg",
+  src: "tabletalk.webp",
+  fallback: "tabletalk.jpeg",
   title: "Print and digital Christian publications",
   alt: "TableTalk Magazine" }
 permalink: /christian-resources/publications/

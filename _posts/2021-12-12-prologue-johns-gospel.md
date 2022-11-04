@@ -4,6 +4,7 @@ title: "In the beginning was the Word: the prologue of John's gospel"
 date: 2021-12-12 12:12:12 -0400
 featured_image: {
   src: "",
+  fallback: "",
   title: "The prologue of John's gospel (1:1–18)",
   alt: ""
 }

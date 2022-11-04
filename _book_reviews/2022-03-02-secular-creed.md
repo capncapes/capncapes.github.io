@@ -11,7 +11,8 @@ book: {
 }
 description: ""
 featured_image: {
-  src: "secular-creed.jpg",
+  src: "secular-creed.webp",
+  fallback: "secular-creed.jpg",
   title: "The Secular Creed, by Rebecca McLaughlin",
   alt: "The Secular Creed: Engaging Five Contemporary Claims"
 }

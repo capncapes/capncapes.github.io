@@ -3,7 +3,8 @@ layout: post
 title: "ngClick vs ngSubmit"
 date: 2017-05-10 11:52:11 -0400
 featured_image: {
-  src: "angular-book.jpeg",
+  src: "angular-book.webp",
+  fallback: "angular-book.jpeg",
   title: "ngClick vs ngSubmit",
   alt: "AngularJS book by Pierwsze Kroki" }
 category: MarTech

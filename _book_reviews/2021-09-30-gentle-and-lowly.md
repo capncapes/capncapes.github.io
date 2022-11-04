@@ -11,7 +11,8 @@ book: {
 }
 description: "I love this book for its delicate approach to the heart of Jesus. Gentle and Lowly is not about what Christ has done, but who He is."
 featured_image: {
-  src: "gentle-and-lowly.jpeg",
+  src: "gentle-and-lowly.webp",
+  fallback: "gentle-and-lowly.jpeg",
   title: "Gentle and Lowly, by Dane Ortlund",
   alt: "Gentle and Lowly: The Heart of Christ for Sinners and Sufferers"
 }

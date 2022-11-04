@@ -2,9 +2,11 @@
 layout: default
 title: Adoption, Foster Care, and Child Welfare Services in Tennessee
 featured_image: {
-  src: "adoption_foster_care.jpeg",
+  src: "adoption_foster_care.webp",
+  fallback: "adoption_foster_care.jpeg",
   title: "Adoption, foster care, and child welfare services",
   alt: "An adoptive mother playing with her daughter" }
+description: "Child welfare services are managed by states, so the laws, policies, and fees you experience may differ."
 permalink: /christian-resources/adoption-foster-care-tn/
 ---
 

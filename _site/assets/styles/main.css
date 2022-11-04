@@ -634,6 +634,7 @@ b.tabs-section header p {
 
 #book-review .card {
 	background: linear-gradient(110deg, #30475E 40%, rgba(48, 71, 94, 0.8)), url(/assets/img/books.jpeg);
+	background: linear-gradient(110deg, #30475E 40%, rgba(48, 71, 94, 0.8)), url(/assets/img/books.webp);
 	background-clip: border-box;
 	background-origin: border-box;
 	background-position: center 70%;
@@ -653,6 +654,10 @@ b.tabs-section header p {
 
 #book-review article .card + * {
 	margin-top: 15rem;
+}
+
+#book-review .card header picture {
+	min-width: fit-content;
 }
 
 #post .card header picture.absolute {

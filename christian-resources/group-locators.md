@@ -2,7 +2,8 @@
 layout: default
 title: Bible Study Group Locators
 featured_image: {
-  src: "precept_bible_study_group_locator.png",
+  src: "precept_bible_study_group_locator.webp",
+  fallback: "precept_bible_study_group_locator.png",
   title: "Bible study group locators",
   alt: "Precept Bible study group locator" }
 permalink: /christian-resources/group-locators/

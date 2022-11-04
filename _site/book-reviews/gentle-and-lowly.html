@@ -15,7 +15,6 @@
 			window.dataLayer = window.dataLayer || [];
 			function gtag(){dataLayer.push(arguments);}
 			gtag('js', new Date());
-
 			gtag('config', 'G-K2XZK7JBSM');
 		</script>
 	
@@ -34,7 +33,7 @@
 	<meta property="og:url" content="http://localhost:4000/book-reviews/gentle-and-lowly">
 	<meta property="og:type" content="article">
 	<meta property="og:title" content="A Review of Gentle and Lowly">
-	<meta property="og:image" content="http://localhost:4000/assets/img/gentle-and-lowly.jpeg">
+	<meta property="og:image" content="http://localhost:4000/assets/img/gentle-and-lowly.webp">
 	<meta property="og:description" content="I love this book for its delicate approach to the heart of Jesus. Gentle and Lowly is not about what Christ has done, but who He is.">
 
 	<!-- Twitter Meta Tags -->
@@ -43,7 +42,7 @@
 	<meta property="twitter:url" content="http://localhost:4000/book-reviews/gentle-and-lowly">
 	<meta name="twitter:title" content="A Review of Gentle and Lowly">
 	<meta name="twitter:description" content="I love this book for its delicate approach to the heart of Jesus. Gentle and Lowly is not about what Christ has done, but who He is.">
-	<meta name="twitter:image" content="http://localhost:4000/assets/img/gentle-and-lowly.jpeg">
+	<meta name="twitter:image" content="http://localhost:4000/assets/img/gentle-and-lowly.webp">
 
 	<!-- CSS -->
 	<link rel="stylesheet" type="text/css" href="/assets/styles/global/layout.css" media="all">
@@ -106,7 +105,7 @@
 							"numberOfPages": "224",
 						
 						"author": "Dane Ortlund",
-						"image": "http://localhost:4000/assets/img/books/gentle-and-lowly.jpeg",
+						"image": "http://localhost:4000/assets/img/books/gentle-and-lowly.webp",
 						
 							"publisher": {
 								"@type": "Organization",
@@ -165,8 +164,8 @@ Gentle and Lowly addresses what I think is a common misconception: that God is i
 							"@type": "ImageObject",
 							"inLanguage": "en-US",
 							"@id": "http://localhost:4000#/schema/person/image/",
-							"url": "http://localhost:4000/assets/img/brandon_caples.jpg",
-							"contentUrl": "http://localhost:4000/assets/img/brandon_caples.jpg",
+							"url": "http://localhost:4000/assets/img/brandon_caples.webp",
+							"contentUrl": "http://localhost:4000/assets/img/brandon_caples.webp",
 							"width": 600,
 							"height": 600,
 							"caption": "Brandon Caples"
@@ -243,7 +242,10 @@ Gentle and Lowly addresses what I think is a common misconception: that God is i
 					</div>
 				</div>
 				
-					<img class="h-full max-h-1 mt-6 grow-0 rounded shadow" src="http://localhost:4000/assets/img/books/gentle-and-lowly.jpeg" alt="Gentle and Lowly: The Heart of Christ for Sinners and Sufferers">
+					<picture>
+						<source type="image/webp" srcset="http://localhost:4000/assets/img/books/gentle-and-lowly.webp" >
+						<img src="http://localhost:4000/assets/img/books/gentle-and-lowly.jpeg" class="h-full max-h-1 mt-6 grow-0 rounded shadow" alt="Gentle and Lowly: The Heart of Christ for Sinners and Sufferers" />
+					</picture>
 				
 			</header>
 		</div>

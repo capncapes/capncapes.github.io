@@ -9,9 +9,10 @@ book: {
   publisher: "Rowman & Littlefield",
   author: "Thomas F. Madden"
 }
-description: ""
+description: "I recommend this book for anyone who wants to have a thorough and practical understanding of these religious wars."
 featured_image: {
-  src: "concise-history-crusades.jpeg",
+  src: "concise-history-crusades.webp",
+  fallback: "concise-history-crusades.jpeg",
   title: "The Concise History of the Crusades, by Thomas F. Madden",
   alt: "The Concise History of the Crusades: Third Student Edition"
 }

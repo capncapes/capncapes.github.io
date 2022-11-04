@@ -3,7 +3,8 @@ layout: post
 title: "God will restore what was lost"
 date: 2018-10-30 05:45:47 -0400
 featured_image: {
-  src: "god-will-restore-what-was-lost.jpeg",
+  src: "god-will-restore-what-was-lost.webp",
+  fallback: "god-will-restore-what-was-lost.jpeg",
   title: "God will restore what was lost",
   alt: "A man kneeling on the beach to pray"
 }

@@ -11,7 +11,8 @@ book: {
 }
 description: ""
 featured_image: {
-  src: "five-dysfunctions.jpg",
+  src: "five-dysfunctions.webp",
+  fallback: "five-dysfunctions.jpg",
   title: "The Five Dysfunctions of a Team, by Patrick Lencioni",
   alt: "The Five Dysfunctions of a Team: A Leadership Fable"
 }

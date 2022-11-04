@@ -15,7 +15,6 @@
 			window.dataLayer = window.dataLayer || [];
 			function gtag(){dataLayer.push(arguments);}
 			gtag('js', new Date());
-
 			gtag('config', 'G-K2XZK7JBSM');
 		</script>
 	
@@ -34,7 +33,7 @@
 	<meta property="og:url" content="http://localhost:4000/book-reviews/paul-the-apostle">
 	<meta property="og:type" content="article">
 	<meta property="og:title" content="Paul the Apostle">
-	<meta property="og:image" content="http://localhost:4000/assets/img/paul-the-apostle.jpeg">
+	<meta property="og:image" content="http://localhost:4000/assets/img/paul-the-apostle.webp">
 	<meta property="og:description" content="Paul the Apostle is a concise treatment of the life of Paul and the most highly recommended of the shorter biographies that I could find.">
 
 	<!-- Twitter Meta Tags -->
@@ -43,7 +42,7 @@
 	<meta property="twitter:url" content="http://localhost:4000/book-reviews/paul-the-apostle">
 	<meta name="twitter:title" content="Paul the Apostle">
 	<meta name="twitter:description" content="Paul the Apostle is a concise treatment of the life of Paul and the most highly recommended of the shorter biographies that I could find.">
-	<meta name="twitter:image" content="http://localhost:4000/assets/img/paul-the-apostle.jpeg">
+	<meta name="twitter:image" content="http://localhost:4000/assets/img/paul-the-apostle.webp">
 
 	<!-- CSS -->
 	<link rel="stylesheet" type="text/css" href="/assets/styles/global/layout.css" media="all">
@@ -106,7 +105,7 @@
 							"numberOfPages": "288",
 						
 						"author": "Robert E. Picirilli",
-						"image": "http://localhost:4000/assets/img/books/paul-the-apostle.jpeg",
+						"image": "http://localhost:4000/assets/img/books/paul-the-apostle.webp",
 						
 							"publisher": {
 								"@type": "Organization",
@@ -153,8 +152,8 @@ Paul the Apostle is a concise treatment of the life of Paul and the most highly 
 							"@type": "ImageObject",
 							"inLanguage": "en-US",
 							"@id": "http://localhost:4000#/schema/person/image/",
-							"url": "http://localhost:4000/assets/img/brandon_caples.jpg",
-							"contentUrl": "http://localhost:4000/assets/img/brandon_caples.jpg",
+							"url": "http://localhost:4000/assets/img/brandon_caples.webp",
+							"contentUrl": "http://localhost:4000/assets/img/brandon_caples.webp",
 							"width": 600,
 							"height": 600,
 							"caption": "Brandon Caples"
@@ -231,7 +230,10 @@ Paul the Apostle is a concise treatment of the life of Paul and the most highly 
 					</div>
 				</div>
 				
-					<img class="h-full max-h-1 mt-6 grow-0 rounded shadow" src="http://localhost:4000/assets/img/books/paul-the-apostle.jpeg" alt="Paul the Apostle, by Robert E. Picirilli">
+					<picture>
+						<source type="image/webp" srcset="http://localhost:4000/assets/img/books/paul-the-apostle.webp" >
+						<img src="http://localhost:4000/assets/img/books/paul-the-apostle.jpeg" class="h-full max-h-1 mt-6 grow-0 rounded shadow" alt="Paul the Apostle, by Robert E. Picirilli" />
+					</picture>
 				
 			</header>
 		</div>

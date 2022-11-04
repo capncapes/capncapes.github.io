@@ -3,7 +3,8 @@ layout: post
 title: "What is SEO?"
 date: 2018-09-15 20:47:59 -0400
 featured_image: {
-  src: "what-is-seo.jpeg",
+  src: "what-is-seo.webp",
+  fallback: "what-is-seo.jpeg",
   title: "What is search engine optimization?",
   alt: "Google search engine query" }
 category: MarTech

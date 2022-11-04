@@ -3,7 +3,8 @@ layout: post
 title: "How to fix sideways images on your website"
 date: 2018-08-30 10:01:10 -0400
 featured_image: {
-  src: "brandon-caples-sideways.jpeg",
+  src: "brandon-caples-sideways.webp",
+  fallback: "brandon-caples-sideways.jpeg",
   title: "Brandon Caples",
   alt: "A sideways image of Brandon Caples wearing a wooden bowtie (circa 2013)" }
 category: MarTech

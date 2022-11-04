@@ -74,8 +74,8 @@
 							"@type": "ImageObject",
 							"inLanguage": "en-US",
 							"@id": "{{ site.url }}#/schema/person/image/",
-							"url": "{{ site.url }}/assets/img/brandon_caples.jpg",
-							"contentUrl": "{{ site.url }}/assets/img/brandon_caples.jpg",
+							"url": "{{ site.url }}/assets/img/brandon_caples.webp",
+							"contentUrl": "{{ site.url }}/assets/img/brandon_caples.webp",
 							"width": 600,
 							"height": 600,
 							"caption": "{{ site.meta.title }}"
@@ -128,7 +128,8 @@
 				</div>
 				{% if page.featured_image.src != '' %}
 					<picture>
-						<img class="w-full h-full object-cover object-{% unless page.featured_image.position %}center{% else %}{{ page.featured_image.position }}{% endunless %} rounded shadow" src="{{ site.url }}/assets/img/{{ page.category | downcase }}/{{ page.featured_image.src }}" alt="{{ page.featured_image.alt }}">
+						<source type="image/webp" srcset="{{ site.url }}/assets/img/{{ page.category | downcase }}/{{ page.featured_image.src }}" >
+						<img src="{{ site.url }}/assets/img/{{ page.category | downcase }}/{{ page.featured_image.fallback }}" class="w-full h-full object-cover object-{% unless page.featured_image.position %}center{% else %}{{ page.featured_image.position }}{% endunless %} rounded shadow" alt="{{ page.featured_image.alt }}" />
 					</picture>
 				{% endif %}
 			</header>

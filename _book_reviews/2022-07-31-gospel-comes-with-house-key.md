@@ -11,7 +11,8 @@ book: {
 }
 description: ""
 featured_image: {
-  src: "the_gospel_comes_with_a_house_key.jpg",
+  src: "the-gospel-comes-with-a-house-key.webp",
+  fallback: "the-gospel-comes-with-a-house-key.jpg",
   title: "The Gospel Comes with a House Key: Practicing Radically Ordinary Hospitality in Our Post-Christian World",
   alt: "The Gospel Comes with a House Key, by Rosaria Butterfield"
 }

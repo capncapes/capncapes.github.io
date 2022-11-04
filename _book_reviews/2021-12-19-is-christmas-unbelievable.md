@@ -11,7 +11,8 @@ book: {
 }
 description: "With its small size, short chapters, and low price, the book makes for a great Christmastime gift for church members."
 featured_image: {
-  src: "is-christmas-unbelievable.jpg",
+  src: "is-christmas-unbelievable.webp",
+  fallback: "is-christmas-unbelievable.jpg",
   title: "Is Christmas Unbelievable?, by Rebecca McLaughlin",
   alt: "Is Christmas Unbelievable?: Four Questions Everyone Should Ask About the World's Most Famous Story"
 }

@@ -3,7 +3,8 @@ layout: post
 title: "Three challenges of learning to code"
 date: 2017-01-07 07:07:07 -0400
 featured_image: {
-  src: "three-challenges-learning-to-code.jpeg",
+  src: "three-challenges-learning-to-code.webp",
+  fallback: "three-challenges-learning-to-code.jpeg",
   title: "Three challenges of learning web development",
   alt: "Frontend web development book by Jon Duckett on a table next to a laptop" }
 category: MarTech

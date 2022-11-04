@@ -4,6 +4,7 @@ title: "Are you tending your gardens?"
 date: 2022-01-23 16:00:16 -0400
 featured_image: {
   src: "",
+  fallback: "",
   title: "Are you tending your gardens?",
   alt: ""
 }

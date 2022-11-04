@@ -11,7 +11,8 @@ book: {
 }
 description: "This book explains the timeless, uncompromising movement of God’s people showing God’s love and sharing God’s good news to God’s creation."
 featured_image: {
-  src: "being-the-bad-guys.jpeg",
+  src: "being-the-bad-guys.webp",
+  fallback: "being-the-bad-guys.jpeg",
   title: "Being the Bad Guys, by Stephen McAlpine",
   alt: "Being the Bad Guys: How to Live for Jesus in a World That Says You Shouldn’t"
 }
