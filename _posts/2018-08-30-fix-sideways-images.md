@@ -7,6 +7,7 @@ featured_image: {
   fallback: "brandon-caples-sideways.jpeg",
   title: "Brandon Caples",
   alt: "A sideways image of Brandon Caples wearing a wooden bowtie (circa 2013)" }
+description: "Safari and Chrome (iOS) have a default behavior that rotates an image according to its EXIF data."
 category: MarTech
 tags: ["CSS", "graphic design"]
 howto: {

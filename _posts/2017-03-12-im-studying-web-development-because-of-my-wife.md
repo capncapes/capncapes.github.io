@@ -7,6 +7,7 @@ featured_image: {
   fallback: "im-studying-web-development-because-of-my-wife.jpeg",
   title: "I’m studying web development because of my wife",
   alt: "Brandon and Jacqueline Caples wedding" }
+description: "I spent the first few months of my marriage nearly code-free. We made plans, hiked a lot, and traveled some."
 category: MarTech
 tags: ["web development"]
 featured: false
@@ -30,7 +31,7 @@ Our wedding was perfect. The ceremony was officiated by my paternal grandfather 
 
 ## Taking my education seriously
 
-I spent the first few months of my marriage nearly code-free. We made plans, hiked a lot, and travelled some. When I started to code again, it was still only basic stuff, and I still had no portfolio. But I talked about web development. A lot. I had started a new job with a great company about a month and a half before getting married. I didn’t realize then that web development was a real possibility for me. I considered it a hobby.
+I spent the first few months of my marriage nearly code-free. We made plans, hiked a lot, and traveled some. When I started to code again, it was still only basic stuff, and I still had no portfolio. But I talked about web development. A lot. I had started a new job with a great company about a month and a half before getting married. I didn’t realize then that web development was a real possibility for me. I considered it a hobby.
 
 It wasn’t until my wonderful wife started asking questions that I considered a course correction. I started thinking of myself as a developer and coming up with paths to actually get me there. She encouraged all of it. Jackie urged me to pursue my dream, so I researched web development training programs. Though much more affordable than a university degree, these development bootcamps would still cost us a pretty penny.
 

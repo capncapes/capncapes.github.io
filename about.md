@@ -10,6 +10,7 @@ I originally launched brandoncaples.com in 2015 to host my résumé as I searche
 
 As I continue to add new content to the blogs, I hope you'll check back often. Happy reading!
 
-<div class="-mb-16">
+<picture class="block -mb-16 md:mx-12 xl:mx-0">
+	<source type="image/webp" srcset="/assets/img/caples.webp" >
 	<img src="/assets/img/caples.png" alt="The Caples family—Brandon, his wife, and their son" />
-</div>
+</picture>

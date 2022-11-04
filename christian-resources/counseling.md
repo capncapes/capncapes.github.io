@@ -6,6 +6,7 @@ featured_image: {
   fallback: "counseling.jpeg",
   title: "Residential and outpatient counseling services",
   alt: "A licensed counselor with her patient" }
+description: "A licensed counselor can provide valuable guidance in a variety of life circumstances."
 permalink: /christian-resources/counseling/
 ---
 

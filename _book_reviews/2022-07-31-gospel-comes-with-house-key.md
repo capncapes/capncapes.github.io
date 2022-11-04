@@ -9,7 +9,7 @@ book: {
   publisher: "Crossway Books",
   author: "Rosaria Butterfield"
 }
-description: ""
+description: "The Gospel Comes with a House Key is a great ministry handbook for middle-class Americans with large grocery budgets and extroverted tendencies. But that's not all there is to say."
 featured_image: {
   src: "the-gospel-comes-with-a-house-key.webp",
   fallback: "the-gospel-comes-with-a-house-key.jpg",

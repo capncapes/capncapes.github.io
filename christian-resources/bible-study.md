@@ -6,6 +6,7 @@ featured_image: {
   fallback: "bible_study.jpeg",
   title: "Bible study tools",
   alt: "Bible with text highlighted" }
+description: "Enhance your Bible study time with these excellent resources."
 permalink: /christian-resources/bible-study/
 ---
 

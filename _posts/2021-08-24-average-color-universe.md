@@ -7,6 +7,7 @@ featured_image: {
   fallback: "average-color-universe.jpeg",
   title: "Colors of the universe",
   alt: "Stars and galaxies" }
+description: "Cosmic latte may not be the flashiest color, but wouldn’t it be neat to use the average color of the universe in your next project?"
 category: MarTech
 tags: ["graphic design"]
 featured: false

@@ -7,6 +7,7 @@ featured_image: {
   fallback: "angular-book.jpeg",
   title: "ngClick vs ngSubmit",
   alt: "AngularJS book by Pierwsze Kroki" }
+description: "Angular has some nuances that can cause some trouble for beginners learning the framework, like the difference between ng-click and ng-submit."
 category: MarTech
 tags: ["web development"]
 featured: false

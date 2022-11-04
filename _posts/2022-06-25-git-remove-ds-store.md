@@ -8,6 +8,7 @@ featured_image: {
   title: "Remove .DS_Store with Git",
   alt: ".DS_Store file on a Mac computer",
   position: "left" }
+description: "Don't worry; .DS_Store is harmless. But let's remove it and prevent it from showing up again."
 category: MarTech
 tags: ["web development", "Git"]
 howto: {

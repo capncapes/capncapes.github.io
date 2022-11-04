@@ -7,6 +7,7 @@ featured_image: {
   fallback: "what-is-seo.jpeg",
   title: "What is search engine optimization?",
   alt: "Google search engine query" }
+description: "One of the most affordable and effective tools is a well-crafted website and knowledge of search engine optimization (SEO)."
 category: MarTech
 tags: ["SEO"]
 featured: true

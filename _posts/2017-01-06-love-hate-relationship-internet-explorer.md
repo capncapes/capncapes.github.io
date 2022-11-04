@@ -7,6 +7,7 @@ featured_image: {
   fallback: "internet-explorer-frustration.jpeg",
   title: "A love/hate relationship with Internet Explorer",
   alt: "Angry man punching through a laptop screen" }
+description: "Every web developer knows that Internet Explorer (IE) does things differently than other browsers."
 category: MarTech
 tags: ["web development"]
 featured: false

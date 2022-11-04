@@ -7,6 +7,7 @@ featured_image: {
   fallback: "rails-5-rspec-parameters.jpeg",
   title: "Rails 5 and Rspec parameters",
   alt: "Ruby on Rails and Rspec" }
+description: "Because of a deprecation to Rspec in Ruby on Rails 5, parameters must now be placed inside a params hash."
 category: MarTech
 tags: ["web development"]
 featured: false

@@ -6,6 +6,7 @@ featured_image: {
   fallback: "precept_bible_study_group_locator.png",
   title: "Bible study group locators",
   alt: "Precept Bible study group locator" }
+description: "Are you looking for a Bible study group near you? Or maybe a virtual group? Check out these online group locators."
 permalink: /christian-resources/group-locators/
 ---
 

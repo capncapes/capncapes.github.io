@@ -7,6 +7,7 @@ featured_image: {
   fallback: "using-css-counters.jpg",
   title: "Using CSS counters",
   alt: "CSS counters" }
+description: "CSS. Developers tend to either love it or hate it. Well, here’s a reason to love it: CSS counters."
 category: MarTech
 tags: ["web development", "CSS"]
 featured: false

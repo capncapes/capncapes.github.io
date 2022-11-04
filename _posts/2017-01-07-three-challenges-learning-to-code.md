@@ -7,6 +7,7 @@ featured_image: {
   fallback: "three-challenges-learning-to-code.jpeg",
   title: "Three challenges of learning web development",
   alt: "Frontend web development book by Jon Duckett on a table next to a laptop" }
+description: "Web development is challenging; that’s part of what makes it fun."
 category: MarTech
 tags: ["CSS", "HTML", "Git", "JavaScript"]
 featured: false

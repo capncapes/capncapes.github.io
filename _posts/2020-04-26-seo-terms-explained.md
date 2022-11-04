@@ -7,6 +7,7 @@ featured_image: {
   fallback: "seo-terms-explained.jpeg",
   title: "SEO terms explained",
   alt: "Man writing SEO terminology" }
+description: "Not everyone can afford to hire an SEO agency, so it’s helpful to have SEO terms explained in plain English."
 category: MarTech
 tags: ["SEO"]
 featured: false

@@ -6,6 +6,7 @@ featured_image: {
   fallback: "small_group.jpeg",
   title: "Christian resources",
   alt: "Small group of people" }
+description: "Browse a curated collection of Christian resources for Bible study, child welfare, counseling, and more."
 permalink: /christian-resources/
 ---
 
