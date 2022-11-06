@@ -29,7 +29,9 @@ social:
   reddit:
   stack_exchange: "https://stackexchange.com/users/9627195/brandon"
   tiktok:
-  twitter: caplesweb
+  twitter:
+    username: caplesweb
+    id: 106212276
   youtube:
 
 # SCRIPTS

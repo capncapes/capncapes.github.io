@@ -36,11 +36,19 @@
 
 	<!-- Twitter Meta Tags -->
 	<meta name="twitter:card" content="summary_large_image">
+	{% if site.social.twitter.username %}
+		<meta name="twitter:site" content="@{{ site.social.twitter.username }}">
+		<meta name="twitter:creator" content="@{{ site.social.twitter.username }}">
+	{% endif %}
+	{% if site.social.twitter.id %}
+		<meta name="twitter:creator:id" content="{{ site.social.twitter.id }}">
+	{% endif %}
 	<meta property="twitter:domain" content="{{ site.url }}">
 	<meta property="twitter:url" content="{{ page.url | replace: '/index.html','/' | prepend: site.baseurl | prepend: site.url }}">
 	<meta name="twitter:title" content="{% if page.title %}{{ page.title | smartify | strip_html | strip_newlines | escape_once }}{% else %}{{ site.name }}{% endif %}">
 	<meta name="twitter:description" content="{% if page.description %}{{page.description | strip_html | strip_newlines | truncate: 140 }}{% else %}{{ site.meta.description }}{% endif %}">
-	<meta name="twitter:image" content="{{ site.url }}/assets/img/{% if page.featured_image %}{{ page.featured_image.src }}{% else %}brandon_caples.jpg{% endif %}">
+	<meta name="twitter:image" content="{{ site.url }}/assets/img/{% if page.featured_image.fallback %}{{ page.featured_image.fallback }}{% else %}brandon_caples.jpg{% endif %}">
+	<meta name="twitter:image:alt" content="{% if page.featured_image.alt %}{{ page.featured_image.alt }}{% else %}Brandon Caples{% endif %}">
 
 	<!-- CSS -->
 	<link rel="stylesheet" type="text/css" href="/assets/styles/global/layout.css" media="all">
