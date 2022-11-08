@@ -103,6 +103,16 @@ code, code span, pre, pre span {
 .text-black { color: #121212; }
 .text-white { color: #F8F9FA; }
 
+.hover\:text-red:hover { color: #F05454; }
+.hover\:text-green:hover { color: #2CA096; }
+.hover\:text-blue:hover { color: #30475E; }
+.hover\:text-yellow:hover { color: #F9D423; }
+.hover\:text-orange:hover { color: #F77825; }
+.hover\:text-stone:hover { color: #EDEDE2; }
+.hover\:text-sand:hover { color: #DEDECA; }
+.hover\:text-black:hover { color: #121212; }
+.hover\:text-white:hover { color: #F8F9FA; }
+
 body a, body p a, body p a:visited, .card .read-more:hover, #post article .tags a.tag:hover, #book-review article .tags a.tag:hover {
 	color: #F05454;
 }
@@ -1004,6 +1014,8 @@ body hr {
 	17	Buttons + Links
 ================================================================ */
 
+button, .splendid-button, .splendid-cta { line-height: 200%; }
+
 .splendid-button {
 	display: inline-block;
 	position: relative;
@@ -1264,6 +1276,7 @@ body p a code { font-weight: bold; }
 .scroll-style::-webkit-scrollbar-thumb:hover { background: rgba(0,0,0,0.5); }
 
 .shadow { box-shadow: 0 5px 35px 0 rgb(0 0 0 / 15%); }
+.pointer { cursor: pointer; }
 
 img[src=""] { display: none !important; }
 .rounded, img.rounded, img.rounded * { border-radius: 4px !important; }
@@ -1279,6 +1292,22 @@ img[src=""] { display: none !important; }
 .opacity-0 { opacity: 0 !important; }
 .opacity-50 { opacity: 50% !important; }
 .opacity-100 { opacity: 100% !important; }
+
+/* Transition */
+
+* {
+	-webkit-transition: filter 0.5s ease-in-out;
+	-o-transition: filter 0.5s ease-in-out;
+	-moz-transition: filter 0.5s ease-in-out;
+	transition: filter 0.5s ease-in-out;
+}
+
+.transition-fade {
+	-webkit-transition: opacity 0.5s ease-in-out;
+	-o-transition: opacity 0.5s ease-in-out;
+	-moz-transition: opacity 0.5s ease-in-out;
+	transition: opacity 0.5s ease-in-out;
+}
 
 /* Borders */
 
@@ -1356,6 +1385,8 @@ img[src=""] { display: none !important; }
 .border-sand { border-color: #DEDECA; }
 .border-black { border-color: #121212; }
 .border-white { border-color: #F8F9FA; }
+
+/* Stack Order */
 
 .z-0 { z-index: 0; }
 .z-10 { z-index: 10; }

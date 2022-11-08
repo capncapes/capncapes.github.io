@@ -165,5 +165,8 @@
 
 		</main>
 		{% include footer.html %}
+		{% if page.modal.display == 'true' %}
+			{% include modal.html %}
+		{% endif %}
 	</body>
 </html>

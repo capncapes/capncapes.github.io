@@ -4,7 +4,6 @@
 	<title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.meta.title }}</title>
 	<meta name="description" content="{% if page.description %}{{ page.description | strip_html | strip_newlines | truncate: 140 }}{% else %}{{ site.meta.description }}{% endif %}">
 	<meta name="author" content="{{ site.author.name }}">
-	<meta http-equiv="X-Frame-Options" content="sameorigin">
 
 	{% if site.scripts.ga4 %}
 		<!-- Google tag (gtag.js) -->
@@ -74,10 +73,13 @@
 
 	<!-- KaTeX -->
 	{% if site.scripts.katex %}
-	<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/KaTeX/0.3.0/katex.min.css">
-	<script src="//cdnjs.cloudflare.com/ajax/libs/KaTeX/0.3.0/katex.min.js"></script>
+		<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/KaTeX/0.3.0/katex.min.css">
+		<script src="//cdnjs.cloudflare.com/ajax/libs/KaTeX/0.3.0/katex.min.js"></script>
 	{% endif %}
 
 	<!-- JavaScript -->
 	<script type="text/javascript" async src="{{ site.url }}/assets/js/main.js"></script>
+	{% if page.modal.display == 'true' %}
+		<script type="text/javascript" async src="{{ site.url }}/assets/js/modal.js"></script>
+	{% endif %}
 </head>

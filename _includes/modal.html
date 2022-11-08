@@ -1,0 +1,27 @@
+<div id="modal" class="{{ page.modal.type }} hidden fixed center w-90 max-w-2 bg-sand text-black rounded opacity-0 shadow transition-fade z-50">
+	<div class="modal-content p-4 md:py-6 md:px-8">
+		{% if page.modal.type == 'info' %}
+			<svg id="info_icon" class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M256 512c141.4 0 256-114.6 256-256S397.4 0 256 0S0 114.6 0 256S114.6 512 256 512zM216 336h24V272H216c-13.3 0-24-10.7-24-24s10.7-24 24-24h48c13.3 0 24 10.7 24 24v88h8c13.3 0 24 10.7 24 24s-10.7 24-24 24H216c-13.3 0-24-10.7-24-24s10.7-24 24-24zm40-144c-17.7 0-32-14.3-32-32s14.3-32 32-32s32 14.3 32 32s-14.3 32-32 32z"/></svg>
+		{% elsif page.modal.type == 'warning' %}
+			<svg id="warning_icon" class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M256 32c14.2 0 27.3 7.5 34.5 19.8l216 368c7.3 12.4 7.3 27.7 .2 40.1S486.3 480 472 480H40c-14.3 0-27.6-7.7-34.7-20.1s-7-27.8 .2-40.1l216-368C228.7 39.5 241.8 32 256 32zm0 128c-13.3 0-24 10.7-24 24V296c0 13.3 10.7 24 24 24s24-10.7 24-24V184c0-13.3-10.7-24-24-24zm32 224c0-17.7-14.3-32-32-32s-32 14.3-32 32s14.3 32 32 32s32-14.3 32-32z"/></svg>
+		{% else %}
+			<svg id="flag_icon" class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M64 32V480c0 17.7-14.3 32-32 32s-32-14.3-32-32V32C0 14.3 14.3 0 32 0S64 14.3 64 32zm40.8 302.8c-3 .9-6 1.7-8.8 2.6V13.5C121.5 6.4 153 0 184 0c36.5 0 68.3 9.1 95.6 16.9l1.3 .4C309.4 25.4 333.3 32 360 32c26.8 0 52.9-6.8 73-14.1c9.9-3.6 17.9-7.2 23.4-9.8c2.7-1.3 4.8-2.4 6.2-3.1c.7-.4 1.1-.6 1.4-.8l.2-.1c9.9-5.6 22.1-5.6 31.9 .2S512 20.6 512 32V288c0 12.1-6.8 23.2-17.7 28.6L480 288c14.3 28.6 14.3 28.6 14.3 28.6l0 0 0 0-.1 0-.2 .1-.7 .4c-.6 .3-1.5 .7-2.5 1.2c-2.2 1-5.2 2.4-9 4c-7.7 3.3-18.5 7.6-31.5 11.9C424.5 342.9 388.8 352 352 352c-37 0-65.2-9.4-89-17.3l-1-.3c-24-8-43.7-14.4-70-14.4c-27.5 0-60.1 7-87.2 14.8z"/></svg>
+		{% endif %}
+		{% if page.modal.title %}
+			<p class="inline ml-4 text-lg">{{ page.modal.title }}</p>
+		{% endif %}
+		{% if page.modal.content %}
+			<p class="text-sm">{{ page.modal.content }}</p>
+			<button id="close" class="splendid-button dark mr-6">Continue</button>
+			{% if page.layout == 'book_review' %}
+				<a href="/book-reviews/" class="text-sm text-black hover:text-red" role="button">Go to book reviews &#8594;</a>
+			{% elsif page.layout == 'post' %}
+				{% if page.category == 'Faith' %}
+					<a href="/faith/" class="text-sm text-black hover:text-red" role="button">Go to faith posts &#8594;</a>
+				{% elsif page.category == 'MarTech' %}
+					<a href="/martech/" class="text-sm text-black hover:text-red" role="button">Go to MarTech posts &#8594;</a>
+				{% endif %}
+			{% endif %}
+		{% endif %}
+	</div>
+</div>

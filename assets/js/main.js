@@ -38,7 +38,7 @@ function toggleSplendidMobileNav() {
 }
 
 // Start countdown timers
-function countDown( t ) {
+function countDown(t) {
 	let countdownDate = new Date( t.dataset.countdown ).getTime();
 	let timerX = setInterval( () => {
 		let now = new Date().getTime();
@@ -93,4 +93,26 @@ function setAttributes( el, attrs ) {
 	for ( let key in attrs ) {
 		el.setAttribute( key, attrs[key] );
 	}
+}
+
+// Disable scrolling
+function disableScroll() { document.body.classList.add( 'overflow-hidden' ) }
+
+// Enable scrolling
+function enableScroll() { document.body.classList.remove( 'overflow-hidden' ) };
+
+// Get cookie
+function getCookie(n) {
+	var search = n + '=';
+	var returnvalue = '';
+	if (document.cookie.length > 0) {
+		offset = document.cookie.indexOf(search);
+		if (offset != -1) { 
+			offset += search.length;
+			end = document.cookie.indexOf(';', offset);
+			if (end == -1) end = document.cookie.length;
+			returnvalue=unescape(document.cookie.substring(offset, end));
+		}
+	 }
+	return returnvalue;
 }

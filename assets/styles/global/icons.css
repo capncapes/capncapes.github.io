@@ -1,3 +1,9 @@
+.icon, .icon > svg {
+	display: inline;
+	margin: 0;
+	width: 18px;
+	fill: #121212;
+}
 
 .socials {
 	display: flex;
