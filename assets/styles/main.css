@@ -1142,11 +1142,6 @@ blockquote cite::before {
 	margin-right: 0.25rem;
 }
 
-blockquote > p > q {
-	margin-top: 0 !important;
-	margin-bottom: 0 !important;
-}
-
 /* ================================================================
 	19	Code Blocks
 ================================================================ */

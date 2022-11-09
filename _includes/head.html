@@ -27,11 +27,34 @@
 	{% endif %}
 
 	<!-- Open Graph Tags -->
+	<meta property="og:type" content="{% if page.layout == 'post' %}article{% elsif page.layout == 'book_review' %}book{% else %}website{% endif %}">
 	<meta property="og:url" content="{{ page.url | replace: '/index.html','/' | prepend: site.baseurl | prepend: site.url }}">
-	<meta property="og:type" content="{% if page.date %}article{% else %}website{% endif %}">
-	<meta property="og:title" content="{% if page.title %}{{ page.title | smartify | strip_html | strip_newlines | escape_once }}{% else %}{{ site.name }}{% endif %}">
-	<meta property="og:image" content="{{ site.url }}/assets/img/{% if page.featured_image %}{{ page.featured_image.src }}{% else %}brandon_caples.jpg{% endif %}">
+	{% if page.book.title %}
+		<meta property="og:title" content="{{ page.book.title }}">
+	{% else %}
+		<meta property="og:title" content="{% if page.title %}{{ page.title | smartify | strip_html | strip_newlines | escape_once }}{% else %}{{ site.name }}{% endif %}">
+	{% endif %}
+	<meta property="og:image" content="{{ site.url }}/assets/img/{% if page.featured_image %}{{ page.featured_image.fallback }}{% else %}brandon_caples.jpg{% endif %}">
 	<meta property="og:description" content="{% if page.description %}{{page.description | strip_html | strip_newlines | truncate: 140 }}{% else %}{{ site.meta.description }}{% endif %}">
+	{% if page.layout == 'post' %}
+		{% if page.category == 'MarTech' %}
+			<meta property="article:publisher" content="https://www.facebook.com/capleswebdesign" />
+		{% else %}
+			<meta property="article:author" content="https://www.facebook.com/bcaples" />
+		{% endif %}
+		<meta property="article:published_time" content="{{ page.date }}" />
+		<meta property="article:author" content="Brandon Caples">
+		<meta property="article:section" content="{{ page.category }}" />
+		{% for tag in page.tags %}
+			<meta property="article:tag" content="{{ tag }}">
+		{% endfor %}
+	{% elsif page.layout == 'book_review' %}
+		<meta property="book:author" content="{{ page.book.author }}">
+		{% for tag in page.tags %}
+			<meta property="book:tag" content="{{ tag }}">
+		{% endfor %}
+		<meta property="book:isbn" content="{{ page.book.isbn }}">
+	{% endif %}
 
 	<!-- Twitter Meta Tags -->
 	<meta name="twitter:card" content="summary_large_image">
