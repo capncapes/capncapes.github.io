@@ -67,6 +67,41 @@ function splendidProgressBar() {
 	return;
 }
 
+// Dark mode
+document.addEventListener('DOMContentLoaded', function() {
+	const toggleSwitch = document.querySelector('.toggle input[type="checkbox"]');
+	const lightIcon = document.querySelector('#dark-mode-toggle svg #light');
+	const darkIcon = document.querySelector('#dark-mode-toggle svg #dark');
+	const currentTheme = localStorage.getItem('theme');
+
+	if (currentTheme) {
+		document.getElementById('dark-mode-toggle').setAttribute('data-theme', currentTheme);
+	
+		if (currentTheme === 'dark') {
+			toggleSwitch.checked = true;
+			lightIcon.style.visibility = 'hidden';
+			darkIcon.style.visibility = 'visible';
+		}
+	}
+
+	function switchTheme(e) {
+		if (e.target.checked) {
+			document.getElementById('dark-mode-toggle').setAttribute('data-theme', 'dark');
+			lightIcon.style.visibility = 'hidden';
+			darkIcon.style.visibility = 'visible';
+			localStorage.setItem('theme', 'dark');
+		}
+		else {
+			document.getElementById('dark-mode-toggle').setAttribute('data-theme', 'light');
+			darkIcon.style.visibility = 'hidden';
+			lightIcon.style.visibility = 'visible';
+			localStorage.setItem('theme', 'light');
+		}
+	}
+
+	toggleSwitch.addEventListener('change', switchTheme, false);
+})
+
 // Get computed style value of element
 function splendidStyleValue( el, style ) {
 	return window.getComputedStyle( el, null ).getPropertyValue( style );
