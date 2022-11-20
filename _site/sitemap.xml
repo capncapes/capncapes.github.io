@@ -103,6 +103,15 @@
   
     
     
+  
+    
+    
+  
+    
+    
+  
+    
+    
       <url>
         <loc>http://localhost:4000/faith/genesis/</loc>
         
@@ -118,9 +127,7 @@
     
     
       <url>
-        <loc>http://localhost:4000/faith/</loc>
-        
-          <lastmod>2022-10-28T11:52:11-04:00</lastmod>
+        <loc>http://localhost:4000/martech/</loc>
         
       </url>
     
@@ -146,9 +153,9 @@
     
     
       <url>
-        <loc>http://localhost:4000/martech/</loc>
+        <loc>http://localhost:4000/faith/</loc>
         
-          <lastmod>2022-10-28T10:32:01-04:00</lastmod>
+          <lastmod>2022-10-28T11:52:11-04:00</lastmod>
         
       </url>
     

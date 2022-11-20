@@ -9,7 +9,10 @@ featured_image: {
   alt: "A man kneeling on the beach to pray"
 }
 description: "“I will restore to you the years that the swarming locust has eaten…” (Joel 2:25, ESV)"
-canonical: "https://mercymultiplied.com/god-will-restore-what-was-lost/"
+canonical: {
+  title: "Mercy Blog",
+  url: "https://mercymultiplied.com/god-will-restore-what-was-lost/"
+}
 category: Faith
 bible_books: ["Deuteronomy", "Joel"]
 tags: ["restoration"]

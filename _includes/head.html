@@ -86,7 +86,7 @@
 
 	<!-- Canonical -->
 	{% if page.canonical %}
-		<link rel="canonical" href="{{ page.canonical | absolute_url }}" />
+		<link rel="canonical" href="{{ page.canonical.url | absolute_url }}" />
 	{% else %}
 		<link rel="canonical" href="{{ page.url | absolute_url }}" />
 	{% endif %}

@@ -1,0 +1,204 @@
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" version="2.0">
+    <channel>
+        <title>
+            <![CDATA[ Brandon's Book Reviews ]]>
+        </title>
+        <description>
+            <![CDATA[ As I finish books on my reading list, you can find my reviews of them here. ]]>
+        </description>
+        <link>https://brandoncaples.com/book-reviews/</link>
+        <image>
+            <url>https://brandoncaples.com/logomark_black_100.png</url>
+            <title>Brandon's Book Reviews</title>
+            <link>https://brandoncaples.com/book-reviews/</link>
+            <description>As I finish books on my reading list, you can find my reviews of them here.</description>
+            <width>100</width>
+            <height>100</height>
+        </image>
+        <generator>https://brandoncaples.com</generator>
+        
+            <lastBuildDate>Wed, 20 Jan 2021 03:40:30 -0500</lastBuildDate>
+        
+        <atom:link href="https://brandoncaples.com/book-reviews/feed.xml" rel="self" type="application/rss+xml"/>
+        <language>
+            <![CDATA[ en ]]>
+        </language>
+        
+            <item>
+                <title>
+                    <![CDATA[ Stuff You Should Know ]]>
+                </title>
+                <description>
+                    <![CDATA[  ]]>
+                </description>
+                <link>http://localhost:4000/book-reviews/stuff-you-should-know</link>
+                <guid isPermaLink="true">http://localhost:4000/book-reviews/stuff-you-should-know</guid>
+                <dc:creator>
+                    <![CDATA[ Brandon Caples ]]>
+                </dc:creator>
+                <pubDate>Wed, 20 Jan 2021 03:40:30 -0500</pubDate>
+                
+            </item>
+        
+            <item>
+                <title>
+                    <![CDATA[ World of Wonders Book Review ]]>
+                </title>
+                <description>
+                    <![CDATA[ Nezhukumatathil does a splendid job of sharing multiple narratives at once. ]]>
+                </description>
+                <link>http://localhost:4000/book-reviews/world-of-wonders</link>
+                <guid isPermaLink="true">http://localhost:4000/book-reviews/world-of-wonders</guid>
+                <dc:creator>
+                    <![CDATA[ Brandon Caples ]]>
+                </dc:creator>
+                <pubDate>Fri, 12 Feb 2021 03:59:55 -0500</pubDate>
+                
+            </item>
+        
+            <item>
+                <title>
+                    <![CDATA[ Hinds' Feet on High Places ]]>
+                </title>
+                <description>
+                    <![CDATA[ This is a beautiful story of laying down one’s own will for the glory of God and being made new by Him. ]]>
+                </description>
+                <link>http://localhost:4000/book-reviews/hinds-feet-on-high-places</link>
+                <guid isPermaLink="true">http://localhost:4000/book-reviews/hinds-feet-on-high-places</guid>
+                <dc:creator>
+                    <![CDATA[ Brandon Caples ]]>
+                </dc:creator>
+                <pubDate>Fri, 30 Apr 2021 07:30:27 -0400</pubDate>
+                
+            </item>
+        
+            <item>
+                <title>
+                    <![CDATA[ A Review of Gentle and Lowly ]]>
+                </title>
+                <description>
+                    <![CDATA[ I love this book for its delicate approach to the heart of Jesus. Gentle and Lowly is not about what Christ has done, but who He is. ]]>
+                </description>
+                <link>http://localhost:4000/book-reviews/gentle-and-lowly</link>
+                <guid isPermaLink="true">http://localhost:4000/book-reviews/gentle-and-lowly</guid>
+                <dc:creator>
+                    <![CDATA[ Brandon Caples ]]>
+                </dc:creator>
+                <pubDate>Thu, 30 Sep 2021 14:04:55 -0400</pubDate>
+                
+            </item>
+        
+            <item>
+                <title>
+                    <![CDATA[ Is Christmas Unbelievable? ]]>
+                </title>
+                <description>
+                    <![CDATA[ With its small size, short chapters, and low price, the book makes for a great Christmastime gift for church members. ]]>
+                </description>
+                <link>http://localhost:4000/book-reviews/is-christmas-unbelievable</link>
+                <guid isPermaLink="true">http://localhost:4000/book-reviews/is-christmas-unbelievable</guid>
+                <dc:creator>
+                    <![CDATA[ Brandon Caples ]]>
+                </dc:creator>
+                <pubDate>Sun, 19 Dec 2021 09:42:19 -0500</pubDate>
+                
+            </item>
+        
+            <item>
+                <title>
+                    <![CDATA[ Being the Bad Guys ]]>
+                </title>
+                <description>
+                    <![CDATA[ This book explains the timeless, uncompromising movement of God’s people showing God’s love and sharing God’s good news to God’s creation. ]]>
+                </description>
+                <link>http://localhost:4000/book-reviews/being-bad-guys</link>
+                <guid isPermaLink="true">http://localhost:4000/book-reviews/being-bad-guys</guid>
+                <dc:creator>
+                    <![CDATA[ Brandon Caples ]]>
+                </dc:creator>
+                <pubDate>Wed, 12 Jan 2022 13:47:30 -0500</pubDate>
+                
+            </item>
+        
+            <item>
+                <title>
+                    <![CDATA[ The Concise History of the Crusades Book Review ]]>
+                </title>
+                <description>
+                    <![CDATA[ I recommend this book for anyone who wants to have a thorough and practical understanding of these religious wars. ]]>
+                </description>
+                <link>http://localhost:4000/book-reviews/concise-history-crusades</link>
+                <guid isPermaLink="true">http://localhost:4000/book-reviews/concise-history-crusades</guid>
+                <dc:creator>
+                    <![CDATA[ Brandon Caples ]]>
+                </dc:creator>
+                <pubDate>Thu, 31 Mar 2022 23:47:11 -0400</pubDate>
+                
+            </item>
+        
+            <item>
+                <title>
+                    <![CDATA[ Paul the Apostle ]]>
+                </title>
+                <description>
+                    <![CDATA[ Paul the Apostle is a concise treatment of the life of Paul and the most highly recommended of the shorter biographies that I could find. ]]>
+                </description>
+                <link>http://localhost:4000/book-reviews/paul-the-apostle</link>
+                <guid isPermaLink="true">http://localhost:4000/book-reviews/paul-the-apostle</guid>
+                <dc:creator>
+                    <![CDATA[ Brandon Caples ]]>
+                </dc:creator>
+                <pubDate>Wed, 22 Jun 2022 12:00:01 -0400</pubDate>
+                
+            </item>
+        
+            <item>
+                <title>
+                    <![CDATA[ Truth and Fiction in The Da Vinci Code ]]>
+                </title>
+                <description>
+                    <![CDATA[ This book is a critique of the historical claims about religious documents presented as truth in The Da Vinci Code. ]]>
+                </description>
+                <link>http://localhost:4000/book-reviews/truth-fiction-the-da-vinci-code</link>
+                <guid isPermaLink="true">http://localhost:4000/book-reviews/truth-fiction-the-da-vinci-code</guid>
+                <dc:creator>
+                    <![CDATA[ Brandon Caples ]]>
+                </dc:creator>
+                <pubDate>Sun, 17 Jul 2022 17:17:17 -0400</pubDate>
+                
+            </item>
+        
+            <item>
+                <title>
+                    <![CDATA[ The Gospel Comes with a House Key ]]>
+                </title>
+                <description>
+                    <![CDATA[ The Gospel Comes with a House Key is a great ministry handbook for middle-class Americans with large grocery budgets and extroverted tendencies. But that's not all there is to say. ]]>
+                </description>
+                <link>http://localhost:4000/book-reviews/gospel-comes-with-house-key</link>
+                <guid isPermaLink="true">http://localhost:4000/book-reviews/gospel-comes-with-house-key</guid>
+                <dc:creator>
+                    <![CDATA[ Brandon Caples ]]>
+                </dc:creator>
+                <pubDate>Sun, 31 Jul 2022 20:40:03 -0400</pubDate>
+                
+            </item>
+        
+            <item>
+                <title>
+                    <![CDATA[ The Cross and the Lynching Tree Book Review ]]>
+                </title>
+                <description>
+                    <![CDATA[ James Cone examines the complex symbols that dominated African American life during the lynching era: the cross and the lynching tree. ]]>
+                </description>
+                <link>http://localhost:4000/book-reviews/cross-and-the-lynching-tree</link>
+                <guid isPermaLink="true">http://localhost:4000/book-reviews/cross-and-the-lynching-tree</guid>
+                <dc:creator>
+                    <![CDATA[ Brandon Caples ]]>
+                </dc:creator>
+                <pubDate>Mon, 07 Nov 2022 15:43:33 -0500</pubDate>
+                
+            </item>
+        
+    </channel>
+</rss>

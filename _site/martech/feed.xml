@@ -1,0 +1,236 @@
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" version="2.0">
+    <channel>
+        <title>
+            <![CDATA[ Marketing Technology Blog ]]>
+        </title>
+        <description>
+            <![CDATA[ This is a blog dedicated to the convergence of marketing and technology. ]]>
+        </description>
+        <link>https://brandoncaples.com/martech/</link>
+        <image>
+            <url>https://brandoncaples.com/logomark_black_100.png</url>
+            <title>Marketing Technology Blog</title>
+            <link>https://brandoncaples.com/martech/</link>
+            <description>This is a blog dedicated to the convergence of marketing and technology.</description>
+            <width>100</width>
+            <height>100</height>
+        </image>
+        <generator>https://brandoncaples.com</generator>
+        
+            <lastBuildDate>Thu, 03 Nov 2022 08:14:59 -0400</lastBuildDate>
+        
+        <atom:link href="https://brandoncaples.com/martech/feed.xml" rel="self" type="application/rss+xml"/>
+        <language>
+            <![CDATA[ en ]]>
+        </language>
+        
+            <item>
+                <title>
+                    <![CDATA[ How to create a Google account without Gmail ]]>
+                </title>
+                <description>
+                    <![CDATA[ Google services require a Google account, but it doesn't have to be with Gmail. Let's learn how to create a Google account without Gmail. ]]>
+                </description>
+                <link>/martech/2022/how-to-create-a-google-account-without-gmail</link>
+                <guid isPermaLink="true">/martech/2022/how-to-create-a-google-account-without-gmail</guid>
+                <dc:creator>
+                    <![CDATA[ Brandon Caples ]]>
+                </dc:creator>
+                <pubDate>Thu, 03 Nov 2022 08:14:59 -0400</pubDate>
+                
+            </item>
+        
+            <item>
+                <title>
+                    <![CDATA[ Remove .DS_Store with Git ]]>
+                </title>
+                <description>
+                    <![CDATA[ Don't worry; .DS_Store is harmless. But let's remove it and prevent it from showing up again. ]]>
+                </description>
+                <link>/martech/2022/git-remove-ds-store</link>
+                <guid isPermaLink="true">/martech/2022/git-remove-ds-store</guid>
+                <dc:creator>
+                    <![CDATA[ Brandon Caples ]]>
+                </dc:creator>
+                <pubDate>Sat, 25 Jun 2022 23:14:39 -0400</pubDate>
+                
+            </item>
+        
+            <item>
+                <title>
+                    <![CDATA[ Using CSS counters ]]>
+                </title>
+                <description>
+                    <![CDATA[ CSS. Developers tend to either love it or hate it. Well, here’s a reason to love it: CSS counters. ]]>
+                </description>
+                <link>/martech/2021/using-css-counters</link>
+                <guid isPermaLink="true">/martech/2021/using-css-counters</guid>
+                <dc:creator>
+                    <![CDATA[ Brandon Caples ]]>
+                </dc:creator>
+                <pubDate>Thu, 04 Nov 2021 14:03:01 -0400</pubDate>
+                
+            </item>
+        
+            <item>
+                <title>
+                    <![CDATA[ The average color of the universe ]]>
+                </title>
+                <description>
+                    <![CDATA[ Cosmic latte may not be the flashiest color, but wouldn’t it be neat to use the average color of the universe in your next project? ]]>
+                </description>
+                <link>/martech/2021/average-color-universe</link>
+                <guid isPermaLink="true">/martech/2021/average-color-universe</guid>
+                <dc:creator>
+                    <![CDATA[ Brandon Caples ]]>
+                </dc:creator>
+                <pubDate>Tue, 24 Aug 2021 11:32:00 -0400</pubDate>
+                
+            </item>
+        
+            <item>
+                <title>
+                    <![CDATA[ SEO terms explained ]]>
+                </title>
+                <description>
+                    <![CDATA[ Not everyone can afford to hire an SEO agency, so it’s helpful to have SEO terms explained in plain English. ]]>
+                </description>
+                <link>/martech/2020/seo-terms-explained</link>
+                <guid isPermaLink="true">/martech/2020/seo-terms-explained</guid>
+                <dc:creator>
+                    <![CDATA[ Brandon Caples ]]>
+                </dc:creator>
+                <pubDate>Sun, 26 Apr 2020 14:25:20 -0400</pubDate>
+                
+            </item>
+        
+            <item>
+                <title>
+                    <![CDATA[ How to draw a heart in Inkscape ]]>
+                </title>
+                <description>
+                    <![CDATA[ Today, we’re going to learn how to draw a heart in Inkscape. Inkscape is a free vector graphics editor, similar to Adobe Illustrator. ]]>
+                </description>
+                <link>/martech/2019/inkscape-heart</link>
+                <guid isPermaLink="true">/martech/2019/inkscape-heart</guid>
+                <dc:creator>
+                    <![CDATA[ Brandon Caples ]]>
+                </dc:creator>
+                <pubDate>Thu, 14 Feb 2019 09:00:00 -0500</pubDate>
+                
+            </item>
+        
+            <item>
+                <title>
+                    <![CDATA[ What is SEO? ]]>
+                </title>
+                <description>
+                    <![CDATA[ One of the most affordable and effective tools is a well-crafted website and knowledge of search engine optimization (SEO). ]]>
+                </description>
+                <link>/martech/2018/what-is-seo</link>
+                <guid isPermaLink="true">/martech/2018/what-is-seo</guid>
+                <dc:creator>
+                    <![CDATA[ Brandon Caples ]]>
+                </dc:creator>
+                <pubDate>Sat, 15 Sep 2018 20:47:59 -0400</pubDate>
+                
+            </item>
+        
+            <item>
+                <title>
+                    <![CDATA[ How to fix sideways images on your website ]]>
+                </title>
+                <description>
+                    <![CDATA[ Safari and Chrome (iOS) have a default behavior that rotates an image according to its EXIF data. ]]>
+                </description>
+                <link>/martech/2018/fix-sideways-images</link>
+                <guid isPermaLink="true">/martech/2018/fix-sideways-images</guid>
+                <dc:creator>
+                    <![CDATA[ Brandon Caples ]]>
+                </dc:creator>
+                <pubDate>Thu, 30 Aug 2018 10:01:10 -0400</pubDate>
+                
+            </item>
+        
+            <item>
+                <title>
+                    <![CDATA[ Rails 5 and Rspec parameters ]]>
+                </title>
+                <description>
+                    <![CDATA[ Because of a deprecation to Rspec in Ruby on Rails 5, parameters must now be placed inside a params hash. ]]>
+                </description>
+                <link>/martech/2017/rails-5-rspec-parameters</link>
+                <guid isPermaLink="true">/martech/2017/rails-5-rspec-parameters</guid>
+                <dc:creator>
+                    <![CDATA[ Brandon Caples ]]>
+                </dc:creator>
+                <pubDate>Wed, 01 Nov 2017 06:31:00 -0400</pubDate>
+                
+            </item>
+        
+            <item>
+                <title>
+                    <![CDATA[ ngClick vs ngSubmit ]]>
+                </title>
+                <description>
+                    <![CDATA[ Angular has some nuances that can cause some trouble for beginners learning the framework, like the difference between ng-click and ng-submit. ]]>
+                </description>
+                <link>/martech/2017/ngclick-vs-ngsubmit</link>
+                <guid isPermaLink="true">/martech/2017/ngclick-vs-ngsubmit</guid>
+                <dc:creator>
+                    <![CDATA[ Brandon Caples ]]>
+                </dc:creator>
+                <pubDate>Wed, 10 May 2017 11:52:11 -0400</pubDate>
+                
+            </item>
+        
+            <item>
+                <title>
+                    <![CDATA[ I’m studying web development because of my wife ]]>
+                </title>
+                <description>
+                    <![CDATA[ I spent the first few months of my marriage nearly code-free. We made plans, hiked a lot, and traveled some. ]]>
+                </description>
+                <link>/martech/2017/im-studying-web-development-because-of-my-wife</link>
+                <guid isPermaLink="true">/martech/2017/im-studying-web-development-because-of-my-wife</guid>
+                <dc:creator>
+                    <![CDATA[ Brandon Caples ]]>
+                </dc:creator>
+                <pubDate>Sun, 12 Mar 2017 06:05:29 -0400</pubDate>
+                
+            </item>
+        
+            <item>
+                <title>
+                    <![CDATA[ Three challenges of learning to code ]]>
+                </title>
+                <description>
+                    <![CDATA[ Web development is challenging; that’s part of what makes it fun. ]]>
+                </description>
+                <link>/martech/2017/three-challenges-learning-to-code</link>
+                <guid isPermaLink="true">/martech/2017/three-challenges-learning-to-code</guid>
+                <dc:creator>
+                    <![CDATA[ Brandon Caples ]]>
+                </dc:creator>
+                <pubDate>Sat, 07 Jan 2017 06:07:07 -0500</pubDate>
+                
+            </item>
+        
+            <item>
+                <title>
+                    <![CDATA[ A love/hate relationship with Internet Explorer ]]>
+                </title>
+                <description>
+                    <![CDATA[ Every web developer knows that Internet Explorer (IE) does things differently than other browsers. ]]>
+                </description>
+                <link>/martech/2017/love-hate-relationship-internet-explorer</link>
+                <guid isPermaLink="true">/martech/2017/love-hate-relationship-internet-explorer</guid>
+                <dc:creator>
+                    <![CDATA[ Brandon Caples ]]>
+                </dc:creator>
+                <pubDate>Fri, 06 Jan 2017 13:34:40 -0500</pubDate>
+                
+            </item>
+        
+    </channel>
+</rss>

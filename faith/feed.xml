@@ -1,0 +1,50 @@
+---
+layout: null
+---
+
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" version="2.0">
+    <channel>
+        <title>
+            <![CDATA[ Faith Blog ]]>
+        </title>
+        <description>
+            <![CDATA[ Faith is a journey. ]]>
+        </description>
+        <link>https://brandoncaples.com/faith/</link>
+        <image>
+            <url>https://brandoncaples.com/logomark_black_100.png</url>
+            <title>Faith Blog</title>
+            <link>https://brandoncaples.com/faith/</link>
+            <description>Faith is a journey.</description>
+            <width>100</width>
+            <height>100</height>
+        </image>
+        <generator>https://brandoncaples.com</generator>
+        {% for post in site.categories["Faith"] limit:1 %}
+            <lastBuildDate>{{ post.date | date_to_rfc822 }}</lastBuildDate>
+        {% endfor %}
+        <atom:link href="https://brandoncaples.com/faith/feed.xml" rel="self" type="application/rss+xml"/>
+        <language>
+            <![CDATA[ en ]]>
+        </language>
+        {% for post in site.categories["Faith"] %}
+            <item>
+                <title>
+                    <![CDATA[ {{ post.title }} ]]>
+                </title>
+                <description>
+                    <![CDATA[ {{ post.description }} ]]>
+                </description>
+                <link>{{ site.url }}{{ post.url }}</link>
+                <guid isPermaLink="true">{{ site.url }}{{ post.url }}</guid>
+                <dc:creator>
+                    <![CDATA[ Brandon Caples ]]>
+                </dc:creator>
+                <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
+                {% if post.canonical %}
+                    <source url="{{ post.canonical.url }}">{{ post.canonical.title }}</source>
+                {% endif %}
+            </item>
+        {% endfor %}
+    </channel>
+</rss>

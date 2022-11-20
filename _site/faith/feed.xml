@@ -1,0 +1,78 @@
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" version="2.0">
+    <channel>
+        <title>
+            <![CDATA[ Faith Blog ]]>
+        </title>
+        <description>
+            <![CDATA[ Faith is a journey. ]]>
+        </description>
+        <link>https://brandoncaples.com/faith/</link>
+        <image>
+            <url>https://brandoncaples.com/logomark_black_100.png</url>
+            <title>Faith Blog</title>
+            <link>https://brandoncaples.com/faith/</link>
+            <description>Faith is a journey.</description>
+            <width>100</width>
+            <height>100</height>
+        </image>
+        <generator>https://brandoncaples.com</generator>
+        
+            <lastBuildDate>Thu, 26 May 2022 11:39:31 -0400</lastBuildDate>
+        
+        <atom:link href="https://brandoncaples.com/faith/feed.xml" rel="self" type="application/rss+xml"/>
+        <language>
+            <![CDATA[ en ]]>
+        </language>
+        
+            <item>
+                <title>
+                    <![CDATA[ This is eternal life: know your God ]]>
+                </title>
+                <description>
+                    <![CDATA[ Eternal life is not simply living forever, nor does it begin once the faithful believer dies. ]]>
+                </description>
+                <link>/faith/2022/this-is-eternal-life</link>
+                <guid isPermaLink="true">/faith/2022/this-is-eternal-life</guid>
+                <dc:creator>
+                    <![CDATA[ Brandon Caples ]]>
+                </dc:creator>
+                <pubDate>Thu, 26 May 2022 11:39:31 -0400</pubDate>
+                
+            </item>
+        
+            <item>
+                <title>
+                    <![CDATA[ Why was John the Baptist mistaken for Elijah? ]]>
+                </title>
+                <description>
+                    <![CDATA[ The life of John the Baptist is a great example of what God can accomplish through someone who embraces his or her calling. ]]>
+                </description>
+                <link>/faith/2021/john-the-baptist-mistaken-for-elijah</link>
+                <guid isPermaLink="true">/faith/2021/john-the-baptist-mistaken-for-elijah</guid>
+                <dc:creator>
+                    <![CDATA[ Brandon Caples ]]>
+                </dc:creator>
+                <pubDate>Fri, 17 Sep 2021 01:11:10 -0400</pubDate>
+                
+            </item>
+        
+            <item>
+                <title>
+                    <![CDATA[ God will restore what was lost ]]>
+                </title>
+                <description>
+                    <![CDATA[ “I will restore to you the years that the swarming locust has eaten…” (Joel 2:25, ESV) ]]>
+                </description>
+                <link>/faith/2018/god-will-restore-what-was-lost</link>
+                <guid isPermaLink="true">/faith/2018/god-will-restore-what-was-lost</guid>
+                <dc:creator>
+                    <![CDATA[ Brandon Caples ]]>
+                </dc:creator>
+                <pubDate>Tue, 30 Oct 2018 05:45:47 -0400</pubDate>
+                
+                    <source url="https://mercymultiplied.com/god-will-restore-what-was-lost/">Mercy Blog</source>
+                
+            </item>
+        
+    </channel>
+</rss>
