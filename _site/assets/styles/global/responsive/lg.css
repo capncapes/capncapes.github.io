@@ -92,12 +92,6 @@ ul.navbar-nav {
 	transition: transform 0.35s ease-in-out;
 }
 
-#dark-mode-toggle .slider > svg path { transition: visibility 0.25s ease-in-out; }
-[data-theme=light] .slider > svg { transform: translateX(1.4rem); }
-[data-theme=dark] .slider > svg { transform: translateX(0.3rem); }
-.slider.round { border-radius:5rem; }
-.slider.round:before { border-radius:5rem; }
-
 /* ================================================================
 	5	Tabs Section
 ================================================================ */
