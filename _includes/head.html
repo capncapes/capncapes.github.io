@@ -26,6 +26,19 @@
 		<!-- End Google Tag Manager -->
 	{% endif %}
 
+	{% if site.scripts.squeaky %}
+		<!-- Squeaky Tracking Code -->
+		<script>
+			(function(s,q,e,a,u,k,y){
+				s._sqSettings={site_id:'{{ site.scripts.squeaky }}'};
+				u=q.getElementsByTagName('head')[0];
+				k=q.createElement('script');
+				k.src=e+s._sqSettings.site_id;
+				u.appendChild(k);
+			})(window,document,'https://cdn.squeaky.ai/g/0.4.0/script.js?');
+		</script>
+	{% endif %}
+
 	<!-- Open Graph Tags -->
 	<meta property="og:type" content="{% if page.layout == 'post' %}article{% elsif page.layout == 'book_review' %}book{% else %}website{% endif %}">
 	<meta property="og:url" content="{{ page.url | replace: '/index.html','/' | prepend: site.baseurl | prepend: site.url }}">
