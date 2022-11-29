@@ -44,7 +44,7 @@ John was transparent about who he was, but some people thought he was the Christ
 
 ## Why Elijah?
 
-John the Baptist was also mistaken for Elijah the Tishbite (John 1:21). But why Elijah? Whenever we read Scripture, it's important to understand the context. John preached to a Jewish culture, and Jewish people knew the Scriptures, which for them was what we call the Old Testament. In the first chapter of 2 Kings, King Ahaziah recognized the prophet Elijah simply by a description of his clothing: <q>a garment of hair, with a belt of leather about his waist.</q> (2 Kings 1:8, ESV) Elijah was well-known for his appearance, and John's audience likely would have understood the reference, though many people still failed to see John the Baptist for who he was during his ministry.
+John the Baptist was also mistaken[^1] for Elijah the Tishbite (John 1:21). But why Elijah? Whenever we read Scripture, it's important to understand the context. John preached to a Jewish culture, and Jewish people knew the Scriptures, which for them was what we call the Old Testament. In the first chapter of 2 Kings, King Ahaziah recognized the prophet Elijah simply by a description of his clothing: <q>a garment of hair, with a belt of leather about his waist.</q> (2 Kings 1:8, ESV) Elijah was well-known for his appearance, and John's audience likely would have understood the reference, though many people still failed to see John the Baptist for who he was during his ministry.
 
 John the Baptist dressed in the same unique way as Elijah the Tishbite because he knew his calling: to "go before [Jesus] in the spirit and power of Elijah,&nbsp;to turn the hearts" (Luke 1:17, ESV) of God's people back to Him.
 
@@ -58,8 +58,14 @@ If it isn't already clear who John the Baptist was, consider Jesus' words to Pet
 >
 > <cite>Matthew 17:9&ndash;13, ESV</cite>
 
+Matthew's gospel records Jesus revealing John's identity even before the transfiguration. In Matthew 11:7&ndash;15, John (from prison) sends his disciples to ask Jesus, <q>Are you the one who is to come, or should we expect someone else?</q> (v. 3)[^2] Jesus tells them to report what they see and hear Jesus doing. After John's disciples leave, Jesus tells the crowd that John the Baptist is the one prophesied in Malachi 3:1[^3] and that <q>among those born of women no one greater than John the Baptist has appeared</q> (v. 11). Verse 14 is the key verse for our purposes, though: <q>And if you’re willing to accept it, he is the Elijah who is to come.</q>
+
 ## Embrace your calling
 
 The life of John the Baptist is a great example of what God can accomplish through someone who embraces his or her calling. John lived in the wilderness (Luke 1:80) and dressed like Elijah the Tishbite because he knew that Isaiah and Malachi prophesied that he would prepare the people for "the Lamb of God, who takes away the sin of the world!" (John 1:29, ESV)
 
 Are you and I willing to go to such lengths for the sake of God's mission?
+
+[^1]: It's a bit confusing to read John the Baptist deny being Elijah early on, only to find out later that John actually was <q>the Elijah who is to come</q> (Matthew 11:14). As Occam's razor suggests, the simplest explanation is likely the correct one: John was not _literally_ the prophet Elijah. Many people of the time might have expected the return of the actual Elijah (Mark 8:28), since he was taken to heaven without dying (2 Kings 2:11).
+[^2]: This is a curious question coming from John the Baptist, who knew Jesus well. William Barclay suggests three possible reasons for John's inquiry: (1) It was for the benefit of John's disciples. (2) John was growing impatient, expecting the Christ to be working faster. (3) As an outdoorsman imprisoned underground, John simply sought a fresh reassurance of his hope. I personally think reasons 1 and 3 make the most sense, and I'll add a fourth possibility: (4) Knowing Jesus would likely be around a crowd when his disciples arrive, John asked the question already on the minds of many people&mdash;so that Jesus could answer it publicly.
+[^3]: <q><q>I will send my messenger, who will prepare the way before me. Then suddenly the Lord you are seeking will come to his temple; the messenger of the covenant, whom you desire, will come,</q> says the Lord Almighty.</q> (<abbr title="New International Version">NIV</abbr>)
