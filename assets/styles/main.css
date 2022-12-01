@@ -1154,6 +1154,14 @@ blockquote cite::before {
 	margin-right: 0.25rem;
 }
 
+p > q {
+	background-color: #DEDECA;
+}
+
+p > q::before, p > q::after {
+	font-weight: bold;
+}
+
 /* ================================================================
 	19	Code Blocks
 ================================================================ */

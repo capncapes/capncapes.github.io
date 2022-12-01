@@ -15,7 +15,7 @@ featured: true
 published: false
 ---
 
-The prologue of John's gospel is quite possibly the most beautifully profound passage of Scripture in the whole Bible&mdash;in both form and content. Gary M. Burge even asserts that John's prologue, originally sung as a hymn, was worn around the neck to prevent sickness, and recited to the sick and newly baptized.
+The prologue of John's gospel is quite possibly the most beautiful and profound passage of Scripture in the whole Bible&mdash;in both form and content. Gary M. Burge even asserts that John's prologue, originally sung as a hymn, was worn around the neck to prevent sickness, and recited to the sick and newly baptized.
 
 ## Textual criticism
 
@@ -25,7 +25,7 @@ The first 18 verses of the fourth gospel set the stage for the remainder of the 
 
 ## Structure
 
-The prologue of John's gospel can be divided into four strophes&mdash;theological turns, or stanzas.
+The prologue of John's gospel can be divided into four strophes[^1]&mdash;theological turns, or stanzas.
 
 ### The first strophe: the Word and God (1:1&ndash;2)
 
@@ -48,3 +48,5 @@ In the grand finale of the prologue of John's gospel, the message moves to concr
 > <sup>14</sup> The Word became flesh and dwelt among us. We observed his glory, the glory as the one and only Son from the Father, full of grace and truth. <sup>15</sup> (John testified concerning him and exclaimed, <q>This was the one of whom I said, <q>The one coming after me ranks ahead of me, because he existed before me.</q></q>) <sup>16</sup> Indeed, we have all received grace upon grace from his fullness, <sup>17</sup> for the law was given through Moses; grace and truth came through Jesus Christ. <sup>18</sup> No one has ever seen God. The one and only Son, who is himself God and is at the Father’s side&mdash;he has revealed him.
 
 In verse 14, John makes a bold claim, one of the most important in all of Scripture: that God became a man and dwelt among his people and revealed his glory. The Greek verb for *dwelling* (σκηνόω, skēnoō) is also used in the Septuagint (the Greek translation of the Old Testament) to refer to God living among his people in the tabernacle in the desert. As Burge so eloquently puts it, <q cite="The NIV Application Commentary: John">the glory of God, once restricted to the tabernacle (Exodus 40:34), is now visible in Christ (John 1:14b).</q> (*The NIV Application Commentary: John*, p. 59) This shocking assertion combined into one two wholly separate entities for the Jew and Greek alike: the divine Spirit of God and the lowly flesh of mankind.
+
+[^1]: _Strophe_ has two syllables and rhymes with _trophy_.
