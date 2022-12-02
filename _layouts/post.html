@@ -57,10 +57,8 @@
 							"@id": "{{ page.url }}#primaryimage"
 						},
 						"thumbnailUrl": "{{ page.featured_image.src }}",
-						"keywords": {{ page.tags }},
-						"articleSection": [
-							"{{ page.category }}"
-						],
+						"keywords": [{% for t in page.tags %} "{{ t }}"{% if forloop.last != true %},{% endif %}{% endfor %}],
+						"articleSection": ["{{ page.category }}"],
 						"inLanguage": "en-US"
 					},
 					{
