@@ -17,12 +17,28 @@
         </image>
         <generator>https://brandoncaples.com</generator>
         
-            <lastBuildDate>Thu, 26 May 2022 11:39:31 -0400</lastBuildDate>
+            <lastBuildDate>Sat, 03 Dec 2022 05:59:01 -0500</lastBuildDate>
         
         <atom:link href="https://brandoncaples.com/faith/feed.xml" rel="self" type="application/rss+xml"/>
         <language>
             <![CDATA[ en ]]>
         </language>
+        
+            <item>
+                <title>
+                    <![CDATA[ Waiting and hoping ]]>
+                </title>
+                <description>
+                    <![CDATA[  ]]>
+                </description>
+                <link>http://localhost:4000/faith/2022/waiting-hoping</link>
+                <guid isPermaLink="true">http://localhost:4000/faith/2022/waiting-hoping</guid>
+                <dc:creator>
+                    <![CDATA[ Brandon Caples ]]>
+                </dc:creator>
+                <pubDate>Sat, 03 Dec 2022 05:59:01 -0500</pubDate>
+                
+            </item>
         
             <item>
                 <title>
