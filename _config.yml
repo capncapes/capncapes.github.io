@@ -72,6 +72,7 @@ plugins:
   - jekyll-seo-tag
 highlighter: rouge
 input: GFM
+timezone: America/New_York
 
 # Exclude from processing.
 # The following items will not be processed, by default.
