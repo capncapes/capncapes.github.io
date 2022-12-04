@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Waiting and hoping"
-date: 2022-12-04 06:59:01 -0400
+date: 2022-12-04 06:59:01 -0500
 featured_image: {
   src: "ezra-grave-night.webp",
   fallback: "ezra-grave-night.jpeg",
