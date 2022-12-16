@@ -1,4 +1,155 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.2">Jekyll</generator><link href="https://brandoncaples.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://brandoncaples.com/" rel="alternate" type="text/html" /><updated>2022-12-04T08:59:16-05:00</updated><id>https://brandoncaples.com/feed.xml</id><title type="html">capncapes.github.io</title><subtitle>A blog site built with Jekyll consisting of two blogs, a feed of book reviews, and other content pages.</subtitle><author><name>Brandon Caples</name></author><entry><title type="html">Waiting and hoping</title><link href="https://brandoncaples.com/faith/2022/waiting-hoping" rel="alternate" type="text/html" title="Waiting and hoping" /><published>2022-12-04T06:59:01-05:00</published><updated>2022-12-04T06:59:01-05:00</updated><id>https://brandoncaples.com/faith/2022/waiting-hoping</id><content type="html" xml:base="https://brandoncaples.com/faith/2022/waiting-hoping">&lt;p&gt;It is sometimes difficult to know the difference between God speaking and my own thoughts. But when God interrupts me, it’s obvious. That’s what happened in the middle of corporate worship on a Sunday morning in July. I experienced the Holy Spirit comforting me in the midst of anxiety, self-doubt, and impatience.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-12-15T23:55:10-05:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">capncapes.github.io</title><subtitle>A blog site built with Jekyll consisting of two blogs, a feed of book reviews, and other content pages.</subtitle><author><name>Brandon Caples</name></author><entry><title type="html">What is systematic theology?</title><link href="http://localhost:4000/faith/2022/systematic-theology-scripture" rel="alternate" type="text/html" title="What is systematic theology?" /><published>2022-12-15T16:12:59-05:00</published><updated>2022-12-15T16:12:59-05:00</updated><id>http://localhost:4000/faith/2022/systematic-theology-scripture</id><content type="html" xml:base="http://localhost:4000/faith/2022/systematic-theology-scripture">&lt;p&gt;This article represents my collection of notes and personal thoughts on the &lt;a href=&quot;https://rts.edu/resources/scripture/&quot; target=&quot;_blank&quot;&gt;“Basics of Systematic Theology: Scripture” lecture&lt;/a&gt; by Scott R. Swain, Ph.D. at Reformed Theological Seminary in 2017. All unattributed quotations are those of Dr. Swain.&lt;/p&gt;
+
+&lt;picture class=&quot;block md:mx-12 xl:mx-0&quot;&gt;
+	&lt;source type=&quot;image/webp&quot; srcset=&quot;/assets/img/faith/scott-swain.webp&quot; /&gt;
+	&lt;img src=&quot;/assets/img/faith/scott-swain.jpg&quot; class=&quot;shadow&quot; alt=&quot;Scott Swain lecturing on systematic theology&quot; /&gt;
+&lt;/picture&gt;
+
+&lt;h2 id=&quot;what-is-systematic-theology&quot;&gt;What is systematic theology?&lt;/h2&gt;
+
+&lt;p&gt;On the surface, systematic theology may seem very dry, as if the stories and messages found within the Bible are pulled out and systematized into stale Latin phrases by dead theologians. But systematic theology is much richer. It’s a way of studying a subject in context throughout the entirety of Scripture, attending to the cohesiveness of texts separated by thousands of years, dozens of authors, and multiple languages and cultures. In his lecture introducing systematic theology, Scott R. Swain highlights four key principles: unity, scope, proportion, and relationships.&lt;/p&gt;
+
+&lt;h3 id=&quot;unity&quot;&gt;Unity&lt;/h3&gt;
+
+&lt;p&gt;How do the books of the Bible relate to one another to form a unified message? &lt;q&gt;In systematic theology, we ask not just, ‘What does Paul say in Romans,’ but, ‘how does what Paul says in Romans relate to what Moses says in Exodus?’&lt;/q&gt; Furthermore, the principle of unity in systematic theology also attempts to relate the teachings of the Bible with science and philosophy.&lt;/p&gt;
+
+&lt;h3 id=&quot;full-scope&quot;&gt;Full scope&lt;/h3&gt;
+
+&lt;p&gt;Systematic theology attempts to read and interpret Scripture in light of the rest of Scripture. In Acts 20, while addressing the elders of the church in Ephesus, Paul declares that he &lt;q&gt;did not shrink from declaring to you the whole counsel of God.&lt;/q&gt; (v. 27, ESV)&lt;/p&gt;
+
+&lt;p&gt;The Dutch Reformed theologian Herman Bavinck (1854–1921) noted that failure to observe the full scope of Scripture &lt;q&gt;leads to one-sidedness and error in theology and pathology in the religious life.&lt;/q&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;proportions&quot;&gt;Proportions&lt;/h3&gt;
+
+&lt;p&gt;Scott Swain illustrates the point that systematic theology observes biblical proportions in this way: &lt;q&gt;The Bible says something about everything… But the Bible doesn’t say everything about everything.&lt;/q&gt; There are first-order matters and second-order matters in Scripture.&lt;sup id=&quot;fnref:1&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt; As Paul points out in 1 Corinthians 15&lt;sup id=&quot;fnref:2&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:2&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;2&lt;/a&gt;&lt;/sup&gt;, the gospel is a matter of first importance. And though the Bible frequently mentions animals of various kinds, biblical information about animals is a matter of much lower importance than what the Bible says about human salvation. Systematic theology attempts to define those distinctions.&lt;/p&gt;
+
+&lt;h3 id=&quot;relationships&quot;&gt;Relationships&lt;/h3&gt;
+
+&lt;p&gt;The fourth principle of systematic theology is concerned with the relationships between various doctrines. Swain uses the examples of good works and grace. Both of these doctrines are important to the Christian life. But how do good works and grace interact with each other? &lt;q&gt;If we think that good works are the basis for God’s grace, we’re going to get ourselves in all kinds of trouble.&lt;/q&gt; That’s because good works come after grace, not before. Systematic theology studies the relationships between doctrines in order to clarify each doctrine.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;sup&gt;8&lt;/sup&gt; For it is by grace you have been saved, through faith—and this is not from yourselves, it is the gift of God— &lt;sup&gt;9&lt;/sup&gt; not by works, so that no one can boast. &lt;sup&gt;10&lt;/sup&gt; For we are God’s handiwork, created in Christ Jesus to do good works, which God prepared in advance for us to do.&lt;/p&gt;
+
+  &lt;p&gt;&lt;cite&gt;Ephesians 2:8–10, &lt;abbr title=&quot;New International Version&quot;&gt;NIV&lt;/abbr&gt;&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;scripture&quot;&gt;Scripture&lt;/h2&gt;
+
+&lt;p&gt;What can the study of systematic theology tell us about Scripture? Is the Bible reliable and authoritative? Is it inspired by God or just a collection of writings by mortal men? Since all theological study necessarily deals primarily with holy texts, the study of Scripture itself is a good place to start. Swain employs three passages in order to observe how the Bible’s authors viewed Scripture.&lt;/p&gt;
+
+&lt;h3 id=&quot;god-is-pleased-to-reveal-himself-to-us-in-order-that-we-might-find-rest-in-him&quot;&gt;&lt;q&gt;God is pleased to reveal himself to us in order that we might find rest in him.&lt;/q&gt;&lt;/h3&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;sup&gt;25&lt;/sup&gt; At that time Jesus said, &lt;q&gt;I praise you, Father, Lord of heaven and earth, because you have hidden these things from the wise and learned, and revealed them to little children. &lt;sup&gt;26&lt;/sup&gt; Yes, Father, for this is what you were pleased to do. &lt;sup&gt;27&lt;/sup&gt; All things have been committed to me by my Father. No one knows the Son except the Father, and no one knows the Father except the Son and those to whom the Son chooses to reveal him. &lt;sup&gt;28&lt;/sup&gt; Come to me, all you who are weary and burdened, and I will give you rest. &lt;sup&gt;29&lt;/sup&gt; Take my yoke upon you and learn from me, for I am gentle and humble in heart, and you will find rest for your souls. &lt;sup&gt;30&lt;/sup&gt; For my yoke is easy and my burden is light.&lt;/q&gt;&lt;/p&gt;
+
+  &lt;p&gt;&lt;cite&gt;Matthew 11:25–30, NIV&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;In Matthew 11, we discover that the Godhead—Father, Son, Holy Spirit—are complete in their unity of knowledge and love with one another. This passage also teaches us that the Father delights in making himself known to his children. This knowledge of God that is revealed to us is not only for God’s good pleasure, but also so that we may find rest in him.&lt;/p&gt;
+
+&lt;p&gt;&lt;q cite=&quot;Augustine of Hippo&quot;&gt;You have made us for yourself, O Lord, and our hearts are restless until they rest in You.&lt;/q&gt;&lt;br /&gt;
+— Augustine, &lt;em&gt;Confessions&lt;/em&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;god-is-pleased-to-reveal-himself-to-us-in-a-twofold-manner&quot;&gt;&lt;q&gt;God is pleased to reveal himself to us in a twofold manner.&lt;/q&gt;&lt;/h3&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;sup&gt;1&lt;/sup&gt; For the director of music. A psalm of David.&lt;/p&gt;
+
+  &lt;p&gt;The heavens declare the glory of God;&lt;br /&gt;
+the skies proclaim the work of his hands.&lt;br /&gt;
+&lt;sup&gt;2&lt;/sup&gt; Day after day they pour forth speech;&lt;br /&gt;
+night after night they reveal knowledge.&lt;br /&gt;
+&lt;sup&gt;3&lt;/sup&gt; They have no speech, they use no words;&lt;br /&gt;
+no sound is heard from them.&lt;br /&gt;
+&lt;sup&gt;4&lt;/sup&gt; Yet their voice goes out into all the earth,&lt;br /&gt;
+their words to the ends of the world.&lt;br /&gt;
+In the heavens God has pitched a tent for the sun.&lt;br /&gt;
+&lt;sup&gt;5&lt;/sup&gt; It is like a bridegroom coming out of his chamber,&lt;br /&gt;
+like a champion rejoicing to run his course.&lt;br /&gt;
+&lt;sup&gt;6&lt;/sup&gt; It rises at one end of the heavens&lt;br /&gt;
+and makes its circuit to the other;&lt;br /&gt;
+nothing is deprived of its warmth.&lt;br /&gt;&lt;/p&gt;
+
+  &lt;p&gt;&lt;sup&gt;7&lt;/sup&gt; The law of the Lord is perfect,&lt;br /&gt;
+refreshing the soul.&lt;br /&gt;
+The statutes of the Lord are trustworthy,&lt;br /&gt;
+making wise the simple.&lt;br /&gt;
+&lt;sup&gt;8&lt;/sup&gt; The precepts of the Lord are right,&lt;br /&gt;
+giving joy to the heart.&lt;br /&gt;
+The commands of the Lord are radiant,&lt;br /&gt;
+giving light to the eyes.&lt;br /&gt;
+&lt;sup&gt;9&lt;/sup&gt; The fear of the Lord is pure,&lt;br /&gt;
+enduring forever.&lt;br /&gt;
+The decrees of the Lord are firm,&lt;br /&gt;
+and all of them are righteous.&lt;br /&gt;&lt;/p&gt;
+
+  &lt;p&gt;&lt;sup&gt;10&lt;/sup&gt; They are more precious than gold,&lt;br /&gt;
+than much pure gold;&lt;br /&gt;
+they are sweeter than honey,&lt;br /&gt;
+than honey from the honeycomb.&lt;br /&gt;
+&lt;sup&gt;11&lt;/sup&gt; By them your servant is warned;&lt;br /&gt;
+in keeping them there is great reward.&lt;br /&gt;
+&lt;sup&gt;12&lt;/sup&gt; But who can discern their own errors?&lt;br /&gt;
+Forgive my hidden faults.&lt;br /&gt;
+&lt;sup&gt;13&lt;/sup&gt; Keep your servant also from willful sins;&lt;br /&gt;
+may they not rule over me.&lt;br /&gt;
+Then I will be blameless,&lt;br /&gt;
+innocent of great transgression.&lt;br /&gt;&lt;/p&gt;
+
+  &lt;p&gt;&lt;sup&gt;14&lt;/sup&gt; May these words of my mouth and this meditation of my heart&lt;br /&gt;
+be pleasing in your sight,&lt;br /&gt;
+Lord, my Rock and my Redeemer.&lt;/p&gt;
+
+  &lt;p&gt;&lt;cite&gt;Psalm 19, NIV&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;In Psalm 19, we can decipher two “books” by which we can know God: the book of nature and the book of Scripture. The Belgic Confession reads:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;We know Him by two means: First, by the creation, preservation, and government of the universe; which is before our eyes as a most elegant book, wherein all creatures, great and small, are as so many characters leading us to see clearly the invisible things of God, even his everlasting power and divinity, as the apostle Paul says (Romans 1:20). All which things are sufficient to convince men and leave them without excuse. Second, He makes Himself more clearly and fully known to us by His holy and divine Word, that is to say, as far as is necessary for us to know in this life, to His glory and our salvation.&lt;/p&gt;
+
+  &lt;p&gt;&lt;cite&gt;Belgic Confession, Article 2&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;The theological term “general revelation” is typically used of the work of the book of nature, while theologians use “special revelation” to describe knowledge that comes from the inspired Word of God, the book of Scripture.&lt;/p&gt;
+
+&lt;p&gt;In verses 1–6 of Psalm 19, the natural world is said to &lt;q&gt;declare the glory of God&lt;/q&gt; (v. 1) and the psalmist makes use of metaphorical language to describe the eagerness of the sun to warm the whole earth. That’s general revelation, which describes human observance of the splendor of nature. General revelation is available to all audiences, but it is incomplete and cannot, by itself, bring us into a relationship with God. That’s where special revelation comes in. The psalmist references human anatomy in verses 7 and 8 to illustrate the incompleteness of the parts on their own &lt;em&gt;until&lt;/em&gt; they are brought together by the work of God’s law, statutes, and precepts. The soul, mind (v. 7), heart, and eyes (v. 8), themselves works of nature, are given refreshment, wisdom, joy, and light when introduced to the special revelation of God.&lt;/p&gt;
+
+&lt;p&gt;Not only does Psalm 19 show us how these two books speak to us about God, but the psalmist also teaches us how we should speak back to God. In verses 12 and 13, he says, &lt;q&gt;But who can discern their own errors? Forgive my hidden faults. Keep your servant also from willful sins; may they not rule over me.&lt;/q&gt; The psalmist, King David, acknowledges that he is out of step with the rest of nature in glorifying God—both unintentionally and willfully sinning against the Lord. Finally, in verse 14, he says, &lt;q&gt;May these words of my mouth and this meditation of my heart be pleasing in your sight, Lord, my Rock and my Redeemer.&lt;/q&gt; David knows that he cannot earn God’s favor, but he appeals to God’s graciousness in his relationship with his creator. Though I am a sinner, may the words I speak and the reflections of my heart demonstrate a deep love for God.&lt;/p&gt;
+
+&lt;h3 id=&quot;until-jesus-returns-the-bible-is-our-supreme-source-of-special-revelation&quot;&gt;“Until Jesus returns, the Bible is our supreme source of special revelation”&lt;/h3&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;sup&gt;16&lt;/sup&gt; For we did not follow cleverly devised stories when we told you about the coming of our Lord Jesus Christ in power, but we were eyewitnesses of his majesty. &lt;sup&gt;17&lt;/sup&gt; He received honor and glory from God the Father when the voice came to him from the Majestic Glory, saying, &lt;q&gt;This is my Son, whom I love; with him I am well pleased.&lt;/q&gt; &lt;sup&gt;18&lt;/sup&gt; We ourselves heard this voice that came from heaven when we were with him on the sacred mountain. &lt;sup&gt;19&lt;/sup&gt; We also have the prophetic message as something completely reliable, and you will do well to pay attention to it, as to a light shining in a dark place, until the day dawns and the morning star rises in your hearts. &lt;sup&gt;20&lt;/sup&gt; Above all, you must understand that no prophecy of Scripture came about by the prophet’s own interpretation of things. &lt;sup&gt;21&lt;/sup&gt; For prophecy never had its origin in the human will, but prophets, though human, spoke from God as they were carried along by the Holy Spirit.&lt;/p&gt;
+
+  &lt;p&gt;&lt;cite&gt;2 Peter 1:16–21, NIV&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;The Bible is God’s inspired word, and Dr. Swain points to this passage from the apostle Peter’s second letter as the best declaration in Scripture of the Bible’s own inspiration. He notes two things that this passage teaches us. (There are actually more than two.)&lt;/p&gt;
+
+&lt;p&gt;The first thing that this passage teaches is that prophets and apostles had &lt;q&gt;special access&lt;/q&gt; to God’s revelations. They did not simply interpret events happening around them as being related in some way to God, filling in the gaps of their observations with contrivances. Secondly, each prophet and apostle had a special anointing from the Holy Spirit, allowing them to remember what they saw and &lt;q&gt;reliably communicate it to us.&lt;/q&gt;&lt;/p&gt;
+
+&lt;p&gt;This passage also affirms the unity of Scripture. What the prophets foretold, the apostles witnessed. As Swain notes toward the end of his lecture, &lt;q&gt;All of Scripture holds together as a testimony to Christ.&lt;/q&gt;&lt;/p&gt;
+
+&lt;p&gt;The Bible is inspired. It’s unified. And it’s sufficient. Earlier in the chapter, Peter writes, &lt;q&gt;His divine power has given us everything we need for a godly life &lt;strong&gt;through our knowledge of him&lt;/strong&gt; who called us by his own glory and goodness&lt;/q&gt; (v. 3, emphasis added). In addition, Scripture is reliable and authoritative (v. 19). It’s also clear. The Bible is not always clear, as Peter himself acknowledges later in this letter&lt;sup id=&quot;fnref:3&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:3&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;3&lt;/a&gt;&lt;/sup&gt;, but the basic message of Scripture is clear: God desires for humanity to know him and share in his rest, and his love for us is so great that he redeemed us for union with himself forever.&lt;/p&gt;
+
+&lt;p&gt;Scott Swain’s final point looks to the second half of verse 19: &lt;q&gt;…as to a light shining in a dark place, until the day dawns and the morning star rises in your hearts.&lt;/q&gt; Scripture is our supreme source of special revelation &lt;em&gt;right now&lt;/em&gt;—until the second advent of Christ. As we await with eagerness &lt;q&gt;the blessed hope—the appearing of the glory of our great God and Savior, Jesus Christ&lt;/q&gt; (Titus 2:13, NIV), we have at present &lt;q&gt;a lamp for [our] feet, a light on [our] path&lt;/q&gt; (Psalm 119:105, NIV).&lt;/p&gt;
+
+&lt;p&gt;The Bible is inspired, unified, sufficient, reliable, authoritative, and clear. Scripture is &lt;em&gt;from&lt;/em&gt; God, &lt;em&gt;about&lt;/em&gt; God, and leads us &lt;em&gt;to&lt;/em&gt; God, where we &lt;q&gt;will find rest for [our] souls&lt;/q&gt; (Matthew 11:29). Amen.&lt;/p&gt;
+
+&lt;div class=&quot;footnotes&quot; role=&quot;doc-endnotes&quot;&gt;
+  &lt;ol&gt;
+    &lt;li id=&quot;fn:1&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;There are certainly matters of even lower importance. &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:2&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;&lt;q&gt;For I delivered to you as of first importance what I also received: that Christ died for our sins in accordance with the Scriptures, that he was buried, that he was raised on the third day in accordance with the Scriptures, and that he appeared to Cephas, then to the twelve.&lt;/q&gt; (1 Corinthians 15:3–5, ESV) &lt;a href=&quot;#fnref:2&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:3&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;Speaking of Paul, Peter writes, &lt;q&gt;His letters contain some things that are hard to understand.&lt;/q&gt; (2 Peter 3:16, NIV) &lt;a href=&quot;#fnref:3&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/div&gt;</content><author><name>Brandon Caples</name></author><category term="Faith" /><category term="systematic theology" /><category term="Scripture" /><summary type="html">This article represents my collection of notes and personal thoughts on the “Basics of Systematic Theology: Scripture” lecture by Scott R. Swain, Ph.D. at Reformed Theological Seminary in 2017. All unattributed quotations are those of Dr. Swain.</summary></entry><entry><title type="html">Waiting and hoping</title><link href="http://localhost:4000/faith/2022/waiting-hoping" rel="alternate" type="text/html" title="Waiting and hoping" /><published>2022-12-04T06:59:01-05:00</published><updated>2022-12-04T06:59:01-05:00</updated><id>http://localhost:4000/faith/2022/waiting-hoping</id><content type="html" xml:base="http://localhost:4000/faith/2022/waiting-hoping">&lt;p&gt;It is sometimes difficult to know the difference between God speaking and my own thoughts. But when God interrupts me, it’s obvious. That’s what happened in the middle of corporate worship on a Sunday morning in July. I experienced the Holy Spirit comforting me in the midst of anxiety, self-doubt, and impatience.&lt;/p&gt;
 
 &lt;p&gt;The feeling was the same as what I felt five years ago when I learned that my first child had died in the womb: despair, longing, and hope. Upon hearing confirmation of my son’s stillbirth, I was overcome by a strange and conflicting sense of sadness and hope—hope that I would yet know the joy of the Lord. And I did. I learned a great deal about joy in the midst of sorrow, pain, and longing.&lt;/p&gt;
 
@@ -111,7 +262,7 @@ bring me out of my sufferings.&lt;/p&gt;
       &lt;p&gt;As of December 2022, I’m trying to get an appointment with a therapist in a non-virtual session who will accept my insurance. &lt;a href=&quot;#fnref:8&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
     &lt;/li&gt;
   &lt;/ol&gt;
-&lt;/div&gt;</content><author><name>Brandon Caples</name></author><category term="Faith" /><category term="anxiety" /><category term="grief" /><summary type="html">It is sometimes difficult to know the difference between God speaking and my own thoughts. But when God interrupts me, it’s obvious. That’s what happened in the middle of corporate worship on a Sunday morning in July. I experienced the Holy Spirit comforting me in the midst of anxiety, self-doubt, and impatience.</summary></entry><entry><title type="html">How to create a Google account without Gmail</title><link href="https://brandoncaples.com/martech/2022/how-to-create-a-google-account-without-gmail" rel="alternate" type="text/html" title="How to create a Google account without Gmail" /><published>2022-11-03T08:14:59-04:00</published><updated>2022-11-03T08:14:59-04:00</updated><id>https://brandoncaples.com/martech/2022/how-to-create-a-google-account-without-gmail</id><content type="html" xml:base="https://brandoncaples.com/martech/2022/how-to-create-a-google-account-without-gmail">&lt;p&gt;Did you know that you can have a Google account without a Gmail address? With so many products and services, millions of people use Google. But what if you like your existing email address? You can create a Google account without Gmail.&lt;/p&gt;
+&lt;/div&gt;</content><author><name>Brandon Caples</name></author><category term="Faith" /><category term="anxiety" /><category term="grief" /><summary type="html">It is sometimes difficult to know the difference between God speaking and my own thoughts. But when God interrupts me, it’s obvious. That’s what happened in the middle of corporate worship on a Sunday morning in July. I experienced the Holy Spirit comforting me in the midst of anxiety, self-doubt, and impatience.</summary></entry><entry><title type="html">How to create a Google account without Gmail</title><link href="http://localhost:4000/martech/2022/how-to-create-a-google-account-without-gmail" rel="alternate" type="text/html" title="How to create a Google account without Gmail" /><published>2022-11-03T08:14:59-04:00</published><updated>2022-11-03T08:14:59-04:00</updated><id>http://localhost:4000/martech/2022/how-to-create-a-google-account-without-gmail</id><content type="html" xml:base="http://localhost:4000/martech/2022/how-to-create-a-google-account-without-gmail">&lt;p&gt;Did you know that you can have a Google account without a Gmail address? With so many products and services, millions of people use Google. But what if you like your existing email address? You can create a Google account without Gmail.&lt;/p&gt;
 
 &lt;p&gt;This is especially useful when using Google’s business services, like Search Console, Google Ads, Google Analytics, etc. It’s a really nice way to compartmentalize your personal and work accounts and services.&lt;/p&gt;
 
@@ -128,7 +279,7 @@ bring me out of my sufferings.&lt;/p&gt;
 
 &lt;p&gt;With your Google account created, you will now need to confirm that you own the email address provided. Go to your email inbox and look for an email from Google. Click the link inside to confirm your account.&lt;/p&gt;
 
-&lt;p&gt;Now you can sign into your new Google account, and the email address username is your non-Gmail address!&lt;/p&gt;</content><author><name>Brandon Caples</name></author><category term="MarTech" /><category term="Google" /><summary type="html">Did you know that you can have a Google account without a Gmail address? With so many products and services, millions of people use Google. But what if you like your existing email address? You can create a Google account without Gmail.</summary></entry><entry><title type="html">Remove .DS_Store with Git</title><link href="https://brandoncaples.com/martech/2022/git-remove-ds-store" rel="alternate" type="text/html" title="Remove .DS_Store with Git" /><published>2022-06-25T23:14:39-04:00</published><updated>2022-06-25T23:14:39-04:00</updated><id>https://brandoncaples.com/martech/2022/git-remove-ds-store</id><content type="html" xml:base="https://brandoncaples.com/martech/2022/git-remove-ds-store">&lt;p&gt;Every developer with a Mac computer has encountered the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;.DS_Store&lt;/code&gt; file in their Git code. If you don’t know what it is, this file could be alarming. Don’t worry; &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;.DS_Store&lt;/code&gt; is harmless. But it can be annoying when it shows up in every folder.&lt;/p&gt;
+&lt;p&gt;Now you can sign into your new Google account, and the email address username is your non-Gmail address!&lt;/p&gt;</content><author><name>Brandon Caples</name></author><category term="MarTech" /><category term="Google" /><summary type="html">Did you know that you can have a Google account without a Gmail address? With so many products and services, millions of people use Google. But what if you like your existing email address? You can create a Google account without Gmail.</summary></entry><entry><title type="html">Remove .DS_Store with Git</title><link href="http://localhost:4000/martech/2022/git-remove-ds-store" rel="alternate" type="text/html" title="Remove .DS_Store with Git" /><published>2022-06-25T23:14:39-04:00</published><updated>2022-06-25T23:14:39-04:00</updated><id>http://localhost:4000/martech/2022/git-remove-ds-store</id><content type="html" xml:base="http://localhost:4000/martech/2022/git-remove-ds-store">&lt;p&gt;Every developer with a Mac computer has encountered the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;.DS_Store&lt;/code&gt; file in their Git code. If you don’t know what it is, this file could be alarming. Don’t worry; &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;.DS_Store&lt;/code&gt; is harmless. But it can be annoying when it shows up in every folder.&lt;/p&gt;
 
 &lt;h2 id=&quot;what-is-the-ds_store-file&quot;&gt;What is the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;.DS_Store&lt;/code&gt; file?&lt;/h2&gt;
 
@@ -150,7 +301,7 @@ bring me out of my sufferings.&lt;/p&gt;
 
 &lt;h3 id=&quot;commit-changes&quot;&gt;Commit changes&lt;/h3&gt;
 
-&lt;p&gt;Commit your changes and push them to your remote repository. If you review the changes made in your version control host, you’ll notice that the updates remove all the instances of &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;.DS_Store&lt;/code&gt;, along with adding that line to your &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;.gitignore&lt;/code&gt; file.&lt;/p&gt;</content><author><name>Brandon Caples</name></author><category term="MarTech" /><category term="web development" /><category term="Git" /><summary type="html">Every developer with a Mac computer has encountered the .DS_Store file in their Git code. If you don’t know what it is, this file could be alarming. Don’t worry; .DS_Store is harmless. But it can be annoying when it shows up in every folder.</summary></entry><entry><title type="html">This is eternal life: know your God</title><link href="https://brandoncaples.com/faith/2022/this-is-eternal-life" rel="alternate" type="text/html" title="This is eternal life: know your God" /><published>2022-05-26T11:39:31-04:00</published><updated>2022-05-26T11:39:31-04:00</updated><id>https://brandoncaples.com/faith/2022/this-is-eternal-life</id><content type="html" xml:base="https://brandoncaples.com/faith/2022/this-is-eternal-life">&lt;p&gt;“Is this real life?” &lt;a href=&quot;https://youtu.be/txqiwrbYGrs&quot;&gt;David After Dentist&lt;/a&gt; is a hilarious viral video of a 7-year old boy fresh out of a dental procedure who is clearly still feeling the effects of nitrous oxide, or laughing gas. David’s father assures him that, yes, this is real life. But for Christians, this is also eternal life. We’re living in it now.&lt;/p&gt;
+&lt;p&gt;Commit your changes and push them to your remote repository. If you review the changes made in your version control host, you’ll notice that the updates remove all the instances of &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;.DS_Store&lt;/code&gt;, along with adding that line to your &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;.gitignore&lt;/code&gt; file.&lt;/p&gt;</content><author><name>Brandon Caples</name></author><category term="MarTech" /><category term="web development" /><category term="Git" /><summary type="html">Every developer with a Mac computer has encountered the .DS_Store file in their Git code. If you don’t know what it is, this file could be alarming. Don’t worry; .DS_Store is harmless. But it can be annoying when it shows up in every folder.</summary></entry><entry><title type="html">This is eternal life: know your God</title><link href="http://localhost:4000/faith/2022/this-is-eternal-life" rel="alternate" type="text/html" title="This is eternal life: know your God" /><published>2022-05-26T11:39:31-04:00</published><updated>2022-05-26T11:39:31-04:00</updated><id>http://localhost:4000/faith/2022/this-is-eternal-life</id><content type="html" xml:base="http://localhost:4000/faith/2022/this-is-eternal-life">&lt;p&gt;“Is this real life?” &lt;a href=&quot;https://youtu.be/txqiwrbYGrs&quot;&gt;David After Dentist&lt;/a&gt; is a hilarious viral video of a 7-year old boy fresh out of a dental procedure who is clearly still feeling the effects of nitrous oxide, or laughing gas. David’s father assures him that, yes, this is real life. But for Christians, this is also eternal life. We’re living in it now.&lt;/p&gt;
 
 &lt;h2 id=&quot;eternal-life-is-knowing-god&quot;&gt;Eternal life is knowing God&lt;/h2&gt;
 
@@ -182,7 +333,7 @@ bring me out of my sufferings.&lt;/p&gt;
 
 &lt;h3 id=&quot;look-to-the-second-coming&quot;&gt;Look to the second coming&lt;/h3&gt;
 
-&lt;p&gt;As Christians, our hope is found in Jesus and his second coming to restore all things to perfection. We are told to watch and pray in anticipation of the second coming of Christ, &lt;q cite=&quot;Jude 21, CSB&quot;&gt;waiting expectantly for the mercy of our Lord Jesus Christ for eternal life.&lt;/q&gt; (Jude 21, CSB)&lt;/p&gt;</content><author><name>Brandon Caples</name></author><category term="Faith" /><category term="eternal life" /><category term="eschatology" /><category term="gospels" /><summary type="html">“Is this real life?” David After Dentist is a hilarious viral video of a 7-year old boy fresh out of a dental procedure who is clearly still feeling the effects of nitrous oxide, or laughing gas. David’s father assures him that, yes, this is real life. But for Christians, this is also eternal life. We’re living in it now.</summary></entry><entry><title type="html">Christ in you, the hope of glory</title><link href="https://brandoncaples.com/faith/2022/christ-in-you-hope-of-glory" rel="alternate" type="text/html" title="Christ in you, the hope of glory" /><published>2022-05-20T12:00:01-04:00</published><updated>2022-05-20T12:00:01-04:00</updated><id>https://brandoncaples.com/faith/2022/christ-in-you-hope-of-glory</id><content type="html" xml:base="https://brandoncaples.com/faith/2022/christ-in-you-hope-of-glory">&lt;p&gt;Is there a Christian teacher whom you greatly respect but have never met? How would it feel to receive a personal letter from that person commending you for your faith and revealing their prayers for you? That is how the church in Colossae must have felt to receive a letter from the apostle Paul. By the time he wrote Colossians, Paul was well-known in the growing Christian movement, and Colossae was a small city with little influence.&lt;/p&gt;
+&lt;p&gt;As Christians, our hope is found in Jesus and his second coming to restore all things to perfection. We are told to watch and pray in anticipation of the second coming of Christ, &lt;q cite=&quot;Jude 21, CSB&quot;&gt;waiting expectantly for the mercy of our Lord Jesus Christ for eternal life.&lt;/q&gt; (Jude 21, CSB)&lt;/p&gt;</content><author><name>Brandon Caples</name></author><category term="Faith" /><category term="eternal life" /><category term="eschatology" /><category term="gospels" /><summary type="html">“Is this real life?” David After Dentist is a hilarious viral video of a 7-year old boy fresh out of a dental procedure who is clearly still feeling the effects of nitrous oxide, or laughing gas. David’s father assures him that, yes, this is real life. But for Christians, this is also eternal life. We’re living in it now.</summary></entry><entry><title type="html">Christ in you, the hope of glory</title><link href="http://localhost:4000/faith/2022/christ-in-you-hope-of-glory" rel="alternate" type="text/html" title="Christ in you, the hope of glory" /><published>2022-05-20T12:00:01-04:00</published><updated>2022-05-20T12:00:01-04:00</updated><id>http://localhost:4000/faith/2022/christ-in-you-hope-of-glory</id><content type="html" xml:base="http://localhost:4000/faith/2022/christ-in-you-hope-of-glory">&lt;p&gt;Is there a Christian teacher whom you greatly respect but have never met? How would it feel to receive a personal letter from that person commending you for your faith and revealing their prayers for you? That is how the church in Colossae must have felt to receive a letter from the apostle Paul. By the time he wrote Colossians, Paul was well-known in the growing Christian movement, and Colossae was a small city with little influence.&lt;/p&gt;
 
 &lt;p&gt;Paul did not plant the Colossian church; he likely never even visited it. But he had heard about their “faith in Christ Jesus and of the love you have for all the saints” (1:4) through Epaphras. Epaphras is probably the one who started the Colossian church, and the minister of Christ who “told us about your love in the Spirit.” (1:8)&lt;/p&gt;
 
@@ -263,7 +414,7 @@ bring me out of my sufferings.&lt;/p&gt;
       &lt;p&gt;It’s not insignificant that Paul uses the word &lt;em&gt;everyone&lt;/em&gt; three times in verse 28. &lt;a href=&quot;#fnref:6&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
     &lt;/li&gt;
   &lt;/ol&gt;
-&lt;/div&gt;</content><author><name>Brandon Caples</name></author><category term="Faith" /><category term="Christ" /><category term="Paul&apos;s letters" /><summary type="html">Is there a Christian teacher whom you greatly respect but have never met? How would it feel to receive a personal letter from that person commending you for your faith and revealing their prayers for you? That is how the church in Colossae must have felt to receive a letter from the apostle Paul. By the time he wrote Colossians, Paul was well-known in the growing Christian movement, and Colossae was a small city with little influence.</summary></entry><entry><title type="html">Using CSS counters</title><link href="https://brandoncaples.com/martech/2021/using-css-counters" rel="alternate" type="text/html" title="Using CSS counters" /><published>2021-11-04T14:03:01-04:00</published><updated>2021-11-04T14:03:01-04:00</updated><id>https://brandoncaples.com/martech/2021/using-css-counters</id><content type="html" xml:base="https://brandoncaples.com/martech/2021/using-css-counters">&lt;p&gt;CSS. Developers tend to either love it or hate it—sometimes depending on the day. Well, here’s a reason to love it: CSS counters.&lt;/p&gt;
+&lt;/div&gt;</content><author><name>Brandon Caples</name></author><category term="Faith" /><category term="Christ" /><category term="Paul&apos;s letters" /><summary type="html">Is there a Christian teacher whom you greatly respect but have never met? How would it feel to receive a personal letter from that person commending you for your faith and revealing their prayers for you? That is how the church in Colossae must have felt to receive a letter from the apostle Paul. By the time he wrote Colossians, Paul was well-known in the growing Christian movement, and Colossae was a small city with little influence.</summary></entry><entry><title type="html">Using CSS counters</title><link href="http://localhost:4000/martech/2021/using-css-counters" rel="alternate" type="text/html" title="Using CSS counters" /><published>2021-11-04T14:03:01-04:00</published><updated>2021-11-04T14:03:01-04:00</updated><id>http://localhost:4000/martech/2021/using-css-counters</id><content type="html" xml:base="http://localhost:4000/martech/2021/using-css-counters">&lt;p&gt;CSS. Developers tend to either love it or hate it—sometimes depending on the day. Well, here’s a reason to love it: CSS counters.&lt;/p&gt;
 
 &lt;p&gt;Of course we can simply use an ordered list to count items on a web page, but that doesn’t always fit semantically. And CSS counters are a bit more flexible than boring old lists, in my opinion.&lt;/p&gt;
 
@@ -451,7 +602,7 @@ bring me out of my sufferings.&lt;/p&gt;
 
 &lt;p&gt;I won’t get into &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;@counter-style&lt;/code&gt; this time, but check out the tutorial on the &lt;a href=&quot;https://www.quackit.com/css/at-rules/css_counter-style_at-rule.cfm&quot;&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;@counter-style&lt;/code&gt; CSS at-rule&lt;/a&gt; over at Quackit. To see the rest of the CSS counter tools in action, take a look at this &lt;a href=&quot;https://codepen.io/collection/gYzzQv&quot;&gt;Codepen collection about CSS counters&lt;/a&gt;, and watch this &lt;a href=&quot;https://youtu.be/XFXVJBzsMCA&quot;&gt;video tutorial by Chris Coyier&lt;/a&gt; about ordered lists and CSS counters.&lt;/p&gt;
 
-&lt;p&gt;Using CSS counters is pretty easy once you understand the the few properties involved. I prefer CSS counters when the task is about styling. If you need proper list markup, this isn’t the method to use. (You’re probably looking for &lt;a href=&quot;https://www.freecodecamp.org/news/html-list-how-to-use-bullet-points-ordered-and-unordered-lists/&quot;&gt;HTML lists&lt;/a&gt;.) Nevertheless, there’s a lot you can do with only a handful of CSS.&lt;/p&gt;</content><author><name>Brandon Caples</name></author><category term="MarTech" /><category term="web development" /><category term="CSS" /><summary type="html">CSS. Developers tend to either love it or hate it—sometimes depending on the day. Well, here’s a reason to love it: CSS counters.</summary></entry><entry><title type="html">Why was John the Baptist mistaken for Elijah?</title><link href="https://brandoncaples.com/faith/2021/john-the-baptist-mistaken-for-elijah" rel="alternate" type="text/html" title="Why was John the Baptist mistaken for Elijah?" /><published>2021-09-17T01:11:10-04:00</published><updated>2021-09-17T01:11:10-04:00</updated><id>https://brandoncaples.com/faith/2021/john-the-baptist-mistaken-for-elijah</id><content type="html" xml:base="https://brandoncaples.com/faith/2021/john-the-baptist-mistaken-for-elijah">&lt;p&gt;Do you ever wonder about John the Baptist? Why did he dress in camel’s hair? What made him decide to live in the wilderness? Why was he mistaken for the prophet Elijah? The gospels make it clear that John was the appointed messenger to prepare the way for Jesus Christ. But why was his life so strange? It turns out, he was simply committing to his God-given mission, and he didn’t want anyone to miss the Messiah when he arrived.&lt;/p&gt;
+&lt;p&gt;Using CSS counters is pretty easy once you understand the the few properties involved. I prefer CSS counters when the task is about styling. If you need proper list markup, this isn’t the method to use. (You’re probably looking for &lt;a href=&quot;https://www.freecodecamp.org/news/html-list-how-to-use-bullet-points-ordered-and-unordered-lists/&quot;&gt;HTML lists&lt;/a&gt;.) Nevertheless, there’s a lot you can do with only a handful of CSS.&lt;/p&gt;</content><author><name>Brandon Caples</name></author><category term="MarTech" /><category term="web development" /><category term="CSS" /><summary type="html">CSS. Developers tend to either love it or hate it—sometimes depending on the day. Well, here’s a reason to love it: CSS counters.</summary></entry><entry><title type="html">Why was John the Baptist mistaken for Elijah?</title><link href="http://localhost:4000/faith/2021/john-the-baptist-mistaken-for-elijah" rel="alternate" type="text/html" title="Why was John the Baptist mistaken for Elijah?" /><published>2021-09-17T01:11:10-04:00</published><updated>2021-09-17T01:11:10-04:00</updated><id>http://localhost:4000/faith/2021/john-the-baptist-mistaken-for-elijah</id><content type="html" xml:base="http://localhost:4000/faith/2021/john-the-baptist-mistaken-for-elijah">&lt;p&gt;Do you ever wonder about John the Baptist? Why did he dress in camel’s hair? What made him decide to live in the wilderness? Why was he mistaken for the prophet Elijah? The gospels make it clear that John was the appointed messenger to prepare the way for Jesus Christ. But why was his life so strange? It turns out, he was simply committing to his God-given mission, and he didn’t want anyone to miss the Messiah when he arrived.&lt;/p&gt;
 
 &lt;h2 id=&quot;god-chose-john-the-baptist&quot;&gt;God chose John the Baptist&lt;/h2&gt;
 
@@ -519,7 +670,7 @@ bring me out of my sufferings.&lt;/p&gt;
       &lt;p&gt;&lt;q&gt;&lt;q&gt;I will send my messenger, who will prepare the way before me. Then suddenly the Lord you are seeking will come to his temple; the messenger of the covenant, whom you desire, will come,&lt;/q&gt; says the Lord Almighty.&lt;/q&gt; (&lt;abbr title=&quot;New International Version&quot;&gt;NIV&lt;/abbr&gt;) &lt;a href=&quot;#fnref:3&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
     &lt;/li&gt;
   &lt;/ol&gt;
-&lt;/div&gt;</content><author><name>Brandon Caples</name></author><category term="Faith" /><category term="Elijah" /><category term="John the Baptist" /><summary type="html">Do you ever wonder about John the Baptist? Why did he dress in camel’s hair? What made him decide to live in the wilderness? Why was he mistaken for the prophet Elijah? The gospels make it clear that John was the appointed messenger to prepare the way for Jesus Christ. But why was his life so strange? It turns out, he was simply committing to his God-given mission, and he didn’t want anyone to miss the Messiah when he arrived.</summary></entry><entry><title type="html">The average color of the universe</title><link href="https://brandoncaples.com/martech/2021/average-color-universe" rel="alternate" type="text/html" title="The average color of the universe" /><published>2021-08-24T11:32:00-04:00</published><updated>2021-08-24T11:32:00-04:00</updated><id>https://brandoncaples.com/martech/2021/average-color-universe</id><content type="html" xml:base="https://brandoncaples.com/martech/2021/average-color-universe">&lt;p&gt;In 2002, Ivan Baldry and Karl Glazebrook, professors from the U.K. and Australia, respectively, co-led a research study to measure the light emitted from tens of thousands of galaxies and developed a single spectrum of light to represent the entire universe. You can read about their research at &lt;a href=&quot;https://www.livescience.com/average-color-of-universe.html&quot;&gt;Live Science&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;</content><author><name>Brandon Caples</name></author><category term="Faith" /><category term="Elijah" /><category term="John the Baptist" /><summary type="html">Do you ever wonder about John the Baptist? Why did he dress in camel’s hair? What made him decide to live in the wilderness? Why was he mistaken for the prophet Elijah? The gospels make it clear that John was the appointed messenger to prepare the way for Jesus Christ. But why was his life so strange? It turns out, he was simply committing to his God-given mission, and he didn’t want anyone to miss the Messiah when he arrived.</summary></entry><entry><title type="html">The average color of the universe</title><link href="http://localhost:4000/martech/2021/average-color-universe" rel="alternate" type="text/html" title="The average color of the universe" /><published>2021-08-24T11:32:00-04:00</published><updated>2021-08-24T11:32:00-04:00</updated><id>http://localhost:4000/martech/2021/average-color-universe</id><content type="html" xml:base="http://localhost:4000/martech/2021/average-color-universe">&lt;p&gt;In 2002, Ivan Baldry and Karl Glazebrook, professors from the U.K. and Australia, respectively, co-led a research study to measure the light emitted from tens of thousands of galaxies and developed a single spectrum of light to represent the entire universe. You can read about their research at &lt;a href=&quot;https://www.livescience.com/average-color-of-universe.html&quot;&gt;Live Science&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;From that spectrum, the team also computed the average color of the universe: “a beige shade not too far off from white” called cosmic latte. Other suggestions by the research team included cappuccino cosmico, primordial clam chowder, and Big Bang beige.&lt;/p&gt;
 
@@ -542,7 +693,7 @@ bring me out of my sufferings.&lt;/p&gt;
 			&lt;td data-table-heading=&quot;HSL&quot;&gt;hsl(43, 100%, 95%)&lt;/td&gt;
 		&lt;/tr&gt;
 	&lt;/tbody&gt;
-&lt;/table&gt;</content><author><name>Brandon Caples</name></author><category term="MarTech" /><category term="graphic design" /><summary type="html">In 2002, Ivan Baldry and Karl Glazebrook, professors from the U.K. and Australia, respectively, co-led a research study to measure the light emitted from tens of thousands of galaxies and developed a single spectrum of light to represent the entire universe. You can read about their research at Live Science.</summary></entry><entry><title type="html">SEO terms explained</title><link href="https://brandoncaples.com/martech/2020/seo-terms-explained" rel="alternate" type="text/html" title="SEO terms explained" /><published>2020-04-26T14:25:20-04:00</published><updated>2020-04-26T14:25:20-04:00</updated><id>https://brandoncaples.com/martech/2020/seo-terms-explained</id><content type="html" xml:base="https://brandoncaples.com/martech/2020/seo-terms-explained">&lt;p&gt;Search engine optimization (SEO) can be very complicated, and even small changes to search engines’ algorithms can cause panic in the marketing community. There’s an entire SEO industry of professionals who spend 100% of their time optimizing websites for clients. But not everyone can afford to hire an SEO agency, so it’s helpful to have SEO terms explained in plain English for those of us who plan to get our hands dirty.&lt;/p&gt;
+&lt;/table&gt;</content><author><name>Brandon Caples</name></author><category term="MarTech" /><category term="graphic design" /><summary type="html">In 2002, Ivan Baldry and Karl Glazebrook, professors from the U.K. and Australia, respectively, co-led a research study to measure the light emitted from tens of thousands of galaxies and developed a single spectrum of light to represent the entire universe. You can read about their research at Live Science.</summary></entry><entry><title type="html">SEO terms explained</title><link href="http://localhost:4000/martech/2020/seo-terms-explained" rel="alternate" type="text/html" title="SEO terms explained" /><published>2020-04-26T14:25:20-04:00</published><updated>2020-04-26T14:25:20-04:00</updated><id>http://localhost:4000/martech/2020/seo-terms-explained</id><content type="html" xml:base="http://localhost:4000/martech/2020/seo-terms-explained">&lt;p&gt;Search engine optimization (SEO) can be very complicated, and even small changes to search engines’ algorithms can cause panic in the marketing community. There’s an entire SEO industry of professionals who spend 100% of their time optimizing websites for clients. But not everyone can afford to hire an SEO agency, so it’s helpful to have SEO terms explained in plain English for those of us who plan to get our hands dirty.&lt;/p&gt;
 
 &lt;p&gt;If you’re asking yourself, &lt;a href=&quot;2018-09-15-what-is-seo.md&quot;&gt;“What is SEO?”&lt;/a&gt; check out my article answering that very question. It’s important to understand what search engine optimization is and how to use that knowledge. Essentially, it boils down to this: SEO is the practice of making strategic and technical changes to a web page in order to position it to rank on search engine results pages (SERP).&lt;/p&gt;
 
@@ -656,87 +807,4 @@ bring me out of my sufferings.&lt;/p&gt;
 
 &lt;p&gt;Search engine optimization can be as simple as writing good content and linking to helpful resources, or as complicated as multiple lines of schema markup on every page of a website. Regardless of your particular approach to SEO, it’s helpful to know what these terms can mean for your website.&lt;/p&gt;
 
-&lt;p&gt;For more SEO resources, I recommend &lt;a href=&quot;https://moz.com/beginners-guide-to-seo&quot;&gt;Moz&lt;/a&gt;, &lt;a href=&quot;https://neilpatel.com/what-is-seo/&quot;&gt;Neil Patel&lt;/a&gt;, and &lt;a href=&quot;https://www.searchenginejournal.com/seo-guide/&quot;&gt;Search Engine Journal&lt;/a&gt;.&lt;/p&gt;</content><author><name>Brandon Caples</name></author><category term="MarTech" /><category term="SEO" /><summary type="html">Search engine optimization (SEO) can be very complicated, and even small changes to search engines’ algorithms can cause panic in the marketing community. There’s an entire SEO industry of professionals who spend 100% of their time optimizing websites for clients. But not everyone can afford to hire an SEO agency, so it’s helpful to have SEO terms explained in plain English for those of us who plan to get our hands dirty.</summary></entry><entry><title type="html">How to draw a heart in Inkscape</title><link href="https://brandoncaples.com/martech/2019/inkscape-heart" rel="alternate" type="text/html" title="How to draw a heart in Inkscape" /><published>2019-02-14T09:00:00-05:00</published><updated>2019-02-14T09:00:00-05:00</updated><id>https://brandoncaples.com/martech/2019/inkscape-heart</id><content type="html" xml:base="https://brandoncaples.com/martech/2019/inkscape-heart">&lt;p&gt;Inkscape is a free vector graphics editor, similar to Adobe Illustrator, just without a few bells and whistles. The free, open source editor can accomplish a lot, though. Today, we’re going to learn how to draw a heart using Inkscape.&lt;/p&gt;
-
-&lt;p&gt;Running a small business often means finding free alternatives to otherwise pricey tasks. Inkscape is a great alternative to Illustrator, and many tasks can be completed quickly.&lt;/p&gt;
-
-&lt;p&gt;First, &lt;a aria-label=&quot;download Inkscape (opens in a new tab)&quot; href=&quot;https://inkscape.org/release/&quot; target=&quot;_blank&quot; rel=&quot;noreferrer noopener&quot;&gt;download Inkscape&lt;/a&gt; and open a new document.&lt;/p&gt;
-
-&lt;picture class=&quot;block md:mx-12 xl:mx-0&quot;&gt;
-	&lt;source type=&quot;image/webp&quot; srcset=&quot;/assets/img/martech/how-to-heart-1.webp&quot; /&gt;
-	&lt;img src=&quot;/assets/img/martech/how-to-heart-1.png&quot; class=&quot;shadow&quot; alt=&quot;A new Inkscape document&quot; /&gt;
-&lt;/picture&gt;
-
-&lt;p&gt;Select the Circle tool to draw an ellipse, or circle. Hold down the Control button as you click and drag the cursor to draw a perfect circle.&lt;/p&gt;
-
-&lt;picture class=&quot;block md:mx-12 xl:mx-0&quot;&gt;
-	&lt;source type=&quot;image/webp&quot; srcset=&quot;/assets/img/martech/how-to-heart-2.webp&quot; /&gt;
-	&lt;img src=&quot;/assets/img/martech/how-to-heart-2.png&quot; class=&quot;shadow&quot; alt=&quot;A pink circle drawn digitally with Inkscape software&quot; /&gt;
-&lt;/picture&gt;
-
-&lt;p&gt;Next, draw a rectangle that is the same height as the circle and half its width. Align the two shapes along their right edges and centered vertically. (You can align objects by selecting “Align and Distribute…” from the &lt;strong&gt;Object&lt;/strong&gt; menu.)&lt;/p&gt;
-
-&lt;picture class=&quot;block md:mx-12 xl:mx-0&quot;&gt;
-	&lt;source type=&quot;image/webp&quot; srcset=&quot;/assets/img/martech/how-to-heart-3.webp&quot; /&gt;
-	&lt;img src=&quot;/assets/img/martech/how-to-heart-3.png&quot; class=&quot;shadow&quot; alt=&quot;A blue rectangle placed on top of a pink circle, drawn digitally with Inkscape software&quot; /&gt;
-&lt;/picture&gt;
-
-&lt;p&gt;Both objects are currently classified as shapes, but we need to convert them both to paths for the next steps. With both objects selected, choose “Object to Path” from the &lt;strong&gt;Path&lt;/strong&gt; menu.&lt;/p&gt;
-
-&lt;picture class=&quot;block md:mx-12 xl:mx-0&quot;&gt;
-	&lt;source type=&quot;image/webp&quot; srcset=&quot;/assets/img/martech/how-to-heart-4.webp&quot; /&gt;
-	&lt;img src=&quot;/assets/img/martech/how-to-heart-4.png&quot; class=&quot;shadow&quot; alt=&quot;Inkscape context menu with Object to Path selected&quot; /&gt;
-&lt;/picture&gt;
-
-&lt;p&gt;With both objects still selected and the rectangle sitting above the circle, select &lt;strong&gt;Path &amp;gt; Difference&lt;/strong&gt; to cut the circle in half using the rectangle as the difference. The rectangle will disappear.&lt;/p&gt;
-
-&lt;picture class=&quot;block md:mx-12 xl:mx-0&quot;&gt;
-	&lt;source type=&quot;image/webp&quot; srcset=&quot;/assets/img/martech/how-to-heart-5.webp&quot; /&gt;
-	&lt;img src=&quot;/assets/img/martech/how-to-heart-5.png&quot; class=&quot;shadow&quot; alt=&quot;Inkscape context menu with Difference selected&quot; /&gt;
-&lt;/picture&gt;
-
-&lt;p&gt;(If you do need to rearrange the order of your objects, use the Raise and Lower tools in the &lt;strong&gt;Object&lt;/strong&gt; menu.)&lt;/p&gt;
-
-&lt;p&gt;Here’s what we have so far:&lt;/p&gt;
-
-&lt;picture class=&quot;block md:mx-12 xl:mx-0&quot;&gt;
-	&lt;source type=&quot;image/webp&quot; srcset=&quot;/assets/img/martech/how-to-heart-6.webp&quot; /&gt;
-	&lt;img src=&quot;/assets/img/martech/how-to-heart-6.png&quot; class=&quot;shadow&quot; alt=&quot;A pink half-circle drawn digitally with Inkscape software&quot; /&gt;
-&lt;/picture&gt;
-
-&lt;p&gt;Duplicate the half-circle (&lt;strong&gt;Edit &amp;gt; Duplicate&lt;/strong&gt;) and flip it horizontally (&lt;strong&gt;Object &amp;gt; Flip Horizontal&lt;/strong&gt;).&lt;/p&gt;
-
-&lt;picture class=&quot;block md:mx-12 xl:mx-0&quot;&gt;
-	&lt;source type=&quot;image/webp&quot; srcset=&quot;/assets/img/martech/how-to-heart-7.webp&quot; /&gt;
-	&lt;img src=&quot;/assets/img/martech/how-to-heart-7.png&quot; class=&quot;shadow&quot; alt=&quot;A pink circle drawn digitally with Inkscape software&quot; /&gt;
-&lt;/picture&gt;
-
-&lt;p&gt;Now draw a square with the same height and width as the circle.&lt;/p&gt;
-
-&lt;picture class=&quot;block md:mx-12 xl:mx-0&quot;&gt;
-	&lt;source type=&quot;image/webp&quot; srcset=&quot;/assets/img/martech/how-to-heart-8.webp&quot; /&gt;
-	&lt;img src=&quot;/assets/img/martech/how-to-heart-8.png&quot; class=&quot;shadow&quot; alt=&quot;A pink circle and a pink square, drawn digitally with Inkscape software&quot; /&gt;
-&lt;/picture&gt;
-
-&lt;p&gt;Arrange the half-circles and the square as shown below. It finally looks like a heart!&lt;/p&gt;
-
-&lt;picture class=&quot;block md:mx-12 xl:mx-0&quot;&gt;
-	&lt;source type=&quot;image/webp&quot; srcset=&quot;/assets/img/martech/how-to-heart-9.webp&quot; /&gt;
-	&lt;img src=&quot;/assets/img/martech/how-to-heart-9.png&quot; class=&quot;shadow&quot; alt=&quot;A pink heart drawn digitally with Inkscape software&quot; /&gt;
-&lt;/picture&gt;
-
-&lt;p&gt;With all three shapes in place and selected, select “Union” from the &lt;strong&gt;Path&lt;/strong&gt; menu. This merges all three shapes into one shape—a heart!&lt;/p&gt;
-
-&lt;picture class=&quot;block md:mx-12 xl:mx-0&quot;&gt;
-	&lt;source type=&quot;image/webp&quot; srcset=&quot;/assets/img/martech/how-to-heart-10.webp&quot; /&gt;
-	&lt;img src=&quot;/assets/img/martech/how-to-heart-10.png&quot; class=&quot;shadow&quot; alt=&quot;Inkscape context menu with Union selected&quot; /&gt;
-&lt;/picture&gt;
-
-&lt;p&gt;You now have a perfect heart shape that will scale infinitely and is easy to recolor. Simply rotate the heart 45° to stand it upright.&lt;/p&gt;
-
-&lt;picture class=&quot;block md:mx-12 xl:mx-0&quot;&gt;
-	&lt;source type=&quot;image/webp&quot; srcset=&quot;/assets/img/martech/how-to-heart-11.webp&quot; /&gt;
-	&lt;img src=&quot;/assets/img/martech/how-to-heart-11.png&quot; class=&quot;shadow&quot; alt=&quot;A pink heart drawn digitally with Inkscape software&quot; /&gt;
-&lt;/picture&gt;
-
-&lt;p&gt;I hope you’ve enjoyed learning how to draw a heart in Inkscape. Keep designing!&lt;/p&gt;</content><author><name>Brandon Caples</name></author><category term="MarTech" /><category term="how to" /><category term="graphic design" /><summary type="html">Inkscape is a free vector graphics editor, similar to Adobe Illustrator, just without a few bells and whistles. The free, open source editor can accomplish a lot, though. Today, we’re going to learn how to draw a heart using Inkscape.</summary></entry></feed>
+&lt;p&gt;For more SEO resources, I recommend &lt;a href=&quot;https://moz.com/beginners-guide-to-seo&quot;&gt;Moz&lt;/a&gt;, &lt;a href=&quot;https://neilpatel.com/what-is-seo/&quot;&gt;Neil Patel&lt;/a&gt;, and &lt;a href=&quot;https://www.searchenginejournal.com/seo-guide/&quot;&gt;Search Engine Journal&lt;/a&gt;.&lt;/p&gt;</content><author><name>Brandon Caples</name></author><category term="MarTech" /><category term="SEO" /><summary type="html">Search engine optimization (SEO) can be very complicated, and even small changes to search engines’ algorithms can cause panic in the marketing community. There’s an entire SEO industry of professionals who spend 100% of their time optimizing websites for clients. But not everyone can afford to hire an SEO agency, so it’s helpful to have SEO terms explained in plain English for those of us who plan to get our hands dirty.</summary></entry></feed>

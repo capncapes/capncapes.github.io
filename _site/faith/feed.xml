@@ -17,7 +17,7 @@
         </image>
         <generator>https://brandoncaples.com</generator>
         
-            <lastBuildDate>Sun, 04 Dec 2022 06:59:01 -0500</lastBuildDate>
+            <lastBuildDate>Thu, 15 Dec 2022 16:12:59 -0500</lastBuildDate>
         
         <atom:link href="https://brandoncaples.com/faith/feed.xml" rel="self" type="application/rss+xml"/>
         <language>
@@ -26,13 +26,29 @@
         
             <item>
                 <title>
+                    <![CDATA[ What is systematic theology? ]]>
+                </title>
+                <description>
+                    <![CDATA[  ]]>
+                </description>
+                <link>http://localhost:4000/faith/2022/systematic-theology-scripture</link>
+                <guid isPermaLink="true">http://localhost:4000/faith/2022/systematic-theology-scripture</guid>
+                <dc:creator>
+                    <![CDATA[ Brandon Caples ]]>
+                </dc:creator>
+                <pubDate>Thu, 15 Dec 2022 16:12:59 -0500</pubDate>
+                
+            </item>
+        
+            <item>
+                <title>
                     <![CDATA[ Waiting and hoping ]]>
                 </title>
                 <description>
                     <![CDATA[  ]]>
                 </description>
-                <link>https://brandoncaples.com/faith/2022/waiting-hoping</link>
-                <guid isPermaLink="true">https://brandoncaples.com/faith/2022/waiting-hoping</guid>
+                <link>http://localhost:4000/faith/2022/waiting-hoping</link>
+                <guid isPermaLink="true">http://localhost:4000/faith/2022/waiting-hoping</guid>
                 <dc:creator>
                     <![CDATA[ Brandon Caples ]]>
                 </dc:creator>
@@ -47,8 +63,8 @@
                 <description>
                     <![CDATA[ Eternal life is not simply living forever, nor does it begin once the faithful believer dies. ]]>
                 </description>
-                <link>https://brandoncaples.com/faith/2022/this-is-eternal-life</link>
-                <guid isPermaLink="true">https://brandoncaples.com/faith/2022/this-is-eternal-life</guid>
+                <link>http://localhost:4000/faith/2022/this-is-eternal-life</link>
+                <guid isPermaLink="true">http://localhost:4000/faith/2022/this-is-eternal-life</guid>
                 <dc:creator>
                     <![CDATA[ Brandon Caples ]]>
                 </dc:creator>
@@ -63,8 +79,8 @@
                 <description>
                     <![CDATA[  ]]>
                 </description>
-                <link>https://brandoncaples.com/faith/2022/christ-in-you-hope-of-glory</link>
-                <guid isPermaLink="true">https://brandoncaples.com/faith/2022/christ-in-you-hope-of-glory</guid>
+                <link>http://localhost:4000/faith/2022/christ-in-you-hope-of-glory</link>
+                <guid isPermaLink="true">http://localhost:4000/faith/2022/christ-in-you-hope-of-glory</guid>
                 <dc:creator>
                     <![CDATA[ Brandon Caples ]]>
                 </dc:creator>
@@ -79,8 +95,8 @@
                 <description>
                     <![CDATA[ The life of John the Baptist is a great example of what God can accomplish through someone who embraces his or her calling. ]]>
                 </description>
-                <link>https://brandoncaples.com/faith/2021/john-the-baptist-mistaken-for-elijah</link>
-                <guid isPermaLink="true">https://brandoncaples.com/faith/2021/john-the-baptist-mistaken-for-elijah</guid>
+                <link>http://localhost:4000/faith/2021/john-the-baptist-mistaken-for-elijah</link>
+                <guid isPermaLink="true">http://localhost:4000/faith/2021/john-the-baptist-mistaken-for-elijah</guid>
                 <dc:creator>
                     <![CDATA[ Brandon Caples ]]>
                 </dc:creator>
@@ -95,8 +111,8 @@
                 <description>
                     <![CDATA[ “I will restore to you the years that the swarming locust has eaten…” (Joel 2:25, ESV) ]]>
                 </description>
-                <link>https://brandoncaples.com/faith/2018/god-will-restore-what-was-lost</link>
-                <guid isPermaLink="true">https://brandoncaples.com/faith/2018/god-will-restore-what-was-lost</guid>
+                <link>http://localhost:4000/faith/2018/god-will-restore-what-was-lost</link>
+                <guid isPermaLink="true">http://localhost:4000/faith/2018/god-will-restore-what-was-lost</guid>
                 <dc:creator>
                     <![CDATA[ Brandon Caples ]]>
                 </dc:creator>

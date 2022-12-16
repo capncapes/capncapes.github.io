@@ -31,8 +31,8 @@
                 <description>
                     <![CDATA[ Google services require a Google account, but it doesn't have to be with Gmail. Let's learn how to create a Google account without Gmail. ]]>
                 </description>
-                <link>https://brandoncaples.com/martech/2022/how-to-create-a-google-account-without-gmail</link>
-                <guid isPermaLink="true">https://brandoncaples.com/martech/2022/how-to-create-a-google-account-without-gmail</guid>
+                <link>http://localhost:4000/martech/2022/how-to-create-a-google-account-without-gmail</link>
+                <guid isPermaLink="true">http://localhost:4000/martech/2022/how-to-create-a-google-account-without-gmail</guid>
                 <dc:creator>
                     <![CDATA[ Brandon Caples ]]>
                 </dc:creator>
@@ -47,8 +47,8 @@
                 <description>
                     <![CDATA[ Don't worry; .DS_Store is harmless. But let's remove it and prevent it from showing up again. ]]>
                 </description>
-                <link>https://brandoncaples.com/martech/2022/git-remove-ds-store</link>
-                <guid isPermaLink="true">https://brandoncaples.com/martech/2022/git-remove-ds-store</guid>
+                <link>http://localhost:4000/martech/2022/git-remove-ds-store</link>
+                <guid isPermaLink="true">http://localhost:4000/martech/2022/git-remove-ds-store</guid>
                 <dc:creator>
                     <![CDATA[ Brandon Caples ]]>
                 </dc:creator>
@@ -63,8 +63,8 @@
                 <description>
                     <![CDATA[ CSS. Developers tend to either love it or hate it. Well, here’s a reason to love it: CSS counters. ]]>
                 </description>
-                <link>https://brandoncaples.com/martech/2021/using-css-counters</link>
-                <guid isPermaLink="true">https://brandoncaples.com/martech/2021/using-css-counters</guid>
+                <link>http://localhost:4000/martech/2021/using-css-counters</link>
+                <guid isPermaLink="true">http://localhost:4000/martech/2021/using-css-counters</guid>
                 <dc:creator>
                     <![CDATA[ Brandon Caples ]]>
                 </dc:creator>
@@ -79,8 +79,8 @@
                 <description>
                     <![CDATA[ Cosmic latte may not be the flashiest color, but wouldn’t it be neat to use the average color of the universe in your next project? ]]>
                 </description>
-                <link>https://brandoncaples.com/martech/2021/average-color-universe</link>
-                <guid isPermaLink="true">https://brandoncaples.com/martech/2021/average-color-universe</guid>
+                <link>http://localhost:4000/martech/2021/average-color-universe</link>
+                <guid isPermaLink="true">http://localhost:4000/martech/2021/average-color-universe</guid>
                 <dc:creator>
                     <![CDATA[ Brandon Caples ]]>
                 </dc:creator>
@@ -95,8 +95,8 @@
                 <description>
                     <![CDATA[ Not everyone can afford to hire an SEO agency, so it’s helpful to have SEO terms explained in plain English. ]]>
                 </description>
-                <link>https://brandoncaples.com/martech/2020/seo-terms-explained</link>
-                <guid isPermaLink="true">https://brandoncaples.com/martech/2020/seo-terms-explained</guid>
+                <link>http://localhost:4000/martech/2020/seo-terms-explained</link>
+                <guid isPermaLink="true">http://localhost:4000/martech/2020/seo-terms-explained</guid>
                 <dc:creator>
                     <![CDATA[ Brandon Caples ]]>
                 </dc:creator>
@@ -111,8 +111,8 @@
                 <description>
                     <![CDATA[ Today, we’re going to learn how to draw a heart in Inkscape. Inkscape is a free vector graphics editor, similar to Adobe Illustrator. ]]>
                 </description>
-                <link>https://brandoncaples.com/martech/2019/inkscape-heart</link>
-                <guid isPermaLink="true">https://brandoncaples.com/martech/2019/inkscape-heart</guid>
+                <link>http://localhost:4000/martech/2019/inkscape-heart</link>
+                <guid isPermaLink="true">http://localhost:4000/martech/2019/inkscape-heart</guid>
                 <dc:creator>
                     <![CDATA[ Brandon Caples ]]>
                 </dc:creator>
@@ -127,8 +127,8 @@
                 <description>
                     <![CDATA[ One of the most affordable and effective tools is a well-crafted website and knowledge of search engine optimization (SEO). ]]>
                 </description>
-                <link>https://brandoncaples.com/martech/2018/what-is-seo</link>
-                <guid isPermaLink="true">https://brandoncaples.com/martech/2018/what-is-seo</guid>
+                <link>http://localhost:4000/martech/2018/what-is-seo</link>
+                <guid isPermaLink="true">http://localhost:4000/martech/2018/what-is-seo</guid>
                 <dc:creator>
                     <![CDATA[ Brandon Caples ]]>
                 </dc:creator>
@@ -143,8 +143,8 @@
                 <description>
                     <![CDATA[ Safari and Chrome (iOS) have a default behavior that rotates an image according to its EXIF data. ]]>
                 </description>
-                <link>https://brandoncaples.com/martech/2018/fix-sideways-images</link>
-                <guid isPermaLink="true">https://brandoncaples.com/martech/2018/fix-sideways-images</guid>
+                <link>http://localhost:4000/martech/2018/fix-sideways-images</link>
+                <guid isPermaLink="true">http://localhost:4000/martech/2018/fix-sideways-images</guid>
                 <dc:creator>
                     <![CDATA[ Brandon Caples ]]>
                 </dc:creator>
@@ -159,8 +159,8 @@
                 <description>
                     <![CDATA[ Because of a deprecation to Rspec in Ruby on Rails 5, parameters must now be placed inside a params hash. ]]>
                 </description>
-                <link>https://brandoncaples.com/martech/2017/rails-5-rspec-parameters</link>
-                <guid isPermaLink="true">https://brandoncaples.com/martech/2017/rails-5-rspec-parameters</guid>
+                <link>http://localhost:4000/martech/2017/rails-5-rspec-parameters</link>
+                <guid isPermaLink="true">http://localhost:4000/martech/2017/rails-5-rspec-parameters</guid>
                 <dc:creator>
                     <![CDATA[ Brandon Caples ]]>
                 </dc:creator>
@@ -175,8 +175,8 @@
                 <description>
                     <![CDATA[ Angular has some nuances that can cause some trouble for beginners learning the framework, like the difference between ng-click and ng-submit. ]]>
                 </description>
-                <link>https://brandoncaples.com/martech/2017/ngclick-vs-ngsubmit</link>
-                <guid isPermaLink="true">https://brandoncaples.com/martech/2017/ngclick-vs-ngsubmit</guid>
+                <link>http://localhost:4000/martech/2017/ngclick-vs-ngsubmit</link>
+                <guid isPermaLink="true">http://localhost:4000/martech/2017/ngclick-vs-ngsubmit</guid>
                 <dc:creator>
                     <![CDATA[ Brandon Caples ]]>
                 </dc:creator>
@@ -191,8 +191,8 @@
                 <description>
                     <![CDATA[ I spent the first few months of my marriage nearly code-free. We made plans, hiked a lot, and traveled some. ]]>
                 </description>
-                <link>https://brandoncaples.com/martech/2017/im-studying-web-development-because-of-my-wife</link>
-                <guid isPermaLink="true">https://brandoncaples.com/martech/2017/im-studying-web-development-because-of-my-wife</guid>
+                <link>http://localhost:4000/martech/2017/im-studying-web-development-because-of-my-wife</link>
+                <guid isPermaLink="true">http://localhost:4000/martech/2017/im-studying-web-development-because-of-my-wife</guid>
                 <dc:creator>
                     <![CDATA[ Brandon Caples ]]>
                 </dc:creator>
@@ -207,8 +207,8 @@
                 <description>
                     <![CDATA[ Web development is challenging; that’s part of what makes it fun. ]]>
                 </description>
-                <link>https://brandoncaples.com/martech/2017/three-challenges-learning-to-code</link>
-                <guid isPermaLink="true">https://brandoncaples.com/martech/2017/three-challenges-learning-to-code</guid>
+                <link>http://localhost:4000/martech/2017/three-challenges-learning-to-code</link>
+                <guid isPermaLink="true">http://localhost:4000/martech/2017/three-challenges-learning-to-code</guid>
                 <dc:creator>
                     <![CDATA[ Brandon Caples ]]>
                 </dc:creator>
@@ -223,8 +223,8 @@
                 <description>
                     <![CDATA[ Every web developer knows that Internet Explorer (IE) does things differently than other browsers. ]]>
                 </description>
-                <link>https://brandoncaples.com/martech/2017/love-hate-relationship-internet-explorer</link>
-                <guid isPermaLink="true">https://brandoncaples.com/martech/2017/love-hate-relationship-internet-explorer</guid>
+                <link>http://localhost:4000/martech/2017/love-hate-relationship-internet-explorer</link>
+                <guid isPermaLink="true">http://localhost:4000/martech/2017/love-hate-relationship-internet-explorer</guid>
                 <dc:creator>
                     <![CDATA[ Brandon Caples ]]>
                 </dc:creator>
