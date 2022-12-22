@@ -31,6 +31,7 @@ howto: {
 }
 featured: false
 published: true
+redirect_from: /blog/fix-sideways-images
 ---
 
 A colleague recently emailed me to report that one of our pages was displaying sideways images. I hadn’t noticed it before, because the pictures worked fine for me in several browsers. I did some troubleshooting and discovered that both Safari and Chrome on iOS devices have a default behavior that rotates an image according to its EXIF data. So if you take a picture at an angle, it will be sideways when you upload it, and rotating the image in a media previewer won’t always correct the EXIF data.

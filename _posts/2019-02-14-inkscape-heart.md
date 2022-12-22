@@ -55,6 +55,7 @@ howto: {
 }
 featured: false
 published: true
+redirect_from: /blog/inkscape-heart
 ---
 
 Inkscape is a free vector graphics editor, similar to Adobe Illustrator, just without a few bells and whistles. The free, open source editor can accomplish a lot, though. Today, we're going to learn how to draw a heart using Inkscape.

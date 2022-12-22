@@ -12,6 +12,7 @@ category: MarTech
 tags: ["web development"]
 featured: false
 published: true
+redirect_from: /blog/rails-5-rspec-parameters
 ---
 
 Because of a deprecation to Rspec in Ruby on Rails 5, parameters must now be placed inside a `params` hash.

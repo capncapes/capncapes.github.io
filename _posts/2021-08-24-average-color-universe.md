@@ -11,6 +11,7 @@ description: "Cosmic latte may not be the flashiest color, but wouldn’t it be 
 category: MarTech
 tags: ["graphic design"]
 featured: false
+redirect_from: /blog/average-color-universe
 ---
 
 In 2002, Ivan Baldry and Karl Glazebrook, professors from the U.K. and Australia, respectively, co-led a research study to measure the light emitted from tens of thousands of galaxies and developed a single spectrum of light to represent the entire universe. You can read about their research at [Live Science](https://www.livescience.com/average-color-of-universe.html).

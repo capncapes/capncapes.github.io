@@ -18,6 +18,7 @@ group :jekyll_plugins do
   gem "jekyll-paginate"
   gem "rouge", "3.26.0"
   gem "jekyll-sass-converter", "1.5.2"
+  gem 'jekyll-redirect-from'
   gem "kramdown", "2.3.2"
 end
 
