@@ -8,6 +8,7 @@ featured_image: {
   title: "Systematic theology: Scripture",
   alt: "An open Bible laying flat on a table"
 }
+description: "Scott R. Swain, Ph.D. teaches systematic theology and its perspective on Scripture."
 category: Faith
 bible_books: ["Psalms", "Matthew", "2 Peter"]
 tags: ["systematic theology", "Scripture"]

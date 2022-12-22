@@ -8,6 +8,7 @@ featured_image: {
   title: "Waiting and hoping",
   alt: "A nighttime Christmas memorial service honoring lost loved ones"
 }
+description: "What can Psalm 25 and the gospel of Matthew teach us about anxiety?"
 category: Faith
 bible_books: ["Psalms", "Matthew"]
 tags: ["anxiety", "grief"]

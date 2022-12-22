@@ -8,6 +8,7 @@ featured_image: {
   title: "The prologue of John's gospel (1:1–18)",
   alt: ""
 }
+description: "The prologue of John's gospel is quite possibly the most beautiful and profound passage of Scripture in the whole Bible."
 category: Faith
 bible_books: "John"
 tags: ["Christ", "gospels"]
