@@ -335,6 +335,21 @@ Michael Heiser has opened my eyes to so much of Scripture that I’ve been missi
 
 There are also several maps in sections that discuss geography, as well as charts, phonetic language guides, and helpful section summaries.
 
+<picture class="block md:mx-12 xl:mx-0">
+	<source type="image/webp" srcset="/assets/img/books/the-unseen-realm-map.webp" >
+	<img src="/assets/img/books/the-unseen-realm-map.jpeg" class="my-12 shadow" alt="" />
+</picture>
+
+<picture class="block md:mx-12 xl:mx-0">
+	<source type="image/webp" srcset="/assets/img/books/the-unseen-realm-hebrew.webp" >
+	<img src="/assets/img/books/the-unseen-realm-hebrew.jpeg" class="my-12 shadow" alt="" />
+</picture>
+
+<picture class="block md:mx-12 xl:mx-0">
+	<source type="image/webp" srcset="/assets/img/books/the-unseen-realm-table.webp" >
+	<img src="/assets/img/books/the-unseen-realm-table.jpeg" class="my-12 shadow" alt="" />
+</picture>
+
 Though I cannot say I agree with everything in this book, I enjoyed it immensely as I gained a new perspective on my Creator and his history with humanity. This book review provides notes and context to help me remember some of the key points Heiser makes in the book. But I intend to re-read it, much more slowly next time. There’s so much in _The Unseen Realm_, and as with any theological treatise, it should be weighed and measured. I do not believe my first read wholly accomplished that for me.
 
 Heiser ends his book with a short list of five <q>strategies for pursuing the biblical-theological ideas that run through Scripture.</q>
