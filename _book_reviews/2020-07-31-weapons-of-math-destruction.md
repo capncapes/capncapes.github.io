@@ -1,6 +1,6 @@
 ---
 layout: book_review
-date: 2020-07-31 07:31:31 -0400
+date: 2020-07-31 07:31:31 -0500
 title: "Weapons of Math Destruction"
 book: {
   title: "Weapons of Math Destruction: How Big Data Increases Inequality and Threatens Democracy",

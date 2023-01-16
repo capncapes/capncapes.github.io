@@ -216,5 +216,21 @@
                 
             </item>
         
+            <item>
+                <title>
+                    <![CDATA[ The Unseen Realm ]]>
+                </title>
+                <description>
+                    <![CDATA[ Through meticulous research, Michael S. Heiser conveys not only the reality, but also the significance of supernaturalism in Scripture. ]]>
+                </description>
+                <link>http://localhost:4000/book-reviews/unseen-realm</link>
+                <guid isPermaLink="true">http://localhost:4000/book-reviews/unseen-realm</guid>
+                <dc:creator>
+                    <![CDATA[ Brandon Caples ]]>
+                </dc:creator>
+                <pubDate>Tue, 27 Dec 2022 15:31:00 -0500</pubDate>
+                
+            </item>
+        
     </channel>
 </rss>
