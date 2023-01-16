@@ -901,19 +901,25 @@ article:hover > div[data-item=book-cover] {
 table {
 	width: 100%;
 	text-align: left;
+	line-height: 150%;
 	border-collapse: collapse;
 }
 
-tr:nth-of-type(odd) {
+table tbody tr:nth-of-type(odd) {
 	background: #EDEDE2;
 }
 
-th {
-	padding: 0.5rem;
-	font-weight: bold;
-	background-color: rgba(0,0,0,0.1);
-	border: 1px solid #DEDECA;
+th, td {
+	padding: 0.25rem 0.5rem;
+	border: 2px solid #DEDECA;
 }
+
+th {
+	font-weight: bold;
+	background-color: #DEDECA;
+}
+
+/* tr { border: 2px solid #EDEDE2; } */
 
 /* ================================================================
 	15	Content Layouts

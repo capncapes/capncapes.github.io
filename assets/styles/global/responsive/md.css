@@ -312,9 +312,9 @@ body > header { overflow: hidden; }
 ================================================================ */
 
 th, td {
-	padding: 0.5rem;
+	padding: 0.25rem 0.5rem;
 	text-align: left;
-	border: 1px solid #DEDECA;
+	border: 2px solid #DEDECA;
 }
 
 /* ================================================================

@@ -257,17 +257,40 @@ body > header { overflow: scroll; }
 
 table, thead, tbody, th, td, tr {
 	display: block;
+	line-height: 140%;
 }
 
-thead tr {
+/* table thead tr {
 	position: absolute;
 	top: -9999px;
 	left: -9999px;
+} */
+
+/* table tbody tr:nth-child(odd) { background-color: #F8F9FA; } */
+tr { border-bottom: 10px solid transparent; }
+
+/* thead > tr, tbody > tr {
+	counter-reset: tableRows 0;
 }
 
-tr { border: 1px solid #EDEDE2; }
+thead > tr > *, tbody > tr > * {
+	counter-increment: tableRows 1;
+}
 
-td::before {
+thead > tr > *::before, tbody > tr > *::before {
+	position: relative;
+	left: -1rem;
+	content: counter(tableRows, upper-alpha);
+	font-size: 85%;
+	font-style: normal;
+	color: rgba(0,0,0,0.4);
+} */
+
+tr > td {
+	border-top: none;
+}
+
+/* td::before {
 	display: inline-block;
 	content: attr(data-table-heading);
 	margin-right: 0.5rem;
@@ -276,7 +299,7 @@ td::before {
 	font-weight: bold;
 	background-color: rgba(0,0,0,0.1);
 	white-space: nowrap;
-}
+} */
 
 /* ================================================================
 	15	Content Layouts

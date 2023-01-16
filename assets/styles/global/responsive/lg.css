@@ -5,6 +5,7 @@ TABLE OF CONTENTS
 	5	Tabs Section
 	11	Single Post
 	13	Gallery Layouts
+	14	Tables
 	15	Content Layouts
 	20	Utilities
 	22	Responsive
@@ -208,6 +209,14 @@ main .cards-gallery {
 .books-gallery {
 	-ms-grid-columns: (1fr)[4];
 	grid-template-columns: repeat(4, 1fr);
+}
+
+/* ================================================================
+	14	Tables
+================================================================ */
+
+th, tr {
+	border: 2px solid #DEDECA;
 }
 
 /* ================================================================

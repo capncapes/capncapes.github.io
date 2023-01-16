@@ -60,71 +60,75 @@ The sons of God (_beney elohim_) are divine beings with <q>higher-level responsi
 Michael Heiser believes that the sons of God are referenced in Genesis 1:26 when God announces, <q>Let **us** make mankind in **our** image, in **our** likeness&hellip;</q> (<abbr title="New International Version">NIV</abbr>) I have to admit that Heiser makes a compelling case, though I’ve long believed that the plurality of Genesis 1:26 refers to the Father, Son, and Holy Spirit.[^5] But the author and readers of Genesis 1 would not have been familiar with the trinitarian nature of God, though he has always existed as such (John 1:1&ndash;2). Furthermore, Job 38:7 makes it clear that spiritual beings existed before the creation of the earth. Heiser writes later chapters under the assumption that the sons of God (spiritual beings) are God’s imagers in the heavenly realm, while humans are his imagers on earth.
 
 <table>
-	<tr class="text-sm">
-		<th>Hebrew (transliterated)</th>
-		<th>English meaning</th>
-		<th>Scripture passage(s), not comprehensive</th>
-	</tr>
-	<tr class="text-xs">
-		<td class="italic">elim, elohim</td>
-		<td>gods, spiritual beings</td>
-		<td>Genesis 3:5, 22; Psalm 82:1, 5, 6; Ezekiel 28:2</td>
-	</tr>
-	<tr class="text-xs">
-		<td class="italic">beney elim, beney elohim</td>
-		<td>sons of God, morning stars</td>
-		<td>Job 38:7; Psalms 29:1, 89:6; Isaiah 14:13; Ezekiel 28:13</td>
-	</tr>
-	<tr class="text-xs">
-		<td class="italic">kokebey boqer</td>
-		<td>stars of God</td>
-		<td>Job 38:7</td>
-	</tr>
-	<tr class="text-xs">
-		<td class="italic">adat, sod, mo’ed, moshab</td>
-		<td>assembly, council, meeting, seat (the divine assembly)</td>
-		<td>Psalms 82:1, 89:7; Isaiah 14:13; Ezekiel 28:2</td>
-	</tr>
-	<tr class="text-xs">
-		<td class="italic">mal’ak</td>
-		<td>angels, messengers</td>
-		<td>Genesis 16:7&ndash;11; 19:1; 21:17; 48:16; Exodus 3:2; Numbers 20:14&ndash;16; Deuteronomy 2:26; Joshua 6:17, 25; 7:22; Judges 2:1&ndash;4; 5:23; 6:11&ndash;12, 20&ndash;22, 35; Nehemiah 6:3; Job 1:14; 4:18; 33:23; Psalms 34:7, 35:5&ndash;6, 78:49, 91:11, 103:20, 104:4, 148:2; Proverbs 13:17; 16:14; 17:11; Ecclesiastes 5:6; Isaiah 14:32; 18:2; 30:4; 42:19; Jeremiah 27:3; Ezekiel 17:15; 23:16, 40; 30:9; Hosea 12:4; Nahum 2:13; Haggai 1:13; Zechariah 1:9, 11&ndash;14, 19; 2:3; 3:1, 3, 5&ndash;6; 4:1, 4&ndash;5; 5:5, 10; 6:4&ndash;5; 12:8; Malachi 2:7; 3:1</td>
-	</tr>
-	<tr class="text-xs">
-		<td class="italic">nachash</td>
-		<td>serpent (n), to use divination (v), bronze/brazen (adj)</td>
-		<td>Genesis 3, 49:17; Exodus 4:3, 7:15; Numbers 21:7,9, 23:23; 2 Kings 21:6; 2 Chronicles 33:6; Job 26:13; Isaiah 27:1, 65:25; Daniel 2:32, 4:15,23</td>
-	</tr>
-	<tr class="text-xs">
-		<td class="italic">moshab elohim</td>
-		<td>“seat of the gods” (place of divine assembly)</td>
-		<td>Ezekiel 28:2</td>
-	</tr>
-	<tr class="text-xs">
-		<td class="italic">shedim</td>
-		<td>demons</td>
-		<td>Deuteronomy 32:17</td>
-	</tr>
-	<tr class="text-xs">
-		<td class="italic">kokebey el, helel ben-shachar</td>
-		<td>shining one, son of the dawn</td>
-		<td>Isaiah 14:12; Ezekiel 28:13</td>
-	</tr>
-	<tr class="text-xs">
-		<td class="italic">rephaim</td>
-		<td>the dead in the underworld</td>
-		<td>Isaiah 14:9; Ezekiel 28:17</td>
-	</tr>
-	<tr class="text-xs">
-		<td class="italic">daimōn/daimonion</td>
-		<td>devils, demons</td>
-		<td>Matthew 8:16, 20; 10:1; 12:43&ndash;45; 25:41; Luke 4:41; James 2:19; Ephesians 6:12; Revelation 12:7&ndash;9; 16:14</td>
-	</tr>
-	<tr class="text-xs">
-		<td class="italic">nephesh/ruach</td>
-		<td>soul/spirit</td>
-		<td>Genesis 1:30; 1 Samuel 1:15; Job 7:11</td>
-	</tr>
+	<thead>
+		<tr class="text-xs">
+			<th scope="col">Hebrew (transliterated)</th>
+			<th scope="col">English meaning</th>
+			<th scope="col">Scripture (not comprehensive)</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr class="text-xs">
+			<th scope="row" class="italic">elim, elohim</th>
+			<td>gods, spiritual beings</td>
+			<td>Genesis 3:5, 22; Psalm 82:1, 5, 6; Ezekiel 28:2</td>
+		</tr>
+		<tr class="text-xs">
+			<th scope="row" class="italic">beney elim, beney elohim</th>
+			<td>sons of God, morning stars</td>
+			<td>Job 38:7; Psalms 29:1, 89:6; Isaiah 14:13; Ezekiel 28:13</td>
+		</tr>
+		<tr class="text-xs">
+			<th scope="row" class="italic">kokebey boqer</th>
+			<td>stars of God</td>
+			<td>Job 38:7</td>
+		</tr>
+		<tr class="text-xs">
+			<th scope="row" class="italic">adat, sod, mo’ed, moshab</th>
+			<td>assembly, council, meeting, seat (the divine assembly)</td>
+			<td>Psalms 82:1, 89:7; Isaiah 14:13; Ezekiel 28:2</td>
+		</tr>
+		<tr class="text-xs">
+			<th scope="row" class="italic">mal’ak</th>
+			<td>angels, messengers</td>
+			<td>Genesis 16:7&ndash;11; 19:1; 21:17; 48:16; Exodus 3:2; Numbers 20:14&ndash;16; Deuteronomy 2:26; Joshua 6:17, 25; 7:22; Judges 2:1&ndash;4; 5:23; 6:11&ndash;12, 20&ndash;22, 35; Nehemiah 6:3; Job 1:14; 4:18; 33:23; Psalms 34:7, 35:5&ndash;6, 78:49, 91:11, 103:20, 104:4, 148:2; Proverbs 13:17; 16:14; 17:11; Ecclesiastes 5:6; Isaiah 14:32; 18:2; 30:4; 42:19; Jeremiah 27:3; Ezekiel 17:15; 23:16, 40; 30:9; Hosea 12:4; Nahum 2:13; Haggai 1:13; Zechariah 1:9, 11&ndash;14, 19; 2:3; 3:1, 3, 5&ndash;6; 4:1, 4&ndash;5; 5:5, 10; 6:4&ndash;5; 12:8; Malachi 2:7; 3:1</td>
+		</tr>
+		<tr class="text-xs">
+			<th scope="row" class="italic">nachash</th>
+			<td>serpent (n), to use divination (v), bronze/brazen (adj)</td>
+			<td>Genesis 3, 49:17; Exodus 4:3, 7:15; Numbers 21:7,9, 23:23; 2 Kings 21:6; 2 Chronicles 33:6; Job 26:13; Isaiah 27:1, 65:25; Daniel 2:32, 4:15,23</td>
+		</tr>
+		<tr class="text-xs">
+			<th scope="row" class="italic">moshab elohim</th>
+			<td>“seat of the gods” (place of divine assembly)</td>
+			<td>Ezekiel 28:2</td>
+		</tr>
+		<tr class="text-xs">
+			<th scope="row" class="italic">shedim</th>
+			<td>demons</td>
+			<td>Deuteronomy 32:17</td>
+		</tr>
+		<tr class="text-xs">
+			<th scope="row" class="italic">kokebey el, helel ben-shachar</th>
+			<td>shining one, son of the dawn</td>
+			<td>Isaiah 14:12; Ezekiel 28:13</td>
+		</tr>
+		<tr class="text-xs">
+			<th scope="row" class="italic">rephaim</th>
+			<td>the dead in the underworld</td>
+			<td>Isaiah 14:9; Ezekiel 28:17</td>
+		</tr>
+		<tr class="text-xs">
+			<th scope="row" class="italic">daimōn/daimonion</th>
+			<td>devils, demons</td>
+			<td>Matthew 8:16, 20; 10:1; 12:43&ndash;45; 25:41; Luke 4:41; James 2:19; Ephesians 6:12; Revelation 12:7&ndash;9; 16:14</td>
+		</tr>
+		<tr class="text-xs">
+			<th scope="row" class="italic">nephesh/ruach</th>
+			<td>soul/spirit</td>
+			<td>Genesis 1:30; 1 Samuel 1:15; Job 7:11</td>
+		</tr>
+	</tbody>
 </table>
 
 ## Misinterpreting Psalm 82
