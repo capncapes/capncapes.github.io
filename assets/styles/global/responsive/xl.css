@@ -58,11 +58,6 @@ body *.xl\:text-4xl { font-size: 3rem !important; }
     inset: auto 0 -9rem auto;
 }
 
-#post article > ol, #post article > ul {
-	padding-left: 9rem;
-	padding-right: 3rem;
-}
-
 /* ================================================================
 	13	Gallery Layouts
 ================================================================ */

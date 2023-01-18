@@ -1,4 +1,196 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-01-16T12:13:48-05:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">capncapes.github.io</title><subtitle>A blog site built with Jekyll consisting of two blogs, a feed of book reviews, and other content pages.</subtitle><author><name>Brandon Caples</name></author><entry><title type="html">What is systematic theology?</title><link href="http://localhost:4000/faith/2022/systematic-theology-scripture" rel="alternate" type="text/html" title="What is systematic theology?" /><published>2022-12-16T16:12:59-05:00</published><updated>2022-12-16T16:12:59-05:00</updated><id>http://localhost:4000/faith/2022/systematic-theology-scripture</id><content type="html" xml:base="http://localhost:4000/faith/2022/systematic-theology-scripture">&lt;p&gt;This article represents my collection of notes and personal thoughts on the &lt;a href=&quot;https://rts.edu/resources/scripture/&quot; target=&quot;_blank&quot;&gt;“Basics of Systematic Theology: Scripture” lecture&lt;/a&gt; by Scott R. Swain, Ph.D. at Reformed Theological Seminary in 2017. All unattributed quotations are those of Dr. Swain.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-01-18T14:33:53-05:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">capncapes.github.io</title><subtitle>A blog site built with Jekyll consisting of two blogs, a feed of book reviews, and other content pages.</subtitle><author><name>Brandon Caples</name></author><entry><title type="html">Using dates with SQL</title><link href="http://localhost:4000/martech/2023/sql-dates" rel="alternate" type="text/html" title="Using dates with SQL" /><published>2023-01-18T12:00:01-05:00</published><updated>2023-01-18T12:00:01-05:00</updated><id>http://localhost:4000/martech/2023/sql-dates</id><content type="html" xml:base="http://localhost:4000/martech/2023/sql-dates">&lt;p&gt;Working with dates in SQL is a pretty common task, and there are several date functions that we can use to query results and manipulate data.&lt;/p&gt;
+
+&lt;h2 id=&quot;now&quot;&gt;NOW()&lt;/h2&gt;
+
+&lt;p&gt;The &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;NOW()&lt;/code&gt; function simply returns the current datetime, like this: &lt;strong&gt;2023-01-18 14:33:53&lt;/strong&gt;. You will probably use &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;NOW()&lt;/code&gt; a lot. If you only need the current date or the current time, use &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;CURDATE()&lt;/code&gt; or &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;CURTIME()&lt;/code&gt;, respectively.&lt;/p&gt;
+
+&lt;h2 id=&quot;getdate&quot;&gt;GETDATE()&lt;/h2&gt;
+
+&lt;p&gt;The &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;GETDATE()&lt;/code&gt; function works exactly like the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;NOW()&lt;/code&gt; function, except that &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;GETDATE()&lt;/code&gt; returns milliseconds, too. The query result would look something like this: &lt;strong&gt;2023-01-18 14:33:53.835&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;date&quot;&gt;DATE()&lt;/h2&gt;
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;DATE(date)&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Use the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;DATE()&lt;/code&gt; function to extract the date from a valid date expression. The return format is &lt;strong&gt;YYYY-MM-DD&lt;/strong&gt;. This is a useful function when handling mismatched date formats, especially if you don’t need to work with time.&lt;/p&gt;
+
+&lt;h2 id=&quot;dateadd&quot;&gt;DATEADD()&lt;/h2&gt;
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;DATEADD(interval, number, date)&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;The &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;DATEADD()&lt;/code&gt; function is used to add (or subtract) two dates. The interval can be any of the following:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;year (also yyyy or yy)&lt;/li&gt;
+  &lt;li&gt;quarter (also qq or q)&lt;/li&gt;
+  &lt;li&gt;month (also mm or m)&lt;/li&gt;
+  &lt;li&gt;dayofyear (also dy or y)&lt;/li&gt;
+  &lt;li&gt;day (also dd or d)&lt;/li&gt;
+  &lt;li&gt;week (also ww or wk)&lt;/li&gt;
+  &lt;li&gt;weekday (also dw or w)&lt;/li&gt;
+  &lt;li&gt;hour (also hh)&lt;/li&gt;
+  &lt;li&gt;minute (also mi or n)&lt;/li&gt;
+  &lt;li&gt;second (also ss or s)&lt;/li&gt;
+  &lt;li&gt;millisecond (also ms)&lt;/li&gt;
+  &lt;li&gt;microsecond (also mcs)&lt;/li&gt;
+  &lt;li&gt;nanosecond (also ns)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The number parameter should be the number of the interval parameter needed, and it can be either positive (future) or negative (past).&lt;/p&gt;
+
+&lt;p&gt;The following example returns a date value that’s eight days in the past, from the current moment in time.&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-sql&quot; data-lang=&quot;sql&quot;&gt;&lt;span class=&quot;n&quot;&gt;DATEADD&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;day&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;8&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;GETDATE&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;())&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;h2 id=&quot;datepart&quot;&gt;DATEPART()&lt;/h2&gt;
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;DATEPART(interval, date)&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;DATEPART()&lt;/code&gt; returns a specified part of a date. Use the interval parameter to specify the return value. The interval can be any of the following:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;year (also yyyy or yy)&lt;/li&gt;
+  &lt;li&gt;quarter (also qq or q)&lt;/li&gt;
+  &lt;li&gt;month (also mm or m)&lt;/li&gt;
+  &lt;li&gt;dayofyear (also dy or y)&lt;/li&gt;
+  &lt;li&gt;day (also dd or d)&lt;/li&gt;
+  &lt;li&gt;week (also ww or wk)&lt;/li&gt;
+  &lt;li&gt;weekday (also dw or w)&lt;/li&gt;
+  &lt;li&gt;hour (also hh)&lt;/li&gt;
+  &lt;li&gt;minute (also mi or n)&lt;/li&gt;
+  &lt;li&gt;second (also ss or s)&lt;/li&gt;
+  &lt;li&gt;millisecond (also ms)&lt;/li&gt;
+  &lt;li&gt;microsecond (also mcs)&lt;/li&gt;
+  &lt;li&gt;nanosecond (also ns)&lt;/li&gt;
+  &lt;li&gt;tzoffset (timezone offset, also tz)&lt;/li&gt;
+  &lt;li&gt;iso_week (ISO week, also isowk or isoww)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;datediff&quot;&gt;DATEDIFF()&lt;/h2&gt;
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;DATEDIFF(interval, date1, date2)&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Use the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;DATEDIFF&lt;/code&gt; function to return the difference between two dates. The return value can be any of the following specified intervals:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;year (also yyyy or yy)&lt;/li&gt;
+  &lt;li&gt;quarter (also qq or q)&lt;/li&gt;
+  &lt;li&gt;month (also mm or m)&lt;/li&gt;
+  &lt;li&gt;dayofyear&lt;/li&gt;
+  &lt;li&gt;day (also dy or y)&lt;/li&gt;
+  &lt;li&gt;week (also ww or wk)&lt;/li&gt;
+  &lt;li&gt;weekday (also dw or w)&lt;/li&gt;
+  &lt;li&gt;hour (also hh)&lt;/li&gt;
+  &lt;li&gt;minute (also mi or n)&lt;/li&gt;
+  &lt;li&gt;second (also ss or s)&lt;/li&gt;
+  &lt;li&gt;millisecond (also ms)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The function starts with the first date provided, and the result can be either positive or negative depending on which direction in time the calculation moved.&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-sql&quot; data-lang=&quot;sql&quot;&gt;&lt;span class=&quot;c1&quot;&gt;-- Find all people older than 40.&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;DATEDIFF&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;NOW&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(),&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;dob&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;365&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;40&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;An important thing to remember when working with dates in SQL is that date formats need to match between the database column and the intended result. For a primer on working with SQL, check out my &lt;a href=&quot;/martech/2023/sql-intro&quot;&gt;introduction to SQL&lt;/a&gt;.&lt;/p&gt;</content><author><name>Brandon Caples</name></author><category term="MarTech" /><category term="SQL" /><category term="data science" /><summary type="html">Working with dates in SQL is a pretty common task, and there are several date functions that we can use to query results and manipulate data.</summary></entry><entry><title type="html">Introduction to SQL</title><link href="http://localhost:4000/martech/2023/sql-intro" rel="alternate" type="text/html" title="Introduction to SQL" /><published>2023-01-04T07:25:30-05:00</published><updated>2023-01-04T07:25:30-05:00</updated><id>http://localhost:4000/martech/2023/sql-intro</id><content type="html" xml:base="http://localhost:4000/martech/2023/sql-intro">&lt;p&gt;Structured Query Language (SQL) was developed by IBM researchers in the 1970s. SQL—sometimes pronounced “sequel”—is used to store, retrieve, and manipulate data in databases.&lt;/p&gt;
+
+&lt;p&gt;Many data management systems have user-friendly ways to export entire sets of data, or sometimes just the transactions from a date range, for example, but what if you need a list of records with very specific criteria?&lt;/p&gt;
+
+&lt;p&gt;Let’s say you need a list of every person in your database who has been an email subscriber for the past six months, hasn’t purchased anything, lives in California, and has a birthday next month. You could use a spreadsheet to filter the list down, but that’s very time-consuming, especially if you need this list regularly. That’s where SQL can help.&lt;/p&gt;
+
+&lt;p&gt;You could build a SQL query for this and re-use it every time that specific list is needed. Depending on your marketing software, you could even automate this task, scheduling the SQL to run hourly, daily, or weekly to update your list.&lt;/p&gt;
+
+&lt;p&gt;SQL is also used to display data on a webpage. WordPress uses MySQL to query data and display it on the website, and a custom query written by a developer can display very specific data for users.&lt;/p&gt;
+
+&lt;h2 id=&quot;getting-started-with-sql-queries&quot;&gt;Getting started with SQL queries&lt;/h2&gt;
+
+&lt;p&gt;A SQL query should start with the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;SELECT&lt;/code&gt; keyword, followed by the columns to be queried, the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;FROM&lt;/code&gt; keyword, and the name of the table to query.&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-sql&quot; data-lang=&quot;sql&quot;&gt;&lt;span class=&quot;k&quot;&gt;SELECT&lt;/span&gt;
+	&lt;span class=&quot;n&quot;&gt;Id&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+	&lt;span class=&quot;n&quot;&gt;Email&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+	&lt;span class=&quot;n&quot;&gt;FirstName&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+	&lt;span class=&quot;n&quot;&gt;LastName&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;FROM&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;contacts&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;WHERE&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;EmailOptIn&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;
+	&lt;span class=&quot;k&quot;&gt;AND&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;EmailOptOut&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;
+	&lt;span class=&quot;k&quot;&gt;AND&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Email&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;IS&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;NOT&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;NULL&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Notice in the example that the columns (Id, Email, FirstName, LastName) are separated by commas. You do not need to separate columns (or even new clauses) with line breaks, however, but it’s a good idea as a way to keep your SQL human-readable.&lt;/p&gt;
+
+&lt;p&gt;The &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;FROM&lt;/code&gt; keyword designates the table, contacts, from which the columns are queried. Everything after &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;FROM contacts&lt;/code&gt; in the above example is part of a &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;WHERE&lt;/code&gt; clause, which we will explore later in this article. This query simply searches the table called contacts for the data in the specified columns and filters the query to only select contacts who are opted into email communication, are not opted out, and who have a value in the Email column (not null).&lt;/p&gt;
+
+&lt;p&gt;Note: In SQL, there is a difference between null and an empty string (‘’). It’s usually a good idea to check for both when validating data.&lt;/p&gt;
+
+&lt;h2 id=&quot;aliases&quot;&gt;Aliases&lt;/h2&gt;
+
+&lt;p&gt;In SQL, an alias is a column name that is defined within the query. By default, columns in the results table are titled based on the field name. But you can change the title of a column by using an alias.&lt;/p&gt;
+
+&lt;p&gt;If the field name is &lt;strong&gt;email_address_contact&lt;/strong&gt;, you can rename it in the results to &lt;strong&gt;Email&lt;/strong&gt; by placing the alias immediately after the actual column name. You can optionally use the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;AS&lt;/code&gt; keyword for readability.&lt;/p&gt;
+
+&lt;p&gt;The following examples will both change the column title to &lt;strong&gt;Email&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-sql&quot; data-lang=&quot;sql&quot;&gt;&lt;span class=&quot;k&quot;&gt;SELECT&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;email_address_contact&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Email&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;FROM&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;people&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-sql&quot; data-lang=&quot;sql&quot;&gt;&lt;span class=&quot;k&quot;&gt;SELECT&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;email_address_contact&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;AS&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Email&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;FROM&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;people&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Aliases become really helpful when using functions. A SQL function can cause problems if it shows up in the results table when working with a programming language like PHP to display results on a webpage.&lt;/p&gt;
+
+&lt;p&gt;One last note on aliases: It’s possible to create column aliases with spaces by enclosing the alias in single quotes. This can improve readability, but again, some programming languages may have difficulty handling column titles with spaces.&lt;/p&gt;
+
+&lt;h2 id=&quot;filtering-a-query&quot;&gt;Filtering a query&lt;/h2&gt;
+
+&lt;p&gt;In order to filter a query for specific criteria, use the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;WHERE&lt;/code&gt; clause, followed by one or more conditions. A condition should have a field, a comparison operator of some kind, and a value or range of values to check for. If using multiple conditions, separate them with the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;AND&lt;/code&gt; or &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;OR&lt;/code&gt; keywords.&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-sql&quot; data-lang=&quot;sql&quot;&gt;&lt;span class=&quot;k&quot;&gt;SELECT&lt;/span&gt;
+	&lt;span class=&quot;n&quot;&gt;Id&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+	&lt;span class=&quot;n&quot;&gt;FirstName&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;AS&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;First&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+	&lt;span class=&quot;n&quot;&gt;LastName&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;AS&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;Last&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+	&lt;span class=&quot;n&quot;&gt;Dob&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;AS&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Birthdate&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+	&lt;span class=&quot;n&quot;&gt;CustomerSince&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;AS&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&apos;Customer Anniversary&apos;&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;FROM&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;people&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;WHERE&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Birthdate&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&apos;1980-12-31&apos;&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;AND&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;LEFT&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;FirstName&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&apos;B&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+	&lt;span class=&quot;k&quot;&gt;OR&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;Last&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;LIKE&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&apos;_a%&apos;&lt;/span&gt;
+	&lt;span class=&quot;k&quot;&gt;OR&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;LastName&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&apos;Caples&apos;&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;AND&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;CustomerSince&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;gt;=&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&apos;2020-01-01&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+	&lt;span class=&quot;k&quot;&gt;AND&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Birthdate&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;IS&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;NOT&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;NULL&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Notice the use of parentheses to distinguish between condition groups. The example is searching the database for records matching any of the following conditions:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Birthdate is after 1980 and the first initial of FirstName is B&lt;/li&gt;
+  &lt;li&gt;LastName contains any one letter(“_”), with the second letter being A, followed by one or more unspecified characters (“%”)&lt;/li&gt;
+  &lt;li&gt;LastName equals Caples and CustomerSince is a date equal to or after January 1, 2020&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;If a record meets any of those conditions, it will be returned in the results table if it also meets the condition that the Birthdate field is not null. (To find records that are null, use IS NULL in the condition.)&lt;/p&gt;
+
+&lt;h2 id=&quot;data-types&quot;&gt;Data types&lt;/h2&gt;
+
+&lt;p&gt;There are three primary data types in SQL: string, numeric, and date/time. Each of these data types has multiple subtypes within it. A good resource for information about each data type can be found at &lt;a href=&quot;https://www.w3schools.com/mysql/mysql_datatypes.asp&quot; target=&quot;_blank&quot;&gt;W3Schools&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h2&gt;
+
+&lt;p&gt;Let’s take a look at our earlier example querying people who meet the following conditions:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Email subscriber for past 6 months&lt;/li&gt;
+  &lt;li&gt;Zero purchases&lt;/li&gt;
+  &lt;li&gt;Lives in California&lt;/li&gt;
+  &lt;li&gt;Has a birthday next month&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-sql&quot; data-lang=&quot;sql&quot;&gt;&lt;span class=&quot;k&quot;&gt;SELECT&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Id&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Email&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;FirstName&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;LastName&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;FROM&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;contacts&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;WHERE&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;DateSubscribed&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;DATEADD&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;month&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;6&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;GETDATE&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;())&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;AND&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;LastPurchaseDate&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;‘’&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;OR&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;LastPurchaseDate&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;IS&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;NULL&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;AND&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;AddressState&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;‘&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;CA&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;’&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;AND&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;DATEPART&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;month&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Dob&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;MONTH&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;DATEADD&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;month&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;GETDATE&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()))&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;AND&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;EmailOptIn&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;AND&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;EmailOptOut&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;AND&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Email&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;IS&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;NOT&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;NULL&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Using this query, we can capture this list of people and send an email inviting them to a product event near them with a free birthday gift offer.&lt;/p&gt;
+
+&lt;p&gt;Notice that we don’t actually need to count the number of purchases on the customer’s record—only whether there’s a value for &lt;strong&gt;LastPurchaseDate&lt;/strong&gt;. You can get creative with your SQL queries to prevent unnecessary clauses. And be sure to look up all of the functions and keywords used in these examples, since I haven’t explained them all.&lt;/p&gt;
+
+&lt;p&gt;It’s important to remember that a SQL query depends on the data available in the database. If we don’t have a column for the date a person subscribes to emails, or if a contact has missing birthdate data, for example, our query will be limited and less reliable. Clean data systems are very important.&lt;/p&gt;
+
+&lt;p&gt;There are many more functions and features within SQL, but this is just an introduction. There are a lot of good websites for learning SQL, including &lt;a href=&quot;https://www.codecademy.com/learn/learn-sql&quot; target=&quot;_blank&quot;&gt;Codecademy&lt;/a&gt;, &lt;a href=&quot;https://learnsql.com/&quot; target=&quot;_blank&quot;&gt;LearnSQL&lt;/a&gt;, &lt;a href=&quot;https://stackskills.com/p/sql-for-marketers&quot; target=&quot;_blank&quot;&gt;StackSkills&lt;/a&gt;, and &lt;a href=&quot;https://www.w3schools.com/sql/&quot; target=&quot;_blank&quot;&gt;W3Schools&lt;/a&gt;. (Here’s a &lt;a href=&quot;https://www.sqltutorial.org/sql-cheat-sheet/&quot; target=&quot;_blank&quot;&gt;free SQL cheatsheet&lt;/a&gt;!) You can also find good tutorials on YouTube and solutions on StackOverflow. There are plenty of resources to help you learn the basics (and more) of Structured Query Language.&lt;/p&gt;</content><author><name>Brandon Caples</name></author><category term="MarTech" /><category term="SQL" /><category term="data science" /><summary type="html">Structured Query Language (SQL) was developed by IBM researchers in the 1970s. SQL—sometimes pronounced “sequel”—is used to store, retrieve, and manipulate data in databases.</summary></entry><entry><title type="html">What is systematic theology?</title><link href="http://localhost:4000/faith/2022/systematic-theology-scripture" rel="alternate" type="text/html" title="What is systematic theology?" /><published>2022-12-16T16:12:59-05:00</published><updated>2022-12-16T16:12:59-05:00</updated><id>http://localhost:4000/faith/2022/systematic-theology-scripture</id><content type="html" xml:base="http://localhost:4000/faith/2022/systematic-theology-scripture">&lt;p&gt;This article represents my collection of notes and personal thoughts on the &lt;a href=&quot;https://rts.edu/resources/scripture/&quot; target=&quot;_blank&quot;&gt;“Basics of Systematic Theology: Scripture” lecture&lt;/a&gt; by Scott R. Swain, Ph.D. at Reformed Theological Seminary in 2017. All unattributed quotations are those of Dr. Swain.&lt;/p&gt;
 
 &lt;picture class=&quot;block md:mx-12 xl:mx-0&quot;&gt;
 	&lt;source type=&quot;image/webp&quot; srcset=&quot;/assets/img/faith/scott-swain.webp&quot; /&gt;
@@ -670,141 +862,4 @@ bring me out of my sufferings.&lt;/p&gt;
       &lt;p&gt;&lt;q&gt;&lt;q&gt;I will send my messenger, who will prepare the way before me. Then suddenly the Lord you are seeking will come to his temple; the messenger of the covenant, whom you desire, will come,&lt;/q&gt; says the Lord Almighty.&lt;/q&gt; (&lt;abbr title=&quot;New International Version&quot;&gt;NIV&lt;/abbr&gt;) &lt;a href=&quot;#fnref:3&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
     &lt;/li&gt;
   &lt;/ol&gt;
-&lt;/div&gt;</content><author><name>Brandon Caples</name></author><category term="Faith" /><category term="Elijah" /><category term="John the Baptist" /><summary type="html">Do you ever wonder about John the Baptist? Why did he dress in camel’s hair? What made him decide to live in the wilderness? Why was he mistaken for the prophet Elijah? The gospels make it clear that John was the appointed messenger to prepare the way for Jesus Christ. But why was his life so strange? It turns out, he was simply committing to his God-given mission, and he didn’t want anyone to miss the Messiah when he arrived.</summary></entry><entry><title type="html">The average color of the universe</title><link href="http://localhost:4000/martech/2021/average-color-universe" rel="alternate" type="text/html" title="The average color of the universe" /><published>2021-08-24T11:32:00-04:00</published><updated>2021-08-24T11:32:00-04:00</updated><id>http://localhost:4000/martech/2021/average-color-universe</id><content type="html" xml:base="http://localhost:4000/martech/2021/average-color-universe">&lt;p&gt;In 2002, Ivan Baldry and Karl Glazebrook, professors from the U.K. and Australia, respectively, co-led a research study to measure the light emitted from tens of thousands of galaxies and developed a single spectrum of light to represent the entire universe. You can read about their research at &lt;a href=&quot;https://www.livescience.com/average-color-of-universe.html&quot;&gt;Live Science&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;From that spectrum, the team also computed the average color of the universe: “a beige shade not too far off from white” called cosmic latte. Other suggestions by the research team included cappuccino cosmico, primordial clam chowder, and Big Bang beige.&lt;/p&gt;
-
-&lt;p&gt;The average color of the universe being beige may sound boring, but it makes sense. Combining all the wavelengths of visible light results in the color white, and the cosmic spectrum contains many different wavelengths. The research team also adjusted the colors in their spectrum to account for redshift, which causes light to appear more red as it stretches across space.&lt;/p&gt;
-
-&lt;p&gt;Cosmic latte may not be the flashiest color, but wouldn’t it be neat to use the average color of the universe in your next web or design project? Here are the color codes for cosmic latte:&lt;/p&gt;
-
-&lt;table&gt;
-	&lt;thead&gt;
-		&lt;tr&gt;
-			&lt;th&gt;Hex&lt;/th&gt;
-			&lt;th&gt;RGB&lt;/th&gt;
-			&lt;th&gt;HSL&lt;/th&gt;
-		&lt;/tr&gt;
-	&lt;/thead&gt;
-	&lt;tbody&gt;
-		&lt;tr&gt;
-			&lt;td data-table-heading=&quot;Hex&quot;&gt;#FFF8E7&lt;/td&gt;
-			&lt;td data-table-heading=&quot;RGB&quot;&gt;rgb(255, 248, 231)&lt;/td&gt;
-			&lt;td data-table-heading=&quot;HSL&quot;&gt;hsl(43, 100%, 95%)&lt;/td&gt;
-		&lt;/tr&gt;
-	&lt;/tbody&gt;
-&lt;/table&gt;</content><author><name>Brandon Caples</name></author><category term="MarTech" /><category term="graphic design" /><summary type="html">In 2002, Ivan Baldry and Karl Glazebrook, professors from the U.K. and Australia, respectively, co-led a research study to measure the light emitted from tens of thousands of galaxies and developed a single spectrum of light to represent the entire universe. You can read about their research at Live Science.</summary></entry><entry><title type="html">SEO terms explained</title><link href="http://localhost:4000/martech/2020/seo-terms-explained" rel="alternate" type="text/html" title="SEO terms explained" /><published>2020-04-26T14:25:20-04:00</published><updated>2020-04-26T14:25:20-04:00</updated><id>http://localhost:4000/martech/2020/seo-terms-explained</id><content type="html" xml:base="http://localhost:4000/martech/2020/seo-terms-explained">&lt;p&gt;Search engine optimization (SEO) can be very complicated, and even small changes to search engines’ algorithms can cause panic in the marketing community. There’s an entire SEO industry of professionals who spend 100% of their time optimizing websites for clients. But not everyone can afford to hire an SEO agency, so it’s helpful to have SEO terms explained in plain English for those of us who plan to get our hands dirty.&lt;/p&gt;
-
-&lt;p&gt;If you’re asking yourself, &lt;a href=&quot;2018-09-15-what-is-seo.md&quot;&gt;“What is SEO?”&lt;/a&gt; check out my article answering that very question. It’s important to understand what search engine optimization is and how to use that knowledge. Essentially, it boils down to this: SEO is the practice of making strategic and technical changes to a web page in order to position it to rank on search engine results pages (SERP).&lt;/p&gt;
-
-&lt;h2 id=&quot;seo-terms-explained&quot;&gt;SEO Terms Explained&lt;/h2&gt;
-
-&lt;p&gt;Now that you have a general understanding of search engine optimization, let’s see some SEO terms explained.&lt;/p&gt;
-
-&lt;h3 id=&quot;alt-attribute&quot;&gt;Alt Attribute&lt;/h3&gt;
-
-&lt;p&gt;The alt attribute is used within the  tag to define an image in words. This is used by search engines to determine what a picture is in order to provide relevant search results to a user.&lt;/p&gt;
-
-&lt;p&gt;This attribute also helps humans. When a browser can’t load an image for some reason, it will display the alt text in its place. If the text is descriptive enough, the person can get a sense of what the image should be. Alt text is also used by screen readers to describe images to visually impaired users.&lt;/p&gt;
-
-&lt;p&gt;The alt attribute is a great place to put a keyword that you want to rank for. It should still describe the picture, so using relevant pictures is important.&lt;/p&gt;
-
-&lt;p&gt;Search engines like web pages with pictures because they’re typically more engaging to users, and it’s worth the effort to add alt attributes to your pictures. If a page contains an image without an alt attribute, the search engine doesn’t know what that picture represents. The page is then likely to rank worse because there’s a mysterious image that might not be relevant to a user’s search.&lt;/p&gt;
-
-&lt;h3 id=&quot;anchor-text&quot;&gt;Anchor Text&lt;/h3&gt;
-
-&lt;p&gt;In HTML, an anchor is a hyperlink denoted with the a tag. The anatomy of a hyperlink includes the destination address (defined by the href attribute), any additional attributes, and the anchor text. Anchor text is the linked text content that’s visible on the page.&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;a&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;href=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;“https://brandoncaples.com/blog/seo/”&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;What is SEO?&lt;span class=&quot;nt&quot;&gt;&amp;lt;/a&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;Anchor text is important for SEO, specifically for the destination address. The anchor text should ideally include a keyword important to the destination address. For example, a page linking to this blog post might call that link “SEO terms explained” or “SEO glossary” in order to help my post rank better.&lt;/p&gt;
-
-&lt;p&gt;The reason it works this way is simple: social affirmation. If another website vouches for my page’s credibility as a good resource for “SEO terms explained”, then Google and other search engines can feel confident that it’s a helpful page to show for that search term. And the more “social affirmation” a page receives—multiple related websites linking to my page with similar anchor text—the greater the chance for an excellent page rank.&lt;/p&gt;
-
-&lt;h3 id=&quot;backlinks&quot;&gt;Backlinks&lt;/h3&gt;
-
-&lt;p&gt;Backlinks are web links coming to your site from other websites. Search engines used to rank websites according to their numbers of backlinks, but that algorithm was quickly exploited by people with dozens—even hundreds—of micro-sites that served no purpose except to link to a main site. The number of backlinks to your website is probably still a major factor, but the key is having quality backlinks.&lt;/p&gt;
-
-&lt;p&gt;Did you notice the word related in the last section? That’s important for quality backlinks. While you should strive to produce the kind of website that others want to link to, having a few dozen links from reputable, secure websites in your industry is much more preferable than having a lot of links from random, unsecured sites with no relation to what your website is about. For example, if you’re a food blogger trying to rank your website, you should want backlinks from restaurant websites, food truck associations, and other food blogs.&lt;/p&gt;
-
-&lt;p&gt;Search engines keep their algorithms under lock and key, so it’s hard to say just how important quality backlinks are, but there’s substantial evidence to suggest that backlinks are a primary pillar of search engine optimization.&lt;/p&gt;
-
-&lt;h3 id=&quot;canonical-reference&quot;&gt;Canonical Reference&lt;/h3&gt;
-
-&lt;p&gt;The canonical reference is a tag that references a duplicate web page that should be considered more important than the current page. For example, say I want to reconfigure my URL structure to make blog post URLs shorter. (It’s widely believed that search engines prefer shorter URLs.) Since my blog posts have been indexed by Google for years, those URLs might have some pretty nice page ranks. I have a few options in this scenario:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Keep the old and new blog posts online, but add a noindex value to the old posts&lt;/li&gt;
-  &lt;li&gt;Remove the old blog posts and redirect those URLs to the new blog posts&lt;/li&gt;
-  &lt;li&gt;Keep the old and new posts, and set canonical tags to the new URLs&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Adding noindex to the old blog posts is a waste of page authority. Redirecting those old URLs will pass page rank onto the new URLs, but if redirection isn’t a viable option, using a canonical reference is a great solution.&lt;/p&gt;
-
-&lt;p&gt;Duplicate content causes Google and other search engines to have to decide which of the duplicates is most helpful to searchers and should therefore be ranked. The likely winner is the older page; the other will get flagged as duplicate content, which will hurt the rank of the entire domain. But by placing canonical tags on the old pages, I can tell search engines that the new pages should get the ranking credit.&lt;/p&gt;
-
-&lt;h3 id=&quot;click-through-rate-ctr&quot;&gt;Click-Through Rate (CTR)&lt;/h3&gt;
-
-&lt;p&gt;A click-through rate (CTR) is the percentage of instances in which a searcher is shown a particular search result and clicks it. The click-through rate is a ranking factor for Google, because clicking a result after typing a keyword into the search bar tells the search engine, “Hey, this is what I was looking for.” The search engine then associates that web page a little more closely with the keyword used to find it.&lt;/p&gt;
-
-&lt;h3 id=&quot;meta-description&quot;&gt;Meta Description&lt;/h3&gt;
-
-&lt;p&gt;The meta description is the short paragraph that appears below the title of a search result. It describes the content of the page to the person searching. Google announced in 2009 that meta descriptions do not directly affect search engine rankings, but they can impact click-through rates. Think of the meta description as the elevator pitch for your web page. This elevator pitch should entice the person to click onto the page.&lt;/p&gt;
-
-&lt;p&gt;Google increased the length of meta descriptions on its search engine results pages last year from about 160 characters to about 320 characters. Marketers were ecstatic. But only a few short months later, Google had changed its mind and reverted back, leaving people scrambling to shorten the descriptions they had just lengthened. I now recommend about 155 characters.&lt;/p&gt;
-
-&lt;h3 id=&quot;robots&quot;&gt;Robots&lt;/h3&gt;
-
-&lt;p&gt;Google and other search engines inspect your web pages using robots—a.k.a. bots, spiders, or crawlers—that “crawl” pages and report on what they find. This helps search engines know what a page is about in order to show it to searchers on the search engine results page (SERP). These robots read all kinds of content and check for specific elements of a page to get information. If a particular piece of information is missing, it can affect how a page ranks on the SERP.&lt;/p&gt;
-
-&lt;p&gt;Search engine bots don’t have nearly the cognitive processing power of the human brain, so it’s crucial for search engine optimization that your web pages contain information that’s readable by robots. That’s why the SEO terms explained in this glossary are important. If a search engine can’t tell clearly what a page is about, it won’t rank that page well.&lt;/p&gt;
-
-&lt;h4 id=&quot;using-robotstxt&quot;&gt;Using robots.txt&lt;/h4&gt;
-
-&lt;p&gt;One important way to communicate with search engine bots is with a document called robots.txt, which should be placed in the root directory of your website. If you’re using WordPress or another content management system (CMS), there are plugins and add-ons that can help you with this. However, you can avoid downloading a plugin if you have access to your website files and want to create this document manually.&lt;/p&gt;
-
-&lt;h4 id=&quot;noindex&quot;&gt;noindex&lt;/h4&gt;
-
-&lt;p&gt;Indexing is what happens when a search engine like Google lists a web page in its search engine results pages (SERP). But what if you don’t want a particular page to appear in search results? A prime example is a thank-you page that a user might see after completing a web form. It would be weird if someone accidentally stumbled onto your thank-you page when they haven’t interacted with your website before. Even worse, what if that page contains a download in exchange for contact information?&lt;/p&gt;
-
-&lt;p&gt;The solution is to add a noindex value to a robots meta tag. It looks like this:&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;meta&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;name=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;robots&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;content=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;noindex&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;This tells search engines not to index the page. It’s that simple. (You could also replace the value robots with a specific bot name, like googlebot, to allow every search engine except Google to index the page.) But you should &lt;a href=&quot;https://www.searchenginejournal.com/google-dont-mix-noindex-relcanonical/262607/&quot;&gt;never use both noindex and a canonical reference on the same page&lt;/a&gt;. According to Google’s John Mueller, this will force Google to choose which signal to honor.&lt;/p&gt;
-
-&lt;p&gt;It should be noted that noindex, and other search engine signals, are only requests. Google, Bing, and other reputable search engines will honor these requests, but other, less honorable bots can still crawl your site and see your pages. If you want to truly hide a page, it should be password-protected.&lt;/p&gt;
-
-&lt;h4 id=&quot;nofollow&quot;&gt;nofollow&lt;/h4&gt;
-
-&lt;p&gt;Sometimes, you might need to link to another website without associating it with your own site. You can use nofollow for that. Using nofollow on a link tells search engines not to follow the link and pass link authority to the other web page. This is useful if the link leads to a nonsecure website, a site that’s not related to your industry, or if it’s a paid link.&lt;/p&gt;
-
-&lt;h3 id=&quot;sitemap&quot;&gt;Sitemap&lt;/h3&gt;
-
-&lt;p&gt;Google and other search engines “crawl” the web by following links from one page to another and from one domain to another. If you have a new website with few, if any, links pointing to it, a sitemap will come in handy. A sitemap is an XML document written for robots that lists all the URLs of a website. Search engines will crawl your website if they can regardless of the the presence of a sitemap, but it helps them index a site’s pages quicker and keeps things organized. A sitemap acts kind of like a directory in the lobby of a large office building, pointing robots to where they should go and avoiding a page being missed if, for instance, there’s no link pointing to it.&lt;/p&gt;
-
-&lt;p&gt;This document can be created in WordPress easily with the &lt;a href=&quot;https://wordpress.org/plugins/wordpress-seo/&quot;&gt;Yoast SEO plugin&lt;/a&gt;. If your site isn’t built with WordPress, you can visit &lt;a href=&quot;https://www.xml-sitemaps.com/&quot;&gt;XML-Sitemaps.com&lt;/a&gt; to create a sitemap. Next, you need to let search engines know about your sitemap by referencing it in your robots.txt file:&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot; data-lang=&quot;text&quot;&gt;Sitemap: https://www.example.com/sitemap.xml&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;Alternatively, you can submit your sitemap to Google and other search engines directly. One thing to make sure of is that the information you’re giving to search engines is consistent. Don’t block a page in robots.txt and then list it in your sitemap. A sitemap should contain all the pages that should be indexed by a search engine.&lt;/p&gt;
-
-&lt;h3 id=&quot;title-tag&quot;&gt;Title tag&lt;/h3&gt;
-
-&lt;p&gt;The meta title is very important. It’s, well, the title of your web page. Like a book title, it sums up the whole web page. It tells everyone—humans and robots alike—what the page is about. Search engines use this basic piece of information to determine whether your web page is worth showing to a searcher seeking answers online.&lt;/p&gt;
-
-&lt;p&gt;Your meta title should be fairly short. Google tends to display titles between 50 and 60 characters. I recommend a meta title length of no more than 55 characters. You don’t want search engines to cut your title short.&lt;/p&gt;
-
-&lt;p&gt;The meta title should also contain the keyword you’re targeting for the page, preferably at the beginning of the title. The title will display on search engine results pages and in the browser tab when someone visits the page. This is how the HTML should be displayed:&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;title&amp;gt;&lt;/span&gt;Here’s an Awesome Title | Brandon Caples&lt;span class=&quot;nt&quot;&gt;&amp;lt;/title&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;Many websites also place the title in the content of the page for viewers to see. If you want it on the viewable part of the web page, put it in an H1 tag:&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;h1&amp;gt;&lt;/span&gt;Here’s an Awesome Title&lt;span class=&quot;nt&quot;&gt;&amp;lt;/h1&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;h3 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h3&gt;
-
-&lt;p&gt;Search engine optimization can be as simple as writing good content and linking to helpful resources, or as complicated as multiple lines of schema markup on every page of a website. Regardless of your particular approach to SEO, it’s helpful to know what these terms can mean for your website.&lt;/p&gt;
-
-&lt;p&gt;For more SEO resources, I recommend &lt;a href=&quot;https://moz.com/beginners-guide-to-seo&quot;&gt;Moz&lt;/a&gt;, &lt;a href=&quot;https://neilpatel.com/what-is-seo/&quot;&gt;Neil Patel&lt;/a&gt;, and &lt;a href=&quot;https://www.searchenginejournal.com/seo-guide/&quot;&gt;Search Engine Journal&lt;/a&gt;.&lt;/p&gt;</content><author><name>Brandon Caples</name></author><category term="MarTech" /><category term="SEO" /><summary type="html">Search engine optimization (SEO) can be very complicated, and even small changes to search engines’ algorithms can cause panic in the marketing community. There’s an entire SEO industry of professionals who spend 100% of their time optimizing websites for clients. But not everyone can afford to hire an SEO agency, so it’s helpful to have SEO terms explained in plain English for those of us who plan to get our hands dirty.</summary></entry></feed>
+&lt;/div&gt;</content><author><name>Brandon Caples</name></author><category term="Faith" /><category term="Elijah" /><category term="John the Baptist" /><summary type="html">Do you ever wonder about John the Baptist? Why did he dress in camel’s hair? What made him decide to live in the wilderness? Why was he mistaken for the prophet Elijah? The gospels make it clear that John was the appointed messenger to prepare the way for Jesus Christ. But why was his life so strange? It turns out, he was simply committing to his God-given mission, and he didn’t want anyone to miss the Messiah when he arrived.</summary></entry></feed>
