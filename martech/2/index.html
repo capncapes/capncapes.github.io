@@ -13,14 +13,14 @@ category: MarTech
 <!-- Blog Section : START -->
 <main class="blog pt-24 pb-16 px-10">
   <header class="w-full max-w-4">
-    <h1>{{ page.title }}</h1>
+    <h1>{{ page.title }}: Page 2</h1>
     <p class="p-0">MarTech is a blog exploring the convergence of marketing and technology.</p>
   </header>
 
   <!-- Cards Gallery : START -->
   <div class="cards-gallery mt-16 lg:mt-24">
 
-    {% for post in site.categories[page.category] limit:12 %}
+    {% for post in site.categories[page.category] limit:12 offset:12 %}
     <!-- For 12+ posts, add page 2 -->
     <article itemscope itemtype="https://schema.org/BlogPosting" title="{{ post.title }}" class="card relative rounded bg-red shadow">
       <a href="{{ post.url }}">
@@ -45,7 +45,8 @@ category: MarTech
   {% if site.categories[page.category].size > 12 %}
   <!-- Page Navigation : BEGIN -->
   <div role="navigation" aria-label="Posts page navigation" class="page-nav w-full max-w-1 mt-12 mx-auto">
-      <a href="/martech/2/" class="splendid-button dark" title="Next page: 2" aria-label="Next page">Next →</a>
+		<!-- Add grow-2 class for 2-button layout -->
+      <a href="/martech/" class="splendid-button reverse dark" title="Previous page: 1" aria-label="Previous page">← Back</a>
   </div>
   <!-- Page Navigation : END -->
   {% endif %}
