@@ -549,7 +549,7 @@
       <url>
         <loc>http://localhost:4000/book-reviews/concise-history-crusades</loc>
         
-          <lastmod>2022-03-31T23:47:11-04:00</lastmod>
+          <lastmod>2022-04-01T00:47:11-04:00</lastmod>
         
       </url>
     
@@ -604,6 +604,33 @@
         <loc>http://localhost:4000/book-reviews/unseen-realm</loc>
         
           <lastmod>2022-12-27T15:31:00-05:00</lastmod>
+        
+      </url>
+    
+  
+    
+      <url>
+        <loc>http://localhost:4000/book-reviews/the-snow-queen</loc>
+        
+          <lastmod>2023-01-01T08:09:49-05:00</lastmod>
+        
+      </url>
+    
+  
+    
+      <url>
+        <loc>http://localhost:4000/book-reviews/hope-for-all-the-earth</loc>
+        
+          <lastmod>2023-01-22T11:39:41-05:00</lastmod>
+        
+      </url>
+    
+  
+    
+      <url>
+        <loc>http://localhost:4000/book-reviews/history-of-ethiopia</loc>
+        
+          <lastmod>2023-02-01T20:00:11-05:00</lastmod>
         
       </url>
     

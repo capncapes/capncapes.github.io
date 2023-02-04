@@ -1,6 +1,6 @@
 ---
 layout: book_review
-date: 2022-03-31 23:47:11 -0400
+date: 2022-03-31 23:47:11 -0500
 title: "The Concise History of the Crusades Book Review"
 book: {
   title: "The Concise History of the Crusades: Third Student Edition",

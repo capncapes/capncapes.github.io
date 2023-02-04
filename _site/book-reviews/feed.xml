@@ -132,7 +132,7 @@
                 <dc:creator>
                     <![CDATA[ Brandon Caples ]]>
                 </dc:creator>
-                <pubDate>Thu, 31 Mar 2022 23:47:11 -0400</pubDate>
+                <pubDate>Fri, 01 Apr 2022 00:47:11 -0400</pubDate>
                 
             </item>
         
@@ -229,6 +229,54 @@
                     <![CDATA[ Brandon Caples ]]>
                 </dc:creator>
                 <pubDate>Tue, 27 Dec 2022 15:31:00 -0500</pubDate>
+                
+            </item>
+        
+            <item>
+                <title>
+                    <![CDATA[ The Snow Queen ]]>
+                </title>
+                <description>
+                    <![CDATA[ Hans Christian Andersen’s classic fairy tale The Snow Queen explores the struggle between good and evil. ]]>
+                </description>
+                <link>http://localhost:4000/book-reviews/the-snow-queen</link>
+                <guid isPermaLink="true">http://localhost:4000/book-reviews/the-snow-queen</guid>
+                <dc:creator>
+                    <![CDATA[ Brandon Caples ]]>
+                </dc:creator>
+                <pubDate>Sun, 01 Jan 2023 08:09:49 -0500</pubDate>
+                
+            </item>
+        
+            <item>
+                <title>
+                    <![CDATA[ Hope for All the Earth ]]>
+                </title>
+                <description>
+                    <![CDATA[ Mitchell L. Chase delivers a concise and readable synopsis of Old Testament events and Christ’s shadows throughout. ]]>
+                </description>
+                <link>http://localhost:4000/book-reviews/hope-for-all-the-earth</link>
+                <guid isPermaLink="true">http://localhost:4000/book-reviews/hope-for-all-the-earth</guid>
+                <dc:creator>
+                    <![CDATA[ Brandon Caples ]]>
+                </dc:creator>
+                <pubDate>Sun, 22 Jan 2023 11:39:41 -0500</pubDate>
+                
+            </item>
+        
+            <item>
+                <title>
+                    <![CDATA[ History of Ethiopia ]]>
+                </title>
+                <description>
+                    <![CDATA[ There's so much to Ethiopian history that most people might never learn. ]]>
+                </description>
+                <link>http://localhost:4000/book-reviews/history-of-ethiopia</link>
+                <guid isPermaLink="true">http://localhost:4000/book-reviews/history-of-ethiopia</guid>
+                <dc:creator>
+                    <![CDATA[ Brandon Caples ]]>
+                </dc:creator>
+                <pubDate>Wed, 01 Feb 2023 20:00:11 -0500</pubDate>
                 
             </item>
         
