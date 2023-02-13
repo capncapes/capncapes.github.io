@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Christ in you, the hope of glory"
-date: 2022-05-20 12:00:01 -0400
+date: 2022-05-20 12:00:01 -0500
 featured_image: {
   src: "christ-in-you-hope-of-glory.webp",
   fallback: "christ-in-you-hope-of-glory.jpeg",

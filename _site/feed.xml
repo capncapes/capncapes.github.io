@@ -1,12 +1,113 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-02-04T00:42:01-05:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">capncapes.github.io</title><subtitle>A blog site built with Jekyll consisting of two blogs, a feed of book reviews, and other content pages.</subtitle><author><name>Brandon Caples</name></author><entry><title type="html">Using dates with SQL</title><link href="http://localhost:4000/martech/2023/sql-dates" rel="alternate" type="text/html" title="Using dates with SQL" /><published>2023-01-18T12:00:01-05:00</published><updated>2023-01-18T12:00:01-05:00</updated><id>http://localhost:4000/martech/2023/sql-dates</id><content type="html" xml:base="http://localhost:4000/martech/2023/sql-dates">&lt;p&gt;Working with dates in SQL is a pretty common task, and there are several date functions that we can use to query results and manipulate data.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-02-13T15:48:30-05:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">capncapes.github.io</title><subtitle>A blog site built with Jekyll consisting of two blogs, a feed of book reviews, and other content pages.</subtitle><author><name>Brandon Caples</name></author><entry><title type="html">The structure and chronology of the book of Daniel</title><link href="http://localhost:4000/faith/2023/structure-book-daniel" rel="alternate" type="text/html" title="The structure and chronology of the book of Daniel" /><published>2023-02-07T21:30:01-05:00</published><updated>2023-02-07T21:30:01-05:00</updated><id>http://localhost:4000/faith/2023/structure-book-daniel</id><content type="html" xml:base="http://localhost:4000/faith/2023/structure-book-daniel">&lt;p&gt;The book of Daniel is a testament to God’s sovereign rule over all kingdoms and peoples. In twelve chapters, the book describes the aftermath of Nebuchadnezzar’s conquest of Jerusalem, focusing on events and visions in the reigns of several rulers during the life of Daniel, the main figure of this apocalyptic book. Shortly after arriving in exile in Babylon, Daniel was given the name Belteshazzar, which honors one of the Babylonian gods. Daniel spent his entire life in Babylonia, though he knew through dreams and visions from Yahweh that his people would not be doomed to exile forever.&lt;/p&gt;
+
+&lt;p&gt;The book of Daniel describes many events and mysteries, and Daniel is empowered by God to interpret signs, wonders, dreams, and visions for the various rulers of Babylonia. The book can easily be divided into two halves. Chapters 1–6 are historical, and chapters 7–12 describe prophecies. But the chapters don’t flow chronologically, which is easy to miss without paying close attention to time references.&lt;/p&gt;
+
+&lt;p&gt;Here’s how the book of Daniel flows chronologically:&lt;/p&gt;
+
+&lt;table&gt;
+	&lt;thead&gt;
+		&lt;tr class=&quot;text-xs&quot;&gt;
+			&lt;th scope=&quot;col&quot;&gt;Ch.&lt;/th&gt;
+			&lt;th scope=&quot;col&quot;&gt;Year&lt;/th&gt;
+			&lt;th scope=&quot;col&quot;&gt;King/Kingdom&lt;/th&gt;
+			&lt;th scope=&quot;col&quot;&gt;Theme&lt;/th&gt;
+		&lt;/tr&gt;
+	&lt;/thead&gt;
+	&lt;tbody&gt;
+		&lt;tr class=&quot;text-xs&quot;&gt;
+			&lt;th scope=&quot;row&quot; class=&quot;bold&quot;&gt;1&lt;/th&gt;
+			&lt;td&gt;607 BC&lt;/td&gt;
+			&lt;td&gt;Jehoiakim/Judah&lt;/td&gt;
+			&lt;td&gt;Nebuchadnezzar&apos;s conquest of Judah&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr class=&quot;text-xs&quot;&gt;
+			&lt;th scope=&quot;row&quot; class=&quot;bold&quot;&gt;2&lt;/th&gt;
+			&lt;td&gt;604 BC&lt;/td&gt;
+			&lt;td&gt;Nebuchadnezzar/Babylonia&lt;/td&gt;
+			&lt;td&gt;Daniel&apos;s knowledge and interpretation of Nebuchadnezzar&apos;s first dream&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr class=&quot;text-xs&quot;&gt;
+			&lt;th scope=&quot;row&quot; class=&quot;bold&quot;&gt;3&lt;/th&gt;
+			&lt;td&gt;604 BC&lt;/td&gt;
+			&lt;td&gt;Nebuchadnezzar/Babylonia&lt;/td&gt;
+			&lt;td&gt;The fiery furnace&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr class=&quot;text-xs&quot;&gt;
+			&lt;th scope=&quot;row&quot; class=&quot;bold&quot;&gt;4&lt;/th&gt;
+			&lt;td&gt;604 BC&lt;/td&gt;
+			&lt;td&gt;Nebuchadnezzar/Babylonia&lt;/td&gt;
+			&lt;td&gt;Nebuchadnezzar&apos;s madness&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr class=&quot;text-xs&quot;&gt;
+			&lt;th scope=&quot;row&quot; class=&quot;bold&quot;&gt;7&lt;/th&gt;
+			&lt;td&gt;553 BC&lt;/td&gt;
+			&lt;td&gt;Belshazzar/Babylonia&lt;/td&gt;
+			&lt;td&gt;Daniel&apos;s first vision (four beasts and &lt;q&gt;a son of man&lt;/q&gt; riding the clouds)&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr class=&quot;text-xs&quot;&gt;
+			&lt;th scope=&quot;row&quot; class=&quot;bold&quot;&gt;8&lt;/th&gt;
+			&lt;td&gt;550 BC&lt;/td&gt;
+			&lt;td&gt;Belshazzar/Babylonia&lt;/td&gt;
+			&lt;td&gt;Daniel&apos;s second vision (ram and goat, representing Medo-Persia and Greece)&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr class=&quot;text-xs&quot;&gt;
+			&lt;th scope=&quot;row&quot; class=&quot;bold&quot;&gt;5&lt;/th&gt;
+			&lt;td&gt;539 BC&lt;/td&gt;
+			&lt;td&gt;Belshazzar/Babylonia&lt;/td&gt;
+			&lt;td&gt;The divine handwriting on the wall&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr class=&quot;text-xs&quot;&gt;
+			&lt;th scope=&quot;row&quot; class=&quot;bold&quot;&gt;6&lt;/th&gt;
+			&lt;td&gt;539 BC&lt;/td&gt;
+			&lt;td&gt;Darius/Medo-Persia&lt;/td&gt;
+			&lt;td&gt;Daniel in the lion&apos;s den&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr class=&quot;text-xs&quot;&gt;
+			&lt;th scope=&quot;row&quot; class=&quot;bold&quot;&gt;9&lt;/th&gt;
+			&lt;td&gt;539 BC&lt;/td&gt;
+			&lt;td&gt;Darius/Medo-Persia&lt;/td&gt;
+			&lt;td&gt;Daniel&apos;s prayer and third vision (70 weeks)&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr class=&quot;text-xs&quot;&gt;
+			&lt;th scope=&quot;row&quot; class=&quot;bold&quot;&gt;10&lt;/th&gt;
+			&lt;td&gt;536 BC&lt;/td&gt;
+			&lt;td&gt;Cyrus/Persia&lt;/td&gt;
+			&lt;td&gt;Daniel&apos;s fourth vision (future days)&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr class=&quot;text-xs&quot;&gt;
+			&lt;th scope=&quot;row&quot; class=&quot;bold&quot;&gt;11&lt;/th&gt;
+			&lt;td&gt;536 BC&lt;/td&gt;
+			&lt;td&gt;Cyrus/Persia&lt;/td&gt;
+			&lt;td&gt;Daniel&apos;s fourth vision (future days), continued&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr class=&quot;text-xs&quot;&gt;
+			&lt;th scope=&quot;row&quot; class=&quot;bold&quot;&gt;12&lt;/th&gt;
+			&lt;td&gt;536 BC&lt;/td&gt;
+			&lt;td&gt;Cyrus/Persia&lt;/td&gt;
+			&lt;td&gt;Daniel&apos;s fourth vision (future days), continued&lt;/td&gt;
+		&lt;/tr&gt;
+	&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;The first six chapters of Daniel are easily the most identifiable. Even non-Christians can recognize the stories of the lion’s den, the fiery furnace, and the handwriting on the wall. But the second half of the book includes powerful prophecies delivered to Daniel in dreams and visions. His first vision, in chapter 7, provides a favorite name of Jesus for himself: Son of Man.&lt;sup id=&quot;fnref:1&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt; Through three more visions, Daniel learns of the future for Babylonia, the Israelite exiles, and the nation of Israel.&lt;/p&gt;
+
+&lt;p&gt;As an apocalyptic book, Daniel includes references to angels—Michael and Gabriel—the heavenly court of Yahweh, and future events. &lt;a href=&quot;https://shop.precept.org/collections/daniel-in-out-nasb/products/daniel-part-1-in-out-workbook-nasb-2&quot; target=&quot;_blank&quot;&gt;Studying the book of Daniel&lt;/a&gt; is fascinating for this reason alone, as it pulls back the curtain and reveals much of how the physical and spiritual realms relate to one another. It’s beneficial to study Revelation while studying Daniel, as the two depict some of the same events. And with a reading time of about an hour and fifteen minutes, Daniel is an excellent choice for a medium-length Bible study that will certainly offer comfort and hope to any who feel alientated within their culture.&lt;/p&gt;
+
+&lt;div class=&quot;footnotes&quot; role=&quot;doc-endnotes&quot;&gt;
+  &lt;ol&gt;
+    &lt;li id=&quot;fn:1&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;Read chapter 7 for yourself; it’s incredible. I also recommend a book by Michael Heiser called &lt;em&gt;The Unseen Realm&lt;/em&gt;, which devotes a chapter to the significance of Daniel 7 in the Israelite-Babylonian context. Read my &lt;a href=&quot;/book-reviews/unseen-realm#the-rider-of-the-clouds&quot; target=&quot;_self&quot;&gt;book review on &lt;em&gt;The Unseen Realm&lt;/em&gt;&lt;/a&gt; to get the gist of Heiser’s work. &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/div&gt;</content><author><name>Brandon Caples</name></author><category term="Faith" /><category term="Daniel" /><category term="prophecy" /><summary type="html">The book of Daniel is a testament to God’s sovereign rule over all kingdoms and peoples. In twelve chapters, the book describes the aftermath of Nebuchadnezzar’s conquest of Jerusalem, focusing on events and visions in the reigns of several rulers during the life of Daniel, the main figure of this apocalyptic book. Shortly after arriving in exile in Babylon, Daniel was given the name Belteshazzar, which honors one of the Babylonian gods. Daniel spent his entire life in Babylonia, though he knew through dreams and visions from Yahweh that his people would not be doomed to exile forever.</summary></entry><entry><title type="html">Using dates with SQL</title><link href="http://localhost:4000/martech/2023/sql-dates" rel="alternate" type="text/html" title="Using dates with SQL" /><published>2023-01-18T12:00:01-05:00</published><updated>2023-01-18T12:00:01-05:00</updated><id>http://localhost:4000/martech/2023/sql-dates</id><content type="html" xml:base="http://localhost:4000/martech/2023/sql-dates">&lt;p&gt;Working with dates in SQL is a pretty common task, and there are several date functions that we can use to query results and manipulate data.&lt;/p&gt;
 
 &lt;h2 id=&quot;now&quot;&gt;NOW()&lt;/h2&gt;
 
-&lt;p&gt;The &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;NOW()&lt;/code&gt; function simply returns the current datetime, like this: &lt;strong&gt;2023-02-04 00:42:02&lt;/strong&gt;. You will probably use &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;NOW()&lt;/code&gt; a lot. If you only need the current date or the current time, use &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;CURDATE()&lt;/code&gt; or &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;CURTIME()&lt;/code&gt;, respectively.&lt;/p&gt;
+&lt;p&gt;The &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;NOW()&lt;/code&gt; function simply returns the current datetime, like this: &lt;strong&gt;2023-02-13 15:48:31&lt;/strong&gt;. You will probably use &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;NOW()&lt;/code&gt; a lot. If you only need the current date or the current time, use &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;CURDATE()&lt;/code&gt; or &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;CURTIME()&lt;/code&gt;, respectively.&lt;/p&gt;
 
 &lt;h2 id=&quot;getdate&quot;&gt;GETDATE()&lt;/h2&gt;
 
-&lt;p&gt;The &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;GETDATE()&lt;/code&gt; function works exactly like the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;NOW()&lt;/code&gt; function, except that &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;GETDATE()&lt;/code&gt; returns milliseconds, too. The query result would look something like this: &lt;strong&gt;2023-02-04 00:42:02.595&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;The &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;GETDATE()&lt;/code&gt; function works exactly like the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;NOW()&lt;/code&gt; function, except that &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;GETDATE()&lt;/code&gt; returns milliseconds, too. The query result would look something like this: &lt;strong&gt;2023-02-13 15:48:31.507&lt;/strong&gt;.&lt;/p&gt;
 
 &lt;h2 id=&quot;date&quot;&gt;DATE()&lt;/h2&gt;
 &lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;DATE(date)&lt;/code&gt;&lt;/p&gt;
@@ -525,7 +626,7 @@ bring me out of my sufferings.&lt;/p&gt;
 
 &lt;h3 id=&quot;look-to-the-second-coming&quot;&gt;Look to the second coming&lt;/h3&gt;
 
-&lt;p&gt;As Christians, our hope is found in Jesus and his second coming to restore all things to perfection. We are told to watch and pray in anticipation of the second coming of Christ, &lt;q cite=&quot;Jude 21, CSB&quot;&gt;waiting expectantly for the mercy of our Lord Jesus Christ for eternal life.&lt;/q&gt; (Jude 21, CSB)&lt;/p&gt;</content><author><name>Brandon Caples</name></author><category term="Faith" /><category term="eternal life" /><category term="eschatology" /><category term="gospels" /><summary type="html">“Is this real life?” David After Dentist is a hilarious viral video of a 7-year old boy fresh out of a dental procedure who is clearly still feeling the effects of nitrous oxide, or laughing gas. David’s father assures him that, yes, this is real life. But for Christians, this is also eternal life. We’re living in it now.</summary></entry><entry><title type="html">Christ in you, the hope of glory</title><link href="http://localhost:4000/faith/2022/christ-in-you-hope-of-glory" rel="alternate" type="text/html" title="Christ in you, the hope of glory" /><published>2022-05-20T12:00:01-04:00</published><updated>2022-05-20T12:00:01-04:00</updated><id>http://localhost:4000/faith/2022/christ-in-you-hope-of-glory</id><content type="html" xml:base="http://localhost:4000/faith/2022/christ-in-you-hope-of-glory">&lt;p&gt;Is there a Christian teacher whom you greatly respect but have never met? How would it feel to receive a personal letter from that person commending you for your faith and revealing their prayers for you? That is how the church in Colossae must have felt to receive a letter from the apostle Paul. By the time he wrote Colossians, Paul was well-known in the growing Christian movement, and Colossae was a small city with little influence.&lt;/p&gt;
+&lt;p&gt;As Christians, our hope is found in Jesus and his second coming to restore all things to perfection. We are told to watch and pray in anticipation of the second coming of Christ, &lt;q cite=&quot;Jude 21, CSB&quot;&gt;waiting expectantly for the mercy of our Lord Jesus Christ for eternal life.&lt;/q&gt; (Jude 21, CSB)&lt;/p&gt;</content><author><name>Brandon Caples</name></author><category term="Faith" /><category term="eternal life" /><category term="eschatology" /><category term="gospels" /><summary type="html">“Is this real life?” David After Dentist is a hilarious viral video of a 7-year old boy fresh out of a dental procedure who is clearly still feeling the effects of nitrous oxide, or laughing gas. David’s father assures him that, yes, this is real life. But for Christians, this is also eternal life. We’re living in it now.</summary></entry><entry><title type="html">Christ in you, the hope of glory</title><link href="http://localhost:4000/faith/2022/christ-in-you-hope-of-glory" rel="alternate" type="text/html" title="Christ in you, the hope of glory" /><published>2022-05-20T13:00:01-04:00</published><updated>2022-05-20T13:00:01-04:00</updated><id>http://localhost:4000/faith/2022/christ-in-you-hope-of-glory</id><content type="html" xml:base="http://localhost:4000/faith/2022/christ-in-you-hope-of-glory">&lt;p&gt;Is there a Christian teacher whom you greatly respect but have never met? How would it feel to receive a personal letter from that person commending you for your faith and revealing their prayers for you? That is how the church in Colossae must have felt to receive a letter from the apostle Paul. By the time he wrote Colossians, Paul was well-known in the growing Christian movement, and Colossae was a small city with little influence.&lt;/p&gt;
 
 &lt;p&gt;Paul did not plant the Colossian church; he likely never even visited it. But he had heard about their “faith in Christ Jesus and of the love you have for all the saints” (1:4) through Epaphras. Epaphras is probably the one who started the Colossian church, and the minister of Christ who “told us about your love in the Spirit.” (1:8)&lt;/p&gt;
 
@@ -794,72 +895,4 @@ bring me out of my sufferings.&lt;/p&gt;
 
 &lt;p&gt;I won’t get into &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;@counter-style&lt;/code&gt; this time, but check out the tutorial on the &lt;a href=&quot;https://www.quackit.com/css/at-rules/css_counter-style_at-rule.cfm&quot;&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;@counter-style&lt;/code&gt; CSS at-rule&lt;/a&gt; over at Quackit. To see the rest of the CSS counter tools in action, take a look at this &lt;a href=&quot;https://codepen.io/collection/gYzzQv&quot;&gt;Codepen collection about CSS counters&lt;/a&gt;, and watch this &lt;a href=&quot;https://youtu.be/XFXVJBzsMCA&quot;&gt;video tutorial by Chris Coyier&lt;/a&gt; about ordered lists and CSS counters.&lt;/p&gt;
 
-&lt;p&gt;Using CSS counters is pretty easy once you understand the few properties involved. I prefer CSS counters when the task is about styling. If you need proper list markup, this isn’t the method to use. (You’re probably looking for &lt;a href=&quot;https://www.freecodecamp.org/news/html-list-how-to-use-bullet-points-ordered-and-unordered-lists/&quot;&gt;HTML lists&lt;/a&gt;.) Nevertheless, there’s a lot you can do with only a handful of CSS.&lt;/p&gt;</content><author><name>Brandon Caples</name></author><category term="MarTech" /><category term="web development" /><category term="CSS" /><summary type="html">CSS. Developers tend to either love it or hate it—sometimes depending on the day. Well, here’s a reason to love it: CSS counters.</summary></entry><entry><title type="html">Why was John the Baptist mistaken for Elijah?</title><link href="http://localhost:4000/faith/2021/john-the-baptist-mistaken-for-elijah" rel="alternate" type="text/html" title="Why was John the Baptist mistaken for Elijah?" /><published>2021-09-17T01:11:10-04:00</published><updated>2021-09-17T01:11:10-04:00</updated><id>http://localhost:4000/faith/2021/john-the-baptist-mistaken-for-elijah</id><content type="html" xml:base="http://localhost:4000/faith/2021/john-the-baptist-mistaken-for-elijah">&lt;p&gt;Do you ever wonder about John the Baptist? Why did he dress in camel’s hair? What made him decide to live in the wilderness? Why was he mistaken for the prophet Elijah? The gospels make it clear that John was the appointed messenger to prepare the way for Jesus Christ. But why was his life so strange? It turns out, he was simply committing to his God-given mission, and he didn’t want anyone to miss the Messiah when he arrived.&lt;/p&gt;
-
-&lt;h2 id=&quot;god-chose-john-the-baptist&quot;&gt;God chose John the Baptist&lt;/h2&gt;
-
-&lt;p&gt;John the Baptist was chosen by God to prepare the people for the ministry of Jesus. His purpose was clear, as the apostle John recorded in his gospel:&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;&lt;sup&gt;6&lt;/sup&gt; There was a man sent from God, whose name was John. &lt;sup&gt;7&lt;/sup&gt; He came as a witness, to bear witness about the light, that all might believe through him. &lt;sup&gt;8&lt;/sup&gt; He was not the light, but came to bear witness about the light.&lt;/p&gt;
-
-  &lt;p&gt;&lt;cite&gt;John 1:6–8 (&lt;abbr title=&quot;English Standard Version&quot;&gt;ESV&lt;/abbr&gt;)&lt;/cite&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;The prophet Isaiah received a message from God about John in Isaiah 40:&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;A voice cries:&lt;/p&gt;
-
-  &lt;p&gt;&lt;sup&gt;3&lt;/sup&gt; &lt;q&gt;In the wilderness prepare the way of the Lord; make straight in the desert a highway for our God.&lt;/q&gt;&lt;/p&gt;
-
-  &lt;p&gt;&lt;sup&gt;4&lt;/sup&gt; &lt;q&gt;Every valley shall be lifted up, and every mountain and hill be made low; the uneven ground shall become level, and the rough places a plain.&lt;/q&gt;&lt;/p&gt;
-
-  &lt;p&gt;&lt;sup&gt;5&lt;/sup&gt; &lt;q&gt;And the glory of the Lord shall be revealed, and all flesh shall see it together, for the mouth of the Lord has spoken.&lt;/q&gt;&lt;/p&gt;
-
-  &lt;p&gt;&lt;cite&gt;Isaiah 40:3–5, ESV&lt;/cite&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;All four gospels reference this passage from Isaiah (Matthew 3:3, Mark 1:3, Luke 3:1–6, John 1:23).&lt;/p&gt;
-
-&lt;p&gt;John was transparent about who he was, but some people thought he was the Christ (Luke 3:15). He responded to these claims with the famous words comparing his own baptism of water to baptism by Jesus with the Holy Spirit and fire (Matthew 3:11, Luke 3:16, John 1:33). He continually used his ministry to point to Jesus. John was so passionate about preparing people for Jesus that his own disciples left him to follow the Master once he showed up. John himself pointed Jesus out to them (John 1:35–37).&lt;/p&gt;
-
-&lt;h2 id=&quot;why-elijah&quot;&gt;Why Elijah?&lt;/h2&gt;
-
-&lt;p&gt;John the Baptist was also mistaken&lt;sup id=&quot;fnref:1&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt; for Elijah the Tishbite (John 1:21). But why Elijah? Whenever we read Scripture, it’s important to understand the context. John preached to a Jewish culture, and Jewish people knew the Scriptures, which for them was what we call the Old Testament. In the first chapter of 2 Kings, King Ahaziah recognized the prophet Elijah simply by a description of his clothing: &lt;q&gt;a garment of hair, with a belt of leather about his waist.&lt;/q&gt; (2 Kings 1:8, ESV) Elijah was well-known for his appearance, and John’s audience likely would have understood the reference, though many people still failed to see John the Baptist for who he was during his ministry.&lt;/p&gt;
-
-&lt;p&gt;John the Baptist dressed in the same unique way as Elijah the Tishbite because he knew his calling: to “go before [Jesus] in the spirit and power of Elijah, to turn the hearts” (Luke 1:17, ESV) of God’s people back to Him.&lt;/p&gt;
-
-&lt;p&gt;The last words from God before the birth of Jesus are recorded in Malachi 4:5–6, declaring that God will send Elijah the prophet to “turn the hearts” of His people. (It’s interesting that he’s referred to as &lt;em&gt;the prophet&lt;/em&gt; here rather than &lt;em&gt;the Tishbite&lt;/em&gt;, suggesting that the actual person of Elijah was not prophesied to prepare the way for Jesus.) These words are echoed by an angel in Luke 1:16–17 when John’s father, Zechariah, receives the news that he will have a son.&lt;/p&gt;
-
-&lt;p&gt;John knew the calling on his life (Luke 1:67–79) and did everything he could to ensure that people didn’t miss who he was, and more importantly, who Jesus is. Malachi prophesied that God would send Elijah to prepare the way of the Lord, then 400 years later the angel Gabriel told Zechariah that his son would fulfill this prophecy. On either side of the intertestamental period between the Old and New Testaments is John the Baptist—first, his prophecy, then his appearance!&lt;/p&gt;
-
-&lt;p&gt;If it isn’t already clear who John the Baptist was, consider Jesus’ words to Peter, James, and John following His transfiguration:&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;&lt;sup&gt;9&lt;/sup&gt; And as they were coming down the mountain, Jesus commanded them, &lt;q&gt;Tell no one the vision, until the Son of Man is raised from the dead.&lt;/q&gt; &lt;sup&gt;10&lt;/sup&gt; And the disciples asked him, &lt;q&gt;Then why do the scribes say that first Elijah must come?&lt;/q&gt; &lt;sup&gt;11&lt;/sup&gt; He answered, &lt;q&gt;Elijah does come, and he will restore all things. &lt;sup&gt;12&lt;/sup&gt; But I tell you that Elijah has already come, and they did not recognize him, but did to him whatever they pleased. So also the Son of Man will certainly suffer at their hands.&lt;/q&gt; &lt;sup&gt;13&lt;/sup&gt; Then the disciples understood that he was speaking to them of John the Baptist.&lt;/p&gt;
-
-  &lt;p&gt;&lt;cite&gt;Matthew 17:9–13, ESV&lt;/cite&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Matthew’s gospel records Jesus revealing John’s identity even before the transfiguration. In Matthew 11:7–15, John (from prison) sends his disciples to ask Jesus, &lt;q&gt;Are you the one who is to come, or should we expect someone else?&lt;/q&gt; (v. 3)&lt;sup id=&quot;fnref:2&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:2&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;2&lt;/a&gt;&lt;/sup&gt; Jesus tells them to report what they see and hear Jesus doing. After John’s disciples leave, Jesus tells the crowd that John the Baptist is the one prophesied in Malachi 3:1&lt;sup id=&quot;fnref:3&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:3&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;3&lt;/a&gt;&lt;/sup&gt; and that &lt;q&gt;among those born of women no one greater than John the Baptist has appeared&lt;/q&gt; (v. 11). Verse 14 is the key verse for our purposes, though: &lt;q&gt;And if you’re willing to accept it, he is the Elijah who is to come.&lt;/q&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;embrace-your-calling&quot;&gt;Embrace your calling&lt;/h2&gt;
-
-&lt;p&gt;The life of John the Baptist is a great example of what God can accomplish through someone who embraces his or her calling. John lived in the wilderness (Luke 1:80) and dressed like Elijah the Tishbite because he knew that Isaiah and Malachi prophesied that he would prepare the people for “the Lamb of God, who takes away the sin of the world!” (John 1:29, ESV)&lt;/p&gt;
-
-&lt;p&gt;Are you and I willing to go to such lengths for the sake of God’s mission?&lt;/p&gt;
-
-&lt;div class=&quot;footnotes&quot; role=&quot;doc-endnotes&quot;&gt;
-  &lt;ol&gt;
-    &lt;li id=&quot;fn:1&quot; role=&quot;doc-endnote&quot;&gt;
-      &lt;p&gt;It’s a bit confusing to read John the Baptist deny being Elijah early on, only to find out later that John actually was &lt;q&gt;the Elijah who is to come&lt;/q&gt; (Matthew 11:14). As Occam’s razor suggests, the simplest explanation is likely the correct one: John was not &lt;em&gt;literally&lt;/em&gt; the prophet Elijah. Many people of the time might have expected the return of the actual Elijah (Mark 8:28), since he was taken to heaven without dying (2 Kings 2:11). &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
-    &lt;/li&gt;
-    &lt;li id=&quot;fn:2&quot; role=&quot;doc-endnote&quot;&gt;
-      &lt;p&gt;This is a curious question coming from John the Baptist, who knew Jesus well. William Barclay, in &lt;em&gt;The Gospel of Matthew, Vol. 2&lt;/em&gt;, suggests three possible reasons for John’s inquiry: (1) It was for the benefit of John’s disciples. (2) John was growing impatient, expecting the Christ to be working faster. (3) As an outdoorsman imprisoned underground, John simply sought a fresh reassurance of his hope. I personally think reasons 1 and 3 make the most sense, and I’ll add a fourth possibility: (4) Knowing Jesus would likely be around a crowd when his disciples arrive, John asked the question already on the minds of many people—so that Jesus could answer it publicly. &lt;a href=&quot;#fnref:2&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
-    &lt;/li&gt;
-    &lt;li id=&quot;fn:3&quot; role=&quot;doc-endnote&quot;&gt;
-      &lt;p&gt;&lt;q&gt;&lt;q&gt;I will send my messenger, who will prepare the way before me. Then suddenly the Lord you are seeking will come to his temple; the messenger of the covenant, whom you desire, will come,&lt;/q&gt; says the Lord Almighty.&lt;/q&gt; (&lt;abbr title=&quot;New International Version&quot;&gt;NIV&lt;/abbr&gt;) &lt;a href=&quot;#fnref:3&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
-    &lt;/li&gt;
-  &lt;/ol&gt;
-&lt;/div&gt;</content><author><name>Brandon Caples</name></author><category term="Faith" /><category term="Elijah" /><category term="John the Baptist" /><summary type="html">Do you ever wonder about John the Baptist? Why did he dress in camel’s hair? What made him decide to live in the wilderness? Why was he mistaken for the prophet Elijah? The gospels make it clear that John was the appointed messenger to prepare the way for Jesus Christ. But why was his life so strange? It turns out, he was simply committing to his God-given mission, and he didn’t want anyone to miss the Messiah when he arrived.</summary></entry></feed>
+&lt;p&gt;Using CSS counters is pretty easy once you understand the few properties involved. I prefer CSS counters when the task is about styling. If you need proper list markup, this isn’t the method to use. (You’re probably looking for &lt;a href=&quot;https://www.freecodecamp.org/news/html-list-how-to-use-bullet-points-ordered-and-unordered-lists/&quot;&gt;HTML lists&lt;/a&gt;.) Nevertheless, there’s a lot you can do with only a handful of CSS.&lt;/p&gt;</content><author><name>Brandon Caples</name></author><category term="MarTech" /><category term="web development" /><category term="CSS" /><summary type="html">CSS. Developers tend to either love it or hate it—sometimes depending on the day. Well, here’s a reason to love it: CSS counters.</summary></entry></feed>
