@@ -135,9 +135,17 @@
     
     
       <url>
-        <loc>http://localhost:4000/book-reviews/</loc>
+        <loc>http://localhost:4000/faith/</loc>
         
-          <lastmod>2022-10-21T07:40:58-04:00</lastmod>
+          <lastmod>2022-10-28T11:52:11-04:00</lastmod>
+        
+      </url>
+    
+  
+    
+    
+      <url>
+        <loc>http://localhost:4000/martech/2/</loc>
         
       </url>
     
@@ -153,17 +161,9 @@
     
     
       <url>
-        <loc>http://localhost:4000/faith/</loc>
+        <loc>http://localhost:4000/book-reviews/</loc>
         
-          <lastmod>2022-10-28T11:52:11-04:00</lastmod>
-        
-      </url>
-    
-  
-    
-    
-      <url>
-        <loc>http://localhost:4000/martech/2/</loc>
+          <lastmod>2022-10-21T07:40:58-04:00</lastmod>
         
       </url>
     
@@ -252,6 +252,9 @@
         <loc>http://localhost:4000/faith/numbers/</loc>
         
       </url>
+    
+  
+    
     
   
     

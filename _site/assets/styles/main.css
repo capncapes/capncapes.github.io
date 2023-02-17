@@ -668,6 +668,16 @@ b.tabs-section header p {
 	gap: 2.5rem;
 }
 
+#post article audio {
+	margin-left: 3rem;
+	margin-right: 3rem;
+}
+
+main > article audio {
+	margin-left: 0;
+	margin-right: 0;
+}
+
 #post article header > .label,
 #book-review article header > .label {
 	line-height: 1;
