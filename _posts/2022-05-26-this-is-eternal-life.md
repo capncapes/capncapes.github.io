@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "This is eternal life: know your God"
-date: 2022-05-26 11:39:31 -0400
+date: 2022-05-26 11:39:31 -0500
 featured_image: {
   src: "eternal-life.webp",
   fallback: "eternal-life.jpg",

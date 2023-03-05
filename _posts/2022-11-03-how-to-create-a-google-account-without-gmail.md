@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "How to create a Google account without Gmail"
-date: 2022-11-03 08:14:59 -0400
+date: 2022-11-03 08:14:59 -0500
 featured_image: {
   src: "google-account-without-gmail.webp",
   fallback: "google-account-without-gmail.png",

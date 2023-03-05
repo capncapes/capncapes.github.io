@@ -17,12 +17,28 @@
         </image>
         <generator>https://brandoncaples.com</generator>
         
-            <lastBuildDate>Tue, 07 Feb 2023 21:30:01 -0500</lastBuildDate>
+            <lastBuildDate>Sun, 05 Mar 2023 16:59:16 -0500</lastBuildDate>
         
         <atom:link href="https://brandoncaples.com/faith/feed.xml" rel="self" type="application/rss+xml"/>
         <language>
             <![CDATA[ en ]]>
         </language>
+        
+            <item>
+                <title>
+                    <![CDATA[ Image and dominion ]]>
+                </title>
+                <description>
+                    <![CDATA[ Our fundamental identity is that we have been created in the image of God. ]]>
+                </description>
+                <link>http://localhost:4000/faith/2023/image-and-dominion</link>
+                <guid isPermaLink="true">http://localhost:4000/faith/2023/image-and-dominion</guid>
+                <dc:creator>
+                    <![CDATA[ Brandon Caples ]]>
+                </dc:creator>
+                <pubDate>Sun, 05 Mar 2023 16:59:16 -0500</pubDate>
+                
+            </item>
         
             <item>
                 <title>
@@ -84,7 +100,7 @@
                 <dc:creator>
                     <![CDATA[ Brandon Caples ]]>
                 </dc:creator>
-                <pubDate>Thu, 26 May 2022 11:39:31 -0400</pubDate>
+                <pubDate>Thu, 26 May 2022 12:39:31 -0400</pubDate>
                 
             </item>
         
