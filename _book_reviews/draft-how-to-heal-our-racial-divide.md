@@ -16,6 +16,6 @@ featured_image: {
   title: "How to Heal Our Racial Divide: What the Bible Says, and the First Christians Knew, About Racial Reconciliation",
   alt: "How to Heal Our Racial Divide, by Derwin L. Gray"
 }
-tags: ["Christian", "race"]
+tags: ["Christian", "race relations", "Black voices"]
 published: true
 ---
