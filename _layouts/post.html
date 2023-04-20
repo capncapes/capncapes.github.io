@@ -118,7 +118,7 @@
 			}
 		</script>
 		{% include header.html %}
-		<main class="lg:pt-24 pb-16 px-7 md:px-10">
+		<main class="lg:w-70 lg:pt-24 pb-16 px-7 md:px-10">
 			<header class="relative w-full max-w-text py-7 mx-auto md:px-12 lg:px-20 text-black">
 				<div class="grow-1">
 					<div class="label mb-4 font-bold text-xs uppercase opacity-50">{{ page.category }}</div>
@@ -162,6 +162,7 @@
 			<!-- Blog Post : END -->
 
 		</main>
+		{% include advertisement.html %}
 		{% include footer.html %}
 		{% if page.modal.display == 'true' %}
 			{% include modal.html %}

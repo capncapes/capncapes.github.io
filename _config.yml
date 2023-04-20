@@ -61,6 +61,8 @@ collections:
   book_reviews:
     output: true
     permalink: /book-reviews/:title
+  ads:
+    output: false
 
 # BUILD SETTINGS
 markdown: kramdown
