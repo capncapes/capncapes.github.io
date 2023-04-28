@@ -9,7 +9,7 @@ book: {
   publisher: "Tyndale Momentum",
   author: "Derwin L. Gray"
 }
-description: ""
+description: "In How to Heal Our Racial Divide, Derwin Gray argues that the Bible has a lot to say about racial reconciliation and that it is central to the gospel itself."
 featured_image: {
   src: "how-to-heal-our-racial-divide.webp",
   fallback: "how-to-heal-our-racial-divide.jpeg",
