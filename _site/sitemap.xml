@@ -514,6 +514,15 @@
   
     
       <url>
+        <loc>http://localhost:4000/book-reviews/weapons-of-math-destruction</loc>
+        
+          <lastmod>2020-07-31T08:31:31-04:00</lastmod>
+        
+      </url>
+    
+  
+    
+      <url>
         <loc>http://localhost:4000/book-reviews/stuff-you-should-know</loc>
         
           <lastmod>2021-01-20T03:40:30-05:00</lastmod>

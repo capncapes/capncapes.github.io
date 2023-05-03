@@ -17,12 +17,28 @@
         </image>
         <generator>https://brandoncaples.com</generator>
         
-            <lastBuildDate>Wed, 20 Jan 2021 03:40:30 -0500</lastBuildDate>
+            <lastBuildDate>Fri, 31 Jul 2020 08:31:31 -0400</lastBuildDate>
         
         <atom:link href="https://brandoncaples.com/book-reviews/feed.xml" rel="self" type="application/rss+xml"/>
         <language>
             <![CDATA[ en ]]>
         </language>
+        
+            <item>
+                <title>
+                    <![CDATA[ Weapons of Math Destruction ]]>
+                </title>
+                <description>
+                    <![CDATA[ Cathy O'Neil argues that the algorithms that are increasingly being used to make decisions about our lives are often biased, opaque, and unfair. ]]>
+                </description>
+                <link>http://localhost:4000/book-reviews/weapons-of-math-destruction</link>
+                <guid isPermaLink="true">http://localhost:4000/book-reviews/weapons-of-math-destruction</guid>
+                <dc:creator>
+                    <![CDATA[ Brandon Caples ]]>
+                </dc:creator>
+                <pubDate>Fri, 31 Jul 2020 08:31:31 -0400</pubDate>
+                
+            </item>
         
             <item>
                 <title>
