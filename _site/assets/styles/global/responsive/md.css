@@ -338,6 +338,12 @@ main > * {
 	max-width: 60rem;
 }
 
+#resume section > * {
+	margin: 0 auto 2rem;
+	padding: 0 0 1rem;
+	max-width: 60rem;
+}
+
 .two-columns {
 	column-count: 2;
 	column-gap: calc(10%/2);
@@ -1084,3 +1090,13 @@ footer .legal > p:not(:first-child)::before {
 ================================================================ */
 
 .md\:shadow { box-shadow: 0 5px 35px 0 rgb(0 0 0 / 15%); }
+
+.md\:two-columns {
+	column-count: 2;
+	column-gap: calc(10%/2);
+}
+
+.md\:three-columns {
+	column-count: 3;
+	column-gap: calc(10%/3);
+}

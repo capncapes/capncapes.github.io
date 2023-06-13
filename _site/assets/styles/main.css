@@ -1323,6 +1323,10 @@ img[src=""] { display: none !important; }
 .lowercase { text-transform: lowercase !important; }
 .uppercase { text-transform: uppercase !important; }
 
+.text-left { text-align: left !important; }
+.text-center { text-align: center !important; }
+.text-right { text-align: right !important; }
+
 /* Opacity */
 
 .opacity-0 { opacity: 0 !important; }

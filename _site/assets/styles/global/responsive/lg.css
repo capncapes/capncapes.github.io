@@ -13,6 +13,7 @@ TABLE OF CONTENTS
 			22.2	Width
 			22.3	Margin
 			22.4	Padding
+			22.5	Utilities
 ---------------------------------------------------------------- */
 
 /* ================================================================
@@ -42,6 +43,8 @@ ul.navbar-nav {
 	justify-content: flex-end;
 	column-gap: 1rem;
 }
+
+ul.navbar-nav.justify-center { justify-content: center; }
 
 #nav-container li {
 	margin-left: 0;
@@ -931,3 +934,17 @@ th, tr {
 .lg\:pr-1\/20 { padding-right: 5% !important; }
 .lg\:pr-1\/8 { padding-right: 12.5% !important; }
 .lg\:pr-1\/4 { padding-right: 25% !important; }
+
+/* ================================================================
+	22.5	Utilities
+================================================================ */
+
+.lg\:two-columns {
+	column-count: 2;
+	column-gap: calc(10%/2);
+}
+
+.lg\:three-columns {
+	column-count: 3;
+	column-gap: calc(10%/3);
+}

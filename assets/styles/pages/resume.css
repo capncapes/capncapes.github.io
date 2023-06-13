@@ -1,0 +1,38 @@
+#resume #splendid-header + * {
+	margin-top: 0;
+}
+
+#resume section.hero-section > * {
+	max-width: 60rem;
+	padding: 0;
+}
+
+#resume .hero-section .socials svg {
+	display: inline;
+	margin-left: 0;
+	margin-right: 0.35rem;
+	width: 25px;
+	fill: #F8F9FA;
+}
+
+#resume #experience .position .time-served {
+	line-height: 1.5;
+}
+
+#resume #experience .position p:last-child {
+	margin-bottom: 0 !important;
+}
+
+#resume #skills .skill .bar {
+	position: relative;
+	border-radius: 4px;
+}
+
+#resume #skills .skill .bar {
+	position: relative;
+	width: 0;
+	height: 9px;
+	background-color: #2CA096;
+	border-radius: 4px;
+	transition: width 1.5s ease;
+}
