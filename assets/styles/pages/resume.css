@@ -23,16 +23,14 @@
 	margin-bottom: 0 !important;
 }
 
-#resume #skills .skill .bar {
-	position: relative;
-	border-radius: 4px;
-}
-
-#resume #skills .skill .bar {
+#resume #skills .skill .bar,
+#resume #tech .skill .bar {
 	position: relative;
 	width: 0;
 	height: 9px;
-	background-color: #2CA096;
 	border-radius: 4px;
 	transition: width 1.5s ease;
 }
+
+#resume #skills .skill .bar { background-color: #2CA096; }
+#resume #tech .skill .bar { background-color: #30475E; }
