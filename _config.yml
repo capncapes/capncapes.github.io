@@ -97,4 +97,5 @@ timezone: America/New_York
 #   - vendor/gems/
 #   - vendor/ruby/
 
+require: ./filters.rb
 theme: jekyll-theme-leap-day

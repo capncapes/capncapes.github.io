@@ -1018,6 +1018,22 @@ body hr {
 	border: 2px solid #DEDECA;
 }
 
+/* Advertisements */
+
+#advertisement {
+	font-size: 0.85rem;
+	line-height: 1.25;
+	color: #121212;
+}
+
+#advertisement svg {
+	display: inline;
+	margin-left: 0;
+	margin-right: 0.3rem;
+	width: 1.15rem;
+	fill: #121212;
+}
+
 /* ================================================================
 	16	Page Navigation
 ================================================================ */

@@ -230,18 +230,20 @@ th, tr {
 
 /* Advertisements */
 
-#advertisement {
-	position: fixed;
-	top: calc(15vh + 7.75rem);
-	right: 10%;
+body#post main {
+	margin-left: auto !important;
+	margin-right: auto !important;
 }
 
-#advertisement svg {
-	display: inline;
-	margin-left: 0;
-	margin-right: 0.35rem;
-	width: 1.5rem;
-	fill: #121212;
+body#post.has-ads main {
+	margin-left: 0 !important;
+	margin-right: 0 !important;
+}
+
+#advertisement {
+	position: fixed;
+	top: calc(15vh + 7.5rem);
+	right: 10%;
 }
 
 /* Archives */
@@ -311,6 +313,15 @@ th, tr {
 .lg\:w-25 { width: 25%; }
 .lg\:w-20 { width: 20%; }
 .lg\:w-10 { width: 10%; }
+
+html > body .lg\:max-w-1 { max-width: 15rem !important; }
+html > body .lg\:max-w-2 { max-width: 30rem !important; }
+html > body .lg\:max-w-3 { max-width: 40rem !important; }
+html > body .lg\:max-w-4 { max-width: 60rem !important; }
+html > body .lg\:max-w-5 { max-width: 80rem !important; }
+html > body .lg\:max-w-6 { max-width: 100rem !important; }
+html > body .lg\:max-w-text { max-width: 75ch !important; }
+html > body .lg\:max-w-fill { max-width: -webkit-fill-available !important; }
 
 /* ================================================================
 	22.3	Margin

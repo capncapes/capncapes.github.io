@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html id="splendid" lang="en-US">
 	{% include head.html %}
-	<body id="post"{% if page.featured_image.src != '' %} class="has-featured-image"{% endif %}>
+	{% assign ads = site.data.ads | where: "category", page.category %}
+	<body id="post" class="{% if page.featured_image.src != '' %}has-featured-image{% endif %} {% if ads.size > 0 %}has-ads{% endif %}">
 		{% if site.scripts.gtm %}
 			<!-- Google Tag Manager (noscript) -->
 			<noscript><iframe src="https://www.googletagmanager.com/ns.html?id={{ site.scripts.gtm }}"
@@ -162,7 +163,9 @@
 			<!-- Blog Post : END -->
 
 		</main>
-		{% include advertisement.html %}
+		{% if ads.size > 0 %}
+			{% include advertisement.html %}
+		{% endif %}
 		{% include footer.html %}
 		{% if page.modal.display == 'true' %}
 			{% include modal.html %}

@@ -1,11 +1,48 @@
-{% assign ad = site.data.ads | where: "category", page.category | first %}
-<aside id="advertisement" class="lg:w-20">
-	<a href="{{ ad.link }}">
-		<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path d="M64 32C28.7 32 0 60.7 0 96V416c0 35.3 28.7 64 64 64H512c35.3 0 64-28.7 64-64V96c0-35.3-28.7-64-64-64H64zM229.5 173.3l72 144c5.9 11.9 1.1 26.3-10.7 32.2s-26.3 1.1-32.2-10.7L253.2 328H162.8l-5.4 10.7c-5.9 11.9-20.3 16.7-32.2 10.7s-16.7-20.3-10.7-32.2l72-144c4.1-8.1 12.4-13.3 21.5-13.3s17.4 5.1 21.5 13.3zM208 237.7L186.8 280h42.3L208 237.7zM392 256a24 24 0 1 0 0 48 24 24 0 1 0 0-48zm24-43.9V184c0-13.3 10.7-24 24-24s24 10.7 24 24v96 48c0 13.3-10.7 24-24 24c-6.6 0-12.6-2.7-17-7c-9.4 4.5-19.9 7-31 7c-39.8 0-72-32.2-72-72s32.2-72 72-72c8.4 0 16.5 1.4 24 4.1z"/></svg>
-		<small>{{ ad.brand }}</small>
-		<div data-type="advertisement">
-			<img src="{{ ad.image }}" class="rounded shadow" />
+<script>var caplesAds = {{ site.data.ads | jsonify }};</script>
+<aside id="advertisement" itemscope itemtype="https://schema.org/CreativeWork" data-type="advertisement" class="w-75 max-w-2 lg:w-20 lg:max-w-1 mx-auto mb-12">
+	<a id="ad-link" href="" target="_blank" data-ad-href>
+		<div>
+			<img src="" class="w-full rounded shadow" data-ad-src itemprop="image" />
 		</div>
-		<small>{{ ad.domain }}</small>
+		<div class="splendid-flex mt-4 flex-row justify-start items-center text-xs">
+			<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path d="M64 32C28.7 32 0 60.7 0 96V416c0 35.3 28.7 64 64 64H512c35.3 0 64-28.7 64-64V96c0-35.3-28.7-64-64-64H64zM229.5 173.3l72 144c5.9 11.9 1.1 26.3-10.7 32.2s-26.3 1.1-32.2-10.7L253.2 328H162.8l-5.4 10.7c-5.9 11.9-20.3 16.7-32.2 10.7s-16.7-20.3-10.7-32.2l72-144c4.1-8.1 12.4-13.3 21.5-13.3s17.4 5.1 21.5 13.3zM208 237.7L186.8 280h42.3L208 237.7zM392 256a24 24 0 1 0 0 48 24 24 0 1 0 0-48zm24-43.9V184c0-13.3 10.7-24 24-24s24 10.7 24 24v96 48c0 13.3-10.7 24-24 24c-6.6 0-12.6-2.7-17-7c-9.4 4.5-19.9 7-31 7c-39.8 0-72-32.2-72-72s32.2-72 72-72c8.4 0 16.5 1.4 24 4.1z"/></svg>
+			<small class="text-black text-xs" data-ad-brand></small>
+		</div>
+		<small class="block mt-2 text-black text-xs" data-ad-text></small>
+		<small class="block mt-2 text-black text-xs" data-ad-domain></small>
 	</a>
 </aside>
+<script>
+	// function randomAd(obj) {
+	// 	let keys = Object.keys(obj);
+	// 	return obj[keys[ keys.length * Math.random() << 0]];
+	// };
+	function randomAd(obj, subProp, targetValue) {
+		const matchingProperties = [];
+		function searchForObject(obj, targetValue) {
+			for (const key in obj) {
+				if (typeof obj[key] === 'object' && obj[key] !== null) {
+				searchForObject(obj[key], targetValue);
+				} else if (key === subProp && obj[key] === targetValue) {
+				matchingProperties.push(obj);
+				}
+			}
+		}
+		searchForObject(obj, targetValue);
+		return matchingProperties.length > 0
+		? matchingProperties[Math.floor(Math.random() * matchingProperties.length)]
+		: null;
+	}
+	var ad = randomAd(caplesAds,'category','{{page.category}}');
+	const zazzleRef = '238053890638792798';
+	let adLink = new URL(ad.link);
+	if (ad.domain == 'zazzle.com') { adLink.searchParams.set('rf', zazzleRef) };
+	let adAnchorEl = document.querySelector('[data-ad-href]');
+	adAnchorEl.href = adLink;
+	document.querySelector('[data-ad-src]').src = ad.image;
+	document.querySelector('[data-ad-brand]').innerText = ad.brand;
+	document.querySelector('[data-ad-text]').innerText = ad.text;
+	document.querySelector('[data-ad-domain]').innerText = ad.domain;
+	if (ad != undefined) { document.getElementById('advertisement').classList.add('ad-active') };
+	dataLayer.push({ 'ad_brand': ad.brand, 'ad_image': ad.image, 'ad_link': adLink, 'ad_text': ad.text, 'ad_domain': ad.domain });
+</script>
