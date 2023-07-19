@@ -1,6 +1,6 @@
 <script>var caplesAds = {{ site.data.ads | jsonify }};</script>
 <aside id="advertisement" itemscope itemtype="https://schema.org/CreativeWork" data-type="advertisement" class="w-75 max-w-2 lg:w-20 lg:max-w-1 mx-auto mb-12">
-	<a id="ad-link" href="" target="_blank" data-ad-href>
+	<a id="ad-link" href="" target="_blank" data-ad-href onclick="dataLayer.push({'event': 'ad_click'})">
 		<div>
 			<img src="" class="w-full rounded shadow" data-ad-src itemprop="image" />
 		</div>
@@ -44,5 +44,5 @@
 	document.querySelector('[data-ad-text]').innerText = ad.text;
 	document.querySelector('[data-ad-domain]').innerText = ad.domain;
 	if (ad != undefined) { document.getElementById('advertisement').classList.add('ad-active') };
-	dataLayer.push({ 'ad_brand': ad.brand, 'ad_image': ad.image, 'ad_link': adLink, 'ad_text': ad.text, 'ad_domain': ad.domain });
+	dataLayer.push({ 'ad_brand': ad.brand, 'ad_image': ad.image, 'ad_link': adLink.href, 'ad_text': ad.text, 'ad_domain': ad.domain });
 </script>
