@@ -18,15 +18,15 @@ howto: {
 	steps: [
 		{
 			name: "Project Root",
-			text: "Make sure you're in the root of your project folder."
+			text: "Make sure you are in the root of your project folder."
 		},
 		{
 			name: "Remove .DS_Store",
-			text: "Use the terminal command \"find . -name .DS_Store -print0 | xargs -0 git rm --ignore-unmatch\" to find all previously committed .DS_Store files and remove them from your project."
+			text: "Use the terminal command 'find . -name .DS_Store -print0 | xargs -0 git rm --ignore-unmatch' to find all previously committed .DS_Store files and remove them from your project."
 		},
 		{
 			name: "Add to .gitignore",
-			text: "To prevent .DS_Store from entering your project's code again, add \"**/.DS_Store\" to your .gitignore file. If it does not exist, create the .gitignore file in your project's root folder."
+			text: "To prevent .DS_Store from entering your project code again, add '**/.DS_Store' to your .gitignore file. If it does not exist, create the .gitignore file in the root folder of your project."
 		},
 		{
 			name: "Commit Changes",
