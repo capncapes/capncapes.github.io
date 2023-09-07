@@ -775,6 +775,50 @@ footer .legal > p:not(:first-child)::before {
 .md\:mr-1\/4 { margin-right: 25% !important; }
 .md\:mr-auto { margin-right: auto !important; }
 
+.md\:-mx-1 { margin-left: -0.25rem !important; margin-right: -0.25rem !important; }
+.md\:-mx-2 { margin-left: -0.5rem !important; margin-right: -0.5rem !important; }
+.md\:-mx-3 { margin-left: -0.75rem !important; margin-right: -0.75rem !important; }
+.md\:-mx-4 { margin-left: -1rem !important; margin-right: -1rem !important; }
+.md\:-mx-5 { margin-left: -1.25rem !important; margin-right: -1.25rem !important; }
+.md\:-mx-6 { margin-left: -1.5rem !important; margin-right: -1.5rem !important; }
+.md\:-mx-7 { margin-left: -1.75rem !important; margin-right: -1.75rem !important; }
+.md\:-mx-8 { margin-left: -2rem !important; margin-right: -2rem !important; }
+.md\:-mx-9 { margin-left: -2.25rem !important; margin-right: -2.25rem !important; }
+.md\:-mx-10 { margin-left: -2.5rem !important; margin-right: -2.5rem !important; }
+.md\:-mx-11 { margin-left: -2.75rem !important; margin-right: -2.75rem !important; }
+.md\:-mx-12 { margin-left: -3rem !important; margin-right: -3rem !important; }
+.md\:-mx-13 { margin-left: -3.25rem !important; margin-right: -3.25rem !important; }
+.md\:-mx-14 { margin-left: -3.5rem !important; margin-right: -3.5rem !important; }
+.md\:-mx-15 { margin-left: -3.75rem !important; margin-right: -3.75rem !important; }
+.md\:-mx-16 { margin-left: -4rem !important; margin-right: -4rem !important; }
+.md\:-mx-17 { margin-left: -4.25rem !important; margin-right: -4.25rem !important; }
+.md\:-mx-18 { margin-left: -4.5rem !important; margin-right: -4.5rem !important; }
+.md\:-mx-19 { margin-left: -4.75rem !important; margin-right: -4.75rem !important; }
+.md\:-mx-20 { margin-left: -5rem !important; margin-right: -5rem !important; }
+.md\:-mx-21 { margin-left: -5.25rem !important; margin-right: -5.25rem !important; }
+.md\:-mx-22 { margin-left: -5.5rem !important; margin-right: -5.5rem !important; }
+.md\:-mx-23 { margin-left: -5.75rem !important; margin-right: -5.75rem !important; }
+.md\:-mx-24 { margin-left: -6rem !important; margin-right: -6rem !important; }
+.md\:-mx-25 { margin-left: -6.25rem !important; margin-right: -6.25rem !important; }
+.md\:-mx-26 { margin-left: -6.5rem !important; margin-right: -6.5rem !important; }
+.md\:-mx-27 { margin-left: -6.75rem !important; margin-right: -6.75rem !important; }
+.md\:-mx-28 { margin-left: -7rem !important; margin-right: -7rem !important; }
+.md\:-mx-29 { margin-left: -7.25rem !important; margin-right: -7.25rem !important; }
+.md\:-mx-30 { margin-left: -7.5rem !important; margin-right: -7.5rem !important; }
+.md\:-mx-31 { margin-left: -7.75rem !important; margin-right: -7.75rem !important; }
+.md\:-mx-32 { margin-left: -8rem !important; margin-right: -8rem !important; }
+.md\:-mx-33 { margin-left: -8.25rem !important; margin-right: -8.25rem !important; }
+.md\:-mx-34 { margin-left: -8.5rem !important; margin-right: -8.5rem !important; }
+.md\:-mx-35 { margin-left: -8.75rem !important; margin-right: -8.75rem !important; }
+.md\:-mx-36 { margin-left: -9rem !important; margin-right: -9rem !important; }
+.md\:-mx-37 { margin-left: -9.25rem !important; margin-right: -9.25rem !important; }
+.md\:-mx-38 { margin-left: -9.5rem !important; margin-right: -9.5rem !important; }
+.md\:-mx-39 { margin-left: -9.75rem !important; margin-right: -9.75rem !important; }
+.md\:-mx-40 { margin-left: -10rem !important; margin-right: -10rem !important; }
+.md\:-mx-1\/20 { margin-left: -5% !important; margin-right: -5% !important; }
+.md\:-mx-1\/8 { margin-left: -12.5% !important; margin-right: -12.5% !important; }
+.md\:-mx-1\/4 { margin-left: -25% !important; margin-right: -25% !important; }
+
 /* ================================================================
     22.4   Padding
 ================================================================ */

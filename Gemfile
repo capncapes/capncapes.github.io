@@ -18,8 +18,12 @@ group :jekyll_plugins do
   gem "jekyll-paginate"
   gem "rouge", "3.26.0"
   gem "jekyll-sass-converter", "1.5.2"
-  gem 'jekyll-redirect-from'
+  gem "jekyll-redirect-from"
   gem "kramdown", "2.3.2"
+end
+
+group :jekyll_plugins do
+  gem "jekyll-resize", git: "https://github.com/MichaelCurrin/jekyll-resize"
 end
 
 # Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem

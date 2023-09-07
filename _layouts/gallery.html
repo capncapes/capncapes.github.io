@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html id="splendid" lang="en-US">
+	{% include head.html %}
+	<script>var photoSlides = {};var newImg;</script>
+	<body id="gallery">
+		{% if site.scripts.gtm %}
+			<!-- Google Tag Manager (noscript) -->
+			<noscript><iframe src="https://www.googletagmanager.com/ns.html?id={{ site.scripts.gtm }}"
+			height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+			<!-- End Google Tag Manager (noscript) -->
+		{% endif %}
+		{% include header.html %}
+		<div class="px-7 md:px-10 bg-yellow">
+			<h1 class="relative max-w-4 lg:mx-auto pt-20 text-3xl lg:text-4xl font-bold">{{ page.title }}</h1>
+		</div>
+		<main class="lg:pt-8 pb-16 px-7 md:px-10">
+			<section class="mb-12">
+				{{ content }}
+			</section>
+			<section class="photo-gallery -mx-7 md:-mx-10">
+				{% assign totalSlides = 0 %}
+				{% for photo in site.static_files %}
+					{% if photo.path contains 'photography' %}
+						{% assign totalSlides = totalSlides | plus: 1 %}
+						{% assign currentSlide = currentSlide | plus: 1 %}
+						<script>
+							photoSlides[{{ currentSlide }}] = {};
+							photoSlides[{{ currentSlide }}].large = "{{ photo.path | resize: '1600' }}";
+							photoSlides[{{ currentSlide }}].fullsize = "{{ photo.path }}";
+						</script>
+						<figure class="my-0">
+							<img src="{{ photo.path | resize: '300' }}" onclick="openModal();showImg({{ currentSlide }})" alt="{{ photo.name }}" />
+						</figure>
+					{% endif %}
+				{% endfor %}
+			</section>
+			<section id="lightbox" class="modal">
+				<span class="close cursor" onclick="closeModal()">&times;</span>
+				<div class="modal-content">
+					<figure class="photo-slide my-0 mx-0">
+						<img src="" alt="A photograph by Brandon Caples">
+						<figcaption class="w-full max-w-3 mx-auto pt-1">
+							<p id="exif-data" class="inline">EXIF Data</p>
+							<p class="numbertext inline float-right"></p>
+						</figcaption>
+					</figure>
+				
+					<!-- Next/previous controls -->
+					<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+					<a class="next" onclick="plusSlides(1)">&#10095;</a>
+				</div>
+			</section>
+		</main>
+		{% include footer.html %}
+	</body>
+</html>

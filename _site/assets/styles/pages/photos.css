@@ -1,0 +1,135 @@
+#gallery main section.photo-gallery {
+	display: -ms-grid;
+    display: grid;
+    width: auto;
+	max-width: 100vw;
+    grid-auto-flow: row;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    list-style: none;
+}
+
+/* The Modal (background) */
+.modal {
+	display: none;
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	width: 100%;
+	max-width: 100vw;
+	height: 100%;
+	overflow: hidden;
+	background-color: #121212;
+	z-index: 99999;
+}
+
+/* Modal Content */
+.modal .modal-content {
+	position: absolute;
+	width: 100%;
+	top: 0;
+	bottom: 0;
+	max-height: 90vh;
+	margin-right: auto;
+	margin-left: auto;
+	padding: 0;
+}
+
+#gallery main .modal .modal-content figure.photo-slide {
+	display: flex;
+	flex-direction: column;
+	width: auto;
+	max-width: unset;
+	height: 100%;
+	max-height: 100vh;
+}
+
+#gallery main .modal .modal-content figure img {
+	max-width: 100%;
+	max-height: 100%;
+	object-fit: contain;
+	border-top-left-radius: 0;
+	border-top-right-radius: 0;
+}
+
+.modal .modal-content figcaption {
+	color: #F8F9FA;
+}
+
+.modal .modal-content figcaption > p {
+	font-size: smaller;
+	line-height: 1.2;
+	color: #F8F9FA;
+}
+
+/* The Close Button */
+.close {
+	position: absolute;
+	top: 10px;
+	right: 25px;
+	font-size: 35px;
+	font-weight: bold;
+	color: #F8F9FA;
+	z-index: 999999;
+}
+
+.close:hover, .close:focus {
+	color: #F05454;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+	position: absolute;
+	top: 50%;
+	width: auto;
+	margin-top: -50px;
+	padding: 16px;
+	color: #F8F9FA;
+	font-weight: bold;
+	font-size: 20px;
+	border-radius: 0 4px 4px 0;
+	cursor: pointer;
+	user-select: none;
+	-webkit-user-select: none;
+	transition: 0.6s ease;
+}
+
+.prev:hover, .next:hover {
+	background-color: rgba(0, 0, 0, 0.8);
+}
+
+.next {
+	right: 0;
+	border-radius: 4px 0 0 4px;
+}
+
+.photo-gallery figure, .photo-gallery img {
+	width: 100%;
+	border-radius: 0;
+}
+
+@media only screen and (max-width: 599px) {
+	.photo-gallery {
+		-ms-grid-columns: (1fr)[2];
+		grid-template-columns: repeat(2, 1fr);
+	}
+}
+
+@media only screen and (min-width: 600px) {
+	.photo-gallery {
+		-ms-grid-columns: (1fr)[3];
+		grid-template-columns: repeat(3, 1fr);
+	}
+}
+
+@media only screen and (min-width: 900px) {
+	.photo-gallery {
+		-ms-grid-columns: (1fr)[4];
+		grid-template-columns: repeat(4, 1fr);
+	}
+}

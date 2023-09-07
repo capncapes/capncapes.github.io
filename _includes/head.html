@@ -113,7 +113,12 @@
 		<script src="//cdnjs.cloudflare.com/ajax/libs/KaTeX/0.3.0/katex.min.js"></script>
 	{% endif %}
 
+	{% if page.url contains 'photos' %}
+		<link rel="stylesheet" href="/assets/styles/pages/photos.css">
+	{% endif %}
+
 	<!-- JavaScript -->
+	<script src="https://cdn.jsdelivr.net/npm/exif-js"></script>
 	<script type="text/javascript" async src="{{ site.url }}/assets/js/main.js"></script>
 	{% if page.modal.display == 'true' %}
 		<script type="text/javascript" async src="{{ site.url }}/assets/js/modal.js"></script>
