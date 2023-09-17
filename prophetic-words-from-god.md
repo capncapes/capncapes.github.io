@@ -4,6 +4,10 @@ title: Prophetic Words From God
 permalink: /prophetic-words-from-god/
 ---
 
+<script>
+	gtag('set', 'content_group', 'prophecies');
+</script>
+
 I have received four prophetic messages delivered by the prophetic ministry team of <a href="https://www.tomandjanehamon.com/jane-hamon" target="_blank">Jane Hamon</a>.
 
 ## June 18, 2018

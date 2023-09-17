@@ -10,6 +10,10 @@ description: "Enhance your Bible study time with these excellent resources."
 permalink: /christian-resources/bible-study/
 ---
 
+<script>
+	gtag('set', 'content_group', 'Christian resources');
+</script>
+
 ## Blue Letter Bible
 
 Check back soon for info.

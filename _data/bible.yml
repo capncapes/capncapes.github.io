@@ -1,71 +1,107 @@
 - name: Genesis
   order: 1
+  author: Moses
+  group: Old Testament
+  set: Torah
   permalink: /faith/genesis
-  description:
+  description: "The Book of Genesis, the first book of the Hebrew Bible and the Christian Old Testament, was probably written in the 6th century BC. It tells the story of the creation of the world, the fall of humanity, the history of the patriarchs and matriarchs of Israel, and the exodus from Egypt. Genesis is a foundational text for both Judaism and Christianity, and it contains many of the most important stories in the Bible, such as the creation of Adam and Eve, the fall, the flood, Noah's ark, the Tower of Babel, Abraham and Isaac, Jacob and Esau, Joseph and his brothers, and Moses and the exodus."
   image:
 
 - name: Exodus
   order: 2
+  author: Moses
+  group: Old Testament
+  set: Torah
   permalink: /faith/exodus
   description:
   image:
 
 - name: Leviticus
   order: 3
+  author: Moses
+  group: Old Testament
+  set: Torah
   permalink: /faith/leviticus
   description:
   image:
 
 - name: Numbers
   order: 4
+  author: Moses
+  group: Old Testament
+  set: Torah
   permalink: /faith/numbers
   description:
   image:
 
 - name: Deuteronomy
   order: 5
+  author: Moses
+  group: Old Testament
+  set: Torah, Deuteronomistic History
   permalink: /faith/deuteronomy
   description:
   image:
 
 - name: Joshua
   order: 6
+  author: Joshua
+  group: Old Testament
+  set: Deuteronomistic History
   permalink: /faith/joshua
-  description:
+  description: "Written in the late 7th century BCE, the book of Joshua tells the story of Joshua, a charismatic warrior who led Israel in the conquest of Canaan after the Exodus from Egypt. Joshua was the successor to Moses. The book shows God's faithfulness to his covenant with the Israelites to bring them into the land he promised to Abraham."
   image:
 
 - name: Judges
   order: 7
+  author: Unknown
+  group: Old Testament
+  set: Deuteronomistic History
   permalink: /faith/judges
   description:
   image:
 
 - name: Ruth
   order: 8
+  author: Unknown
+  group: Old Testament
+  set: History
   permalink: /faith/ruth
   description:
   image: https://res.cloudinary.com/caples/image/upload/v1654119783/Books%20of%20the%20Bible/ruth_tltntf.jpg
 
 - name: 1 Samuel
   order: 9
+  author: Samuel, Nathan, Gad
+  group: Old Testament
+  set: Deuteronomistic History
   permalink: /faith/1-samuel
   description:
   image:
 
 - name: 2 Samuel
   order: 10
+  author: Nathan, Gad
+  group: Old Testament
+  set: Deuteronomistic History
   permalink: /faith/2-samuel
   description:
   image:
 
 - name: 1 Kings
   order: 11
+  author: Jeremiah
+  group: Old Testament
+  set: Deuteronomistic History
   permalink: /faith/1-kings
   description:
   image:
 
 - name: 2 Kings
   order: 12
+  author: Jeremiah
+  group: Old Testament
+  set: Deuteronomistic History
   permalink: /faith/2-kings
   description:
   image:
@@ -138,6 +174,9 @@
 
 - name: Jeremiah
   order: 24
+  author: Jeremiah
+  group: Old Testament
+  set: Major Prophets
   permalink: /faith/jeremiah
   description:
   image:
@@ -210,26 +249,38 @@
 
 - name: Zephaniah
   order: 36
+  author: Zephaniah
+  group: Old Testament
+  set: Minor Prophets
   permalink: /faith/zephaniah
-  description:
+  description: "The Book of Zephaniah, a book of the Hebrew Bible and the Christian Old Testament, was probably written in the late 7th century BC. The Hebrew name Zephaniah means "the Lord hides." Zephaniah was a prophet who ministered to the people of Judah during the reign of King Josiah. His book contains a message of judgment on Judah for its idolatry, injustice, and oppression of the poor. Zephaniah also promises a remnant of faithful people who will be spared from judgment and enjoy God's blessing."
   image: 
 
 - name: Haggai
   order: 37
+  author: Haggai
+  group: Old Testament
+  set: Minor Prophets
   permalink: /faith/haggai
-  description:
+  description: "The Book of Haggai, a book of the Hebrew Bible and the Christian Old Testament, was written in 520 BC. The Hebrew name Haggai means "festive." Haggai was a prophet who ministered to the people of Judah after their return from exile in Babylon. His book contains four oracles, each of which rebukes the people for their neglect of rebuilding the temple in Jerusalem and encourages them to resume the work. Haggai also promises that God will bless the people for their obedience."
   image:
 
 - name: Zechariah
   order: 38
+  author: Zechariah
+  group: Old Testament
+  set: Minor Prophets
   permalink: /faith/zechariah
-  description:
+  description: "The Book of Zechariah, a book of the Hebrew Bible and the Christian Old Testament, was probably written in the late 6th century BC. The Hebrew name Zechariah means "the Lord remembers." Zechariah was a prophet who ministered to the people of Israel after their return from exile in Babylon. His book contains a series of visions and prophecies about the rebuilding of the temple in Jerusalem, the restoration of Israel, and the coming of the Messiah."
   image: 
 
 - name: Malachi
   order: 39
+  author: Unknown
+  group: Old Testament
+  set: Minor Prophets
   permalink: /faith/malachi
-  description:
+  description: "The Book of Malachi, the final book of the Hebrew Bible, was probably written in the late 5th century BC. The Hebrew word Malachi means "my messenger," and the book contains a prophetic message from God to the people of Israel, rebuking them for their unfaithfulness and calling them to repentance. Malachi also promises the coming of a messenger who will prepare the way for the Lord and bring judgment on the wicked."
   image:
 
 - name: Matthew
@@ -356,7 +407,7 @@
 
 - name: Titus
   order: 56
-  author:
+  author: Paul
   permalink: /faith/titus
   description:
   image:
@@ -419,9 +470,9 @@
 
 - name: Jude
   order: 65
-  author:
+  author: Jude
   permalink: /faith/jude
-  description:
+  description: "The Epistle of Jude is a short book of the New Testament, written in the late 1st century AD, probably between AD 67 and 80. The author identifies himself as Jude, the brother of James, who was the half-brother of Jesus. Jude's letter is a warning to the church against false teachers who have infiltrated the community. He describes these teachers as ungodly, immoral, and denying the Lord Jesus Christ. Jude calls on the church to contend for the faith and to remain faithful to the apostles' teaching."
   image:
 
 - name: Revelation

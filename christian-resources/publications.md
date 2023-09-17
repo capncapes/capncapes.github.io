@@ -11,6 +11,10 @@ permalink: /christian-resources/publications/
 published: false
 ---
 
+<script>
+	gtag('set', 'content_group', 'Christian resources');
+</script>
+
 ## TableTalk Magazine
 
 ## Relevant Magazine
