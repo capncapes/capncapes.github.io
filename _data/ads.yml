@@ -93,3 +93,19 @@
   link: "https://bluehost.sjv.io/oqOnZE"
   domain: "bluehost.com"
   category: "MarTech"
+
+- brand: "Logos Bible Software"
+  price:
+  text: "Get $100 off your first base package purchase by using this link."
+  image: "/assets/img/ads/logos_packages_100_off.webp"
+  link: "https://logos.refr.cc/caples"
+  domain: "logos.com"
+  category: "Faith"
+
+- brand: "Logos Bible Software"
+  price:
+  text: "Get $100 off your first base package purchase by using this link."
+  image: "/assets/img/ads/logos_packages_logo.webp"
+  link: "https://logos.refr.cc/caples"
+  domain: "logos.com"
+  category: "Faith"
