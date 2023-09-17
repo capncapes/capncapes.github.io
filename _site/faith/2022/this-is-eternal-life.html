@@ -202,6 +202,9 @@
 				]
 			}
 		</script>
+		<script>
+			gtag('set', 'content_group', 'faith blog');
+		</script>
 		<header id="splendid-header" itemscope itemtype="https://schema.org/WPHeader" class="splendid-flex sticky py-0 px-10 flex-col justify-center items-center shadow">
 	<div id="nav-container" class="container splendid-flex w-full max-w-5 mx-auto p-7 sm:px-14 md:px-20 lg:px-20 flex-row flex-nowrap justify-between items-center">
 		<div itemscope itemtype="https://schema.org/Brand" class="splendid-logo">
@@ -327,7 +330,7 @@
 		
 			<script>var caplesAds = [{"brand":"Glacier Design Shop","price":null,"text":"This 13\" x 21\" lumbar pillow, made from 100% polyester, is machine-washable and made in the U.S.A.","image":"/assets/img/ads/psalm_119_105_lumbar_pillow_300.webp","link":"https://www.zazzle.com/psalm_119_105_lumbar_pillow-189765904532586688","domain":"zazzle.com","category":"Faith"},{"brand":"Glacier Design Shop","price":null,"text":"This 13\" x 21\" lumbar pillow, made from 100% polyester, is machine-washable and made in the U.S.A.","image":"/assets/img/ads/john_8_36_lumbar_pillow_300.webp","link":"https://www.zazzle.com/john_8_36_lumbar_pillow-189215468168850967","domain":"zazzle.com","category":"Faith"},{"brand":"Glacier Design Shop","price":null,"text":"This 13\" x 21\" lumbar pillow, made from 100% polyester, is machine-washable and made in the U.S.A.","image":"/assets/img/ads/joshua_24_15_lumbar_pillow_300.webp","link":"https://www.zazzle.com/joshua_24_15_lumbar_pillow-189405901270242085","domain":"zazzle.com","category":"Faith"},{"brand":"Glacier Design Shop","price":null,"text":null,"image":"/assets/img/ads/give_thanks_wreath_throw_pillow_300.webp","link":"https://www.zazzle.com/give_thanks_wreath_throw_pillow-189406872365314913","domain":"zazzle.com","category":"Faith"},{"brand":"Glacier Design Shop","price":null,"text":"This 13\" x 21\" lumbar pillow, made from 100% polyester, is machine-washable and made in the U.S.A.","image":"/assets/img/ads/philippians_4_4_lumbar_pillow_300.webp","link":"https://www.zazzle.com/philippians_4_4_lumbar_pillow-189765131643601984","domain":"zazzle.com","category":"Faith"},{"brand":"Glacier Design Shop","price":null,"text":"This 13\" x 21\" lumbar pillow, made from 100% polyester, is machine-washable and made in the U.S.A.","image":"/assets/img/ads/philippians_4_13_lumbar_pillow_300.webp","link":"https://www.zazzle.com/philippians_4_13_lumbar_pillow-189676743639473450","domain":"zazzle.com","category":"Faith"},{"brand":"Glacier Design Shop","price":null,"text":"This 13\" x 21\" lumbar pillow, made from 100% polyester, is machine-washable and made in the U.S.A.","image":"/assets/img/ads/psalm_121_2_lumbar_pillow_300.webp","link":"https://www.zazzle.com/psalm_121_2_lumbar_pillow-189540738900453069","domain":"zazzle.com","category":"Faith"},{"brand":"Glacier Design Shop","price":null,"text":"This 13\" x 21\" lumbar pillow, made from 100% polyester, is machine-washable and made in the U.S.A.","image":"/assets/img/ads/nehemiah_8_10_lumbar_pillow_300.webp","link":"https://www.zazzle.com/nehemiah_8_10_lumbar_pillow-189790864566800017","domain":"zazzle.com","category":"Faith"},{"brand":"StickerMule","price":null,"text":"Get a $10 credit by signing up for StickerMule through this ad.","image":"/assets/img/ads/stickermule-invite-friends-square.webp","link":"https://www.stickermule.com/unlock?ref_id=7898071701&utm_medium=embed&utm_source=invite&utm_content=250x250","domain":"stickermule.com","category":"MarTech"},{"brand":"Google Workspace","price":null,"text":"Get 10% off your first year of Google Workspace when you sign up through this ad.","image":"/assets/img/ads/google_workspace.webp","link":"https://referworkspace.app.goo.gl/7qrq","domain":"workspace.google.com","category":"MarTech"},{"brand":"Dropbox","price":null,"text":"Get 500 MB of free storage space on Dropbox when you sign up through this ad.","image":"/assets/img/ads/dropbox.webp","link":"https://www.dropbox.com/referrals/AAAj3O73hHOspv98G-O7xYHNJY4OQAo4ZD0?src=global9","domain":"dropbox.com","category":"MarTech"},{"brand":"Bluehost","price":null,"text":"Sign up for Bluehost website hosting—starting at $2.95 per month.","image":"/assets/img/ads/bluehost_11352-1465798.webp","link":"https://bluehost.sjv.io/oqOnZE","domain":"bluehost.com","category":"MarTech"}];</script>
 <aside id="advertisement" itemscope itemtype="https://schema.org/CreativeWork" data-type="advertisement" class="w-75 max-w-2 lg:w-20 lg:max-w-1 mx-auto mb-12">
-	<a id="ad-link" href="" target="_blank" data-ad-href>
+	<a id="ad-link" href="" target="_blank" data-ad-href onclick="dataLayer.push({'event': 'ad_click'})">
 		<div>
 			<img src="" class="w-full rounded shadow" data-ad-src itemprop="image" />
 		</div>
@@ -371,7 +374,7 @@
 	document.querySelector('[data-ad-text]').innerText = ad.text;
 	document.querySelector('[data-ad-domain]').innerText = ad.domain;
 	if (ad != undefined) { document.getElementById('advertisement').classList.add('ad-active') };
-	dataLayer.push({ 'ad_brand': ad.brand, 'ad_image': ad.image, 'ad_link': adLink, 'ad_text': ad.text, 'ad_domain': ad.domain });
+	dataLayer.push({ 'ad_brand': ad.brand, 'ad_image': ad.image, 'ad_link': adLink.href, 'ad_text': ad.text, 'ad_domain': ad.domain });
 </script>
 		
 		<!-- Footer : BEGIN -->

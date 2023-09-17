@@ -243,8 +243,11 @@
 
 - name: Habakkuk
   order: 35
+  author: Habakkuk
+  group: Old Testament
+  set: Minor Prophets
   permalink: /faith/habakkuk
-  description:
+  description: "The book of Habakkuk, a book of the Hebrew Bible and the Christian Old Testament, was probably written in the late 7th century BC. The Hebrew name Habakkuk means &ldquo;embracing.&rdquo; Habakkuk was a prophet who ministered to the people of Judah during a time of great distress and injustice. His book contains a series of dialogues between Habakkuk and God, in which the prophet grapples with the problem of evil in the world and why God allows it. Habakkuk also receives a vision of God's judgment on the wicked and his salvation for the righteous."
   image:
 
 - name: Zephaniah
@@ -253,7 +256,7 @@
   group: Old Testament
   set: Minor Prophets
   permalink: /faith/zephaniah
-  description: "The Book of Zephaniah, a book of the Hebrew Bible and the Christian Old Testament, was probably written in the late 7th century BC. The Hebrew name Zephaniah means "the Lord hides." Zephaniah was a prophet who ministered to the people of Judah during the reign of King Josiah. His book contains a message of judgment on Judah for its idolatry, injustice, and oppression of the poor. Zephaniah also promises a remnant of faithful people who will be spared from judgment and enjoy God's blessing."
+  description: "The Book of Zephaniah, a book of the Hebrew Bible and the Christian Old Testament, was probably written in the late 7th century BC. The Hebrew name Zephaniah means &ldquo;the Lord hides.&rdquo; Zephaniah was a prophet who ministered to the people of Judah during the reign of King Josiah. His book contains a message of judgment on Judah for its idolatry, injustice, and oppression of the poor. Zephaniah also promises a remnant of faithful people who will be spared from judgment and enjoy God's blessing."
   image: 
 
 - name: Haggai
@@ -262,7 +265,7 @@
   group: Old Testament
   set: Minor Prophets
   permalink: /faith/haggai
-  description: "The Book of Haggai, a book of the Hebrew Bible and the Christian Old Testament, was written in 520 BC. The Hebrew name Haggai means "festive." Haggai was a prophet who ministered to the people of Judah after their return from exile in Babylon. His book contains four oracles, each of which rebukes the people for their neglect of rebuilding the temple in Jerusalem and encourages them to resume the work. Haggai also promises that God will bless the people for their obedience."
+  description: "The Book of Haggai, a book of the Hebrew Bible and the Christian Old Testament, was written in 520 BC. The Hebrew name Haggai means &ldquo;festive.&rdquo; Haggai was a prophet who ministered to the people of Judah after their return from exile in Babylon. His book contains four oracles, each of which rebukes the people for their neglect of rebuilding the temple in Jerusalem and encourages them to resume the work. Haggai also promises that God will bless the people for their obedience."
   image:
 
 - name: Zechariah
@@ -271,7 +274,7 @@
   group: Old Testament
   set: Minor Prophets
   permalink: /faith/zechariah
-  description: "The Book of Zechariah, a book of the Hebrew Bible and the Christian Old Testament, was probably written in the late 6th century BC. The Hebrew name Zechariah means "the Lord remembers." Zechariah was a prophet who ministered to the people of Israel after their return from exile in Babylon. His book contains a series of visions and prophecies about the rebuilding of the temple in Jerusalem, the restoration of Israel, and the coming of the Messiah."
+  description: "The Book of Zechariah, a book of the Hebrew Bible and the Christian Old Testament, was probably written in the late 6th century BC. The Hebrew name Zechariah means &ldquo;the Lord remembers.&rdquo; Zechariah was a prophet who ministered to the people of Israel after their return from exile in Babylon. His book contains a series of visions and prophecies about the rebuilding of the temple in Jerusalem, the restoration of Israel, and the coming of the Messiah."
   image: 
 
 - name: Malachi
@@ -280,7 +283,7 @@
   group: Old Testament
   set: Minor Prophets
   permalink: /faith/malachi
-  description: "The Book of Malachi, the final book of the Hebrew Bible, was probably written in the late 5th century BC. The Hebrew word Malachi means "my messenger," and the book contains a prophetic message from God to the people of Israel, rebuking them for their unfaithfulness and calling them to repentance. Malachi also promises the coming of a messenger who will prepare the way for the Lord and bring judgment on the wicked."
+  description: "The Book of Malachi, the final book of the Hebrew Bible, was probably written in the late 5th century BC. The Hebrew word Malachi means &ldquo;my messenger,&rdquo; and the book contains a prophetic message from God to the people of Israel, rebuking them for their unfaithfulness and calling them to repentance. Malachi also promises the coming of a messenger who will prepare the way for the Lord and bring judgment on the wicked."
   image:
 
 - name: Matthew
