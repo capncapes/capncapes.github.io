@@ -1,0 +1,46 @@
+---
+layout: bible
+id: hosea
+title: Hosea
+featured_image: {
+  src: "",
+  title: "The book of Hosea",
+  alt: "A Bible opened to the book of Hosea"
+}
+description:
+permalink: /faith/hosea/
+---
+
+<!-- Cards Gallery : START -->
+<div class="cards-gallery mt-16 lg:mt-24">
+
+  {% assign bibleBookPosts = site.posts | where: "bible_books", page.title %}
+  {% for post in bibleBookPosts %}
+  <article itemscope itemtype="https://schema.org/BlogPosting" title="{{ post.title }}" class="card relative rounded bg-blue shadow" data-id="{{ book.order }}">
+    <a href="{{ post.url }}">
+      <div>
+        <div class="absolute inset-0 w-full h-full z-0">
+          <img class="w-full h-full object-cover rounded" src="{{ site.url }}/assets/img/{{ post.category | downcase }}/{{ post.featured_image.src }}" alt="{{ post.featured_image.alt }} in the Bible">
+        </div>
+      </div>
+      <div class="info absolute w-full h-full top-0 p-0 splendid-flex flex-col justify-end items-end flex-nowrap rounded">
+        <h3 itemprop="name" class="title w-90 mb-6 mx-auto p-0 text-lg normal">{{ post.title }}</h3>
+        <div class="splendid-flex w-90 mb-3 mx-auto p-0 flex-row justify-between flex-nowrap">
+          <time itemprop="datePublished" datetime="{{ post.date | date: '%Y-%m-%dT%H:%M:%S-05:00' }}" class="p-0 text-xs normal">{{ post.date | date: "%b %d, %Y" }}</time>
+        </div>
+      </div>
+    </a>
+  </article>
+  {% endfor %}
+
+</div>
+<!-- Cards Gallery : END -->
+
+{% if bibleBookPosts.size > 12 %}
+<!-- Page Navigation : BEGIN -->
+<div role="navigation" aria-label="Posts page navigation" class="page-nav w-full max-w-1 mt-12 mx-auto">
+    <a href="/{{ page.id }}/" class="splendid-button reverse dark grow-2" title="Previous page: 1" aria-label="Previous page">← Back</a>
+    <a href="/{{ page.id }}/2/" class="splendid-button dark grow-3" title="Next page: 2" aria-label="Next page">Next →</a>
+</div>
+<!-- Page Navigation : END -->
+{% endif %}

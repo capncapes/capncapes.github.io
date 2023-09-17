@@ -65,7 +65,7 @@
   order: 8
   author: Unknown
   group: Old Testament
-  set: History
+  set: History, Megillot
   permalink: /faith/ruth
   description:
   image: https://res.cloudinary.com/caples/image/upload/v1654119783/Books%20of%20the%20Bible/ruth_tltntf.jpg
@@ -108,60 +108,88 @@
 
 - name: 1 Chronicles
   order: 13
+  author: Ezra
+  group: Old Testament
+  set: History
   permalink: /faith/1-chronicles
   description:
   image:
 
 - name: 2 Chronicles
   order: 14
+  author: Ezra
+  group: Old Testament
+  set: History
   permalink: /faith/2-chronicles
   description:
   image:
 
 - name: Ezra
   order: 15
+  author: Ezra
+  group: Old Testament
+  set: History
   permalink: /faith/ezra
   description:
   image:
 
 - name: Nehemiah
   order: 16
+  author: Nehemiah or Ezra
+  group: Old Testament
+  set: History
   permalink: /faith/nehemiah
   description:
   image:
 
 - name: Esther
   order: 17
+  author: 
+  group: Old Testament
+  set: Megillot
   permalink: /faith/esther
   description:
   image:
 
 - name: Job
   order: 18
+  author:
+  group: Old Testament
+  set: Wisdom Literature
   permalink: /faith/job
   description:
   image:
 
 - name: Psalms
   order: 19
+  author: Various
   permalink: /faith/psalms
   description:
   image:
 
 - name: Proverbs
   order: 20
+  author:
+  group: Old Testament
+  set: Wisdom Literature
   permalink: /faith/proverbs
   description:
   image:
 
 - name: Ecclesiastes
   order: 21
+  author: Unknown
+  group: Old Testament
+  set: Wisdom Literature, Megillot
   permalink: /faith/ecclesiastes
-  description:
+  description: "Ecclesiastes was written around 250 BC, during the time when the Greeks ruled over Jerusalem and the Jews. The book presents a naturalistic vision of life, but ultimately recognizes the rule and reign of God in the world."
   image:
 
 - name: Song of Solomon
   order: 22
+  author: 
+  group: Old Testament
+  set: Megillot
   permalink: /faith/song-of-solomon
   description:
   image:
@@ -183,6 +211,9 @@
 
 - name: Lamentations
   order: 25
+  author: Jeremiah
+  group: Old Testament
+  set: Megillot
   permalink: /faith/lamentations
   description: "The book of Lamentations is a poetic work of five chapters written by the prophet Jeremiah in response to the destruction of Jerusalem by Nebuchadnezzar of Babylon. In Lamentations, each chapter is an acrostic poem. Chapters 1, 2, 4, and 5 all contain 22 verses, each beginning with a letter from the Hebrew alphabet, in ascending order."
   image:
@@ -325,6 +356,8 @@
 - name: Acts
   order: 44
   author: Luke
+  group: New Testament
+  set: Acts
   permalink: /faith/acts
   description:
   image:
@@ -332,6 +365,8 @@
 - name: Romans
   order: 45
   author: Paul
+  group: New Testament
+  set: Pauline Epistles
   permalink: /faith/romans
   description:
   image:
@@ -339,6 +374,8 @@
 - name: 1 Corinthians
   order: 46
   author: Paul
+  group: New Testament
+  set: Pauline Epistles
   permalink: /faith/1-corinthians
   description:
   image:
@@ -346,6 +383,8 @@
 - name: 2 Corinthians
   order: 47
   author: Paul
+  group: New Testament
+  set: Pauline Epistles
   permalink: /faith/2-corinthians
   description: ""
   image: ""
@@ -353,6 +392,8 @@
 - name: Galatians
   order: 48
   author: Paul
+  group: New Testament
+  set: Pauline Epistles
   permalink: /faith/galatians
   description:
   image:
@@ -360,6 +401,8 @@
 - name: Ephesians
   order: 49
   author: Paul
+  group: New Testament
+  set: Pauline Epistles
   permalink: /faith/ephesians
   description:
   image:
@@ -367,6 +410,8 @@
 - name: Philippians
   order: 50
   author: Paul
+  group: New Testament
+  set: Pauline Epistles
   permalink: /faith/philippians
   description:
   image:
@@ -375,7 +420,7 @@
   order: 51
   author: Paul
   group: New Testament
-  set: Epistles
+  set: Pauline Epistles
   permalink: /faith/colossians
   description: "Written to the Colossian church, this short letter by the apostle Paul is overflowing with Christology. The church at Colossae (a.k.a. Colosse) was in a small town located in the Lycus river valley, within the Phrygian region in Asia. Many scholars agree that it was likely Epaphras, not Paul, who planted and pastored the church. The letter addresses a heresy that had arisen, but specifics are not mentioned&mdash;only Paul's response, which is to affirm the deity of Jesus Christ and to establish Christ as central to the believer's life: &ldquo;the substance is Christ&rdquo; (2:17, CSB)."
   image:
@@ -383,6 +428,8 @@
 - name: 1 Thessalonians
   order: 52
   author: Paul
+  group: New Testament
+  set: Pauline Epistles
   permalink: /faith/1-thessalonians
   description:
   image:
@@ -390,6 +437,8 @@
 - name: 2 Thessalonians
   order: 53
   author: Paul
+  group: New Testament
+  set: Pauline Epistles
   permalink: /faith/2-thessalonians
   description:
   image:
@@ -397,6 +446,8 @@
 - name: 1 Timothy
   order: 54
   author: Paul
+  group: New Testament
+  set: Pauline Epistles
   permalink: /faith/1-timothy
   description:
   image:
@@ -404,6 +455,8 @@
 - name: 2 Timothy
   order: 55
   author: Paul
+  group: New Testament
+  set: Pauline Epistles
   permalink: /faith/2-timothy
   description:
   image:
@@ -411,6 +464,8 @@
 - name: Titus
   order: 56
   author: Paul
+  group: New Testament
+  set: Pauline Epistles
   permalink: /faith/titus
   description:
   image:
@@ -418,6 +473,8 @@
 - name: Philemon
   order: 57
   author: Paul
+  group: New Testament
+  set: Pauline Epistles
   permalink: /faith/philemon
   description:
   image:
@@ -425,6 +482,8 @@
 - name: Hebrews
   order: 58
   author: Unknown
+  group: New Testament
+  set: General Epistles
   permalink: /faith/hebrews
   description:
   image:
@@ -432,6 +491,8 @@
 - name: James
   order: 59
   author: James
+  group: New Testament
+  set: General Epistles
   permalink: /faith/james
   description:
   image:
@@ -439,6 +500,8 @@
 - name: 1 Peter
   order: 60
   author: Peter
+  group: New Testament
+  set: General Epistles
   permalink: /faith/1-peter
   description:
   image:
@@ -446,6 +509,8 @@
 - name: 2 Peter
   order: 61
   author: Peter
+  group: New Testament
+  set: General Epistles
   permalink: /faith/2-peter
   description:
   image:
@@ -453,6 +518,8 @@
 - name: 1 John
   order: 62
   author: John
+  group: New Testament
+  set: General Epistles
   permalink: /faith/1-john
   description:
   image:
@@ -460,6 +527,8 @@
 - name: 2 John
   order: 63
   author: John
+  group: New Testament
+  set: General Epistles
   permalink: /faith/2-john
   description:
   image:
@@ -467,6 +536,8 @@
 - name: 3 John
   order: 64
   author: John
+  group: New Testament
+  set: General Epistles
   permalink: /faith/3-john
   description:
   image:
@@ -474,13 +545,17 @@
 - name: Jude
   order: 65
   author: Jude
+  group: New Testament
+  set: General Epistles
   permalink: /faith/jude
-  description: "The Epistle of Jude is a short book of the New Testament, written in the late 1st century AD, probably between AD 67 and 80. The author identifies himself as Jude, the brother of James, who was the half-brother of Jesus. Jude's letter is a warning to the church against false teachers who have infiltrated the community. He describes these teachers as ungodly, immoral, and denying the Lord Jesus Christ. Jude calls on the church to contend for the faith and to remain faithful to the apostles' teaching."
+  description: "The epistle of Jude is a short book of the New Testament, written in the late 1st century AD, probably between AD 67 and 80. The author identifies himself as Jude, the brother of James, who was the half-brother of Jesus. Jude's letter is a warning to the church against false teachers who have infiltrated the community. He describes these teachers as ungodly, immoral, and denying the Lord Jesus Christ. Jude calls on the church to contend for the faith and to remain faithful to the apostles' teaching."
   image:
 
 - name: Revelation
   order: 66
   author: John
+  group: New Testament
+  set: Revelation
   permalink: /faith/revelation
   description:
   image: https://res.cloudinary.com/caples/image/upload/v1654119783/Books%20of%20the%20Bible/revelation_wzosto.jpg
