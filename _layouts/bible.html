@@ -10,9 +10,6 @@
 		{% endif %}
 		{% include header.html %}
 		{% assign book = site.data.bible | where: "name", page.title %}
-		<script>
-			gtag('set', 'content_group', 'Bible books');
-		</script>
 		{% for b in book %}
 			<div class="px-7 bg-sand" style="margin-top:15vh;">
 				<h1 class="relative max-w-4 mx-auto md:mx-10 lg:mx-auto pt-20 lg:px-10 text-3xl lg:text-4xl font-bold">{{ b.name }}</h1>

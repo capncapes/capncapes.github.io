@@ -10,10 +10,6 @@ description: "Child welfare services are managed by states, so the laws, policie
 permalink: /christian-resources/adoption-foster-care-tn/
 ---
 
-<script>
-	gtag('set', 'content_group', 'Christian resources');
-</script>
-
 Most child welfare services are managed by individual states, so the laws, policies, and fees you experience may differ from what's shown here. All of these organizations serve Tennessee, but some of them serve several states. I hope these resources provide you with a good starting point, but you must ultimately conduct your own research based on applicable laws and where you live.
 
 ### Department of Children's Services, Tennessee (DCS)

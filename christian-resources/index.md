@@ -10,10 +10,6 @@ description: "Browse a curated collection of Christian resources for Bible study
 permalink: /christian-resources/
 ---
 
-<script>
-	gtag('set', 'content_group', 'Christian resources');
-</script>
-
 Explore this ongoing collection of Christian resources, including print and digital publications, study group locators, Bible studies, adoption agencies, counseling services, and more. You can expect these pages to be updated occasionally, so please check back here often.
 
   <!-- Cards Gallery : START -->

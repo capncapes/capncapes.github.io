@@ -4,10 +4,6 @@ title: Caples Web Design
 permalink: /caples-web-design/
 ---
 
-<script>
-	gtag('set', 'content_group', 'Caples Web Design');
-</script>
-
 Hi, I’m Brandon, the designer and developer at Caples Web Design. I started this business in the spring of 2018 as a way to offer quality web design services to small businesses. Small business owners provide the backbone of the American economy; they’re shop owners, photographers, accountants, financial advisors, chiropractors, dentists, florists, restauranteurs, yogis, plumbers, and more. The list goes on.
 
 I have worked directly with small businesses in a variety of industries, and what I’ve found is always the same: they want quality web solutions at affordable prices. Maybe you share their sentiment. You’re working with your own money, and you’re careful where you invest it. I get that. Maybe you want more than the cheap subscription services offer, but you’re not willing to spend a lot to pay a big marketing agency. I also get that.
