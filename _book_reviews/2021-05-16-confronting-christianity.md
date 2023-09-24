@@ -1,6 +1,6 @@
 ---
 layout: book_review
-date: 2021-05-16 20:08:00 -0400
+date: 2021-05-16 20:08:00 -0500
 title: "Book Review of Confronting Christianity"
 book: {
   title: "Confronting Christianity: 12 Hard Questions for the World's Largest Religion",

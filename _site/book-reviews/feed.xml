@@ -100,7 +100,7 @@
                 <dc:creator>
                     <![CDATA[ Brandon Caples ]]>
                 </dc:creator>
-                <pubDate>Thu, 30 Sep 2021 14:04:55 -0400</pubDate>
+                <pubDate>Thu, 30 Sep 2021 15:04:55 -0400</pubDate>
                 
             </item>
         
@@ -138,6 +138,22 @@
         
             <item>
                 <title>
+                    <![CDATA[ How the Post Office Created America ]]>
+                </title>
+                <description>
+                    <![CDATA[ How the Post Office Created America is a thought-provoking and well-researched book that illuminates the often underestimated role of the postal service in shaping the United States. ]]>
+                </description>
+                <link>http://localhost:4000/book-reviews/how-the-post-office-created-america</link>
+                <guid isPermaLink="true">http://localhost:4000/book-reviews/how-the-post-office-created-america</guid>
+                <dc:creator>
+                    <![CDATA[ Brandon Caples ]]>
+                </dc:creator>
+                <pubDate>Sun, 23 Jan 2022 12:40:31 -0500</pubDate>
+                
+            </item>
+        
+            <item>
+                <title>
                     <![CDATA[ The Concise History of the Crusades Book Review ]]>
                 </title>
                 <description>
@@ -164,7 +180,7 @@
                 <dc:creator>
                     <![CDATA[ Brandon Caples ]]>
                 </dc:creator>
-                <pubDate>Wed, 22 Jun 2022 12:00:01 -0400</pubDate>
+                <pubDate>Wed, 22 Jun 2022 13:00:01 -0400</pubDate>
                 
             </item>
         

@@ -1,6 +1,6 @@
 ---
 layout: book_review
-date: 2022-06-22 12:00:01 -0400
+date: 2022-06-22 12:00:01 -0500
 title: "Paul the Apostle"
 book: {
   title: "Paul the Apostle: Missionary, Martyr, Theologian",

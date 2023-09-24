@@ -1,6 +1,6 @@
 ---
 layout: book_review
-date: 2021-09-30 14:04:55 -0400
+date: 2021-09-30 14:04:55 -0500
 title: "A Review of Gentle and Lowly"
 book: {
   title: "Gentle and Lowly: The Heart of Christ for Sinners and Sufferers",
