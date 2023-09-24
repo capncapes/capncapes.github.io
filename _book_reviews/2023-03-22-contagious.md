@@ -107,6 +107,11 @@ The students overwhelmingly preferred the first slogan, calling the second one �
 
 Triggers can be powerful influencers of behavior. Studies have shown that political votes cast from inside school buildings achieved results more favorable for school districts, even after controlling for regional and demographic factors. And the 2011 self-produced song “Friday,” by Rebecca Black, achieved more than 300 million YouTube views, with spikes every Friday during its popular streak. The <q>whiny, overproduced number about teenage life and the joys of the weekend</q> was triggered in people’s memories every Friday.
 
+<picture class="block md:mx-12 xl:mx-0">
+	<source type="image/webp" srcset="/assets/img/books/contagious-triggers.webp" >
+	<img src="/assets/img/books/contagious-triggers.jpeg" class="my-12 shadow" alt="A picture of Jonah's Berger's book Contagious, open to the page about Rebecca Black's song Friday" />
+</picture>
+
 #### <q>Top of mind means tip of tongue.</q>
 
 Small talk is the most common type of communication, and it is often the catalyst for triggered word of mouth. We fill the empty space of our conversations based on what’s going on around us. When it comes to products, Berger found that <q>more frequently triggered products got 15 percent more word of mouth.</q> And triggers generate higher levels of both immediate and ongoing word of mouth.
