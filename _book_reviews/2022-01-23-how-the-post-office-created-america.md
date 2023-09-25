@@ -50,7 +50,7 @@ It’s astounding to consider how quickly the post office grew, beginning in Col
 	<thead>
 		<tr class="text-xs">
 			<th scope="col">Year</th>
-			<th scope="col">Number of Post Offices</th>
+			<th scope="col">Number of U.S. Post Offices</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -88,6 +88,14 @@ It’s astounding to consider how quickly the post office grew, beginning in Col
 		</tr>
 	</tbody>
 </table>
+
+## Missing the digital revolution
+
+Gallagher fills her book with examples of innovation within the post office—technologies and ideas that pushed the nation forward—but she notes the post’s “monumental failure” during the digital revolution:
+
+<q>The postal visionaries of the past would have tried to provide Americans with cheap, secure broadband access and email accounts that protect them from hackers and hucksters. They would have moved to capitalize on the post’s great brand for security and privacy by offering safe ways to transact business online, including a legally binding digital signature service, secure cards for paying bills and authenticating identity, and safe digital storage. They would have insisted that every post office in America become a neighborhood media hub equipped with a bank of computers that enabled citizens to go online for little or no expense—a service now provided by more than sixty nations around the world, to say nothing of America’s own public libraries, where people queue up or take a number for online access.</q>
+
+The USPS and Congress, <q>beset with lobbyists from special interest groups,</q> failed miserably to continue the post’s legacy of innovation when digitization arrived. Rather than remembering its philosophy of ensuring an informed population, the USPS kept the status quo and stuck to physical mail, and an opportunity was missed.
 
 In conclusion, <a href="https://www.penguinrandomhouse.com/books/311582/how-the-post-office-created-america-by-winifred-gallagher/" class="italic">How the Post Office Created America</a> is a thought-provoking and well-researched book that illuminates the often underestimated role of the postal service in shaping the United States. Winifred Gallagher's compelling narrative skillfully underscores how this institution went beyond delivering letters and packages to play a central role in fostering a sense of unity, democracy, and shared culture. This book offers readers a fresh perspective on American history and a deeper understanding of the intricate ways in which seemingly mundane institutions can profoundly impact a nation's development.
 

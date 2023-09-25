@@ -109,7 +109,7 @@ Triggers can be powerful influencers of behavior. Studies have shown that politi
 
 <picture class="block md:mx-12 xl:mx-0">
 	<source type="image/webp" srcset="/assets/img/books/contagious-triggers.webp" >
-	<img src="/assets/img/books/contagious-triggers.jpeg" class="my-12 shadow" alt="A picture of Jonah's Berger's book Contagious, open to the page about Rebecca Black's song Friday" />
+	<img src="/assets/img/books/contagious-triggers.jpeg" class="my-12 shadow" alt="A picture of Jonah Berger's book Contagious, open to a page about Rebecca Black's song Friday" />
 </picture>
 
 #### <q>Top of mind means tip of tongue.</q>
