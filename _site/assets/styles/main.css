@@ -929,8 +929,6 @@ th {
 	background-color: #DEDECA;
 }
 
-/* tr { border: 2px solid #EDEDE2; } */
-
 /* ================================================================
 	15	Content Layouts
 ================================================================ */
@@ -990,6 +988,39 @@ audio, canvas, embed, iframe, img, object, svg, video {
 	max-width: 100%;
 	border-radius: 4px;
 }
+
+/* SVG */
+
+main article svg .fill-transparent { fill: none; }
+main article svg .fill-red { fill: #F05454; }
+main article svg .fill-green { fill: #2CA096; }
+main article svg .fill-blue { fill: #30475E; }
+main article svg .fill-yellow { fill: #F9D423; }
+main article svg .fill-orange { fill: #F77825; }
+main article svg .fill-stone { fill: #EDEDE2; }
+main article svg .fill-sand { fill: #DEDECA; }
+main article svg .fill-black { fill: #121212; }
+main article svg .fill-white { fill: #F8F9FA; }
+
+main article svg .stroke-transparent { stroke: none; }
+main article svg .stroke-red { stroke: #F05454; }
+main article svg .stroke-green { stroke: #2CA096; }
+main article svg .stroke-blue { stroke: #30475E; }
+main article svg .stroke-yellow { stroke: #F9D423; }
+main article svg .stroke-orange { stroke: #F77825; }
+main article svg .stroke-stone { stroke: #EDEDE2; }
+main article svg .stroke-sand { stroke: #DEDECA; }
+main article svg .stroke-black { stroke: #121212; }
+main article svg .stroke-white { stroke: #F8F9FA; }
+
+main article svg .stroke-0 { stroke-width: 0; }
+main article svg .stroke { stroke-width: 1px; }
+main article svg .stroke-1 { stroke-width: 0.25rem; }
+main article svg .stroke-2 { stroke-width: 0.5rem; }
+
+main article svg .stroke-square { stroke-linecap: square; }
+main article svg .stroke-round { stroke-linecap: round; }
+main article svg .stroke-butt { stroke-linecap: butt; }
 
 .object-cover {
 	-o-object-fit: cover;

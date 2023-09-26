@@ -963,6 +963,15 @@
   
     
       <url>
+        <loc>http://localhost:4000/book-reviews/five-dysfunctions-of-a-team</loc>
+        
+          <lastmod>2022-04-06T22:30:59-04:00</lastmod>
+        
+      </url>
+    
+  
+    
+      <url>
         <loc>http://localhost:4000/book-reviews/paul-the-apostle</loc>
         
           <lastmod>2022-06-22T13:00:01-04:00</lastmod>
