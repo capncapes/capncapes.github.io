@@ -1,4 +1,74 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-09-25T17:00:39-04:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">capncapes.github.io</title><subtitle>A blog site built with Jekyll consisting of two blogs, a feed of book reviews, and other content pages.</subtitle><author><name>Brandon Caples</name></author><entry><title type="html">Image and dominion</title><link href="http://localhost:4000/faith/2023/image-and-dominion" rel="alternate" type="text/html" title="Image and dominion" /><published>2023-03-05T16:59:16-05:00</published><updated>2023-03-05T16:59:16-05:00</updated><id>http://localhost:4000/faith/2023/image-and-dominion</id><content type="html" xml:base="http://localhost:4000/faith/2023/image-and-dominion">&lt;p&gt;What informs your identity? Like most people, it’s a few things for me. I’m a husband and father, a Christ follower, a son, a brother, a digital marketer and website developer, a hobbyist woodworker, and a resident of Tennessee, among other characteristics that contribute to my identity. But which takes precedent? Certainly some parts of my identity are less important than others. What’s at the core of my identity? We can look to the Bible for answers.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-09-26T12:24:19-04:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">capncapes.github.io</title><subtitle>A blog site built with Jekyll consisting of two blogs, a feed of book reviews, and other content pages.</subtitle><author><name>Brandon Caples</name></author><entry><title type="html">Google Analytics 4 user properties</title><link href="http://localhost:4000/martech/2023/ga4-user-properties" rel="alternate" type="text/html" title="Google Analytics 4 user properties" /><published>2023-09-20T15:15:16-04:00</published><updated>2023-09-20T15:15:16-04:00</updated><id>http://localhost:4000/martech/2023/ga4-user-properties</id><content type="html" xml:base="http://localhost:4000/martech/2023/ga4-user-properties">&lt;p&gt;If you’ve worked with Google Analytics 4 (GA4) for any amount of time, you’re probably familiar with event properties. When you send an event, you can attach parameters that provide more context for that event. But there’s a powerful feature that you may not be using called &lt;em&gt;user properties&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;Google Analytics 4 user properties are customizable attributes that describe groups of your users, such as their language preferences, geographic locations, or subscription status. You can use user properties to segment your audience and create more granular reports, helping you to better understand your users and improve their experience.&lt;/p&gt;
+
+&lt;p&gt;A user property will remain attached to a user profile in GA4 until it’s overwritten, making it very useful when segmenting users, even when a user is not currently involved in a segmentation activity. For example, you could send a user property to GA4 that defines a user as an email subscriber, allowing you to report on website activity for email subscribers, even if they haven’t clicked an email in a while.&lt;/p&gt;
+
+&lt;p&gt;You can create up to 25 user properties per Google Analytics 4 property. Here are a few ideas to get you started:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;email_subscriber&lt;/li&gt;
+  &lt;li&gt;sms_subscriber&lt;/li&gt;
+  &lt;li&gt;mail_subscriber&lt;/li&gt;
+  &lt;li&gt;user_role&lt;/li&gt;
+  &lt;li&gt;donor_giving_level&lt;/li&gt;
+  &lt;li&gt;event_attendee&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;It’s important to remember that custom dimensions should not receive too many unique values. Create user properties with boolean values (true/false) or ones with only a few possible options. Some marketing companies, for example, ask for a user’s organizational role while registering a new account. Rather than asking for a specific title, it’s typically a dropdown menu with a handful of marketing roles that are significant to the collecting organization (&lt;em&gt;e.g.&lt;/em&gt; Executive, Developer, Analyst).&lt;/p&gt;
+
+&lt;h2 id=&quot;adding-user-properties-to-ga4&quot;&gt;Adding user properties to GA4&lt;/h2&gt;
+
+&lt;p&gt;It’s very simple to add new user properties to GA4, and it can be done either with Google Tag Manager (GTM) or in the code of the site using the Google Tag (gtag).&lt;/p&gt;
+
+&lt;h3 id=&quot;google-tag-manager&quot;&gt;Google Tag Manager&lt;/h3&gt;
+
+&lt;p&gt;To set a user property with Google Tag Manager, simply click the &lt;strong&gt;Add Row&lt;/strong&gt; button in the User Properties tab of a GA4 event. Add the name of the user property and its value. You can define a GTM variable to hold the user property value. For a user property called email_subscriber, you would probably use JavaScript to determine when a pageview event comes from an email click (based on UTM parameter values) and set the value of the variable to either true or false.&lt;/p&gt;
+
+&lt;picture class=&quot;block md:mx-12 xl:mx-0&quot;&gt;
+	&lt;source type=&quot;image/webp&quot; srcset=&quot;/assets/img/martech/google-tag-manager-user-property.webp&quot; /&gt;
+	&lt;img src=&quot;/assets/img/martech/google-tag-manager-user-property.png&quot; class=&quot;shadow&quot; alt=&quot;Google Analytics 4 user property setup in Google Tag Manager&quot; /&gt;
+&lt;/picture&gt;
+
+&lt;h3 id=&quot;google-tag&quot;&gt;Google Tag&lt;/h3&gt;
+
+&lt;p&gt;To set a user property in the website code, first make sure that the Google Tag (gtag.js) is present on the page. If it’s not, you can choose to &lt;a href=&quot;https://developers.google.com/tag-platform/gtagjs/install&quot;&gt;install the Google Tag&lt;/a&gt; or use GTM.&lt;/p&gt;
+
+&lt;p&gt;This is the format for setting a user property using the Google Tag:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-javascript&quot; data-lang=&quot;javascript&quot;&gt;&lt;span class=&quot;nx&quot;&gt;gtag&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&apos;&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;set&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;&apos;&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;user_properties&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;na&quot;&gt;email_subscriber&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;kc&quot;&gt;true&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+  &lt;span class=&quot;na&quot;&gt;app_user&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;kc&quot;&gt;false&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+  &lt;span class=&quot;na&quot;&gt;occupation&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;&apos;&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;physician&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&apos;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;});&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;To set a user property for only one data stream, use a config command instead:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-javascript&quot; data-lang=&quot;javascript&quot;&gt;&lt;span class=&quot;nx&quot;&gt;gtag&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&apos;&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;config&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;&apos;&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;STREAM_ID&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;dl&quot;&gt;&apos;&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;user_properties&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;na&quot;&gt;email_subscriber&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;kc&quot;&gt;true&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+    &lt;span class=&quot;na&quot;&gt;app_user&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;kc&quot;&gt;true&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+    &lt;span class=&quot;na&quot;&gt;occupation&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;&apos;&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;web developer&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&apos;&lt;/span&gt;
+  &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;});&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Simply replace &lt;em&gt;STREAM_ID&lt;/em&gt; with your own data stream ID. You can find your data stream ID by going to &lt;strong&gt;Admin&lt;/strong&gt;, selecting the appropriate property, and choosing &lt;strong&gt;Data Streams&lt;/strong&gt; from the list.&lt;/p&gt;
+
+&lt;picture class=&quot;block md:mx-12 xl:mx-0&quot;&gt;
+	&lt;source type=&quot;image/webp&quot; srcset=&quot;/assets/img/martech/google-analytics-4-stream-id.webp&quot; /&gt;
+	&lt;img src=&quot;/assets/img/martech/google-analytics-4-stream-id.png&quot; class=&quot;shadow&quot; alt=&quot;Google Analytics 4 data stream ID and measurement ID&quot; /&gt;
+&lt;/picture&gt;
+
+&lt;p&gt;Make sure that you create a &lt;em&gt;user-scoped&lt;/em&gt; custom dimension in GA4 for each user property you want to use. Otherwise, GA4 won’t collect the data. It’s also important that &lt;strong&gt;Scope&lt;/strong&gt; is set to “User” in order to attribute the property to the user instead of to the event. You can do this by selecting &lt;strong&gt;Custom definitions&lt;/strong&gt; from the property column in the &lt;strong&gt;Admin&lt;/strong&gt; settings.&lt;/p&gt;
+
+&lt;picture class=&quot;block md:mx-12 xl:mx-0&quot;&gt;
+	&lt;source type=&quot;image/webp&quot; srcset=&quot;/assets/img/martech/google-analytics-4-user-scoped-dimension.webp&quot; /&gt;
+	&lt;img src=&quot;/assets/img/martech/google-analytics-4-user-scoped-dimension.png&quot; class=&quot;shadow&quot; alt=&quot;Google Analytics 4 user-scoped custom dimension&quot; /&gt;
+&lt;/picture&gt;
+
+&lt;p&gt;Google Analytics 4 collects some &lt;a href=&quot;https://support.google.com/analytics/answer/9268042&quot;&gt;user properties by default&lt;/a&gt;, which you’re probably already using in your reports. Your custom user properties can be used in the same way by adding them to reports and explorations and viewing them in the realtime report.&lt;/p&gt;
+
+&lt;p&gt;If you’re not already employing user properties in your reports and dashboards, this one feature could be a game changer for your business analytics.&lt;/p&gt;</content><author><name>Brandon Caples</name></author><category term="MarTech" /><category term="Google Analytics 4" /><category term="data" /><summary type="html">If you’ve worked with Google Analytics 4 (GA4) for any amount of time, you’re probably familiar with event properties. When you send an event, you can attach parameters that provide more context for that event. But there’s a powerful feature that you may not be using called user properties.</summary></entry><entry><title type="html">Image and dominion</title><link href="http://localhost:4000/faith/2023/image-and-dominion" rel="alternate" type="text/html" title="Image and dominion" /><published>2023-03-05T16:59:16-05:00</published><updated>2023-03-05T16:59:16-05:00</updated><id>http://localhost:4000/faith/2023/image-and-dominion</id><content type="html" xml:base="http://localhost:4000/faith/2023/image-and-dominion">&lt;p&gt;What informs your identity? Like most people, it’s a few things for me. I’m a husband and father, a Christ follower, a son, a brother, a digital marketer and website developer, a hobbyist woodworker, and a resident of Tennessee, among other characteristics that contribute to my identity. But which takes precedent? Certainly some parts of my identity are less important than others. What’s at the core of my identity? We can look to the Bible for answers.&lt;/p&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;So God created mankind in his own image, in the image of God he created them; male and female he created them.&lt;/p&gt;
@@ -216,11 +286,11 @@ and all the angels shouted for joy?&lt;/p&gt;
 
 &lt;h2 id=&quot;now&quot;&gt;NOW()&lt;/h2&gt;
 
-&lt;p&gt;The &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;NOW()&lt;/code&gt; function simply returns the current datetime, like this: &lt;strong&gt;2023-09-25 17:00:41&lt;/strong&gt;. You will probably use &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;NOW()&lt;/code&gt; a lot. If you only need the current date or the current time, use &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;CURDATE()&lt;/code&gt; or &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;CURTIME()&lt;/code&gt;, respectively.&lt;/p&gt;
+&lt;p&gt;The &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;NOW()&lt;/code&gt; function simply returns the current datetime, like this: &lt;strong&gt;2023-09-26 12:24:21&lt;/strong&gt;. You will probably use &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;NOW()&lt;/code&gt; a lot. If you only need the current date or the current time, use &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;CURDATE()&lt;/code&gt; or &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;CURTIME()&lt;/code&gt;, respectively.&lt;/p&gt;
 
 &lt;h2 id=&quot;getdate&quot;&gt;GETDATE()&lt;/h2&gt;
 
-&lt;p&gt;The &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;GETDATE()&lt;/code&gt; function works exactly like the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;NOW()&lt;/code&gt; function, except that &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;GETDATE()&lt;/code&gt; returns milliseconds, too. The query result would look something like this: &lt;strong&gt;2023-09-25 17:00:41.347&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;The &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;GETDATE()&lt;/code&gt; function works exactly like the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;NOW()&lt;/code&gt; function, except that &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;GETDATE()&lt;/code&gt; returns milliseconds, too. The query result would look something like this: &lt;strong&gt;2023-09-26 12:24:21.185&lt;/strong&gt;.&lt;/p&gt;
 
 &lt;h2 id=&quot;date&quot;&gt;DATE()&lt;/h2&gt;
 &lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;DATE(date)&lt;/code&gt;&lt;/p&gt;
@@ -739,85 +809,4 @@ bring me out of my sufferings.&lt;/p&gt;
 
 &lt;h3 id=&quot;look-to-the-second-coming&quot;&gt;Look to the second coming&lt;/h3&gt;
 
-&lt;p&gt;As Christians, our hope is found in Jesus and his second coming to restore all things to perfection. We are told to watch and pray in anticipation of the second coming of Christ, &lt;q cite=&quot;Jude 21, CSB&quot;&gt;waiting expectantly for the mercy of our Lord Jesus Christ for eternal life.&lt;/q&gt; (Jude 21, CSB)&lt;/p&gt;</content><author><name>Brandon Caples</name></author><category term="Faith" /><category term="eternal life" /><category term="eschatology" /><category term="gospels" /><summary type="html">“Is this real life?” David After Dentist is a hilarious viral video of a 7-year old boy fresh out of a dental procedure who is clearly still feeling the effects of nitrous oxide, or laughing gas. David’s father assures him that, yes, this is real life. But for Christians, this is also eternal life. We’re living in it now.</summary></entry><entry><title type="html">Christ in you, the hope of glory</title><link href="http://localhost:4000/faith/2022/christ-in-you-hope-of-glory" rel="alternate" type="text/html" title="Christ in you, the hope of glory" /><published>2022-05-20T13:00:01-04:00</published><updated>2022-05-20T13:00:01-04:00</updated><id>http://localhost:4000/faith/2022/christ-in-you-hope-of-glory</id><content type="html" xml:base="http://localhost:4000/faith/2022/christ-in-you-hope-of-glory">&lt;p&gt;Is there a Christian teacher whom you greatly respect but have never met? How would it feel to receive a personal letter from that person commending you for your faith and revealing their prayers for you? That is how the church in Colossae must have felt to receive a letter from the apostle Paul. By the time he wrote Colossians, Paul was well-known in the growing Christian movement, and Colossae was a small city with little influence.&lt;/p&gt;
-
-&lt;p&gt;Paul did not plant the Colossian church; he likely never even visited it. But he had heard about their “faith in Christ Jesus and of the love you have for all the saints” (1:4) through Epaphras. Epaphras is probably the one who started the Colossian church, and the minister of Christ who “told us about your love in the Spirit.” (1:8)&lt;/p&gt;
-
-&lt;p&gt;The letter to the Colossians is rich with theology. N. T. Wright notes, &lt;q&gt;Faced with a young church in a small town in up-country Asia Minor, Paul has written a letter in which he has distilled his understanding of some of the greatest themes in theology.&lt;/q&gt; (Wright, 40)&lt;sup id=&quot;fnref:1&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt; There’s so much to discuss in Colossians, but Paul’s brief mention of ministering to the church in 1:24–29 can be a particularly tricky passage.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;&lt;sup&gt;24&lt;/sup&gt; Now I rejoice in my sufferings for your sake, and in my flesh I am filling up what is lacking in Christ’s afflictions for the sake of his body, that is, the church, &lt;sup&gt;25&lt;/sup&gt; of which I became a minister according to the stewardship from God that was given to me for you, to make the word of God fully known, &lt;sup&gt;26&lt;/sup&gt; the mystery hidden for ages and generations but now revealed to his saints. &lt;sup&gt;27&lt;/sup&gt; To them God chose to make known how great among the Gentiles are the riches of the glory of this mystery, which is Christ in you, the hope of glory. &lt;sup&gt;28&lt;/sup&gt; Him we proclaim, warning everyone and teaching everyone with all wisdom, that we may present everyone mature in Christ. &lt;sup&gt;29&lt;/sup&gt; For this I toil, struggling with all his energy that he powerfully works within me.&lt;/p&gt;
-
-  &lt;p&gt;&lt;cite&gt;Colossians 1:24–29, &lt;abbr title=&quot;English Standard Version&quot;&gt;ESV&lt;/abbr&gt;&lt;/cite&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h2 id=&quot;rejoicing-in-sufferings&quot;&gt;Rejoicing in sufferings&lt;/h2&gt;
-
-&lt;p&gt;Paul begins this passage by rejoicing in his sufferings &lt;q&gt;for your [the church’s] sake&lt;/q&gt; (v. 24) He rejoices in his sufferings elsewhere in his writings&lt;sup id=&quot;fnref:2&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:2&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;2&lt;/a&gt;&lt;/sup&gt;, so this is not strange. Paul understands that he must suffer (Acts 9:16) along with all Christians, but Wright believes Paul to be &lt;q&gt;drawing the enemy’s fire on to himself&lt;/q&gt; (p. 89) as a way to relieve the young Colossian church of excess affliction. Personally, I see the clause “for your sake” as qualifying the rejoicing, not the suffering. Students of Greek grammar can correct me if I’m wrong, but I might re-write it this way: &lt;q&gt;Now I rejoice, for your sake, in my sufferings…&lt;/q&gt; With this rendering, Paul would be modeling joy in suffering for a young church already struggling with how to live as Christians. I have to admit, though, both interpretations seem very reasonable to me and align with Paul’s character.&lt;/p&gt;
-
-&lt;h2 id=&quot;does-paul-provide-what-is-lacking-in-christs-afflictions&quot;&gt;Does Paul provide what is lacking in Christ’s afflictions?&lt;/h2&gt;
-
-&lt;p&gt;The second part of verse 24 is strange and difficult:&lt;/p&gt;
-
-&lt;p&gt;&lt;q&gt;… and in my flesh I am filling up what is lacking in Christ’s afflictions for the sake of his body, that is, the church…&lt;/q&gt;&lt;/p&gt;
-
-&lt;p&gt;What could be lacking in Christ’s afflictions? Is Paul suggesting that the atonement on the cross is somehow incomplete? &lt;em&gt;I have to admit that I don’t clearly understand Paul’s meaning here.&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;I’ve heard the interpretation that what’s lacking is gospel preaching—that since Jesus is no longer on the earth, Paul is picking up his preaching where he left off. This exposition seems incomplete to me. It’s true that Jesus is no longer physically preaching to people, but that doesn’t seem to create “lack” in Christ’s afflictions.&lt;/p&gt;
-
-&lt;p&gt;I think I fall more in line with how N. T. Wright and others interpret this passage. The church will necessarily suffer as Christ himself suffered. What is lacking in Christ’s afflictions is continued suffering. Christ no longer endures trials, temptations, and abuse in this world; his suffering has ended. But our suffering—the trials of believers around the world and through the ages—continues, and Paul &lt;q&gt;is filling up&lt;/q&gt; whatever contains all the Christian suffering, by enduring an excess amount, yet joyfully. This interpretation aligns well with Wright’s explanation for Paul’s suffering in the first half of verse 24.&lt;/p&gt;
-
-&lt;h2 id=&quot;the-mystery&quot;&gt;The mystery&lt;/h2&gt;
-
-&lt;p&gt;In 1:25–27, Paul next refers to himself as a minister to the church—both the larger body of Christ and the Colossian church, which likely was mostly Gentile converts. In verse 25, he mentions his stewardship from God &lt;q&gt;to make the word of God fully known&lt;/q&gt; and calls it &lt;q&gt;the mystery hidden for ages and generations&lt;/q&gt; (ESV). These verses are strikingly similar to part of Paul’s letter to the church in Ephesus:&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;&lt;sup&gt;7&lt;/sup&gt; Of this gospel I was made a minister according to the gift of God’s grace, which was given me by the working of his power. &lt;sup&gt;8&lt;/sup&gt; To me, though I am the very least of all the saints, this grace was given, to preach to the Gentiles the unsearchable riches of Christ, &lt;sup&gt;9&lt;/sup&gt; and to bring to light for everyone what is the plan of the mystery hidden for ages in God, who created all things, &lt;sup&gt;10&lt;/sup&gt; so that through the church the manifold wisdom of God might now be made known to the rulers and authorities in the heavenly places.&lt;/p&gt;
-
-  &lt;p&gt;&lt;cite&gt;Ephesians 3:7–10, ESV&lt;/cite&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;In both passages, Paul states that he was made a minister to the church by God for the sake of the Gentiles, he mentions the riches of Christ, and he proclaims the &lt;q&gt;mystery hidden for ages&lt;/q&gt; which he has been charged with sharing. The mystery here should not be thought of by the English definition of a mystery, as a puzzle or perplexity. N. T. Wright notes, &lt;q&gt;In their looking forward to the day when God would act in history to restore the fortunes of his people, some Jewish seers expressed their hopes in terms of the ‘secret plans’ that God was reserving for the last great day.&lt;/q&gt; The plans of Yahweh are alluded to throughout the Old Testament but are now revealed to all God’s people. These plans are not a timeline of events, however, but a person: Jesus Christ.&lt;/p&gt;
-
-&lt;h3 id=&quot;christ-in-you-the-hope-of-glory&quot;&gt;&lt;q&gt;Christ in you, the hope of glory&lt;/q&gt;&lt;/h3&gt;
-
-&lt;p&gt;The Christology of Colossians 1:15–20 is amplified in the words, &lt;q&gt;Christ in you, the hope of glory&lt;/q&gt; (v. 27) Paul expands on this ancient mystery which is revealed to the Gentiles (not just the people of Israel!): Messiah (Christ) lives in/among you (plural), which is your hope of future glory.&lt;sup id=&quot;fnref:3&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:3&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;3&lt;/a&gt;&lt;/sup&gt; Of the “riches” of verse 27, Wright notes, &lt;q&gt;Among these treasures is the fact that God’s glory is to be &lt;em&gt;shared&lt;/em&gt; with his people (&lt;em&gt;cf.&lt;/em&gt; Rom. 5:2). This &lt;em&gt;hope of glory&lt;/em&gt; is a certainty because of the mystery itself, which is &lt;em&gt;Christ in you&lt;/em&gt;.&lt;/q&gt; (92) The righteousness of Christ is counted to those who live by faith in him. W. G. T. Shedd writes in his &lt;em&gt;Dogmatic Theology&lt;/em&gt;, &lt;q&gt;Christ’s perfect obedience which merits eternal life is not the sinner’s perfect obedience, but God imputes it to him: he calls or reckons it his.&lt;/q&gt; (Shedd, 700)&lt;sup id=&quot;fnref:4&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:4&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;4&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;paul-works-because-god-works&quot;&gt;Paul works because God works&lt;/h2&gt;
-
-&lt;p&gt;In the final two verses of this short passage, Paul presents the reason for his labors, &lt;q&gt;that we may present everyone mature in Christ&lt;/q&gt; (v. 28) With this statement, Paul reflects Christ himself. As verse 22 reveals, reconciliation between God and humanity was achieved by Jesus by his death on the cross, &lt;q&gt;in order to present you holy and blameless and above reproach.&lt;/q&gt; In other words, Christ reconciled us to God by imputing his righteousness to us &lt;em&gt;so that&lt;/em&gt; we may stand before God “holy and blameless and above reproach.” Paul labors steadfastly; God is at work and so he must be as well.&lt;/p&gt;
-
-&lt;p&gt;Paul ends the first chapter of Colossians&lt;sup id=&quot;fnref:5&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:5&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;5&lt;/a&gt;&lt;/sup&gt; on a high note: he gives all his energy—and truly it’s actually Christ’s energy imparted to Paul (&lt;q&gt;that he powerfully works within me&lt;/q&gt;)—to the stewardship he’s been given by God to proclaim the gospel to the Gentiles.&lt;/p&gt;
-
-&lt;h2 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h2&gt;
-
-&lt;p&gt;The key message of these verses, I think, is that &lt;em&gt;everyone&lt;/em&gt;&lt;sup id=&quot;fnref:6&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:6&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;6&lt;/a&gt;&lt;/sup&gt; is capable of Christian maturity in Christ—both Jew and Gentile. I’ll close with a quote from Wright’s commentary:&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Then it is that the goal of maturity (not ‘perfection’ in the sense of sinlessness, as Phil. 3:13–14 makes clear) may be in sight. This goal is possible &lt;q&gt;in Christ&lt;/q&gt;: the Image of God himself now lives in his people by his Spirit (1:8), working secretly until their life and his are indistinguishable in their basic character, in true humanity (1:27; 3:10).&lt;/p&gt;
-
-  &lt;p&gt;&lt;cite&gt;N. T. Wright, “The Epistles of Paul to the Colossians and to Philemon: An Introduction and Commentary” (p. 94)&lt;/cite&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;div class=&quot;footnotes&quot; role=&quot;doc-endnotes&quot;&gt;
-  &lt;ol&gt;
-    &lt;li id=&quot;fn:1&quot; role=&quot;doc-endnote&quot;&gt;
-      &lt;p&gt;Wright, N. T. &lt;em&gt;The Epistles of Paul to the Colossians and to Philemon: An Introduction and Commentary&lt;/em&gt;, Inter-Varsity Press, Leicester, England, 1986. Tyndale New Testament Commentaries. &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
-    &lt;/li&gt;
-    &lt;li id=&quot;fn:2&quot; role=&quot;doc-endnote&quot;&gt;
-      &lt;p&gt;Cf. Romans 5:3–5; 2 Corinthians 12:10; Philippians 1:12–18, 3:10–11. &lt;a href=&quot;#fnref:2&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
-    &lt;/li&gt;
-    &lt;li id=&quot;fn:3&quot; role=&quot;doc-endnote&quot;&gt;
-      &lt;p&gt;See also, &lt;q&gt;we declare God’s wisdom, a mystery that has been hidden and that God destined for our glory before time began.&lt;/q&gt; (1 Corinthians 2:7, &lt;abbr title=&quot;New International Version&quot;&gt;NIV&lt;/abbr&gt;) &lt;a href=&quot;#fnref:3&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
-    &lt;/li&gt;
-    &lt;li id=&quot;fn:4&quot; role=&quot;doc-endnote&quot;&gt;
-      &lt;p&gt;Shedd, W. G. T. (1888). &lt;em&gt;Dogmatic Theology&lt;/em&gt;. &lt;a href=&quot;#fnref:4&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
-    &lt;/li&gt;
-    &lt;li id=&quot;fn:5&quot; role=&quot;doc-endnote&quot;&gt;
-      &lt;p&gt;In actuality, Paul’s letter contained no chapters or verses, and chapter 2 continues with his labor for the church and the mystery of Christ. &lt;a href=&quot;#fnref:5&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
-    &lt;/li&gt;
-    &lt;li id=&quot;fn:6&quot; role=&quot;doc-endnote&quot;&gt;
-      &lt;p&gt;It’s not insignificant that Paul uses the word &lt;em&gt;everyone&lt;/em&gt; three times in verse 28. &lt;a href=&quot;#fnref:6&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
-    &lt;/li&gt;
-  &lt;/ol&gt;
-&lt;/div&gt;</content><author><name>Brandon Caples</name></author><category term="Faith" /><category term="Christ" /><category term="Paul&apos;s letters" /><summary type="html">Is there a Christian teacher whom you greatly respect but have never met? How would it feel to receive a personal letter from that person commending you for your faith and revealing their prayers for you? That is how the church in Colossae must have felt to receive a letter from the apostle Paul. By the time he wrote Colossians, Paul was well-known in the growing Christian movement, and Colossae was a small city with little influence.</summary></entry></feed>
+&lt;p&gt;As Christians, our hope is found in Jesus and his second coming to restore all things to perfection. We are told to watch and pray in anticipation of the second coming of Christ, &lt;q cite=&quot;Jude 21, CSB&quot;&gt;waiting expectantly for the mercy of our Lord Jesus Christ for eternal life.&lt;/q&gt; (Jude 21, CSB)&lt;/p&gt;</content><author><name>Brandon Caples</name></author><category term="Faith" /><category term="eternal life" /><category term="eschatology" /><category term="gospels" /><summary type="html">“Is this real life?” David After Dentist is a hilarious viral video of a 7-year old boy fresh out of a dental procedure who is clearly still feeling the effects of nitrous oxide, or laughing gas. David’s father assures him that, yes, this is real life. But for Christians, this is also eternal life. We’re living in it now.</summary></entry></feed>

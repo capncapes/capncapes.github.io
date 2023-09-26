@@ -4,35 +4,35 @@
       <g id="level_1">
          <path id="level_1_shape" style="fill:none; stroke:#F05454; stroke-width:1px; stroke-linecap:round;" d="M -7.0244885,242.37694 H 212.68704 l 6.51038,10.65457 -12.83217,20.99543 H -0.70268732 L -13.535908,253.03151 Z" />
          <path id="text_line_1" style="fill:none;" d="M 36.684922,258.20198 H 168.97659" />
-         <text style="font-family:inherit; font-size:40%; color:inherit;">
+         <text style="font-family: 'Open Sans', 'Roboto', 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif; font-size:40%; color:inherit;">
             <textPath href="#text_line_1" startOffset="50%" alignment-baseline="middle" text-anchor="middle" class="pyramid-text">Trust</textPath>
          </text>
       </g>
       <g id="level_2">
          <path id="level_2_shape" style="fill:none; stroke:#F05454; stroke-width:1px; stroke-linecap:round;" d="m 17.023591,202.68944 -19.5636634,31.65 H 208.20158 l -19.56366,-31.65 z" />
          <path id="text_line_2" style="fill:none;" d="M 49.914089,218.51444 H 155.74742" />
-         <text style="font-family:inherit; font-size:40%; color:inherit;">
+         <text style="font-family: 'Open Sans', 'Roboto', 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif; font-size:40%; color:inherit;">
             <textPath href="#text_line_2" startOffset="50%" alignment-baseline="middle" text-anchor="middle" class="pyramid-text">Conflict</textPath>
          </text>
       </g>
       <g id="level_3">
          <path id="level_3_shape" style="fill:none; stroke:#F05454; stroke-width:1px; stroke-linecap:round;" d="m 41.391353,163.00194 -19.563663,31.65 h 162.00613 l -19.56367,-31.65 z" />
          <path id="text_line_3" style="fill:none;" d="m 63.14326,178.82694 h 79.375" />
-         <text style="font-family:inherit; font-size:40%; color:inherit;">
+         <text style="font-family: 'Open Sans', 'Roboto', 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif; font-size:40%; color:inherit;">
             <textPath href="#text_line_3" startOffset="50%" alignment-baseline="middle" text-anchor="middle" class="pyramid-text">Commitment</textPath>
          </text>
       </g>
       <g id="level_4">
          <path id="level_4_shape" style="fill:none; stroke:#F05454; stroke-width:1px; stroke-linecap:round;" d="m 65.759374,123.31444 -19.563664,31.65 H 159.4658 l -19.56367,-31.65 z" />
          <path id="text_line_4" style="fill:none;" d="M 76.372426,139.13943 H 129.28909" />
-         <text style="font-family:inherit; font-size:40%; color:inherit;">
+         <text style="font-family: 'Open Sans', 'Roboto', 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif; font-size:40%; color:inherit;">
             <textPath href="#text_line_4" startOffset="50%" alignment-baseline="middle" text-anchor="middle" class="pyramid-text">Accountability</textPath>
          </text>
       </g>
       <g id="level_5">
          <path id="level_5_shape" style="fill:none; stroke:#F05454; stroke-width:1px; stroke-linecap:round;" d="m 89.963326,83.62694 -19.399851,31.65 h 64.534565 l -19.40036,-31.65 z" />
          <path id="text_line_5" style="fill:none;" d="M 89.601588,99.45194 H 116.05993" />
-         <text style="font-family:inherit; font-size:40%; color:inherit;">
+         <text style="font-family: 'Open Sans', 'Roboto', 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif; font-size:40%; color:inherit;">
             <textPath href="#text_line_5" startOffset="50%" alignment-baseline="middle" text-anchor="middle" class="pyramid-text">Results</textPath>
          </text>
       </g>
