@@ -9,7 +9,7 @@ book: {
   publisher: "Flatiron Books",
   author: ["Josh Clark", "Chuck Bryant"]
 }
-description: ""
+description: "Josh Clark and Chuck Bryant are both excellent writers, and they have a knack for making complex topics accessible and entertaining."
 featured_image: {
   src: "sysk-book.webp",
   fallback: "sysk-book.jpeg",
@@ -20,7 +20,7 @@ tags: ["trivia", "nonfiction", "history", "science"]
 published: true
 ---
 
-<a href="https://us.macmillan.com/books/9781250268501/stuffyoushouldknow" class="italic" target="_blank">Stuff You Should Know: An Incomplete Compendium of Mostly Interesting Things</a> is a cheeky factbook of unusual trivia. Written by the hosts of <a href="https://www.heraldsun.com.au/lifestyle/smart/stuff-you-show-know-hosts-josh-and-chuck-on-fake-news-trump-and-their-billiondownload-podcast/news-story/a955e63734bb1e2c860c8e1877fb7f89" target="_blank">the insanely popular podcast</a> by the same name, <em>Stuff You Should Know</em> recreates, in written form, the playful energy of Josh Clark and Chuck Bryant’s rapport as they guide the reader through 27 chapters of informative topics.
+<a href="https://us.macmillan.com/books/9781250268501/stuffyoushouldknow" class="italic" target="_blank">Stuff You Should Know: An Incomplete Compendium of Mostly Interesting Things</a> is a cheeky factbook of unusual trivia. Written by the hosts of <a href="https://www.heraldsun.com.au/lifestyle/smart/stuff-you-show-know-hosts-josh-and-chuck-on-fake-news-trump-and-their-billiondownload-podcast/news-story/a955e63734bb1e2c860c8e1877fb7f89" target="_blank">the insanely popular podcast</a> by the same name, <em>Stuff You Should Know</em> recreates, in written form, the playful energy of Josh Clark and Charles W. (Chuck) Bryant’s rapport as they guide the reader through 27 chapters of informative topics.
 
 <picture class="block md:mx-12 xl:mx-0">
 	<source type="image/webp" srcset="/assets/img/books/sysk-chapter-10.webp" >
@@ -71,7 +71,13 @@ Each of the 27 chapters of the book is devoted to a single topic.
 	<img src="/assets/img/books/sysk-pet-rock.jpg" class="shadow" alt="Pet rock illustration, Stuff You Should Know, by Josh Clark and Chuck Bryant" />
 </picture>
 
-This book is simply a joy to flip through. You can read it cover-to-cover or as independent chapters. It certainly makes a great coffee table book. Along with a handful of charming illustrations in each chapter, many chapters also contain rather unique tables and charts. If you enjoy random trivia, witty banter, and playful visuals, I recommend <a href="https://us.macmillan.com/books/9781250268501/stuffyoushouldknow" class="italic" target="_blank">Stuff You Should Know</a>. (And check out the <a href="https://www.iheart.com/podcast/105-stuff-you-should-know-26940277/" target="_blank">podcast</a>, too.)
+Josh Clark and Chuck Bryant are both excellent writers, and they have a knack for making complex topics accessible and entertaining. The book is full of interesting facts and anecdotes, and it's sure to leave you with a newfound appreciation for the world around you.
+
+One of the things that makes _Stuff You Should Know_ so enjoyable is the authors' sense of humor. They're not afraid to poke fun at themselves or their subject matter, and they always manage to keep things light-hearted, even when they're discussing serious topics.
+
+Another thing that makes the book stand out is the breadth of topics covered. There's something for everyone, whether you're interested in science, history, technology, or pop culture.
+
+Overall, _Stuff You Should Know_ is an excellent book. It's informative, entertaining, and thought-provoking. This book is simply a joy to flip through. You can read it cover-to-cover or as independent chapters. It certainly makes a great coffee table book. Along with a handful of charming illustrations in each chapter, many chapters also contain rather unique tables and charts. If you enjoy random trivia, witty banter, and playful visuals, I recommend <a href="https://us.macmillan.com/books/9781250268501/stuffyoushouldknow" class="italic" target="_blank">Stuff You Should Know</a>. (And check out the <a href="https://www.iheart.com/podcast/105-stuff-you-should-know-26940277/" target="_blank">podcast</a>, too.)
 
 <picture class="block md:mx-12 xl:mx-0">
 	<source type="image/webp" srcset="/assets/img/books/sysk-facial-hair.webp" >
