@@ -42,6 +42,22 @@
         
             <item>
                 <title>
+                    <![CDATA[ UTM parameters ]]>
+                </title>
+                <description>
+                    <![CDATA[ UTM parameters are snippets of text that can be added to the end of a URL to track the effectiveness of online marketing campaigns. ]]>
+                </description>
+                <link>http://localhost:4000/martech/2023/utm-parameters</link>
+                <guid isPermaLink="true">http://localhost:4000/martech/2023/utm-parameters</guid>
+                <dc:creator>
+                    <![CDATA[ Brandon Caples ]]>
+                </dc:creator>
+                <pubDate>Thu, 03 Aug 2023 07:58:56 -0400</pubDate>
+                
+            </item>
+        
+            <item>
+                <title>
                     <![CDATA[ Using dates with SQL ]]>
                 </title>
                 <description>

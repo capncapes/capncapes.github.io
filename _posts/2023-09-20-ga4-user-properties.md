@@ -38,7 +38,7 @@ It’s very simple to add new user properties to GA4, and it can be done either 
 
 ### Google Tag Manager
 
-To set a user property with Google Tag Manager, simply click the **Add Row** button in the User Properties tab of a GA4 event. Add the name of the user property and its value. You can define a GTM variable to hold the user property value. For a user property called email_subscriber, you would probably use JavaScript to determine when a pageview event comes from an email click (based on UTM parameter values) and set the value of the variable to either true or false.
+To set a user property with Google Tag Manager, simply click the **Add Row** button in the User Properties tab of a GA4 event. Add the name of the user property and its value. You can define a GTM variable to hold the user property value. For a user property called email_subscriber, you would probably use JavaScript to determine when a pageview event comes from an email click (based on [UTM parameter values](/martech/2023/utm-parameters)) and set the value of the variable to either true or false.
 
 <picture class="block md:mx-12 xl:mx-0">
 	<source type="image/webp" srcset="/assets/img/martech/google-tag-manager-user-property.webp" >

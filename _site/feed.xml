@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-09-26T12:24:19-04:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">capncapes.github.io</title><subtitle>A blog site built with Jekyll consisting of two blogs, a feed of book reviews, and other content pages.</subtitle><author><name>Brandon Caples</name></author><entry><title type="html">Google Analytics 4 user properties</title><link href="http://localhost:4000/martech/2023/ga4-user-properties" rel="alternate" type="text/html" title="Google Analytics 4 user properties" /><published>2023-09-20T15:15:16-04:00</published><updated>2023-09-20T15:15:16-04:00</updated><id>http://localhost:4000/martech/2023/ga4-user-properties</id><content type="html" xml:base="http://localhost:4000/martech/2023/ga4-user-properties">&lt;p&gt;If you’ve worked with Google Analytics 4 (GA4) for any amount of time, you’re probably familiar with event properties. When you send an event, you can attach parameters that provide more context for that event. But there’s a powerful feature that you may not be using called &lt;em&gt;user properties&lt;/em&gt;.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-10-09T23:43:26-04:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">capncapes.github.io</title><subtitle>A blog site built with Jekyll consisting of two blogs, a feed of book reviews, and other content pages.</subtitle><author><name>Brandon Caples</name></author><entry><title type="html">Google Analytics 4 user properties</title><link href="http://localhost:4000/martech/2023/ga4-user-properties" rel="alternate" type="text/html" title="Google Analytics 4 user properties" /><published>2023-09-20T15:15:16-04:00</published><updated>2023-09-20T15:15:16-04:00</updated><id>http://localhost:4000/martech/2023/ga4-user-properties</id><content type="html" xml:base="http://localhost:4000/martech/2023/ga4-user-properties">&lt;p&gt;If you’ve worked with Google Analytics 4 (GA4) for any amount of time, you’re probably familiar with event properties. When you send an event, you can attach parameters that provide more context for that event. But there’s a powerful feature that you may not be using called &lt;em&gt;user properties&lt;/em&gt;.&lt;/p&gt;
 
 &lt;p&gt;Google Analytics 4 user properties are customizable attributes that describe groups of your users, such as their language preferences, geographic locations, or subscription status. You can use user properties to segment your audience and create more granular reports, helping you to better understand your users and improve their experience.&lt;/p&gt;
 
@@ -23,7 +23,7 @@
 
 &lt;h3 id=&quot;google-tag-manager&quot;&gt;Google Tag Manager&lt;/h3&gt;
 
-&lt;p&gt;To set a user property with Google Tag Manager, simply click the &lt;strong&gt;Add Row&lt;/strong&gt; button in the User Properties tab of a GA4 event. Add the name of the user property and its value. You can define a GTM variable to hold the user property value. For a user property called email_subscriber, you would probably use JavaScript to determine when a pageview event comes from an email click (based on UTM parameter values) and set the value of the variable to either true or false.&lt;/p&gt;
+&lt;p&gt;To set a user property with Google Tag Manager, simply click the &lt;strong&gt;Add Row&lt;/strong&gt; button in the User Properties tab of a GA4 event. Add the name of the user property and its value. You can define a GTM variable to hold the user property value. For a user property called email_subscriber, you would probably use JavaScript to determine when a pageview event comes from an email click (based on &lt;a href=&quot;/martech/2023/utm-parameters&quot;&gt;UTM parameter values&lt;/a&gt;) and set the value of the variable to either true or false.&lt;/p&gt;
 
 &lt;picture class=&quot;block md:mx-12 xl:mx-0&quot;&gt;
 	&lt;source type=&quot;image/webp&quot; srcset=&quot;/assets/img/martech/google-tag-manager-user-property.webp&quot; /&gt;
@@ -68,7 +68,159 @@
 
 &lt;p&gt;Google Analytics 4 collects some &lt;a href=&quot;https://support.google.com/analytics/answer/9268042&quot;&gt;user properties by default&lt;/a&gt;, which you’re probably already using in your reports. Your custom user properties can be used in the same way by adding them to reports and explorations and viewing them in the realtime report.&lt;/p&gt;
 
-&lt;p&gt;If you’re not already employing user properties in your reports and dashboards, this one feature could be a game changer for your business analytics.&lt;/p&gt;</content><author><name>Brandon Caples</name></author><category term="MarTech" /><category term="Google Analytics 4" /><category term="data" /><summary type="html">If you’ve worked with Google Analytics 4 (GA4) for any amount of time, you’re probably familiar with event properties. When you send an event, you can attach parameters that provide more context for that event. But there’s a powerful feature that you may not be using called user properties.</summary></entry><entry><title type="html">Image and dominion</title><link href="http://localhost:4000/faith/2023/image-and-dominion" rel="alternate" type="text/html" title="Image and dominion" /><published>2023-03-05T16:59:16-05:00</published><updated>2023-03-05T16:59:16-05:00</updated><id>http://localhost:4000/faith/2023/image-and-dominion</id><content type="html" xml:base="http://localhost:4000/faith/2023/image-and-dominion">&lt;p&gt;What informs your identity? Like most people, it’s a few things for me. I’m a husband and father, a Christ follower, a son, a brother, a digital marketer and website developer, a hobbyist woodworker, and a resident of Tennessee, among other characteristics that contribute to my identity. But which takes precedent? Certainly some parts of my identity are less important than others. What’s at the core of my identity? We can look to the Bible for answers.&lt;/p&gt;
+&lt;p&gt;If you’re not already employing user properties in your reports and dashboards, this one feature could be a game changer for your business analytics.&lt;/p&gt;</content><author><name>Brandon Caples</name></author><category term="MarTech" /><category term="Google Analytics 4" /><category term="data" /><summary type="html">If you’ve worked with Google Analytics 4 (GA4) for any amount of time, you’re probably familiar with event properties. When you send an event, you can attach parameters that provide more context for that event. But there’s a powerful feature that you may not be using called user properties.</summary></entry><entry><title type="html">UTM parameters</title><link href="http://localhost:4000/martech/2023/utm-parameters" rel="alternate" type="text/html" title="UTM parameters" /><published>2023-08-03T07:58:56-04:00</published><updated>2023-08-03T07:58:56-04:00</updated><id>http://localhost:4000/martech/2023/utm-parameters</id><content type="html" xml:base="http://localhost:4000/martech/2023/utm-parameters">&lt;p&gt;UTM parameters, or Urchin Tracking Module parameters, are snippets of text that can be added to the end of a URL to track the effectiveness of online marketing campaigns. UTM parameters are supported by most web analytics tools, including Google Analytics.&lt;/p&gt;
+
+&lt;p&gt;These parameters can be used to track the performance of individual marketing campaigns, as well as the overall effectiveness of different marketing channels. For example, you could use UTM parameters to track the number of visitors to your website from a specific social media post, or to track the conversion rate of visitors who came to your website from a paid search campaign.&lt;/p&gt;
+
+&lt;p&gt;UTM parameters are a powerful tool that can help you to track the effectiveness of your online marketing campaigns and make informed decisions about your marketing strategy.&lt;/p&gt;
+
+&lt;h2 id=&quot;how-to-use-utm-parameters&quot;&gt;How to use UTM parameters&lt;/h2&gt;
+
+&lt;p&gt;According to multiple articles and tutorials, UTM parameters are case-sensitive. Google Analytics 4 evaluates UTM parameters as lowercase values, so all parameters should be lowercase. Google Analytics 4 converts data to lowercase, but this isn’t 100% reliable.&lt;/p&gt;
+
+&lt;p&gt;UTM parameters should only be used when the source and destination for a link are not measured by the same Google Analytics property. In other words, don’t use UTM parameters to track internal links; doing so can distort your data. If you need to track specific internal link clicks, I recommend creating an event or event parameters that allow you to filter your reports appropriately.&lt;/p&gt;
+
+&lt;p&gt;For Google Analytics 4 (&lt;abbr title=&quot;Google Analytics 4&quot;&gt;GA4&lt;/abbr&gt;) to classify &lt;a href=&quot;https://support.google.com/analytics/answer/9756891?hl=en&quot;&gt;default channel groups&lt;/a&gt; appropriately, UTM parameters should meet certain standards. &lt;abbr title=&quot;Google Analytics 4&quot;&gt;GA4&lt;/abbr&gt; associates channels based on values of the two most important UTM parameters: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;utm_source&lt;/code&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;utm_medium&lt;/code&gt;. Other useful parameters are &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;utm_content&lt;/code&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;utm_campaign&lt;/code&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;the-utm-parameters&quot;&gt;The UTM parameters&lt;/h2&gt;
+
+&lt;p&gt;A tracking URL is made up of four parameters: source, medium, content, and campaign name. These parameters do not need to be in any particular order. To use UTM parameters, simply add them to the end of a URL, separated by question marks and ampersands. For example, the following URL uses UTM parameters to track the traffic from a specific social media post:&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;https://www.example.com/?utm_source=facebook.com&amp;amp;utm_medium=social&amp;amp;utm_campaign=spring-sale&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;(When a URL contains parameters, the start of the parameter string is always &lt;strong&gt;?&lt;/strong&gt;, as indicated above. Then each parameter, and its value, is separated by &lt;strong&gt;&amp;amp;&lt;/strong&gt;. These URL parameters can sometimes determine the content on the page, but only if the website is programmed to do that. Otherwise, parameters do not affect the user experience, since they are largely for analytics.)&lt;/p&gt;
+
+&lt;p&gt;When a user clicks on this link, the UTM parameters will be sent to &lt;abbr title=&quot;Google Analytics 4&quot;&gt;GA4&lt;/abbr&gt; and other web analytics tools, depending on which tools are installed on the website. You can then view reports in your web analytics tool to see how many visitors came to your website from this link, and how they interacted with your website.&lt;/p&gt;
+
+&lt;h3 id=&quot;utm-source&quot;&gt;UTM Source&lt;/h3&gt;
+
+&lt;p&gt;The &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;utm_source&lt;/code&gt; parameter should identify where the link lives—the source of the user who clicked. The &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;utm_source&lt;/code&gt; is often a website domain, like facebook.com or edx.org. For some media, the source can be more flexible but should still identify where the original click came from.&lt;/p&gt;
+
+&lt;h4 id=&quot;examples&quot;&gt;Examples&lt;/h4&gt;
+
+&lt;p&gt;The following link lives on Instagram in a reel featuring Shaquille O’Neal for the brand awareness campaign. When a link comes from another website, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;utm_source&lt;/code&gt; is determined automatically. In this case, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;utm_source&lt;/code&gt; can be omitted from the tracking link.&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;?utm_source=instagram&amp;amp;utm_medium=social&amp;amp;utm_content=shaq-reel&amp;amp;utm_campaign=2023_brand_awareness&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;This link is in the footer of the second email (“donor appeal”) in the October 2023 fundraising campaign.&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;?utm_source=2-donor-appeal&amp;amp;utm_medium=email&amp;amp;utm_content=footer&amp;amp;utm_campaign=2023-10_fundraising&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;The following is a shortlink printed on the reply envelope of the October 2023 fundraising letter.&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;?utm_source=fundraising-letter&amp;amp;utm_medium=print&amp;amp;utm_content=reply-envelope&amp;amp;utm_campaign=2023-10_fundraising&lt;/code&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;utm-medium&quot;&gt;UTM Medium&lt;/h3&gt;
+
+&lt;p&gt;The &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;utm_medium&lt;/code&gt; parameter is more rigid and should follow Google’s standards identified in the &lt;a href=&quot;https://support.google.com/analytics/answer/9756891?hl=en&quot;&gt;documentation&lt;/a&gt;. It is the vehicle for the message that the user interacted with. It could be a &lt;strong&gt;referral&lt;/strong&gt; from another website, an &lt;strong&gt;email&lt;/strong&gt;, a &lt;strong&gt;print&lt;/strong&gt;ed document, or some other mode of communication.&lt;/p&gt;
+
+&lt;h4 id=&quot;examples-1&quot;&gt;Examples&lt;/h4&gt;
+
+&lt;p&gt;The following link is on Facebook in the ad with a product focus, which is part of a retargeting campaign.&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;?utm_source=facebook&amp;amp;utm_medium=retargeting&amp;amp;utm_content=product-focus&amp;amp;utm_campaign=2023_social_advertising&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;This affiliate link is on an influencer’s blog. Tracking parameters are only needed if the link directs to a website not tracked by a &lt;abbr title=&quot;Google Analytics 4&quot;&gt;GA4&lt;/abbr&gt; property’s cross-domain settings. If this link originated on a subdomain of the destination site, tracking parameters would not be needed. In this case, the tracking link is needed since the influencer’s blog site is likely not tracked by the same &lt;abbr title=&quot;Google Analytics 4&quot;&gt;GA4&lt;/abbr&gt; property as the destination site.&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;?utm_source=influencer.blog&amp;amp;utm_medium=affiliate&amp;amp;utm_content=try-this-awesome-product&amp;amp;utm_campaign=2023_influencers&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;This link is the first CTA link in the first email (“content delivery”) of the brand awareness campaign.&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;?utm_source=1-content-delivery&amp;amp;utm_medium=email&amp;amp;utm_content=cta-1&amp;amp;utm_campaign=2023_brand_awareness&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;This link is in an app’s settings, directing to a contact form.&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;?utm_source=settings&amp;amp;utm_medium=app&amp;amp;utm_content=contact&amp;amp;utm_campaign=app_ios&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;As mentioned previously, if you want &lt;abbr title=&quot;Google Analytics 4&quot;&gt;GA4&lt;/abbr&gt; to appropriately identify and organize default channel groups, you need to be intentional about &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;utm_medium&lt;/code&gt;, even more so than &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;utm_source&lt;/code&gt;. &lt;abbr title=&quot;Google Analytics 4&quot;&gt;GA4&lt;/abbr&gt; monitors values of both to organize default channel groups, but I’ve found that following stricter rules with &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;utm_medium&lt;/code&gt; values allows for more flexibility when assigning &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;utm_source&lt;/code&gt; values. (You can also define &lt;a href=&quot;https://support.google.com/analytics/answer/13051316?hl=en&quot;&gt;custom channel groups&lt;/a&gt; to work with an existing naming convention in place.)&lt;/p&gt;
+
+&lt;p&gt;The table below provides &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;utm_medium&lt;/code&gt; values that work with the &lt;abbr title=&quot;Google Analytics 4&quot;&gt;GA4&lt;/abbr&gt; default channel grouping rules. There are other values that work, and they are &lt;a href=&quot;https://support.google.com/analytics/answer/9756891?hl=en&quot;&gt;documented on the Analytics Help site&lt;/a&gt;. Custom values can also be added as you see fit, but you may need to define additional channel grouping rules.&lt;/p&gt;
+
+&lt;div class=&quot;px-12&quot;&gt;
+	&lt;table&gt;
+		&lt;thead&gt;
+			&lt;tr class=&quot;text-xs&quot;&gt;
+				&lt;th scope=&quot;col&quot;&gt;Medium&lt;/th&gt;
+				&lt;th scope=&quot;col&quot;&gt;Convention&lt;/th&gt;
+				&lt;th scope=&quot;col&quot;&gt;Examples&lt;/th&gt;
+			&lt;/tr&gt;
+		&lt;/thead&gt;
+		&lt;tbody&gt;
+			&lt;tr class=&quot;text-xs&quot;&gt;
+				&lt;td&gt;Printed Materials&lt;/td&gt;
+				&lt;td&gt;The word &lt;em&gt;print&lt;/em&gt;&lt;/td&gt;
+				&lt;td&gt;print&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr class=&quot;text-xs&quot;&gt;
+				&lt;td&gt;Email&lt;/td&gt;
+				&lt;td&gt;The word &lt;em&gt;email&lt;/em&gt;&lt;/td&gt;
+				&lt;td&gt;email&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr class=&quot;text-xs&quot;&gt;
+				&lt;td&gt;External Website&lt;/td&gt;
+				&lt;td&gt;The word &lt;em&gt;referral&lt;/em&gt;&lt;/td&gt;
+				&lt;td&gt;referral&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr class=&quot;text-xs&quot;&gt;
+				&lt;td&gt;Affiliate Links&lt;/td&gt;
+				&lt;td&gt;The word &lt;em&gt;affiliate&lt;/em&gt;&lt;/td&gt;
+				&lt;td&gt;affiliate&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr class=&quot;text-xs&quot;&gt;
+				&lt;td&gt;Social Media&lt;/td&gt;
+				&lt;td&gt;The word &lt;em&gt;social&lt;/em&gt;&lt;/td&gt;
+				&lt;td&gt;social&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr class=&quot;text-xs&quot;&gt;
+				&lt;td&gt;Digital Ads&lt;/td&gt;
+				&lt;td&gt;The type of ad (&lt;em&gt;e.g.&lt;/em&gt; cp*, ppc, retargeting) or the word &lt;em&gt;paid&lt;/em&gt;&lt;/td&gt;
+				&lt;td&gt;cpc&lt;br /&gt;cpm&lt;br /&gt;ppc&lt;br /&gt;retargeting&lt;br /&gt;paid&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr class=&quot;text-xs&quot;&gt;
+				&lt;td&gt;Display Ads&lt;/td&gt;
+				&lt;td&gt;The type of display ad (&lt;em&gt;e.g.&lt;/em&gt; display, banner, expandable)&lt;/td&gt;
+				&lt;td&gt;display&lt;br /&gt;banner&lt;br /&gt;expandable&lt;br /&gt;interstitial&lt;br /&gt;cpm&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr class=&quot;text-xs&quot;&gt;
+				&lt;td&gt;Audio Ads&lt;/td&gt;
+				&lt;td&gt;The word &lt;em&gt;audio&lt;/em&gt;&lt;/td&gt;
+				&lt;td&gt;audio&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr class=&quot;text-xs&quot;&gt;
+				&lt;td&gt;Text Message&lt;/td&gt;
+				&lt;td&gt;The word &lt;em&gt;sms&lt;/em&gt;&lt;/td&gt;
+				&lt;td&gt;sms&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr class=&quot;text-xs&quot;&gt;
+				&lt;td&gt;App Notification&lt;/td&gt;
+				&lt;td&gt;The word &lt;em&gt;mobile&lt;/em&gt;&lt;/td&gt;
+				&lt;td&gt;mobile&lt;/td&gt;
+			&lt;/tr&gt;
+		&lt;/tbody&gt;
+	&lt;/table&gt;
+&lt;/div&gt;
+
+&lt;p&gt;(Since the channel group is determined based on the combined values of &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;utm_source&lt;/code&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;utm_medium&lt;/code&gt;, the &lt;strong&gt;source&lt;/strong&gt; will determine whether a digital ad is attributed to &lt;strong&gt;Paid Social&lt;/strong&gt;, &lt;strong&gt;Paid Search&lt;/strong&gt;, or another paid channel group.)&lt;/p&gt;
+
+&lt;h3 id=&quot;utm-content&quot;&gt;UTM Content&lt;/h3&gt;
+
+&lt;p&gt;The &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;utm_content&lt;/code&gt; parameter is used to differentiate creatives. Though it’s intended for advertising, utm_content is a very flexible parameter that can be used in any meaningful way. It can differentiate links within the same email—for example, a text link, a button, and a linked image all directing to the same product page. If needed, it could also be used to distinguish the destination of the link, as the utm_medium parameter has been used in the past (e.g. link-opd, link-known).&lt;/p&gt;
+
+&lt;p&gt;Because of its association with ads, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;utm_content&lt;/code&gt; can be found in &lt;abbr title=&quot;Google Analytics 4&quot;&gt;GA4&lt;/abbr&gt; as the Session manual ad content dimension, or sometimes simply as Ad content.&lt;/p&gt;
+
+&lt;h4 id=&quot;examples-2&quot;&gt;Examples&lt;/h4&gt;
+
+&lt;p&gt;The following link is from a brand ad on Facebook in an awareness campaign.&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;?utm_source=m.facebook.com&amp;amp;utm_medium=cpc&amp;amp;utm_content=brand-focus&amp;amp;utm_campaign=2023_brand_awareness&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;This link is from a QR code titled Community in a printed Bible study.&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;?utm_source=book_galatians&amp;amp;utm_medium=print&amp;amp;utm_content=qr-code_community&amp;amp;utm_campaign=product_bible-studies&lt;/code&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;utm-campaign&quot;&gt;UTM Campaign&lt;/h3&gt;
+
+&lt;p&gt;The &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;utm_campaign&lt;/code&gt; parameter is intended to identify a promotional campaign by name and can be used in any way that’s helpful. I recommend coming up with a naming convention for campaigns to make it easy to identify the various campaigns showing up in reports.&lt;/p&gt;</content><author><name>Brandon Caples</name></author><category term="MarTech" /><category term="Google Analytics 4" /><category term="data" /><summary type="html">UTM parameters, or Urchin Tracking Module parameters, are snippets of text that can be added to the end of a URL to track the effectiveness of online marketing campaigns. UTM parameters are supported by most web analytics tools, including Google Analytics.</summary></entry><entry><title type="html">Image and dominion</title><link href="http://localhost:4000/faith/2023/image-and-dominion" rel="alternate" type="text/html" title="Image and dominion" /><published>2023-03-05T16:59:16-05:00</published><updated>2023-03-05T16:59:16-05:00</updated><id>http://localhost:4000/faith/2023/image-and-dominion</id><content type="html" xml:base="http://localhost:4000/faith/2023/image-and-dominion">&lt;p&gt;What informs your identity? Like most people, it’s a few things for me. I’m a husband and father, a Christ follower, a son, a brother, a digital marketer and website developer, a hobbyist woodworker, and a resident of Tennessee, among other characteristics that contribute to my identity. But which takes precedent? Certainly some parts of my identity are less important than others. What’s at the core of my identity? We can look to the Bible for answers.&lt;/p&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;So God created mankind in his own image, in the image of God he created them; male and female he created them.&lt;/p&gt;
@@ -286,11 +438,11 @@ and all the angels shouted for joy?&lt;/p&gt;
 
 &lt;h2 id=&quot;now&quot;&gt;NOW()&lt;/h2&gt;
 
-&lt;p&gt;The &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;NOW()&lt;/code&gt; function simply returns the current datetime, like this: &lt;strong&gt;2023-09-26 12:24:21&lt;/strong&gt;. You will probably use &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;NOW()&lt;/code&gt; a lot. If you only need the current date or the current time, use &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;CURDATE()&lt;/code&gt; or &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;CURTIME()&lt;/code&gt;, respectively.&lt;/p&gt;
+&lt;p&gt;The &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;NOW()&lt;/code&gt; function simply returns the current datetime, like this: &lt;strong&gt;2023-10-09 23:43:27&lt;/strong&gt;. You will probably use &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;NOW()&lt;/code&gt; a lot. If you only need the current date or the current time, use &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;CURDATE()&lt;/code&gt; or &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;CURTIME()&lt;/code&gt;, respectively.&lt;/p&gt;
 
 &lt;h2 id=&quot;getdate&quot;&gt;GETDATE()&lt;/h2&gt;
 
-&lt;p&gt;The &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;GETDATE()&lt;/code&gt; function works exactly like the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;NOW()&lt;/code&gt; function, except that &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;GETDATE()&lt;/code&gt; returns milliseconds, too. The query result would look something like this: &lt;strong&gt;2023-09-26 12:24:21.185&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;The &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;GETDATE()&lt;/code&gt; function works exactly like the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;NOW()&lt;/code&gt; function, except that &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;GETDATE()&lt;/code&gt; returns milliseconds, too. The query result would look something like this: &lt;strong&gt;2023-10-09 23:43:27.785&lt;/strong&gt;.&lt;/p&gt;
 
 &lt;h2 id=&quot;date&quot;&gt;DATE()&lt;/h2&gt;
 &lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;DATE(date)&lt;/code&gt;&lt;/p&gt;
@@ -777,36 +929,4 @@ bring me out of my sufferings.&lt;/p&gt;
 
 &lt;h3 id=&quot;commit-changes&quot;&gt;Commit changes&lt;/h3&gt;
 
-&lt;p&gt;Commit your changes and push them to your remote repository. If you review the changes made in your version control host, you’ll notice that the updates remove all the instances of &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;.DS_Store&lt;/code&gt;, along with adding that line to your &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;.gitignore&lt;/code&gt; file.&lt;/p&gt;</content><author><name>Brandon Caples</name></author><category term="MarTech" /><category term="web development" /><category term="Git" /><summary type="html">Every developer with a Mac computer has encountered the .DS_Store file in their Git code. If you don’t know what it is, this file could be alarming. Don’t worry; .DS_Store is harmless. But it can be annoying when it shows up in every folder.</summary></entry><entry><title type="html">This is eternal life: know your God</title><link href="http://localhost:4000/faith/2022/this-is-eternal-life" rel="alternate" type="text/html" title="This is eternal life: know your God" /><published>2022-05-26T12:39:31-04:00</published><updated>2022-05-26T12:39:31-04:00</updated><id>http://localhost:4000/faith/2022/this-is-eternal-life</id><content type="html" xml:base="http://localhost:4000/faith/2022/this-is-eternal-life">&lt;p&gt;“Is this real life?” &lt;a href=&quot;https://youtu.be/txqiwrbYGrs&quot;&gt;David After Dentist&lt;/a&gt; is a hilarious viral video of a 7-year old boy fresh out of a dental procedure who is clearly still feeling the effects of nitrous oxide, or laughing gas. David’s father assures him that, yes, this is real life. But for Christians, this is also eternal life. We’re living in it now.&lt;/p&gt;
-
-&lt;h2 id=&quot;eternal-life-is-knowing-god&quot;&gt;Eternal life is knowing God&lt;/h2&gt;
-
-&lt;p&gt;In John 17, Jesus defines eternal life as knowing God:&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;&lt;sup&gt;1&lt;/sup&gt; Jesus spoke these things, looked up to heaven, and said, “Father, the hour has come. Glorify your Son so that the Son may glorify you, &lt;sup&gt;2&lt;/sup&gt; since you gave him authority over all people, so that he may give eternal life to everyone you have given him. &lt;sup&gt;3&lt;/sup&gt; This is eternal life: that they may know you, the only true God, and the one you have sent—Jesus Christ. &lt;sup&gt;4&lt;/sup&gt; I have glorified you on the earth by completing the work you gave me to do. &lt;sup&gt;5&lt;/sup&gt; Now, Father, glorify me in your presence with that glory I had with you before the world existed.&lt;/p&gt;
-
-  &lt;p&gt;&lt;cite&gt;John 17:1–5, &lt;abbr title=&quot;Christian Standard Bible&quot;&gt;CSB&lt;/abbr&gt;&lt;/cite&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;This passage is the beginning of the longest recorded prayer of Jesus, and it’s filled with love for his disciples—all of us throughout history. As Gary M. Burge notes, &lt;q&gt;John 17 gives us a glimpse into the heart of Jesus unlike any other chapter in the four Gospels.&lt;/q&gt; (&lt;em&gt;The NIV Application Commentary: John&lt;/em&gt;) Dane Ortlund takes it further in his book, &lt;a href=&quot;/book-reviews/gentle-and-lowly&quot; class=&quot;italic&quot; target=&quot;_blank&quot;&gt;Gentle and Lowly&lt;/a&gt;, when he describes Christ’s bottomless well of grace: &lt;q&gt;Jesus Christ is comforted when you draw from the riches of his atoning work, because his own body is getting healed.&lt;/q&gt; Jesus desires for his people to not only be with him eternally, but to come to him now, in this age, for grace.&lt;/p&gt;
-
-&lt;p&gt;There’s a lot to unpack in just these five verses, but one phrase that is often overlooked is, “This is eternal life: that they may know you” (v. 3). Louis Berkhof describes the nature of eternal life in his major theological treatise:&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;The reward of the righteous is described as eternal life, that is, not merely an endless life, but life in all its fulness, without any of the imperfections and disturbances of the present, Matt. 25:46; Rom. 2:7. The fulness of this life is enjoyed in communion with God, which is really the essence of eternal life, Rev. 21:3. They will see God in Jesus Christ face to face, will find full satisfaction in Him, will rejoice in Him, and will glorify Him.&lt;/p&gt;
-
-  &lt;p&gt;&lt;cite&gt;Louis Berkhof, Systematic Theology&lt;/cite&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Eternal life is not simply living forever, nor does it begin once the faithful believer dies. The gift of eternal life is complete and everlasting union with the fullness of God in Jesus Christ, face to face. Even better, it begins in this life. If eternal life, as defined by Christ himself, is to know God, then those of us who know God are experiencing it now. Eternal life for the Christian bleeds backward into time. Just as a door can be opened to let in the sunshine while a person is still inside, so too, can the Christian experience the warmth of the Son in this present life. And how much better to finally pass through that open door into the fresh air of God’s full glory? (Philippians 1:12)&lt;/p&gt;
-
-&lt;h3 id=&quot;obstacles-to-experiencing-eternal-life-now&quot;&gt;Obstacles to experiencing eternal life now&lt;/h3&gt;
-
-&lt;p&gt;There are many obstacles to experiencing the warmth of Jesus in this present life. To continue with the open door analogy, there’s a lot happening in this room. Life gets busy and distracting. Our bodies and minds are imperfect, plaguing us with physical and mental sicknesses. Anxiety, depression, cancer, eating disorders, insomnia. Evil abounds, striving always to turn our eyes and hearts away from Jesus.&lt;/p&gt;
-
-&lt;p&gt;These “imperfections and disturbances,” as Berkhof calls them, can be seriously heavy burdens. It would be dismissive to suggest that the person struggling with depression simply have more faith, though. God chooses to work primarily through his creation, and we’re not meant to live the Christian life alone. &lt;q cite=&quot;Galatians 6:2, CSB&quot;&gt;Carry one another’s burdens,&lt;/q&gt; (Galatians 6:2, CSB) and allow others to carry yours. Seek professional help, if needed, to manage the things that might prevent you from experiencing the Son of God presently. &lt;strong&gt;It is not a weak faith that treats &lt;em&gt;fill-in-the-blank&lt;/em&gt; with health providers, prescribed medication, or licensed therapists.&lt;/strong&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;look-to-the-second-coming&quot;&gt;Look to the second coming&lt;/h3&gt;
-
-&lt;p&gt;As Christians, our hope is found in Jesus and his second coming to restore all things to perfection. We are told to watch and pray in anticipation of the second coming of Christ, &lt;q cite=&quot;Jude 21, CSB&quot;&gt;waiting expectantly for the mercy of our Lord Jesus Christ for eternal life.&lt;/q&gt; (Jude 21, CSB)&lt;/p&gt;</content><author><name>Brandon Caples</name></author><category term="Faith" /><category term="eternal life" /><category term="eschatology" /><category term="gospels" /><summary type="html">“Is this real life?” David After Dentist is a hilarious viral video of a 7-year old boy fresh out of a dental procedure who is clearly still feeling the effects of nitrous oxide, or laughing gas. David’s father assures him that, yes, this is real life. But for Christians, this is also eternal life. We’re living in it now.</summary></entry></feed>
+&lt;p&gt;Commit your changes and push them to your remote repository. If you review the changes made in your version control host, you’ll notice that the updates remove all the instances of &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;.DS_Store&lt;/code&gt;, along with adding that line to your &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;.gitignore&lt;/code&gt; file.&lt;/p&gt;</content><author><name>Brandon Caples</name></author><category term="MarTech" /><category term="web development" /><category term="Git" /><summary type="html">Every developer with a Mac computer has encountered the .DS_Store file in their Git code. If you don’t know what it is, this file could be alarming. Don’t worry; .DS_Store is harmless. But it can be annoying when it shows up in every folder.</summary></entry></feed>
