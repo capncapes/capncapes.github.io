@@ -66,7 +66,7 @@ section .splendid-cta { color: #F05454 !important; text-decoration: none !import
 
 .splendid-button.primary { background-color: #F05454; }
 
-/* Background Colors */
+/* Backgrounds */
 
 .bg-red { background-color: #F05454; }
 .bg-green { background-color: #2CA096; }
@@ -77,6 +77,7 @@ section .splendid-cta { color: #F05454 !important; text-decoration: none !import
 .bg-sand { background-color: #DEDECA; }
 .bg-black { background-color: #121212; }
 .bg-white { background-color: #F8F9FA; }
+.bg-glass { background: rgba(222, 222, 202, 0.25); border-radius: 16px; backdrop-filter: blur(2px); -webkit-backdrop-filter: blur(2px); border: 1px solid rgba(222, 222, 202, 0.5); }
 .bg-transparent { background-color: transparent; }
 
 /* Typography */
@@ -568,7 +569,8 @@ b.tabs-section header p {
 	z-index: 99999;
 }
 
-.carousel-section > .carousel article[itemtype="https://schema.org/Book"] {
+.carousel-section > .carousel article[itemtype="https://schema.org/Book"],
+.carousel-section > .carousel article[itemtype="https://schema.org/Book"] + div {
 	width: 10rem;
 	height: auto;
 	-ms-flex-negative: 0;
@@ -884,12 +886,14 @@ body[data-category="Book Reviews"] .books-gallery article a .placeholder::before
 	background-color: #F8F9FA;
 }
 
-article > div[data-item=book-cover] {
+article > div[data-item=book-cover],
+div.more > a > div {
 	position: relative;
 	transition: all 0.2s ease-in;
 }
 
-article:hover > div[data-item=book-cover] {
+article:hover > div[data-item=book-cover],
+div.more:hover > a > div {
 	transform: translateY(-0.5rem);
 }
 

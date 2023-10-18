@@ -94,7 +94,8 @@
 			</header>
 			<div class="carousel splendid-flex relative">
 				<div class="pt-4 scroll-style">
-					{% for post in site.book_reviews reversed %}
+					{% assign book_reviews = site.book_reviews | sort: "date" | reverse %}
+					{% for post in book_reviews limit:12 %}
 					<article itemscope itemtype="https://schema.org/Book" class="splendid-flex flex-col justify-between">
 						<div class="overflow-hidden rounded shadow" data-item="book-cover">
 							<a href="{{ post.url }}">
@@ -115,6 +116,15 @@
 						</div>
 					</article>
 					{% endfor %}
+					<div class="more">
+						<a href="/book-reviews/2/">
+							<div class="splendid-flex h-100 p-4 flex-col justify-center bg-glass overflow-hidden rounded shadow">
+								<div class="placeholder relative w-full bg-transparent text-xl text-center rounded">
+									<h4 class="mb-0 text-xl normal text-white">More book reviews</h4>
+								</div>
+							</div>
+						</a>
+					</div>
 				</div>
 			</div>
 		</section>

@@ -327,25 +327,27 @@
     
     
       <url>
+        <loc>http://localhost:4000/martech/</loc>
+        
+      </url>
+    
+  
+    
+    
+      <url>
+        <loc>http://localhost:4000/book-reviews/2/</loc>
+        
+          <lastmod>2023-10-14T06:41:50-04:00</lastmod>
+        
+      </url>
+    
+  
+    
+    
+      <url>
         <loc>http://localhost:4000/book-reviews/</loc>
         
           <lastmod>2022-10-21T07:40:58-04:00</lastmod>
-        
-      </url>
-    
-  
-    
-    
-      <url>
-        <loc>http://localhost:4000/martech/2/</loc>
-        
-      </url>
-    
-  
-    
-    
-      <url>
-        <loc>http://localhost:4000/</loc>
         
       </url>
     
@@ -363,7 +365,15 @@
     
     
       <url>
-        <loc>http://localhost:4000/martech/</loc>
+        <loc>http://localhost:4000/martech/2/</loc>
+        
+      </url>
+    
+  
+    
+    
+      <url>
+        <loc>http://localhost:4000/</loc>
         
       </url>
     
