@@ -337,7 +337,7 @@
       <url>
         <loc>http://localhost:4000/book-reviews/2/</loc>
         
-          <lastmod>2023-10-14T06:41:50-04:00</lastmod>
+          <lastmod>2023-10-14T07:41:50-04:00</lastmod>
         
       </url>
     
@@ -347,7 +347,7 @@
       <url>
         <loc>http://localhost:4000/book-reviews/</loc>
         
-          <lastmod>2022-10-21T07:40:58-04:00</lastmod>
+          <lastmod>2022-10-21T08:40:58-04:00</lastmod>
         
       </url>
     
@@ -946,6 +946,15 @@
   
     
       <url>
+        <loc>http://localhost:4000/book-reviews/confronting-christianity</loc>
+        
+          <lastmod>2021-05-16T21:08:00-04:00</lastmod>
+        
+      </url>
+    
+  
+    
+      <url>
         <loc>http://localhost:4000/book-reviews/gentle-and-lowly</loc>
         
           <lastmod>2021-09-30T15:04:55-04:00</lastmod>
@@ -957,7 +966,7 @@
       <url>
         <loc>http://localhost:4000/book-reviews/is-christmas-unbelievable</loc>
         
-          <lastmod>2021-12-19T09:42:19-05:00</lastmod>
+          <lastmod>2021-12-19T10:42:19-05:00</lastmod>
         
       </url>
     

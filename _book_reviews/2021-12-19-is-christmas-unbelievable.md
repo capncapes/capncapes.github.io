@@ -1,6 +1,6 @@
 ---
 layout: book_review
-date: 2021-12-19 10:42:19 -0400
+date: 2021-12-19 10:42:19 -0500
 title: "Is Christmas Unbelievable?"
 book: {
   title: "Is Christmas Unbelievable?: Four Questions Everyone Should Ask About the World's Most Famous Story",
@@ -16,7 +16,7 @@ featured_image: {
   title: "Is Christmas Unbelievable?, by Rebecca McLaughlin",
   alt: "Is Christmas Unbelievable?: Four Questions Everyone Should Ask About the World's Most Famous Story"
 }
-tags: "Christian"
+tags: ["Christian", "holidays", "apologetics"]
 published: true
 ---
 
@@ -49,4 +49,4 @@ McLaughlin addresses many historical concerns found in the gospels—like the is
 
 ## Conclusion
 
-I enjoyed this short book overall, but I got the impression that McLaughlin rushed her research and writing. Nevertheless, with its small size, short chapters, and low price, the book makes for a great Christmastime gift for church members. I recommend <a href="https://www.thegoodbook.com/is-christmas-unbelievable" target="_blank" class="italic">Is Christmas Unbelievable?</a> To anyone interested in a quick and logical overview of the Christmas story.
+I enjoyed this short book overall, but I got the impression that McLaughlin rushed her research and writing. Nevertheless, with its small size, short chapters, and low price, the book makes for a great Christmastime gift for church members. I recommend <a href="https://www.thegoodbook.com/is-christmas-unbelievable" target="_blank" class="italic">Is Christmas Unbelievable?</a> to anyone interested in a quick and logical overview of the Christmas story.

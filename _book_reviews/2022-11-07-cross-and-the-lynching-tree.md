@@ -16,7 +16,7 @@ featured_image: {
   title: "The Cross and the Lynching Tree",
   alt: "The Cross and the Lynching Tree, by James H. Cone"
 }
-tags: ["Christian", "history", "Black stories"]
+tags: ["Christian", "history", "race relations", "Black voices"]
 modal: {
   display: "true",
   type: "warning",
