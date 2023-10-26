@@ -991,6 +991,15 @@
   
     
       <url>
+        <loc>http://localhost:4000/book-reviews/secular-creed</loc>
+        
+          <lastmod>2022-03-02T10:12:13-05:00</lastmod>
+        
+      </url>
+    
+  
+    
+      <url>
         <loc>http://localhost:4000/book-reviews/concise-history-crusades</loc>
         
           <lastmod>2022-04-01T00:47:11-04:00</lastmod>
