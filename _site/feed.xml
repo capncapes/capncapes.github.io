@@ -1,4 +1,54 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-10-25T21:55:25-04:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">capncapes.github.io</title><subtitle>A blog site built with Jekyll consisting of two blogs, a feed of book reviews, and other content pages.</subtitle><author><name>Brandon Caples</name></author><entry><title type="html">Google Analytics 4 user properties</title><link href="http://localhost:4000/martech/2023/ga4-user-properties" rel="alternate" type="text/html" title="Google Analytics 4 user properties" /><published>2023-09-20T15:15:16-04:00</published><updated>2023-09-20T15:15:16-04:00</updated><id>http://localhost:4000/martech/2023/ga4-user-properties</id><content type="html" xml:base="http://localhost:4000/martech/2023/ga4-user-properties">&lt;p&gt;If you’ve worked with Google Analytics 4 (GA4) for any amount of time, you’re probably familiar with event properties. When you send an event, you can attach parameters that provide more context for that event. But there’s a powerful feature that you may not be using called &lt;em&gt;user properties&lt;/em&gt;.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-10-25T23:08:49-04:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">capncapes.github.io</title><subtitle>A blog site built with Jekyll consisting of two blogs, a feed of book reviews, and other content pages.</subtitle><author><name>Brandon Caples</name></author><entry><title type="html">Section 508 email compliance</title><link href="http://localhost:4000/martech/2023/section-508-email-compliance" rel="alternate" type="text/html" title="Section 508 email compliance" /><published>2023-10-03T07:45:56-04:00</published><updated>2023-10-03T07:45:56-04:00</updated><id>http://localhost:4000/martech/2023/section-508-email-compliance</id><content type="html" xml:base="http://localhost:4000/martech/2023/section-508-email-compliance">&lt;p&gt;Section 508 is a United States federal law that requires all electronic and information technology (EIT) developed, procured, maintained, or used by the federal government to be accessible to people with disabilities. This includes email, which is a critical communication tool for many businesses and organizations.&lt;/p&gt;
+
+&lt;p&gt;There are several reasons why Section 508 is important for email design and development:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;strong&gt;Accessibility is a right.&lt;/strong&gt; People with disabilities have the right to access the same information and services as everyone else. This includes the right to receive and send email.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;It’s the law.&lt;/strong&gt; Federal agencies and businesses that contract with the federal government are required to comply with Section 508.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;It’s good business.&lt;/strong&gt; Making your emails accessible to people with disabilities can help you reach a wider audience and grow your business.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;steps-to-section-508-compliance&quot;&gt;Steps to Section 508 compliance&lt;/h2&gt;
+
+&lt;p&gt;It’s a good idea to pursue Section 508 compliance for your emails, even if it’s not required for your organization. Basic requirements for accessible email campaigns include:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Maintaining a logical reading order&lt;/li&gt;
+  &lt;li&gt;Using heading elements in code&lt;/li&gt;
+  &lt;li&gt;Including sufficient contrast between text and background colors&lt;/li&gt;
+  &lt;li&gt;Providing text alternatives for images&lt;/li&gt;
+  &lt;li&gt;Featuring meaningful link text&lt;/li&gt;
+  &lt;li&gt;Keeping your code concise&lt;/li&gt;
+  &lt;li&gt;Using a descriptive subject line&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;There are a number of things you can do to make your emails Section 508 compliant. Use this Section 508 email checklist, along with the basic requirements mentioned previously, to start creating accessible emails.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;strong&gt;Use clear and concise language.&lt;/strong&gt; Avoid using jargon or technical terms that may be difficult for people with disabilities to understand.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Use alt text for images.&lt;/strong&gt; Alt text is a text description of an image that is read by screen readers used by people who are blind or visually impaired.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Use a consistent font size and style.&lt;/strong&gt; This will make it easier for people with dyslexia or other reading disabilities to read your emails.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Use headings and subheadings to organize your content.&lt;/strong&gt; This will make it easier for people to scan your emails and find the information they need.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Employ a high-contrast color scheme.&lt;/strong&gt; This will make your emails easier to read for people with color blindness. Also, avoid using color to convey meaning.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Use plenty of white space.&lt;/strong&gt; Include enough white space for accessibility (including padding and margin) to support readability and comprehension.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;testing&quot;&gt;Testing&lt;/h2&gt;
+
+&lt;p&gt;Once you have made your emails Section 508 compliant, it’s important to test them to make sure they are accessible to all users. Here are a couple of tips:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Use a screen reader to test your emails.&lt;/strong&gt; This will help you identify any areas where your emails are not accessible to people who are blind or visually impaired.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Use an accessibility testing tool.&lt;/strong&gt; There are a number of accessibility testing tools available online, including &lt;a href=&quot;https://assistivlabs.com/&quot; target=&quot;_blank&quot;&gt;Assistiv Labs&lt;/a&gt; and the &lt;a href=&quot;https://coolors.co/contrast-checker/112a46-acc8e5&quot; target=&quot;_blank&quot;&gt;Color Contrast Checker&lt;/a&gt;. Other tools can scan your emails for accessibility issues.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;keep-learning&quot;&gt;Keep learning&lt;/h2&gt;
+
+&lt;p&gt;Continue to research best practices on your own. There are plenty of accessibility &lt;a href=&quot;https://www.emailtalk.fm/episodes/07-accessibility-and-typography-in-email-w-paul-airy&quot; target=&quot;_blank&quot;&gt;podcasts&lt;/a&gt;, &lt;a href=&quot;https://www.actionrocket.co/email-design-review/coding-accessible-emails&quot; target=&quot;_blank&quot;&gt;articles&lt;/a&gt;, and &lt;a href=&quot;https://youtu.be/HgyO6JzfqzU?si=y4sCuJMh4iON428K&quot; target=&quot;_blank&quot;&gt;YouTube videos&lt;/a&gt; online to help you learn all about email accessibility.&lt;/p&gt;
+
+&lt;h2 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.access-board.gov/ict/&quot; target=&quot;_blank&quot;&gt;Section 508&lt;/a&gt; is an important law that ensures that people with disabilities have access to the same information and services as everyone else. This law only applies to government agencies, organizations that receive federal funding, and service providers to federally-funded organizations, but by making your emails Section 508 compliant, you can help reach a wider audience and grow your business.&lt;/p&gt;</content><author><name>Brandon Caples</name></author><category term="MarTech" /><category term="email" /><category term="a11y" /><summary type="html">Section 508 is a United States federal law that requires all electronic and information technology (EIT) developed, procured, maintained, or used by the federal government to be accessible to people with disabilities. This includes email, which is a critical communication tool for many businesses and organizations.</summary></entry><entry><title type="html">Google Analytics 4 user properties</title><link href="http://localhost:4000/martech/2023/ga4-user-properties" rel="alternate" type="text/html" title="Google Analytics 4 user properties" /><published>2023-09-20T15:15:16-04:00</published><updated>2023-09-20T15:15:16-04:00</updated><id>http://localhost:4000/martech/2023/ga4-user-properties</id><content type="html" xml:base="http://localhost:4000/martech/2023/ga4-user-properties">&lt;p&gt;If you’ve worked with Google Analytics 4 (GA4) for any amount of time, you’re probably familiar with event properties. When you send an event, you can attach parameters that provide more context for that event. But there’s a powerful feature that you may not be using called &lt;em&gt;user properties&lt;/em&gt;.&lt;/p&gt;
 
 &lt;p&gt;Google Analytics 4 user properties are customizable attributes that describe groups of your users, such as their language preferences, geographic locations, or subscription status. You can use user properties to segment your audience and create more granular reports, helping you to better understand your users and improve their experience.&lt;/p&gt;
 
@@ -438,11 +488,11 @@ and all the angels shouted for joy?&lt;/p&gt;
 
 &lt;h2 id=&quot;now&quot;&gt;NOW()&lt;/h2&gt;
 
-&lt;p&gt;The &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;NOW()&lt;/code&gt; function simply returns the current datetime, like this: &lt;strong&gt;2023-10-25 21:55:26&lt;/strong&gt;. You will probably use &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;NOW()&lt;/code&gt; a lot. If you only need the current date or the current time, use &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;CURDATE()&lt;/code&gt; or &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;CURTIME()&lt;/code&gt;, respectively.&lt;/p&gt;
+&lt;p&gt;The &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;NOW()&lt;/code&gt; function simply returns the current datetime, like this: &lt;strong&gt;2023-10-25 23:08:50&lt;/strong&gt;. You will probably use &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;NOW()&lt;/code&gt; a lot. If you only need the current date or the current time, use &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;CURDATE()&lt;/code&gt; or &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;CURTIME()&lt;/code&gt;, respectively.&lt;/p&gt;
 
 &lt;h2 id=&quot;getdate&quot;&gt;GETDATE()&lt;/h2&gt;
 
-&lt;p&gt;The &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;GETDATE()&lt;/code&gt; function works exactly like the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;NOW()&lt;/code&gt; function, except that &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;GETDATE()&lt;/code&gt; returns milliseconds, too. The query result would look something like this: &lt;strong&gt;2023-10-25 21:55:26.463&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;The &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;GETDATE()&lt;/code&gt; function works exactly like the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;NOW()&lt;/code&gt; function, except that &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;GETDATE()&lt;/code&gt; returns milliseconds, too. The query result would look something like this: &lt;strong&gt;2023-10-25 23:08:50.637&lt;/strong&gt;.&lt;/p&gt;
 
 &lt;h2 id=&quot;date&quot;&gt;DATE()&lt;/h2&gt;
 &lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;DATE(date)&lt;/code&gt;&lt;/p&gt;
@@ -907,26 +957,4 @@ bring me out of my sufferings.&lt;/p&gt;
 
 &lt;p&gt;With your Google account created, you will now need to confirm that you own the email address provided. Go to your email inbox and look for an email from Google. Click the link inside to confirm your account.&lt;/p&gt;
 
-&lt;p&gt;Now you can sign into your new Google account, and the email address username is your non-Gmail address!&lt;/p&gt;</content><author><name>Brandon Caples</name></author><category term="MarTech" /><category term="Google" /><summary type="html">Did you know that you can have a Google account without a Gmail address? With so many products and services, millions of people use Google. But what if you like your existing email address? You can create a Google account without Gmail.</summary></entry><entry><title type="html">Remove .DS_Store with Git</title><link href="http://localhost:4000/martech/2022/git-remove-ds-store" rel="alternate" type="text/html" title="Remove .DS_Store with Git" /><published>2022-06-26T00:14:39-04:00</published><updated>2022-06-26T00:14:39-04:00</updated><id>http://localhost:4000/martech/2022/git-remove-ds-store</id><content type="html" xml:base="http://localhost:4000/martech/2022/git-remove-ds-store">&lt;p&gt;Every developer with a Mac computer has encountered the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;.DS_Store&lt;/code&gt; file in their Git code. If you don’t know what it is, this file could be alarming. Don’t worry; &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;.DS_Store&lt;/code&gt; is harmless. But it can be annoying when it shows up in every folder.&lt;/p&gt;
-
-&lt;h2 id=&quot;what-is-the-ds_store-file&quot;&gt;What is the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;.DS_Store&lt;/code&gt; file?&lt;/h2&gt;
-
-&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;.DS_Store&lt;/code&gt; is a hidden metadata file exclusive to Mac computers, though you could possibly come across it on a Windows PC that is sharing project code with a Mac. The file simply contains information specific to the folder it’s in: folder color, icon size, window size, file order, etc. The file is created the first time you select any View Options for a folder, but it’s hidden using the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;.&lt;/code&gt; prefix. However, you can see it in the terminal using the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ls&lt;/code&gt; command. And of course, it also shows up in Git repositories.&lt;/p&gt;
-
-&lt;h2 id=&quot;how-to-remove-ds_store-files-from-a-git-repository&quot;&gt;How to remove &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;.DS_Store&lt;/code&gt; files from a Git repository&lt;/h2&gt;
-
-&lt;p&gt;To remove (and prevent) &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;.DS_Store&lt;/code&gt; from your project code, I recommend first checking out a new branch with the following command: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;git checkout -b [BRANCH-NAME]&lt;/code&gt;. Then make sure you’re in the root of your project folder so that your changes will affect the whole project.&lt;/p&gt;
-
-&lt;h3 id=&quot;remove-ds_store&quot;&gt;Remove &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;.DS_Store&lt;/code&gt;&lt;/h3&gt;
-
-&lt;p&gt;Use the following terminal command to find all previously committed &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;.DS_Store&lt;/code&gt; files and remove them from your project. If &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;git rm&lt;/code&gt; makes you uneasy, you can perform a dry run to check the files that would be removed, without actually removing anything. To do this, add either &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;-n&lt;/code&gt; or &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;--dry-run&lt;/code&gt; as a flag following &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;rm&lt;/code&gt;, like this: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;... git rm -n --ignore-unmatch&lt;/code&gt;. Once you’ve seen what will be removed, repeat the full command without the flag to remove &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;.DS_Store&lt;/code&gt; from your project.&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-console&quot; data-lang=&quot;console&quot;&gt;&lt;span class=&quot;go&quot;&gt;find . -name .DS_Store -print0 | xargs -0 git rm --ignore-unmatch&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;h3 id=&quot;add-to-gitignore&quot;&gt;Add to &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;.gitignore&lt;/code&gt;&lt;/h3&gt;
-
-&lt;p&gt;To prevent &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;.DS_Store&lt;/code&gt; from entering your project’s code again, add &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;**/.DS_Store&lt;/code&gt; to your &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;.gitignore&lt;/code&gt; file. If it does not exist, create the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;.gitignore&lt;/code&gt; file in the root of your project folder and add &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;**/.DS_Store&lt;/code&gt; on its own line. The &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;**&lt;/code&gt; part of the command tells Git that &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;.DS_Store&lt;/code&gt; files should be ignored in every folder of your project.&lt;/p&gt;
-
-&lt;h3 id=&quot;commit-changes&quot;&gt;Commit changes&lt;/h3&gt;
-
-&lt;p&gt;Commit your changes and push them to your remote repository. If you review the changes made in your version control host, you’ll notice that the updates remove all the instances of &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;.DS_Store&lt;/code&gt;, along with adding that line to your &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;.gitignore&lt;/code&gt; file.&lt;/p&gt;</content><author><name>Brandon Caples</name></author><category term="MarTech" /><category term="web development" /><category term="Git" /><summary type="html">Every developer with a Mac computer has encountered the .DS_Store file in their Git code. If you don’t know what it is, this file could be alarming. Don’t worry; .DS_Store is harmless. But it can be annoying when it shows up in every folder.</summary></entry></feed>
+&lt;p&gt;Now you can sign into your new Google account, and the email address username is your non-Gmail address!&lt;/p&gt;</content><author><name>Brandon Caples</name></author><category term="MarTech" /><category term="Google" /><summary type="html">Did you know that you can have a Google account without a Gmail address? With so many products and services, millions of people use Google. But what if you like your existing email address? You can create a Google account without Gmail.</summary></entry></feed>
