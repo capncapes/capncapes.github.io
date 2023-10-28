@@ -12,11 +12,11 @@ permalink: /christian-resources/bible-study/
 
 ## Blue Letter Bible
 
-Check back soon for info.
+Blue Letter Bible is a free online Bible study platform that provides access to a variety of resources, including multiple Bible translations, commentaries, word studies, and other tools. It is a popular resource for both pastors and laypeople alike. [Blue Letter Bible](https://www.blueletterbible.org/study.cfm) is known for its user-friendly interface and its comprehensive range of features.
 
 ## Logos Bible Software
 
-Check back soon for info.
+[Logos Bible Software](https://www.logos.com/grow/what-is-logos-bible-study/) is a paid Bible study software program that offers a wide range of features, including multiple Bible translations, commentary libraries, word studies, and other tools. Logos Bible Software is known for its powerful search capabilities and its ability to integrate with other resources, such as e-books and articles.
 
 ## Bible Gateway
 
@@ -24,7 +24,7 @@ A member of HarperCollins Christian Publishing, [Bible Gateway](https://www.bibl
 
 ## Bible Study Tools
 
-[Bible Study Tools](https://www.biblestudytools.com/) is a website dedicated to Bible study. The site includes commentaries, study plans, devotionals, video teachings, Sunday school lessons, pastor resources, sermons, blogs, concordances, dictionaries, lexicons, and more.
+[Bible Study Tools](https://www.biblestudytools.com/) is a website dedicated to the study of the Bible. The site includes commentaries, study plans, devotionals, video teachings, Sunday school lessons, pastor resources, sermons, blogs, concordances, dictionaries, lexicons, and more.
 
 ## The Navigators
 
