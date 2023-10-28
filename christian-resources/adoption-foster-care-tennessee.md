@@ -16,7 +16,7 @@ Most child welfare services are managed by individual states, so the laws, polic
 
 [The Department of Children's Services](https://www.tn.gov/dcs/program-areas/foster-care-and-adoption.html) is the authority when it comes to adoption and foster care. Private agencies must contract with DCS to provide their services. The Department has more children in their care than any agency does, and fostering or adopting through DCS may streamline the process of applying and getting a child in your home. However, many agencies also provide support networks to help new foster and adoptive parents manage their home dynamics. Don't underestimate the value of a strong support network.
 
-While many private agencies are understaffed and underfunded, this is even more true of DCS. It's not unheard of to be misled by DCS about the duration of a foster care placement, and turnover is high. According to [Tennessee Lookout](https://tennesseelookout.com/2021/08/06/workers-describe-unmanageable-caseloads-high-turnover-and-low-morale-at-department-of-childrens-services/), the turnover rate for DCS caseworkers is 22%. This isn't to discredit DCS, but to highlight the great need for additional public funding and even more private agency contract work, and to encourage potential foster parents to work with private agencies to avoid burnout due to stress.
+Despite being underfunded and shortstaffed, working directly with DCS can be a wonderful experience. I have been through [TN KEY](https://www.tn.gov/dcs/program-areas/training/fpt/potential.html) training with DCS and a private agency; in both cases, the training was thorough and rewarding. The noticeable difference is that the agency would arrange for respite care (babysitting) and provide other resources, whereas with DCS, you'll need to lean on your own network of friends and family for that kind of support.
 
 ### America's Kids Belong
 
@@ -36,4 +36,4 @@ Founded in 1986 in Memphis, <q cite="https://youthvillages.org/about-us/who-we-s
 
 ### Bethany Christian Services
 
-Check back soon for info.
+[Bethany Christian Services](https://bethany.org/), a global nonprofit organization, supports children and families through a variety of services, including foster care, adoption, pregnancy support, family strengthening, and refugee services. Bethany's compassionate and professional staff work with families to provide the support they need to overcome challenges and build a better future.
