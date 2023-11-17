@@ -23,14 +23,83 @@
 	margin-bottom: 0 !important;
 }
 
+#resume #skills .skill,
+#resume #tech .skill {
+	break-inside: avoid;
+}
+
 #resume #skills .skill .bar,
 #resume #tech .skill .bar {
 	position: relative;
 	width: 0;
 	height: 9px;
-	border-radius: 4px;
+	border-bottom-width: 0.5rem;
+	border-bottom-style: solid;
+	border-radius: 0;
 	transition: width 1.5s ease;
 }
 
-#resume #skills .skill .bar { background-color: #2CA096; }
-#resume #tech .skill .bar { background-color: #30475E; }
+#resume #skills .skill .bar { border-bottom-color: #2CA096; }
+#resume #tech .skill .bar { border-bottom-color: #30475E; }
+
+*.print-only { display: none !important; }
+
+@media print {
+	html, body {
+		font-size: 11pt !important;
+		background-color: #FFFFFF;
+	}
+
+	html > body {
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+	}
+
+	html, html body, html body .text-base, html body p {
+		font-size: 10pt !important;
+		line-height: 12pt !important;
+	}
+
+	*.print-only { display: block !important; }
+	*.no-print { display: none !important; }
+
+	#resume section.hero-section h1,
+	#resume section.hero-section h1 > * {
+		margin: 0;
+		padding: 0;
+		font-size: 16pt !important;
+		line-height: 18pt;
+	}
+	
+	#resume h2, #resume h2 > * {
+		font-size: 14pt !important;
+		line-height: 15pt;
+		color: #30475E;
+	}
+	
+	#resume h3, #resume h3 > *,
+	section.hero-section .resume-title {
+		font-size: 13pt !important;
+		line-height: 14pt;
+	}
+	
+	#resume h4, #resume h4 > * {
+		font-size: 12pt !important;
+		line-height: 13pt;
+	}
+	
+	#resume h5, #resume h5 > * {
+		font-size: 11pt !important;
+		line-height: 12pt;
+	}
+	
+	#resume h6, #resume h6 > * {
+		font-size: 10pt !important;
+		line-height: 11pt;
+	}
+
+	#resume #tech {
+		page-break-before: always;
+	}
+}
