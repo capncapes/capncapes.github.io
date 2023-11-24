@@ -260,46 +260,11 @@ table, thead, tbody, th, td, tr {
 	line-height: 140%;
 }
 
-/* table thead tr {
-	position: absolute;
-	top: -9999px;
-	left: -9999px;
-} */
-
-/* table tbody tr:nth-child(odd) { background-color: #F8F9FA; } */
 tr { border-bottom: 10px solid transparent; }
-
-/* thead > tr, tbody > tr {
-	counter-reset: tableRows 0;
-}
-
-thead > tr > *, tbody > tr > * {
-	counter-increment: tableRows 1;
-}
-
-thead > tr > *::before, tbody > tr > *::before {
-	position: relative;
-	left: -1rem;
-	content: counter(tableRows, upper-alpha);
-	font-size: 85%;
-	font-style: normal;
-	color: rgba(0,0,0,0.4);
-} */
 
 tr > td {
 	border-top: none;
 }
-
-/* td::before {
-	display: inline-block;
-	content: attr(data-table-heading);
-	margin-right: 0.5rem;
-	padding: 0.5rem;
-	width: calc(50% - 1rem);
-	font-weight: bold;
-	background-color: rgba(0,0,0,0.1);
-	white-space: nowrap;
-} */
 
 /* ================================================================
 	15	Content Layouts

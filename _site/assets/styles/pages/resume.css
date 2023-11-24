@@ -7,6 +7,12 @@
 	padding: 0;
 }
 
+#resume section > div.bg-img {
+	background-position: center;
+	background-size: 6rem;
+	background-repeat: no-repeat;
+}
+
 #resume .hero-section .socials svg {
 	display: inline;
 	margin-left: 0;
@@ -43,6 +49,14 @@
 #resume #tech .skill .bar { border-bottom-color: #30475E; }
 
 *.print-only { display: none !important; }
+
+@media only screen and (max-width:599px) {
+	#resume section > div.bg-img {
+		background-position: right;
+		background-size: 8rem;
+		background-repeat: no-repeat;
+	}
+}
 
 @media print {
 	html, body {
@@ -99,7 +113,7 @@
 		line-height: 11pt;
 	}
 
-	#resume #tech {
+	#resume #skills {
 		page-break-before: always;
 	}
 }
