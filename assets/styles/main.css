@@ -278,6 +278,9 @@ body *.text-2xl { font-size: 2rem !important; }
 body *.text-3xl { font-size: 2.5rem !important; }
 body *.text-4xl { font-size: 3rem !important; }
 
+*.serif { font-family: serif !important; }
+*.sans-serif { font-family: sans-serif !important; }
+
 .thin {
 	font-weight: 300;
 	font-weight: 200;
@@ -1348,7 +1351,7 @@ body p a code { font-weight: bold; }
 
 .block { display: block !important; }
 .inline { display: inline !important; }
-.hidden { display: none !important; }
+.hidden, *.print-only { display: none !important; }
 
 .sticky {
 	position: fixed !important;

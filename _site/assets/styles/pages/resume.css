@@ -48,8 +48,6 @@
 #resume #skills .skill .bar { border-bottom-color: #2CA096; }
 #resume #tech .skill .bar { border-bottom-color: #30475E; }
 
-*.print-only { display: none !important; }
-
 @media only screen and (max-width:599px) {
 	#resume section > div.bg-img {
 		background-position: right;
