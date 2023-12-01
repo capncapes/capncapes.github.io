@@ -17,12 +17,28 @@
         </image>
         <generator>https://brandoncaples.com</generator>
         
-            <lastBuildDate>Tue, 03 Oct 2023 07:45:56 -0400</lastBuildDate>
+            <lastBuildDate>Thu, 30 Nov 2023 05:15:51 -0500</lastBuildDate>
         
         <atom:link href="https://brandoncaples.com/martech/feed.xml" rel="self" type="application/rss+xml"/>
         <language>
             <![CDATA[ en ]]>
         </language>
+        
+            <item>
+                <title>
+                    <![CDATA[ Bulletproof HTML email buttons ]]>
+                </title>
+                <description>
+                    <![CDATA[ By using a combination of HTML and CSS tricks, you can make sure your buttons are always ready to help you convert more subscribers into customers. ]]>
+                </description>
+                <link>http://localhost:4000/martech/2023/bulletproof-html-email-buttons</link>
+                <guid isPermaLink="true">http://localhost:4000/martech/2023/bulletproof-html-email-buttons</guid>
+                <dc:creator>
+                    <![CDATA[ Brandon Caples ]]>
+                </dc:creator>
+                <pubDate>Thu, 30 Nov 2023 05:15:51 -0500</pubDate>
+                
+            </item>
         
             <item>
                 <title>
