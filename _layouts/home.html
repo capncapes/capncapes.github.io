@@ -108,7 +108,7 @@
 						</div>
 						<div class="info splendid-flex p-0 flex-col justify-end items-start flex-nowrap rounded" data-item="book-title">
 							<a href="{{ post.url }}" title="{{ post.title }}">
-								<h4 itemprop="name" class="title w-90 mt-3 mb-1 mx-auto p-0 text-base normal text-white">{{ post.title }}</h4>
+								<h4 itemprop="name" class="title w-90 mt-3 mb-1 mx-auto p-0 text-base normal text-white">{{ post.title | truncate: 50 }}</h4>
 							</a>
 							<div class="splendid-flex mb-2 p-0 flex-row justify-between flex-nowrap text-white">
 								<time itemprop="datePublished" datetime="{{ post.date | date: '%Y-%m-%dT%H:%M:%S-05:00' }}" class="p-0 text-xs normal">{{ post.date | date: "%b %d, %Y" }}</time>

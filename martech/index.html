@@ -30,7 +30,7 @@ category: MarTech
           </div>
         </div>
         <div class="info absolute w-full h-full top-0 p-0 splendid-flex flex-col justify-end items-end flex-nowrap rounded">
-          <h3 itemprop="name" class="title w-90 mb-6 mx-auto p-0 text-lg normal">{{ post.title }}</h3>
+          <h3 itemprop="name" class="title w-90 mb-6 mx-auto p-0 text-lg normal">{{ post.title | truncate: 50 }}</h3>
           <div class="splendid-flex w-90 mb-3 mx-auto p-0 flex-row justify-between flex-nowrap">
             <time itemprop="datePublished" datetime="{{ post.date | date: '%Y-%m-%dT%H:%M:%S-05:00' }}" class="p-0 text-xs normal">{{ post.date | date: "%b %d, %Y" }}</time>
           </div>

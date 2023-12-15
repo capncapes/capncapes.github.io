@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-12-13T23:10:04-05:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">capncapes.github.io</title><subtitle>A blog site built with Jekyll consisting of two blogs, a feed of book reviews, and other content pages.</subtitle><author><name>Brandon Caples</name></author><entry><title type="html">Bulletproof HTML email buttons</title><link href="http://localhost:4000/martech/2023/bulletproof-html-email-buttons" rel="alternate" type="text/html" title="Bulletproof HTML email buttons" /><published>2023-11-30T05:15:51-05:00</published><updated>2023-11-30T05:15:51-05:00</updated><id>http://localhost:4000/martech/2023/bulletproof-html-email-buttons</id><content type="html" xml:base="http://localhost:4000/martech/2023/bulletproof-html-email-buttons">&lt;p&gt;In the world of email marketing, a well-designed call-to-action (CTA) button can be the golden ticket to more engaged customers. But creating buttons that work consistently across various email clients can be a real headache, especially with Outlook, which has a history of being picky about HTML buttons.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-12-15T16:35:18-05:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">capncapes.github.io</title><subtitle>A blog site built with Jekyll consisting of two blogs, a feed of book reviews, and other content pages.</subtitle><author><name>Brandon Caples</name></author><entry><title type="html">Bulletproof HTML email buttons</title><link href="http://localhost:4000/martech/2023/bulletproof-html-email-buttons" rel="alternate" type="text/html" title="Bulletproof HTML email buttons" /><published>2023-11-30T05:15:51-05:00</published><updated>2023-11-30T05:15:51-05:00</updated><id>http://localhost:4000/martech/2023/bulletproof-html-email-buttons</id><content type="html" xml:base="http://localhost:4000/martech/2023/bulletproof-html-email-buttons">&lt;p&gt;In the world of email marketing, a well-designed call-to-action (CTA) button can be the golden ticket to more engaged customers. But creating buttons that work consistently across various email clients can be a real headache, especially with Outlook, which has a history of being picky about HTML buttons.&lt;/p&gt;
 
 &lt;p&gt;Fear not, fellow email marketers! This guide will show you how to create bulletproof HTML email buttons that look and work great across all the major email platforms, including Outlook. By using a combination of HTML and CSS tricks, you can make sure your buttons are always ready to help you convert more subscribers into customers.&lt;/p&gt;
 
@@ -368,7 +368,176 @@
 
 &lt;h3 id=&quot;utm-campaign&quot;&gt;UTM Campaign&lt;/h3&gt;
 
-&lt;p&gt;The &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;utm_campaign&lt;/code&gt; parameter is intended to identify a promotional campaign by name and can be used in any way that’s helpful. I recommend coming up with a naming convention for campaigns to make it easy to identify the various campaigns showing up in reports.&lt;/p&gt;</content><author><name>Brandon Caples</name></author><category term="MarTech" /><category term="Google Analytics 4" /><category term="data" /><summary type="html">UTM parameters, or Urchin Tracking Module parameters, are snippets of text that can be added to the end of a URL to track the effectiveness of online marketing campaigns. UTM parameters are supported by most web analytics tools, including Google Analytics.</summary></entry><entry><title type="html">Image and dominion</title><link href="http://localhost:4000/faith/2023/image-and-dominion" rel="alternate" type="text/html" title="Image and dominion" /><published>2023-03-05T16:59:16-05:00</published><updated>2023-03-05T16:59:16-05:00</updated><id>http://localhost:4000/faith/2023/image-and-dominion</id><content type="html" xml:base="http://localhost:4000/faith/2023/image-and-dominion">&lt;p&gt;What informs your identity? Like most people, it’s a few things for me. I’m a husband and father, a Christ follower, a son, a brother, a digital marketer and website developer, a hobbyist woodworker, and a resident of Tennessee, among other characteristics that contribute to my identity. But which takes precedent? Certainly some parts of my identity are less important than others. What’s at the core of my identity? We can look to the Bible for answers.&lt;/p&gt;
+&lt;p&gt;The &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;utm_campaign&lt;/code&gt; parameter is intended to identify a promotional campaign by name and can be used in any way that’s helpful. I recommend coming up with a naming convention for campaigns to make it easy to identify the various campaigns showing up in reports.&lt;/p&gt;</content><author><name>Brandon Caples</name></author><category term="MarTech" /><category term="Google Analytics 4" /><category term="data" /><summary type="html">UTM parameters, or Urchin Tracking Module parameters, are snippets of text that can be added to the end of a URL to track the effectiveness of online marketing campaigns. UTM parameters are supported by most web analytics tools, including Google Analytics.</summary></entry><entry><title type="html">Making the Switch from Universal Analytics to Google Analytics 4</title><link href="http://localhost:4000/martech/2023/google-analytics-4" rel="alternate" type="text/html" title="Making the Switch from Universal Analytics to Google Analytics 4" /><published>2023-05-09T09:10:01-04:00</published><updated>2023-05-09T09:10:01-04:00</updated><id>http://localhost:4000/martech/2023/google-analytics-4</id><content type="html" xml:base="http://localhost:4000/martech/2023/google-analytics-4">&lt;p&gt;Web analytics play a crucial role in understanding user behavior, optimizing marketing campaigns, and making data-driven decisions for businesses. For years, Universal Analytics (UA) has been the go-to tool for tracking website data. However, &lt;a href=&quot;https://marketingplatform.google.com/about/analytics/&quot;&gt;Google Analytics 4 (GA4)&lt;/a&gt; has emerged as the next generation of Google Analytics, offering enhanced features and improved tracking capabilities. In this blog post, we will explore the benefits of switching from Universal Analytics to Google Analytics 4 and guide you through the transition process.&lt;/p&gt;
+
+&lt;p&gt;Google Analytics 4 represents a significant shift in how data is collected and reported compared to Universal Analytics. While UA primarily relied on cookies and sessions, GA4 uses an event-driven model, providing a more comprehensive view of user interactions across devices and platforms. This change allows for a more accurate and holistic understanding of user behavior, enabling businesses to adapt their strategies accordingly.&lt;/p&gt;
+
+&lt;h2 id=&quot;key-benefits-of-switching-to-google-analytics-4&quot;&gt;Key benefits of switching to Google Analytics 4&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;strong&gt;Enhanced cross-platform tracking:&lt;/strong&gt; GA4 offers improved cross-platform tracking capabilities, enabling you to track user interactions across websites, mobile apps, and even offline data. This seamless integration allows you to gain a deeper understanding of the user journey, regardless of the touchpoints they engage with.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;AI-powered insights:&lt;/strong&gt; Google Analytics 4 leverages advanced machine learning algorithms to deliver valuable insights automatically. With the help of AI, you can identify trends, predict user behavior, and uncover hidden opportunities more efficiently. These AI-driven insights can save time and empower your decision-making process.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Streamlined reporting:&lt;/strong&gt; GA4 introduces a simplified reporting interface that provides customizable and real-time data analysis. The new interface allows you to create custom reports and dashboards that align with your specific business goals, making it easier to track key performance indicators and measure the success of your marketing campaigns.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Deeper user analysis:&lt;/strong&gt; GA4 provides enhanced user-centric analysis, enabling you to track individual users and their interactions more effectively. By using user-centric measurement, you can gain insights into user acquisition, engagement, and monetization, leading to more personalized and targeted marketing strategies.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;transitioning-from-universal-analytics-to-google-analytics-4&quot;&gt;Transitioning from Universal Analytics to Google Analytics 4&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;strong&gt;Create a new GA4 property:&lt;/strong&gt; Start by creating a new GA4 property within your existing Google Analytics account. This will allow you to run both UA and GA4 concurrently, ensuring a smooth transition and avoiding any disruptions in data tracking.
+Update Tracking Codes: Update your website’s tracking code to include both the Universal Analytics tracking code and the GA4 Measurement ID. By having both codes on your site, you can collect data in both systems simultaneously.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Enable data import:&lt;/strong&gt; Utilize the data import feature to bring historical data from Universal Analytics into your GA4 property. This step ensures continuity in your reporting and allows you to have access to your historical data within the GA4 interface.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Set up events and conversions:&lt;/strong&gt; In GA4, events play a crucial role in tracking user interactions. Review your existing events in Universal Analytics and recreate them in GA4 using the new event-driven model. Additionally, set up conversions in GA4 to track specific goals and actions.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Explore new features:&lt;/strong&gt; Take advantage of GA4’s enhanced features, such as predictive insights, machine learning-based models, and improved integration with Google Ads and BigQuery. Experiment with the new tools and features to maximize the value of your analytics data.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h2&gt;
+
+&lt;p&gt;The transition from Universal Analytics to Google Analytics 4 marks an important milestone in the evolution of web analytics. GA4’s advanced tracking capabilities, AI-powered insights, and streamlined reporting offer a more comprehensive view of user behavior and enable businesses to make data-driven decisions with greater precision. For more in-depth resources and tutorials, check out &lt;a href=&quot;https://www.analyticsmania.com/blog/&quot;&gt;Analytics Mania&lt;/a&gt;, &lt;a href=&quot;https://www.lovesdata.com/blog-welcome&quot;&gt;Loves Data&lt;/a&gt;, and &lt;a href=&quot;https://developers.google.com/analytics/devguides/collection/ga4&quot;&gt;Google’s own developer guides&lt;/a&gt;. By following the transition steps outlined above, you can take full advantage of all that Google Analytics 4 has to offer.&lt;/p&gt;</content><author><name>Brandon Caples</name></author><category term="MarTech" /><category term="Google Analytics 4" /><category term="data" /><summary type="html">Web analytics play a crucial role in understanding user behavior, optimizing marketing campaigns, and making data-driven decisions for businesses. For years, Universal Analytics (UA) has been the go-to tool for tracking website data. However, Google Analytics 4 (GA4) has emerged as the next generation of Google Analytics, offering enhanced features and improved tracking capabilities. In this blog post, we will explore the benefits of switching from Universal Analytics to Google Analytics 4 and guide you through the transition process.</summary></entry><entry><title type="html">IP address warming</title><link href="http://localhost:4000/martech/2023/ip-address-warming" rel="alternate" type="text/html" title="IP address warming" /><published>2023-04-04T19:13:26-04:00</published><updated>2023-04-04T19:13:26-04:00</updated><id>http://localhost:4000/martech/2023/ip-address-warming</id><content type="html" xml:base="http://localhost:4000/martech/2023/ip-address-warming">&lt;p&gt;Congratulations on setting up your new email server! Now comes the crucial step of ensuring your emails actually reach your recipients’ inboxes. This is where IP address warming comes in.&lt;/p&gt;
+
+&lt;h2 id=&quot;what-is-ip-warming&quot;&gt;What is IP warming?&lt;/h2&gt;
+
+&lt;p&gt;Think of your IP address as your email server’s fingerprint. When you’re a new sender, email providers don’t recognize you yet. Sending a massive email blast right off the bat can raise red flags and trigger spam filters. IP warming is like introducing yourself gradually, building trust by sending out small-volume, targeted emails at first and then steadily increasing volume over time.&lt;/p&gt;
+
+&lt;h2 id=&quot;benefits-of-ip-warming&quot;&gt;Benefits of IP warming&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Improved deliverability:&lt;/strong&gt; Warmed-up IPs have a significantly higher chance of landing in inboxes, boosting your email marketing success.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Reduced spam complaints:&lt;/strong&gt; By demonstrating responsible sending practices, you avoid being flagged as spam and protect your sender reputation.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Enhanced sender reputation:&lt;/strong&gt; Consistent, controlled sending builds trust with email providers, ultimately leading to better email deliverability in the long run.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;how-to-warm-up-your-ip-address&quot;&gt;How to warm up your IP address&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Start slow and steady: Begin by sending a small number of emails per day, focusing on engaged recipients who have opted-in to your list. Gradually increase the volume over time, aiming for a 20-30% increase each day.&lt;/li&gt;
+  &lt;li&gt;Segment your audience: Don’t send the same email to everyone. Segment your list based on engagement levels, interests, and demographics. This personalizes the experience and improves open rates, which is another signal of legitimacy for email providers.&lt;/li&gt;
+  &lt;li&gt;Authenticate your emails: Implement SPF, DKIM, and DMARC to authenticate your emails and prevent spoofing. This tells mailbox providers that your emails are indeed coming from you and not an impersonator.&lt;/li&gt;
+  &lt;li&gt;Monitor your sending reputation: Use email sending platforms or analytics tools to track your sending reputation. This will give you insights into your deliverability rates and allow you to adjust your warming strategy as needed.&lt;/li&gt;
+  &lt;li&gt;Maintain a clean list: Regularly remove inactive or unsubscribed recipients from your list. A clean list improves your overall sending reputation and ensures you’re only reaching engaged subscribers.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;which-subscribers-to-send-to&quot;&gt;Which subscribers to send to&lt;/h2&gt;
+
+&lt;p&gt;The first contacts used for IP warming should be your most engaged subscribers. Start with contacts who are new or have engaged with an email within the last 30 days. Build list segments divided by engagement and email domain (&lt;em&gt;e.g.&lt;/em&gt; your most engaged Gmail users). After the first batch of subscribers (engagement within the last 30 days), target subscribers with engagement within the last 60 days, then 6 months. Subscribers with no engagement for the past 6 months should be suppressed as unengaged; these contacts are more likely to trigger spam complaints.&lt;/p&gt;
+
+&lt;p&gt;To increase the likelihood of IP warming success, you should obtain explicit consent from the subscribers used for IP warming. Explicit opt-in means a customer or subscriber told you directly that they agree to and want to hear from your company or brand.&lt;/p&gt;
+
+&lt;h3 id=&quot;acceptable-forms-of-explicit-consent&quot;&gt;Acceptable forms of explicit consent&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Subscribers who submitted a form on your website&lt;/li&gt;
+  &lt;li&gt;Subscribers who purchased your product(s) within the last six months&lt;/li&gt;
+  &lt;li&gt;Subscribers who entered a written contract with your organization withinin the last six months&lt;/li&gt;
+  &lt;li&gt;Subscribers who donated to or volunteered with your organization within the last six months&lt;/li&gt;
+  &lt;li&gt;Subscribers who signed up for and are active users of your services&lt;/li&gt;
+  &lt;li&gt;Subscribers who filled out a paper or electronic signup sheet specifically for your emails&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Once you’ve segmented your subscribers by ESP/domain and ordered them by engagement, it’s time to split those segments into smaller segments based on audience size. The IP warming schedule below should help with this.&lt;/p&gt;
+
+&lt;h2 id=&quot;ip-warming-schedule&quot;&gt;IP warming schedule&lt;/h2&gt;
+
+&lt;p&gt;The next task is to split your ESP/domain segments based on specific thresholds and determine the IP warming schedule for each sub-segment. Think of your IP warming schedule like the card game &lt;em&gt;21&lt;/em&gt;. Your goal is to get as close to the target number for each ESP/domain without going over.&lt;/p&gt;
+
+&lt;p&gt;In the table below, the totals can be distributed across multiple days or sent at a single time within the appropriate window.&lt;/p&gt;
+
+&lt;table&gt;
+	&lt;thead&gt;
+		&lt;tr class=&quot;text-xs&quot;&gt;
+			&lt;th scope=&quot;col&quot;&gt;Email Service Provider&lt;/th&gt;
+			&lt;th scope=&quot;col&quot;&gt;Days 1&amp;ndash;3&lt;/th&gt;
+			&lt;th scope=&quot;col&quot;&gt;Days 4&amp;ndash;5&lt;/th&gt;
+			&lt;th scope=&quot;col&quot;&gt;Days 6&amp;ndash;7&lt;/th&gt;
+			&lt;th scope=&quot;col&quot;&gt;Days 8&amp;ndash;13&lt;/th&gt;
+			&lt;th scope=&quot;col&quot;&gt;Days 14&amp;ndash;19&lt;/th&gt;
+		&lt;/tr&gt;
+	&lt;/thead&gt;
+	&lt;tbody&gt;
+		&lt;tr class=&quot;text-xs&quot;&gt;
+			&lt;th scope=&quot;row&quot;&gt;Gmail&lt;/th&gt;
+			&lt;td&gt;5,000&lt;/td&gt;
+			&lt;td&gt;10,000&lt;/td&gt;
+			&lt;td&gt;20,000&lt;/td&gt;
+			&lt;td&gt;40,000&lt;/td&gt;
+			&lt;td&gt;80,000&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr class=&quot;text-xs&quot;&gt;
+			&lt;th scope=&quot;row&quot;&gt;AOL/Yahoo&lt;/th&gt;
+			&lt;td&gt;20,000&lt;/td&gt;
+			&lt;td&gt;20,000&lt;/td&gt;
+			&lt;td&gt;20,000&lt;/td&gt;
+			&lt;td&gt;40,000&lt;/td&gt;
+			&lt;td&gt;80,000&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr class=&quot;text-xs&quot;&gt;
+			&lt;th scope=&quot;row&quot;&gt;Microsoft&lt;/th&gt;
+			&lt;td&gt;20,000&lt;/td&gt;
+			&lt;td&gt;20,000&lt;/td&gt;
+			&lt;td&gt;20,000&lt;/td&gt;
+			&lt;td&gt;40,000&lt;/td&gt;
+			&lt;td&gt;80,000&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr class=&quot;text-xs&quot;&gt;
+			&lt;th scope=&quot;row&quot;&gt;ATT&lt;/th&gt;
+			&lt;td&gt;20,000&lt;/td&gt;
+			&lt;td&gt;20,000&lt;/td&gt;
+			&lt;td&gt;20,000&lt;/td&gt;
+			&lt;td&gt;40,000&lt;/td&gt;
+			&lt;td&gt;80,000&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr class=&quot;text-xs&quot;&gt;
+			&lt;th scope=&quot;row&quot;&gt;Comcast&lt;/th&gt;
+			&lt;td&gt;20,000&lt;/td&gt;
+			&lt;td&gt;20,000&lt;/td&gt;
+			&lt;td&gt;20,000&lt;/td&gt;
+			&lt;td&gt;40,000&lt;/td&gt;
+			&lt;td&gt;80,000&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr class=&quot;text-xs&quot;&gt;
+			&lt;th scope=&quot;row&quot;&gt;Spectrum, Charter, Optimum&lt;/th&gt;
+			&lt;td&gt;20,000&lt;/td&gt;
+			&lt;td&gt;20,000&lt;/td&gt;
+			&lt;td&gt;20,000&lt;/td&gt;
+			&lt;td&gt;40,000&lt;/td&gt;
+			&lt;td&gt;80,000&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr class=&quot;text-xs&quot;&gt;
+			&lt;th scope=&quot;row&quot;&gt;Apple&lt;/th&gt;
+			&lt;td&gt;20,000&lt;/td&gt;
+			&lt;td&gt;20,000&lt;/td&gt;
+			&lt;td&gt;20,000&lt;/td&gt;
+			&lt;td&gt;40,000&lt;/td&gt;
+			&lt;td&gt;80,000&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr class=&quot;text-xs&quot;&gt;
+			&lt;th scope=&quot;row&quot;&gt;Others&lt;/th&gt;
+			&lt;td&gt;20,000&lt;/td&gt;
+			&lt;td&gt;20,000&lt;/td&gt;
+			&lt;td&gt;20,000&lt;/td&gt;
+			&lt;td&gt;40,000&lt;/td&gt;
+			&lt;td&gt;80,000&lt;/td&gt;
+		&lt;/tr&gt;
+	&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;You can continue to scale your segments by following the pattern laid out in the table. If your email ESP segments are very large, make sure to do some additional research. &lt;a href=&quot;https://help.salesforce.com/s/articleView?id=sf.mc_es_ip_address_warming.htm&amp;amp;type=5&quot;&gt;Salesforce Marketing Cloud&lt;/a&gt; offers some guidance on IP warming for large lists, and &lt;a href=&quot;https://docs.sendgrid.com/ui/sending-email/warming-up-an-ip-address&quot;&gt;SendGrid&lt;/a&gt; does a lot of the work for its customers.&lt;/p&gt;
+
+&lt;p&gt;Remember that IP warming strategies are not guarantees for success. Your goal is to introduce emails from your server gradually to the ESPs, presenting your most engaged subscribers first. And this is typically a great approach, but you should also be mindful of the content you choose to send during these warming exercises. Send content that is likely to be well-received by your audience, increasing the likelihood of favorable reception.&lt;/p&gt;
+
+&lt;h2 id=&quot;additional-tips&quot;&gt;Additional tips&lt;/h2&gt;
+
+&lt;p&gt;Use a dedicated IP address; shared IPs can inherit negative reputations from other senders. Investing in a dedicated IP gives you complete control over your sending reputation.&lt;/p&gt;
+
+&lt;p&gt;Warm up your new server(s) during off-peak hours. Avoid sending emails during peak times when mailbox providers are bombarded with messages. Opt for early mornings or late evenings.&lt;/p&gt;
+
+&lt;p&gt;Implement SPF, DKIM, and DMARC to verify your sending identity and prevent spoofing.&lt;/p&gt;
+
+&lt;p&gt;If you plan on sending large volumes of email, consider warming up multiple IP servers simultaneously to accelerate the process. If you’re sending more than 2 million emails per day, you should have an additional server to avoid delivery deferrals imposed by the incoming mail servers.&lt;/p&gt;
+
+&lt;p&gt;Be patient. Warming up an IP address takes time, typically around 1–2 weeks (sometimes 3–4 weeks). Don’t get discouraged if you don’t see immediate results. Stick to the plan and your deliverability will steadily improve. Remember, IP address warming is an investment in your email marketing success. By taking the time to do it right, you’ll ensure your emails reach the inboxes where they belong and build lasting relationships with your subscribers.&lt;/p&gt;
+
+&lt;p&gt;Remember: IP address warming is a marathon, not a sprint. Be patient, consistent, and focus on building trust with email providers. By following these steps, you can ensure your new email server hits the ground running and lands your emails straight in the inboxes of your intended recipients.&lt;/p&gt;</content><author><name>Brandon Caples</name></author><category term="MarTech" /><category term="email" /><summary type="html">Congratulations on setting up your new email server! Now comes the crucial step of ensuring your emails actually reach your recipients’ inboxes. This is where IP address warming comes in.</summary></entry><entry><title type="html">Image and dominion</title><link href="http://localhost:4000/faith/2023/image-and-dominion" rel="alternate" type="text/html" title="Image and dominion" /><published>2023-03-05T16:59:16-05:00</published><updated>2023-03-05T16:59:16-05:00</updated><id>http://localhost:4000/faith/2023/image-and-dominion</id><content type="html" xml:base="http://localhost:4000/faith/2023/image-and-dominion">&lt;p&gt;What informs your identity? Like most people, it’s a few things for me. I’m a husband and father, a Christ follower, a son, a brother, a digital marketer and website developer, a hobbyist woodworker, and a resident of Tennessee, among other characteristics that contribute to my identity. But which takes precedent? Certainly some parts of my identity are less important than others. What’s at the core of my identity? We can look to the Bible for answers.&lt;/p&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;So God created mankind in his own image, in the image of God he created them; male and female he created them.&lt;/p&gt;
@@ -586,11 +755,11 @@ and all the angels shouted for joy?&lt;/p&gt;
 
 &lt;h2 id=&quot;now&quot;&gt;NOW()&lt;/h2&gt;
 
-&lt;p&gt;The &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;NOW()&lt;/code&gt; function simply returns the current datetime, like this: &lt;strong&gt;2023-12-13 23:10:06&lt;/strong&gt;. You will probably use &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;NOW()&lt;/code&gt; a lot. If you only need the current date or the current time, use &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;CURDATE()&lt;/code&gt; or &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;CURTIME()&lt;/code&gt;, respectively.&lt;/p&gt;
+&lt;p&gt;The &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;NOW()&lt;/code&gt; function simply returns the current datetime, like this: &lt;strong&gt;2023-12-15 16:35:19&lt;/strong&gt;. You will probably use &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;NOW()&lt;/code&gt; a lot. If you only need the current date or the current time, use &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;CURDATE()&lt;/code&gt; or &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;CURTIME()&lt;/code&gt;, respectively.&lt;/p&gt;
 
 &lt;h2 id=&quot;getdate&quot;&gt;GETDATE()&lt;/h2&gt;
 
-&lt;p&gt;The &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;GETDATE()&lt;/code&gt; function works exactly like the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;NOW()&lt;/code&gt; function, except that &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;GETDATE()&lt;/code&gt; returns milliseconds, too. The query result would look something like this: &lt;strong&gt;2023-12-13 23:10:06.085&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;The &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;GETDATE()&lt;/code&gt; function works exactly like the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;NOW()&lt;/code&gt; function, except that &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;GETDATE()&lt;/code&gt; returns milliseconds, too. The query result would look something like this: &lt;strong&gt;2023-12-15 16:35:19.803&lt;/strong&gt;.&lt;/p&gt;
 
 &lt;h2 id=&quot;date&quot;&gt;DATE()&lt;/h2&gt;
 &lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;DATE(date)&lt;/code&gt;&lt;/p&gt;
@@ -774,268 +943,4 @@ and all the angels shouted for joy?&lt;/p&gt;
 
 &lt;p&gt;It’s important to remember that a SQL query depends on the data available in the database. If we don’t have a column for the date a person subscribes to emails, or if a contact has missing birthdate data, for example, our query will be limited and less reliable. Clean data systems are very important.&lt;/p&gt;
 
-&lt;p&gt;There are many more functions and features within SQL, but this is just an introduction. There are a lot of good websites for learning SQL, including &lt;a href=&quot;https://www.codecademy.com/learn/learn-sql&quot; target=&quot;_blank&quot;&gt;Codecademy&lt;/a&gt;, &lt;a href=&quot;https://learnsql.com/&quot; target=&quot;_blank&quot;&gt;LearnSQL&lt;/a&gt;, &lt;a href=&quot;https://stackskills.com/p/sql-for-marketers&quot; target=&quot;_blank&quot;&gt;StackSkills&lt;/a&gt;, and &lt;a href=&quot;https://www.w3schools.com/sql/&quot; target=&quot;_blank&quot;&gt;W3Schools&lt;/a&gt;. (Here’s a &lt;a href=&quot;https://www.sqltutorial.org/sql-cheat-sheet/&quot; target=&quot;_blank&quot;&gt;free SQL cheatsheet&lt;/a&gt;!) You can also find good tutorials on YouTube and solutions on StackOverflow. There are plenty of resources to help you learn the basics (and more) of Structured Query Language.&lt;/p&gt;</content><author><name>Brandon Caples</name></author><category term="MarTech" /><category term="SQL" /><category term="data science" /><summary type="html">Structured Query Language (SQL) was developed by IBM researchers in the 1970s. SQL—sometimes pronounced “sequel”—is used to store, retrieve, and manipulate data in databases.</summary></entry><entry><title type="html">What is systematic theology?</title><link href="http://localhost:4000/faith/2022/systematic-theology-scripture" rel="alternate" type="text/html" title="What is systematic theology?" /><published>2022-12-16T16:12:59-05:00</published><updated>2022-12-16T16:12:59-05:00</updated><id>http://localhost:4000/faith/2022/systematic-theology-scripture</id><content type="html" xml:base="http://localhost:4000/faith/2022/systematic-theology-scripture">&lt;p&gt;This article represents my collection of notes and personal thoughts on the &lt;a href=&quot;https://rts.edu/resources/scripture/&quot; target=&quot;_blank&quot;&gt;“Basics of Systematic Theology: Scripture” lecture&lt;/a&gt; by Scott R. Swain, Ph.D. at Reformed Theological Seminary in 2017. All unattributed quotations are those of Dr. Swain.&lt;/p&gt;
-
-&lt;picture class=&quot;block md:mx-12 xl:mx-0&quot;&gt;
-	&lt;source type=&quot;image/webp&quot; srcset=&quot;/assets/img/faith/scott-swain.webp&quot; /&gt;
-	&lt;img src=&quot;/assets/img/faith/scott-swain.jpg&quot; class=&quot;shadow&quot; alt=&quot;Scott Swain lecturing on systematic theology&quot; /&gt;
-&lt;/picture&gt;
-
-&lt;h2 id=&quot;what-is-systematic-theology&quot;&gt;What is systematic theology?&lt;/h2&gt;
-
-&lt;p&gt;On the surface, systematic theology may seem very dry, as if the stories and messages found within the Bible are pulled out and systematized into stale Latin phrases by dead theologians. But systematic theology is much richer. It’s a way of studying a subject in context throughout the entirety of Scripture, attending to the cohesiveness of texts separated by thousands of years, dozens of authors, and multiple languages and cultures. In his lecture introducing systematic theology, Scott R. Swain highlights four key principles: unity, scope, proportion, and relationships.&lt;/p&gt;
-
-&lt;h3 id=&quot;unity&quot;&gt;Unity&lt;/h3&gt;
-
-&lt;p&gt;How do the books of the Bible relate to one another to form a unified message? &lt;q&gt;In systematic theology, we ask not just, ‘What does Paul say in Romans,’ but, ‘how does what Paul says in Romans relate to what Moses says in Exodus?’&lt;/q&gt; Furthermore, the principle of unity in systematic theology also attempts to relate the teachings of the Bible with science and philosophy.&lt;/p&gt;
-
-&lt;h3 id=&quot;full-scope&quot;&gt;Full scope&lt;/h3&gt;
-
-&lt;p&gt;Systematic theology attempts to read and interpret Scripture in light of the rest of Scripture. In Acts 20, while addressing the elders of the church in Ephesus, Paul declares that he &lt;q&gt;did not shrink from declaring to you the whole counsel of God.&lt;/q&gt; (v. 27, ESV)&lt;/p&gt;
-
-&lt;p&gt;The Dutch Reformed theologian Herman Bavinck (1854–1921) noted that failure to observe the full scope of Scripture &lt;q&gt;leads to one-sidedness and error in theology and pathology in the religious life.&lt;/q&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;proportions&quot;&gt;Proportions&lt;/h3&gt;
-
-&lt;p&gt;Scott Swain illustrates the point that systematic theology observes biblical proportions in this way: &lt;q&gt;The Bible says something about everything… But the Bible doesn’t say everything about everything.&lt;/q&gt; There are first-order matters and second-order matters in Scripture.&lt;sup id=&quot;fnref:1&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt; As Paul points out in 1 Corinthians 15&lt;sup id=&quot;fnref:2&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:2&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;2&lt;/a&gt;&lt;/sup&gt;, the gospel is a matter of first importance. And though the Bible frequently mentions animals of various kinds, biblical information about animals is a matter of much lower importance than what the Bible says about human salvation. Systematic theology attempts to define those distinctions.&lt;/p&gt;
-
-&lt;h3 id=&quot;relationships&quot;&gt;Relationships&lt;/h3&gt;
-
-&lt;p&gt;The fourth principle of systematic theology is concerned with the relationships between various doctrines. Swain uses the examples of good works and grace. Both of these doctrines are important to the Christian life. But how do good works and grace interact with each other? &lt;q&gt;If we think that good works are the basis for God’s grace, we’re going to get ourselves in all kinds of trouble.&lt;/q&gt; That’s because good works come after grace, not before. Systematic theology studies the relationships between doctrines in order to clarify each doctrine.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;&lt;sup&gt;8&lt;/sup&gt; For it is by grace you have been saved, through faith—and this is not from yourselves, it is the gift of God— &lt;sup&gt;9&lt;/sup&gt; not by works, so that no one can boast. &lt;sup&gt;10&lt;/sup&gt; For we are God’s handiwork, created in Christ Jesus to do good works, which God prepared in advance for us to do.&lt;/p&gt;
-
-  &lt;p&gt;&lt;cite&gt;Ephesians 2:8–10, &lt;abbr title=&quot;New International Version&quot;&gt;NIV&lt;/abbr&gt;&lt;/cite&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h2 id=&quot;scripture&quot;&gt;Scripture&lt;/h2&gt;
-
-&lt;p&gt;What can the study of systematic theology tell us about Scripture? Is the Bible reliable and authoritative? Is it inspired by God or just a collection of writings by mortal men? Since all theological study necessarily deals primarily with holy texts, the study of Scripture itself is a good place to start. Swain employs three passages in order to observe how the Bible’s authors viewed Scripture.&lt;/p&gt;
-
-&lt;h3 id=&quot;god-is-pleased-to-reveal-himself-to-us-in-order-that-we-might-find-rest-in-him&quot;&gt;&lt;q&gt;God is pleased to reveal himself to us in order that we might find rest in him.&lt;/q&gt;&lt;/h3&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;&lt;sup&gt;25&lt;/sup&gt; At that time Jesus said, &lt;q&gt;I praise you, Father, Lord of heaven and earth, because you have hidden these things from the wise and learned, and revealed them to little children. &lt;sup&gt;26&lt;/sup&gt; Yes, Father, for this is what you were pleased to do. &lt;sup&gt;27&lt;/sup&gt; All things have been committed to me by my Father. No one knows the Son except the Father, and no one knows the Father except the Son and those to whom the Son chooses to reveal him. &lt;sup&gt;28&lt;/sup&gt; Come to me, all you who are weary and burdened, and I will give you rest. &lt;sup&gt;29&lt;/sup&gt; Take my yoke upon you and learn from me, for I am gentle and humble in heart, and you will find rest for your souls. &lt;sup&gt;30&lt;/sup&gt; For my yoke is easy and my burden is light.&lt;/q&gt;&lt;/p&gt;
-
-  &lt;p&gt;&lt;cite&gt;Matthew 11:25–30, NIV&lt;/cite&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;In Matthew 11, we discover that the Godhead—Father, Son, Holy Spirit—are complete in their unity of knowledge and love with one another. This passage also teaches us that the Father delights in making himself known to his children. This knowledge of God that is revealed to us is not only for God’s good pleasure, but also so that we may find rest in him.&lt;/p&gt;
-
-&lt;p&gt;&lt;q cite=&quot;Augustine of Hippo&quot;&gt;You have made us for yourself, O Lord, and our hearts are restless until they rest in You.&lt;/q&gt;&lt;br /&gt;
-— Augustine, &lt;em&gt;Confessions&lt;/em&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;god-is-pleased-to-reveal-himself-to-us-in-a-twofold-manner&quot;&gt;&lt;q&gt;God is pleased to reveal himself to us in a twofold manner.&lt;/q&gt;&lt;/h3&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;&lt;sup&gt;1&lt;/sup&gt; For the director of music. A psalm of David.&lt;/p&gt;
-
-  &lt;p&gt;The heavens declare the glory of God;&lt;br /&gt;
-the skies proclaim the work of his hands.&lt;br /&gt;
-&lt;sup&gt;2&lt;/sup&gt; Day after day they pour forth speech;&lt;br /&gt;
-night after night they reveal knowledge.&lt;br /&gt;
-&lt;sup&gt;3&lt;/sup&gt; They have no speech, they use no words;&lt;br /&gt;
-no sound is heard from them.&lt;br /&gt;
-&lt;sup&gt;4&lt;/sup&gt; Yet their voice goes out into all the earth,&lt;br /&gt;
-their words to the ends of the world.&lt;br /&gt;
-In the heavens God has pitched a tent for the sun.&lt;br /&gt;
-&lt;sup&gt;5&lt;/sup&gt; It is like a bridegroom coming out of his chamber,&lt;br /&gt;
-like a champion rejoicing to run his course.&lt;br /&gt;
-&lt;sup&gt;6&lt;/sup&gt; It rises at one end of the heavens&lt;br /&gt;
-and makes its circuit to the other;&lt;br /&gt;
-nothing is deprived of its warmth.&lt;br /&gt;&lt;/p&gt;
-
-  &lt;p&gt;&lt;sup&gt;7&lt;/sup&gt; The law of the Lord is perfect,&lt;br /&gt;
-refreshing the soul.&lt;br /&gt;
-The statutes of the Lord are trustworthy,&lt;br /&gt;
-making wise the simple.&lt;br /&gt;
-&lt;sup&gt;8&lt;/sup&gt; The precepts of the Lord are right,&lt;br /&gt;
-giving joy to the heart.&lt;br /&gt;
-The commands of the Lord are radiant,&lt;br /&gt;
-giving light to the eyes.&lt;br /&gt;
-&lt;sup&gt;9&lt;/sup&gt; The fear of the Lord is pure,&lt;br /&gt;
-enduring forever.&lt;br /&gt;
-The decrees of the Lord are firm,&lt;br /&gt;
-and all of them are righteous.&lt;br /&gt;&lt;/p&gt;
-
-  &lt;p&gt;&lt;sup&gt;10&lt;/sup&gt; They are more precious than gold,&lt;br /&gt;
-than much pure gold;&lt;br /&gt;
-they are sweeter than honey,&lt;br /&gt;
-than honey from the honeycomb.&lt;br /&gt;
-&lt;sup&gt;11&lt;/sup&gt; By them your servant is warned;&lt;br /&gt;
-in keeping them there is great reward.&lt;br /&gt;
-&lt;sup&gt;12&lt;/sup&gt; But who can discern their own errors?&lt;br /&gt;
-Forgive my hidden faults.&lt;br /&gt;
-&lt;sup&gt;13&lt;/sup&gt; Keep your servant also from willful sins;&lt;br /&gt;
-may they not rule over me.&lt;br /&gt;
-Then I will be blameless,&lt;br /&gt;
-innocent of great transgression.&lt;br /&gt;&lt;/p&gt;
-
-  &lt;p&gt;&lt;sup&gt;14&lt;/sup&gt; May these words of my mouth and this meditation of my heart&lt;br /&gt;
-be pleasing in your sight,&lt;br /&gt;
-Lord, my Rock and my Redeemer.&lt;/p&gt;
-
-  &lt;p&gt;&lt;cite&gt;Psalm 19, NIV&lt;/cite&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;In Psalm 19, we can decipher two “books” by which we can know God: the book of nature and the book of Scripture. The Belgic Confession reads:&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;We know Him by two means: First, by the creation, preservation, and government of the universe; which is before our eyes as a most elegant book, wherein all creatures, great and small, are as so many characters leading us to see clearly the invisible things of God, even his everlasting power and divinity, as the apostle Paul says (Romans 1:20). All which things are sufficient to convince men and leave them without excuse. Second, He makes Himself more clearly and fully known to us by His holy and divine Word, that is to say, as far as is necessary for us to know in this life, to His glory and our salvation.&lt;/p&gt;
-
-  &lt;p&gt;&lt;cite&gt;Belgic Confession, Article 2&lt;/cite&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;The theological term “general revelation” is typically used of the work of the book of nature, while theologians use “special revelation” to describe knowledge that comes from the inspired Word of God, the book of Scripture.&lt;/p&gt;
-
-&lt;p&gt;In verses 1–6 of Psalm 19, the natural world is said to &lt;q&gt;declare the glory of God&lt;/q&gt; (v. 1) and the psalmist makes use of metaphorical language to describe the eagerness of the sun to warm the whole earth. That’s general revelation, which describes human observance of the splendor of nature. General revelation is available to all audiences, but it is incomplete and cannot, by itself, bring us into a relationship with God. That’s where special revelation comes in. The psalmist references human anatomy in verses 7 and 8 to illustrate the incompleteness of the parts on their own &lt;em&gt;until&lt;/em&gt; they are brought together by the work of God’s law, statutes, and precepts. The soul, mind (v. 7), heart, and eyes (v. 8), themselves works of nature, are given refreshment, wisdom, joy, and light when introduced to the special revelation of God.&lt;/p&gt;
-
-&lt;p&gt;Not only does Psalm 19 show us how these two books speak to us about God, but the psalmist also teaches us how we should speak back to God. In verses 12 and 13, he says, &lt;q&gt;But who can discern their own errors? Forgive my hidden faults. Keep your servant also from willful sins; may they not rule over me.&lt;/q&gt; The psalmist, King David, acknowledges that he is out of step with the rest of nature in glorifying God—both unintentionally and willfully sinning against the Lord. Finally, in verse 14, he says, &lt;q&gt;May these words of my mouth and this meditation of my heart be pleasing in your sight, Lord, my Rock and my Redeemer.&lt;/q&gt; David knows that he cannot earn God’s favor, but he appeals to God’s graciousness in his relationship with his creator. Though I am a sinner, may the words I speak and the reflections of my heart demonstrate a deep love for God.&lt;/p&gt;
-
-&lt;h3 id=&quot;until-jesus-returns-the-bible-is-our-supreme-source-of-special-revelation&quot;&gt;“Until Jesus returns, the Bible is our supreme source of special revelation”&lt;/h3&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;&lt;sup&gt;16&lt;/sup&gt; For we did not follow cleverly devised stories when we told you about the coming of our Lord Jesus Christ in power, but we were eyewitnesses of his majesty. &lt;sup&gt;17&lt;/sup&gt; He received honor and glory from God the Father when the voice came to him from the Majestic Glory, saying, &lt;q&gt;This is my Son, whom I love; with him I am well pleased.&lt;/q&gt; &lt;sup&gt;18&lt;/sup&gt; We ourselves heard this voice that came from heaven when we were with him on the sacred mountain. &lt;sup&gt;19&lt;/sup&gt; We also have the prophetic message as something completely reliable, and you will do well to pay attention to it, as to a light shining in a dark place, until the day dawns and the morning star rises in your hearts. &lt;sup&gt;20&lt;/sup&gt; Above all, you must understand that no prophecy of Scripture came about by the prophet’s own interpretation of things. &lt;sup&gt;21&lt;/sup&gt; For prophecy never had its origin in the human will, but prophets, though human, spoke from God as they were carried along by the Holy Spirit.&lt;/p&gt;
-
-  &lt;p&gt;&lt;cite&gt;2 Peter 1:16–21, NIV&lt;/cite&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;The Bible is God’s inspired word, and Dr. Swain points to this passage from the apostle Peter’s second letter as the best declaration in Scripture of the Bible’s own inspiration. He notes two things that this passage teaches us. (There are actually more than two.)&lt;/p&gt;
-
-&lt;p&gt;The first thing that this passage teaches is that prophets and apostles had &lt;q&gt;special access&lt;/q&gt; to God’s revelations. They did not simply interpret events happening around them as being related in some way to God, filling in the gaps of their observations with contrivances. Secondly, each prophet and apostle had a special anointing from the Holy Spirit, allowing them to remember what they saw and &lt;q&gt;reliably communicate it to us.&lt;/q&gt;&lt;/p&gt;
-
-&lt;p&gt;This passage also affirms the unity of Scripture. What the prophets foretold, the apostles witnessed. As Swain notes toward the end of his lecture, &lt;q&gt;All of Scripture holds together as a testimony to Christ.&lt;/q&gt;&lt;/p&gt;
-
-&lt;p&gt;The Bible is inspired. It’s unified. And it’s sufficient. Earlier in the chapter, Peter writes, &lt;q&gt;His divine power has given us everything we need for a godly life &lt;strong&gt;through our knowledge of him&lt;/strong&gt; who called us by his own glory and goodness&lt;/q&gt; (v. 3, emphasis added). In addition, Scripture is reliable and authoritative (v. 19). It’s also clear. The Bible is not always clear, as Peter himself acknowledges later in this letter&lt;sup id=&quot;fnref:3&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:3&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;3&lt;/a&gt;&lt;/sup&gt;, but the basic message of Scripture is clear: God desires for humanity to know him and share in his rest, and his love for us is so great that he redeemed us for union with himself forever.&lt;/p&gt;
-
-&lt;p&gt;Scott Swain’s final point looks to the second half of verse 19: &lt;q&gt;…as to a light shining in a dark place, until the day dawns and the morning star rises in your hearts.&lt;/q&gt; Scripture is our supreme source of special revelation &lt;em&gt;right now&lt;/em&gt;—until the second advent of Christ. As we await with eagerness &lt;q&gt;the blessed hope—the appearing of the glory of our great God and Savior, Jesus Christ&lt;/q&gt; (Titus 2:13, NIV), we have at present &lt;q&gt;a lamp for [our] feet, a light on [our] path&lt;/q&gt; (Psalm 119:105, NIV).&lt;/p&gt;
-
-&lt;p&gt;The Bible is inspired, unified, sufficient, reliable, authoritative, and clear. Scripture is &lt;em&gt;from&lt;/em&gt; God, &lt;em&gt;about&lt;/em&gt; God, and leads us &lt;em&gt;to&lt;/em&gt; God, where we &lt;q&gt;will find rest for [our] souls&lt;/q&gt; (Matthew 11:29). Amen.&lt;/p&gt;
-
-&lt;div class=&quot;footnotes&quot; role=&quot;doc-endnotes&quot;&gt;
-  &lt;ol&gt;
-    &lt;li id=&quot;fn:1&quot; role=&quot;doc-endnote&quot;&gt;
-      &lt;p&gt;There are certainly matters of even lower importance. &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
-    &lt;/li&gt;
-    &lt;li id=&quot;fn:2&quot; role=&quot;doc-endnote&quot;&gt;
-      &lt;p&gt;&lt;q&gt;For I delivered to you as of first importance what I also received: that Christ died for our sins in accordance with the Scriptures, that he was buried, that he was raised on the third day in accordance with the Scriptures, and that he appeared to Cephas, then to the twelve.&lt;/q&gt; (1 Corinthians 15:3–5, ESV) &lt;a href=&quot;#fnref:2&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
-    &lt;/li&gt;
-    &lt;li id=&quot;fn:3&quot; role=&quot;doc-endnote&quot;&gt;
-      &lt;p&gt;Speaking of Paul, Peter writes, &lt;q&gt;His letters contain some things that are hard to understand.&lt;/q&gt; (2 Peter 3:16, NIV) &lt;a href=&quot;#fnref:3&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
-    &lt;/li&gt;
-  &lt;/ol&gt;
-&lt;/div&gt;</content><author><name>Brandon Caples</name></author><category term="Faith" /><category term="systematic theology" /><category term="Scripture" /><summary type="html">This article represents my collection of notes and personal thoughts on the “Basics of Systematic Theology: Scripture” lecture by Scott R. Swain, Ph.D. at Reformed Theological Seminary in 2017. All unattributed quotations are those of Dr. Swain.</summary></entry><entry><title type="html">Waiting and hoping</title><link href="http://localhost:4000/faith/2022/waiting-hoping" rel="alternate" type="text/html" title="Waiting and hoping" /><published>2022-12-04T06:59:01-05:00</published><updated>2022-12-04T06:59:01-05:00</updated><id>http://localhost:4000/faith/2022/waiting-hoping</id><content type="html" xml:base="http://localhost:4000/faith/2022/waiting-hoping">&lt;p&gt;It is sometimes difficult to know the difference between God speaking and my own thoughts. But when God interrupts me, it’s obvious. That’s what happened in the middle of corporate worship on a Sunday morning in July. I experienced the Holy Spirit comforting me in the midst of anxiety, self-doubt, and impatience.&lt;/p&gt;
-
-&lt;p&gt;The feeling was the same as what I felt five years ago when I learned that my first child had died in the womb: despair, longing, and hope. Upon hearing confirmation of my son’s stillbirth, I was overcome by a strange and conflicting sense of sadness and hope—hope that I would yet know the joy of the Lord. And I did. I learned a great deal about joy in the midst of sorrow, pain, and longing.&lt;/p&gt;
-
-&lt;h2 id=&quot;losing-ezra-james&quot;&gt;Losing Ezra James&lt;/h2&gt;
-
-&lt;p&gt;That September day in 2017, as I paced the hospital room, waiting and hoping for a miracle for my unborn child, all I could do was pray. After more than two hours and several medical tests, my wife’s doctor walked in and confirmed the worst: there was no heartbeat; my son was gone. In the moments following, my mind briefly ran to panic, then immediately to sadness. Within a second or two of realizing that my son was dead, I heard a song playing in my head—frustratingly in the front of my grief-stricken mind. It was the song &lt;a href=&quot;https://www.youtube.com/watch?v=qyIGnuDwBKA&quot; target=&quot;_blank&quot;&gt;&lt;em&gt;The Joy of the Lord&lt;/em&gt;, by Twila Paris&lt;/a&gt;, which we sang in my church growing up. It was the most perplexing song to hear at that moment, and I hated myself at the time for thinking of it. It was only a few hours later that I realized that the Holy Spirit had put that familiar song on my mind at just the right time to remind me that true joy isn’t dependent upon circumstances.&lt;/p&gt;
-
-&lt;p&gt;The joy of the Lord&lt;sup id=&quot;fnref:1&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;—that peculiar, hope-filled, abiding, content-in-all-circumstances portion—is found in the dark places of our lives, when we come to terms with the reality that there’s no redemption on our own, no reconciling our own past or present or future, no walking out of the darkness ourselves, because it’s Jesus who redeems us, who saves us, is saving us, and will save us, and who carries us out of the darkest moments of our lives.&lt;/p&gt;
-
-&lt;p&gt;A small mercy from the loss of my son, Ezra James Caples, was that he was born perfect—without visible bodily damage. Not every angel&lt;sup id=&quot;fnref:2&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:2&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;2&lt;/a&gt;&lt;/sup&gt; has the same outcome. We get to treasure beautiful pictures of a baby who looks alive. As I held his lifeless body, I was overwhelmed with feelings of longing, despair, grief, anger. And joy. I kept thinking, &lt;q&gt;&lt;strong&gt;This is my son, my child.&lt;/strong&gt;&lt;/q&gt; I couldn’t keep from smiling at my firstborn. I loved him so much at that moment.&lt;/p&gt;
-
-&lt;p&gt;Our entire church showed up at the funeral, and we sang &lt;em&gt;The Joy of the Lord&lt;/em&gt; among the trees and grave markers in Nashville, Tennessee. It was a hot day for September, and the mosquitoes were hungry. But the biting sense of unfairness stung the most. Why did God give us so much happiness during the pregnancy months, only to take away our only child? Human suffering is a difficult topic and not one I’m attempting to address here, but I’ve learned to trust God and pursue joy in the wake of grief. God has been good to me, and I can’t say much more than that.&lt;/p&gt;
-
-&lt;picture class=&quot;block md:mx-12 xl:mx-0&quot;&gt;
-	&lt;source type=&quot;image/webp&quot; srcset=&quot;/assets/img/faith/ezra-funeral.webp&quot; /&gt;
-	&lt;img src=&quot;/assets/img/faith/ezra-funeral.jpeg&quot; class=&quot;shadow&quot; alt=&quot;Graveside funeral service for Ezra James Caples, born sleeping September 9, 2017&quot; /&gt;
-&lt;/picture&gt;
-
-&lt;h2 id=&quot;anxiety&quot;&gt;Anxiety&lt;/h2&gt;
-
-&lt;p&gt;I’ve always dealt with social anxiety. I was a shy kid who never spoke up in class unless I was called on. (And being called on in class was terrifying.) I’ve been that way for as long as I can remember. I manage it better now, but I still feel tense around people I don’t know well.&lt;/p&gt;
-
-&lt;h3 id=&quot;pushing-grief-aside&quot;&gt;Pushing grief aside&lt;/h3&gt;
-
-&lt;p&gt;In February of 2018, I quit my job without another one lined up—uncharacteristic for me. It had only been five months since losing Ezra, but my wife suggested I quit the job I hated in order to take some time to grieve. We had also been doing grief counseling, which really helped me in many ways, one of which was realizing that I had been operating as if I hadn’t just experienced a loss. I had returned to work one week after my son’s stillbirth and, in many ways, acted like I needed to be strong for my wife—without taking time to grieve myself.&lt;/p&gt;
-
-&lt;p&gt;I also had some pent-up bitterness toward the people around me—my co-workers—for not responding to my grief in the ways that I thought I needed. It felt like none of them even cared about my pain. That was a very unfair burden to place on a group of people who really didn’t know me very well. And even if they had, grief manifests in ways that surprise even the griever. Another lesson from therapy: Most people mean well, but they still don’t know how to respond to someone else’s grief. I’ve found this is doubly true when people don’t know how to categorize a loss—like stillbirth.&lt;/p&gt;
-
-&lt;h3 id=&quot;health-fears&quot;&gt;Health fears&lt;/h3&gt;
-
-&lt;p&gt;Later that month, I came down with a virus of some kind. I remember lying on the couch, struggling to breathe and seriously wondering if I would suffocate. We drove to the hospital, where I spent the next three days recovering from myocarditis, a condition marked by inflammation of the heart muscle. The viral infection had triggered an immune response in my heart. Though my heart wouldn’t give me any more real trouble after that (so far), I couldn’t shake the anxiety that had weaponized my diagnosis.&lt;/p&gt;
-
-&lt;p&gt;Fast-forward to 2020: The COVID-19 pandemic has been hard on everyone, in many different ways. 6.6 million deaths worldwide&lt;sup id=&quot;fnref:3&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:3&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;3&lt;/a&gt;&lt;/sup&gt;, countless medical after-effects, relationships forever lost, abuse of all kinds on the rise, anxiety and depression skyrocketing. The toll is much larger than statistics can bear. And I was afraid for much of the pandemic—for my health, for my wife and living child&lt;sup id=&quot;fnref:4&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:4&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;4&lt;/a&gt;&lt;/sup&gt;, and for my job.&lt;/p&gt;
-
-&lt;p&gt;I’ve spent the last few years struggling with anxiety about my heart health, my family’s health, my job, the global pandemic, and other concerns. Anxiety can be hard to shake. It’s not logical, and you can’t reason your way out of it—at least I haven’t.&lt;/p&gt;
-
-&lt;h2 id=&quot;jesus-friend-of-the-anxious&quot;&gt;Jesus, friend of the anxious&lt;/h2&gt;
-
-&lt;p&gt;After years of silence from God—or more likely, closed ears on my part—he spoke to me in an elementary school gym as the congregation sang. But it wasn’t words that were communicated, only a feeling of comfort, as if El Roi, &lt;em&gt;the God who sees&lt;/em&gt;, were wrapping me in his arms and whispering, &lt;q&gt;I’ve got you.&lt;/q&gt; It was simple and not particularly profound, but I couldn’t hold back my tears.&lt;/p&gt;
-
-&lt;p&gt;The sermon that day was on Psalm 25, an acrostic poem by David. In this psalm, David appeals multiple times to God to save him from his sins and his enemies. As in many of his psalms, David seems very anxious, recognizing the very real dangers of both his sinfulness and the malice of his enemies. Three times he mentions waiting for Yahweh (vv. 3, 5, 21). The transliterated word for &lt;q&gt;wait&lt;/q&gt; here is &lt;em&gt;qavah&lt;/em&gt; (&lt;span dir=&quot;rtl&quot;&gt;קָוָה&lt;/span&gt;), which connotes both waiting and hoping. But the hope is not simply &lt;em&gt;wishing for something to happen&lt;/em&gt;; it’s waiting &lt;em&gt;in expectation that it will happen&lt;/em&gt;. David’s hope in the Lord is an expectation of his salvation.&lt;/p&gt;
-
-&lt;p&gt;I believe it’s the same with anxiety. I’m waiting on the Lord and hoping in his promise of deliverance.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Turn to me and be gracious to me,&lt;br /&gt;
-for I am alone and afflicted.&lt;br /&gt;
-The distresses of my heart increase;&lt;br /&gt;
-bring me out of my sufferings.&lt;/p&gt;
-
-  &lt;p&gt;&lt;cite&gt;Psalm 25:16–17, CSB&lt;/cite&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h3 id=&quot;dont-worry&quot;&gt;“Don’t worry”&lt;/h3&gt;
-
-&lt;p&gt;I grew up believing that anxiety is sinful, but I don’t think it’s that simple. In Matthew 6, Jesus teaches us not to worry (&lt;q&gt;be anxious&lt;/q&gt;) about our lives (vv. 25–34), but I think this is more a comfort than a command. Consider how he illustrates the Father’s care for the birds (v. 26) and the wildflowers (vv. 28–30). Our heavenly Father knows our needs (v. 32), and he provides for his creation—the same creation over which humanity has dominion (Genesis 1:26). How much more, then, will he provide for his beloved children? Jesus offers comfort to those afflicted with anxiety, worry, and fear. &lt;q&gt;Therefore don’t worry about tomorrow, because tomorrow will worry about itself. Each day has enough trouble of its own.&lt;/q&gt; (v. 34) Truly, his &lt;q&gt;yoke is easy and [his] burden is light.&lt;/q&gt; (Matthew 11:30).&lt;/p&gt;
-
-&lt;p&gt;Matthew 6:25–34 is directly linked to the preceding verses (19–24). This passage isn’t just about greed and material wealth. When we fix our eyes on anything but Jesus, our &lt;q&gt;treasure in heaven,&lt;/q&gt; the instability of those things will inevitably lead us into anxiety. For our eyes to be healthy, we must look to the Light, not gaze into the darkness and wonder about the security of our health, beauty, intelligence, wealth, relationships, and abilities.&lt;/p&gt;
-
-&lt;p&gt;People who say, &lt;q&gt;Jesus never had anxiety&lt;/q&gt; have not closely read Luke 22, when Jesus sweated blood while praying &lt;q&gt;in anguish&lt;/q&gt; in the Garden of Gethsemane&lt;sup id=&quot;fnref:5&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:5&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;5&lt;/a&gt;&lt;/sup&gt; (vv. 39–46&lt;sup id=&quot;fnref:6&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:6&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;6&lt;/a&gt;&lt;/sup&gt;). Sweating blood is actually a very rare condition called hematidrosis that can be caused by intense stress. Jesus, knowing his destiny, was very anxious about going to the cross. He understands our anxieties and fears. &lt;q&gt;Therefore, let us approach the throne of grace with boldness, so that we may receive mercy and find grace to help us in time of need.&lt;/q&gt; (Hebrews 4:16, CSB)&lt;/p&gt;
-
-&lt;p&gt;One could argue that being under intense stress for a few hours is not the same as prolonged anxiety—it’s not—but Jesus experiencing anxiety, even briefly, is enough to establish that, not only is anxiety not sinful, it’s also common. I hope we can find some comfort in that. Jesus, being &lt;q&gt;without sin,&lt;/q&gt; (Hebrews 4:15)&lt;sup id=&quot;fnref:7&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:7&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;7&lt;/a&gt;&lt;/sup&gt; could not have experienced anxiety if it were a sin to do so. More than that, he understands our struggles with anxiety. Your fears and worries are not sinful, but Jesus still calls us away from the yoke of anxiety. I choose to believe it’s possible, even if incredibly difficult, to unburden ourselves from chronic worry, stress, anxiety, and fear.&lt;/p&gt;
-
-&lt;p&gt;I’m not there yet, though.&lt;/p&gt;
-
-&lt;h3 id=&quot;learning-to-listenand-talk&quot;&gt;Learning to listen—and talk&lt;/h3&gt;
-
-&lt;p&gt;After moving away from the community that loved us well, at quite possibly the worst time to relocate—December of 2019—I’ve spent the last three years disconnected. I’ve realized that I’m not quite as introverted as I thought, and I need to listen to my own longing for connectivity. I work from home in a quiet suburban neighborhood, doing mostly solo work, in a city where I still know very few people. It can be lonely, which is why I’m once again pursuing therapy.&lt;/p&gt;
-
-&lt;p&gt;At the time of writing, my anxiety is much less of a burden—for now. (Thank you, Wonderful Counselor!) I’m not a mental health expert by any means, and I don’t intend to suggest that prayer is a guaranteed prescription for anxiety. It’s not. But prayer is a crucial component in my personal anxiety journey, along with therapy&lt;sup id=&quot;fnref:8&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:8&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;8&lt;/a&gt;&lt;/sup&gt; and attention to my personal and interpersonal needs. Daily prayer, good nutrition, regular exercise, keeping caffeine in check, professional counseling, social presence, recreation. These are all ways that I’ve found to meaningfully cope.&lt;/p&gt;
-
-&lt;p&gt;My social anxiety is not gone, though some of my other worries are. And I still miss Ezra; I hung his ornament on our Christmas tree yesterday. There are fewer triggers for my grief now, but the holidays can still be heavy. Christmas is joyful, fun, and spiritual, but the season still reminds me that I have two children, and only one of them can eat his gingerbread house face-first, hum Christmas music while decorating the tree, and cuddle up to holiday cartoons.&lt;/p&gt;
-
-&lt;p&gt;But I feel more hopeful than ever.&lt;/p&gt;
-
-&lt;picture class=&quot;block md:mx-12 xl:mx-0&quot;&gt;
-	&lt;source type=&quot;image/webp&quot; srcset=&quot;/assets/img/faith/ezra-ornament.webp&quot; /&gt;
-	&lt;img src=&quot;/assets/img/faith/ezra-ornament.jpeg&quot; class=&quot;mb-12 shadow&quot; alt=&quot;A polar bear ornament with the name Ezra written on it, hanging on a Christmas tree&quot; /&gt;
-&lt;/picture&gt;
-
-&lt;picture class=&quot;block md:mx-12 xl:mx-0&quot;&gt;
-	&lt;source type=&quot;image/webp&quot; srcset=&quot;/assets/img/faith/ezra-grave-marker-brother.webp&quot; /&gt;
-	&lt;img src=&quot;/assets/img/faith/ezra-grave-marker-brother.jpeg&quot; class=&quot;shadow&quot; alt=&quot;Ezra&apos;s 3-year old brother standing beside his grave marker&quot; /&gt;
-&lt;/picture&gt;
-
-&lt;div class=&quot;footnotes&quot; role=&quot;doc-endnotes&quot;&gt;
-  &lt;ol&gt;
-    &lt;li id=&quot;fn:1&quot; role=&quot;doc-endnote&quot;&gt;
-      &lt;p&gt;&lt;q&gt;Nehemiah said, &lt;q&gt;Go and enjoy choice food and sweet drinks, and send some to those who have nothing prepared. This day is holy to our Lord. Do not grieve, for &lt;strong&gt;the joy of the Lord is your strength&lt;/strong&gt;.&lt;/q&gt;&lt;/q&gt; (Nehemiah 8:10, &lt;abbr title=&quot;New International Version&quot;&gt;NIV&lt;/abbr&gt;) &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
-    &lt;/li&gt;
-    &lt;li id=&quot;fn:2&quot; role=&quot;doc-endnote&quot;&gt;
-      &lt;p&gt;“Angel” is the term used for babies lost during or immediately after pregnancy. &lt;a href=&quot;#fnref:2&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
-    &lt;/li&gt;
-    &lt;li id=&quot;fn:3&quot; role=&quot;doc-endnote&quot;&gt;
-      &lt;p&gt;Source: World Health Organization. https://www.who.int/emergencies/diseases/novel-coronavirus-2019. Accessed 4 December 2022. &lt;a href=&quot;#fnref:3&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
-    &lt;/li&gt;
-    &lt;li id=&quot;fn:4&quot; role=&quot;doc-endnote&quot;&gt;
-      &lt;p&gt;Our second child, also a boy, was born almost two years after Ezra, in July of 2019. &lt;a href=&quot;#fnref:4&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
-    &lt;/li&gt;
-    &lt;li id=&quot;fn:5&quot; role=&quot;doc-endnote&quot;&gt;
-      &lt;p&gt;The garden was at the base of the Mount of Olives, part of a Judean mountain range separating Jerusalem from the wilderness. &lt;a href=&quot;#fnref:5&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
-    &lt;/li&gt;
-    &lt;li id=&quot;fn:6&quot; role=&quot;doc-endnote&quot;&gt;
-      &lt;p&gt;This story is also found in Matthew 26:36–45 and Mark 14:32–42, and it’s referenced in John 18:1. &lt;a href=&quot;#fnref:6&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
-    &lt;/li&gt;
-    &lt;li id=&quot;fn:7&quot; role=&quot;doc-endnote&quot;&gt;
-      &lt;p&gt;See also Romans 5:12, 8:3; 2 Corinthians 5:21; Hebrews 7:26, 9:14; 1 Peter 1:19, 2:22; 1 John 3:5. &lt;a href=&quot;#fnref:7&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
-    &lt;/li&gt;
-    &lt;li id=&quot;fn:8&quot; role=&quot;doc-endnote&quot;&gt;
-      &lt;p&gt;As of December 2022, I’m trying to get an appointment with a therapist in a non-virtual session who will accept my insurance. &lt;a href=&quot;#fnref:8&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
-    &lt;/li&gt;
-  &lt;/ol&gt;
-&lt;/div&gt;</content><author><name>Brandon Caples</name></author><category term="Faith" /><category term="anxiety" /><category term="grief" /><summary type="html">It is sometimes difficult to know the difference between God speaking and my own thoughts. But when God interrupts me, it’s obvious. That’s what happened in the middle of corporate worship on a Sunday morning in July. I experienced the Holy Spirit comforting me in the midst of anxiety, self-doubt, and impatience.</summary></entry></feed>
+&lt;p&gt;There are many more functions and features within SQL, but this is just an introduction. There are a lot of good websites for learning SQL, including &lt;a href=&quot;https://www.codecademy.com/learn/learn-sql&quot; target=&quot;_blank&quot;&gt;Codecademy&lt;/a&gt;, &lt;a href=&quot;https://learnsql.com/&quot; target=&quot;_blank&quot;&gt;LearnSQL&lt;/a&gt;, &lt;a href=&quot;https://stackskills.com/p/sql-for-marketers&quot; target=&quot;_blank&quot;&gt;StackSkills&lt;/a&gt;, and &lt;a href=&quot;https://www.w3schools.com/sql/&quot; target=&quot;_blank&quot;&gt;W3Schools&lt;/a&gt;. (Here’s a &lt;a href=&quot;https://www.sqltutorial.org/sql-cheat-sheet/&quot; target=&quot;_blank&quot;&gt;free SQL cheatsheet&lt;/a&gt;!) You can also find good tutorials on YouTube and solutions on StackOverflow. There are plenty of resources to help you learn the basics (and more) of Structured Query Language.&lt;/p&gt;</content><author><name>Brandon Caples</name></author><category term="MarTech" /><category term="SQL" /><category term="data science" /><summary type="html">Structured Query Language (SQL) was developed by IBM researchers in the 1970s. SQL—sometimes pronounced “sequel”—is used to store, retrieve, and manipulate data in databases.</summary></entry></feed>
