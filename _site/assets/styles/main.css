@@ -1299,6 +1299,14 @@ body p a code { font-weight: bold; }
 	overflow-x: scroll;
 }
 
+#splendid figure pre code table tr, #splendid .highlighter-rouge pre code table tr {
+	background-color: transparent !important;
+	border-top: none !important;
+	border-right: none !important;
+	border-bottom: none !important;
+	border-left: none !important;
+}
+
 #splendid figure pre code.language-html,
 #splendid .highlighter-rouge.language-html pre code {
 	border-left-color: #E34F26;
