@@ -37,6 +37,15 @@ function toggleSplendidMobileNav() {
 	}
 }
 
+// Adjust syntax highlighter label
+document.addEventListener('DOMContentLoaded', function() {
+	let parents = document.querySelectorAll('figure.highlight > pre');
+	parents.forEach(function(parent) {
+		let child = parent.querySelector('code');
+		if (child.getAttribute('data-lang') != '') { parent.setAttribute('data-lang', child.getAttribute('data-lang')) };
+	});
+});
+
 // Start countdown timers
 function countDown(t) {
 	let countdownDate = new Date( t.dataset.countdown ).getTime();
