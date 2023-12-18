@@ -11,6 +11,37 @@ featured_image: {
 description: "For years, UA has been the go-to tool for tracking website data. However, GA4 has emerged as the next generation of Google Analytics."
 category: MarTech
 tags: ["Google Analytics 4", "data"]
+howto: {
+	title: "How to add a user property to Google Analytics 4 using GTM",
+	description: "Google Analytics 4 user properties are customizable attributes that describe groups of your users.",
+	time: "P0DT0H10M",
+	steps: [
+		{
+			name: "Create a new GA4 property",
+			text: "Create a new Google Analytics 4 property."
+		},
+    {
+			name: "Update tracking codes",
+			text: "Update the tracking code on your website to include the new GA4 snippet and your measurement ID."
+		},
+		{
+			name: "Enable data import",
+			text: "Utilize the data import feature to bring historical data from Universal Analytics into your GA4 property."
+		},
+		{
+			name: "Set up events",
+			text: "Review your existing events in Universal Analytics and recreate them in GA4 using the new event-driven model."
+		},
+    {
+			name: "Set up conversions",
+			text: "Set up conversion events in Settings."
+		},
+		{
+			name: "Explore new features",
+			text: "Experiment with the new tools and features to maximize the value of your analytics data."
+		}
+	]
+}
 featured: false
 published: true
 ---
@@ -29,10 +60,10 @@ Google Analytics 4 represents a significant shift in how data is collected and r
 ## Transitioning from Universal Analytics to Google Analytics 4
 
 1. **Create a new GA4 property:** Start by creating a new GA4 property within your existing Google Analytics account. This will allow you to run both UA and GA4 concurrently, ensuring a smooth transition and avoiding any disruptions in data tracking.
-Update Tracking Codes: Update your website's tracking code to include both the Universal Analytics tracking code and the GA4 Measurement ID. By having both codes on your site, you can collect data in both systems simultaneously.
-2. **Enable data import:** Utilize the data import feature to bring historical data from Universal Analytics into your GA4 property. This step ensures continuity in your reporting and allows you to have access to your historical data within the GA4 interface.
-3. **Set up events and conversions:** In GA4, events play a crucial role in tracking user interactions. Review your existing events in Universal Analytics and recreate them in GA4 using the new event-driven model. Additionally, set up conversions in GA4 to track specific goals and actions.
-4. **Explore new features:** Take advantage of GA4's enhanced features, such as predictive insights, machine learning-based models, and improved integration with Google Ads and BigQuery. Experiment with the new tools and features to maximize the value of your analytics data.
+2. **Update tracking codes:** Update your website's tracking code to include both the Universal Analytics tracking code and the GA4 Measurement ID. By having both codes on your site, you can collect data in both systems simultaneously.
+3. **Enable data import:** Utilize the data import feature to bring historical data from Universal Analytics into your GA4 property. This step ensures continuity in your reporting and allows you to have access to your historical data within the GA4 interface.
+4. **Set up events and conversions:** In GA4, events play a crucial role in tracking user interactions. Review your existing events in Universal Analytics and recreate them in GA4 using the new event-driven model. Additionally, set up conversions in GA4 to track specific goals and actions.
+5. **Explore new features:** Take advantage of GA4's enhanced features, such as predictive insights, machine learning-based models, and improved integration with Google Ads and BigQuery. Experiment with the new tools and features to maximize the value of your analytics data.
 
 ## Conclusion
 

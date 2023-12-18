@@ -11,6 +11,41 @@ featured_image: {
 description: "Google Analytics 4 user properties are customizable attributes that describe groups of your users, such as their language preferences, geographic locations, or subscription status."
 category: MarTech
 tags: ["Google Analytics 4", "data"]
+howto: {
+	title: "How to add a user property to Google Analytics 4 using GTM",
+	description: "Google Analytics 4 user properties are customizable attributes that describe groups of your users.",
+	time: "P0DT0H3M",
+	steps: [
+		{
+			name: "Ensure presence of Google Tag",
+			text: "Make sure that the Google Tag (gtag.js) is present on the page."
+		},
+		{
+			name: "Edit GA4 event",
+			text: "Create a new event or open an existing one."
+		},
+		{
+			name: "Add Row",
+			text: "Click the Add Row button in the User Properties tab of the GA4 event."
+		},
+		{
+			name: "Add the user property",
+			text: "Add the name of the user property and its value."
+		},
+		{
+			name: "Save",
+			text: "Save the event and any related variables and triggers."
+		},
+    {
+			name: "Create a GA4 custom dimension",
+			text: "Create the corresponding user-scoped custom dimension in Google Analytics 4."
+		},
+    {
+			name: "Publish",
+			text: "Publish the GTM changes."
+		}
+	]
+}
 featured: true
 published: true
 ---
