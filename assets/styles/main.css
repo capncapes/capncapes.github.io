@@ -1271,6 +1271,7 @@ body p a code { font-weight: bold; }
 	background-color: #121212;
 	color: #EDEDE2;
 	border-radius: 8px;
+	tab-size: 3;
 	overflow: hidden;
 	box-shadow: 0 5px 35px 0 rgb(0 0 0 / 15%);
 }
@@ -1305,6 +1306,10 @@ body p a code { font-weight: bold; }
 	border-right: none !important;
 	border-bottom: none !important;
 	border-left: none !important;
+}
+
+#splendid figure pre code table tr td, #splendid .highlighter-rouge pre code table tr td {
+	display: table-cell !important;
 }
 
 #splendid figure pre code.language-html,
