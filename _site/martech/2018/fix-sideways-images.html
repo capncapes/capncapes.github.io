@@ -123,7 +123,7 @@
 						"@id": "http://localhost:4000#website",
 						"url": "http://localhost:4000",
 						"name": "Brandon Caples",
-						"description": "Since 2015, this site has mostly been a blog. I relaunched the site in 2022 with a renewed focus on writing about my passions—marketing technology and faith.",
+						"description": "I am a marketing technologist working at the intersection of strategy and technology.",
 						"publisher": {
 							"@id": "http://localhost:4000#/schema/person/3fbbe8e23fcabc3da5c9cbc102d346c9"
 						},
@@ -133,9 +133,9 @@
 					{
 						"@type": "ImageObject",
 						"inLanguage": "en-US",
-						"@id": "/martech/2018/fix-sideways-images#primaryimage",
-						"url": "brandon-caples-sideways.webp",
-						"contentUrl": "brandon-caples-sideways.webp",
+						"@id": "http://localhost:4000/martech/2018/fix-sideways-images#primaryimage",
+						"url": "http://localhost:4000/assets/img/martech/brandon-caples-sideways.jpeg",
+						"contentUrl": "http://localhost:4000/assets/img/martech/brandon-caples-sideways.jpeg",
 						"caption": "A sideways image of Brandon Caples wearing a wooden bowtie (circa 2013)"
 					},
 					
@@ -144,27 +144,28 @@
 							"Article",
 							"BlogPosting"
 						],
-						"@id": "/martech/2018/fix-sideways-images#article",
+						"@id": "http://localhost:4000/martech/2018/fix-sideways-images#article",
+						"name": "How to fix sideways images on your website",
 						"isPartOf": {
-							"@id": "/martech/2018/fix-sideways-images#webpage"
+							"@id": "http://localhost:4000/martech/2018/fix-sideways-images#webpage"
 						},
 						"author": {
 							"@id": "http://localhost:4000#/schema/person/3fbbe8e23fcabc3da5c9cbc102d346c9"
+							"@type": "Person",
+							"name": "Brandon Caples"
 						},
 						"headline": "How to fix sideways images on your website",
 						"datePublished": "2018-08-30T10:01:10-05:00",
 						"mainEntityOfPage": {
-							"@id": "/martech/2018/fix-sideways-images#webpage"
+							"@id": "http://localhost:4000/martech/2018/fix-sideways-images#webpage"
 						},
 						"publisher": {
 							"@id": "http://localhost:4000#/schema/person/3fbbe8e23fcabc3da5c9cbc102d346c9"
 						},
-						"image": {
-							"@id": "/martech/2018/fix-sideways-images#primaryimage"
-						},
-						"thumbnailUrl": "brandon-caples-sideways.webp",
+						"image": "http://localhost:4000/assets/img/martech/brandon-caples-sideways.jpeg",
+						"thumbnailUrl": "http://localhost:4000/assets/img/martech/brandon-caples-sideways.jpeg",
 						"keywords": [ "CSS", "graphic design"],
-						"articleSection": ["MarTech"],
+						"articleSection": "MarTech",
 						"inLanguage": "en-US"
 					},
 					{
@@ -178,16 +179,14 @@
 							"@type": "ImageObject",
 							"inLanguage": "en-US",
 							"@id": "http://localhost:4000#/schema/person/image/",
-							"url": "http://localhost:4000/assets/img/brandon_caples.webp",
-							"contentUrl": "http://localhost:4000/assets/img/brandon_caples.webp",
+							"url": "http://localhost:4000/assets/img/brandon_caples.jpeg",
+							"contentUrl": "http://localhost:4000/assets/img/brandon_caples.jpeg",
 							"width": 600,
 							"height": 600,
 							"caption": "Brandon Caples"
 						},
-						"logo": {
-							"@id": "http://localhost:4000#/schema/person/image/"
-						},
-						"description": "I live in Ooltewah, Tennessee with my wife, our son, and our goldendoodle.",
+						"logo": "http://localhost:4000/assets/img/logomark.png",
+						"description": "I live in Tennessee with my wife, our son, and our goldendoodle.",
 						"sameAs": [
 							"bcaples",
 							"brandoncaples",
@@ -196,18 +195,18 @@
 					},
 					{
 						"@type": "HowTo",
-						"@id": "/martech/2018/fix-sideways-images#howto-1",
+						"@id": "http://localhost:4000/martech/2018/fix-sideways-images#howto-1",
 						"name": "How to fix sideways images on your website",
 						"mainEntityOfPage": {
-							"@id": "/martech/2018/fix-sideways-images#article"
+							"@id": "http://localhost:4000/martech/2018/fix-sideways-images#article"
 						},
 						"description": "Resolve the issue of some browsers displaying an image sideways or upside down.",
-						"totalTime": "P0DT0H1M",
+						"totalTime": ,
 						"step": [
 						
 							{
 								"@type": "HowToStep",
-								"url": "/martech/2018/fix-sideways-images#how-to-step-1",
+								"url": "http://localhost:4000/martech/2018/fix-sideways-images#how-to-step-1",
 								"name": "Export",
 								"itemListElement": [
 									{
@@ -219,7 +218,7 @@
 						
 							{
 								"@type": "HowToStep",
-								"url": "/martech/2018/fix-sideways-images#how-to-step-2",
+								"url": "http://localhost:4000/martech/2018/fix-sideways-images#how-to-step-2",
 								"name": "Advanced Options",
 								"itemListElement": [
 									{
@@ -231,7 +230,7 @@
 						
 							{
 								"@type": "HowToStep",
-								"url": "/martech/2018/fix-sideways-images#how-to-step-3",
+								"url": "http://localhost:4000/martech/2018/fix-sideways-images#how-to-step-3",
 								"name": "EXIF Data",
 								"itemListElement": [
 									{
@@ -313,7 +312,7 @@
 				</div>
 				
 					<picture>
-						<source type="image/webp" srcset="http://localhost:4000/assets/img/martech/brandon-caples-sideways.webp" >
+						<source type="image/webp" srcset="http://localhost:4000/assets/img/martech/brandon-caples-sideways.jpeg" >
 						<img src="http://localhost:4000/assets/img/martech/brandon-caples-sideways.jpeg" class="w-full h-full object-cover object-center rounded shadow" alt="A sideways image of Brandon Caples wearing a wooden bowtie (circa 2013)" />
 					</picture>
 				
@@ -331,7 +330,7 @@
 
 				
 					<section class="schema-how-to max-w-4 mb-20 mx-auto py-4 px-6 text-sm bg-sand rounded">
-						<p class="mt-0 text-xs">Time needed: <time datetime="P0DT0H1M">P0DT0H1M</time></p>
+						<p class="mt-0 text-xs">Time needed: <strong datetime=""></strong></p>
 						<p>Resolve the issue of some browsers displaying an image sideways or upside down.</p>
 						<ol class="schema-how-to-steps mb-0 pl-4">
 							

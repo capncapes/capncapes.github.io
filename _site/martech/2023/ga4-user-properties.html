@@ -123,7 +123,7 @@
 						"@id": "http://localhost:4000#website",
 						"url": "http://localhost:4000",
 						"name": "Brandon Caples",
-						"description": "Since 2015, this site has mostly been a blog. I relaunched the site in 2022 with a renewed focus on writing about my passions—marketing technology and faith.",
+						"description": "I am a marketing technologist working at the intersection of strategy and technology.",
 						"publisher": {
 							"@id": "http://localhost:4000#/schema/person/3fbbe8e23fcabc3da5c9cbc102d346c9"
 						},
@@ -133,9 +133,9 @@
 					{
 						"@type": "ImageObject",
 						"inLanguage": "en-US",
-						"@id": "/martech/2023/ga4-user-properties#primaryimage",
-						"url": "ga4-user-properties-feature.webp",
-						"contentUrl": "ga4-user-properties-feature.webp",
+						"@id": "http://localhost:4000/martech/2023/ga4-user-properties#primaryimage",
+						"url": "http://localhost:4000/assets/img/martech/ga4-user-properties-feature.png",
+						"contentUrl": "http://localhost:4000/assets/img/martech/ga4-user-properties-feature.png",
 						"caption": "Google Analytics 4 realtime overview showing users"
 					},
 					
@@ -144,27 +144,28 @@
 							"Article",
 							"BlogPosting"
 						],
-						"@id": "/martech/2023/ga4-user-properties#article",
+						"@id": "http://localhost:4000/martech/2023/ga4-user-properties#article",
+						"name": "Google Analytics 4 user properties",
 						"isPartOf": {
-							"@id": "/martech/2023/ga4-user-properties#webpage"
+							"@id": "http://localhost:4000/martech/2023/ga4-user-properties#webpage"
 						},
 						"author": {
 							"@id": "http://localhost:4000#/schema/person/3fbbe8e23fcabc3da5c9cbc102d346c9"
+							"@type": "Person",
+							"name": "Brandon Caples"
 						},
 						"headline": "Google Analytics 4 user properties",
 						"datePublished": "2023-09-20T15:15:16-05:00",
 						"mainEntityOfPage": {
-							"@id": "/martech/2023/ga4-user-properties#webpage"
+							"@id": "http://localhost:4000/martech/2023/ga4-user-properties#webpage"
 						},
 						"publisher": {
 							"@id": "http://localhost:4000#/schema/person/3fbbe8e23fcabc3da5c9cbc102d346c9"
 						},
-						"image": {
-							"@id": "/martech/2023/ga4-user-properties#primaryimage"
-						},
-						"thumbnailUrl": "ga4-user-properties-feature.webp",
+						"image": "http://localhost:4000/assets/img/martech/ga4-user-properties-feature.png",
+						"thumbnailUrl": "http://localhost:4000/assets/img/martech/ga4-user-properties-feature.png",
 						"keywords": [ "Google Analytics 4", "data"],
-						"articleSection": ["MarTech"],
+						"articleSection": "MarTech",
 						"inLanguage": "en-US"
 					},
 					{
@@ -178,16 +179,14 @@
 							"@type": "ImageObject",
 							"inLanguage": "en-US",
 							"@id": "http://localhost:4000#/schema/person/image/",
-							"url": "http://localhost:4000/assets/img/brandon_caples.webp",
-							"contentUrl": "http://localhost:4000/assets/img/brandon_caples.webp",
+							"url": "http://localhost:4000/assets/img/brandon_caples.jpeg",
+							"contentUrl": "http://localhost:4000/assets/img/brandon_caples.jpeg",
 							"width": 600,
 							"height": 600,
 							"caption": "Brandon Caples"
 						},
-						"logo": {
-							"@id": "http://localhost:4000#/schema/person/image/"
-						},
-						"description": "I live in Ooltewah, Tennessee with my wife, our son, and our goldendoodle.",
+						"logo": "http://localhost:4000/assets/img/logomark.png",
+						"description": "I live in Tennessee with my wife, our son, and our goldendoodle.",
 						"sameAs": [
 							"bcaples",
 							"brandoncaples",
@@ -196,18 +195,18 @@
 					},
 					{
 						"@type": "HowTo",
-						"@id": "/martech/2023/ga4-user-properties#howto-1",
+						"@id": "http://localhost:4000/martech/2023/ga4-user-properties#howto-1",
 						"name": "How to add a user property to Google Analytics 4 using GTM",
 						"mainEntityOfPage": {
-							"@id": "/martech/2023/ga4-user-properties#article"
+							"@id": "http://localhost:4000/martech/2023/ga4-user-properties#article"
 						},
 						"description": "Google Analytics 4 user properties are customizable attributes that describe groups of your users.",
-						"totalTime": "P0DT0H3M",
+						"totalTime": ,
 						"step": [
 						
 							{
 								"@type": "HowToStep",
-								"url": "/martech/2023/ga4-user-properties#how-to-step-1",
+								"url": "http://localhost:4000/martech/2023/ga4-user-properties#how-to-step-1",
 								"name": "Ensure presence of Google Tag",
 								"itemListElement": [
 									{
@@ -219,7 +218,7 @@
 						
 							{
 								"@type": "HowToStep",
-								"url": "/martech/2023/ga4-user-properties#how-to-step-2",
+								"url": "http://localhost:4000/martech/2023/ga4-user-properties#how-to-step-2",
 								"name": "Edit GA4 event",
 								"itemListElement": [
 									{
@@ -231,7 +230,7 @@
 						
 							{
 								"@type": "HowToStep",
-								"url": "/martech/2023/ga4-user-properties#how-to-step-3",
+								"url": "http://localhost:4000/martech/2023/ga4-user-properties#how-to-step-3",
 								"name": "Add Row",
 								"itemListElement": [
 									{
@@ -243,7 +242,7 @@
 						
 							{
 								"@type": "HowToStep",
-								"url": "/martech/2023/ga4-user-properties#how-to-step-4",
+								"url": "http://localhost:4000/martech/2023/ga4-user-properties#how-to-step-4",
 								"name": "Add the user property",
 								"itemListElement": [
 									{
@@ -255,7 +254,7 @@
 						
 							{
 								"@type": "HowToStep",
-								"url": "/martech/2023/ga4-user-properties#how-to-step-5",
+								"url": "http://localhost:4000/martech/2023/ga4-user-properties#how-to-step-5",
 								"name": "Save",
 								"itemListElement": [
 									{
@@ -267,7 +266,7 @@
 						
 							{
 								"@type": "HowToStep",
-								"url": "/martech/2023/ga4-user-properties#how-to-step-6",
+								"url": "http://localhost:4000/martech/2023/ga4-user-properties#how-to-step-6",
 								"name": "Create a GA4 custom dimension",
 								"itemListElement": [
 									{
@@ -279,7 +278,7 @@
 						
 							{
 								"@type": "HowToStep",
-								"url": "/martech/2023/ga4-user-properties#how-to-step-7",
+								"url": "http://localhost:4000/martech/2023/ga4-user-properties#how-to-step-7",
 								"name": "Publish",
 								"itemListElement": [
 									{
@@ -361,7 +360,7 @@
 				</div>
 				
 					<picture>
-						<source type="image/webp" srcset="http://localhost:4000/assets/img/martech/ga4-user-properties-feature.webp" >
+						<source type="image/webp" srcset="http://localhost:4000/assets/img/martech/ga4-user-properties-feature.png" >
 						<img src="http://localhost:4000/assets/img/martech/ga4-user-properties-feature.png" class="w-full h-full object-cover object-center rounded shadow" alt="Google Analytics 4 realtime overview showing users" />
 					</picture>
 				
@@ -379,7 +378,7 @@
 
 				
 					<section class="schema-how-to max-w-4 mb-20 mx-auto py-4 px-6 text-sm bg-sand rounded">
-						<p class="mt-0 text-xs">Time needed: <time datetime="P0DT0H3M">P0DT0H3M</time></p>
+						<p class="mt-0 text-xs">Time needed: <strong datetime=""></strong></p>
 						<p>Google Analytics 4 user properties are customizable attributes that describe groups of your users.</p>
 						<ol class="schema-how-to-steps mb-0 pl-4">
 							

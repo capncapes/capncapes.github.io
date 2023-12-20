@@ -121,7 +121,7 @@
 						"@id": "http://localhost:4000#website",
 						"url": "http://localhost:4000",
 						"name": "Brandon Caples",
-						"description": "Since 2015, this site has mostly been a blog. I relaunched the site in 2022 with a renewed focus on writing about my passions—marketing technology and faith.",
+						"description": "I am a marketing technologist working at the intersection of strategy and technology.",
 						"publisher": {
 							"@id": "http://localhost:4000#/schema/person/3fbbe8e23fcabc3da5c9cbc102d346c9"
 						},
@@ -131,9 +131,9 @@
 					{
 						"@type": "ImageObject",
 						"inLanguage": "en-US",
-						"@id": "/martech/2023/how-to-develop-marketing-campaign#primaryimage",
-						"url": "chocolate-cake.webp",
-						"contentUrl": "chocolate-cake.webp",
+						"@id": "http://localhost:4000/martech/2023/how-to-develop-marketing-campaign#primaryimage",
+						"url": "http://localhost:4000/assets/img/martech/chocolate-cake.jpeg",
+						"contentUrl": "http://localhost:4000/assets/img/martech/chocolate-cake.jpeg",
 						"caption": "Launching a marketing campaign is like baking a cake."
 					},
 					
@@ -142,27 +142,28 @@
 							"Article",
 							"BlogPosting"
 						],
-						"@id": "/martech/2023/how-to-develop-marketing-campaign#article",
+						"@id": "http://localhost:4000/martech/2023/how-to-develop-marketing-campaign#article",
+						"name": "How to develop a marketing campaign strategy that works",
 						"isPartOf": {
-							"@id": "/martech/2023/how-to-develop-marketing-campaign#webpage"
+							"@id": "http://localhost:4000/martech/2023/how-to-develop-marketing-campaign#webpage"
 						},
 						"author": {
 							"@id": "http://localhost:4000#/schema/person/3fbbe8e23fcabc3da5c9cbc102d346c9"
+							"@type": "Person",
+							"name": "Brandon Caples"
 						},
 						"headline": "How to develop a marketing campaign strategy that works",
 						"datePublished": "2023-07-31T05:58:00-05:00",
 						"mainEntityOfPage": {
-							"@id": "/martech/2023/how-to-develop-marketing-campaign#webpage"
+							"@id": "http://localhost:4000/martech/2023/how-to-develop-marketing-campaign#webpage"
 						},
 						"publisher": {
 							"@id": "http://localhost:4000#/schema/person/3fbbe8e23fcabc3da5c9cbc102d346c9"
 						},
-						"image": {
-							"@id": "/martech/2023/how-to-develop-marketing-campaign#primaryimage"
-						},
-						"thumbnailUrl": "chocolate-cake.webp",
+						"image": "http://localhost:4000/assets/img/martech/chocolate-cake.jpeg",
+						"thumbnailUrl": "http://localhost:4000/assets/img/martech/chocolate-cake.jpeg",
 						"keywords": [ "marketing"],
-						"articleSection": ["MarTech"],
+						"articleSection": "MarTech",
 						"inLanguage": "en-US"
 					},
 					{
@@ -176,16 +177,14 @@
 							"@type": "ImageObject",
 							"inLanguage": "en-US",
 							"@id": "http://localhost:4000#/schema/person/image/",
-							"url": "http://localhost:4000/assets/img/brandon_caples.webp",
-							"contentUrl": "http://localhost:4000/assets/img/brandon_caples.webp",
+							"url": "http://localhost:4000/assets/img/brandon_caples.jpeg",
+							"contentUrl": "http://localhost:4000/assets/img/brandon_caples.jpeg",
 							"width": 600,
 							"height": 600,
 							"caption": "Brandon Caples"
 						},
-						"logo": {
-							"@id": "http://localhost:4000#/schema/person/image/"
-						},
-						"description": "I live in Ooltewah, Tennessee with my wife, our son, and our goldendoodle.",
+						"logo": "http://localhost:4000/assets/img/logomark.png",
+						"description": "I live in Tennessee with my wife, our son, and our goldendoodle.",
 						"sameAs": [
 							"bcaples",
 							"brandoncaples",
@@ -194,18 +193,18 @@
 					},
 					{
 						"@type": "HowTo",
-						"@id": "/martech/2023/how-to-develop-marketing-campaign#howto-1",
+						"@id": "http://localhost:4000/martech/2023/how-to-develop-marketing-campaign#howto-1",
 						"name": "How to develop a marketing campaign strategy that works",
 						"mainEntityOfPage": {
-							"@id": "/martech/2023/how-to-develop-marketing-campaign#article"
+							"@id": "http://localhost:4000/martech/2023/how-to-develop-marketing-campaign#article"
 						},
 						"description": "A well-planned campaign strategy is the difference between attracting new customers and losing ground to the competition.",
-						"totalTime": "P1D",
+						"totalTime": P1D,
 						"step": [
 						
 							{
 								"@type": "HowToStep",
-								"url": "/martech/2023/how-to-develop-marketing-campaign#how-to-step-1",
+								"url": "http://localhost:4000/martech/2023/how-to-develop-marketing-campaign#how-to-step-1",
 								"name": "Uncover organizational challenges",
 								"itemListElement": [
 									{
@@ -217,7 +216,7 @@
 						
 							{
 								"@type": "HowToStep",
-								"url": "/martech/2023/how-to-develop-marketing-campaign#how-to-step-2",
+								"url": "http://localhost:4000/martech/2023/how-to-develop-marketing-campaign#how-to-step-2",
 								"name": "Identify your target audience",
 								"itemListElement": [
 									{
@@ -229,7 +228,7 @@
 						
 							{
 								"@type": "HowToStep",
-								"url": "/martech/2023/how-to-develop-marketing-campaign#how-to-step-3",
+								"url": "http://localhost:4000/martech/2023/how-to-develop-marketing-campaign#how-to-step-3",
 								"name": "Determine measurable KPIs",
 								"itemListElement": [
 									{
@@ -241,7 +240,7 @@
 						
 							{
 								"@type": "HowToStep",
-								"url": "/martech/2023/how-to-develop-marketing-campaign#how-to-step-4",
+								"url": "http://localhost:4000/martech/2023/how-to-develop-marketing-campaign#how-to-step-4",
 								"name": "Formulate a hypothesis",
 								"itemListElement": [
 									{
@@ -253,7 +252,7 @@
 						
 							{
 								"@type": "HowToStep",
-								"url": "/martech/2023/how-to-develop-marketing-campaign#how-to-step-5",
+								"url": "http://localhost:4000/martech/2023/how-to-develop-marketing-campaign#how-to-step-5",
 								"name": "Review necessary content",
 								"itemListElement": [
 									{
@@ -265,7 +264,7 @@
 						
 							{
 								"@type": "HowToStep",
-								"url": "/martech/2023/how-to-develop-marketing-campaign#how-to-step-6",
+								"url": "http://localhost:4000/martech/2023/how-to-develop-marketing-campaign#how-to-step-6",
 								"name": "Analyze and refine",
 								"itemListElement": [
 									{
@@ -347,7 +346,7 @@
 				</div>
 				
 					<picture>
-						<source type="image/webp" srcset="http://localhost:4000/assets/img/martech/chocolate-cake.webp" >
+						<source type="image/webp" srcset="http://localhost:4000/assets/img/martech/chocolate-cake.jpeg" >
 						<img src="http://localhost:4000/assets/img/martech/chocolate-cake.jpeg" class="w-full h-full object-cover object-center rounded shadow" alt="Launching a marketing campaign is like baking a cake." />
 					</picture>
 				
@@ -365,7 +364,7 @@
 
 				
 					<section class="schema-how-to max-w-4 mb-20 mx-auto py-4 px-6 text-sm bg-sand rounded">
-						<p class="mt-0 text-xs">Time needed: <time datetime="P1D">P1D</time></p>
+						<p class="mt-0 text-xs">Time needed: <strong datetime="P1D">1 day</strong></p>
 						<p>A well-planned campaign strategy is the difference between attracting new customers and losing ground to the competition.</p>
 						<ol class="schema-how-to-steps mb-0 pl-4">
 							

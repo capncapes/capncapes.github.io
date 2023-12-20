@@ -14,7 +14,10 @@ tags: ["web development", "Git"]
 howto: {
 	title: "How to remove .DS_Store files from a Git repository",
 	description: "Remove existing .DS_Store files from your Git repository and prevent them from being saved in the future.",
-	time: "P0DT0H2M",
+	time: {
+		formatted: 'PT2M',
+		duration: '2 minutes'
+	},
 	steps: [
 		{
 			name: "Project Root",

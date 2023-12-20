@@ -121,7 +121,7 @@
 						"@id": "http://localhost:4000#website",
 						"url": "http://localhost:4000",
 						"name": "Brandon Caples",
-						"description": "Since 2015, this site has mostly been a blog. I relaunched the site in 2022 with a renewed focus on writing about my passions—marketing technology and faith.",
+						"description": "I am a marketing technologist working at the intersection of strategy and technology.",
 						"publisher": {
 							"@id": "http://localhost:4000#/schema/person/3fbbe8e23fcabc3da5c9cbc102d346c9"
 						},
@@ -131,9 +131,9 @@
 					{
 						"@type": "ImageObject",
 						"inLanguage": "en-US",
-						"@id": "/martech/2021/average-color-universe#primaryimage",
-						"url": "average-color-universe.webp",
-						"contentUrl": "average-color-universe.webp",
+						"@id": "http://localhost:4000/martech/2021/average-color-universe#primaryimage",
+						"url": "http://localhost:4000/assets/img/martech/average-color-universe.jpeg",
+						"contentUrl": "http://localhost:4000/assets/img/martech/average-color-universe.jpeg",
 						"caption": "Stars and galaxies"
 					},
 					
@@ -142,27 +142,28 @@
 							"Article",
 							"BlogPosting"
 						],
-						"@id": "/martech/2021/average-color-universe#article",
+						"@id": "http://localhost:4000/martech/2021/average-color-universe#article",
+						"name": "The average color of the universe",
 						"isPartOf": {
-							"@id": "/martech/2021/average-color-universe#webpage"
+							"@id": "http://localhost:4000/martech/2021/average-color-universe#webpage"
 						},
 						"author": {
 							"@id": "http://localhost:4000#/schema/person/3fbbe8e23fcabc3da5c9cbc102d346c9"
+							"@type": "Person",
+							"name": "Brandon Caples"
 						},
 						"headline": "The average color of the universe",
 						"datePublished": "2021-08-24T11:32:00-05:00",
 						"mainEntityOfPage": {
-							"@id": "/martech/2021/average-color-universe#webpage"
+							"@id": "http://localhost:4000/martech/2021/average-color-universe#webpage"
 						},
 						"publisher": {
 							"@id": "http://localhost:4000#/schema/person/3fbbe8e23fcabc3da5c9cbc102d346c9"
 						},
-						"image": {
-							"@id": "/martech/2021/average-color-universe#primaryimage"
-						},
-						"thumbnailUrl": "average-color-universe.webp",
+						"image": "http://localhost:4000/assets/img/martech/average-color-universe.jpeg",
+						"thumbnailUrl": "http://localhost:4000/assets/img/martech/average-color-universe.jpeg",
 						"keywords": [ "graphic design"],
-						"articleSection": ["MarTech"],
+						"articleSection": "MarTech",
 						"inLanguage": "en-US"
 					},
 					{
@@ -176,16 +177,14 @@
 							"@type": "ImageObject",
 							"inLanguage": "en-US",
 							"@id": "http://localhost:4000#/schema/person/image/",
-							"url": "http://localhost:4000/assets/img/brandon_caples.webp",
-							"contentUrl": "http://localhost:4000/assets/img/brandon_caples.webp",
+							"url": "http://localhost:4000/assets/img/brandon_caples.jpeg",
+							"contentUrl": "http://localhost:4000/assets/img/brandon_caples.jpeg",
 							"width": 600,
 							"height": 600,
 							"caption": "Brandon Caples"
 						},
-						"logo": {
-							"@id": "http://localhost:4000#/schema/person/image/"
-						},
-						"description": "I live in Ooltewah, Tennessee with my wife, our son, and our goldendoodle.",
+						"logo": "http://localhost:4000/assets/img/logomark.png",
+						"description": "I live in Tennessee with my wife, our son, and our goldendoodle.",
 						"sameAs": [
 							"bcaples",
 							"brandoncaples",
@@ -261,7 +260,7 @@
 				</div>
 				
 					<picture>
-						<source type="image/webp" srcset="http://localhost:4000/assets/img/martech/average-color-universe.webp" >
+						<source type="image/webp" srcset="http://localhost:4000/assets/img/martech/average-color-universe.jpeg" >
 						<img src="http://localhost:4000/assets/img/martech/average-color-universe.jpeg" class="w-full h-full object-cover object-center rounded shadow" alt="Stars and galaxies" />
 					</picture>
 				

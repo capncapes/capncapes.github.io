@@ -14,7 +14,10 @@ tags: ["marketing"]
 howto: {
 	title: "How to develop a marketing campaign strategy that works",
 	description: "A well-planned campaign strategy is the difference between attracting new customers and losing ground to the competition.",
-	time: "P1D",
+	time: {
+		formatted: 'P1D',
+		duration: '1 day'
+	},
 	steps: [
 		{
 			name: "Uncover organizational challenges",

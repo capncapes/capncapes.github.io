@@ -123,7 +123,7 @@
 						"@id": "http://localhost:4000#website",
 						"url": "http://localhost:4000",
 						"name": "Brandon Caples",
-						"description": "Since 2015, this site has mostly been a blog. I relaunched the site in 2022 with a renewed focus on writing about my passions—marketing technology and faith.",
+						"description": "I am a marketing technologist working at the intersection of strategy and technology.",
 						"publisher": {
 							"@id": "http://localhost:4000#/schema/person/3fbbe8e23fcabc3da5c9cbc102d346c9"
 						},
@@ -133,9 +133,9 @@
 					{
 						"@type": "ImageObject",
 						"inLanguage": "en-US",
-						"@id": "/martech/2022/git-remove-ds-store#primaryimage",
-						"url": "git-remove-ds-store.webp",
-						"contentUrl": "git-remove-ds-store.webp",
+						"@id": "http://localhost:4000/martech/2022/git-remove-ds-store#primaryimage",
+						"url": "http://localhost:4000/assets/img/martech/git-remove-ds-store.png",
+						"contentUrl": "http://localhost:4000/assets/img/martech/git-remove-ds-store.png",
 						"caption": ".DS_Store file on a Mac computer"
 					},
 					
@@ -144,27 +144,28 @@
 							"Article",
 							"BlogPosting"
 						],
-						"@id": "/martech/2022/git-remove-ds-store#article",
+						"@id": "http://localhost:4000/martech/2022/git-remove-ds-store#article",
+						"name": "Remove .DS_Store with Git",
 						"isPartOf": {
-							"@id": "/martech/2022/git-remove-ds-store#webpage"
+							"@id": "http://localhost:4000/martech/2022/git-remove-ds-store#webpage"
 						},
 						"author": {
 							"@id": "http://localhost:4000#/schema/person/3fbbe8e23fcabc3da5c9cbc102d346c9"
+							"@type": "Person",
+							"name": "Brandon Caples"
 						},
 						"headline": "Remove .DS_Store with Git",
 						"datePublished": "2022-06-26T00:14:39-05:00",
 						"mainEntityOfPage": {
-							"@id": "/martech/2022/git-remove-ds-store#webpage"
+							"@id": "http://localhost:4000/martech/2022/git-remove-ds-store#webpage"
 						},
 						"publisher": {
 							"@id": "http://localhost:4000#/schema/person/3fbbe8e23fcabc3da5c9cbc102d346c9"
 						},
-						"image": {
-							"@id": "/martech/2022/git-remove-ds-store#primaryimage"
-						},
-						"thumbnailUrl": "git-remove-ds-store.webp",
+						"image": "http://localhost:4000/assets/img/martech/git-remove-ds-store.png",
+						"thumbnailUrl": "http://localhost:4000/assets/img/martech/git-remove-ds-store.png",
 						"keywords": [ "web development", "Git"],
-						"articleSection": ["MarTech"],
+						"articleSection": "MarTech",
 						"inLanguage": "en-US"
 					},
 					{
@@ -178,16 +179,14 @@
 							"@type": "ImageObject",
 							"inLanguage": "en-US",
 							"@id": "http://localhost:4000#/schema/person/image/",
-							"url": "http://localhost:4000/assets/img/brandon_caples.webp",
-							"contentUrl": "http://localhost:4000/assets/img/brandon_caples.webp",
+							"url": "http://localhost:4000/assets/img/brandon_caples.jpeg",
+							"contentUrl": "http://localhost:4000/assets/img/brandon_caples.jpeg",
 							"width": 600,
 							"height": 600,
 							"caption": "Brandon Caples"
 						},
-						"logo": {
-							"@id": "http://localhost:4000#/schema/person/image/"
-						},
-						"description": "I live in Ooltewah, Tennessee with my wife, our son, and our goldendoodle.",
+						"logo": "http://localhost:4000/assets/img/logomark.png",
+						"description": "I live in Tennessee with my wife, our son, and our goldendoodle.",
 						"sameAs": [
 							"bcaples",
 							"brandoncaples",
@@ -196,18 +195,18 @@
 					},
 					{
 						"@type": "HowTo",
-						"@id": "/martech/2022/git-remove-ds-store#howto-1",
+						"@id": "http://localhost:4000/martech/2022/git-remove-ds-store#howto-1",
 						"name": "How to remove .DS_Store files from a Git repository",
 						"mainEntityOfPage": {
-							"@id": "/martech/2022/git-remove-ds-store#article"
+							"@id": "http://localhost:4000/martech/2022/git-remove-ds-store#article"
 						},
 						"description": "Remove existing .DS_Store files from your Git repository and prevent them from being saved in the future.",
-						"totalTime": "P0DT0H2M",
+						"totalTime": ,
 						"step": [
 						
 							{
 								"@type": "HowToStep",
-								"url": "/martech/2022/git-remove-ds-store#how-to-step-1",
+								"url": "http://localhost:4000/martech/2022/git-remove-ds-store#how-to-step-1",
 								"name": "Project Root",
 								"itemListElement": [
 									{
@@ -219,7 +218,7 @@
 						
 							{
 								"@type": "HowToStep",
-								"url": "/martech/2022/git-remove-ds-store#how-to-step-2",
+								"url": "http://localhost:4000/martech/2022/git-remove-ds-store#how-to-step-2",
 								"name": "Remove .DS_Store",
 								"itemListElement": [
 									{
@@ -231,7 +230,7 @@
 						
 							{
 								"@type": "HowToStep",
-								"url": "/martech/2022/git-remove-ds-store#how-to-step-3",
+								"url": "http://localhost:4000/martech/2022/git-remove-ds-store#how-to-step-3",
 								"name": "Add to .gitignore",
 								"itemListElement": [
 									{
@@ -243,7 +242,7 @@
 						
 							{
 								"@type": "HowToStep",
-								"url": "/martech/2022/git-remove-ds-store#how-to-step-4",
+								"url": "http://localhost:4000/martech/2022/git-remove-ds-store#how-to-step-4",
 								"name": "Commit Changes",
 								"itemListElement": [
 									{
@@ -325,7 +324,7 @@
 				</div>
 				
 					<picture>
-						<source type="image/webp" srcset="http://localhost:4000/assets/img/martech/git-remove-ds-store.webp" >
+						<source type="image/webp" srcset="http://localhost:4000/assets/img/martech/git-remove-ds-store.png" >
 						<img src="http://localhost:4000/assets/img/martech/git-remove-ds-store.png" class="w-full h-full object-cover object-left rounded shadow" alt=".DS_Store file on a Mac computer" />
 					</picture>
 				
@@ -343,7 +342,7 @@
 
 				
 					<section class="schema-how-to max-w-4 mb-20 mx-auto py-4 px-6 text-sm bg-sand rounded">
-						<p class="mt-0 text-xs">Time needed: <time datetime="P0DT0H2M">P0DT0H2M</time></p>
+						<p class="mt-0 text-xs">Time needed: <strong datetime=""></strong></p>
 						<p>Remove existing .DS_Store files from your Git repository and prevent them from being saved in the future.</p>
 						<ol class="schema-how-to-steps mb-0 pl-4">
 							

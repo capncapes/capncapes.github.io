@@ -125,7 +125,7 @@
 						"@id": "http://localhost:4000#website",
 						"url": "http://localhost:4000",
 						"name": "Brandon Caples",
-						"description": "Since 2015, this site has mostly been a blog. I relaunched the site in 2022 with a renewed focus on writing about my passions—marketing technology and faith.",
+						"description": "I am a marketing technologist working at the intersection of strategy and technology.",
 						"publisher": {
 							"@id": "http://localhost:4000#/schema/person/3fbbe8e23fcabc3da5c9cbc102d346c9"
 						},
@@ -135,9 +135,9 @@
 					{
 						"@type": "ImageObject",
 						"inLanguage": "en-US",
-						"@id": "/faith/2022/this-is-eternal-life#primaryimage",
-						"url": "eternal-life.webp",
-						"contentUrl": "eternal-life.webp",
+						"@id": "http://localhost:4000/faith/2022/this-is-eternal-life#primaryimage",
+						"url": "http://localhost:4000/assets/img/faith/eternal-life.jpg",
+						"contentUrl": "http://localhost:4000/assets/img/faith/eternal-life.jpg",
 						"caption": "An open door illuminated by the light outside"
 					},
 					
@@ -146,27 +146,28 @@
 							"Article",
 							"BlogPosting"
 						],
-						"@id": "/faith/2022/this-is-eternal-life#article",
+						"@id": "http://localhost:4000/faith/2022/this-is-eternal-life#article",
+						"name": "This is eternal life: know your God",
 						"isPartOf": {
-							"@id": "/faith/2022/this-is-eternal-life#webpage"
+							"@id": "http://localhost:4000/faith/2022/this-is-eternal-life#webpage"
 						},
 						"author": {
 							"@id": "http://localhost:4000#/schema/person/3fbbe8e23fcabc3da5c9cbc102d346c9"
+							"@type": "Person",
+							"name": "Brandon Caples"
 						},
 						"headline": "This is eternal life: know your God",
 						"datePublished": "2022-05-26T12:39:31-05:00",
 						"mainEntityOfPage": {
-							"@id": "/faith/2022/this-is-eternal-life#webpage"
+							"@id": "http://localhost:4000/faith/2022/this-is-eternal-life#webpage"
 						},
 						"publisher": {
 							"@id": "http://localhost:4000#/schema/person/3fbbe8e23fcabc3da5c9cbc102d346c9"
 						},
-						"image": {
-							"@id": "/faith/2022/this-is-eternal-life#primaryimage"
-						},
-						"thumbnailUrl": "eternal-life.webp",
+						"image": "http://localhost:4000/assets/img/faith/eternal-life.jpg",
+						"thumbnailUrl": "http://localhost:4000/assets/img/faith/eternal-life.jpg",
 						"keywords": [ "eternal life", "eschatology", "gospels"],
-						"articleSection": ["Faith"],
+						"articleSection": "Faith",
 						"inLanguage": "en-US"
 					},
 					{
@@ -180,16 +181,14 @@
 							"@type": "ImageObject",
 							"inLanguage": "en-US",
 							"@id": "http://localhost:4000#/schema/person/image/",
-							"url": "http://localhost:4000/assets/img/brandon_caples.webp",
-							"contentUrl": "http://localhost:4000/assets/img/brandon_caples.webp",
+							"url": "http://localhost:4000/assets/img/brandon_caples.jpeg",
+							"contentUrl": "http://localhost:4000/assets/img/brandon_caples.jpeg",
 							"width": 600,
 							"height": 600,
 							"caption": "Brandon Caples"
 						},
-						"logo": {
-							"@id": "http://localhost:4000#/schema/person/image/"
-						},
-						"description": "I live in Ooltewah, Tennessee with my wife, our son, and our goldendoodle.",
+						"logo": "http://localhost:4000/assets/img/logomark.png",
+						"description": "I live in Tennessee with my wife, our son, and our goldendoodle.",
 						"sameAs": [
 							"bcaples",
 							"brandoncaples",
@@ -265,7 +264,7 @@
 				</div>
 				
 					<picture>
-						<source type="image/webp" srcset="http://localhost:4000/assets/img/faith/eternal-life.webp" >
+						<source type="image/webp" srcset="http://localhost:4000/assets/img/faith/eternal-life.jpg" >
 						<img src="http://localhost:4000/assets/img/faith/eternal-life.jpg" class="w-full h-full object-cover object-center rounded shadow" alt="An open door illuminated by the light outside" />
 					</picture>
 				

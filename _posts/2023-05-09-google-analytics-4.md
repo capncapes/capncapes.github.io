@@ -14,7 +14,10 @@ tags: ["Google Analytics 4", "data"]
 howto: {
 	title: "How to add a user property to Google Analytics 4 using GTM",
 	description: "Google Analytics 4 user properties are customizable attributes that describe groups of your users.",
-	time: "P0DT0H10M",
+	time: {
+		formatted: 'PT10M',
+		duration: '10 minutes'
+	},
 	steps: [
 		{
 			name: "Create a new GA4 property",

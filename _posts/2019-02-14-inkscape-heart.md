@@ -13,7 +13,10 @@ tags: ["how to", "graphic design"]
 howto: {
 	title: "How to Draw a Heart with Inkscape",
 	description: "Learn how to draw a heart shape using Inkscape for free.",
-	time: "P0DT0H10M",
+	time: {
+		formatted: 'PT15M',
+		duration: '15 minutes'
+	},
 	steps: [
 		{
 			name: "New Document",

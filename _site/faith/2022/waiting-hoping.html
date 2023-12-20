@@ -123,7 +123,7 @@
 						"@id": "http://localhost:4000#website",
 						"url": "http://localhost:4000",
 						"name": "Brandon Caples",
-						"description": "Since 2015, this site has mostly been a blog. I relaunched the site in 2022 with a renewed focus on writing about my passions—marketing technology and faith.",
+						"description": "I am a marketing technologist working at the intersection of strategy and technology.",
 						"publisher": {
 							"@id": "http://localhost:4000#/schema/person/3fbbe8e23fcabc3da5c9cbc102d346c9"
 						},
@@ -133,9 +133,9 @@
 					{
 						"@type": "ImageObject",
 						"inLanguage": "en-US",
-						"@id": "/faith/2022/waiting-hoping#primaryimage",
-						"url": "ezra-grave-night.webp",
-						"contentUrl": "ezra-grave-night.webp",
+						"@id": "http://localhost:4000/faith/2022/waiting-hoping#primaryimage",
+						"url": "http://localhost:4000/assets/img/faith/ezra-grave-night.jpeg",
+						"contentUrl": "http://localhost:4000/assets/img/faith/ezra-grave-night.jpeg",
 						"caption": "A nighttime Christmas memorial service honoring lost loved ones"
 					},
 					
@@ -144,27 +144,28 @@
 							"Article",
 							"BlogPosting"
 						],
-						"@id": "/faith/2022/waiting-hoping#article",
+						"@id": "http://localhost:4000/faith/2022/waiting-hoping#article",
+						"name": "Waiting and hoping",
 						"isPartOf": {
-							"@id": "/faith/2022/waiting-hoping#webpage"
+							"@id": "http://localhost:4000/faith/2022/waiting-hoping#webpage"
 						},
 						"author": {
 							"@id": "http://localhost:4000#/schema/person/3fbbe8e23fcabc3da5c9cbc102d346c9"
+							"@type": "Person",
+							"name": "Brandon Caples"
 						},
 						"headline": "Waiting and hoping",
 						"datePublished": "2022-12-04T06:59:01-05:00",
 						"mainEntityOfPage": {
-							"@id": "/faith/2022/waiting-hoping#webpage"
+							"@id": "http://localhost:4000/faith/2022/waiting-hoping#webpage"
 						},
 						"publisher": {
 							"@id": "http://localhost:4000#/schema/person/3fbbe8e23fcabc3da5c9cbc102d346c9"
 						},
-						"image": {
-							"@id": "/faith/2022/waiting-hoping#primaryimage"
-						},
-						"thumbnailUrl": "ezra-grave-night.webp",
+						"image": "http://localhost:4000/assets/img/faith/ezra-grave-night.jpeg",
+						"thumbnailUrl": "http://localhost:4000/assets/img/faith/ezra-grave-night.jpeg",
 						"keywords": [ "anxiety", "grief"],
-						"articleSection": ["Faith"],
+						"articleSection": "Faith",
 						"inLanguage": "en-US"
 					},
 					{
@@ -178,16 +179,14 @@
 							"@type": "ImageObject",
 							"inLanguage": "en-US",
 							"@id": "http://localhost:4000#/schema/person/image/",
-							"url": "http://localhost:4000/assets/img/brandon_caples.webp",
-							"contentUrl": "http://localhost:4000/assets/img/brandon_caples.webp",
+							"url": "http://localhost:4000/assets/img/brandon_caples.jpeg",
+							"contentUrl": "http://localhost:4000/assets/img/brandon_caples.jpeg",
 							"width": 600,
 							"height": 600,
 							"caption": "Brandon Caples"
 						},
-						"logo": {
-							"@id": "http://localhost:4000#/schema/person/image/"
-						},
-						"description": "I live in Ooltewah, Tennessee with my wife, our son, and our goldendoodle.",
+						"logo": "http://localhost:4000/assets/img/logomark.png",
+						"description": "I live in Tennessee with my wife, our son, and our goldendoodle.",
 						"sameAs": [
 							"bcaples",
 							"brandoncaples",
@@ -263,7 +262,7 @@
 				</div>
 				
 					<picture>
-						<source type="image/webp" srcset="http://localhost:4000/assets/img/faith/ezra-grave-night.webp" >
+						<source type="image/webp" srcset="http://localhost:4000/assets/img/faith/ezra-grave-night.jpeg" >
 						<img src="http://localhost:4000/assets/img/faith/ezra-grave-night.jpeg" class="w-full h-full object-cover object-center rounded shadow" alt="A nighttime Christmas memorial service honoring lost loved ones" />
 					</picture>
 				

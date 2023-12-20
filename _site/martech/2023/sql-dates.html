@@ -123,7 +123,7 @@
 						"@id": "http://localhost:4000#website",
 						"url": "http://localhost:4000",
 						"name": "Brandon Caples",
-						"description": "Since 2015, this site has mostly been a blog. I relaunched the site in 2022 with a renewed focus on writing about my passions—marketing technology and faith.",
+						"description": "I am a marketing technologist working at the intersection of strategy and technology.",
 						"publisher": {
 							"@id": "http://localhost:4000#/schema/person/3fbbe8e23fcabc3da5c9cbc102d346c9"
 						},
@@ -133,9 +133,9 @@
 					{
 						"@type": "ImageObject",
 						"inLanguage": "en-US",
-						"@id": "/martech/2023/sql-dates#primaryimage",
-						"url": "calendar.webp",
-						"contentUrl": "calendar.webp",
+						"@id": "http://localhost:4000/martech/2023/sql-dates#primaryimage",
+						"url": "http://localhost:4000/assets/img/martech/calendar.jpeg",
+						"contentUrl": "http://localhost:4000/assets/img/martech/calendar.jpeg",
 						"caption": "Structured Query Language (SQL)"
 					},
 					
@@ -144,27 +144,28 @@
 							"Article",
 							"BlogPosting"
 						],
-						"@id": "/martech/2023/sql-dates#article",
+						"@id": "http://localhost:4000/martech/2023/sql-dates#article",
+						"name": "Using dates with SQL",
 						"isPartOf": {
-							"@id": "/martech/2023/sql-dates#webpage"
+							"@id": "http://localhost:4000/martech/2023/sql-dates#webpage"
 						},
 						"author": {
 							"@id": "http://localhost:4000#/schema/person/3fbbe8e23fcabc3da5c9cbc102d346c9"
+							"@type": "Person",
+							"name": "Brandon Caples"
 						},
 						"headline": "Using dates with SQL",
 						"datePublished": "2023-01-18T12:00:01-05:00",
 						"mainEntityOfPage": {
-							"@id": "/martech/2023/sql-dates#webpage"
+							"@id": "http://localhost:4000/martech/2023/sql-dates#webpage"
 						},
 						"publisher": {
 							"@id": "http://localhost:4000#/schema/person/3fbbe8e23fcabc3da5c9cbc102d346c9"
 						},
-						"image": {
-							"@id": "/martech/2023/sql-dates#primaryimage"
-						},
-						"thumbnailUrl": "calendar.webp",
+						"image": "http://localhost:4000/assets/img/martech/calendar.jpeg",
+						"thumbnailUrl": "http://localhost:4000/assets/img/martech/calendar.jpeg",
 						"keywords": [ "SQL", "data science"],
-						"articleSection": ["MarTech"],
+						"articleSection": "MarTech",
 						"inLanguage": "en-US"
 					},
 					{
@@ -178,16 +179,14 @@
 							"@type": "ImageObject",
 							"inLanguage": "en-US",
 							"@id": "http://localhost:4000#/schema/person/image/",
-							"url": "http://localhost:4000/assets/img/brandon_caples.webp",
-							"contentUrl": "http://localhost:4000/assets/img/brandon_caples.webp",
+							"url": "http://localhost:4000/assets/img/brandon_caples.jpeg",
+							"contentUrl": "http://localhost:4000/assets/img/brandon_caples.jpeg",
 							"width": 600,
 							"height": 600,
 							"caption": "Brandon Caples"
 						},
-						"logo": {
-							"@id": "http://localhost:4000#/schema/person/image/"
-						},
-						"description": "I live in Ooltewah, Tennessee with my wife, our son, and our goldendoodle.",
+						"logo": "http://localhost:4000/assets/img/logomark.png",
+						"description": "I live in Tennessee with my wife, our son, and our goldendoodle.",
 						"sameAs": [
 							"bcaples",
 							"brandoncaples",
@@ -263,7 +262,7 @@
 				</div>
 				
 					<picture>
-						<source type="image/webp" srcset="http://localhost:4000/assets/img/martech/calendar.webp" >
+						<source type="image/webp" srcset="http://localhost:4000/assets/img/martech/calendar.jpeg" >
 						<img src="http://localhost:4000/assets/img/martech/calendar.jpeg" class="w-full h-full object-cover object-center rounded shadow" alt="Structured Query Language (SQL)" />
 					</picture>
 				
@@ -285,11 +284,11 @@
 
 <h2 id="now">NOW()</h2>
 
-<p>The <code class="language-plaintext highlighter-rouge">NOW()</code> function simply returns the current datetime, like this: <strong>2023-12-20 12:20:08</strong>. You will probably use <code class="language-plaintext highlighter-rouge">NOW()</code> a lot. If you only need the current date or the current time, use <code class="language-plaintext highlighter-rouge">CURDATE()</code> or <code class="language-plaintext highlighter-rouge">CURTIME()</code>, respectively.</p>
+<p>The <code class="language-plaintext highlighter-rouge">NOW()</code> function simply returns the current datetime, like this: <strong>2023-12-20 15:21:40</strong>. You will probably use <code class="language-plaintext highlighter-rouge">NOW()</code> a lot. If you only need the current date or the current time, use <code class="language-plaintext highlighter-rouge">CURDATE()</code> or <code class="language-plaintext highlighter-rouge">CURTIME()</code>, respectively.</p>
 
 <h2 id="getdate">GETDATE()</h2>
 
-<p>The <code class="language-plaintext highlighter-rouge">GETDATE()</code> function works exactly like the <code class="language-plaintext highlighter-rouge">NOW()</code> function, except that <code class="language-plaintext highlighter-rouge">GETDATE()</code> returns milliseconds, too. The query result would look something like this: <strong>2023-12-20 12:20:08.045</strong>.</p>
+<p>The <code class="language-plaintext highlighter-rouge">GETDATE()</code> function works exactly like the <code class="language-plaintext highlighter-rouge">NOW()</code> function, except that <code class="language-plaintext highlighter-rouge">GETDATE()</code> returns milliseconds, too. The query result would look something like this: <strong>2023-12-20 15:21:40.029</strong>.</p>
 
 <h2 id="date">DATE()</h2>
 <p><code class="language-plaintext highlighter-rouge">DATE(date)</code></p>

@@ -14,7 +14,10 @@ tags: ["Google"]
 howto: {
 	title: "How to create a Google account without Gmail",
 	description: "Google services require a Google account, but it doesn't have to be with Gmail. It's possible to create a Google account using a different email address.",
-	time: "P0DT0H2M",
+	time: {
+		formatted: 'PT2M',
+		duration: '2 minutes'
+	},
 	steps: [
 		{
 			name: "Visit accounts.google.com/SignUpWithoutGmail",

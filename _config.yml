@@ -2,7 +2,7 @@
 # https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
 # https://learnxinyminutes.com/docs/yaml/
 
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: ""
 url: "https://brandoncaples.com"
 logo: "https://pbs.twimg.com/profile_images/1482576665838600195/KmXL8nh7_400x400.jpg"
 permalink: /:categories/:year/:title
@@ -16,7 +16,7 @@ author:
 # META
 meta:
   title: "Brandon Caples"
-  description: "Since 2015, this site has mostly been a blog. I relaunched the site in 2022 with a renewed focus on writing about my passions—marketing technology and faith."
+  description: "I am a marketing technologist working at the intersection of strategy and technology."
 
 # SOCIALS
 social:

@@ -127,7 +127,7 @@
 						"@id": "http://localhost:4000#website",
 						"url": "http://localhost:4000",
 						"name": "Brandon Caples",
-						"description": "Since 2015, this site has mostly been a blog. I relaunched the site in 2022 with a renewed focus on writing about my passions—marketing technology and faith.",
+						"description": "I am a marketing technologist working at the intersection of strategy and technology.",
 						"publisher": {
 							"@id": "http://localhost:4000#/schema/person/3fbbe8e23fcabc3da5c9cbc102d346c9"
 						},
@@ -137,9 +137,9 @@
 					{
 						"@type": "ImageObject",
 						"inLanguage": "en-US",
-						"@id": "/martech/2023/bulletproof-html-email-buttons#primaryimage",
-						"url": "email-buttons.webp",
-						"contentUrl": "email-buttons.webp",
+						"@id": "http://localhost:4000/martech/2023/bulletproof-html-email-buttons#primaryimage",
+						"url": "http://localhost:4000/assets/img/martech/email-buttons.png",
+						"contentUrl": "http://localhost:4000/assets/img/martech/email-buttons.png",
 						"caption": "A green button within an email"
 					},
 					
@@ -148,27 +148,28 @@
 							"Article",
 							"BlogPosting"
 						],
-						"@id": "/martech/2023/bulletproof-html-email-buttons#article",
+						"@id": "http://localhost:4000/martech/2023/bulletproof-html-email-buttons#article",
+						"name": "Bulletproof HTML email buttons",
 						"isPartOf": {
-							"@id": "/martech/2023/bulletproof-html-email-buttons#webpage"
+							"@id": "http://localhost:4000/martech/2023/bulletproof-html-email-buttons#webpage"
 						},
 						"author": {
 							"@id": "http://localhost:4000#/schema/person/3fbbe8e23fcabc3da5c9cbc102d346c9"
+							"@type": "Person",
+							"name": "Brandon Caples"
 						},
 						"headline": "Bulletproof HTML email buttons",
 						"datePublished": "2023-11-30T05:15:51-05:00",
 						"mainEntityOfPage": {
-							"@id": "/martech/2023/bulletproof-html-email-buttons#webpage"
+							"@id": "http://localhost:4000/martech/2023/bulletproof-html-email-buttons#webpage"
 						},
 						"publisher": {
 							"@id": "http://localhost:4000#/schema/person/3fbbe8e23fcabc3da5c9cbc102d346c9"
 						},
-						"image": {
-							"@id": "/martech/2023/bulletproof-html-email-buttons#primaryimage"
-						},
-						"thumbnailUrl": "email-buttons.webp",
+						"image": "http://localhost:4000/assets/img/martech/email-buttons.png",
+						"thumbnailUrl": "http://localhost:4000/assets/img/martech/email-buttons.png",
 						"keywords": [ "email", "Outlook", "Gmail", "Yahoo"],
-						"articleSection": ["MarTech"],
+						"articleSection": "MarTech",
 						"inLanguage": "en-US"
 					},
 					{
@@ -182,16 +183,14 @@
 							"@type": "ImageObject",
 							"inLanguage": "en-US",
 							"@id": "http://localhost:4000#/schema/person/image/",
-							"url": "http://localhost:4000/assets/img/brandon_caples.webp",
-							"contentUrl": "http://localhost:4000/assets/img/brandon_caples.webp",
+							"url": "http://localhost:4000/assets/img/brandon_caples.jpeg",
+							"contentUrl": "http://localhost:4000/assets/img/brandon_caples.jpeg",
 							"width": 600,
 							"height": 600,
 							"caption": "Brandon Caples"
 						},
-						"logo": {
-							"@id": "http://localhost:4000#/schema/person/image/"
-						},
-						"description": "I live in Ooltewah, Tennessee with my wife, our son, and our goldendoodle.",
+						"logo": "http://localhost:4000/assets/img/logomark.png",
+						"description": "I live in Tennessee with my wife, our son, and our goldendoodle.",
 						"sameAs": [
 							"bcaples",
 							"brandoncaples",
@@ -267,7 +266,7 @@
 				</div>
 				
 					<picture>
-						<source type="image/webp" srcset="http://localhost:4000/assets/img/martech/email-buttons.webp" >
+						<source type="image/webp" srcset="http://localhost:4000/assets/img/martech/email-buttons.png" >
 						<img src="http://localhost:4000/assets/img/martech/email-buttons.png" class="w-full h-full object-cover object-center rounded shadow" alt="A green button within an email" />
 					</picture>
 				

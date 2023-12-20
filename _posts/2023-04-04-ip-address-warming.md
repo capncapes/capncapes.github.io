@@ -11,6 +11,36 @@ featured_image: {
 description: "IP warming is like introducing yourself gradually to ESPs, building trust by sending out a few emails at first and then steadily increasing volume over time."
 category: MarTech
 tags: ["email"]
+howto: {
+	title: "How to add a user property to Google Analytics 4 using GTM",
+	description: "Google Analytics 4 user properties are customizable attributes that describe groups of your users.",
+	time: {
+		formatted: 'P6W',
+		duration: '6 weeks'
+	},
+	steps: [
+		{
+			name: "Plan your sending schedule",
+			text: "Create a send schedule, allowing for about six weeks to complete the IP warming process."
+		},
+		{
+			name: "Authenticate your emails",
+			text: "Implement SPF, DKIM, and DMARC to authenticate your emails and prevent spoofing."
+		},
+		{
+			name: "Segment your subscribers",
+			text: "Don't send the same email to everyone. Segment your list based on engagement levels and email service provider."
+		},
+		{
+			name: "Monitor email analytics",
+			text: "Use email sending platforms or analytics tools to track your sending reputation."
+		},
+		{
+			name: "Maintain a clean list",
+			text: "Regularly remove inactive or unsubscribed recipients from your list."
+		}
+	]
+}
 featured: false
 published: true
 ---
@@ -29,11 +59,11 @@ Think of your IP address as your email server's fingerprint. When you're a new s
 
 ## How to warm up your IP address
 
-1. Start slow and steady: Begin by sending a small number of emails per day, focusing on engaged recipients who have opted-in to your list. Gradually increase the volume over time, aiming for a 20-30% increase each day.
-2. Segment your audience: Don't send the same email to everyone. Segment your list based on engagement levels, interests, and demographics. This personalizes the experience and improves open rates, which is another signal of legitimacy for email providers.
-3. Authenticate your emails: Implement SPF, DKIM, and DMARC to authenticate your emails and prevent spoofing. This tells mailbox providers that your emails are indeed coming from you and not an impersonator.
-4. Monitor your sending reputation: Use email sending platforms or analytics tools to track your sending reputation. This will give you insights into your deliverability rates and allow you to adjust your warming strategy as needed.
-5. Maintain a clean list: Regularly remove inactive or unsubscribed recipients from your list. A clean list improves your overall sending reputation and ensures you're only reaching engaged subscribers.
+1. **Start slow and steady:** Begin by sending a small number of emails per day, focusing on engaged recipients who have opted-in to your list. Gradually increase the volume over time, aiming for a 20&ndash;30% increase each day.
+2. **Segment your audience:** Don't send the same email to everyone. Segment your list based on engagement levels, interests, and demographics. This personalizes the experience and improves open rates, which is another signal of legitimacy for email providers.
+3. **Authenticate your emails:** Implement SPF, DKIM, and DMARC to authenticate your emails and prevent spoofing. This tells mailbox providers that your emails are indeed coming from you and not an impersonator.
+4. **Monitor your sending reputation:** Use email sending platforms or analytics tools to track your sending reputation. This will give you insights into your deliverability rates and allow you to adjust your warming strategy as needed.
+5. **Maintain a clean list:** Regularly remove inactive or unsubscribed recipients from your list. A clean list improves your overall sending reputation and ensures you're only reaching engaged subscribers.
 
 ## Which subscribers to send to
 

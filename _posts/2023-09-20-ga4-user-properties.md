@@ -14,7 +14,10 @@ tags: ["Google Analytics 4", "data"]
 howto: {
 	title: "How to add a user property to Google Analytics 4 using GTM",
 	description: "Google Analytics 4 user properties are customizable attributes that describe groups of your users.",
-	time: "P0DT0H3M",
+	time: {
+		formatted: 'PT3M',
+		duration: '3 minutes'
+	},
 	steps: [
 		{
 			name: "Ensure presence of Google Tag",
@@ -36,11 +39,11 @@ howto: {
 			name: "Save",
 			text: "Save the event and any related variables and triggers."
 		},
-    {
+		{
 			name: "Create a GA4 custom dimension",
 			text: "Create the corresponding user-scoped custom dimension in Google Analytics 4."
 		},
-    {
+		{
 			name: "Publish",
 			text: "Publish the GTM changes."
 		}
