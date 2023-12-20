@@ -193,6 +193,104 @@
 							"brandoncaples",
 							"https://twitter.com/caplesweb"
 						]
+					},
+					{
+						"@type": "HowTo",
+						"@id": "/martech/2023/ga4-user-properties#howto-1",
+						"name": "How to add a user property to Google Analytics 4 using GTM",
+						"mainEntityOfPage": {
+							"@id": "/martech/2023/ga4-user-properties#article"
+						},
+						"description": "Google Analytics 4 user properties are customizable attributes that describe groups of your users.",
+						"totalTime": "P0DT0H3M",
+						"step": [
+						
+							{
+								"@type": "HowToStep",
+								"url": "/martech/2023/ga4-user-properties#how-to-step-1",
+								"name": "Ensure presence of Google Tag",
+								"itemListElement": [
+									{
+										"@type": "HowToDirection",
+										"text": "Make sure that the Google Tag (gtag.js) is present on the page."
+									}
+								]
+							},
+						
+							{
+								"@type": "HowToStep",
+								"url": "/martech/2023/ga4-user-properties#how-to-step-2",
+								"name": "Edit GA4 event",
+								"itemListElement": [
+									{
+										"@type": "HowToDirection",
+										"text": "Create a new event or open an existing one."
+									}
+								]
+							},
+						
+							{
+								"@type": "HowToStep",
+								"url": "/martech/2023/ga4-user-properties#how-to-step-3",
+								"name": "Add Row",
+								"itemListElement": [
+									{
+										"@type": "HowToDirection",
+										"text": "Click the Add Row button in the User Properties tab of the GA4 event."
+									}
+								]
+							},
+						
+							{
+								"@type": "HowToStep",
+								"url": "/martech/2023/ga4-user-properties#how-to-step-4",
+								"name": "Add the user property",
+								"itemListElement": [
+									{
+										"@type": "HowToDirection",
+										"text": "Add the name of the user property and its value."
+									}
+								]
+							},
+						
+							{
+								"@type": "HowToStep",
+								"url": "/martech/2023/ga4-user-properties#how-to-step-5",
+								"name": "Save",
+								"itemListElement": [
+									{
+										"@type": "HowToDirection",
+										"text": "Save the event and any related variables and triggers."
+									}
+								]
+							},
+						
+							{
+								"@type": "HowToStep",
+								"url": "/martech/2023/ga4-user-properties#how-to-step-6",
+								"name": "Create a GA4 custom dimension",
+								"itemListElement": [
+									{
+										"@type": "HowToDirection",
+										"text": "Create the corresponding user-scoped custom dimension in Google Analytics 4."
+									}
+								]
+							},
+						
+							{
+								"@type": "HowToStep",
+								"url": "/martech/2023/ga4-user-properties#how-to-step-7",
+								"name": "Publish",
+								"itemListElement": [
+									{
+										"@type": "HowToDirection",
+										"text": "Publish the GTM changes."
+									}
+								]
+							},
+						
+						],
+						"inLanguage": "en-US"
 					}
 				]
 			}
@@ -279,6 +377,49 @@
 				</div>
 				
 
+				
+					<section class="schema-how-to max-w-4 mb-20 mx-auto py-4 px-6 text-sm bg-sand rounded">
+						<p class="mt-0 text-xs">Time needed: <time datetime="P0DT0H3M">P0DT0H3M</time></p>
+						<p>Google Analytics 4 user properties are customizable attributes that describe groups of your users.</p>
+						<ol class="schema-how-to-steps mb-0 pl-4">
+							
+								<li class="schema-how-to-step my-4" id="how-to-step-1">
+									<strong class="schema-how-to-step-name">Ensure presence of Google Tag</strong>
+									<p class="schema-how-to-step-text mb-0">Make sure that the Google Tag (gtag.js) is present on the page.</p>
+								</li>
+							
+								<li class="schema-how-to-step my-4" id="how-to-step-2">
+									<strong class="schema-how-to-step-name">Edit GA4 event</strong>
+									<p class="schema-how-to-step-text mb-0">Create a new event or open an existing one.</p>
+								</li>
+							
+								<li class="schema-how-to-step my-4" id="how-to-step-3">
+									<strong class="schema-how-to-step-name">Add Row</strong>
+									<p class="schema-how-to-step-text mb-0">Click the Add Row button in the User Properties tab of the GA4 event.</p>
+								</li>
+							
+								<li class="schema-how-to-step my-4" id="how-to-step-4">
+									<strong class="schema-how-to-step-name">Add the user property</strong>
+									<p class="schema-how-to-step-text mb-0">Add the name of the user property and its value.</p>
+								</li>
+							
+								<li class="schema-how-to-step my-4" id="how-to-step-5">
+									<strong class="schema-how-to-step-name">Save</strong>
+									<p class="schema-how-to-step-text mb-0">Save the event and any related variables and triggers.</p>
+								</li>
+							
+								<li class="schema-how-to-step my-4" id="how-to-step-6">
+									<strong class="schema-how-to-step-name">Create a GA4 custom dimension</strong>
+									<p class="schema-how-to-step-text mb-0">Create the corresponding user-scoped custom dimension in Google Analytics 4.</p>
+								</li>
+							
+								<li class="schema-how-to-step my-4" id="how-to-step-7">
+									<strong class="schema-how-to-step-name">Publish</strong>
+									<p class="schema-how-to-step-text mb-0">Publish the GTM changes.</p>
+								</li>
+							
+						</ol>
+					</section>
 				
 
 				<p>If you’ve worked with Google Analytics 4 (GA4) for any amount of time, you’re probably familiar with event properties. When you send an event, you can attach parameters that provide more context for that event. But there’s a powerful feature that you may not be using called <em>user properties</em>.</p>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-12-17T23:08:07-05:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">capncapes.github.io</title><subtitle>A blog site built with Jekyll consisting of two blogs, a feed of book reviews, and other content pages.</subtitle><author><name>Brandon Caples</name></author><entry><title type="html">Bulletproof HTML email buttons</title><link href="http://localhost:4000/martech/2023/bulletproof-html-email-buttons" rel="alternate" type="text/html" title="Bulletproof HTML email buttons" /><published>2023-11-30T05:15:51-05:00</published><updated>2023-11-30T05:15:51-05:00</updated><id>http://localhost:4000/martech/2023/bulletproof-html-email-buttons</id><content type="html" xml:base="http://localhost:4000/martech/2023/bulletproof-html-email-buttons">&lt;p&gt;In the world of email marketing, a well-designed call-to-action (CTA) button can be the golden ticket to more engaged customers. But creating buttons that work consistently across various email clients can be a real headache, especially with Outlook, which has a history of being picky about HTML buttons.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-12-20T12:20:04-05:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">capncapes.github.io</title><subtitle>A blog site built with Jekyll consisting of two blogs, a feed of book reviews, and other content pages.</subtitle><author><name>Brandon Caples</name></author><entry><title type="html">Bulletproof HTML email buttons</title><link href="http://localhost:4000/martech/2023/bulletproof-html-email-buttons" rel="alternate" type="text/html" title="Bulletproof HTML email buttons" /><published>2023-11-30T05:15:51-05:00</published><updated>2023-11-30T05:15:51-05:00</updated><id>http://localhost:4000/martech/2023/bulletproof-html-email-buttons</id><content type="html" xml:base="http://localhost:4000/martech/2023/bulletproof-html-email-buttons">&lt;p&gt;In the world of email marketing, a well-designed call-to-action (CTA) button can be the golden ticket to more engaged customers. But creating buttons that work consistently across various email clients can be a real headache, especially with Outlook, which has a history of being picky about HTML buttons.&lt;/p&gt;
 
 &lt;p&gt;Fear not, fellow email marketers! This guide will show you how to create bulletproof HTML email buttons that look and work great across all the major email platforms, including Outlook. By using a combination of HTML and CSS tricks, you can make sure your buttons are always ready to help you convert more subscribers into customers.&lt;/p&gt;
 
@@ -368,7 +368,70 @@
 
 &lt;h3 id=&quot;utm-campaign&quot;&gt;UTM Campaign&lt;/h3&gt;
 
-&lt;p&gt;The &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;utm_campaign&lt;/code&gt; parameter is intended to identify a promotional campaign by name and can be used in any way that’s helpful. I recommend coming up with a naming convention for campaigns to make it easy to identify the various campaigns showing up in reports.&lt;/p&gt;</content><author><name>Brandon Caples</name></author><category term="MarTech" /><category term="Google Analytics 4" /><category term="data" /><summary type="html">UTM parameters, or Urchin Tracking Module parameters, are snippets of text that can be added to the end of a URL to track the effectiveness of online marketing campaigns. UTM parameters are supported by most web analytics tools, including Google Analytics.</summary></entry><entry><title type="html">Making the Switch from Universal Analytics to Google Analytics 4</title><link href="http://localhost:4000/martech/2023/google-analytics-4" rel="alternate" type="text/html" title="Making the Switch from Universal Analytics to Google Analytics 4" /><published>2023-05-09T09:10:01-04:00</published><updated>2023-05-09T09:10:01-04:00</updated><id>http://localhost:4000/martech/2023/google-analytics-4</id><content type="html" xml:base="http://localhost:4000/martech/2023/google-analytics-4">&lt;p&gt;Web analytics play a crucial role in understanding user behavior, optimizing marketing campaigns, and making data-driven decisions for businesses. For years, Universal Analytics (UA) has been the go-to tool for tracking website data. However, &lt;a href=&quot;https://marketingplatform.google.com/about/analytics/&quot;&gt;Google Analytics 4 (GA4)&lt;/a&gt; has emerged as the next generation of Google Analytics, offering enhanced features and improved tracking capabilities. In this blog post, we will explore the benefits of switching from Universal Analytics to Google Analytics 4 and guide you through the transition process.&lt;/p&gt;
+&lt;p&gt;The &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;utm_campaign&lt;/code&gt; parameter is intended to identify a promotional campaign by name and can be used in any way that’s helpful. I recommend coming up with a naming convention for campaigns to make it easy to identify the various campaigns showing up in reports.&lt;/p&gt;</content><author><name>Brandon Caples</name></author><category term="MarTech" /><category term="Google Analytics 4" /><category term="data" /><summary type="html">UTM parameters, or Urchin Tracking Module parameters, are snippets of text that can be added to the end of a URL to track the effectiveness of online marketing campaigns. UTM parameters are supported by most web analytics tools, including Google Analytics.</summary></entry><entry><title type="html">How to develop a marketing campaign strategy that works</title><link href="http://localhost:4000/martech/2023/how-to-develop-marketing-campaign" rel="alternate" type="text/html" title="How to develop a marketing campaign strategy that works" /><published>2023-07-31T05:58:00-04:00</published><updated>2023-07-31T05:58:00-04:00</updated><id>http://localhost:4000/martech/2023/how-to-develop-marketing-campaign</id><content type="html" xml:base="http://localhost:4000/martech/2023/how-to-develop-marketing-campaign">&lt;p&gt;Launching a marketing campaign without a solid strategy is like baking a cake without a recipe. You might end up with something edible, but it’s unlikely to be a masterpiece. In today’s competitive world, a well-planned campaign strategy is the difference between attracting new customers and losing ground to the competition.&lt;/p&gt;
+
+&lt;p&gt;But first things first, you need to &lt;strong&gt;identify the challenges&lt;/strong&gt; your organization faces. Is it brand awareness? Difficulty generating leads? A disconnect with your target audience? Understanding these roadblocks is crucial for crafting a campaign that actually addresses these challenges. To help with this process, ask some discovery questions:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;How well-known is your brand in your target market?&lt;/li&gt;
+  &lt;li&gt;Are brand messages resonating with your audience?&lt;/li&gt;
+  &lt;li&gt;What challenges does the organization face in gaining new customer awareness?&lt;/li&gt;
+  &lt;li&gt;Are you satisfied with the quantity and quality of leads generated?&lt;/li&gt;
+  &lt;li&gt;What conversion rates are you seeing from leads to customers?&lt;/li&gt;
+  &lt;li&gt;What marketing channels are most effective for lead generation?&lt;/li&gt;
+  &lt;li&gt;How satisfied are your customers with your products and/or services?&lt;/li&gt;
+  &lt;li&gt;Are your current customer engagement strategies effective?&lt;/li&gt;
+  &lt;li&gt;Do you think you have a strong understanding of your customers’ needs and preferences?&lt;/li&gt;
+  &lt;li&gt;Are you meeting your sales and revenue targets?&lt;/li&gt;
+  &lt;li&gt;What are the biggest barriers to converting leads into customers?&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Some business challenges may require additional investments beyond normal marketing budgetary items like advertising and content creation. Ask yourself these questions as well:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Are there any internal inefficiencies that hinder your marketing efforts?&lt;/li&gt;
+  &lt;li&gt;Do you have the necessary resources and tools to execute your marketing plans effectively?&lt;/li&gt;
+  &lt;li&gt;What technology integrations or automation opportunities could improve your marketing operations?&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Depending on your larger marketing goals, you may need to invest in additional staff and/or software. These are obviously significant financial &lt;del&gt;expenses&lt;/del&gt; investments, so prioritize your needs and plan accordingly.&lt;/p&gt;
+
+&lt;h2 id=&quot;identify-your-target-audience&quot;&gt;Identify your target audience&lt;/h2&gt;
+
+&lt;p&gt;Once you’ve identified a challenge to address, determine the target audience for the campaign. Who are you trying to reach? What are their needs, aspirations, and challenges? The more you understand their &lt;em&gt;language&lt;/em&gt;, the more effectively you can connect with them.&lt;/p&gt;
+
+&lt;p&gt;An example of a target audience might be &lt;em&gt;repeat web visitors who haven’t purchased&lt;/em&gt; or &lt;em&gt;donors who give infrequently&lt;/em&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;define-your-business-goals&quot;&gt;Define your business goals&lt;/h2&gt;
+
+&lt;p&gt;Define your business goals clearly. Where do you want your marketing efforts to lead? Is there a particular problem area you’d like to address? Do you want to increase brand awareness, generate more leads, or boost donations for your nonprofit? Having a clear target in mind keeps your campaign focused and helps you measure its effectiveness.&lt;/p&gt;
+
+&lt;p&gt;Examples of business goals include &lt;em&gt;repeat web visitors completing their first purchase&lt;/em&gt; or &lt;em&gt;adding donors to your monthly giving program&lt;/em&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;determine-measurable-kpis&quot;&gt;Determine measurable &lt;abbr title=&quot;Key Performance Indicators&quot;&gt;KPIs&lt;/abbr&gt;&lt;/h2&gt;
+
+&lt;p&gt;Think of KPIs (key performance indicators) as your trusty compass. They help you track your progress towards your goals. Will you track website traffic, social media engagement, or conversion rates? How do you know when you’ve achieved a goal? Choose measurable metrics that align with your goals and provide actionable insights.&lt;/p&gt;
+
+&lt;p&gt;An example of a measurable KPI might be, &lt;em&gt;increase web conversions by 2%&lt;/em&gt; or &lt;em&gt;convert 5% of irregular donors to monthly givers&lt;/em&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;formulate-a-hypothesis&quot;&gt;Formulate a hypothesis&lt;/h2&gt;
+
+&lt;p&gt;Every successful strategy starts with a well-informed guess. In marketing, this guess is your hypothesis. Think of it as a statement like, &lt;em&gt;Implementing a targeted social media campaign will increase website traffic by 15%.&lt;/em&gt; This will guide your campaign development and allow you to test and refine your approach.&lt;/p&gt;
+
+&lt;p&gt;Other hypothesis statements may look like these:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;em&gt;We can increase web conversions by 2% for repeat web visitors by showing product recommendations.&lt;/em&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;We can grow our pool of monthly givers by explaining the benefits of expected revenue to our nonprofit and by offering incentives to monthly givers.&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;review-necessary-content&quot;&gt;Review necessary content&lt;/h2&gt;
+
+&lt;p&gt;Now it’s time to take an inventory of your content needs. What type of content will resonate with your target audience? Blog posts, infographics, videos, or social media interactions? What resources are readily available? What content needs to be created to support your campaign? Choose formats that align with your hypothesis and audience preferences.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Remember, this is just the first step in your marketing campaign’s journey. Be ready to adapt your strategy as you learn and explore. Embrace data-driven insights and use them to continually optimize your campaign for maximum impact.&lt;/p&gt;</content><author><name>Brandon Caples</name></author><category term="MarTech" /><category term="marketing" /><summary type="html">Launching a marketing campaign without a solid strategy is like baking a cake without a recipe. You might end up with something edible, but it’s unlikely to be a masterpiece. In today’s competitive world, a well-planned campaign strategy is the difference between attracting new customers and losing ground to the competition.</summary></entry><entry><title type="html">Making the Switch from Universal Analytics to Google Analytics 4</title><link href="http://localhost:4000/martech/2023/google-analytics-4" rel="alternate" type="text/html" title="Making the Switch from Universal Analytics to Google Analytics 4" /><published>2023-05-09T09:10:01-04:00</published><updated>2023-05-09T09:10:01-04:00</updated><id>http://localhost:4000/martech/2023/google-analytics-4</id><content type="html" xml:base="http://localhost:4000/martech/2023/google-analytics-4">&lt;p&gt;Web analytics play a crucial role in understanding user behavior, optimizing marketing campaigns, and making data-driven decisions for businesses. For years, Universal Analytics (UA) has been the go-to tool for tracking website data. However, &lt;a href=&quot;https://marketingplatform.google.com/about/analytics/&quot;&gt;Google Analytics 4 (GA4)&lt;/a&gt; has emerged as the next generation of Google Analytics, offering enhanced features and improved tracking capabilities. In this blog post, we will explore the benefits of switching from Universal Analytics to Google Analytics 4 and guide you through the transition process.&lt;/p&gt;
 
 &lt;p&gt;Google Analytics 4 represents a significant shift in how data is collected and reported compared to Universal Analytics. While UA primarily relied on cookies and sessions, GA4 uses an event-driven model, providing a more comprehensive view of user interactions across devices and platforms. This change allows for a more accurate and holistic understanding of user behavior, enabling businesses to adapt their strategies accordingly.&lt;/p&gt;
 
@@ -384,8 +447,8 @@
 &lt;h2 id=&quot;transitioning-from-universal-analytics-to-google-analytics-4&quot;&gt;Transitioning from Universal Analytics to Google Analytics 4&lt;/h2&gt;
 
 &lt;ol&gt;
-  &lt;li&gt;&lt;strong&gt;Create a new GA4 property:&lt;/strong&gt; Start by creating a new GA4 property within your existing Google Analytics account. This will allow you to run both UA and GA4 concurrently, ensuring a smooth transition and avoiding any disruptions in data tracking.
-Update Tracking Codes: Update your website’s tracking code to include both the Universal Analytics tracking code and the GA4 Measurement ID. By having both codes on your site, you can collect data in both systems simultaneously.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Create a new GA4 property:&lt;/strong&gt; Start by creating a new GA4 property within your existing Google Analytics account. This will allow you to run both UA and GA4 concurrently, ensuring a smooth transition and avoiding any disruptions in data tracking.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Update tracking codes:&lt;/strong&gt; Update your website’s tracking code to include both the Universal Analytics tracking code and the GA4 Measurement ID. By having both codes on your site, you can collect data in both systems simultaneously.&lt;/li&gt;
   &lt;li&gt;&lt;strong&gt;Enable data import:&lt;/strong&gt; Utilize the data import feature to bring historical data from Universal Analytics into your GA4 property. This step ensures continuity in your reporting and allows you to have access to your historical data within the GA4 interface.&lt;/li&gt;
   &lt;li&gt;&lt;strong&gt;Set up events and conversions:&lt;/strong&gt; In GA4, events play a crucial role in tracking user interactions. Review your existing events in Universal Analytics and recreate them in GA4 using the new event-driven model. Additionally, set up conversions in GA4 to track specific goals and actions.&lt;/li&gt;
   &lt;li&gt;&lt;strong&gt;Explore new features:&lt;/strong&gt; Take advantage of GA4’s enhanced features, such as predictive insights, machine learning-based models, and improved integration with Google Ads and BigQuery. Experiment with the new tools and features to maximize the value of your analytics data.&lt;/li&gt;
@@ -755,11 +818,11 @@ and all the angels shouted for joy?&lt;/p&gt;
 
 &lt;h2 id=&quot;now&quot;&gt;NOW()&lt;/h2&gt;
 
-&lt;p&gt;The &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;NOW()&lt;/code&gt; function simply returns the current datetime, like this: &lt;strong&gt;2023-12-17 23:08:09&lt;/strong&gt;. You will probably use &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;NOW()&lt;/code&gt; a lot. If you only need the current date or the current time, use &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;CURDATE()&lt;/code&gt; or &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;CURTIME()&lt;/code&gt;, respectively.&lt;/p&gt;
+&lt;p&gt;The &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;NOW()&lt;/code&gt; function simply returns the current datetime, like this: &lt;strong&gt;2023-12-20 12:20:08&lt;/strong&gt;. You will probably use &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;NOW()&lt;/code&gt; a lot. If you only need the current date or the current time, use &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;CURDATE()&lt;/code&gt; or &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;CURTIME()&lt;/code&gt;, respectively.&lt;/p&gt;
 
 &lt;h2 id=&quot;getdate&quot;&gt;GETDATE()&lt;/h2&gt;
 
-&lt;p&gt;The &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;GETDATE()&lt;/code&gt; function works exactly like the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;NOW()&lt;/code&gt; function, except that &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;GETDATE()&lt;/code&gt; returns milliseconds, too. The query result would look something like this: &lt;strong&gt;2023-12-17 23:08:09.846&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;The &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;GETDATE()&lt;/code&gt; function works exactly like the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;NOW()&lt;/code&gt; function, except that &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;GETDATE()&lt;/code&gt; returns milliseconds, too. The query result would look something like this: &lt;strong&gt;2023-12-20 12:20:08.045&lt;/strong&gt;.&lt;/p&gt;
 
 &lt;h2 id=&quot;date&quot;&gt;DATE()&lt;/h2&gt;
 &lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;DATE(date)&lt;/code&gt;&lt;/p&gt;
@@ -840,107 +903,4 @@ and all the angels shouted for joy?&lt;/p&gt;
 &lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-sql&quot; data-lang=&quot;sql&quot;&gt;&lt;span class=&quot;c1&quot;&gt;-- Find all people older than 40.&lt;/span&gt;
 &lt;span class=&quot;n&quot;&gt;DATEDIFF&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;NOW&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(),&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;dob&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;365&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;40&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
-&lt;p&gt;An important thing to remember when working with dates in SQL is that date formats need to match between the database column and the intended result. For a primer on working with SQL, check out my &lt;a href=&quot;/martech/2023/sql-intro&quot;&gt;introduction to SQL&lt;/a&gt;.&lt;/p&gt;</content><author><name>Brandon Caples</name></author><category term="MarTech" /><category term="SQL" /><category term="data science" /><summary type="html">Working with dates in SQL is a pretty common task, and there are several date functions that we can use to query results and manipulate data.</summary></entry><entry><title type="html">Introduction to SQL</title><link href="http://localhost:4000/martech/2023/sql-intro" rel="alternate" type="text/html" title="Introduction to SQL" /><published>2023-01-04T07:25:30-05:00</published><updated>2023-01-04T07:25:30-05:00</updated><id>http://localhost:4000/martech/2023/sql-intro</id><content type="html" xml:base="http://localhost:4000/martech/2023/sql-intro">&lt;p&gt;Structured Query Language (SQL) was developed by IBM researchers in the 1970s. SQL—sometimes pronounced “sequel”—is used to store, retrieve, and manipulate data in databases.&lt;/p&gt;
-
-&lt;p&gt;Many data management systems have user-friendly ways to export entire sets of data, or sometimes just the transactions from a date range, for example, but what if you need a list of records with very specific criteria?&lt;/p&gt;
-
-&lt;p&gt;Let’s say you need a list of every person in your database who has been an email subscriber for the past six months, hasn’t purchased anything, lives in California, and has a birthday next month. You could use a spreadsheet to filter the list down, but that’s very time-consuming, especially if you need this list regularly. That’s where SQL can help.&lt;/p&gt;
-
-&lt;p&gt;You could build a SQL query for this and re-use it every time that specific list is needed. Depending on your marketing software, you could even automate this task, scheduling the SQL to run hourly, daily, or weekly to update your list.&lt;/p&gt;
-
-&lt;p&gt;SQL is also used to display data on a webpage. WordPress uses MySQL to query data and display it on the website, and a custom query written by a developer can display very specific data for users.&lt;/p&gt;
-
-&lt;h2 id=&quot;getting-started-with-sql-queries&quot;&gt;Getting started with SQL queries&lt;/h2&gt;
-
-&lt;p&gt;A SQL query should start with the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;SELECT&lt;/code&gt; keyword, followed by the columns to be queried, the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;FROM&lt;/code&gt; keyword, and the name of the table to query.&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-sql&quot; data-lang=&quot;sql&quot;&gt;&lt;span class=&quot;k&quot;&gt;SELECT&lt;/span&gt;
-	&lt;span class=&quot;n&quot;&gt;Id&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-	&lt;span class=&quot;n&quot;&gt;Email&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-	&lt;span class=&quot;n&quot;&gt;FirstName&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-	&lt;span class=&quot;n&quot;&gt;LastName&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;FROM&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;contacts&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;WHERE&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;EmailOptIn&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;
-	&lt;span class=&quot;k&quot;&gt;AND&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;EmailOptOut&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;
-	&lt;span class=&quot;k&quot;&gt;AND&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Email&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;IS&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;NOT&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;NULL&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;Notice in the example that the columns (Id, Email, FirstName, LastName) are separated by commas. You do not need to separate columns (or even new clauses) with line breaks, however, but it’s a good idea as a way to keep your SQL human-readable.&lt;/p&gt;
-
-&lt;p&gt;The &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;FROM&lt;/code&gt; keyword designates the table, contacts, from which the columns are queried. Everything after &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;FROM contacts&lt;/code&gt; in the above example is part of a &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;WHERE&lt;/code&gt; clause, which we will explore later in this article. This query simply searches the table called contacts for the data in the specified columns and filters the query to only select contacts who are opted into email communication, are not opted out, and who have a value in the Email column (not null).&lt;/p&gt;
-
-&lt;p&gt;Note: In SQL, there is a difference between null and an empty string (‘’). It’s usually a good idea to check for both when validating data.&lt;/p&gt;
-
-&lt;h2 id=&quot;aliases&quot;&gt;Aliases&lt;/h2&gt;
-
-&lt;p&gt;In SQL, an alias is a column name that is defined within the query. By default, columns in the results table are titled based on the field name. But you can change the title of a column by using an alias.&lt;/p&gt;
-
-&lt;p&gt;If the field name is &lt;strong&gt;email_address_contact&lt;/strong&gt;, you can rename it in the results to &lt;strong&gt;Email&lt;/strong&gt; by placing the alias immediately after the actual column name. You can optionally use the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;AS&lt;/code&gt; keyword for readability.&lt;/p&gt;
-
-&lt;p&gt;The following examples will both change the column title to &lt;strong&gt;Email&lt;/strong&gt;.&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-sql&quot; data-lang=&quot;sql&quot;&gt;&lt;span class=&quot;k&quot;&gt;SELECT&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;email_address_contact&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Email&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;FROM&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;people&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-sql&quot; data-lang=&quot;sql&quot;&gt;&lt;span class=&quot;k&quot;&gt;SELECT&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;email_address_contact&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;AS&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Email&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;FROM&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;people&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;Aliases become really helpful when using functions. A SQL function can cause problems if it shows up in the results table when working with a programming language like PHP to display results on a webpage.&lt;/p&gt;
-
-&lt;p&gt;One last note on aliases: It’s possible to create column aliases with spaces by enclosing the alias in single quotes. This can improve readability, but again, some programming languages may have difficulty handling column titles with spaces.&lt;/p&gt;
-
-&lt;h2 id=&quot;filtering-a-query&quot;&gt;Filtering a query&lt;/h2&gt;
-
-&lt;p&gt;In order to filter a query for specific criteria, use the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;WHERE&lt;/code&gt; clause, followed by one or more conditions. A condition should have a field, a comparison operator of some kind, and a value or range of values to check for. If using multiple conditions, separate them with the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;AND&lt;/code&gt; or &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;OR&lt;/code&gt; keywords.&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-sql&quot; data-lang=&quot;sql&quot;&gt;&lt;span class=&quot;k&quot;&gt;SELECT&lt;/span&gt;
-	&lt;span class=&quot;n&quot;&gt;Id&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-	&lt;span class=&quot;n&quot;&gt;FirstName&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;AS&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;First&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-	&lt;span class=&quot;n&quot;&gt;LastName&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;AS&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;Last&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-	&lt;span class=&quot;n&quot;&gt;Dob&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;AS&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Birthdate&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-	&lt;span class=&quot;n&quot;&gt;CustomerSince&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;AS&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&apos;Customer Anniversary&apos;&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;FROM&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;people&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;WHERE&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Birthdate&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&apos;1980-12-31&apos;&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;AND&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;LEFT&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;FirstName&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&apos;B&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-	&lt;span class=&quot;k&quot;&gt;OR&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;Last&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;LIKE&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&apos;_a%&apos;&lt;/span&gt;
-	&lt;span class=&quot;k&quot;&gt;OR&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;LastName&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&apos;Caples&apos;&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;AND&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;CustomerSince&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;gt;=&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&apos;2020-01-01&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-	&lt;span class=&quot;k&quot;&gt;AND&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Birthdate&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;IS&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;NOT&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;NULL&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;Notice the use of parentheses to distinguish between condition groups. The example is searching the database for records matching any of the following conditions:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Birthdate is after 1980 and the first initial of FirstName is B&lt;/li&gt;
-  &lt;li&gt;LastName contains any one letter(“_”), with the second letter being A, followed by one or more unspecified characters (“%”)&lt;/li&gt;
-  &lt;li&gt;LastName equals Caples and CustomerSince is a date equal to or after January 1, 2020&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;If a record meets any of those conditions, it will be returned in the results table if it also meets the condition that the Birthdate field is not null. (To find records that are null, use IS NULL in the condition.)&lt;/p&gt;
-
-&lt;h2 id=&quot;data-types&quot;&gt;Data types&lt;/h2&gt;
-
-&lt;p&gt;There are three primary data types in SQL: string, numeric, and date/time. Each of these data types has multiple subtypes within it. A good resource for information about each data type can be found at &lt;a href=&quot;https://www.w3schools.com/mysql/mysql_datatypes.asp&quot; target=&quot;_blank&quot;&gt;W3Schools&lt;/a&gt;.&lt;/p&gt;
-
-&lt;h2 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h2&gt;
-
-&lt;p&gt;Let’s take a look at our earlier example querying people who meet the following conditions:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Email subscriber for past 6 months&lt;/li&gt;
-  &lt;li&gt;Zero purchases&lt;/li&gt;
-  &lt;li&gt;Lives in California&lt;/li&gt;
-  &lt;li&gt;Has a birthday next month&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-sql&quot; data-lang=&quot;sql&quot;&gt;&lt;span class=&quot;k&quot;&gt;SELECT&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Id&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Email&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;FirstName&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;LastName&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;FROM&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;contacts&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;WHERE&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;DateSubscribed&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;DATEADD&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;month&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;6&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;GETDATE&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;())&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;AND&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;LastPurchaseDate&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;‘’&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;OR&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;LastPurchaseDate&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;IS&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;NULL&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;AND&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;AddressState&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;‘&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;CA&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;’&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;AND&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;DATEPART&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;month&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Dob&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;MONTH&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;DATEADD&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;month&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;GETDATE&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()))&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;AND&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;EmailOptIn&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;AND&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;EmailOptOut&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;AND&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Email&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;IS&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;NOT&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;NULL&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;Using this query, we can capture this list of people and send an email inviting them to a product event near them with a free birthday gift offer.&lt;/p&gt;
-
-&lt;p&gt;Notice that we don’t actually need to count the number of purchases on the customer’s record—only whether there’s a value for &lt;strong&gt;LastPurchaseDate&lt;/strong&gt;. You can get creative with your SQL queries to prevent unnecessary clauses. And be sure to look up all of the functions and keywords used in these examples, since I haven’t explained them all.&lt;/p&gt;
-
-&lt;p&gt;It’s important to remember that a SQL query depends on the data available in the database. If we don’t have a column for the date a person subscribes to emails, or if a contact has missing birthdate data, for example, our query will be limited and less reliable. Clean data systems are very important.&lt;/p&gt;
-
-&lt;p&gt;There are many more functions and features within SQL, but this is just an introduction. There are a lot of good websites for learning SQL, including &lt;a href=&quot;https://www.codecademy.com/learn/learn-sql&quot; target=&quot;_blank&quot;&gt;Codecademy&lt;/a&gt;, &lt;a href=&quot;https://learnsql.com/&quot; target=&quot;_blank&quot;&gt;LearnSQL&lt;/a&gt;, &lt;a href=&quot;https://stackskills.com/p/sql-for-marketers&quot; target=&quot;_blank&quot;&gt;StackSkills&lt;/a&gt;, and &lt;a href=&quot;https://www.w3schools.com/sql/&quot; target=&quot;_blank&quot;&gt;W3Schools&lt;/a&gt;. (Here’s a &lt;a href=&quot;https://www.sqltutorial.org/sql-cheat-sheet/&quot; target=&quot;_blank&quot;&gt;free SQL cheatsheet&lt;/a&gt;!) You can also find good tutorials on YouTube and solutions on StackOverflow. There are plenty of resources to help you learn the basics (and more) of Structured Query Language.&lt;/p&gt;</content><author><name>Brandon Caples</name></author><category term="MarTech" /><category term="SQL" /><category term="data science" /><summary type="html">Structured Query Language (SQL) was developed by IBM researchers in the 1970s. SQL—sometimes pronounced “sequel”—is used to store, retrieve, and manipulate data in databases.</summary></entry></feed>
+&lt;p&gt;An important thing to remember when working with dates in SQL is that date formats need to match between the database column and the intended result. For a primer on working with SQL, check out my &lt;a href=&quot;/martech/2023/sql-intro&quot;&gt;introduction to SQL&lt;/a&gt;.&lt;/p&gt;</content><author><name>Brandon Caples</name></author><category term="MarTech" /><category term="SQL" /><category term="data science" /><summary type="html">Working with dates in SQL is a pretty common task, and there are several date functions that we can use to query results and manipulate data.</summary></entry></feed>
