@@ -190,6 +190,80 @@
 							"brandoncaples",
 							"https://twitter.com/caplesweb"
 						]
+					},
+					{
+						"@type": "HowTo",
+						"@id": "http://localhost:4000/martech/2023/ip-address-warming#howto-1",
+						"name": "How to add a user property to Google Analytics 4 using GTM",
+						"mainEntityOfPage": {
+							"@id": "http://localhost:4000/martech/2023/ip-address-warming#article"
+						},
+						"description": "Google Analytics 4 user properties are customizable attributes that describe groups of your users.",
+						"totalTime": P6W,
+						"step": [
+						
+							{
+								"@type": "HowToStep",
+								"url": "http://localhost:4000/martech/2023/ip-address-warming#how-to-step-1",
+								"name": "Plan your sending schedule",
+								"itemListElement": [
+									{
+										"@type": "HowToDirection",
+										"text": "Create a send schedule, allowing for about six weeks to complete the IP warming process."
+									}
+								]
+							},
+						
+							{
+								"@type": "HowToStep",
+								"url": "http://localhost:4000/martech/2023/ip-address-warming#how-to-step-2",
+								"name": "Authenticate your emails",
+								"itemListElement": [
+									{
+										"@type": "HowToDirection",
+										"text": "Implement SPF, DKIM, and DMARC to authenticate your emails and prevent spoofing."
+									}
+								]
+							},
+						
+							{
+								"@type": "HowToStep",
+								"url": "http://localhost:4000/martech/2023/ip-address-warming#how-to-step-3",
+								"name": "Segment your subscribers",
+								"itemListElement": [
+									{
+										"@type": "HowToDirection",
+										"text": "Don't send the same email to everyone. Segment your list based on engagement levels and email service provider."
+									}
+								]
+							},
+						
+							{
+								"@type": "HowToStep",
+								"url": "http://localhost:4000/martech/2023/ip-address-warming#how-to-step-4",
+								"name": "Monitor email analytics",
+								"itemListElement": [
+									{
+										"@type": "HowToDirection",
+										"text": "Use email sending platforms or analytics tools to track your sending reputation."
+									}
+								]
+							},
+						
+							{
+								"@type": "HowToStep",
+								"url": "http://localhost:4000/martech/2023/ip-address-warming#how-to-step-5",
+								"name": "Maintain a clean list",
+								"itemListElement": [
+									{
+										"@type": "HowToDirection",
+										"text": "Regularly remove inactive or unsubscribed recipients from your list."
+									}
+								]
+							},
+						
+						],
+						"inLanguage": "en-US"
 					}
 				]
 			}
@@ -277,6 +351,39 @@
 				
 
 				
+					<section class="schema-how-to max-w-4 mb-20 mx-auto py-4 px-6 text-sm bg-sand rounded">
+						<p class="mt-0 text-xs">Time needed: <strong datetime="P6W">6 weeks</strong></p>
+						<p>Google Analytics 4 user properties are customizable attributes that describe groups of your users.</p>
+						<ol class="schema-how-to-steps mb-0 pl-4">
+							
+								<li class="schema-how-to-step my-4" id="how-to-step-1">
+									<strong class="schema-how-to-step-name">Plan your sending schedule</strong>
+									<p class="schema-how-to-step-text mb-0">Create a send schedule, allowing for about six weeks to complete the IP warming process.</p>
+								</li>
+							
+								<li class="schema-how-to-step my-4" id="how-to-step-2">
+									<strong class="schema-how-to-step-name">Authenticate your emails</strong>
+									<p class="schema-how-to-step-text mb-0">Implement SPF, DKIM, and DMARC to authenticate your emails and prevent spoofing.</p>
+								</li>
+							
+								<li class="schema-how-to-step my-4" id="how-to-step-3">
+									<strong class="schema-how-to-step-name">Segment your subscribers</strong>
+									<p class="schema-how-to-step-text mb-0">Don't send the same email to everyone. Segment your list based on engagement levels and email service provider.</p>
+								</li>
+							
+								<li class="schema-how-to-step my-4" id="how-to-step-4">
+									<strong class="schema-how-to-step-name">Monitor email analytics</strong>
+									<p class="schema-how-to-step-text mb-0">Use email sending platforms or analytics tools to track your sending reputation.</p>
+								</li>
+							
+								<li class="schema-how-to-step my-4" id="how-to-step-5">
+									<strong class="schema-how-to-step-name">Maintain a clean list</strong>
+									<p class="schema-how-to-step-text mb-0">Regularly remove inactive or unsubscribed recipients from your list.</p>
+								</li>
+							
+						</ol>
+					</section>
+				
 
 				<p>Congratulations on setting up your new email server! Now comes the crucial step of ensuring your emails actually reach your recipients’ inboxes. This is where IP address warming comes in.</p>
 
@@ -295,11 +402,11 @@
 <h2 id="how-to-warm-up-your-ip-address">How to warm up your IP address</h2>
 
 <ol>
-  <li>Start slow and steady: Begin by sending a small number of emails per day, focusing on engaged recipients who have opted-in to your list. Gradually increase the volume over time, aiming for a 20-30% increase each day.</li>
-  <li>Segment your audience: Don’t send the same email to everyone. Segment your list based on engagement levels, interests, and demographics. This personalizes the experience and improves open rates, which is another signal of legitimacy for email providers.</li>
-  <li>Authenticate your emails: Implement SPF, DKIM, and DMARC to authenticate your emails and prevent spoofing. This tells mailbox providers that your emails are indeed coming from you and not an impersonator.</li>
-  <li>Monitor your sending reputation: Use email sending platforms or analytics tools to track your sending reputation. This will give you insights into your deliverability rates and allow you to adjust your warming strategy as needed.</li>
-  <li>Maintain a clean list: Regularly remove inactive or unsubscribed recipients from your list. A clean list improves your overall sending reputation and ensures you’re only reaching engaged subscribers.</li>
+  <li><strong>Start slow and steady:</strong> Begin by sending a small number of emails per day, focusing on engaged recipients who have opted-in to your list. Gradually increase the volume over time, aiming for a 20–30% increase each day.</li>
+  <li><strong>Segment your audience:</strong> Don’t send the same email to everyone. Segment your list based on engagement levels, interests, and demographics. This personalizes the experience and improves open rates, which is another signal of legitimacy for email providers.</li>
+  <li><strong>Authenticate your emails:</strong> Implement SPF, DKIM, and DMARC to authenticate your emails and prevent spoofing. This tells mailbox providers that your emails are indeed coming from you and not an impersonator.</li>
+  <li><strong>Monitor your sending reputation:</strong> Use email sending platforms or analytics tools to track your sending reputation. This will give you insights into your deliverability rates and allow you to adjust your warming strategy as needed.</li>
+  <li><strong>Maintain a clean list:</strong> Regularly remove inactive or unsubscribed recipients from your list. A clean list improves your overall sending reputation and ensures you’re only reaching engaged subscribers.</li>
 </ol>
 
 <h2 id="which-subscribers-to-send-to">Which subscribers to send to</h2>
