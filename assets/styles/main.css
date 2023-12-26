@@ -613,9 +613,7 @@ b.tabs-section header p {
 	user-select: none;
 }
 
-.countdown.rounded, .countdown.rounded > div {
-	border-radius: 4px;
-}
+.countdown.rounded, .countdown.rounded > div { border-radius: 4px; }
 
 .days::after, .hours::after, .minutes::after, .seconds::after {
 	content: attr(class);

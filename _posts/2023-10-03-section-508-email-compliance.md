@@ -4,7 +4,7 @@ title: "Section 508 email compliance"
 date: 2023-10-03 06:45:56 -0500
 featured_image: {
   src: "section-508-email-compliance.webp",
-  fallback: "section-508-email-compliance.png",
+  fallback: "section-508-email-compliance.jpeg",
   title: "Section 508 email compliance",
   alt: "An open laptop loading Gmail"
 }

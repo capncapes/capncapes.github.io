@@ -41,7 +41,7 @@
 	height: 9px;
 	border-bottom-width: 0.5rem;
 	border-bottom-style: solid;
-	border-radius: 0;
+	border-radius: 4px;
 	transition: width 1.5s ease;
 }
 
