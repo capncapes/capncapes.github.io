@@ -858,6 +858,15 @@
   
     
       <url>
+        <loc>http://localhost:4000/faith/2022/are-you-tending-your-gardens</loc>
+        
+          <lastmod>2022-01-23T15:00:16-05:00</lastmod>
+        
+      </url>
+    
+  
+    
+      <url>
         <loc>http://localhost:4000/martech/2021/using-css-counters</loc>
         
           <lastmod>2021-11-04T14:03:01-04:00</lastmod>
