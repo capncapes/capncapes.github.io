@@ -91,6 +91,7 @@
 	
 
 	<!-- JavaScript -->
+	<script src="https://cdn.canvasjs.com/canvasjs.min.js"></script>
 	<script type="text/javascript" async src="http://localhost:4000/assets/js/main.js"></script>
 	
 </head>
@@ -392,14 +393,42 @@
 	</div>
 	<!-- Books Gallery : END -->
 
-  
-  <!-- Page Navigation : BEGIN -->
-  <div role="navigation" aria-label="Posts page navigation" class="page-nav w-full max-w-1 mt-12 mx-auto">
-    <a href="/book-reviews/2/" class="splendid-button dark grow-3" title="Next page: 2" aria-label="Next page">Next →</a>
-  </div>
-  <!-- Page Navigation : END -->
-  
+	
+	<!-- Page Navigation : BEGIN -->
+	<div role="navigation" aria-label="Posts page navigation" class="page-nav w-full max-w-1 mt-12 mx-auto">
+		<a href="/book-reviews/2/" class="splendid-button dark grow-3" title="Next page: 2" aria-label="Next page">Next →</a>
+	</div>
+	<!-- Page Navigation : END -->
+	
 
+	<script type="text/javascript">
+		window.onload = function () {
+			var chart = new CanvasJS.Chart("chartContainer", {
+				title:{
+					text: "Books Read by Year",
+					fontFamily: "Bodoni",
+					fontWeight: "900"
+				},
+				backgroundColor: "#EDEDE2",
+				dataPointWidth: 60,
+				animationEnabled: true,
+				data: [              
+					{
+						type: "column",
+						color: "#30475E",
+						dataPoints: [
+							{ label: "2020",  y: 1  },
+							{ label: "2021", y: 6  },
+							{ label: "2022", y: 12  },
+							{ label: "2023",  y: 10  }
+						]
+					}
+				]
+			});
+			chart.render();
+		}
+	</script>
+	<div id="chartContainer" class="mt-16" style="height: 300px; width:100%;"></div>
 </main>
 <!-- Blog Section : END -->
 
@@ -471,7 +500,7 @@
 		</address>
 		<div class="legal w-full text-xs">
 			<p class="sm:splendid-block md:splendid-inline">All opinions are my own, unless otherwise noted. I do not claim expert knowledge of the subjects discussed.</p>
-			<p class="sm:splendid-block md:splendid-inline">&copy; 2023 Brandon Caples</p>
+			<p class="sm:splendid-block md:splendid-inline">&copy; 2024 Brandon Caples</p>
 		</div>
 	</div>
 </footer>
