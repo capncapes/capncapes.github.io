@@ -76,6 +76,17 @@ function splendidProgressBar() {
 	return;
 }
 
+// Caples color set for charts
+CanvasJS.addColorSet('caples',
+	[
+		"#F05454",
+		"#2CA096",
+		"#30475E",
+		"#F9D423",
+		"#F77825"
+	]
+);
+
 // Dark mode
 document.addEventListener('DOMContentLoaded', function() {
 	const toggleSwitch = document.querySelector('.toggle input[type="checkbox"]');

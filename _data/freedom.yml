@@ -1,0 +1,83 @@
+- name: United States
+  code: USA
+  region: North America
+  2023:
+    freedom_rank: 17
+    personal_freedom_score: 8.57
+    economic_freedom_score: 8.14
+    human_freedom_score: 8.39
+  2022:
+    freedom_rank: 23
+    personal_freedom_score: 8.42
+    economic_freedom_score: 7.97
+    human_freedom_score: 8.23
+  2021:
+    freedom_rank: 15
+    personal_freedom_score: 9.09
+    economic_freedom_score: 8.24
+    human_freedom_score: 8.73
+  2020:
+    freedom_rank: 17
+    personal_freedom_score: 8.66
+    economic_freedom_score: 8.22
+    human_freedom_score: 8.44
+  2019:
+    freedom_rank: 15
+    personal_freedom_score: 8.72
+    economic_freedom_score: 8.19
+    human_freedom_score: 8.46
+  2018:
+    freedom_rank: 17
+    personal_freedom_score: 8.66
+    economic_freedom_score: 8.22
+    human_freedom_score: 8.44
+  2017:
+    freedom_rank: 8
+    personal_freedom_score: 8.75
+    economic_freedom_score: 8.34
+    human_freedom_score: 8.55
+  2016:
+    freedom_rank: 14
+    personal_freedom_score: 8.71
+    economic_freedom_score: 8.32
+    human_freedom_score: 8.52
+  2015:
+    freedom_rank: 13
+    personal_freedom_score: 8.81
+    economic_freedom_score: 8.27
+    human_freedom_score: 8.54
+  2014:
+    freedom_rank: 15
+    personal_freedom_score: 8.85
+    economic_freedom_score: 8.16
+    human_freedom_score: 8.51
+  2013:
+    freedom_rank: 17
+    personal_freedom_score: 8.8
+    economic_freedom_score: 8.07
+    human_freedom_score: 8.44
+  2012:
+    freedom_rank: 13
+    personal_freedom_score: 8.78
+    economic_freedom_score: 8.15
+    human_freedom_score: 8.47
+  2011:
+    freedom_rank: 17
+    personal_freedom_score: 8.7
+    economic_freedom_score: 8.07
+    human_freedom_score: 8.39
+  2010:
+    freedom_rank: 16
+    personal_freedom_score: 8.69
+    economic_freedom_score: 8.12
+    human_freedom_score: 8.41
+  2009:
+    freedom_rank: 17
+    personal_freedom_score: 8.71
+    economic_freedom_score: 8.03
+    human_freedom_score: 8.37
+  2008:
+    freedom_rank: 10
+    personal_freedom_score: 8.7
+    economic_freedom_score: 8.34
+    human_freedom_score: 8.52
