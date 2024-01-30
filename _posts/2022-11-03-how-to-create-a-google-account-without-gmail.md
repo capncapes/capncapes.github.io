@@ -10,7 +10,7 @@ featured_image: {
 }
 description: "Google services require a Google account, but it doesn't have to be with Gmail. Let's learn how to create a Google account without Gmail."
 category: MarTech
-tags: ["Google"]
+tags: ["Gmail"]
 howto: {
 	title: "How to create a Google account without Gmail",
 	description: "Google services require a Google account, but it doesn't have to be with Gmail. It's possible to create a Google account using a different email address.",

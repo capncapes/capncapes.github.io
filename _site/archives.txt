@@ -1,6 +1,6 @@
 {
 	"categories": ["MarTech","Faith"],
-	"tags": ["web development","CSS","HTML","Git","JavaScript","graphic design","SEO","Google","restoration","how to","Elijah","John the Baptist","relationships","Christ","Paul's letters","eternal life","eschatology","gospels","anxiety","grief","systematic theology","Scripture","SQL","data science","Daniel","prophecy","image of God","email","Google Analytics 4","data","marketing","a11y","Outlook","Gmail","Yahoo"],
+	"tags": ["web development","CSS","HTML","Git","JavaScript","graphic design","SEO","Google","restoration","how to","Elijah","John the Baptist","relationships","Christ","Paul's letters","eternal life","eschatology","gospels","Gmail","anxiety","grief","systematic theology","Scripture","SQL","data science","Daniel","prophecy","image of God","email","Google Analytics 4","data","marketing","a11y","Outlook","Yahoo","business"],
 	"bible": ["Genesis","Job","Psalms","Daniel","Matthew","2 Peter","John","Ephesians","Colossians","Jeremiah","2 Kings","Isaiah","Malachi","Deuteronomy","Joel"],
 	"years": ["2023","2022","2021","2020","2019","2018","2017"]
 }
