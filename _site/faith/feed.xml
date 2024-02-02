@@ -17,12 +17,28 @@
         </image>
         <generator>https://brandoncaples.com</generator>
         
-            <lastBuildDate>Sun, 05 Mar 2023 16:59:16 -0500</lastBuildDate>
+            <lastBuildDate>Tue, 23 Jan 2024 06:55:12 -0500</lastBuildDate>
         
         <atom:link href="https://brandoncaples.com/faith/feed.xml" rel="self" type="application/rss+xml"/>
         <language>
             <![CDATA[ en ]]>
         </language>
+        
+            <item>
+                <title>
+                    <![CDATA[ The paradox of the cross: following Jesus in a world obsessed with self ]]>
+                </title>
+                <description>
+                    <![CDATA[ It's in the wrestling with big questions that we truly grow in our faith and understanding. ]]>
+                </description>
+                <link>http://localhost:4000/faith/2024/paradox-of-the-cross</link>
+                <guid isPermaLink="true">http://localhost:4000/faith/2024/paradox-of-the-cross</guid>
+                <dc:creator>
+                    <![CDATA[ Brandon Caples ]]>
+                </dc:creator>
+                <pubDate>Tue, 23 Jan 2024 06:55:12 -0500</pubDate>
+                
+            </item>
         
             <item>
                 <title>
