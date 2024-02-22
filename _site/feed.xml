@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-02-21T22:33:08-05:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">capncapes.github.io</title><subtitle>A blog site built with Jekyll consisting of two blogs, a feed of book reviews, and other content pages.</subtitle><author><name>Brandon Caples</name></author><entry><title type="html">When sin is crouching at your door: the story of Cain and Abel</title><link href="http://localhost:4000/faith/2024/sin-crouching-at-your-door" rel="alternate" type="text/html" title="When sin is crouching at your door: the story of Cain and Abel" /><published>2024-02-04T11:11:11-05:00</published><updated>2024-02-04T11:11:11-05:00</updated><id>http://localhost:4000/faith/2024/sin-crouching-at-your-door</id><content type="html" xml:base="http://localhost:4000/faith/2024/sin-crouching-at-your-door">&lt;p&gt;In Genesis 4:1–16, the tale of Cain and Abel unfolds, weaving a narrative of jealousy, sin, and divine judgment. This ancient story holds timeless lessons about human nature, the consequences of envy, and the merciful nature of God.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-02-21T23:08:17-05:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">capncapes.github.io</title><subtitle>A blog site built with Jekyll consisting of two blogs, a feed of book reviews, and other content pages.</subtitle><author><name>Brandon Caples</name></author><entry><title type="html">When sin is crouching at your door: the story of Cain and Abel</title><link href="http://localhost:4000/faith/2024/sin-crouching-at-your-door" rel="alternate" type="text/html" title="When sin is crouching at your door: the story of Cain and Abel" /><published>2024-02-04T11:11:11-05:00</published><updated>2024-02-04T11:11:11-05:00</updated><id>http://localhost:4000/faith/2024/sin-crouching-at-your-door</id><content type="html" xml:base="http://localhost:4000/faith/2024/sin-crouching-at-your-door">&lt;p&gt;In Genesis 4:1–16, the tale of Cain and Abel unfolds, weaving a narrative of jealousy, sin, and divine judgment. This ancient story holds timeless lessons about human nature, the consequences of envy, and the merciful nature of God.&lt;/p&gt;
 
 &lt;h2 id=&quot;expectations-and-the-significance-of-names&quot;&gt;Expectations and the significance of names&lt;/h2&gt;
 
@@ -81,7 +81,7 @@
       &lt;p&gt;Something I’ve always wondered about this story is about the other people, like those who would kill Cain upon finding him, or even Cain’s wife. Are these other people siblings of Cain and Abel? Are they from other families who were created in similar fashion to Adam and Eve, only later? These questions are outside the scope of this article, but I would love to explore them one day. &lt;a href=&quot;#fnref:4&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
     &lt;/li&gt;
     &lt;li id=&quot;fn:5&quot; role=&quot;doc-endnote&quot;&gt;
-      &lt;p&gt;Exodus 21:23–25, NIV &lt;a href=&quot;#fnref:5&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+      &lt;p&gt;Exodus 21:23–25, &lt;abbr title=&quot;New International Version&quot;&gt;NIV&lt;/abbr&gt; &lt;a href=&quot;#fnref:5&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
     &lt;/li&gt;
     &lt;li id=&quot;fn:6&quot; role=&quot;doc-endnote&quot;&gt;
       &lt;p&gt;Steinmann, Andrew E. (2019). &lt;em&gt;Genesis: An Introduction and Commentary.&lt;/em&gt; IVP Academic, an imprint of InterVarsity Press. &lt;a href=&quot;#fnref:6&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
@@ -245,7 +245,37 @@
 
 &lt;p&gt;Note that the MSO button URL contains more &lt;a href=&quot;/martech/2023/utm-parameters&quot;&gt;UTM parameters&lt;/a&gt; than the other button’s URL. Some email marketing platforms inject URL parameters automatically at the time of sending, allowing for simpler and more efficient email management. However, since our MSO button is contained within comments, the email platform will likely ignore the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;href&lt;/code&gt; attribute and not update it automatically. (This is the case for Salesforce Marketing Cloud.) The safest way to ensure that the MSO button can still be tracked is to add parameters manually.&lt;/p&gt;
 
-&lt;p&gt;With a little CSS magic and some Outlook-specific tweaks, you can create HTML email buttons that look great and work perfectly across all the major email platforms. So go forth and create some amazing CTA buttons that will help you convert more subscribers into customers!&lt;/p&gt;</content><author><name>Brandon Caples</name></author><category term="MarTech" /><category term="email" /><category term="Outlook" /><category term="Gmail" /><category term="Yahoo" /><summary type="html">In the world of email marketing, a well-designed call-to-action (CTA) button can be the golden ticket to more engaged customers. But creating buttons that work consistently across various email clients can be a real headache, especially with Outlook, which has a history of being picky about HTML buttons.</summary></entry><entry><title type="html">Section 508 email compliance</title><link href="http://localhost:4000/martech/2023/section-508-email-compliance" rel="alternate" type="text/html" title="Section 508 email compliance" /><published>2023-10-03T07:45:56-04:00</published><updated>2023-10-03T07:45:56-04:00</updated><id>http://localhost:4000/martech/2023/section-508-email-compliance</id><content type="html" xml:base="http://localhost:4000/martech/2023/section-508-email-compliance">&lt;p&gt;Section 508 is a United States federal law that requires all electronic and information technology (EIT) developed, procured, maintained, or used by the federal government to be accessible to people with disabilities. This includes email, which is a critical communication tool for many businesses and organizations.&lt;/p&gt;
+&lt;p&gt;With a little CSS magic and some Outlook-specific tweaks, you can create HTML email buttons that look great and work perfectly across all the major email platforms. So go forth and create some amazing CTA buttons that will help you convert more subscribers into customers!&lt;/p&gt;</content><author><name>Brandon Caples</name></author><category term="MarTech" /><category term="email" /><category term="Outlook" /><category term="Gmail" /><category term="Yahoo" /><summary type="html">In the world of email marketing, a well-designed call-to-action (CTA) button can be the golden ticket to more engaged customers. But creating buttons that work consistently across various email clients can be a real headache, especially with Outlook, which has a history of being picky about HTML buttons.</summary></entry><entry><title type="html">Weariness</title><link href="http://localhost:4000/faith/2023/weariness" rel="alternate" type="text/html" title="Weariness" /><published>2023-11-28T18:00:01-05:00</published><updated>2023-11-28T18:00:01-05:00</updated><id>http://localhost:4000/faith/2023/weariness</id><content type="html" xml:base="http://localhost:4000/faith/2023/weariness">&lt;p&gt;In Psalm 84, the psalmist provides a profound solution for weariness amidst life’s journey—a solution rooted in faith and trust in God. As the psalmist navigates the trials and challenges of the pilgrimage towards God’s dwelling place, they offer a remedy for weariness: finding strength and renewal in the presence of the Almighty.&lt;/p&gt;
+
+&lt;p&gt;Central to the psalmist’s solution for weariness is the concept of dwelling in God’s presence. Throughout the psalm, there is a palpable longing to be near the Lord, to experience the intimacy and comfort found in communion with him. &lt;q&gt;Better is one day in your courts than a thousand elsewhere; I would rather be a doorkeeper in the house of my God than dwell in the tents of the wicked&lt;/q&gt; (Psalm 84:10, &lt;abbr title=&quot;New International Version&quot;&gt;NIV&lt;/abbr&gt;). Here, the psalmist expresses a profound conviction that even the briefest moments spent in God’s presence far surpass the pleasures and distractions of the world.&lt;/p&gt;
+
+&lt;p&gt;Furthermore, the psalmist emphasizes the importance of trust and reliance on God as a source of strength and sustenance. &lt;q&gt;Blessed are those whose strength is in you, whose hearts are set on pilgrimage&lt;/q&gt; (Psalm 84:5, &lt;abbr title=&quot;New International Version&quot;&gt;NIV&lt;/abbr&gt;). By acknowledging God as the ultimate source of strength, the psalmist offers a solution for weariness: turning to the Lord in times of need and drawing upon his limitless power and grace.&lt;/p&gt;
+
+&lt;p&gt;Moreover, the imagery of pilgrimage in Psalm 84 serves as a reminder that the journey of faith is not always easy or straightforward. Along the way, we may encounter obstacles, hardships, and moments of exhaustion. Yet, it is in the midst of these challenges that we are called to lean on God for strength and renewal. &lt;q&gt;As they pass through the Valley of Baka, they make it a place of springs; the autumn rains also cover it with pools&lt;/q&gt; (Psalm 84:6, &lt;abbr title=&quot;New International Version&quot;&gt;NIV&lt;/abbr&gt;). Here, the psalmist portrays a journey marked by both struggle and blessing—a journey in which weariness is met with the refreshing waters of God’s grace.&lt;/p&gt;
+
+&lt;h2 id=&quot;encouragement-in-scripture&quot;&gt;Encouragement in Scripture&lt;/h2&gt;
+
+&lt;p&gt;Drawing from the rich tapestry of Scripture, we can find numerous passages that offer encouragement and solace for those suffering with weariness. Let these verses renew you on dark days.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Isaiah 40:28–31:&lt;/strong&gt; This passage echoes the theme of finding strength in God. It reminds us that those who wait upon the Lord will renew their strength and soar on wings like eagles, run and not grow weary, walk and not be faint.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Matthew 11:28–30:&lt;/strong&gt; Jesus extends an invitation to all who are weary and burdened, promising rest for their souls. He encourages us to take his yoke upon us, for his burden is light.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;2 Corinthians 4:16–18:&lt;/strong&gt; The apostle Paul writes about the eternal perspective that helps us endure temporary trials. Though outwardly we may be wasting away, inwardly we are being renewed day by day. Our present sufferings are incomparable to the glory that awaits us.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Galatians 6:9:&lt;/strong&gt; Paul encourages believers not to grow weary in doing good, for in due season, they will reap a harvest if they do not give up.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Hebrews 12:1–3:&lt;/strong&gt; This passage compares the Christian life to a race and urges believers to lay aside every weight and sin that clings so closely. Fixing our eyes on Jesus, the pioneer and perfecter of our faith, we can endure and not grow weary or lose heart.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;James 1:2–4:&lt;/strong&gt; James encourages believers to consider it pure joy when they face trials, knowing that the testing of their faith produces perseverance. And when perseverance has its full effect, they will be mature and lacking in nothing.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;1 Peter 5:7:&lt;/strong&gt; Peter exhorts believers to cast all their anxieties on God, for he cares for them.&lt;/p&gt;
+
+&lt;p&gt;These passages, along with Psalm 84, provide a comprehensive framework for finding strength and encouragement in the midst of weariness. They remind us of the faithfulness of God, the promise of renewal, and the hope of eternal glory that awaits those who persevere in their journey of faith.&lt;/p&gt;
+
+&lt;h2 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h2&gt;
+
+&lt;p&gt;In essence, the psalmist’s solution for weariness lies in a deep and abiding relationship with God. By seeking his presence, trusting in his strength, and persevering through the trials of life, we can find renewal and refreshment for our weary souls. In a world filled with turmoil and uncertainty, may we heed the wisdom of Psalm 84 and turn to the Lord as our refuge and strength, finding rest and restoration in his loving embrace.&lt;/p&gt;</content><author><name>Brandon Caples</name></author><category term="Faith" /><category term="faith" /><category term="suffering" /><summary type="html">In Psalm 84, the psalmist provides a profound solution for weariness amidst life’s journey—a solution rooted in faith and trust in God. As the psalmist navigates the trials and challenges of the pilgrimage towards God’s dwelling place, they offer a remedy for weariness: finding strength and renewal in the presence of the Almighty.</summary></entry><entry><title type="html">Section 508 email compliance</title><link href="http://localhost:4000/martech/2023/section-508-email-compliance" rel="alternate" type="text/html" title="Section 508 email compliance" /><published>2023-10-03T07:45:56-04:00</published><updated>2023-10-03T07:45:56-04:00</updated><id>http://localhost:4000/martech/2023/section-508-email-compliance</id><content type="html" xml:base="http://localhost:4000/martech/2023/section-508-email-compliance">&lt;p&gt;Section 508 is a United States federal law that requires all electronic and information technology (EIT) developed, procured, maintained, or used by the federal government to be accessible to people with disabilities. This includes email, which is a critical communication tool for many businesses and organizations.&lt;/p&gt;
 
 &lt;p&gt;There are several reasons why Section 508 is important for email design and development:&lt;/p&gt;
 
@@ -605,148 +635,4 @@
 
 &lt;h2 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h2&gt;
 
-&lt;p&gt;The transition from Universal Analytics to Google Analytics 4 marks an important milestone in the evolution of web analytics. GA4’s advanced tracking capabilities, AI-powered insights, and streamlined reporting offer a more comprehensive view of user behavior and enable businesses to make data-driven decisions with greater precision. For more in-depth resources and tutorials, check out &lt;a href=&quot;https://www.analyticsmania.com/blog/&quot;&gt;Analytics Mania&lt;/a&gt;, &lt;a href=&quot;https://www.lovesdata.com/blog-welcome&quot;&gt;Loves Data&lt;/a&gt;, and &lt;a href=&quot;https://developers.google.com/analytics/devguides/collection/ga4&quot;&gt;Google’s own developer guides&lt;/a&gt;. By following the transition steps outlined above, you can take full advantage of all that Google Analytics 4 has to offer.&lt;/p&gt;</content><author><name>Brandon Caples</name></author><category term="MarTech" /><category term="Google Analytics 4" /><category term="data" /><summary type="html">Web analytics play a crucial role in understanding user behavior, optimizing marketing campaigns, and making data-driven decisions for businesses. For years, Universal Analytics (UA) has been the go-to tool for tracking website data. However, Google Analytics 4 (GA4) has emerged as the next generation of Google Analytics, offering enhanced features and improved tracking capabilities. In this blog post, we will explore the benefits of switching from Universal Analytics to Google Analytics 4 and guide you through the transition process.</summary></entry><entry><title type="html">IP address warming</title><link href="http://localhost:4000/martech/2023/ip-address-warming" rel="alternate" type="text/html" title="IP address warming" /><published>2023-04-04T19:13:26-04:00</published><updated>2023-04-04T19:13:26-04:00</updated><id>http://localhost:4000/martech/2023/ip-address-warming</id><content type="html" xml:base="http://localhost:4000/martech/2023/ip-address-warming">&lt;p&gt;Congratulations on setting up your new email server! Now comes the crucial step of ensuring your emails actually reach your recipients’ inboxes. This is where IP address warming comes in.&lt;/p&gt;
-
-&lt;h2 id=&quot;what-is-ip-warming&quot;&gt;What is IP warming?&lt;/h2&gt;
-
-&lt;p&gt;Think of your IP address as your email server’s fingerprint. When you’re a new sender, email providers don’t recognize you yet. Sending a massive email blast right off the bat can raise red flags and trigger spam filters. IP warming is like introducing yourself gradually, building trust by sending out small-volume, targeted emails at first and then steadily increasing volume over time.&lt;/p&gt;
-
-&lt;h2 id=&quot;benefits-of-ip-warming&quot;&gt;Benefits of IP warming&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Improved deliverability:&lt;/strong&gt; Warmed-up IPs have a significantly higher chance of landing in inboxes, boosting your email marketing success.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Reduced spam complaints:&lt;/strong&gt; By demonstrating responsible sending practices, you avoid being flagged as spam and protect your sender reputation.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Enhanced sender reputation:&lt;/strong&gt; Consistent, controlled sending builds trust with email providers, ultimately leading to better email deliverability in the long run.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;how-to-warm-up-your-ip-address&quot;&gt;How to warm up your IP address&lt;/h2&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;&lt;strong&gt;Start slow and steady:&lt;/strong&gt; Begin by sending a small number of emails per day, focusing on engaged recipients who have opted-in to your list. Gradually increase the volume over time, aiming for a 20–30% increase each day.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Segment your audience:&lt;/strong&gt; Don’t send the same email to everyone. Segment your list based on engagement levels, interests, and demographics. This personalizes the experience and improves open rates, which is another signal of legitimacy for email providers.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Authenticate your emails:&lt;/strong&gt; Implement SPF, DKIM, and DMARC to authenticate your emails and prevent spoofing. This tells mailbox providers that your emails are indeed coming from you and not an impersonator.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Monitor your sending reputation:&lt;/strong&gt; Use email sending platforms or analytics tools to track your sending reputation. This will give you insights into your deliverability rates and allow you to adjust your warming strategy as needed.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Maintain a clean list:&lt;/strong&gt; Regularly remove inactive or unsubscribed recipients from your list. A clean list improves your overall sending reputation and ensures you’re only reaching engaged subscribers.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h2 id=&quot;which-subscribers-to-send-to&quot;&gt;Which subscribers to send to&lt;/h2&gt;
-
-&lt;p&gt;The first contacts used for IP warming should be your most engaged subscribers. Start with contacts who are new or have engaged with an email within the last 30 days. Build list segments divided by engagement and email domain (&lt;em&gt;e.g.&lt;/em&gt; your most engaged Gmail users). After the first batch of subscribers (engagement within the last 30 days), target subscribers with engagement within the last 60 days, then 6 months. Subscribers with no engagement for the past 6 months should be suppressed as unengaged; these contacts are more likely to trigger spam complaints.&lt;/p&gt;
-
-&lt;p&gt;To increase the likelihood of IP warming success, you should obtain explicit consent from the subscribers used for IP warming. Explicit opt-in means a customer or subscriber told you directly that they agree to and want to hear from your company or brand.&lt;/p&gt;
-
-&lt;h3 id=&quot;acceptable-forms-of-explicit-consent&quot;&gt;Acceptable forms of explicit consent&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Subscribers who submitted a form on your website&lt;/li&gt;
-  &lt;li&gt;Subscribers who purchased your product(s) within the last six months&lt;/li&gt;
-  &lt;li&gt;Subscribers who entered a written contract with your organization withinin the last six months&lt;/li&gt;
-  &lt;li&gt;Subscribers who donated to or volunteered with your organization within the last six months&lt;/li&gt;
-  &lt;li&gt;Subscribers who signed up for and are active users of your services&lt;/li&gt;
-  &lt;li&gt;Subscribers who filled out a paper or electronic signup sheet specifically for your emails&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Once you’ve segmented your subscribers by ESP/domain and ordered them by engagement, it’s time to split those segments into smaller segments based on audience size. The IP warming schedule below should help with this.&lt;/p&gt;
-
-&lt;h2 id=&quot;ip-warming-schedule&quot;&gt;IP warming schedule&lt;/h2&gt;
-
-&lt;p&gt;The next task is to split your ESP/domain segments based on specific thresholds and determine the IP warming schedule for each sub-segment. Think of your IP warming schedule like the card game &lt;em&gt;21&lt;/em&gt;. Your goal is to get as close to the target number for each ESP/domain without going over.&lt;/p&gt;
-
-&lt;p&gt;In the table below, the totals can be distributed across multiple days or sent at a single time within the appropriate window.&lt;/p&gt;
-
-&lt;table&gt;
-	&lt;thead&gt;
-		&lt;tr class=&quot;text-xs&quot;&gt;
-			&lt;th scope=&quot;col&quot;&gt;Email Service Provider&lt;/th&gt;
-			&lt;th scope=&quot;col&quot;&gt;Days 1&amp;ndash;3&lt;/th&gt;
-			&lt;th scope=&quot;col&quot;&gt;Days 4&amp;ndash;5&lt;/th&gt;
-			&lt;th scope=&quot;col&quot;&gt;Days 6&amp;ndash;7&lt;/th&gt;
-			&lt;th scope=&quot;col&quot;&gt;Days 8&amp;ndash;13&lt;/th&gt;
-			&lt;th scope=&quot;col&quot;&gt;Days 14&amp;ndash;19&lt;/th&gt;
-		&lt;/tr&gt;
-	&lt;/thead&gt;
-	&lt;tbody&gt;
-		&lt;tr class=&quot;text-xs&quot;&gt;
-			&lt;th scope=&quot;row&quot;&gt;Gmail&lt;/th&gt;
-			&lt;td&gt;5,000&lt;/td&gt;
-			&lt;td&gt;10,000&lt;/td&gt;
-			&lt;td&gt;20,000&lt;/td&gt;
-			&lt;td&gt;40,000&lt;/td&gt;
-			&lt;td&gt;80,000&lt;/td&gt;
-		&lt;/tr&gt;
-		&lt;tr class=&quot;text-xs&quot;&gt;
-			&lt;th scope=&quot;row&quot;&gt;AOL/Yahoo&lt;/th&gt;
-			&lt;td&gt;20,000&lt;/td&gt;
-			&lt;td&gt;20,000&lt;/td&gt;
-			&lt;td&gt;20,000&lt;/td&gt;
-			&lt;td&gt;40,000&lt;/td&gt;
-			&lt;td&gt;80,000&lt;/td&gt;
-		&lt;/tr&gt;
-		&lt;tr class=&quot;text-xs&quot;&gt;
-			&lt;th scope=&quot;row&quot;&gt;Microsoft&lt;/th&gt;
-			&lt;td&gt;20,000&lt;/td&gt;
-			&lt;td&gt;20,000&lt;/td&gt;
-			&lt;td&gt;20,000&lt;/td&gt;
-			&lt;td&gt;40,000&lt;/td&gt;
-			&lt;td&gt;80,000&lt;/td&gt;
-		&lt;/tr&gt;
-		&lt;tr class=&quot;text-xs&quot;&gt;
-			&lt;th scope=&quot;row&quot;&gt;ATT&lt;/th&gt;
-			&lt;td&gt;20,000&lt;/td&gt;
-			&lt;td&gt;20,000&lt;/td&gt;
-			&lt;td&gt;20,000&lt;/td&gt;
-			&lt;td&gt;40,000&lt;/td&gt;
-			&lt;td&gt;80,000&lt;/td&gt;
-		&lt;/tr&gt;
-		&lt;tr class=&quot;text-xs&quot;&gt;
-			&lt;th scope=&quot;row&quot;&gt;Comcast&lt;/th&gt;
-			&lt;td&gt;20,000&lt;/td&gt;
-			&lt;td&gt;20,000&lt;/td&gt;
-			&lt;td&gt;20,000&lt;/td&gt;
-			&lt;td&gt;40,000&lt;/td&gt;
-			&lt;td&gt;80,000&lt;/td&gt;
-		&lt;/tr&gt;
-		&lt;tr class=&quot;text-xs&quot;&gt;
-			&lt;th scope=&quot;row&quot;&gt;Spectrum, Charter, Optimum&lt;/th&gt;
-			&lt;td&gt;20,000&lt;/td&gt;
-			&lt;td&gt;20,000&lt;/td&gt;
-			&lt;td&gt;20,000&lt;/td&gt;
-			&lt;td&gt;40,000&lt;/td&gt;
-			&lt;td&gt;80,000&lt;/td&gt;
-		&lt;/tr&gt;
-		&lt;tr class=&quot;text-xs&quot;&gt;
-			&lt;th scope=&quot;row&quot;&gt;Apple&lt;/th&gt;
-			&lt;td&gt;20,000&lt;/td&gt;
-			&lt;td&gt;20,000&lt;/td&gt;
-			&lt;td&gt;20,000&lt;/td&gt;
-			&lt;td&gt;40,000&lt;/td&gt;
-			&lt;td&gt;80,000&lt;/td&gt;
-		&lt;/tr&gt;
-		&lt;tr class=&quot;text-xs&quot;&gt;
-			&lt;th scope=&quot;row&quot;&gt;Others&lt;/th&gt;
-			&lt;td&gt;20,000&lt;/td&gt;
-			&lt;td&gt;20,000&lt;/td&gt;
-			&lt;td&gt;20,000&lt;/td&gt;
-			&lt;td&gt;40,000&lt;/td&gt;
-			&lt;td&gt;80,000&lt;/td&gt;
-		&lt;/tr&gt;
-	&lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;p&gt;You can continue to scale your segments by following the pattern laid out in the table. If your email ESP segments are very large, make sure to do some additional research. &lt;a href=&quot;https://help.salesforce.com/s/articleView?id=sf.mc_es_ip_address_warming.htm&amp;amp;type=5&quot;&gt;Salesforce Marketing Cloud&lt;/a&gt; offers some guidance on IP warming for large lists, and &lt;a href=&quot;https://docs.sendgrid.com/ui/sending-email/warming-up-an-ip-address&quot;&gt;SendGrid&lt;/a&gt; does a lot of the work for its customers.&lt;/p&gt;
-
-&lt;p&gt;Remember that IP warming strategies are not guarantees for success. Your goal is to introduce emails from your server gradually to the ESPs, presenting your most engaged subscribers first. And this is typically a great approach, but you should also be mindful of the content you choose to send during these warming exercises. Send content that is likely to be well-received by your audience, increasing the likelihood of favorable reception.&lt;/p&gt;
-
-&lt;h2 id=&quot;additional-tips&quot;&gt;Additional tips&lt;/h2&gt;
-
-&lt;p&gt;Use a dedicated IP address; shared IPs can inherit negative reputations from other senders. Investing in a dedicated IP gives you complete control over your sending reputation.&lt;/p&gt;
-
-&lt;p&gt;Warm up your new server(s) during off-peak hours. Avoid sending emails during peak times when mailbox providers are bombarded with messages. Opt for early mornings or late evenings.&lt;/p&gt;
-
-&lt;p&gt;Implement SPF, DKIM, and DMARC to verify your sending identity and prevent spoofing.&lt;/p&gt;
-
-&lt;p&gt;If you plan on sending large volumes of email, consider warming up multiple IP servers simultaneously to accelerate the process. If you’re sending more than 2 million emails per day, you should have an additional server to avoid delivery deferrals imposed by the incoming mail servers.&lt;/p&gt;
-
-&lt;p&gt;Be patient. Warming up an IP address takes time, typically around 1–2 weeks (sometimes 3–4 weeks). Don’t get discouraged if you don’t see immediate results. Stick to the plan and your deliverability will steadily improve. Remember, IP address warming is an investment in your email marketing success. By taking the time to do it right, you’ll ensure your emails reach the inboxes where they belong and build lasting relationships with your subscribers.&lt;/p&gt;
-
-&lt;p&gt;Remember: IP address warming is a marathon, not a sprint. Be patient, consistent, and focus on building trust with email providers. By following these steps, you can ensure your new email server hits the ground running and lands your emails straight in the inboxes of your intended recipients.&lt;/p&gt;</content><author><name>Brandon Caples</name></author><category term="MarTech" /><category term="email" /><summary type="html">Congratulations on setting up your new email server! Now comes the crucial step of ensuring your emails actually reach your recipients’ inboxes. This is where IP address warming comes in.</summary></entry></feed>
+&lt;p&gt;The transition from Universal Analytics to Google Analytics 4 marks an important milestone in the evolution of web analytics. GA4’s advanced tracking capabilities, AI-powered insights, and streamlined reporting offer a more comprehensive view of user behavior and enable businesses to make data-driven decisions with greater precision. For more in-depth resources and tutorials, check out &lt;a href=&quot;https://www.analyticsmania.com/blog/&quot;&gt;Analytics Mania&lt;/a&gt;, &lt;a href=&quot;https://www.lovesdata.com/blog-welcome&quot;&gt;Loves Data&lt;/a&gt;, and &lt;a href=&quot;https://developers.google.com/analytics/devguides/collection/ga4&quot;&gt;Google’s own developer guides&lt;/a&gt;. By following the transition steps outlined above, you can take full advantage of all that Google Analytics 4 has to offer.&lt;/p&gt;</content><author><name>Brandon Caples</name></author><category term="MarTech" /><category term="Google Analytics 4" /><category term="data" /><summary type="html">Web analytics play a crucial role in understanding user behavior, optimizing marketing campaigns, and making data-driven decisions for businesses. For years, Universal Analytics (UA) has been the go-to tool for tracking website data. However, Google Analytics 4 (GA4) has emerged as the next generation of Google Analytics, offering enhanced features and improved tracking capabilities. In this blog post, we will explore the benefits of switching from Universal Analytics to Google Analytics 4 and guide you through the transition process.</summary></entry></feed>

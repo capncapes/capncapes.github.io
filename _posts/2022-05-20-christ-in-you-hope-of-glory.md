@@ -10,7 +10,7 @@ featured_image: {
 }
 category: Faith
 bible_books: ["Ephesians", "Colossians"]
-tags: ["Christ", "Paul's letters"]
+tags: ["Christ", "Pauline letters"]
 featured: false
 published: true
 ---
