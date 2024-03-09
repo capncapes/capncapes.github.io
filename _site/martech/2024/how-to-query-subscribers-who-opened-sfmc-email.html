@@ -3,7 +3,7 @@
 	<head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<title>Using dates with SQL | Brandon Caples</title>
+	<title>How to query Salesforce Marketing Cloud subscribers who opened a specific email | Brandon Caples</title>
 	<meta name="description" content="There are several date functions that we can use to query results and manipulate data.">
 	<meta name="author" content="Brandon Caples">
 
@@ -43,9 +43,9 @@
 
 	<!-- Open Graph Tags -->
 	<meta property="og:type" content="article">
-	<meta property="og:url" content="http://localhost:4000/martech/2023/sql-dates">
+	<meta property="og:url" content="http://localhost:4000/martech/2024/how-to-query-subscribers-who-opened-sfmc-email">
 	
-		<meta property="og:title" content="Using dates with SQL">
+		<meta property="og:title" content="How to query Salesforce Marketing Cloud subscribers who opened a specific email">
 	
 	<meta property="og:image" content="http://localhost:4000/assets/img/calendar.jpeg">
 	<meta property="og:description" content="There are several date functions that we can use to query results and manipulate data.">
@@ -53,13 +53,13 @@
 		
 			<meta property="article:publisher" content="https://www.facebook.com/capleswebdesign" />
 		
-		<meta property="article:published_time" content="2023-01-18 12:00:01 -0500" />
+		<meta property="article:published_time" content="2024-03-08 21:30:41 -0500" />
 		<meta property="article:author" content="Brandon Caples">
 		<meta property="article:section" content="MarTech" />
 		
 			<meta property="article:tag" content="SQL">
 		
-			<meta property="article:tag" content="data science">
+			<meta property="article:tag" content="Salesforce Marketing Cloud">
 		
 	
 
@@ -70,8 +70,8 @@
 		<meta name="twitter:creator:id" content="106212276">
 	
 	<meta property="twitter:domain" content="http://localhost:4000">
-	<meta property="twitter:url" content="http://localhost:4000/martech/2023/sql-dates">
-	<meta name="twitter:title" content="Using dates with SQL">
+	<meta property="twitter:url" content="http://localhost:4000/martech/2024/how-to-query-subscribers-who-opened-sfmc-email">
+	<meta name="twitter:title" content="How to query Salesforce Marketing Cloud subscribers who opened a specific email">
 	<meta name="twitter:description" content="There are several date functions that we can use to query results and manipulate data.">
 	<meta name="twitter:image" content="http://localhost:4000/assets/img/calendar.jpeg">
 	<meta name="twitter:image:alt" content="Structured Query Language (SQL)">
@@ -90,7 +90,7 @@
 
 	<!-- Canonical -->
 	
-		<link rel="canonical" href="http://localhost:4000/martech/2023/sql-dates" />
+		<link rel="canonical" href="http://localhost:4000/martech/2024/how-to-query-subscribers-who-opened-sfmc-email" />
 	
 
 	<!-- RSS -->
@@ -134,7 +134,7 @@
 					{
 						"@type": "ImageObject",
 						"inLanguage": "en-US",
-						"@id": "http://localhost:4000/martech/2023/sql-dates#primaryimage",
+						"@id": "http://localhost:4000/martech/2024/how-to-query-subscribers-who-opened-sfmc-email#primaryimage",
 						"url": "http://localhost:4000/assets/img/martech/calendar.jpeg",
 						"contentUrl": "http://localhost:4000/assets/img/martech/calendar.jpeg",
 						"caption": "Structured Query Language (SQL)"
@@ -145,27 +145,27 @@
 							"Article",
 							"BlogPosting"
 						],
-						"@id": "http://localhost:4000/martech/2023/sql-dates#article",
-						"name": "Using dates with SQL",
+						"@id": "http://localhost:4000/martech/2024/how-to-query-subscribers-who-opened-sfmc-email#article",
+						"name": "How to query Salesforce Marketing Cloud subscribers who opened a specific email",
 						"isPartOf": {
-							"@id": "http://localhost:4000/martech/2023/sql-dates#webpage"
+							"@id": "http://localhost:4000/martech/2024/how-to-query-subscribers-who-opened-sfmc-email#webpage"
 						},
 						"author": {
 							"@id": "http://localhost:4000#/schema/person/3fbbe8e23fcabc3da5c9cbc102d346c9"
 							"@type": "Person",
 							"name": "Brandon Caples"
 						},
-						"headline": "Using dates with SQL",
-						"datePublished": "2023-01-18T12:00:01-05:00",
+						"headline": "How to query Salesforce Marketing Cloud subscribers who opened a specific email",
+						"datePublished": "2024-03-08T21:30:41-05:00",
 						"mainEntityOfPage": {
-							"@id": "http://localhost:4000/martech/2023/sql-dates#webpage"
+							"@id": "http://localhost:4000/martech/2024/how-to-query-subscribers-who-opened-sfmc-email#webpage"
 						},
 						"publisher": {
 							"@id": "http://localhost:4000#/schema/person/3fbbe8e23fcabc3da5c9cbc102d346c9"
 						},
 						"image": "http://localhost:4000/assets/img/martech/calendar.jpeg",
 						"thumbnailUrl": "http://localhost:4000/assets/img/martech/calendar.jpeg",
-						"keywords": [ "SQL", "data science"],
+						"keywords": [ "SQL", "Salesforce Marketing Cloud"],
 						"articleSection": "MarTech",
 						"inLanguage": "en-US"
 					},
@@ -260,7 +260,7 @@
 			<header class="relative w-full max-w-text py-7 mx-auto md:px-12 lg:px-20 text-black">
 				<div class="grow-1">
 					<div class="label mb-4 font-bold text-xs uppercase opacity-50">MarTech</div>
-					<h1 class="mb-6 mx-auto p-0 sm:text-xl md:text-2xl lg:text-3xl font-bold">Using dates with SQL</h1>
+					<h1 class="mb-6 mx-auto p-0 sm:text-xl md:text-2xl lg:text-3xl font-bold">How to query Salesforce Marketing Cloud subscribers who opened a specific email</h1>
 				</div>
 				
 					<picture>
@@ -275,103 +275,91 @@
 				
 				<div class="relative max-w-4 mx-auto mb-20 lg:pt-0 pb-10 md:px-12 border-b-1 border-b-solid border-sand">
 					
-						<time datetime="2023-01-18T12:00:01-04:00" class="block pt-0 text-sm normal">January 18, 2023</time>
+						<time datetime="2024-03-08T21:30:41-04:00" class="block pt-0 text-sm normal">March 08, 2024</time>
 					
 				</div>
 				
 
 				
 
-				<p>Working with dates in SQL is a pretty common task, and there are several date functions that we can use to query results and manipulate data.</p>
+				<p>Salesforce Marketing Cloud offers a robust set of tools for crafting targeted email campaigns. But what if you need to leverage the full potential of your Salesforce data to create even more precise audience segments?  This is where SQL comes in.</p>
 
-<h2 id="now">NOW()</h2>
+<p><a href="/martech/2023/sql-intro">SQL (Structured Query Language)</a> empowers you to write custom queries and extract specific data points from your Salesforce database directly within Marketing Cloud. This unlocks a world of possibilities for personalizing your marketing efforts.</p>
 
-<p>The <code class="language-plaintext highlighter-rouge">NOW()</code> function simply returns the current datetime, like this: <strong>2024-03-08 22:14:08</strong>. You will probably use <code class="language-plaintext highlighter-rouge">NOW()</code> a lot. If you only need the current date or the current time, use <code class="language-plaintext highlighter-rouge">CURDATE()</code> or <code class="language-plaintext highlighter-rouge">CURTIME()</code>, respectively.</p>
+<p>Today, we’ll use SQL to query a Salesforce database and identify email subscribers who opened a specific email campaign.</p>
 
-<h2 id="getdate">GETDATE()</h2>
+<p>To get started, navigate to <strong>Automation Studio</strong> within Marketing Cloud. Here, you’ll utilize the SQL Query activity to write and execute your query. You can use Query Studio to see the results of your query before adding it to Automation Studio.</p>
 
-<p>The <code class="language-plaintext highlighter-rouge">GETDATE()</code> function works exactly like the <code class="language-plaintext highlighter-rouge">NOW()</code> function, except that <code class="language-plaintext highlighter-rouge">GETDATE()</code> returns milliseconds, too. The query result would look something like this: <strong>2024-03-08 22:14:08.073</strong>.</p>
+<p>Here’s a sample SQL query that fetches subscribers who opened a specific email:</p>
 
-<h2 id="date">DATE()</h2>
-<p><code class="language-plaintext highlighter-rouge">DATE(date)</code></p>
+<figure class="highlight"><pre><code class="language-sql" data-lang="sql"><span class="k">SELECT</span> <span class="k">DISTINCT</span>
+	<span class="n">con</span><span class="p">.</span><span class="n">Id</span> <span class="k">AS</span> <span class="n">SubscriberKey</span><span class="p">,</span>
+	<span class="n">con</span><span class="p">.</span><span class="n">FirstName</span><span class="p">,</span>
+	<span class="n">con</span><span class="p">.</span><span class="n">LastName</span><span class="p">,</span>
+	<span class="n">con</span><span class="p">.</span><span class="n">Email</span><span class="p">,</span>
+	<span class="n">j</span><span class="p">.</span><span class="n">EmailName</span><span class="p">,</span>
+	<span class="n">s</span><span class="p">.</span><span class="n">JobID</span><span class="p">,</span>
+	<span class="n">s</span><span class="p">.</span><span class="n">eventdate</span> <span class="k">AS</span> <span class="n">SendDate</span>
+<span class="k">FROM</span> <span class="p">[</span><span class="n">_Sent</span><span class="p">]</span> <span class="k">AS</span> <span class="n">s</span>
+<span class="k">LEFT</span> <span class="k">JOIN</span> <span class="n">Contact_Salesforce</span> <span class="k">AS</span> <span class="n">con</span>
+	<span class="k">ON</span> <span class="n">s</span><span class="p">.</span><span class="n">SubscriberKey</span> <span class="o">=</span> <span class="n">con</span><span class="p">.</span><span class="n">Id</span>
+<span class="k">LEFT</span> <span class="k">JOIN</span> <span class="p">[</span><span class="n">_Job</span><span class="p">]</span> <span class="k">AS</span> <span class="n">j</span>
+	<span class="k">ON</span> <span class="n">s</span><span class="p">.</span><span class="n">JobID</span> <span class="o">=</span> <span class="n">j</span><span class="p">.</span><span class="n">JobID</span>
+<span class="k">LEFT</span> <span class="k">JOIN</span> <span class="p">[</span><span class="n">_Open</span><span class="p">]</span> <span class="k">AS</span> <span class="n">o</span>
+	<span class="k">ON</span> <span class="n">s</span><span class="p">.</span><span class="n">JobID</span> <span class="o">=</span> <span class="n">o</span><span class="p">.</span><span class="n">JobID</span>
+	<span class="k">AND</span> <span class="n">s</span><span class="p">.</span><span class="n">ListID</span> <span class="o">=</span> <span class="n">o</span><span class="p">.</span><span class="n">ListID</span>
+	<span class="k">AND</span> <span class="n">s</span><span class="p">.</span><span class="n">BatchID</span> <span class="o">=</span> <span class="n">o</span><span class="p">.</span><span class="n">BatchID</span>
+	<span class="k">AND</span> <span class="n">s</span><span class="p">.</span><span class="n">SubscriberID</span> <span class="o">=</span> <span class="n">o</span><span class="p">.</span><span class="n">SubscriberID</span>
+	<span class="k">AND</span> <span class="n">o</span><span class="p">.</span><span class="n">IsUnique</span> <span class="o">=</span> <span class="mi">1</span>
+<span class="k">WHERE</span> <span class="n">o</span><span class="p">.</span><span class="n">SubscriberID</span> <span class="k">IS</span> <span class="k">NOT</span> <span class="k">NULL</span>
+	<span class="k">AND</span> <span class="n">con</span><span class="p">.</span><span class="n">Id</span> <span class="k">IS</span> <span class="k">NOT</span> <span class="k">NULL</span>
+	<span class="k">AND</span> <span class="n">s</span><span class="p">.</span><span class="n">JobID</span> <span class="o">=</span> <span class="s1">'[Place job ID here]'</span></code></pre></figure>
 
-<p>Use the <code class="language-plaintext highlighter-rouge">DATE()</code> function to extract the date from a valid date expression. The return format is <strong>YYYY-MM-DD</strong>. This is a useful function when handling mismatched date formats, especially if you don’t need to work with time.</p>
-
-<h2 id="dateadd">DATEADD()</h2>
-<p><code class="language-plaintext highlighter-rouge">DATEADD(interval, number, date)</code></p>
-
-<p>The <code class="language-plaintext highlighter-rouge">DATEADD()</code> function is used to add (or subtract) two dates. The interval can be any of the following:</p>
-
-<ul>
-  <li>year (also yyyy or yy)</li>
-  <li>quarter (also qq or q)</li>
-  <li>month (also mm or m)</li>
-  <li>dayofyear (also dy or y)</li>
-  <li>day (also dd or d)</li>
-  <li>week (also ww or wk)</li>
-  <li>weekday (also dw or w)</li>
-  <li>hour (also hh)</li>
-  <li>minute (also mi or n)</li>
-  <li>second (also ss or s)</li>
-  <li>millisecond (also ms)</li>
-  <li>microsecond (also mcs)</li>
-  <li>nanosecond (also ns)</li>
-</ul>
-
-<p>The number parameter should be the number of the interval parameter needed, and it can be either positive (future) or negative (past).</p>
-
-<p>The following example returns a date value that’s eight days in the past, from the current moment in time.</p>
-
-<figure class="highlight"><pre><code class="language-sql" data-lang="sql"><span class="n">DATEADD</span><span class="p">(</span><span class="k">day</span><span class="p">,</span> <span class="o">-</span><span class="mi">8</span><span class="p">,</span> <span class="n">GETDATE</span><span class="p">())</span></code></pre></figure>
-
-<h2 id="datepart">DATEPART()</h2>
-<p><code class="language-plaintext highlighter-rouge">DATEPART(interval, date)</code></p>
-
-<p><code class="language-plaintext highlighter-rouge">DATEPART()</code> returns a specified part of a date. Use the interval parameter to specify the return value. The interval can be any of the following:</p>
+<h2 id="query-breakdown">Query breakdown</h2>
 
 <ul>
-  <li>year (also yyyy or yy)</li>
-  <li>quarter (also qq or q)</li>
-  <li>month (also mm or m)</li>
-  <li>dayofyear (also dy or y)</li>
-  <li>day (also dd or d)</li>
-  <li>week (also ww or wk)</li>
-  <li>weekday (also dw or w)</li>
-  <li>hour (also hh)</li>
-  <li>minute (also mi or n)</li>
-  <li>second (also ss or s)</li>
-  <li>millisecond (also ms)</li>
-  <li>microsecond (also mcs)</li>
-  <li>nanosecond (also ns)</li>
-  <li>tzoffset (timezone offset, also tz)</li>
-  <li>iso_week (ISO week, also isowk or isoww)</li>
+  <li>SELECT DISTINCT: Retrieves distinct values for each selected field, avoiding duplicates.</li>
+  <li>Joined Tables:
+    <ul>
+      <li><code class="language-plaintext highlighter-rouge">[_Sent]</code>: Contains email send data.</li>
+      <li>Contact_Salesforce: Houses contact information from Salesforce.</li>
+      <li><code class="language-plaintext highlighter-rouge">[_Job]</code>: Stores email job details like name and ID.</li>
+      <li><code class="language-plaintext highlighter-rouge">[_Open]</code>: Captures email open activity.</li>
+    </ul>
+  </li>
+  <li>Filtering Criteria:
+    <ul>
+      <li>o.SubscriberID IS NOT NULL: Filters for subscribers who opened the email.</li>
+      <li>con.Id IS NOT NULL: Ensures contact information is available.</li>
+      <li>s.JobID = ‘[…]’: Targets a specific email job. This is the 6-digit “Job ID” number associated with each sent email.</li>
+    </ul>
+  </li>
+  <li>Retrieved Fields:
+    <ul>
+      <li>SubscriberKey, FirstName, LastName, GoesBy, Email</li>
+      <li>EmailName (campaign name), JobID, SendDate</li>
+    </ul>
+  </li>
 </ul>
 
-<h2 id="datediff">DATEDIFF()</h2>
-<p><code class="language-plaintext highlighter-rouge">DATEDIFF(interval, date1, date2)</code></p>
+<h2 id="applying-the-query">Applying the query</h2>
 
-<p>Use the <code class="language-plaintext highlighter-rouge">DATEDIFF</code> function to return the difference between two dates. The return value can be any of the following specified intervals:</p>
+<ol>
+  <li>Replace [Job ID number] with the actual ID of the email campaign you’re analyzing.</li>
+  <li>Paste the code into an SQL Query activity within Marketing Cloud’s Automation Studio.</li>
+  <li>Choose a destination Data Extension to store the retrieved subscriber data.</li>
+  <li>Validate the code and schedule the automation.</li>
+</ol>
+
+<h2 id="key-points">Key points</h2>
 
 <ul>
-  <li>year (also yyyy or yy)</li>
-  <li>quarter (also qq or q)</li>
-  <li>month (also mm or m)</li>
-  <li>dayofyear</li>
-  <li>day (also dy or y)</li>
-  <li>week (also ww or wk)</li>
-  <li>weekday (also dw or w)</li>
-  <li>hour (also hh)</li>
-  <li>minute (also mi or n)</li>
-  <li>second (also ss or s)</li>
-  <li>millisecond (also ms)</li>
+  <li>Use <code class="language-plaintext highlighter-rouge">DISTINCT</code> to prevent duplicate records.</li>
+  <li>Join multiple tables to gather comprehensive information.</li>
+  <li>Filter results using WHERE to target specific subscribers and campaigns.</li>
+  <li>Validate code before execution.</li>
+  <li>Select relevant fields to extract meaningful insights.</li>
 </ul>
-
-<p>The function starts with the first date provided, and the result can be either positive or negative depending on which direction in time the calculation moved.</p>
-
-<figure class="highlight"><pre><code class="language-sql" data-lang="sql"><span class="c1">-- Find all people older than 40.</span>
-<span class="n">DATEDIFF</span><span class="p">(</span><span class="n">NOW</span><span class="p">(),</span> <span class="n">dob</span><span class="p">)</span><span class="o">/</span><span class="mi">365</span> <span class="o">&gt;</span> <span class="mi">40</span></code></pre></figure>
-
-<p>An important thing to remember when working with dates in SQL is that date formats need to match between the database column and the intended result. For a primer on working with SQL, check out my <a href="/martech/2023/sql-intro">introduction to SQL</a>.</p>
 
 			</article>
 			<!-- Blog Post : END -->
