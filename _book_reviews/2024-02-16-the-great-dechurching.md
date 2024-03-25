@@ -20,7 +20,7 @@ tags: ["Christian", "data"]
 published: true
 ---
 
-*The Great Dechurching*, by Jim Davis, Michael Graham, and Ryan P. Burge, delves into the intricate landscape of religious transformations and the evolving dynamics of organized faith. The authors, with keen eyes for sociological trends, provide a thought-provoking analysis of the declining influence of traditional churches in contemporary society.
+<a href="https://zondervanacademic.com/products/the-great-dechurching" class="italic">The Great Dechurching</a>, by Jim Davis, Michael Graham, and Ryan P. Burge, delves into the intricate landscape of religious transformations and the evolving dynamics of organized faith. The authors, with keen eyes for sociological trends, provide a thought-provoking analysis of the declining influence of traditional churches in contemporary society.
 
 The book sets the stage with a comprehensive exploration of the historical significance of religious institutions and their role in shaping cultures. It traces the roots of organized religion and its impact on individuals and communities throughout the centuries. The narrative is well-researched and seamlessly weaves together historical context, statistical data, and anecdotal evidence to create a compelling narrative.
 
