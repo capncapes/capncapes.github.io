@@ -4,7 +4,7 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<title>How to query Salesforce Marketing Cloud subscribers who opened a specific email | Brandon Caples</title>
-	<meta name="description" content="There are several date functions that we can use to query results and manipulate data.">
+	<meta name="description" content="You can use SQL to query a database to identify email subscribers who opened a specific email campaign.">
 	<meta name="author" content="Brandon Caples">
 
 	
@@ -47,8 +47,8 @@
 	
 		<meta property="og:title" content="How to query Salesforce Marketing Cloud subscribers who opened a specific email">
 	
-	<meta property="og:image" content="http://localhost:4000/assets/img/calendar.jpeg">
-	<meta property="og:description" content="There are several date functions that we can use to query results and manipulate data.">
+	<meta property="og:image" content="http://localhost:4000/assets/img/abstract-technology.jpeg">
+	<meta property="og:description" content="You can use SQL to query a database to identify email subscribers who opened a specific email campaign.">
 	
 		
 			<meta property="article:publisher" content="https://www.facebook.com/capleswebdesign" />
@@ -72,8 +72,8 @@
 	<meta property="twitter:domain" content="http://localhost:4000">
 	<meta property="twitter:url" content="http://localhost:4000/martech/2024/how-to-query-subscribers-who-opened-sfmc-email">
 	<meta name="twitter:title" content="How to query Salesforce Marketing Cloud subscribers who opened a specific email">
-	<meta name="twitter:description" content="There are several date functions that we can use to query results and manipulate data.">
-	<meta name="twitter:image" content="http://localhost:4000/assets/img/calendar.jpeg">
+	<meta name="twitter:description" content="You can use SQL to query a database to identify email subscribers who opened a specific email campaign.">
+	<meta name="twitter:image" content="http://localhost:4000/assets/img/abstract-technology.jpeg">
 	<meta name="twitter:image:alt" content="Structured Query Language (SQL)">
 
 	<!-- CSS -->
@@ -135,8 +135,8 @@
 						"@type": "ImageObject",
 						"inLanguage": "en-US",
 						"@id": "http://localhost:4000/martech/2024/how-to-query-subscribers-who-opened-sfmc-email#primaryimage",
-						"url": "http://localhost:4000/assets/img/martech/calendar.jpeg",
-						"contentUrl": "http://localhost:4000/assets/img/martech/calendar.jpeg",
+						"url": "http://localhost:4000/assets/img/martech/abstract-technology.jpeg",
+						"contentUrl": "http://localhost:4000/assets/img/martech/abstract-technology.jpeg",
 						"caption": "Structured Query Language (SQL)"
 					},
 					
@@ -163,8 +163,8 @@
 						"publisher": {
 							"@id": "http://localhost:4000#/schema/person/3fbbe8e23fcabc3da5c9cbc102d346c9"
 						},
-						"image": "http://localhost:4000/assets/img/martech/calendar.jpeg",
-						"thumbnailUrl": "http://localhost:4000/assets/img/martech/calendar.jpeg",
+						"image": "http://localhost:4000/assets/img/martech/abstract-technology.jpeg",
+						"thumbnailUrl": "http://localhost:4000/assets/img/martech/abstract-technology.jpeg",
 						"keywords": [ "SQL", "Salesforce Marketing Cloud"],
 						"articleSection": "MarTech",
 						"inLanguage": "en-US"
@@ -264,8 +264,8 @@
 				</div>
 				
 					<picture>
-						<source type="image/webp" srcset="http://localhost:4000/assets/img/martech/calendar.jpeg" >
-						<img src="http://localhost:4000/assets/img/martech/calendar.jpeg" class="w-full h-full object-cover object-center rounded shadow" alt="Structured Query Language (SQL)" />
+						<source type="image/webp" srcset="http://localhost:4000/assets/img/martech/abstract-technology.jpeg" >
+						<img src="http://localhost:4000/assets/img/martech/abstract-technology.jpeg" class="w-full h-full object-cover object-center rounded shadow" alt="Structured Query Language (SQL)" />
 					</picture>
 				
 			</header>
@@ -318,25 +318,25 @@
 <h2 id="query-breakdown">Query breakdown</h2>
 
 <ul>
-  <li>SELECT DISTINCT: Retrieves distinct values for each selected field, avoiding duplicates.</li>
-  <li>Joined Tables:
+  <li><code class="language-plaintext highlighter-rouge">SELECT DISTINCT</code>: Retrieves distinct values for each selected field, avoiding duplicates.</li>
+  <li>Joined tables:
     <ul>
       <li><code class="language-plaintext highlighter-rouge">[_Sent]</code>: Contains email send data.</li>
-      <li>Contact_Salesforce: Houses contact information from Salesforce.</li>
+      <li><code class="language-plaintext highlighter-rouge">Contact_Salesforce</code>: Houses contact information from Salesforce.</li>
       <li><code class="language-plaintext highlighter-rouge">[_Job]</code>: Stores email job details like name and ID.</li>
       <li><code class="language-plaintext highlighter-rouge">[_Open]</code>: Captures email open activity.</li>
     </ul>
   </li>
-  <li>Filtering Criteria:
+  <li>Filtering criteria:
     <ul>
-      <li>o.SubscriberID IS NOT NULL: Filters for subscribers who opened the email.</li>
-      <li>con.Id IS NOT NULL: Ensures contact information is available.</li>
-      <li>s.JobID = ‘[…]’: Targets a specific email job. This is the 6-digit “Job ID” number associated with each sent email.</li>
+      <li><code class="language-plaintext highlighter-rouge">o.SubscriberID IS NOT NULL</code>: Filters for subscribers who opened the email.</li>
+      <li><code class="language-plaintext highlighter-rouge">con.Id IS NOT NULL</code>: Ensures contact information is available.</li>
+      <li><code class="language-plaintext highlighter-rouge">s.JobID = '[...]'</code>: Targets a specific email job. This is the 6-digit “Job ID” number associated with each sent email.</li>
     </ul>
   </li>
-  <li>Retrieved Fields:
+  <li>Retrieved fields:
     <ul>
-      <li>SubscriberKey, FirstName, LastName, GoesBy, Email</li>
+      <li>SubscriberKey, FirstName, LastName, Email</li>
       <li>EmailName (campaign name), JobID, SendDate</li>
     </ul>
   </li>
@@ -345,7 +345,7 @@
 <h2 id="applying-the-query">Applying the query</h2>
 
 <ol>
-  <li>Replace [Job ID number] with the actual ID of the email campaign you’re analyzing.</li>
+  <li>Replace <code class="language-plaintext highlighter-rouge">[Job ID number]</code> with the actual ID of the email campaign you’re analyzing.</li>
   <li>Paste the code into an SQL Query activity within Marketing Cloud’s Automation Studio.</li>
   <li>Choose a destination Data Extension to store the retrieved subscriber data.</li>
   <li>Validate the code and schedule the automation.</li>

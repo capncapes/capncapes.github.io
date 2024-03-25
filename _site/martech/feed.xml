@@ -29,7 +29,7 @@
                     <![CDATA[ How to query Salesforce Marketing Cloud subscribers who opened a specific email ]]>
                 </title>
                 <description>
-                    <![CDATA[ There are several date functions that we can use to query results and manipulate data. ]]>
+                    <![CDATA[ You can use SQL to query a database to identify email subscribers who opened a specific email campaign. ]]>
                 </description>
                 <link>http://localhost:4000/martech/2024/how-to-query-subscribers-who-opened-sfmc-email</link>
                 <guid isPermaLink="true">http://localhost:4000/martech/2024/how-to-query-subscribers-who-opened-sfmc-email</guid>
