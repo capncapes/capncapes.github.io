@@ -76,12 +76,41 @@
 	*.print-only { display: block !important; }
 	*.no-print { display: none !important; }
 
+	#resume section.hero-section { padding:0; }
+
+	#resume section.hero-section > div {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+	}
+
 	#resume section.hero-section h1,
 	#resume section.hero-section h1 > * {
 		margin: 0;
 		padding: 0;
-		font-size: 16pt !important;
+		font-size: 20pt !important;
+		line-height: 24pt;
+		text-align: left;
+		color: #000000;
+	}
+
+	#resume section.hero-section > div.resume-title {
+		margin: 0;
+		padding: 0;
+		font-size: 18pt !important;
+		line-height: 22pt;
+		text-align: left;
+		color: #000000;
+	}
+
+	#resume section.hero-section div.contact,
+	#resume section.hero-section div.contact > a {
+		margin: 0;
+		padding: 0;
+		font-size: 14pt !important;
 		line-height: 18pt;
+		text-align: right;
+		color: #000000;
 	}
 	
 	#resume h2, #resume h2 > * {
@@ -90,6 +119,7 @@
 		color: #30475E;
 	}
 	
+	#resume h3, #resume h3 > * { margin-top: 2rem; }
 	#resume h3, #resume h3 > *,
 	section.hero-section .resume-title {
 		font-size: 13pt !important;
@@ -111,7 +141,7 @@
 		line-height: 11pt;
 	}
 
-	#resume #skills {
+	#resume #tech {
 		page-break-before: always;
 	}
 }
