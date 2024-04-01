@@ -1046,7 +1046,8 @@ main article svg .stroke-butt { stroke-linecap: butt; }
 	object-position: right;
 }
 
-#default h1 { font-family: 'Raginy', 'Bodoni', 'Cambria', 'Cochin', 'Georgia', 'Times', 'Times New Roman', serif; }
+#default h1,
+#portfolio h1 { font-family: 'Raginy', 'Bodoni', 'Cambria', 'Cochin', 'Georgia', 'Times', 'Times New Roman', serif; }
 
 body hr {
 	margin: 3rem 0 1rem;
