@@ -8,13 +8,19 @@
 
 #portfolio .projects > .project > footer { column-gap: 2rem; }
 
-#portfolio .projects > .project > footer a { border-radius: 50%; }
-
-/* #portfolio .projects > .project > footer p {
-	line-height: 24px;
+#portfolio .projects > .project > footer a {
+	border-radius: 50%;
+	-webkit-transition: transform 0.3s ease-in-out;
+	-o-transition: transform 0.3s ease-in-out;
+	-moz-transition: transform 0.3s ease-in-out;
+	transition: transform 0.3s ease-in-out;
 }
 
-#portfolio .projects > .project > footer div.splendid-flex {
+#portfolio .projects > .project > footer a:hover {
+	transform: translateY(-5px);
+}
+
+#portfolio .projects {
 	-webkit-box-orient: vertical;
 	-webkit-box-direction: normal;
 	-ms-flex-direction: column;
@@ -22,24 +28,17 @@
 }
 
 @media screen and (min-width: 600px) {
-	#portfolio .projects > .project > footer div.splendid-flex {
+	#portfolio .projects {
 		-webkit-box-orient: horizontal;
 		-webkit-box-direction: normal;
 		-ms-flex-direction: row;
 		flex-direction: row;
 	}
-} */
+}
 
 #portfolio .projects > .project > footer svg {
 	width: 22px;
 }
-
-/* .scroll-img-container {
-	position: relative;
-	height: 0;
-	padding-top: calc(400 / 600 * 100%);
-	overflow: hidden;
-} */
 
 .scroll-img-container {
 	width: auto;
@@ -61,26 +60,4 @@
 .scroll-img-container:hover picture {
 	cursor: s-resize;
 	transform: translateY(calc(-100% + 260px));
-}
-
-/* .scroll-img-container > picture {
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-} */
-
-/* .scroll-img-container:hover picture {
-	animation: moveSlideshow 1s linear;
-	animation-fill-mode: forwards;
-} */
-
-@keyframes moveSlideshow {
-	0% {
-		transform: translateY(0);
-	}
-	100% {
-		transform: translateY(calc(-100% + 200px));
-	}
 }

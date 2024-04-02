@@ -4,7 +4,7 @@ title: Portfolio
 permalink: /portfolio/
 ---
 
-<div class="projects splendid-flex flex-row justify-between flex-wrap">
+<div class="projects splendid-flex justify-between flex-wrap">
 	<article class="project">
 		<h4>Welcome campaign: Email #1</h4>
 		<div class="scroll-img-container rounded shadow" style="background-color:#DEDCD6;">
