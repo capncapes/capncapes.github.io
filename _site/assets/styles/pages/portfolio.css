@@ -50,9 +50,7 @@
 
 .scroll-img-container > picture {
 	display: block;
-	width: 85%;
 	height: auto;
-	margin: 20px auto;
 	overflow: hidden;
 	transition: transform 2000ms linear;
 }

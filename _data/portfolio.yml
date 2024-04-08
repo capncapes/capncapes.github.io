@@ -3,6 +3,7 @@
   img_fallback_src: "/assets/img/portfolio/mkt_generic-welcome-series_1-welcome__journey_680x.jpeg"
   img_alt_text: "The first email in a welcome series campaign"
   img_bg_color: "#DEDCD6"
+  picture_width: 90
   github_code_url: "https://github.com/capncapes/emails/blob/main/production/precept/mkt_generic-welcome-series_1-welcome__journey.html"
   github_screenshot_url: "https://github.com/capncapes/emails/blob/main/production/precept/mkt_generic-welcome-series_1-welcome__journey.jpeg"
 
@@ -11,6 +12,7 @@
   img_fallback_src: "/assets/img/portfolio/mkt_generic-welcome-series_2-pbsm__journey_680x.jpeg"
   img_alt_text: "The second email in a welcome series campaign"
   img_bg_color: "#DEDCD6"
+  picture_width: 90
   github_code_url: "https://github.com/capncapes/emails/blob/main/production/precept/mkt_generic-welcome-series_2-pbsm__journey.html"
   github_screenshot_url: "https://github.com/capncapes/emails/blob/main/production/precept/mkt_generic-welcome-series_2-pbsm__journey.jpeg"
 
@@ -19,6 +21,7 @@
   img_fallback_src: "/assets/img/portfolio/mkt_generic-welcome-series_3-discovery-study__journey_680x.jpeg"
   img_alt_text: "The third email in a welcome series campaign"
   img_bg_color: "#DEDCD6"
+  picture_width: 90
   github_code_url: "https://github.com/capncapes/emails/blob/main/production/precept/mkt_generic-welcome-series_3-discovery-study__journey.html"
   github_screenshot_url: "https://github.com/capncapes/emails/blob/main/production/precept/mkt_generic-welcome-series_3-discovery-study__journey.jpeg"
 
@@ -27,6 +30,7 @@
   img_fallback_src: "/assets/img/portfolio/mkt_generic-welcome-series_4-group-locator__journey_680x.jpeg"
   img_alt_text: "The fourth email in a welcome series campaign"
   img_bg_color: "#DEDCD6"
+  picture_width: 90
   github_code_url: "https://github.com/capncapes/emails/blob/main/production/precept/mkt_generic-welcome-series_4-group-locator__journey.html"
   github_screenshot_url: "https://github.com/capncapes/emails/blob/main/production/precept/mkt_generic-welcome-series_4-group-locator__journey.jpeg"
 
@@ -35,5 +39,6 @@
   img_fallback_src: "/assets/img/portfolio/adv_ml2401_1-prayer-guide_800x.jpeg"
   img_alt_text: "A 2024 prayer guide email"
   img_bg_color: "#DEDCD6"
+  picture_width: 100
   github_code_url: "https://github.com/capncapes/emails/blob/main/production/precept/fundraising/adv_ml2401_1-prayer-guide.html"
   github_screenshot_url: "https://github.com/capncapes/emails/blob/main/production/precept/fundraising/adv_ml2401_1-prayer-guide.jpeg"

@@ -11,7 +11,7 @@ permalink: /portfolio/
 		<article class="project">
 			<h4>{{ project.title }}</h4>
 			<div class="scroll-img-container rounded shadow" style="background-color:{{ project.img_bg_color }};">
-				<picture>
+				<picture class="{% if project.picture_width < 100 %}mt-5 {% endif %}mx-auto w-{{ project.picture_width }}">
 					<source type="image/webp" srcset="{{ project.img_webp_src }}" >
 					<img src="{{ project.img_fallback_src }}" alt="{{ project.img_alt_text }}" />
 				</picture>
