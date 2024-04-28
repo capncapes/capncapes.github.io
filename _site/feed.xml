@@ -1,4 +1,85 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-04-09T23:34:45-04:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">capncapes.github.io</title><subtitle>A blog site built with Jekyll consisting of two blogs, a feed of book reviews, and other content pages.</subtitle><author><name>Brandon Caples</name></author><entry><title type="html">How to query Salesforce Marketing Cloud subscribers who opened a specific email</title><link href="http://localhost:4000/martech/2024/how-to-query-subscribers-who-opened-sfmc-email" rel="alternate" type="text/html" title="How to query Salesforce Marketing Cloud subscribers who opened a specific email" /><published>2024-03-08T21:30:41-05:00</published><updated>2024-03-08T21:30:41-05:00</updated><id>http://localhost:4000/martech/2024/how-to-query-subscribers-who-opened-sfmc-email</id><content type="html" xml:base="http://localhost:4000/martech/2024/how-to-query-subscribers-who-opened-sfmc-email">&lt;p&gt;Salesforce Marketing Cloud offers a robust set of tools for crafting targeted email campaigns. But what if you need to leverage the full potential of your Salesforce data to create even more precise audience segments?  This is where SQL comes in.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-04-27T22:30:02-04:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">capncapes.github.io</title><subtitle>A blog site built with Jekyll consisting of two blogs, a feed of book reviews, and other content pages.</subtitle><author><name>Brandon Caples</name></author><entry><title type="html">How to automate Marketing Cloud journey analytics</title><link href="http://localhost:4000/martech/2024/sfmc-query-journey-analytics" rel="alternate" type="text/html" title="How to automate Marketing Cloud journey analytics" /><published>2024-04-26T12:39:20-04:00</published><updated>2024-04-26T12:39:20-04:00</updated><id>http://localhost:4000/martech/2024/sfmc-query-journey-analytics</id><content type="html" xml:base="http://localhost:4000/martech/2024/sfmc-query-journey-analytics">&lt;p&gt;SELECT
+	jou.JourneyID AS JourneyID,
+	jou.JourneyName AS JourneyName,
+	jou.VersionNumber AS VersionNumber,
+	jou.JourneyStatus AS Status,
+	CONVERT(date, s.EventDate) AS SentDate,
+	j.EmailName AS EmailName,
+	COUNT(s.JobID) AS Sent,
+	COUNT(s.JobID) - COUNT(b.JobID) AS Delivered,
+	COUNT(o.JobID) AS Opened,
+	COUNT(c.JobID) AS Clicked,
+	COUNT(b.JobID) AS Bounced,
+	COUNT(u.JobID) AS Unsubscribed
+FROM _Job j
+LEFT JOIN _Sent s ON j.JobID = s.JobID
+LEFT JOIN _Open o ON s.JobID = o.JobID
+	AND s.ListID = o.ListID
+	AND s.BatchID = o.BatchID
+	AND s.SubscriberID = o.SubscriberID
+	AND o.IsUnique = 1
+LEFT JOIN _Click c ON s.JobID = c.JobID
+	AND s.ListID = c.ListID
+	AND s.BatchID = c.BatchID
+	AND s.SubscriberID = c.SubscriberID
+	AND c.IsUnique = 1
+LEFT JOIN _Bounce b ON s.JobID = b.JobID
+	AND s.ListID = b.ListID
+	AND s.BatchID = b.BatchID
+	AND s.SubscriberID = b.SubscriberID
+	AND b.IsUnique = 1
+LEFT JOIN _Unsubscribe u ON s.JobID = u.JobID
+	AND s.ListID = u.ListID
+	AND s.BatchID = u.BatchID
+	AND s.SubscriberID = u.SubscriberID
+	AND u.IsUnique = 1
+LEFT JOIN _JourneyActivity ja ON j.TriggererSendDefinitionObjectID = ja.JourneyActivityObjectID
+LEFT JOIN _Journey jou ON ja.VersionID = jou.VersionID
+WHERE jou.JourneyName IS NOT NULL
+	AND jou.JourneyStatus IN (‘Running’, ‘Paused’)
+	AND CONVERT(date, s.EventDate) = CONVERT(date, DATEADD(day, -5, GETDATE()))
+GROUP BY jou.JourneyID, jou.JourneyName, jou.VersionNumber, j.EmailName, CONVERT(date, s.EventDate), jou.JourneyStatus&lt;/p&gt;</content><author><name>Brandon Caples</name></author><category term="MarTech" /><category term="analytics" /><category term="Salesforce Marketing Cloud" /><category term="SQL" /><summary type="html">SELECT jou.JourneyID AS JourneyID, jou.JourneyName AS JourneyName, jou.VersionNumber AS VersionNumber, jou.JourneyStatus AS Status, CONVERT(date, s.EventDate) AS SentDate, j.EmailName AS EmailName, COUNT(s.JobID) AS Sent, COUNT(s.JobID) - COUNT(b.JobID) AS Delivered, COUNT(o.JobID) AS Opened, COUNT(c.JobID) AS Clicked, COUNT(b.JobID) AS Bounced, COUNT(u.JobID) AS Unsubscribed FROM _Job j LEFT JOIN _Sent s ON j.JobID = s.JobID LEFT JOIN _Open o ON s.JobID = o.JobID AND s.ListID = o.ListID AND s.BatchID = o.BatchID AND s.SubscriberID = o.SubscriberID AND o.IsUnique = 1 LEFT JOIN _Click c ON s.JobID = c.JobID AND s.ListID = c.ListID AND s.BatchID = c.BatchID AND s.SubscriberID = c.SubscriberID AND c.IsUnique = 1 LEFT JOIN _Bounce b ON s.JobID = b.JobID AND s.ListID = b.ListID AND s.BatchID = b.BatchID AND s.SubscriberID = b.SubscriberID AND b.IsUnique = 1 LEFT JOIN _Unsubscribe u ON s.JobID = u.JobID AND s.ListID = u.ListID AND s.BatchID = u.BatchID AND s.SubscriberID = u.SubscriberID AND u.IsUnique = 1 LEFT JOIN _JourneyActivity ja ON j.TriggererSendDefinitionObjectID = ja.JourneyActivityObjectID LEFT JOIN _Journey jou ON ja.VersionID = jou.VersionID WHERE jou.JourneyName IS NOT NULL AND jou.JourneyStatus IN (‘Running’, ‘Paused’) AND CONVERT(date, s.EventDate) = CONVERT(date, DATEADD(day, -5, GETDATE())) GROUP BY jou.JourneyID, jou.JourneyName, jou.VersionNumber, j.EmailName, CONVERT(date, s.EventDate), jou.JourneyStatus</summary></entry><entry><title type="html">How to use Web Analytics Connector in Salesforce Marketing Cloud</title><link href="http://localhost:4000/martech/2024/sfmc-web-analytics-connector" rel="alternate" type="text/html" title="How to use Web Analytics Connector in Salesforce Marketing Cloud" /><published>2024-04-15T06:31:00-04:00</published><updated>2024-04-15T06:31:00-04:00</updated><id>http://localhost:4000/martech/2024/sfmc-web-analytics-connector</id><content type="html" xml:base="http://localhost:4000/martech/2024/sfmc-web-analytics-connector">&lt;p&gt;The Salesforce Marketing Cloud Web Analytics Connector (WAC) is your secret weapon for bridging the gap between email marketing and website analytics.&lt;/p&gt;
+
+&lt;h2 id=&quot;what-is-the-web-analytics-connector&quot;&gt;What is the Web Analytics Connector?&lt;/h2&gt;
+
+&lt;p&gt;The WAC acts as a bridge between Marketing Cloud and your favorite web analytics service, like Google Analytics or Adobe Analytics. It works by automatically adding custom tags (parameters) to the links in your emails. When a subscriber clicks a link, the tags are sent to your web analytics tool, allowing you to track specific details about that click, such as:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Campaign ID:&lt;/strong&gt; Identify which email campaign drove the website traffic.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Subscriber data:&lt;/strong&gt; See individual subscriber behavior based on email opens, clicks, and website visits.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Link clicked:&lt;/strong&gt; Track which specific links within your email are most engaging.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;benefits-of-using-the-web-analytics-connector&quot;&gt;Benefits of using the Web Analytics Connector&lt;/h2&gt;
+
+&lt;p&gt;By leveraging the WAC, you gain a wealth of insights into your email marketing effectiveness:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Measure campaign performance: See which email campaigns drive the most website traffic and conversions.&lt;/li&gt;
+  &lt;li&gt;Optimize link placement: Identify the most clicked links within your emails and refine your email design for better engagement.&lt;/li&gt;
+  &lt;li&gt;Personalize the customer Journey: Use subscriber data captured through the WAC to tailor website experiences for individual subscribers.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;how-to-use-the-web-analytics-connector&quot;&gt;How to use the Web Analytics Connector&lt;/h2&gt;
+
+&lt;p&gt;There are four levels of &lt;a href=&quot;https://ampscript.com/web-analytics-connector-wac/&quot; target=&quot;_blank&quot;&gt;parameter management&lt;/a&gt;: Account, Email, Subscriber, and Link levels. These various levels of parameters can be managed in &lt;strong&gt;Parameter Manager&lt;/strong&gt;. Once the Web Analytics Connector is set up in your account, Parameter Manager can be accessed by visiting &lt;strong&gt;Setup&lt;/strong&gt; from the top-right menu of Marketing Cloud (beneath the name of the logged-in user). Next, find &lt;strong&gt;Data Management&lt;/strong&gt; &amp;gt; &lt;strong&gt;Parameter Management&lt;/strong&gt; in the menu on the left side of the screen.&lt;/p&gt;
+
+&lt;picture class=&quot;block md:mx-12 xl:mx-0&quot;&gt;
+	&lt;source type=&quot;image/webp&quot; srcset=&quot;/assets/img/martech/sfmc_parameter_manager.webp&quot; /&gt;
+	&lt;img src=&quot;/assets/img/martech/sfmc_parameter_manager.jpeg&quot; class=&quot;shadow&quot; alt=&quot;Parameter Manager within Salesforce Marketing Cloud&quot; /&gt;
+&lt;/picture&gt;
+
+&lt;p&gt;You can enter parameters into the textbox to be inserted automatically at the end of each link of your emails. Parameters can be hardcoded or formatted dynamically using AMPscript.&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;utm_term=marketingcloud​&amp;amp;sfmc_key=%%_subscriberkey%%​&amp;amp;utm_medium=email​&amp;amp;mc_source_code__c=%%__AdditionalEmailAttribute1%%​&amp;amp;utm_source=%%__AdditionalEmailAttribute2%%​&amp;amp;utm_campaign=%%__AdditionalEmailAttribute3%%&lt;/code&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;getting-started-with-the-web-analytics-connector&quot;&gt;Getting started with the Web Analytics Connector&lt;/h2&gt;
+
+&lt;p&gt;The &lt;a href=&quot;https://help.salesforce.com/s/articleView?id=sf.mc_wa_web_analytics_connector.htm&amp;amp;type=5&quot; target=&quot;_blank&quot;&gt;Salesforce Marketing Cloud documentation&lt;/a&gt; offers comprehensive resources on setting up and using the WAC, including &lt;a href=&quot;https://mc.chat/web-analytics-connector/&quot; target=&quot;_blank&quot;&gt;step-by-step guides&lt;/a&gt; and troubleshooting tips.&lt;/p&gt;
+
+&lt;h2 id=&quot;unleash-the-power-of-marketing-cloud-data&quot;&gt;Unleash the Power of Marketing Cloud Data&lt;/h2&gt;
+
+&lt;p&gt;The Web Analytics Connector is a powerful tool for marketers seeking to bridge the gap between email marketing and website analytics. By using the WAC, you can gain a deeper understanding of your email campaigns’ impact and optimize your marketing efforts for maximum ROI.&lt;/p&gt;</content><author><name>Brandon Caples</name></author><category term="MarTech" /><category term="analytics" /><category term="Salesforce Marketing Cloud" /><summary type="html">The Salesforce Marketing Cloud Web Analytics Connector (WAC) is your secret weapon for bridging the gap between email marketing and website analytics.</summary></entry><entry><title type="html">How to query Salesforce Marketing Cloud subscribers who opened a specific email</title><link href="http://localhost:4000/martech/2024/how-to-query-subscribers-who-opened-sfmc-email" rel="alternate" type="text/html" title="How to query Salesforce Marketing Cloud subscribers who opened a specific email" /><published>2024-03-08T21:30:41-05:00</published><updated>2024-03-08T21:30:41-05:00</updated><id>http://localhost:4000/martech/2024/how-to-query-subscribers-who-opened-sfmc-email</id><content type="html" xml:base="http://localhost:4000/martech/2024/how-to-query-subscribers-who-opened-sfmc-email">&lt;p&gt;Salesforce Marketing Cloud offers a robust set of tools for crafting targeted email campaigns. But what if you need to leverage the full potential of your Salesforce data to create even more precise audience segments?  This is where SQL comes in.&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;/martech/2023/sql-intro&quot;&gt;SQL (Structured Query Language)&lt;/a&gt; empowers you to write custom queries and extract specific data points from your Salesforce database directly within Marketing Cloud. This unlocks a world of possibilities for personalizing your marketing efforts.&lt;/p&gt;
 
@@ -472,219 +553,4 @@
 
 &lt;p&gt;Google Analytics 4 collects some &lt;a href=&quot;https://support.google.com/analytics/answer/9268042&quot;&gt;user properties by default&lt;/a&gt;, which you’re probably already using in your reports. Your custom user properties can be used in the same way by adding them to reports and explorations and viewing them in the realtime report.&lt;/p&gt;
 
-&lt;p&gt;If you’re not already employing user properties in your reports and dashboards, this one feature could be a game changer for your business analytics.&lt;/p&gt;</content><author><name>Brandon Caples</name></author><category term="MarTech" /><category term="Google Analytics 4" /><category term="data" /><summary type="html">If you’ve worked with Google Analytics 4 (GA4) for any amount of time, you’re probably familiar with event properties. When you send an event, you can attach parameters that provide more context for that event. But there’s a powerful feature that you may not be using called user properties.</summary></entry><entry><title type="html">UTM parameters</title><link href="http://localhost:4000/martech/2023/utm-parameters" rel="alternate" type="text/html" title="UTM parameters" /><published>2023-08-03T07:58:56-04:00</published><updated>2023-08-03T07:58:56-04:00</updated><id>http://localhost:4000/martech/2023/utm-parameters</id><content type="html" xml:base="http://localhost:4000/martech/2023/utm-parameters">&lt;p&gt;UTM parameters, or Urchin Tracking Module parameters, are snippets of text that can be added to the end of a URL to track the effectiveness of online marketing campaigns. UTM parameters are supported by most web analytics tools, including Google Analytics.&lt;/p&gt;
-
-&lt;p&gt;These parameters can be used to track the performance of individual marketing campaigns, as well as the overall effectiveness of different marketing channels. For example, you could use UTM parameters to track the number of visitors to your website from a specific social media post, or to track the conversion rate of visitors who came to your website from a paid search campaign.&lt;/p&gt;
-
-&lt;p&gt;UTM parameters are a powerful tool that can help you to track the effectiveness of your online marketing campaigns and make informed decisions about your marketing strategy.&lt;/p&gt;
-
-&lt;h2 id=&quot;how-to-use-utm-parameters&quot;&gt;How to use UTM parameters&lt;/h2&gt;
-
-&lt;p&gt;According to multiple articles and tutorials, UTM parameters are case-sensitive. Google Analytics 4 evaluates UTM parameters as lowercase values, so all parameters should be lowercase. Google Analytics 4 converts data to lowercase, but this isn’t 100% reliable.&lt;/p&gt;
-
-&lt;p&gt;UTM parameters should only be used when the source and destination for a link are not measured by the same Google Analytics property. In other words, don’t use UTM parameters to track internal links; doing so can distort your data. If you need to track specific internal link clicks, I recommend creating an event or event parameters that allow you to filter your reports appropriately.&lt;/p&gt;
-
-&lt;p&gt;For Google Analytics 4 (&lt;abbr title=&quot;Google Analytics 4&quot;&gt;GA4&lt;/abbr&gt;) to classify &lt;a href=&quot;https://support.google.com/analytics/answer/9756891?hl=en&quot;&gt;default channel groups&lt;/a&gt; appropriately, UTM parameters should meet certain standards. &lt;abbr title=&quot;Google Analytics 4&quot;&gt;GA4&lt;/abbr&gt; associates channels based on values of the two most important UTM parameters: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;utm_source&lt;/code&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;utm_medium&lt;/code&gt;. Other useful parameters are &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;utm_content&lt;/code&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;utm_campaign&lt;/code&gt;.&lt;/p&gt;
-
-&lt;h2 id=&quot;the-utm-parameters&quot;&gt;The UTM parameters&lt;/h2&gt;
-
-&lt;p&gt;A tracking URL is made up of four parameters: source, medium, content, and campaign name. These parameters do not need to be in any particular order. To use UTM parameters, simply add them to the end of a URL, separated by question marks and ampersands. For example, the following URL uses UTM parameters to track the traffic from a specific social media post:&lt;/p&gt;
-
-&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;https://www.example.com/?utm_source=facebook.com&amp;amp;utm_medium=social&amp;amp;utm_campaign=spring-sale&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;(When a URL contains parameters, the start of the parameter string is always &lt;strong&gt;?&lt;/strong&gt;, as indicated above. Then each parameter, and its value, is separated by &lt;strong&gt;&amp;amp;&lt;/strong&gt;. These URL parameters can sometimes determine the content on the page, but only if the website is programmed to do that. Otherwise, parameters do not affect the user experience, since they are largely for analytics.)&lt;/p&gt;
-
-&lt;p&gt;When a user clicks on this link, the UTM parameters will be sent to &lt;abbr title=&quot;Google Analytics 4&quot;&gt;GA4&lt;/abbr&gt; and other web analytics tools, depending on which tools are installed on the website. You can then view reports in your web analytics tool to see how many visitors came to your website from this link, and how they interacted with your website.&lt;/p&gt;
-
-&lt;h3 id=&quot;utm-source&quot;&gt;UTM Source&lt;/h3&gt;
-
-&lt;p&gt;The &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;utm_source&lt;/code&gt; parameter should identify where the link lives—the source of the user who clicked. The &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;utm_source&lt;/code&gt; is often a website domain, like facebook.com or edx.org. For some media, the source can be more flexible but should still identify where the original click came from.&lt;/p&gt;
-
-&lt;h4 id=&quot;examples&quot;&gt;Examples&lt;/h4&gt;
-
-&lt;p&gt;The following link lives on Instagram in a reel featuring Shaquille O’Neal for the brand awareness campaign. When a link comes from another website, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;utm_source&lt;/code&gt; is determined automatically. In this case, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;utm_source&lt;/code&gt; can be omitted from the tracking link.&lt;/p&gt;
-
-&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;?utm_source=instagram&amp;amp;utm_medium=social&amp;amp;utm_content=shaq-reel&amp;amp;utm_campaign=2023_brand_awareness&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;This link is in the footer of the second email (“donor appeal”) in the October 2023 fundraising campaign.&lt;/p&gt;
-
-&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;?utm_source=2-donor-appeal&amp;amp;utm_medium=email&amp;amp;utm_content=footer&amp;amp;utm_campaign=2023-10_fundraising&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;The following is a shortlink printed on the reply envelope of the October 2023 fundraising letter.&lt;/p&gt;
-
-&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;?utm_source=fundraising-letter&amp;amp;utm_medium=print&amp;amp;utm_content=reply-envelope&amp;amp;utm_campaign=2023-10_fundraising&lt;/code&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;utm-medium&quot;&gt;UTM Medium&lt;/h3&gt;
-
-&lt;p&gt;The &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;utm_medium&lt;/code&gt; parameter is more rigid and should follow Google’s standards identified in the &lt;a href=&quot;https://support.google.com/analytics/answer/9756891?hl=en&quot;&gt;documentation&lt;/a&gt;. It is the vehicle for the message that the user interacted with. It could be a &lt;strong&gt;referral&lt;/strong&gt; from another website, an &lt;strong&gt;email&lt;/strong&gt;, a &lt;strong&gt;print&lt;/strong&gt;ed document, or some other mode of communication.&lt;/p&gt;
-
-&lt;h4 id=&quot;examples-1&quot;&gt;Examples&lt;/h4&gt;
-
-&lt;p&gt;The following link is on Facebook in the ad with a product focus, which is part of a retargeting campaign.&lt;/p&gt;
-
-&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;?utm_source=facebook&amp;amp;utm_medium=retargeting&amp;amp;utm_content=product-focus&amp;amp;utm_campaign=2023_social_advertising&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;This affiliate link is on an influencer’s blog. Tracking parameters are only needed if the link directs to a website not tracked by a &lt;abbr title=&quot;Google Analytics 4&quot;&gt;GA4&lt;/abbr&gt; property’s cross-domain settings. If this link originated on a subdomain of the destination site, tracking parameters would not be needed. In this case, the tracking link is needed since the influencer’s blog site is likely not tracked by the same &lt;abbr title=&quot;Google Analytics 4&quot;&gt;GA4&lt;/abbr&gt; property as the destination site.&lt;/p&gt;
-
-&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;?utm_source=influencer.blog&amp;amp;utm_medium=affiliate&amp;amp;utm_content=try-this-awesome-product&amp;amp;utm_campaign=2023_influencers&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;This link is the first CTA link in the first email (“content delivery”) of the brand awareness campaign.&lt;/p&gt;
-
-&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;?utm_source=1-content-delivery&amp;amp;utm_medium=email&amp;amp;utm_content=cta-1&amp;amp;utm_campaign=2023_brand_awareness&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;This link is in an app’s settings, directing to a contact form.&lt;/p&gt;
-
-&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;?utm_source=settings&amp;amp;utm_medium=app&amp;amp;utm_content=contact&amp;amp;utm_campaign=app_ios&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;As mentioned previously, if you want &lt;abbr title=&quot;Google Analytics 4&quot;&gt;GA4&lt;/abbr&gt; to appropriately identify and organize default channel groups, you need to be intentional about &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;utm_medium&lt;/code&gt;, even more so than &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;utm_source&lt;/code&gt;. &lt;abbr title=&quot;Google Analytics 4&quot;&gt;GA4&lt;/abbr&gt; monitors values of both to organize default channel groups, but I’ve found that following stricter rules with &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;utm_medium&lt;/code&gt; values allows for more flexibility when assigning &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;utm_source&lt;/code&gt; values. (You can also define &lt;a href=&quot;https://support.google.com/analytics/answer/13051316?hl=en&quot;&gt;custom channel groups&lt;/a&gt; to work with an existing naming convention in place.)&lt;/p&gt;
-
-&lt;p&gt;The table below provides &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;utm_medium&lt;/code&gt; values that work with the &lt;abbr title=&quot;Google Analytics 4&quot;&gt;GA4&lt;/abbr&gt; default channel grouping rules. There are other values that work, and they are &lt;a href=&quot;https://support.google.com/analytics/answer/9756891?hl=en&quot;&gt;documented on the Analytics Help site&lt;/a&gt;. Custom values can also be added as you see fit, but you may need to define additional channel grouping rules.&lt;/p&gt;
-
-&lt;div class=&quot;px-12&quot;&gt;
-	&lt;table&gt;
-		&lt;thead&gt;
-			&lt;tr class=&quot;text-xs&quot;&gt;
-				&lt;th scope=&quot;col&quot;&gt;Medium&lt;/th&gt;
-				&lt;th scope=&quot;col&quot;&gt;Convention&lt;/th&gt;
-				&lt;th scope=&quot;col&quot;&gt;Examples&lt;/th&gt;
-			&lt;/tr&gt;
-		&lt;/thead&gt;
-		&lt;tbody&gt;
-			&lt;tr class=&quot;text-xs&quot;&gt;
-				&lt;td&gt;Printed Materials&lt;/td&gt;
-				&lt;td&gt;The word &lt;em&gt;print&lt;/em&gt;&lt;/td&gt;
-				&lt;td&gt;print&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr class=&quot;text-xs&quot;&gt;
-				&lt;td&gt;Email&lt;/td&gt;
-				&lt;td&gt;The word &lt;em&gt;email&lt;/em&gt;&lt;/td&gt;
-				&lt;td&gt;email&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr class=&quot;text-xs&quot;&gt;
-				&lt;td&gt;External Website&lt;/td&gt;
-				&lt;td&gt;The word &lt;em&gt;referral&lt;/em&gt;&lt;/td&gt;
-				&lt;td&gt;referral&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr class=&quot;text-xs&quot;&gt;
-				&lt;td&gt;Affiliate Links&lt;/td&gt;
-				&lt;td&gt;The word &lt;em&gt;affiliate&lt;/em&gt;&lt;/td&gt;
-				&lt;td&gt;affiliate&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr class=&quot;text-xs&quot;&gt;
-				&lt;td&gt;Social Media&lt;/td&gt;
-				&lt;td&gt;The word &lt;em&gt;social&lt;/em&gt;&lt;/td&gt;
-				&lt;td&gt;social&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr class=&quot;text-xs&quot;&gt;
-				&lt;td&gt;Digital Ads&lt;/td&gt;
-				&lt;td&gt;The type of ad (&lt;em&gt;e.g.&lt;/em&gt; cp*, ppc, retargeting) or the word &lt;em&gt;paid&lt;/em&gt;&lt;/td&gt;
-				&lt;td&gt;cpc&lt;br /&gt;cpm&lt;br /&gt;ppc&lt;br /&gt;retargeting&lt;br /&gt;paid&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr class=&quot;text-xs&quot;&gt;
-				&lt;td&gt;Display Ads&lt;/td&gt;
-				&lt;td&gt;The type of display ad (&lt;em&gt;e.g.&lt;/em&gt; display, banner, expandable)&lt;/td&gt;
-				&lt;td&gt;display&lt;br /&gt;banner&lt;br /&gt;expandable&lt;br /&gt;interstitial&lt;br /&gt;cpm&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr class=&quot;text-xs&quot;&gt;
-				&lt;td&gt;Audio Ads&lt;/td&gt;
-				&lt;td&gt;The word &lt;em&gt;audio&lt;/em&gt;&lt;/td&gt;
-				&lt;td&gt;audio&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr class=&quot;text-xs&quot;&gt;
-				&lt;td&gt;Text Message&lt;/td&gt;
-				&lt;td&gt;The word &lt;em&gt;sms&lt;/em&gt;&lt;/td&gt;
-				&lt;td&gt;sms&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr class=&quot;text-xs&quot;&gt;
-				&lt;td&gt;App Notification&lt;/td&gt;
-				&lt;td&gt;The word &lt;em&gt;mobile&lt;/em&gt;&lt;/td&gt;
-				&lt;td&gt;mobile&lt;/td&gt;
-			&lt;/tr&gt;
-		&lt;/tbody&gt;
-	&lt;/table&gt;
-&lt;/div&gt;
-
-&lt;p&gt;(Since the channel group is determined based on the combined values of &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;utm_source&lt;/code&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;utm_medium&lt;/code&gt;, the &lt;strong&gt;source&lt;/strong&gt; will determine whether a digital ad is attributed to &lt;strong&gt;Paid Social&lt;/strong&gt;, &lt;strong&gt;Paid Search&lt;/strong&gt;, or another paid channel group.)&lt;/p&gt;
-
-&lt;h3 id=&quot;utm-content&quot;&gt;UTM Content&lt;/h3&gt;
-
-&lt;p&gt;The &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;utm_content&lt;/code&gt; parameter is used to differentiate creatives. Though it’s intended for advertising, utm_content is a very flexible parameter that can be used in any meaningful way. It can differentiate links within the same email—for example, a text link, a button, and a linked image all directing to the same product page. If needed, it could also be used to distinguish the destination of the link, as the utm_medium parameter has been used in the past (e.g. link-opd, link-known).&lt;/p&gt;
-
-&lt;p&gt;Because of its association with ads, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;utm_content&lt;/code&gt; can be found in &lt;abbr title=&quot;Google Analytics 4&quot;&gt;GA4&lt;/abbr&gt; as the Session manual ad content dimension, or sometimes simply as Ad content.&lt;/p&gt;
-
-&lt;h4 id=&quot;examples-2&quot;&gt;Examples&lt;/h4&gt;
-
-&lt;p&gt;The following link is from a brand ad on Facebook in an awareness campaign.&lt;/p&gt;
-
-&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;?utm_source=m.facebook.com&amp;amp;utm_medium=cpc&amp;amp;utm_content=brand-focus&amp;amp;utm_campaign=2023_brand_awareness&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;This link is from a QR code titled Community in a printed Bible study.&lt;/p&gt;
-
-&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;?utm_source=book_galatians&amp;amp;utm_medium=print&amp;amp;utm_content=qr-code_community&amp;amp;utm_campaign=product_bible-studies&lt;/code&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;utm-campaign&quot;&gt;UTM Campaign&lt;/h3&gt;
-
-&lt;p&gt;The &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;utm_campaign&lt;/code&gt; parameter is intended to identify a promotional campaign by name and can be used in any way that’s helpful. I recommend coming up with a naming convention for campaigns to make it easy to identify the various campaigns showing up in reports.&lt;/p&gt;</content><author><name>Brandon Caples</name></author><category term="MarTech" /><category term="Google Analytics 4" /><category term="data" /><summary type="html">UTM parameters, or Urchin Tracking Module parameters, are snippets of text that can be added to the end of a URL to track the effectiveness of online marketing campaigns. UTM parameters are supported by most web analytics tools, including Google Analytics.</summary></entry><entry><title type="html">How to develop a marketing campaign strategy that works</title><link href="http://localhost:4000/martech/2023/how-to-develop-marketing-campaign" rel="alternate" type="text/html" title="How to develop a marketing campaign strategy that works" /><published>2023-07-31T05:58:00-04:00</published><updated>2023-07-31T05:58:00-04:00</updated><id>http://localhost:4000/martech/2023/how-to-develop-marketing-campaign</id><content type="html" xml:base="http://localhost:4000/martech/2023/how-to-develop-marketing-campaign">&lt;p&gt;Launching a marketing campaign without a solid strategy is like baking a cake without a recipe. You might end up with something edible, but it’s unlikely to be a masterpiece. In today’s competitive world, a well-planned campaign strategy is the difference between attracting new customers and losing ground to the competition.&lt;/p&gt;
-
-&lt;p&gt;But first things first, you need to &lt;strong&gt;identify the challenges&lt;/strong&gt; your organization faces. Is it brand awareness? Difficulty generating leads? A disconnect with your target audience? Understanding these roadblocks is crucial for crafting a campaign that actually addresses these challenges. To help with this process, ask some discovery questions:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;How well-known is your brand in your target market?&lt;/li&gt;
-  &lt;li&gt;Are brand messages resonating with your audience?&lt;/li&gt;
-  &lt;li&gt;What challenges does the organization face in gaining new customer awareness?&lt;/li&gt;
-  &lt;li&gt;Are you satisfied with the quantity and quality of leads generated?&lt;/li&gt;
-  &lt;li&gt;What conversion rates are you seeing from leads to customers?&lt;/li&gt;
-  &lt;li&gt;What marketing channels are most effective for lead generation?&lt;/li&gt;
-  &lt;li&gt;How satisfied are your customers with your products and/or services?&lt;/li&gt;
-  &lt;li&gt;Are your current customer engagement strategies effective?&lt;/li&gt;
-  &lt;li&gt;Do you think you have a strong understanding of your customers’ needs and preferences?&lt;/li&gt;
-  &lt;li&gt;Are you meeting your sales and revenue targets?&lt;/li&gt;
-  &lt;li&gt;What are the biggest barriers to converting leads into customers?&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Some business challenges may require additional investments beyond normal marketing budgetary items like advertising and content creation. Ask yourself these questions as well:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Are there any internal inefficiencies that hinder your marketing efforts?&lt;/li&gt;
-  &lt;li&gt;Do you have the necessary resources and tools to execute your marketing plans effectively?&lt;/li&gt;
-  &lt;li&gt;What technology integrations or automation opportunities could improve your marketing operations?&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Depending on your larger marketing goals, you may need to invest in additional staff and/or software. These are obviously significant financial &lt;del&gt;expenses&lt;/del&gt; investments, so prioritize your needs and plan accordingly.&lt;/p&gt;
-
-&lt;h2 id=&quot;identify-your-target-audience&quot;&gt;Identify your target audience&lt;/h2&gt;
-
-&lt;p&gt;Once you’ve identified a challenge to address, determine the target audience for the campaign. Who are you trying to reach? What are their needs, aspirations, and challenges? The more you understand their &lt;em&gt;language&lt;/em&gt;, the more effectively you can connect with them.&lt;/p&gt;
-
-&lt;p&gt;An example of a target audience might be &lt;em&gt;repeat web visitors who haven’t purchased&lt;/em&gt; or &lt;em&gt;donors who give infrequently&lt;/em&gt;.&lt;/p&gt;
-
-&lt;h2 id=&quot;define-your-business-goals&quot;&gt;Define your business goals&lt;/h2&gt;
-
-&lt;p&gt;Define your business goals clearly. Where do you want your marketing efforts to lead? Is there a particular problem area you’d like to address? Do you want to increase brand awareness, generate more leads, or boost donations for your nonprofit? Having a clear target in mind keeps your campaign focused and helps you measure its effectiveness.&lt;/p&gt;
-
-&lt;p&gt;Examples of business goals include &lt;em&gt;repeat web visitors completing their first purchase&lt;/em&gt; or &lt;em&gt;adding donors to your monthly giving program&lt;/em&gt;.&lt;/p&gt;
-
-&lt;h2 id=&quot;determine-measurable-kpis&quot;&gt;Determine measurable &lt;abbr title=&quot;Key Performance Indicators&quot;&gt;KPIs&lt;/abbr&gt;&lt;/h2&gt;
-
-&lt;p&gt;Think of KPIs (key performance indicators) as your trusty compass. They help you track your progress towards your goals. Will you track website traffic, social media engagement, or conversion rates? How do you know when you’ve achieved a goal? Choose measurable metrics that align with your goals and provide actionable insights.&lt;/p&gt;
-
-&lt;p&gt;An example of a measurable KPI might be, &lt;em&gt;increase web conversions by 2%&lt;/em&gt; or &lt;em&gt;convert 5% of irregular donors to monthly givers&lt;/em&gt;.&lt;/p&gt;
-
-&lt;h2 id=&quot;formulate-a-hypothesis&quot;&gt;Formulate a hypothesis&lt;/h2&gt;
-
-&lt;p&gt;Every successful strategy starts with a well-informed guess. In marketing, this guess is your hypothesis. Think of it as a statement like, &lt;em&gt;Implementing a targeted social media campaign will increase website traffic by 15%.&lt;/em&gt; This will guide your campaign development and allow you to test and refine your approach.&lt;/p&gt;
-
-&lt;p&gt;Other hypothesis statements may look like these:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;em&gt;We can increase web conversions by 2% for repeat web visitors by showing product recommendations.&lt;/em&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;em&gt;We can grow our pool of monthly givers by explaining the benefits of expected revenue to our nonprofit and by offering incentives to monthly givers.&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;review-necessary-content&quot;&gt;Review necessary content&lt;/h2&gt;
-
-&lt;p&gt;Now it’s time to take an inventory of your content needs. What type of content will resonate with your target audience? Blog posts, infographics, videos, or social media interactions? What resources are readily available? What content needs to be created to support your campaign? Choose formats that align with your hypothesis and audience preferences.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;Remember, this is just the first step in your marketing campaign’s journey. Be ready to adapt your strategy as you learn and explore. Embrace data-driven insights and use them to continually optimize your campaign for maximum impact.&lt;/p&gt;</content><author><name>Brandon Caples</name></author><category term="MarTech" /><category term="marketing" /><summary type="html">Launching a marketing campaign without a solid strategy is like baking a cake without a recipe. You might end up with something edible, but it’s unlikely to be a masterpiece. In today’s competitive world, a well-planned campaign strategy is the difference between attracting new customers and losing ground to the competition.</summary></entry></feed>
+&lt;p&gt;If you’re not already employing user properties in your reports and dashboards, this one feature could be a game changer for your business analytics.&lt;/p&gt;</content><author><name>Brandon Caples</name></author><category term="MarTech" /><category term="Google Analytics 4" /><category term="data" /><summary type="html">If you’ve worked with Google Analytics 4 (GA4) for any amount of time, you’re probably familiar with event properties. When you send an event, you can attach parameters that provide more context for that event. But there’s a powerful feature that you may not be using called user properties.</summary></entry></feed>
