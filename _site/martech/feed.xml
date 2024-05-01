@@ -17,28 +17,12 @@
         </image>
         <generator>https://brandoncaples.com</generator>
         
-            <lastBuildDate>Fri, 26 Apr 2024 12:39:20 -0400</lastBuildDate>
+            <lastBuildDate>Mon, 15 Apr 2024 06:31:00 -0400</lastBuildDate>
         
         <atom:link href="https://brandoncaples.com/martech/feed.xml" rel="self" type="application/rss+xml"/>
         <language>
             <![CDATA[ en ]]>
         </language>
-        
-            <item>
-                <title>
-                    <![CDATA[ How to automate Marketing Cloud journey analytics ]]>
-                </title>
-                <description>
-                    <![CDATA[ With its Web Analytics Connector, Marketing Cloud offers a powerful tool to gain deeper insights into customer interactions. ]]>
-                </description>
-                <link>http://localhost:4000/martech/2024/sfmc-query-journey-analytics</link>
-                <guid isPermaLink="true">http://localhost:4000/martech/2024/sfmc-query-journey-analytics</guid>
-                <dc:creator>
-                    <![CDATA[ Brandon Caples ]]>
-                </dc:creator>
-                <pubDate>Fri, 26 Apr 2024 12:39:20 -0400</pubDate>
-                
-            </item>
         
             <item>
                 <title>

@@ -1,22 +1,22 @@
 ---
 layout: post
 title: "In the beginning was the Word: the prologue of John's gospel"
-date: 2021-12-12 12:12:12 -0400
+date: 2023-12-12 12:12:12 -0500
 featured_image: {
-  src: "",
-  fallback: "",
+  src: "john-prologue.webp",
+  fallback: "john-prologue.jpeg",
   title: "The prologue of John's gospel (1:1–18)",
-  alt: ""
+  alt: "A Bible laying open to the prologue of the gospel of John"
 }
 description: "The prologue of John's gospel is quite possibly the most beautiful and profound passage of Scripture in the whole Bible."
 category: Faith
-bible_books: "John"
+bible_books: ["John"]
 tags: ["Christ", "gospels"]
 featured: true
-published: false
+published: true
 ---
 
-The prologue of John's gospel is quite possibly the most beautiful and profound passage of Scripture in the whole Bible&mdash;in both form and content. Gary M. Burge even asserts that John's prologue, originally sung as a hymn, was worn around the neck to prevent sickness, and recited to the sick and newly baptized.
+The prologue of John's gospel is quite possibly the most beautiful and profound passage of Scripture in the whole Bible&mdash;in both form and content. Gary M. Burge[^1] even asserts that John's prologue, originally sung as a hymn, was worn around the neck to prevent sickness, and recited to the sick and newly baptized.
 
 ## Textual criticism
 
@@ -26,7 +26,7 @@ The first 18 verses of the fourth gospel set the stage for the remainder of the 
 
 ## Structure
 
-The prologue of John's gospel can be divided into four strophes[^1]&mdash;theological turns, or stanzas.
+The prologue of John's gospel can be divided into four strophes[^2]&mdash;theological turns, or stanzas.
 
 ### The first strophe: the Word and God (1:1&ndash;2)
 
@@ -50,4 +50,5 @@ In the grand finale of the prologue of John's gospel, the message moves to concr
 
 In verse 14, John makes a bold claim, one of the most important in all of Scripture: that God became a man and dwelt among his people and revealed his glory. The Greek verb for *dwelling* (σκηνόω, skēnoō) is also used in the Septuagint (the Greek translation of the Old Testament) to refer to God living among his people in the tabernacle in the desert. As Burge so eloquently puts it, <q cite="The NIV Application Commentary: John">the glory of God, once restricted to the tabernacle (Exodus 40:34), is now visible in Christ (John 1:14b).</q> (*The NIV Application Commentary: John*, p. 59) This shocking assertion combined into one two wholly separate entities for the Jew and Greek alike: the divine Spirit of God and the lowly flesh of mankind.
 
-[^1]: _Strophe_ has two syllables and rhymes with _trophy_.
+[^1]: Burge, Gary M. (2000). *The NIV Application Commentary: John.* Zondervan.
+[^2]: _Strophe_ has two syllables and rhymes with _trophy_.

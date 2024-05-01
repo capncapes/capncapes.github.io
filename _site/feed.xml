@@ -1,44 +1,20 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-04-27T22:30:02-04:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">capncapes.github.io</title><subtitle>A blog site built with Jekyll consisting of two blogs, a feed of book reviews, and other content pages.</subtitle><author><name>Brandon Caples</name></author><entry><title type="html">How to automate Marketing Cloud journey analytics</title><link href="http://localhost:4000/martech/2024/sfmc-query-journey-analytics" rel="alternate" type="text/html" title="How to automate Marketing Cloud journey analytics" /><published>2024-04-26T12:39:20-04:00</published><updated>2024-04-26T12:39:20-04:00</updated><id>http://localhost:4000/martech/2024/sfmc-query-journey-analytics</id><content type="html" xml:base="http://localhost:4000/martech/2024/sfmc-query-journey-analytics">&lt;p&gt;SELECT
-	jou.JourneyID AS JourneyID,
-	jou.JourneyName AS JourneyName,
-	jou.VersionNumber AS VersionNumber,
-	jou.JourneyStatus AS Status,
-	CONVERT(date, s.EventDate) AS SentDate,
-	j.EmailName AS EmailName,
-	COUNT(s.JobID) AS Sent,
-	COUNT(s.JobID) - COUNT(b.JobID) AS Delivered,
-	COUNT(o.JobID) AS Opened,
-	COUNT(c.JobID) AS Clicked,
-	COUNT(b.JobID) AS Bounced,
-	COUNT(u.JobID) AS Unsubscribed
-FROM _Job j
-LEFT JOIN _Sent s ON j.JobID = s.JobID
-LEFT JOIN _Open o ON s.JobID = o.JobID
-	AND s.ListID = o.ListID
-	AND s.BatchID = o.BatchID
-	AND s.SubscriberID = o.SubscriberID
-	AND o.IsUnique = 1
-LEFT JOIN _Click c ON s.JobID = c.JobID
-	AND s.ListID = c.ListID
-	AND s.BatchID = c.BatchID
-	AND s.SubscriberID = c.SubscriberID
-	AND c.IsUnique = 1
-LEFT JOIN _Bounce b ON s.JobID = b.JobID
-	AND s.ListID = b.ListID
-	AND s.BatchID = b.BatchID
-	AND s.SubscriberID = b.SubscriberID
-	AND b.IsUnique = 1
-LEFT JOIN _Unsubscribe u ON s.JobID = u.JobID
-	AND s.ListID = u.ListID
-	AND s.BatchID = u.BatchID
-	AND s.SubscriberID = u.SubscriberID
-	AND u.IsUnique = 1
-LEFT JOIN _JourneyActivity ja ON j.TriggererSendDefinitionObjectID = ja.JourneyActivityObjectID
-LEFT JOIN _Journey jou ON ja.VersionID = jou.VersionID
-WHERE jou.JourneyName IS NOT NULL
-	AND jou.JourneyStatus IN (‘Running’, ‘Paused’)
-	AND CONVERT(date, s.EventDate) = CONVERT(date, DATEADD(day, -5, GETDATE()))
-GROUP BY jou.JourneyID, jou.JourneyName, jou.VersionNumber, j.EmailName, CONVERT(date, s.EventDate), jou.JourneyStatus&lt;/p&gt;</content><author><name>Brandon Caples</name></author><category term="MarTech" /><category term="analytics" /><category term="Salesforce Marketing Cloud" /><category term="SQL" /><summary type="html">SELECT jou.JourneyID AS JourneyID, jou.JourneyName AS JourneyName, jou.VersionNumber AS VersionNumber, jou.JourneyStatus AS Status, CONVERT(date, s.EventDate) AS SentDate, j.EmailName AS EmailName, COUNT(s.JobID) AS Sent, COUNT(s.JobID) - COUNT(b.JobID) AS Delivered, COUNT(o.JobID) AS Opened, COUNT(c.JobID) AS Clicked, COUNT(b.JobID) AS Bounced, COUNT(u.JobID) AS Unsubscribed FROM _Job j LEFT JOIN _Sent s ON j.JobID = s.JobID LEFT JOIN _Open o ON s.JobID = o.JobID AND s.ListID = o.ListID AND s.BatchID = o.BatchID AND s.SubscriberID = o.SubscriberID AND o.IsUnique = 1 LEFT JOIN _Click c ON s.JobID = c.JobID AND s.ListID = c.ListID AND s.BatchID = c.BatchID AND s.SubscriberID = c.SubscriberID AND c.IsUnique = 1 LEFT JOIN _Bounce b ON s.JobID = b.JobID AND s.ListID = b.ListID AND s.BatchID = b.BatchID AND s.SubscriberID = b.SubscriberID AND b.IsUnique = 1 LEFT JOIN _Unsubscribe u ON s.JobID = u.JobID AND s.ListID = u.ListID AND s.BatchID = u.BatchID AND s.SubscriberID = u.SubscriberID AND u.IsUnique = 1 LEFT JOIN _JourneyActivity ja ON j.TriggererSendDefinitionObjectID = ja.JourneyActivityObjectID LEFT JOIN _Journey jou ON ja.VersionID = jou.VersionID WHERE jou.JourneyName IS NOT NULL AND jou.JourneyStatus IN (‘Running’, ‘Paused’) AND CONVERT(date, s.EventDate) = CONVERT(date, DATEADD(day, -5, GETDATE())) GROUP BY jou.JourneyID, jou.JourneyName, jou.VersionNumber, j.EmailName, CONVERT(date, s.EventDate), jou.JourneyStatus</summary></entry><entry><title type="html">How to use Web Analytics Connector in Salesforce Marketing Cloud</title><link href="http://localhost:4000/martech/2024/sfmc-web-analytics-connector" rel="alternate" type="text/html" title="How to use Web Analytics Connector in Salesforce Marketing Cloud" /><published>2024-04-15T06:31:00-04:00</published><updated>2024-04-15T06:31:00-04:00</updated><id>http://localhost:4000/martech/2024/sfmc-web-analytics-connector</id><content type="html" xml:base="http://localhost:4000/martech/2024/sfmc-web-analytics-connector">&lt;p&gt;The Salesforce Marketing Cloud Web Analytics Connector (WAC) is your secret weapon for bridging the gap between email marketing and website analytics.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-04-30T23:28:48-04:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">capncapes.github.io</title><subtitle>A blog site built with Jekyll consisting of two blogs, a feed of book reviews, and other content pages.</subtitle><author><name>Brandon Caples</name></author><entry><title type="html">Embracing our divine inheritance</title><link href="http://localhost:4000/faith/2024/embracing-divine-inheritance" rel="alternate" type="text/html" title="Embracing our divine inheritance" /><published>2024-04-29T17:04:24-04:00</published><updated>2024-04-29T17:04:24-04:00</updated><id>http://localhost:4000/faith/2024/embracing-divine-inheritance</id><content type="html" xml:base="http://localhost:4000/faith/2024/embracing-divine-inheritance">&lt;p&gt;Have you ever been given a gift so profound that it left you feeling deeply indebted? Paul taps into this sentiment in Romans 8:12–17, revealing the transformative power of adoption into God’s family. Saved by grace, we are not mere recipients; rather, we become integral participants in God’s divine plan—the resurrection life.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;sup&gt;12&lt;/sup&gt; Therefore, brothers and sisters, we have an obligation—but it is not to the flesh, to live according to it. &lt;sup&gt;13&lt;/sup&gt; For if you live according to the flesh, you will die; but if by the Spirit you put to death the misdeeds of the body, you will live.&lt;/p&gt;
+
+  &lt;p&gt;&lt;sup&gt;14&lt;/sup&gt; For those who are led by the Spirit of God are the children of God. &lt;sup&gt;15&lt;/sup&gt; The Spirit you received does not make you slaves, so that you live in fear again; rather, the Spirit you received brought about your adoption to sonship. And by him we cry, “Abba, Father.” &lt;sup&gt;16&lt;/sup&gt; The Spirit himself testifies with our spirit that we are God’s children. &lt;sup&gt;17&lt;/sup&gt; Now if we are children, then we are heirs—heirs of God and co-heirs with Christ, if indeed we share in his sufferings in order that we may also share in his glory.&lt;/p&gt;
+
+  &lt;p&gt;&lt;cite&gt;Romans 8:12–17, &lt;abbr title=&quot;New International Version&quot;&gt;NIV&lt;/abbr&gt;&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Verse 14 illuminates the notion of being &lt;q&gt;led by the Spirit of God.&lt;/q&gt; Consider a child raised in a thriving family enterprise; their future responsibilities are not burdensome obligations but exciting opportunities to contribute. Similarly, the Holy Spirit instills within us a fervent eagerness to partake in God’s work.&lt;/p&gt;
+
+&lt;p&gt;Paul employs a poignant analogy by referencing Julius Caesar’s adoption of an heir to his throne, a recognizable concept to Roman Christians. In verses 15–17, Paul unveils the extraordinary truth: &lt;strong&gt;we are not merely servants but adopted sons and daughters&lt;/strong&gt;. The Aramaic term “Abba! Father!” underscores the intimacy of our relationship with God, signifying a closeness reserved for cherished family members. This adoption grants us access to the very presence of God.&lt;/p&gt;
+
+&lt;p&gt;Jesus himself emphasized the need to approach the Kingdom with childlike faith—dependent, trusting, and unafraid to bring our heartfelt desires before our heavenly Father (Matthew 18:3, 19:14; Luke 18:17). As heirs, we inherit not only blessings but the very promises of God. The love depicted in Romans 8:12–17 surpasses comprehension; we are not just followers but beloved members of God’s family.&lt;/p&gt;
+
+&lt;p&gt;Take comfort in verse 16: &lt;q&gt;The Spirit himself testifies with our spirit that &lt;strong&gt;we are God’s children&lt;/strong&gt;.&lt;/q&gt; Let us embrace this calling with purpose, guided by the Spirit and empowered by the profound privilege of being adopted into the divine lineage of the Most High.&lt;/p&gt;</content><author><name>Brandon Caples</name></author><category term="Faith" /><category term="adoption" /><category term="Holy Spirit" /><summary type="html">Have you ever been given a gift so profound that it left you feeling deeply indebted? Paul taps into this sentiment in Romans 8:12–17, revealing the transformative power of adoption into God’s family. Saved by grace, we are not mere recipients; rather, we become integral participants in God’s divine plan—the resurrection life.</summary></entry><entry><title type="html">How to use Web Analytics Connector in Salesforce Marketing Cloud</title><link href="http://localhost:4000/martech/2024/sfmc-web-analytics-connector" rel="alternate" type="text/html" title="How to use Web Analytics Connector in Salesforce Marketing Cloud" /><published>2024-04-15T06:31:00-04:00</published><updated>2024-04-15T06:31:00-04:00</updated><id>http://localhost:4000/martech/2024/sfmc-web-analytics-connector</id><content type="html" xml:base="http://localhost:4000/martech/2024/sfmc-web-analytics-connector">&lt;p&gt;The Salesforce Marketing Cloud Web Analytics Connector (WAC) is your secret weapon for bridging the gap between email marketing and website analytics.&lt;/p&gt;
 
 &lt;h2 id=&quot;what-is-the-web-analytics-connector&quot;&gt;What is the Web Analytics Connector?&lt;/h2&gt;
 
@@ -305,7 +281,58 @@ GROUP BY jou.JourneyID, jou.JourneyName, jou.VersionNumber, j.EmailName, CONVERT
 
 &lt;p&gt;With a clear long-term goal, it’s time to break it down into actionable steps. What are the key milestones you need to achieve in the next twelve months? What projects will drive you closer to your mountain peak? This short-term focus keeps your team motivated and ensures you’re making steady progress towards your ultimate vision.&lt;/p&gt;
 
-&lt;p&gt;Remember, uncovering your organizational purpose is an ongoing process. It’s not a one-time declaration, but a living document that evolves with your organization’s growth and the changing landscape around you. By regularly revisiting these questions, you’ll stay aligned, inspired, and on track to achieving your true potential.&lt;/p&gt;</content><author><name>Brandon Caples</name></author><category term="MarTech" /><category term="business" /><summary type="html">Every organization, from bustling startups to established giants, needs a guiding light. This isn’t just about turning a profit; it’s about understanding the why behind your existence, the how that defines your character, and the what that sets you apart. In short, it’s about discovering your organizational purpose.</summary></entry><entry><title type="html">Bulletproof HTML email buttons</title><link href="http://localhost:4000/martech/2023/bulletproof-html-email-buttons" rel="alternate" type="text/html" title="Bulletproof HTML email buttons" /><published>2023-11-30T05:15:51-05:00</published><updated>2023-11-30T05:15:51-05:00</updated><id>http://localhost:4000/martech/2023/bulletproof-html-email-buttons</id><content type="html" xml:base="http://localhost:4000/martech/2023/bulletproof-html-email-buttons">&lt;p&gt;In the world of email marketing, a well-designed call-to-action (CTA) button can be the golden ticket to more engaged customers. But creating buttons that work consistently across various email clients can be a real headache, especially with Outlook, which has a history of being picky about HTML buttons.&lt;/p&gt;
+&lt;p&gt;Remember, uncovering your organizational purpose is an ongoing process. It’s not a one-time declaration, but a living document that evolves with your organization’s growth and the changing landscape around you. By regularly revisiting these questions, you’ll stay aligned, inspired, and on track to achieving your true potential.&lt;/p&gt;</content><author><name>Brandon Caples</name></author><category term="MarTech" /><category term="business" /><summary type="html">Every organization, from bustling startups to established giants, needs a guiding light. This isn’t just about turning a profit; it’s about understanding the why behind your existence, the how that defines your character, and the what that sets you apart. In short, it’s about discovering your organizational purpose.</summary></entry><entry><title type="html">In the beginning was the Word: the prologue of John’s gospel</title><link href="http://localhost:4000/faith/2023/prologue-johns-gospel" rel="alternate" type="text/html" title="In the beginning was the Word: the prologue of John’s gospel" /><published>2023-12-12T12:12:12-05:00</published><updated>2023-12-12T12:12:12-05:00</updated><id>http://localhost:4000/faith/2023/prologue-johns-gospel</id><content type="html" xml:base="http://localhost:4000/faith/2023/prologue-johns-gospel">&lt;p&gt;The prologue of John’s gospel is quite possibly the most beautiful and profound passage of Scripture in the whole Bible—in both form and content. Gary M. Burge&lt;sup id=&quot;fnref:1&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt; even asserts that John’s prologue, originally sung as a hymn, was worn around the neck to prevent sickness, and recited to the sick and newly baptized.&lt;/p&gt;
+
+&lt;h2 id=&quot;textual-criticism&quot;&gt;Textual criticism&lt;/h2&gt;
+
+&lt;p&gt;The first 18 verses of the fourth gospel set the stage for the remainder of the book’s events. In fact, the prologue could have been added by the apostle John after writing the rest of the book—a common belief found in many technical commentaries—as an introduction to its theological messages. Written in a poetic style, the introduction employs themes that John draws on throughout his gospel.&lt;/p&gt;
+
+&lt;h2 id=&quot;themes&quot;&gt;Themes&lt;/h2&gt;
+
+&lt;h2 id=&quot;structure&quot;&gt;Structure&lt;/h2&gt;
+
+&lt;p&gt;The prologue of John’s gospel can be divided into four strophes&lt;sup id=&quot;fnref:2&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:2&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;2&lt;/a&gt;&lt;/sup&gt;—theological turns, or stanzas.&lt;/p&gt;
+
+&lt;h3 id=&quot;the-first-strophe-the-word-and-god-112&quot;&gt;The first strophe: the Word and God (1:1–2)&lt;/h3&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;sup&gt;1&lt;/sup&gt; In the beginning was the Word, and the Word was with God, and the Word was God. &lt;sup&gt;2&lt;/sup&gt; He was with God in the beginning.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h3 id=&quot;the-second-strophe-the-word-and-creation-138&quot;&gt;The second strophe: the Word and creation (1:3–8)&lt;/h3&gt;
+
+&lt;p&gt;Proverbs 3:19 Jesus is wisdom in the flesh.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;sup&gt;3&lt;/sup&gt; All things were created through him, and apart from him not one thing was created that has been created. &lt;sup&gt;4&lt;/sup&gt; In him was life, and that life was the light of men. &lt;sup&gt;5&lt;/sup&gt; That light shines in the darkness, and yet the darkness did not overcome it. &lt;sup&gt;6&lt;/sup&gt; There was a man sent from God whose name was John. &lt;sup&gt;7&lt;/sup&gt; He came as a witness to testify about the light, so that all might believe through him. &lt;sup&gt;8&lt;/sup&gt; He was not the light, but he came to testify about the light.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h3 id=&quot;the-third-strophe-the-word-and-revelation-1913&quot;&gt;The third strophe: the Word and revelation (1:9–13)&lt;/h3&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;sup&gt;9&lt;/sup&gt; The true light that gives light to everyone was coming into the world. &lt;sup&gt;10&lt;/sup&gt; He was in the world, and the world was created through him, and yet the world did not recognize him. &lt;sup&gt;11&lt;/sup&gt; He came to his own, and his own people did not receive him. &lt;sup&gt;12&lt;/sup&gt; But to all who did receive him, he gave them the right to be children of God, to those who believe in his name, &lt;sup&gt;13&lt;/sup&gt; who were born, not of natural descent, or of the will of the flesh, or of the will of man, but of God.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h3 id=&quot;the-fourth-strophe-the-word-and-incarnation-11418&quot;&gt;The fourth strophe: the Word and incarnation (1:14–18)&lt;/h3&gt;
+
+&lt;p&gt;In the grand finale of the prologue of John’s gospel, the message moves to concrete images found in the Old Testament.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;sup&gt;14&lt;/sup&gt; The Word became flesh and dwelt among us. We observed his glory, the glory as the one and only Son from the Father, full of grace and truth. &lt;sup&gt;15&lt;/sup&gt; (John testified concerning him and exclaimed, &lt;q&gt;This was the one of whom I said, &lt;q&gt;The one coming after me ranks ahead of me, because he existed before me.&lt;/q&gt;&lt;/q&gt;) &lt;sup&gt;16&lt;/sup&gt; Indeed, we have all received grace upon grace from his fullness, &lt;sup&gt;17&lt;/sup&gt; for the law was given through Moses; grace and truth came through Jesus Christ. &lt;sup&gt;18&lt;/sup&gt; No one has ever seen God. The one and only Son, who is himself God and is at the Father’s side—he has revealed him.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;In verse 14, John makes a bold claim, one of the most important in all of Scripture: that God became a man and dwelt among his people and revealed his glory. The Greek verb for &lt;em&gt;dwelling&lt;/em&gt; (σκηνόω, skēnoō) is also used in the Septuagint (the Greek translation of the Old Testament) to refer to God living among his people in the tabernacle in the desert. As Burge so eloquently puts it, &lt;q cite=&quot;The NIV Application Commentary: John&quot;&gt;the glory of God, once restricted to the tabernacle (Exodus 40:34), is now visible in Christ (John 1:14b).&lt;/q&gt; (&lt;em&gt;The NIV Application Commentary: John&lt;/em&gt;, p. 59) This shocking assertion combined into one two wholly separate entities for the Jew and Greek alike: the divine Spirit of God and the lowly flesh of mankind.&lt;/p&gt;
+
+&lt;div class=&quot;footnotes&quot; role=&quot;doc-endnotes&quot;&gt;
+  &lt;ol&gt;
+    &lt;li id=&quot;fn:1&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;Burge, Gary M. (2000). &lt;em&gt;The NIV Application Commentary: John.&lt;/em&gt; Zondervan. &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:2&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;&lt;em&gt;Strophe&lt;/em&gt; has two syllables and rhymes with &lt;em&gt;trophy&lt;/em&gt;. &lt;a href=&quot;#fnref:2&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/div&gt;</content><author><name>Brandon Caples</name></author><category term="Faith" /><category term="Christ" /><category term="gospels" /><summary type="html">The prologue of John’s gospel is quite possibly the most beautiful and profound passage of Scripture in the whole Bible—in both form and content. Gary M. Burge1 even asserts that John’s prologue, originally sung as a hymn, was worn around the neck to prevent sickness, and recited to the sick and newly baptized. Burge, Gary M. (2000). The NIV Application Commentary: John. Zondervan. &amp;#8617;</summary></entry><entry><title type="html">Bulletproof HTML email buttons</title><link href="http://localhost:4000/martech/2023/bulletproof-html-email-buttons" rel="alternate" type="text/html" title="Bulletproof HTML email buttons" /><published>2023-11-30T05:15:51-05:00</published><updated>2023-11-30T05:15:51-05:00</updated><id>http://localhost:4000/martech/2023/bulletproof-html-email-buttons</id><content type="html" xml:base="http://localhost:4000/martech/2023/bulletproof-html-email-buttons">&lt;p&gt;In the world of email marketing, a well-designed call-to-action (CTA) button can be the golden ticket to more engaged customers. But creating buttons that work consistently across various email clients can be a real headache, especially with Outlook, which has a history of being picky about HTML buttons.&lt;/p&gt;
 
 &lt;p&gt;Fear not, fellow email marketers! This guide will show you how to create bulletproof HTML email buttons that look and work great across all the major email platforms, including Outlook. By using a combination of HTML and CSS tricks, you can make sure your buttons are always ready to help you convert more subscribers into customers.&lt;/p&gt;
 
@@ -483,74 +510,4 @@ GROUP BY jou.JourneyID, jou.JourneyName, jou.VersionNumber, j.EmailName, CONVERT
 
 &lt;h2 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h2&gt;
 
-&lt;p&gt;&lt;a href=&quot;https://www.access-board.gov/ict/&quot; target=&quot;_blank&quot;&gt;Section 508&lt;/a&gt; is an important law that ensures that people with disabilities have access to the same information and services as everyone else. This law only applies to government agencies, organizations that receive federal funding, and service providers to federally-funded organizations, but by making your emails Section 508 compliant, you can help reach a wider audience and grow your business.&lt;/p&gt;</content><author><name>Brandon Caples</name></author><category term="MarTech" /><category term="email" /><category term="a11y" /><summary type="html">Section 508 is a United States federal law that requires all electronic and information technology (EIT) developed, procured, maintained, or used by the federal government to be accessible to people with disabilities. This includes email, which is a critical communication tool for many businesses and organizations.</summary></entry><entry><title type="html">Google Analytics 4 user properties</title><link href="http://localhost:4000/martech/2023/ga4-user-properties" rel="alternate" type="text/html" title="Google Analytics 4 user properties" /><published>2023-09-20T15:15:16-04:00</published><updated>2023-09-20T15:15:16-04:00</updated><id>http://localhost:4000/martech/2023/ga4-user-properties</id><content type="html" xml:base="http://localhost:4000/martech/2023/ga4-user-properties">&lt;p&gt;If you’ve worked with Google Analytics 4 (GA4) for any amount of time, you’re probably familiar with event properties. When you send an event, you can attach parameters that provide more context for that event. But there’s a powerful feature that you may not be using called &lt;em&gt;user properties&lt;/em&gt;.&lt;/p&gt;
-
-&lt;p&gt;Google Analytics 4 user properties are customizable attributes that describe groups of your users, such as their language preferences, geographic locations, or subscription status. You can use user properties to segment your audience and create more granular reports, helping you to better understand your users and improve their experience.&lt;/p&gt;
-
-&lt;p&gt;A user property will remain attached to a user profile in GA4 until it’s overwritten, making it very useful when segmenting users, even when a user is not currently involved in a segmentation activity. For example, you could send a user property to GA4 that defines a user as an email subscriber, allowing you to report on website activity for email subscribers, even if they haven’t clicked an email in a while.&lt;/p&gt;
-
-&lt;p&gt;You can create up to 25 user properties per Google Analytics 4 property. Here are a few ideas to get you started:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;email_subscriber&lt;/li&gt;
-  &lt;li&gt;sms_subscriber&lt;/li&gt;
-  &lt;li&gt;mail_subscriber&lt;/li&gt;
-  &lt;li&gt;user_role&lt;/li&gt;
-  &lt;li&gt;donor_giving_level&lt;/li&gt;
-  &lt;li&gt;event_attendee&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;It’s important to remember that custom dimensions should not receive too many unique values. Create user properties with boolean values (true/false) or ones with only a few possible options. Some marketing companies, for example, ask for a user’s organizational role while registering a new account. Rather than asking for a specific title, it’s typically a dropdown menu with a handful of marketing roles that are significant to the collecting organization (&lt;em&gt;e.g.&lt;/em&gt; Executive, Developer, Analyst).&lt;/p&gt;
-
-&lt;h2 id=&quot;adding-user-properties-to-ga4&quot;&gt;Adding user properties to GA4&lt;/h2&gt;
-
-&lt;p&gt;It’s very simple to add new user properties to GA4, and it can be done either with Google Tag Manager (GTM) or in the code of the site using the Google Tag (gtag).&lt;/p&gt;
-
-&lt;h3 id=&quot;google-tag-manager&quot;&gt;Google Tag Manager&lt;/h3&gt;
-
-&lt;p&gt;To set a user property with Google Tag Manager, simply click the &lt;strong&gt;Add Row&lt;/strong&gt; button in the User Properties tab of a GA4 event. Add the name of the user property and its value. You can define a GTM variable to hold the user property value. For a user property called email_subscriber, you would probably use JavaScript to determine when a pageview event comes from an email click (based on &lt;a href=&quot;/martech/2023/utm-parameters&quot;&gt;UTM parameter values&lt;/a&gt;) and set the value of the variable to either true or false.&lt;/p&gt;
-
-&lt;picture class=&quot;block md:mx-12 xl:mx-0&quot;&gt;
-	&lt;source type=&quot;image/webp&quot; srcset=&quot;/assets/img/martech/google-tag-manager-user-property.webp&quot; /&gt;
-	&lt;img src=&quot;/assets/img/martech/google-tag-manager-user-property.png&quot; class=&quot;shadow&quot; alt=&quot;Google Analytics 4 user property setup in Google Tag Manager&quot; /&gt;
-&lt;/picture&gt;
-
-&lt;h3 id=&quot;google-tag&quot;&gt;Google Tag&lt;/h3&gt;
-
-&lt;p&gt;To set a user property in the website code, first make sure that the Google Tag (gtag.js) is present on the page. If it’s not, you can choose to &lt;a href=&quot;https://developers.google.com/tag-platform/gtagjs/install&quot;&gt;install the Google Tag&lt;/a&gt; or use GTM.&lt;/p&gt;
-
-&lt;p&gt;This is the format for setting a user property using the Google Tag:&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-javascript&quot; data-lang=&quot;javascript&quot;&gt;&lt;span class=&quot;nx&quot;&gt;gtag&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&apos;&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;set&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;&apos;&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;user_properties&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-  &lt;span class=&quot;na&quot;&gt;email_subscriber&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;kc&quot;&gt;true&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-  &lt;span class=&quot;na&quot;&gt;app_user&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;kc&quot;&gt;false&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-  &lt;span class=&quot;na&quot;&gt;occupation&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;&apos;&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;physician&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&apos;&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;});&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;To set a user property for only one data stream, use a config command instead:&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-javascript&quot; data-lang=&quot;javascript&quot;&gt;&lt;span class=&quot;nx&quot;&gt;gtag&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&apos;&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;config&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;&apos;&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;STREAM_ID&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-  &lt;span class=&quot;dl&quot;&gt;&apos;&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;user_properties&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-    &lt;span class=&quot;na&quot;&gt;email_subscriber&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;kc&quot;&gt;true&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-    &lt;span class=&quot;na&quot;&gt;app_user&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;kc&quot;&gt;true&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-    &lt;span class=&quot;na&quot;&gt;occupation&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;&apos;&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;web developer&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&apos;&lt;/span&gt;
-  &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;});&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;Simply replace &lt;em&gt;STREAM_ID&lt;/em&gt; with your own data stream ID. You can find your data stream ID by going to &lt;strong&gt;Admin&lt;/strong&gt;, selecting the appropriate property, and choosing &lt;strong&gt;Data Streams&lt;/strong&gt; from the list.&lt;/p&gt;
-
-&lt;picture class=&quot;block md:mx-12 xl:mx-0&quot;&gt;
-	&lt;source type=&quot;image/webp&quot; srcset=&quot;/assets/img/martech/google-analytics-4-stream-id.webp&quot; /&gt;
-	&lt;img src=&quot;/assets/img/martech/google-analytics-4-stream-id.png&quot; class=&quot;shadow&quot; alt=&quot;Google Analytics 4 data stream ID and measurement ID&quot; /&gt;
-&lt;/picture&gt;
-
-&lt;p&gt;Make sure that you create a &lt;em&gt;user-scoped&lt;/em&gt; custom dimension in GA4 for each user property you want to use. Otherwise, GA4 won’t collect the data. It’s also important that &lt;strong&gt;Scope&lt;/strong&gt; is set to “User” in order to attribute the property to the user instead of to the event. You can do this by selecting &lt;strong&gt;Custom definitions&lt;/strong&gt; from the property column in the &lt;strong&gt;Admin&lt;/strong&gt; settings.&lt;/p&gt;
-
-&lt;picture class=&quot;block md:mx-12 xl:mx-0&quot;&gt;
-	&lt;source type=&quot;image/webp&quot; srcset=&quot;/assets/img/martech/google-analytics-4-user-scoped-dimension.webp&quot; /&gt;
-	&lt;img src=&quot;/assets/img/martech/google-analytics-4-user-scoped-dimension.png&quot; class=&quot;shadow&quot; alt=&quot;Google Analytics 4 user-scoped custom dimension&quot; /&gt;
-&lt;/picture&gt;
-
-&lt;p&gt;Google Analytics 4 collects some &lt;a href=&quot;https://support.google.com/analytics/answer/9268042&quot;&gt;user properties by default&lt;/a&gt;, which you’re probably already using in your reports. Your custom user properties can be used in the same way by adding them to reports and explorations and viewing them in the realtime report.&lt;/p&gt;
-
-&lt;p&gt;If you’re not already employing user properties in your reports and dashboards, this one feature could be a game changer for your business analytics.&lt;/p&gt;</content><author><name>Brandon Caples</name></author><category term="MarTech" /><category term="Google Analytics 4" /><category term="data" /><summary type="html">If you’ve worked with Google Analytics 4 (GA4) for any amount of time, you’re probably familiar with event properties. When you send an event, you can attach parameters that provide more context for that event. But there’s a powerful feature that you may not be using called user properties.</summary></entry></feed>
+&lt;p&gt;&lt;a href=&quot;https://www.access-board.gov/ict/&quot; target=&quot;_blank&quot;&gt;Section 508&lt;/a&gt; is an important law that ensures that people with disabilities have access to the same information and services as everyone else. This law only applies to government agencies, organizations that receive federal funding, and service providers to federally-funded organizations, but by making your emails Section 508 compliant, you can help reach a wider audience and grow your business.&lt;/p&gt;</content><author><name>Brandon Caples</name></author><category term="MarTech" /><category term="email" /><category term="a11y" /><summary type="html">Section 508 is a United States federal law that requires all electronic and information technology (EIT) developed, procured, maintained, or used by the federal government to be accessible to people with disabilities. This includes email, which is a critical communication tool for many businesses and organizations.</summary></entry></feed>

@@ -17,12 +17,28 @@
         </image>
         <generator>https://brandoncaples.com</generator>
         
-            <lastBuildDate>Sun, 04 Feb 2024 11:11:11 -0500</lastBuildDate>
+            <lastBuildDate>Mon, 29 Apr 2024 17:04:24 -0400</lastBuildDate>
         
         <atom:link href="https://brandoncaples.com/faith/feed.xml" rel="self" type="application/rss+xml"/>
         <language>
             <![CDATA[ en ]]>
         </language>
+        
+            <item>
+                <title>
+                    <![CDATA[ Embracing our divine inheritance ]]>
+                </title>
+                <description>
+                    <![CDATA[ Adoption grants us access to the very presence of God. ]]>
+                </description>
+                <link>http://localhost:4000/faith/2024/embracing-divine-inheritance</link>
+                <guid isPermaLink="true">http://localhost:4000/faith/2024/embracing-divine-inheritance</guid>
+                <dc:creator>
+                    <![CDATA[ Brandon Caples ]]>
+                </dc:creator>
+                <pubDate>Mon, 29 Apr 2024 17:04:24 -0400</pubDate>
+                
+            </item>
         
             <item>
                 <title>
@@ -53,6 +69,22 @@
                     <![CDATA[ Brandon Caples ]]>
                 </dc:creator>
                 <pubDate>Tue, 23 Jan 2024 06:55:12 -0500</pubDate>
+                
+            </item>
+        
+            <item>
+                <title>
+                    <![CDATA[ In the beginning was the Word: the prologue of John's gospel ]]>
+                </title>
+                <description>
+                    <![CDATA[ The prologue of John's gospel is quite possibly the most beautiful and profound passage of Scripture in the whole Bible. ]]>
+                </description>
+                <link>http://localhost:4000/faith/2023/prologue-johns-gospel</link>
+                <guid isPermaLink="true">http://localhost:4000/faith/2023/prologue-johns-gospel</guid>
+                <dc:creator>
+                    <![CDATA[ Brandon Caples ]]>
+                </dc:creator>
+                <pubDate>Tue, 12 Dec 2023 12:12:12 -0500</pubDate>
                 
             </item>
         
