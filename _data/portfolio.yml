@@ -42,3 +42,12 @@
   picture_width: 100
   github_code_url: "https://github.com/capncapes/emails/blob/main/production/precept/fundraising/adv_ml2401_1-prayer-guide.html"
   github_screenshot_url: "https://github.com/capncapes/emails/blob/main/production/precept/fundraising/adv_ml2401_1-prayer-guide.jpeg"
+
+- title: "Announcement: Product release"
+  img_webp_src: "/assets/img/portfolio/product_2024_faithful-living-together_1-release_600x.webp"
+  img_fallback_src: "/assets/img/portfolio/product_2024_faithful-living-together_1-release_600x.gif"
+  img_alt_text: "A Bible study product release email"
+  img_bg_color: "#465C37"
+  picture_width: 90
+  github_code_url: "https://github.com/capncapes/emails/blob/main/production/precept/products/product_2024_faithful-living-together_1-release.html"
+  github_screenshot_url: "https://github.com/capncapes/emails/blob/main/production/precept/products/product_2024_faithful-living-together_1-release.jpeg"
