@@ -1,4 +1,150 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-05-09T22:36:46-04:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">capncapes.github.io</title><subtitle>A blog site built with Jekyll consisting of two blogs, a feed of book reviews, and other content pages.</subtitle><author><name>Brandon Caples</name></author><entry><title type="html">Embracing our divine inheritance</title><link href="http://localhost:4000/faith/2024/embracing-divine-inheritance" rel="alternate" type="text/html" title="Embracing our divine inheritance" /><published>2024-04-29T17:04:24-04:00</published><updated>2024-04-29T17:04:24-04:00</updated><id>http://localhost:4000/faith/2024/embracing-divine-inheritance</id><content type="html" xml:base="http://localhost:4000/faith/2024/embracing-divine-inheritance">&lt;p&gt;Have you ever been given a gift so profound that it left you feeling deeply indebted? Paul taps into this sentiment in Romans 8:12–17, revealing the transformative power of adoption into God’s family. Saved by grace, we are not mere recipients; rather, we become integral participants in God’s divine plan—the resurrection life.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-06-21T00:01:08-04:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">capncapes.github.io</title><subtitle>A blog site built with Jekyll consisting of two blogs, a feed of book reviews, and other content pages.</subtitle><author><name>Brandon Caples</name></author><entry><title type="html">Product photography for marketers</title><link href="http://localhost:4000/martech/2024/product-photography-for-marketers" rel="alternate" type="text/html" title="Product photography for marketers" /><published>2024-05-16T11:59:00-04:00</published><updated>2024-05-16T11:59:00-04:00</updated><id>http://localhost:4000/martech/2024/product-photography-for-marketers</id><content type="html" xml:base="http://localhost:4000/martech/2024/product-photography-for-marketers">&lt;p&gt;Product photography is more than just capturing an image of an item—it’s about telling a story and engaging potential customers. In the world of marketing collateral and digital media, different types of product photography play unique roles. Let’s explore some key photography styles and techniques that can elevate your marketing efforts.&lt;/p&gt;
+
+&lt;h2 id=&quot;overhead--birds-eye-view&quot;&gt;Overhead / bird’s eye view&lt;/h2&gt;
+
+&lt;picture class=&quot;block md:mx-12 xl:mx-0&quot;&gt;
+	&lt;source type=&quot;image/webp&quot; srcset=&quot;/assets/img/martech/overhead-photography.webp&quot; /&gt;
+	&lt;img src=&quot;/assets/img/martech/overhead-photography.jpeg&quot; class=&quot;shadow&quot; alt=&quot;Overhead photograph of “A Christian Directory” by Richard Baxter&quot; /&gt;
+&lt;/picture&gt;
+
+&lt;h3 id=&quot;technique&quot;&gt;Technique&lt;/h3&gt;
+
+&lt;p&gt;The overhead or bird’s eye view involves placing the camera directly above the product. This angle mimics how a person would naturally look at a book laid open on a desk or table, or even a spread of food. More importantly, details can be more clearly seen from directly above.&lt;/p&gt;
+
+&lt;h3 id=&quot;applications&quot;&gt;Applications&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Cross-selling: Include additional items, like pens or journals, around the main subject to suggest complementary products and encourage additional purchases. Some social media sites allow multiple products to be tagged on a single image.&lt;/li&gt;
+  &lt;li&gt;Clear product photos: Showcase items without any angle distortion, ensuring clarity and focus on the product.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;wide-angle&quot;&gt;Wide angle&lt;/h2&gt;
+
+&lt;picture class=&quot;block md:mx-12 xl:mx-0&quot;&gt;
+	&lt;source type=&quot;image/webp&quot; srcset=&quot;/assets/img/martech/wide-angle-photography.webp&quot; /&gt;
+	&lt;img src=&quot;/assets/img/martech/wide-angle-photography.jpeg&quot; class=&quot;shadow&quot; alt=&quot;A wide angle photograph of a nice writing pen&quot; /&gt;
+&lt;/picture&gt;
+
+&lt;h3 id=&quot;technique-1&quot;&gt;Technique&lt;/h3&gt;
+
+&lt;p&gt;Capture a wide and short field of view, focusing on key elements. This is especially useful for banners and headers where a panoramic aspect ratio (e.g., 2:1, 3:1, or 4:1) is required.&lt;/p&gt;
+
+&lt;h3 id=&quot;applications-1&quot;&gt;Applications&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Email headers/footers: Use wide-angle shots with negative space for text overlays.&lt;/li&gt;
+  &lt;li&gt;Ad banners: Create engaging visuals that fit standard banner dimensions while highlighting the focal points.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;low-angle&quot;&gt;Low Angle&lt;/h2&gt;
+
+&lt;picture class=&quot;block md:mx-12 xl:mx-0&quot;&gt;
+	&lt;source type=&quot;image/webp&quot; srcset=&quot;/assets/img/martech/low-angle-photography.webp&quot; /&gt;
+	&lt;img src=&quot;/assets/img/martech/low-angle-photography.jpeg&quot; class=&quot;shadow&quot; alt=&quot;Low angle photograph of a cheeseburger&quot; /&gt;
+&lt;/picture&gt;
+
+&lt;h3 id=&quot;technique-2&quot;&gt;Technique&lt;/h3&gt;
+
+&lt;p&gt;Position the camera low to make the subject appear larger than life. This is particularly effective for tall products with nice details.&lt;/p&gt;
+
+&lt;h3 id=&quot;applications-2&quot;&gt;Applications&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Stunning product photos: Present items like drinkware or handheld items in a way that makes them look impressive and substantial.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;negative-space&quot;&gt;Negative Space&lt;/h2&gt;
+
+&lt;picture class=&quot;block md:mx-12 xl:mx-0&quot;&gt;
+	&lt;source type=&quot;image/webp&quot; srcset=&quot;/assets/img/martech/negative-space-photography.webp&quot; /&gt;
+	&lt;img src=&quot;/assets/img/martech/negative-space-photography.jpeg&quot; class=&quot;shadow&quot; alt=&quot;Yoto Player Kids Bluetooth Speaker&quot; /&gt;
+&lt;/picture&gt;
+
+&lt;h3 id=&quot;technique-3&quot;&gt;Technique&lt;/h3&gt;
+
+&lt;p&gt;Leave ample space around the subject for text or other design elements. This can be to the sides, top, or bottom.&lt;/p&gt;
+
+&lt;h3 id=&quot;applications-3&quot;&gt;Applications&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Hero images: Perfect for website homepages where overlaid text or calls-to-action (CTAs) are needed.&lt;/li&gt;
+  &lt;li&gt;CTA images: Include buttons and CTAs for marketing materials.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;flip-technique--stop-motion&quot;&gt;Flip technique / stop motion&lt;/h2&gt;
+
+&lt;picture class=&quot;block md:mx-12 xl:mx-0&quot;&gt;
+	&lt;source type=&quot;image/webp&quot; srcset=&quot;/assets/img/martech/stop-motion-photography.webp&quot; /&gt;
+	&lt;img src=&quot;/assets/img/martech/stop-motion-photography.gif&quot; class=&quot;shadow&quot; alt=&quot;A stop-motion image of a gray sweatshirt folding itself up&quot; /&gt;
+&lt;/picture&gt;
+
+&lt;h3 id=&quot;technique-4&quot;&gt;Technique&lt;/h3&gt;
+
+&lt;p&gt;Fix the camera in one position and take multiple shots of different pages or product variations. This creates a flip-book or stop motion effect. For the best results, use a remote shutter to avoid touching the camera and moving it, and tape the back of the item to the floor to prevent it from moving as it is adjusted.&lt;/p&gt;
+
+&lt;h3 id=&quot;applications-4&quot;&gt;Applications&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Animated GIFs: Show different pages of a book or workbook in a seamless manner, or walk through the steps of using a product.&lt;/li&gt;
+  &lt;li&gt;Advertising: Create awareness by quickly and visually demonstrating a product’s ease of use, especially if using the product involves multiple steps.&lt;/li&gt;
+  &lt;li&gt;Consistent images: Standardized photos that focus on content changes rather than photographic differences.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;lifestyle-photography-personal-and-group-use&quot;&gt;Lifestyle photography: personal and group use&lt;/h2&gt;
+
+&lt;picture class=&quot;block md:mx-12 xl:mx-0&quot;&gt;
+	&lt;source type=&quot;image/webp&quot; srcset=&quot;/assets/img/martech/lifestyle-group-photography.webp&quot; /&gt;
+	&lt;img src=&quot;/assets/img/martech/lifestyle-group-photography.jpeg&quot; class=&quot;shadow&quot; alt=&quot;A group of people seated at a table studying the Bible together&quot; /&gt;
+&lt;/picture&gt;
+
+&lt;h3 id=&quot;technique-5&quot;&gt;Technique&lt;/h3&gt;
+
+&lt;p&gt;Capture candid shots of individuals and groups using the product in real-life scenarios.&lt;/p&gt;
+
+&lt;h3 id=&quot;applications-5&quot;&gt;Applications&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Individual use: Show users engaging with the product personally.&lt;/li&gt;
+  &lt;li&gt;Group settings: Highlight the communal aspect of a product or category of products.&lt;/li&gt;
+  &lt;li&gt;Advertising: Supporting images to create awareness of the usefulness of the product.&lt;/li&gt;
+  &lt;li&gt;Point-of-sale product photos: Images of individuals and groups demonstrating how the product(s) can be used in everyday situations, helping potential buyers see themselves using the product(s).&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;lifestyle-photography-on-the-go&quot;&gt;Lifestyle photography: on-the-go&lt;/h2&gt;
+
+&lt;picture class=&quot;block md:mx-12 xl:mx-0&quot;&gt;
+	&lt;source type=&quot;image/webp&quot; srcset=&quot;/assets/img/martech/lifestyle-on-the-go-photography.webp&quot; /&gt;
+	&lt;img src=&quot;/assets/img/martech/lifestyle-on-the-go-photography.jpeg&quot; class=&quot;shadow&quot; alt=&quot;A man ready to go out for the day and holding a CrunchCup&quot; /&gt;
+&lt;/picture&gt;
+
+&lt;h3 id=&quot;technique-6&quot;&gt;Technique&lt;/h3&gt;
+
+&lt;p&gt;Show the product in everyday life situations, emphasizing its convenience and accessibility. This technique is especially useful with products that are easily carried in a backpack, purse, or pocket.&lt;/p&gt;
+
+&lt;h3 id=&quot;applications-6&quot;&gt;Applications&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Daily life integration: Images of the product being part of users’ daily routines.&lt;/li&gt;
+  &lt;li&gt;Advertising: Supporting images to create awareness of the convenience of using the product with a busy schedule.&lt;/li&gt;
+  &lt;li&gt;Dynamic lifestyle photos: Examples include a book in a backpack or near a busy parent, or drinkware that is hassle-free and easy to transport, suggesting the product’s versatility and ease of use.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;videography&quot;&gt;Videography&lt;/h2&gt;
+
+&lt;h3 id=&quot;technique-7&quot;&gt;Technique&lt;/h3&gt;
+
+&lt;p&gt;Capture dynamic, real-life interactions with the product. Flyover shots and B-roll footage can be particularly effective.&lt;/p&gt;
+
+&lt;h3 id=&quot;applications-7&quot;&gt;Applications&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Social media content: Short reels that show the product in use (Instagram, TikTok, Facebook, etc.)&lt;/li&gt;
+  &lt;li&gt;Promotional GIFs: Short animations that highlight key features.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h2&gt;
+
+&lt;p&gt;Each type of product photography serves a unique purpose in marketing. From overhead shots that offer a clear, distortion-free view to wide-angle photos that leave room for text, these techniques help tell a story and engage potential customers. Incorporating a variety of styles ensures that your marketing collateral is both visually appealing and effective in conveying your message. By strategically using these photography styles, you can create compelling marketing materials that resonate with your audience and drive conversions.&lt;/p&gt;</content><author><name>Brandon Caples</name></author><category term="MarTech" /><category term="marketing" /><category term="photography" /><summary type="html">Product photography is more than just capturing an image of an item—it’s about telling a story and engaging potential customers. In the world of marketing collateral and digital media, different types of product photography play unique roles. Let’s explore some key photography styles and techniques that can elevate your marketing efforts.</summary></entry><entry><title type="html">Embracing our divine inheritance</title><link href="http://localhost:4000/faith/2024/embracing-divine-inheritance" rel="alternate" type="text/html" title="Embracing our divine inheritance" /><published>2024-04-29T17:04:24-04:00</published><updated>2024-04-29T17:04:24-04:00</updated><id>http://localhost:4000/faith/2024/embracing-divine-inheritance</id><content type="html" xml:base="http://localhost:4000/faith/2024/embracing-divine-inheritance">&lt;p&gt;Have you ever been given a gift so profound that it left you feeling deeply indebted? Paul taps into this sentiment in Romans 8:12–17, revealing the transformative power of adoption into God’s family. Saved by grace, we are not mere recipients; rather, we become integral participants in God’s divine plan—the resurrection life.&lt;/p&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;&lt;sup&gt;12&lt;/sup&gt; Therefore, brothers and sisters, we have an obligation—but it is not to the flesh, to live according to it. &lt;sup&gt;13&lt;/sup&gt; For if you live according to the flesh, you will die; but if by the Spirit you put to death the misdeeds of the body, you will live.&lt;/p&gt;
@@ -581,34 +727,4 @@
 
 &lt;p&gt;Note that the MSO button URL contains more &lt;a href=&quot;/martech/2023/utm-parameters&quot;&gt;UTM parameters&lt;/a&gt; than the other button’s URL. Some email marketing platforms inject URL parameters automatically at the time of sending, allowing for simpler and more efficient email management. However, since our MSO button is contained within comments, the email platform will likely ignore the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;href&lt;/code&gt; attribute and not update it automatically. (This is the case for Salesforce Marketing Cloud.) The safest way to ensure that the MSO button can still be tracked is to add parameters manually.&lt;/p&gt;
 
-&lt;p&gt;With a little CSS magic and some Outlook-specific tweaks, you can create HTML email buttons that look great and work perfectly across all the major email platforms. So go forth and create some amazing CTA buttons that will help you convert more subscribers into customers!&lt;/p&gt;</content><author><name>Brandon Caples</name></author><category term="MarTech" /><category term="email" /><category term="Outlook" /><category term="Gmail" /><category term="Yahoo" /><summary type="html">In the world of email marketing, a well-designed call-to-action (CTA) button can be the golden ticket to more engaged customers. But creating buttons that work consistently across various email clients can be a real headache, especially with Outlook, which has a history of being picky about HTML buttons.</summary></entry><entry><title type="html">Weariness</title><link href="http://localhost:4000/faith/2023/weariness" rel="alternate" type="text/html" title="Weariness" /><published>2023-11-28T18:00:01-05:00</published><updated>2023-11-28T18:00:01-05:00</updated><id>http://localhost:4000/faith/2023/weariness</id><content type="html" xml:base="http://localhost:4000/faith/2023/weariness">&lt;p&gt;In Psalm 84, the psalmist provides a profound solution for weariness amidst life’s journey—a solution rooted in faith and trust in God. As the psalmist navigates the trials and challenges of the pilgrimage towards God’s dwelling place, they offer a remedy for weariness: finding strength and renewal in the presence of the Almighty.&lt;/p&gt;
-
-&lt;p&gt;Central to the psalmist’s solution for weariness is the concept of dwelling in God’s presence. Throughout the psalm, there is a palpable longing to be near the Lord, to experience the intimacy and comfort found in communion with him. &lt;q&gt;Better is one day in your courts than a thousand elsewhere; I would rather be a doorkeeper in the house of my God than dwell in the tents of the wicked&lt;/q&gt; (Psalm 84:10, &lt;abbr title=&quot;New International Version&quot;&gt;NIV&lt;/abbr&gt;). Here, the psalmist expresses a profound conviction that even the briefest moments spent in God’s presence far surpass the pleasures and distractions of the world.&lt;/p&gt;
-
-&lt;p&gt;Furthermore, the psalmist emphasizes the importance of trust and reliance on God as a source of strength and sustenance. &lt;q&gt;Blessed are those whose strength is in you, whose hearts are set on pilgrimage&lt;/q&gt; (Psalm 84:5, &lt;abbr title=&quot;New International Version&quot;&gt;NIV&lt;/abbr&gt;). By acknowledging God as the ultimate source of strength, the psalmist offers a solution for weariness: turning to the Lord in times of need and drawing upon his limitless power and grace.&lt;/p&gt;
-
-&lt;p&gt;Moreover, the imagery of pilgrimage in Psalm 84 serves as a reminder that the journey of faith is not always easy or straightforward. Along the way, we may encounter obstacles, hardships, and moments of exhaustion. Yet, it is in the midst of these challenges that we are called to lean on God for strength and renewal. &lt;q&gt;As they pass through the Valley of Baka, they make it a place of springs; the autumn rains also cover it with pools&lt;/q&gt; (Psalm 84:6, &lt;abbr title=&quot;New International Version&quot;&gt;NIV&lt;/abbr&gt;). Here, the psalmist portrays a journey marked by both struggle and blessing—a journey in which weariness is met with the refreshing waters of God’s grace.&lt;/p&gt;
-
-&lt;h2 id=&quot;encouragement-in-scripture&quot;&gt;Encouragement in Scripture&lt;/h2&gt;
-
-&lt;p&gt;Drawing from the rich tapestry of Scripture, we can find numerous passages that offer encouragement and solace for those suffering with weariness. Let these verses renew you on dark days.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Isaiah 40:28–31:&lt;/strong&gt; This passage echoes the theme of finding strength in God. It reminds us that those who wait upon the Lord will renew their strength and soar on wings like eagles, run and not grow weary, walk and not be faint.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Matthew 11:28–30:&lt;/strong&gt; Jesus extends an invitation to all who are weary and burdened, promising rest for their souls. He encourages us to take his yoke upon us, for his burden is light.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;2 Corinthians 4:16–18:&lt;/strong&gt; The apostle Paul writes about the eternal perspective that helps us endure temporary trials. Though outwardly we may be wasting away, inwardly we are being renewed day by day. Our present sufferings are incomparable to the glory that awaits us.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Galatians 6:9:&lt;/strong&gt; Paul encourages believers not to grow weary in doing good, for in due season, they will reap a harvest if they do not give up.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Hebrews 12:1–3:&lt;/strong&gt; This passage compares the Christian life to a race and urges believers to lay aside every weight and sin that clings so closely. Fixing our eyes on Jesus, the pioneer and perfecter of our faith, we can endure and not grow weary or lose heart.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;James 1:2–4:&lt;/strong&gt; James encourages believers to consider it pure joy when they face trials, knowing that the testing of their faith produces perseverance. And when perseverance has its full effect, they will be mature and lacking in nothing.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;1 Peter 5:7:&lt;/strong&gt; Peter exhorts believers to cast all their anxieties on God, for he cares for them.&lt;/p&gt;
-
-&lt;p&gt;These passages, along with Psalm 84, provide a comprehensive framework for finding strength and encouragement in the midst of weariness. They remind us of the faithfulness of God, the promise of renewal, and the hope of eternal glory that awaits those who persevere in their journey of faith.&lt;/p&gt;
-
-&lt;h2 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h2&gt;
-
-&lt;p&gt;In essence, the psalmist’s solution for weariness lies in a deep and abiding relationship with God. By seeking his presence, trusting in his strength, and persevering through the trials of life, we can find renewal and refreshment for our weary souls. In a world filled with turmoil and uncertainty, may we heed the wisdom of Psalm 84 and turn to the Lord as our refuge and strength, finding rest and restoration in his loving embrace.&lt;/p&gt;</content><author><name>Brandon Caples</name></author><category term="Faith" /><category term="faith" /><category term="suffering" /><summary type="html">In Psalm 84, the psalmist provides a profound solution for weariness amidst life’s journey—a solution rooted in faith and trust in God. As the psalmist navigates the trials and challenges of the pilgrimage towards God’s dwelling place, they offer a remedy for weariness: finding strength and renewal in the presence of the Almighty.</summary></entry></feed>
+&lt;p&gt;With a little CSS magic and some Outlook-specific tweaks, you can create HTML email buttons that look great and work perfectly across all the major email platforms. So go forth and create some amazing CTA buttons that will help you convert more subscribers into customers!&lt;/p&gt;</content><author><name>Brandon Caples</name></author><category term="MarTech" /><category term="email" /><category term="Outlook" /><category term="Gmail" /><category term="Yahoo" /><summary type="html">In the world of email marketing, a well-designed call-to-action (CTA) button can be the golden ticket to more engaged customers. But creating buttons that work consistently across various email clients can be a real headache, especially with Outlook, which has a history of being picky about HTML buttons.</summary></entry></feed>
