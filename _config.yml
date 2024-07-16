@@ -40,7 +40,7 @@ social:
 scripts:
   ga4: G-K2XZK7JBSM
   gtm: GTM-WWRT8C9
-  squeaky: f94d0c0f-89b6-4cc0-a52c-e05932e7a59d
+  squeaky:
   google_fonts: "Roboto:300,600|Roboto+Condensed:700|Playfair+Display:900"
   disqus_shortname:
   katex: true # Enable if using math markup

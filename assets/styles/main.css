@@ -1120,6 +1120,12 @@ button, .splendid-button, .splendid-cta { line-height: 200%; }
 	transition: all 0.3s ease-in-out;
 }
 
+.splendid-button.small {
+	padding: 0.15rem 0.5rem;
+	font-size: 0.85rem;
+	border-width: 2px;
+}
+
 .splendid-button, .splendid-button.light {
 	color: #F8F9FA;
 	background-image: linear-gradient(90deg, #F8F9FA 50%, rgba(255,255,255,0) 0);

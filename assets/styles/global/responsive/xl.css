@@ -10,6 +10,8 @@ TABLE OF CONTENTS
 			22.2	Width
 			22.3	Margin
 			22.4	Padding
+			22.4	Utilities
+			22.4	Flexbox
 ---------------------------------------------------------------- */
 
 /* ================================================================
@@ -750,3 +752,75 @@ body *.xl\:text-4xl { font-size: 3rem !important; }
 .xl\:pr-1\/20 { padding-right: 5% !important; }
 .xl\:pr-1\/8 { padding-right: 12.5% !important; }
 .xl\:pr-1\/4 { padding-right: 25% !important; }
+
+/* ================================================================
+	22.5	Utilities
+================================================================ */
+
+.xl\:shadow { box-shadow: 0 5px 35px 0 rgb(0 0 0 / 15%); }
+
+.xl\:two-columns {
+	column-count: 2;
+	column-gap: calc(10%/2);
+}
+
+.xl\:three-columns {
+	column-count: 3;
+	column-gap: calc(10%/3);
+}
+
+/* ================================================================
+	22.6	Flexbox
+================================================================ */
+
+.xl\:flex-row { -webkit-box-orient: horizontal; -webkit-box-direction: normal; -ms-flex-direction: row; flex-direction: row; }
+.xl\:flex-row-rev { -webkit-box-orient: horizontal; -webkit-box-direction: reverse; -ms-flex-direction: row-reverse; flex-direction: row-reverse; }
+.xl\:flex-col { -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; }
+.xl\:flex-col-rev { -webkit-box-orient: vertical; -webkit-box-direction: reverse; -ms-flex-direction: column-reverse; flex-direction: column-reverse; }
+
+.xl\:justify-start { -webkit-box-pack: start; -ms-flex-pack: start; justify-content: flex-start; }
+.xl\:justify-end { -webkit-box-pack: end; -ms-flex-pack: end; justify-content: flex-end; }
+.xl\:justify-center { -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; }
+.xl\:justify-between { -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; }
+.xl\:justify-around { -ms-flex-pack: distribute; justify-content: space-around; }
+.xl\:justify-evenly { -webkit-box-pack: space-evenly; -ms-flex-pack: space-evenly; justify-content: space-evenly; }
+
+.xl\:items-stretch { -webkit-box-align: stretch; -ms-flex-align: stretch; align-items: stretch; }
+.xl\:items-start { -webkit-box-align: start; -ms-flex-align: start; align-items: flex-start; }
+.xl\:items-end { -webkit-box-align: end; -ms-flex-align: end; align-items: flex-end; }
+.xl\:items-center { -webkit-box-align: center; -ms-flex-align: center; align-items: center; }
+.xl\:items-base { -webkit-box-align: baseline; -ms-flex-align: baseline; align-items: baseline; }
+
+.xl\:item-stretch { -ms-flex-item-align: stretch; -ms-grid-row-align: stretch; align-self: stretch; }
+.xl\:item-center { -ms-flex-item-align: center; -ms-grid-row-align: center; align-self: center; }
+.xl\:item-start { -ms-flex-item-align: start; -ms-grid-row-align: start; align-self: start; }
+.xl\:item-end { -ms-flex-item-align: end; -ms-grid-row-align: end; align-self: end; }
+
+.xl\:flex-wrap { -ms-flex-wrap: wrap; flex-wrap: wrap; }
+.xl\:flex-nowrap { -ms-flex-wrap: nowrap; flex-wrap: nowrap; }
+.xl\:flex-wrap-rev { -ms-flex-wrap: wrap-reverse; flex-wrap: wrap-reverse; }
+
+.xl\:grow-0 { -webkit-box-flex: 0; -ms-flex-positive: 0; flex-grow: 0; }
+.xl\:grow-1 { -webkit-box-flex: 1; -ms-flex-positive: 1; flex-grow: 1; }
+.xl\:grow-2 { -webkit-box-flex: 2; -ms-flex-positive: 2; flex-grow: 2; }
+.xl\:grow-3 { -webkit-box-flex: 3; -ms-flex-positive: 3; flex-grow: 3; }
+.xl\:grow-4 { -webkit-box-flex: 4; -ms-flex-positive: 4; flex-grow: 4; }
+.xl\:shrink-1 { -ms-flex-negative: 1; flex-shrink: 1; }
+.xl\:shrink-2 { -ms-flex-negative: 2; flex-shrink: 2; }
+.xl\:shrink-3 { -ms-flex-negative: 3; flex-shrink: 3; }
+.xl\:shrink-4 { -ms-flex-negative: 4; flex-shrink: 4; }
+.xl\:basis-auto { -ms-flex-preferred-size: auto; flex-basis: auto; }
+.xl\:basis-100, .xl\:basis-full { -ms-flex-preferred-size: 100%; flex-basis: 100%; }
+.xl\:flex-grow-auto { -webkit-box-flex: 1 !important; -ms-flex: 1 0 auto !important; flex: 1 0 auto !important; }
+
+.xl\:order-0 { -webkit-box-ordinal-group: 1; -ms-flex-order: 0; order: 0; }
+.xl\:order-1 { -webkit-box-ordinal-group: 2; -ms-flex-order: 1; order: 1; }
+.xl\:order-2 { -webkit-box-ordinal-group: 3; -ms-flex-order: 2; order: 2; }
+.xl\:order-3 { -webkit-box-ordinal-group: 4; -ms-flex-order: 3; order: 3; }
+.xl\:order-4 { -webkit-box-ordinal-group: 5; -ms-flex-order: 4; order: 4; }
+.xl\:order-5 { -webkit-box-ordinal-group: 6; -ms-flex-order: 5; order: 5; }
+.xl\:order-6 { -webkit-box-ordinal-group: 7; -ms-flex-order: 6; order: 6; }
+.xl\:order-7 { -webkit-box-ordinal-group: 8; -ms-flex-order: 7; order: 7; }
+.xl\:order-8 { -webkit-box-ordinal-group: 9; -ms-flex-order: 8; order: 8; }
+.xl\:order-9 { -webkit-box-ordinal-group: 10; -ms-flex-order: 9; order: 9; }
+.xl\:order-10 { -webkit-box-ordinal-group: 11; -ms-flex-order: 10; order: 10; }

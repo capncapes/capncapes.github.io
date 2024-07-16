@@ -113,30 +113,30 @@
 		color: #000000;
 	}
 	
-	#resume h2, #resume h2 > * {
+	#resume section h2, #resume section h2 > * {
 		font-size: 14pt !important;
 		line-height: 15pt;
 		color: #30475E;
 	}
 	
-	#resume h3, #resume h3 > * { margin-top: 2rem; }
-	#resume h3, #resume h3 > *,
+	#resume section h3, #resume section h3 > * { margin-top: 2rem; }
+	#resume section h3, #resume section h3 > *,
 	section.hero-section .resume-title {
 		font-size: 13pt !important;
 		line-height: 14pt;
 	}
 	
-	#resume h4, #resume h4 > * {
+	#resume section h4, #resume section h4 > * {
 		font-size: 12pt !important;
 		line-height: 13pt;
 	}
 	
-	#resume h5, #resume h5 > * {
+	#resume section h5, #resume section h5 > * {
 		font-size: 11pt !important;
 		line-height: 12pt;
 	}
 	
-	#resume h6, #resume h6 > * {
+	#resume section h6, #resume section h6 > * {
 		font-size: 10pt !important;
 		line-height: 11pt;
 	}

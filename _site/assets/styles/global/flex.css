@@ -50,7 +50,7 @@ TABLE OF CONTENTS
 ================================================================ */
 
 /* ===================================
-    2.1	Item Alignment
+	2.1	Item Alignment
 =================================== */
 
 .item-stretch { -ms-flex-item-align: stretch; -ms-grid-row-align: stretch; align-self: stretch; }
@@ -59,7 +59,7 @@ TABLE OF CONTENTS
 .item-end { -ms-flex-item-align: end; -ms-grid-row-align: end; align-self: end; }
 
 /* ===================================
-    2.2	Item Wrapping
+	2.2	Item Wrapping
 =================================== */
 
 .flex-wrap { -ms-flex-wrap: wrap; flex-wrap: wrap; }

@@ -16,6 +16,8 @@ TABLE OF CONTENTS
 		22.2	Width
 		22.3	Margin
 		22.4	Padding
+		22.5	Utilities
+		22.6	Flexbox
 ---------------------------------------------------------------- */
 
 /* ================================================================
@@ -973,3 +975,75 @@ main.px-10 article blockquote {
 .sm\:pr-1\/20 { padding-right: 5%; }
 .sm\:pr-1\/8 { padding-right: 12.5%; }
 .sm\:pr-1\/4 { padding-right: 25%; }
+
+/* ================================================================
+	22.5	Utilities
+================================================================ */
+
+.sm\:shadow { box-shadow: 0 5px 35px 0 rgb(0 0 0 / 15%); }
+
+.sm\:two-columns {
+	column-count: 2;
+	column-gap: calc(10%/2);
+}
+
+.sm\:three-columns {
+	column-count: 3;
+	column-gap: calc(10%/3);
+}
+
+/* ================================================================
+	22.6	Flexbox
+================================================================ */
+
+.sm\:flex-row { -webkit-box-orient: horizontal; -webkit-box-direction: normal; -ms-flex-direction: row; flex-direction: row; }
+.sm\:flex-row-rev { -webkit-box-orient: horizontal; -webkit-box-direction: reverse; -ms-flex-direction: row-reverse; flex-direction: row-reverse; }
+.sm\:flex-col { -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; }
+.sm\:flex-col-rev { -webkit-box-orient: vertical; -webkit-box-direction: reverse; -ms-flex-direction: column-reverse; flex-direction: column-reverse; }
+
+.sm\:justify-start { -webkit-box-pack: start; -ms-flex-pack: start; justify-content: flex-start; }
+.sm\:justify-end { -webkit-box-pack: end; -ms-flex-pack: end; justify-content: flex-end; }
+.sm\:justify-center { -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; }
+.sm\:justify-between { -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; }
+.sm\:justify-around { -ms-flex-pack: distribute; justify-content: space-around; }
+.sm\:justify-evenly { -webkit-box-pack: space-evenly; -ms-flex-pack: space-evenly; justify-content: space-evenly; }
+
+.sm\:items-stretch { -webkit-box-align: stretch; -ms-flex-align: stretch; align-items: stretch; }
+.sm\:items-start { -webkit-box-align: start; -ms-flex-align: start; align-items: flex-start; }
+.sm\:items-end { -webkit-box-align: end; -ms-flex-align: end; align-items: flex-end; }
+.sm\:items-center { -webkit-box-align: center; -ms-flex-align: center; align-items: center; }
+.sm\:items-base { -webkit-box-align: baseline; -ms-flex-align: baseline; align-items: baseline; }
+
+.sm\:item-stretch { -ms-flex-item-align: stretch; -ms-grid-row-align: stretch; align-self: stretch; }
+.sm\:item-center { -ms-flex-item-align: center; -ms-grid-row-align: center; align-self: center; }
+.sm\:item-start { -ms-flex-item-align: start; -ms-grid-row-align: start; align-self: start; }
+.sm\:item-end { -ms-flex-item-align: end; -ms-grid-row-align: end; align-self: end; }
+
+.sm\:flex-wrap { -ms-flex-wrap: wrap; flex-wrap: wrap; }
+.sm\:flex-nowrap { -ms-flex-wrap: nowrap; flex-wrap: nowrap; }
+.sm\:flex-wrap-rev { -ms-flex-wrap: wrap-reverse; flex-wrap: wrap-reverse; }
+
+.sm\:grow-0 { -webkit-box-flex: 0; -ms-flex-positive: 0; flex-grow: 0; }
+.sm\:grow-1 { -webkit-box-flex: 1; -ms-flex-positive: 1; flex-grow: 1; }
+.sm\:grow-2 { -webkit-box-flex: 2; -ms-flex-positive: 2; flex-grow: 2; }
+.sm\:grow-3 { -webkit-box-flex: 3; -ms-flex-positive: 3; flex-grow: 3; }
+.sm\:grow-4 { -webkit-box-flex: 4; -ms-flex-positive: 4; flex-grow: 4; }
+.sm\:shrink-1 { -ms-flex-negative: 1; flex-shrink: 1; }
+.sm\:shrink-2 { -ms-flex-negative: 2; flex-shrink: 2; }
+.sm\:shrink-3 { -ms-flex-negative: 3; flex-shrink: 3; }
+.sm\:shrink-4 { -ms-flex-negative: 4; flex-shrink: 4; }
+.sm\:basis-auto { -ms-flex-preferred-size: auto; flex-basis: auto; }
+.sm\:basis-100, .sm\:basis-full { -ms-flex-preferred-size: 100%; flex-basis: 100%; }
+.sm\:flex-grow-auto { -webkit-box-flex: 1 !important; -ms-flex: 1 0 auto !important; flex: 1 0 auto !important; }
+
+.sm\:order-0 { -webkit-box-ordinal-group: 1; -ms-flex-order: 0; order: 0; }
+.sm\:order-1 { -webkit-box-ordinal-group: 2; -ms-flex-order: 1; order: 1; }
+.sm\:order-2 { -webkit-box-ordinal-group: 3; -ms-flex-order: 2; order: 2; }
+.sm\:order-3 { -webkit-box-ordinal-group: 4; -ms-flex-order: 3; order: 3; }
+.sm\:order-4 { -webkit-box-ordinal-group: 5; -ms-flex-order: 4; order: 4; }
+.sm\:order-5 { -webkit-box-ordinal-group: 6; -ms-flex-order: 5; order: 5; }
+.sm\:order-6 { -webkit-box-ordinal-group: 7; -ms-flex-order: 6; order: 6; }
+.sm\:order-7 { -webkit-box-ordinal-group: 8; -ms-flex-order: 7; order: 7; }
+.sm\:order-8 { -webkit-box-ordinal-group: 9; -ms-flex-order: 8; order: 8; }
+.sm\:order-9 { -webkit-box-ordinal-group: 10; -ms-flex-order: 9; order: 9; }
+.sm\:order-10 { -webkit-box-ordinal-group: 11; -ms-flex-order: 10; order: 10; }

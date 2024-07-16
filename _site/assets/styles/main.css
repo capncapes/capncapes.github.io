@@ -713,6 +713,11 @@ main > article audio {
 	max-width: 60rem;
 }
 
+#splendid main h2 {
+	margin-top: 4rem;
+	color: #30475E;
+}
+
 #splendid section p {
 	margin-top: 0.75rem;
 	margin-bottom: 0.75rem;
@@ -1113,6 +1118,12 @@ button, .splendid-button, .splendid-cta { line-height: 200%; }
 	text-decoration: none;
 	cursor: pointer;
 	transition: all 0.3s ease-in-out;
+}
+
+.splendid-button.small {
+	padding: 0.15rem 0.5rem;
+	font-size: 0.85rem;
+	border-width: 2px;
 }
 
 .splendid-button, .splendid-button.light {
