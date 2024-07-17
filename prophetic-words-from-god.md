@@ -4,7 +4,7 @@ title: Prophetic Words From God
 permalink: /prophetic-words-from-god/
 ---
 
-I have received four prophetic messages delivered by the prophetic ministry team of <a href="https://www.tomandjanehamon.com/jane-hamon" target="_blank">Jane Hamon</a>.
+I have received four messages delivered by the prophetic ministry team of <a href="https://www.tomandjanehamon.com/jane-hamon" target="_blank">Jane Hamon</a>. Each message felt extremely personal and insightful to me at the time, and I cherish every word.
 
 ## June 18, 2018
 
