@@ -10,87 +10,81 @@
 		{% endif %}
 		{% include header.html %}
 
-		<!-- Tabs Section : START -->
-		<section class="tabs-section">
-			<div class="mt-10">
-				<header>
-					<h2>Blogs</h2>
-					<p>This is where I organize the things I've learned, whether marketing technology skills or journeys in faith. Don't expect lengthy blog posts, but I do hope to publish often.</p>
-				</header>
-				<div class="tabs-container md:shadow">
-					<div class="tabs">
-						<input type="radio" name="tabs" id="tab-1" aria-controls="tab-one" checked="checked">
-						<label class="bold" for="tab-1">Faith</label>
-		
-						<input type="radio" name="tabs" id="tab-2" aria-controls="tab-two">
-						<label class="bold" for="tab-2">MarTech</label>
-
-						<!-- Tab 1 : START -->
-						<div class="tab" id="tab-one">
-							<div class="cards-gallery">
-
-								{% for post in site.categories["Faith"] %}
-								<article itemscope itemtype="https://schema.org/BlogPosting" title="{{ post.title }}" class="card relative{% if post.featured == true %} featured{% endif %} rounded bg-yellow shadow">
-									<a href="{{ post.url }}">
-										<div>
-											<div class="absolute inset-0 w-full h-full z-0">
-												<picture>
-													<img class="w-full h-full object-cover rounded" src="{{ site.url }}/assets/img/{{ post.category | downcase }}/{{ post.featured_image.src }}" alt="{{ post.featured_image.alt }}">
-												</picture>
-											</div>
-										</div>
-										<div class="info absolute w-full h-full top-0 p-0 splendid-flex flex-col justify-end items-end flex-nowrap rounded">
-											<h4 itemprop="name" class="title w-90 mb-4 mx-auto p-0 text-lg normal">{{ post.title | truncate: 50 }}</h4>
-											<div class="splendid-flex w-90 mb-3 mx-auto p-0 flex-row justify-between flex-nowrap">
-												<time itemprop="datePublished" datetime="{{ post.date | date: '%Y-%m-%dT%H:%M:%S-05:00' }}" class="p-0 text-xs normal">{{ post.date | date: "%b %d, %Y" }}</time>
-											</div>
-										</div>
-									</a>
-								</article>
-								{% endfor %}
-
-							</div>
-						</div>
-						<!-- Tab 1 : END -->
-
-						<!-- Tab 2 : START -->
-						<div class="tab" id="tab-two">
-							<div class="cards-gallery">
-
-								{% for post in site.categories["MarTech"] %}
-								<article itemscope itemtype="https://schema.org/BlogPosting" title="{{ post.title }}" class="card relative{% if post.featured == true %} featured{% endif %} rounded bg-yellow shadow">
-									<a href="{{ post.url }}">
-										<div>
-											<div class="absolute inset-0 w-full h-full z-0">
-												<picture>
-													<img class="w-full h-full object-cover rounded" src="{{ site.url }}/assets/img/{{ post.category | downcase }}/{{ post.featured_image.src }}" alt="{{ post.featured_image.alt }}">
-												</picture>
-											</div>
-										</div>
-										<div class="info absolute w-full h-full top-0 p-0 splendid-flex flex-col justify-end items-end flex-nowrap rounded">
-											<h4 itemprop="name" class="title w-90 mb-4 mx-auto p-0 text-lg normal">{{ post.title | truncate: 50 }}</h4>
-											<div class="splendid-flex w-90 mb-3 mx-auto p-0 flex-row justify-between flex-nowrap">
-												<time itemprop="datePublished" datetime="{{ post.date | date: '%Y-%m-%dT%H:%M:%S-05:00' }}" class="p-0 text-xs normal">{{ post.date | date: "%b %d, %Y" }}</time>
-											</div>
-										</div>
-									</a>
-								</article>
-								{% endfor %}
-
-							</div>
-						</div>
-						<!-- Tab 2 : END -->
-
-					</div>
+		<!-- Hero Section : START -->
+		<section class="hero-section pt-20 bg-blue">
+			<video autoplay muted loop>
+				<source src="/assets/vid/coverr-typing-macbook_2389.mp4" type="video/mp4">
+				Your browser does not support the video tag.
+			</video>
+			<div class="pb-10">
+				<div class="text-white sm:px-0 md:px-16">
+					<h1>Senior Email Developer</h1>
+					<p class="mb-10">Versatile developer excelling in HTML email engineering and frontend web development, mastering the nuances of each.</p>
+					<a href="/assets/downloads/senior_sfmc_email_developer_brandon_caples_resume.pdf" download="Brandon_Caples_Senior_Email_Developer_Resume" class="splendid-button" role="button">Download résumé</a>
 				</div>
 			</div>
 		</section>
-		<!-- Tabs Section : END -->
+		<!-- Hero Section : END -->
+
+		<!-- Cards Gallery : START -->
+		<section class="posts-section pb-20 md:pb-0">
+			<header class="pt-20 pb-8 px-7 xl:px-0">
+				<h2>MarTech Blog</h2>
+				<p>Welcome to the MarTech blog, home to the latest trends, tips, and tutorials in marketing technology to help you stay ahead in the fast-paced digital landscape. Whether you're looking to enhance your skills or keep up with industry developments, you'll find valuable insights and resources here.</p>
+			</header>
+			<div class="cards-gallery mt-0">
+
+				{% for post in site.categories["MarTech"] limit:8 %}
+				<article itemscope itemtype="https://schema.org/BlogPosting" title="{{ post.title }}" class="card relative rounded bg-red shadow">
+					<a href="{{ post.url }}">
+						<div>
+							<div class="absolute inset-0 w-full h-full z-0">
+								<img class="w-full h-full object-cover rounded" src="{{ site.url }}/assets/img/{{ post.category | downcase }}/{{ post.featured_image.src }}" alt="{{ post.featured_image.alt }}">
+							</div>
+						</div>
+						<div class="info absolute w-full h-full top-0 p-0 splendid-flex flex-col justify-end items-end flex-nowrap rounded">
+							<h3 itemprop="name" class="title w-90 mb-6 mx-auto p-0 text-lg normal">{{ post.title | truncate: 50 }}</h3>
+							<div class="splendid-flex w-90 mb-3 mx-auto p-0 flex-row justify-between flex-nowrap">
+								<time itemprop="datePublished" datetime="{{ post.date | date: '%Y-%m-%dT%H:%M:%S-05:00' }}" class="p-0 text-xs normal">{{ post.date | date: "%b %d, %Y" }}</time>
+							</div>
+						</div>
+					</a>
+				</article>
+				{% endfor %}
+
+				<div class="more h-100 bg-green rounded" style="box-shadow:none;">
+					<a href="/martech/">
+						<div class="splendid-flex h-100 p-4 flex-col justify-center overflow-hidden rounded">
+							<div class="placeholder relative w-full bg-transparent text-xl text-center rounded">
+								<h4 class="mb-0 text-xl normal text-white">More blog posts</h4>
+							</div>
+						</div>
+					</a>
+				</div>
+			</div>
+		</section>
+		<!-- Cards Gallery : END -->
+
+		<!-- CTA Section : BEGIN -->
+		<section class="cta-section bg-sand">
+			<div class="md:splendid-flex pt-20 px-6 xl:px-0 pb-20 flex-row justify-between items-center">
+				<div class="md:w-1/3">
+					<h4>Brandon Caples</h4>
+					<p class="m-0">I'm a digital marketer, a web developer, and an email production technologist. Marketing technology is my passion.</p>
+					<a href="/about/" class="splendid-cta sm:mb-8">Learn more</a>
+				</div>
+				<picture class="block md:mx-12 xl:mx-0">
+					<source type="image/webp" srcset="/assets/img/brandon_caples_1200x630.webp" >
+					<img src="/assets/img/brandon_caples_1200x630.jpg" class="w-full md:w-2/3 rounded shadow" alt="Brandon Caples, digital marketer, web developer, email production technologist" />
+				</picture>
+			</div>
+		</section>
+		<!-- CTA Section : END -->
 
 		<!-- Carousel Section : BEGIN -->
 		<section class="carousel-section pt-12 bg-blue">
 			<header class="mx-8 md:mx-20 pb-0 text-white">
-				<h2>Book reviews</h2>
+				<h2>Book Reviews</h2>
 			</header>
 			<div class="carousel splendid-flex relative">
 				<div class="pt-4 scroll-style">
