@@ -17,12 +17,28 @@
         </image>
         <generator>https://brandoncaples.com</generator>
         
-            <lastBuildDate>Mon, 29 Apr 2024 17:04:24 -0400</lastBuildDate>
+            <lastBuildDate>Tue, 30 Jul 2024 20:01:49 -0400</lastBuildDate>
         
         <atom:link href="https://brandoncaples.com/faith/feed.xml" rel="self" type="application/rss+xml"/>
         <language>
             <![CDATA[ en ]]>
         </language>
+        
+            <item>
+                <title>
+                    <![CDATA[ Come and see ]]>
+                </title>
+                <description>
+                    <![CDATA[ Jesus offers an invitation to come and see what God has done for you. ]]>
+                </description>
+                <link>http://localhost:4000/faith/2024/come-and-see</link>
+                <guid isPermaLink="true">http://localhost:4000/faith/2024/come-and-see</guid>
+                <dc:creator>
+                    <![CDATA[ Brandon Caples ]]>
+                </dc:creator>
+                <pubDate>Tue, 30 Jul 2024 20:01:49 -0400</pubDate>
+                
+            </item>
         
             <item>
                 <title>
