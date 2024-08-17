@@ -106,6 +106,12 @@ html > body .max-w-fill { max-width: -webkit-fill-available !important; }
 .h-auto { height: auto; }
 .h-100, .h-full { height: 100% !important; }
 
+.min-h-50 { min-height: 50vh !important; }
+.min-h-60 { min-height: 60vh !important; }
+.min-h-70 { min-height: 70vh !important; }
+.min-h-80 { min-height: 80vh !important; }
+.min-h-90 { min-height: 90vh !important; }
+
 .max-h-1 { max-height: 15rem !important; }
 .max-h-2 { max-height: 30rem !important; }
 .max-h-3 { max-height: 40rem !important; }

@@ -1,0 +1,65 @@
+<section id="slider" class="min-h-70 p-0">
+	{% for slide in site.data.slider %}
+		{% if slide.display %}
+		<div class="slide"{% if slide.bg_color != '' %} style="background-color: {{ slide.bg_color }};"{% else %} data-bg-color="false"{% endif %}>
+			{% if slide.img_src != "" %}
+				<div class="background" style="background-image: url('{{ slide.img_src }}');{% if slide.bg_color != '' %} filter: grayscale(100%);{% endif %}"></div>
+			{% endif %}
+			<div class="slider-content max-w-4 mx-auto px-7 xl:px-0 pt-20 pb-12 text-white">
+				<h2 itemprop="name" class="title w-90 mb-6 mx-0 p-0 text-xl normal">{{ slide.heading }}</h2>
+				<p class="mb-10">{{ slide.desc }}</p>
+				<a href="{{ slide.button_link }}" {% if slide.download != "" %}download="{{ slide.download }}" {% endif %}class="splendid-button" role="button">{{ slide.button_text }}</a>
+			</div>
+		</div>
+		{% endif %}
+	{% endfor %}
+
+	<!-- Navigation Arrows -->
+	<nav id="slider-nav" class="splendid-flex px-7 py-4 flex-row justify-between">
+		<a class="prev p-0" onclick="plusSlides(-1)">&#10094;</a>
+		<a class="next p-0" onclick="plusSlides(1)">&#10095;</a>
+	</nav>
+</section>
+<script>
+	let slideIndex = 0;
+	const slides = document.querySelectorAll('.slide');
+	const totalSlides = slides.length;
+	let slideInterval;
+
+	function showSlide(index) {
+		// Remove the active class from all slides
+		slides.forEach(slide => slide.classList.remove('active'));
+
+		// Calculate the new slide index, looping back if necessary
+		slideIndex = (index + totalSlides) % totalSlides;
+
+		// Add the active class to the current slide
+		slides[slideIndex].classList.add('active');
+	}
+
+	function startSlideShow() {
+		slideInterval = setInterval(() => {
+			showSlide(slideIndex + 1);
+		}, 7000);
+	}
+
+	function resetSlideShow() {
+		clearInterval(slideInterval); // Clear the existing interval
+		startSlideShow(); // Start a new interval
+	}
+
+	// Attach event listeners for navigation arrows
+	document.querySelector('.prev').addEventListener('click', () => {
+		showSlide(slideIndex - 1);
+		resetSlideShow(); // Reset the timer when a button is clicked
+	});
+
+	document.querySelector('.next').addEventListener('click', () => {
+		showSlide(slideIndex + 1);
+		resetSlideShow(); // Reset the timer when a button is clicked
+	});
+
+	// Initialize the slideshow
+	showSlide(slideIndex);
+	startSlideShow(); // Start the initial automatic sliding
+</script>

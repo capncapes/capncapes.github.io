@@ -149,22 +149,110 @@
 
 	</div>
 </header>
-
-		<!-- Hero Section : START -->
-		<section class="hero-section pt-20 bg-blue">
-			<video autoplay muted loop>
-				<source src="/assets/vid/coverr-typing-macbook_2389.mp4" type="video/mp4">
-				Your browser does not support the video tag.
-			</video>
-			<div class="pb-10">
-				<div class="text-white sm:px-0 md:px-16">
-					<h1>Senior Email Developer</h1>
-					<p class="mb-10">Versatile developer excelling in HTML email engineering and frontend web development, mastering the nuances of each.</p>
-					<a href="/assets/downloads/senior_sfmc_email_developer_brandon_caples_resume.pdf" download="Brandon_Caples_Senior_Email_Developer_Resume" class="splendid-button" role="button">Download résumé</a>
-				</div>
+		<section id="slider" class="min-h-60 p-0">
+	
+		
+		<div class="slide" style="background-color: #30475E;">
+			
+				<div class="background" style="background-image: url('/assets/img/brandon_caples_1200x630.webp'); filter: grayscale(100%);"></div>
+			
+			<div class="slider-content max-w-4 mx-auto px-7 xl:px-0 pt-20 pb-12 text-white">
+				<h2 itemprop="name" class="title w-90 mb-6 mx-0 p-0 text-xl normal">Senior Email Developer</h2>
+				<p class="mb-10">Versatile developer excelling in HTML email engineering and frontend web development, mastering the nuances of each.</p>
+				<a href="/assets/downloads/senior_sfmc_email_developer_brandon_caples_resume.pdf" download="Brandon_Caples_Senior_Email_Developer_Resume" class="splendid-button" role="button">Download résumé</a>
 			</div>
-		</section>
-		<!-- Hero Section : END -->
+		</div>
+		
+	
+		
+		<div class="slide" style="background-color: #2CA096;">
+			
+				<div class="background" style="background-image: url('/assets/img/martech/analytics-dashboard.webp'); filter: grayscale(100%);"></div>
+			
+			<div class="slider-content max-w-4 mx-auto px-7 xl:px-0 pt-20 pb-12 text-white">
+				<h2 itemprop="name" class="title w-90 mb-6 mx-0 p-0 text-xl normal">How to automate Marketing Cloud journey analytics data</h2>
+				<p class="mb-10">Understanding and leveraging journey analytics is essential for optimizing marketing efforts.</p>
+				<a href="/martech/2024/sfmc-query-journey-analytics" class="splendid-button" role="button">Read article</a>
+			</div>
+		</div>
+		
+	
+		
+		<div class="slide" style="background-color: #2CA096;">
+			
+				<div class="background" style="background-image: url('/assets/img/martech/overhead-birds-eye-view-photography.webp'); filter: grayscale(100%);"></div>
+			
+			<div class="slider-content max-w-4 mx-auto px-7 xl:px-0 pt-20 pb-12 text-white">
+				<h2 itemprop="name" class="title w-90 mb-6 mx-0 p-0 text-xl normal">Product photography for marketers</h2>
+				<p class="mb-10">Good product photography can make or break a marketing message.</p>
+				<a href="/martech/2024/product-photography-for-marketers" class="splendid-button" role="button">Read article</a>
+			</div>
+		</div>
+		
+	
+		
+		<div class="slide" data-bg-color="false">
+			
+				<div class="background" style="background-image: url('/assets/img/books/contagious-book.webp');"></div>
+			
+			<div class="slider-content max-w-4 mx-auto px-7 xl:px-0 pt-20 pb-12 text-white">
+				<h2 itemprop="name" class="title w-90 mb-6 mx-0 p-0 text-xl normal">Contagious: Why Things Catch On, by Jonah Berger</h2>
+				<p class="mb-10">Contagious is a well-written and engaging book that provides valuable insights into the psychology of social influence.</p>
+				<a href="/martech/2023/contagious" class="splendid-button" role="button">Read book review</a>
+			</div>
+		</div>
+		
+	
+
+	<!-- Navigation Arrows -->
+	<nav id="slider-nav" class="splendid-flex px-7 py-4 flex-row justify-between">
+		<a class="prev p-0" onclick="plusSlides(-1)">&#10094;</a>
+		<a class="next p-0" onclick="plusSlides(1)">&#10095;</a>
+	</nav>
+</section>
+<script>
+	let slideIndex = 0;
+	const slides = document.querySelectorAll('.slide');
+	const totalSlides = slides.length;
+	let slideInterval;
+
+	function showSlide(index) {
+		// Remove the active class from all slides
+		slides.forEach(slide => slide.classList.remove('active'));
+
+		// Calculate the new slide index, looping back if necessary
+		slideIndex = (index + totalSlides) % totalSlides;
+
+		// Add the active class to the current slide
+		slides[slideIndex].classList.add('active');
+	}
+
+	function startSlideShow() {
+		slideInterval = setInterval(() => {
+			showSlide(slideIndex + 1);
+		}, 7000);
+	}
+
+	function resetSlideShow() {
+		clearInterval(slideInterval); // Clear the existing interval
+		startSlideShow(); // Start a new interval
+	}
+
+	// Attach event listeners for navigation arrows
+	document.querySelector('.prev').addEventListener('click', () => {
+		showSlide(slideIndex - 1);
+		resetSlideShow(); // Reset the timer when a button is clicked
+	});
+
+	document.querySelector('.next').addEventListener('click', () => {
+		showSlide(slideIndex + 1);
+		resetSlideShow(); // Reset the timer when a button is clicked
+	});
+
+	// Initialize the slideshow
+	showSlide(slideIndex);
+	startSlideShow(); // Start the initial automatic sliding
+</script>
 
 		<!-- Cards Gallery : START -->
 		<section class="posts-section pb-20 md:pb-0">
