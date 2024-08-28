@@ -1,0 +1,89 @@
+---
+layout: portfolio
+id: "ws22p3"
+title: "Welcome campaign: Email #3"
+featured_image: {
+  src: "assets/img/portfolio/email/mkt_generic-welcome-series_3-welcome__journey_1200x630.jpeg",
+  alt: "A screenshot of a welcome series email"
+}
+description: "This is the third email in a welcome series campaign."
+permalink: /portfolio/email/ws22p3/
+---
+
+{% assign project = site.data.portfolio | where:"id", page.id | first %}
+<script type="application/ld+json" class="splendid-schema-graph">
+	{
+		"@context": "https://schema.org/",
+		"@graph": [
+			{
+				"@type": "VisualArtwork",
+				"name": "{{ project.title }}",
+				"image": "{{ project.github_screenshot_url }}",
+				"creator": {
+					"@type": "Person",
+					"name": "Brandon Caples"
+				},
+				"url": "{{ project.github_code_url }}",
+				"description": "{{ project.img_alt_text }}"
+				"inLanguage": "en-US"
+			},
+			{% if page.featured_image.src %}
+			{
+				"@type": "ImageObject",
+				"inLanguage": "en-US",
+				"@id": "{{ page.url | absolute_url }}#primaryimage",
+				"url": "{{ site.url }}/assets/img/portfolio/email/{{ page.featured_image.src }}",
+				"contentUrl": "{{ site.url }}/assets/img/portfolio/email/{{ page.featured_image.src }}",
+				"caption": "{{ page.featured_image.alt }}"
+			},
+			{% endif %}
+			{
+				"@type": [
+					"Person",
+					"Organization"
+				],
+				"@id": "{{ site.url }}#/schema/person/3fbbe8e23fcabc3da5c9cbc102d346c9",
+				"name": "{{ site.meta.title }}",
+				"image": {
+					"@type": "ImageObject",
+					"inLanguage": "en-US",
+					"@id": "{{ site.url }}#/schema/person/image/",
+					"url": "{{ site.url }}/assets/img/brandon_caples.jpeg",
+					"contentUrl": "{{ site.url }}/assets/img/brandon_caples.jpeg",
+					"width": 600,
+					"height": 600,
+					"caption": "{{ site.meta.title }}"
+				},
+				"logo": "{{ site.url }}/assets/img/logomark.png",
+				"description": "I'm a web and HTML developer with six years of experience crafting performant and accessible emails.",
+				"sameAs": [
+					"https://www.linkedin.com/in/brandoncaples/",
+					"https://github.com/capncapes",
+					"https://x.com/caplesweb",
+					"https://www.salesforce.com/trailblazer/bcaples"
+				]
+			}
+		]
+	}
+</script>
+<article class="project" data-title="{{ project.title }}">
+	<div class="splendid-flex flex-col md:flex-row justify-between flex-nowrap">
+		<div class="w-full md:w-40 md:mr-8">
+			<a href="/portfolio/" class="block mb-8 py-3 px-6 text-black text-left bg-white uppercase rounded" title="Return to view more portfolio emails">&larr; Portfolio emails</a>
+			<p class="mt-0 mb-8 py-3 px-6 bg-white rounded">This is the third email in a welcome series campaign for Precept, a Christian nonprofit and publisher of Bible study materials founded in 1970. This email is fully responsive and accessible.</p>
+			<footer class="splendid-flex py-3 px-6 flex-row md:flex-col lg:flex-row justify-between items-center text-sm bg-sand rounded">
+				<p class="m-0 text-sm font-bold uppercase">Inspect on GitHub</p>
+				<div class="splendid-flex flex-row justify-between" style="gap:0.5rem;">
+					<a href="{{ project.github_code_url }}" title="See the email code on GitHub" class="p-3 bg-white shadow" target="_blank">{% include code-icon.html %}</a>
+					<a href="{{ project.github_screenshot_url }}" title="See the email screenshot on GitHub" class="p-3 bg-white shadow" target="_blank">{% include image-icon.html %}</a>
+				</div>
+			</footer>
+		</div>
+		<a href="{{ project.github_screenshot_url }}" class="w-full md:w-60 mt-8 md:mt-0" title="See the email screenshot on GitHub" target="_blank">
+			<picture>
+				<source type="image/webp" srcset="{{ project.img_webp_src }}" >
+				<img src="{{ project.img_fallback_src }}" alt="{{ project.img_alt_text }}" />
+			</picture>
+		</a>
+	</div>
+</article>

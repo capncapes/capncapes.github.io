@@ -1,14 +1,31 @@
+body#portfolio {
+	--s: 50px;
+	--c1: #44596e;
+	--c2: #30475e;
+	
+	--_g: #0000 83%,var(--c1) 85% 99%,#0000 101%;
+	background:
+		radial-gradient(27% 29% at right ,var(--_g)) calc(var(--s)/ 2) var(--s),
+		radial-gradient(27% 29% at left  ,var(--_g)) calc(var(--s)/-2) var(--s),
+		radial-gradient(29% 27% at top   ,var(--_g)) 0 calc(var(--s)/ 2),
+		radial-gradient(29% 27% at bottom,var(--_g)) 0 calc(var(--s)/-2)
+		var(--c2);
+	background-size: calc(2*var(--s)) calc(2*var(--s));
+}
+
 #portfolio .projects {
 	row-gap: 4rem;
 }
 
 #portfolio .projects .project {
-	flex-basis: 48%;
+	flex-basis: 100%;
 }
 
-#portfolio .projects > .project > footer { column-gap: 2rem; }
+#portfolio .projects > .project > footer,
+#portfolio .project footer { column-gap: 2rem; }
 
-#portfolio .projects > .project > footer a {
+#portfolio .projects > .project > footer a,
+#portfolio .project footer a {
 	border-radius: 50%;
 	-webkit-transition: transform 0.3s ease-in-out;
 	-o-transition: transform 0.3s ease-in-out;
@@ -16,7 +33,8 @@
 	transition: transform 0.3s ease-in-out;
 }
 
-#portfolio .projects > .project > footer a:hover {
+#portfolio .projects > .project > footer a:hover,
+#portfolio .project footer a:hover {
 	transform: translateY(-5px);
 }
 
@@ -34,15 +52,26 @@
 		-ms-flex-direction: row;
 		flex-direction: row;
 	}
+
+	#portfolio .projects .project {
+		flex-basis: 48%;
+	}
 }
 
-#portfolio .projects > .project > footer svg {
+@media screen and (min-width: 900px) {
+	#portfolio .projects .project {
+		flex-basis: 30%;
+	}
+}
+
+#portfolio .projects > .project > footer svg,
+#portfolio .project footer svg {
 	width: 22px;
 }
 
 .scroll-img-container {
 	width: auto;
-	height: 288px;
+	height: 350px;
 	position: relative;
 	background: pink;
 	overflow: hidden;
@@ -52,10 +81,9 @@
 	display: block;
 	height: auto;
 	overflow: hidden;
-	transition: transform 2000ms linear;
 }
 
 .scroll-img-container:hover picture {
-	cursor: s-resize;
+	cursor: pointer;
 	transform: translateY(calc(-100% + 260px));
 }

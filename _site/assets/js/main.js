@@ -5,20 +5,6 @@ var header = document.getElementById( 'splendid-header' );
 var sticky = header.getBoundingClientRect().top;
 var timers = Array.from( document.querySelectorAll( '.countdown' ) );
 
-// Portfolio image scrolling
-function startScroll(container) {
-	const image = container.querySelector('picture');
-	const imageHeight = image.offsetHeight;
-	const containerHeight = container.offsetHeight;
-	const scrollDistance = imageHeight - containerHeight;
-	image.style.animationDuration = (scrollDistance / 100) * 5 + 's';
-}
-
-function stopScroll(container) {
-	const image = container.querySelector('picture');
-	image.style.animationDuration = '0s';
-}
-
 // Check if a form has more than one input
 const multiForm = (f) => f.elements.length > 1;
 

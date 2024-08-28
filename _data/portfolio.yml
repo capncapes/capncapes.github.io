@@ -1,6 +1,27 @@
+- title: "Re-engagement email"
+  id: "re24y1"
+  img_webp_src: "/assets/img/portfolio/email/mkt_yarrow-reengagement_1-discount_600.webp"
+  img_fallback_src: "/assets/img/portfolio/email/mkt_yarrow-reengagement_1-discount_600.jpg"
+  img_alt_text: "A re-engagement email offering a discount code"
+  img_bg_color: "#FFFFFE"
+  picture_width: 90
+  github_code_url: "https://github.com/capncapes/emails/blob/main/production/precept/products/mkt_yarrow-reengagement_1-discount.html"
+  github_screenshot_url: "https://github.com/capncapes/emails/blob/main/production/precept/products/mkt_yarrow-reengagement_1-discount_600.jpg"
+
+- title: "Product email: Best sellers"
+  id: "bs2405p1"
+  img_webp_src: "/assets/img/portfolio/email/product_2024_best-sellers_05-may_600x1890.gif"
+  img_fallback_src: "/assets/img/portfolio/email/product_2024_best-sellers_05-may_600x1890.gif"
+  img_alt_text: "A promotional product email"
+  img_bg_color: "#DEDCD6"
+  picture_width: 90
+  github_code_url: "https://github.com/capncapes/emails/blob/main/production/precept/products/product_2024_best-sellers_05-may.html"
+  github_screenshot_url: "https://github.com/capncapes/emails/blob/main/production/precept/products/product_2024_best-sellers_05-may_600x1890.gif"
+
 - title: "Welcome campaign: Email #1"
-  img_webp_src: "/assets/img/portfolio/mkt_generic-welcome-series_1-welcome__journey_680x.webp"
-  img_fallback_src: "/assets/img/portfolio/mkt_generic-welcome-series_1-welcome__journey_680x.jpeg"
+  id: "ws22p1"
+  img_webp_src: "/assets/img/portfolio/email/mkt_generic-welcome-series_1-welcome__journey_680x.webp"
+  img_fallback_src: "/assets/img/portfolio/email/mkt_generic-welcome-series_1-welcome__journey_680x.jpeg"
   img_alt_text: "The first email in a welcome series campaign"
   img_bg_color: "#DEDCD6"
   picture_width: 90
@@ -8,8 +29,9 @@
   github_screenshot_url: "https://github.com/capncapes/emails/blob/main/production/precept/mkt_generic-welcome-series_1-welcome__journey.jpeg"
 
 - title: "Welcome campaign: Email #2"
-  img_webp_src: "/assets/img/portfolio/mkt_generic-welcome-series_2-pbsm__journey_680x.webp"
-  img_fallback_src: "/assets/img/portfolio/mkt_generic-welcome-series_2-pbsm__journey_680x.jpeg"
+  id: "ws22p2"
+  img_webp_src: "/assets/img/portfolio/email/mkt_generic-welcome-series_2-pbsm__journey_680x.webp"
+  img_fallback_src: "/assets/img/portfolio/email/mkt_generic-welcome-series_2-pbsm__journey_680x.jpeg"
   img_alt_text: "The second email in a welcome series campaign"
   img_bg_color: "#DEDCD6"
   picture_width: 90
@@ -17,8 +39,9 @@
   github_screenshot_url: "https://github.com/capncapes/emails/blob/main/production/precept/mkt_generic-welcome-series_2-pbsm__journey.jpeg"
 
 - title: "Welcome campaign: Email #3"
-  img_webp_src: "/assets/img/portfolio/mkt_generic-welcome-series_3-discovery-study__journey_680x.webp"
-  img_fallback_src: "/assets/img/portfolio/mkt_generic-welcome-series_3-discovery-study__journey_680x.jpeg"
+  id: "ws22p3"
+  img_webp_src: "/assets/img/portfolio/email/mkt_generic-welcome-series_3-discovery-study__journey_680x.webp"
+  img_fallback_src: "/assets/img/portfolio/email/mkt_generic-welcome-series_3-discovery-study__journey_680x.jpeg"
   img_alt_text: "The third email in a welcome series campaign"
   img_bg_color: "#DEDCD6"
   picture_width: 90
@@ -26,26 +49,39 @@
   github_screenshot_url: "https://github.com/capncapes/emails/blob/main/production/precept/mkt_generic-welcome-series_3-discovery-study__journey.jpeg"
 
 - title: "Welcome campaign: Email #4"
-  img_webp_src: "/assets/img/portfolio/mkt_generic-welcome-series_4-group-locator__journey_680x.webp"
-  img_fallback_src: "/assets/img/portfolio/mkt_generic-welcome-series_4-group-locator__journey_680x.jpeg"
+  id: "ws22p4"
+  img_webp_src: "/assets/img/portfolio/email/mkt_generic-welcome-series_4-group-locator__journey_680x.webp"
+  img_fallback_src: "/assets/img/portfolio/email/mkt_generic-welcome-series_4-group-locator__journey_680x.jpeg"
   img_alt_text: "The fourth email in a welcome series campaign"
   img_bg_color: "#DEDCD6"
   picture_width: 90
   github_code_url: "https://github.com/capncapes/emails/blob/main/production/precept/mkt_generic-welcome-series_4-group-locator__journey.html"
   github_screenshot_url: "https://github.com/capncapes/emails/blob/main/production/precept/mkt_generic-welcome-series_4-group-locator__journey.jpeg"
 
+- title: "Fundraising email with image carousel"
+  id: "yed2312p3"
+  img_webp_src: "/assets/img/portfolio/email/adv_2023_yed_3-nigeria.jpeg"
+  img_fallback_src: "/assets/img/portfolio/email/adv_2023_yed_3-nigeria.jpeg"
+  img_alt_text: "A fundraising email featuring a working image carousel"
+  img_bg_color: "#DEDCD6"
+  picture_width: 100
+  github_code_url: "https://github.com/capncapes/emails/blob/main/production/precept/fundraising/year%20end%20giving/adv_2023_yed_3-nigeria.html"
+  github_screenshot_url: "https://github.com/capncapes/emails/blob/main/production/precept/fundraising/year%20end%20giving/adv_2023_yed_3-nigeria.jpeg"
+
 - title: "Nurture email: Prayer guide"
-  img_webp_src: "/assets/img/portfolio/adv_ml2401_1-prayer-guide_800x.webp"
-  img_fallback_src: "/assets/img/portfolio/adv_ml2401_1-prayer-guide_800x.jpeg"
+  id: "ml2401p1"
+  img_webp_src: "/assets/img/portfolio/email/adv_ml2401_1-prayer-guide_800x.webp"
+  img_fallback_src: "/assets/img/portfolio/email/adv_ml2401_1-prayer-guide_800x.jpeg"
   img_alt_text: "A 2024 prayer guide email"
   img_bg_color: "#DEDCD6"
   picture_width: 100
   github_code_url: "https://github.com/capncapes/emails/blob/main/production/precept/fundraising/adv_ml2401_1-prayer-guide.html"
   github_screenshot_url: "https://github.com/capncapes/emails/blob/main/production/precept/fundraising/adv_ml2401_1-prayer-guide.jpeg"
 
-- title: "Announcement: Product release"
-  img_webp_src: "/assets/img/portfolio/product_2024_faithful-living-together_1-release_600x.webp"
-  img_fallback_src: "/assets/img/portfolio/product_2024_faithful-living-together_1-release_600x.gif"
+- title: "Product email: Release announcement"
+  id: "fl2405y1"
+  img_webp_src: "/assets/img/portfolio/email/product_2024_faithful-living-together_1-release_600x.webp"
+  img_fallback_src: "/assets/img/portfolio/email/product_2024_faithful-living-together_1-release_600x.gif"
   img_alt_text: "A Bible study product release email"
   img_bg_color: "#465C37"
   picture_width: 90
