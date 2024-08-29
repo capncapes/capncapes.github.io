@@ -1,0 +1,65 @@
+---
+layout: portfolio
+title: Website Portfolio
+permalink: /portfolio/web/
+category: Web
+---
+
+{% assign projects = site.data.portfolio | where: 'category', 'web' %}
+{% if projects.size > 0 %}
+<script type="application/ld+json" class="splendid-schema-graph">
+	{
+		"@context": "https://schema.org",
+		"@type": "WebPage",
+		"name": "Website Design Portfolio | Brandon Caples",
+		"description": "A collection of website design and development projects by Brandon Caples.",
+		"url": "{{ site.url }}/portfolio/web/",
+		"mainEntity": {
+			"@type": "ItemList",
+			"name": "Website Portfolio Projects",
+			"itemListElement": [
+				{% for project in projects %}
+				{
+					"@type": "ListItem",
+					"position": {{ forloop.index }},
+					"url": "{{ site.url }}/portfolio/web/{{ project.id }}",
+					"name": "{{ project.title }}"
+				},
+				{% endfor %}
+			]
+		}
+	}
+</script>
+<div class="projects splendid-flex justify-between flex-wrap">
+	{% for project in projects %}
+		<article class="project">
+			<a href="/portfolio/web/{{ project.id }}/">
+				<div class="scroll-img-container rounded shadow" data-title="{{ project.title }}">
+					<picture class="w-full mt-0 mx-auto">
+						<source type="image/webp" srcset="{{ project.img_webp_src }}" >
+						<img src="{{ project.img_fallback_src }}" alt="{{ project.img_alt_text }}" />
+					</picture>
+				</div>
+			</a>
+			<h4 class="text-white">{{ project.title }}</h4>
+		</article>
+	{% endfor %}
+</div>
+
+{% else %}
+<div class="splendid-flex px-6 justify-center items-center bg-white rounded">
+	<h4>There are no projects here yet. Check back later.</h4>
+</div>
+{% endif %}
+
+<script>
+	document.addEventListener('DOMContentLoaded', (event) => {
+		document.querySelectorAll('.project .scroll-img-container').forEach((c) => {
+			let image = c.querySelector('picture');
+			let imageHeight = image.offsetHeight;
+			let containerHeight = c.offsetHeight;
+			let scrollDistance = imageHeight - containerHeight;
+			image.style.transition = 'transform ' + Math.abs((scrollDistance / 100) * 2) + 's linear';
+		})
+	});
+</script>
