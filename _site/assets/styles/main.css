@@ -33,7 +33,7 @@ TABLE OF CONTENTS
 @import url(global/animations.css);
 @import url(global/layout.css);
 @import url(global/flex.css);
-@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&&family=Playfair+Display:wght@900&family=Open+Sans:ital,wght@0,400;0,600;1,400;1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=Open+Sans:ital,wght@0,400;0,600;1,400;1,600&display=swap');
 
 :root {
 	font-size: 16px;
@@ -87,7 +87,7 @@ body *, .splendid-button, blockquote {
 }
 
 h1, h2, h3, h4, h5, h6, blockquote > p:first-child::before {
-	font-family: 'Bodoni', 'Cambria', 'Cochin', 'Georgia', 'Times', 'Times New Roman', serif;
+	font-family: 'DM Serif Display', 'Cambria', 'Cochin', 'Georgia', 'Times', 'Times New Roman', serif;
 }
 
 code, code span, pre, pre span {
@@ -152,33 +152,19 @@ body p a:hover, body p a:active, #post article .tags a, #book-review article .ta
 	2	Typography
 ================================================================ */
 
-/* Bodoni */
+/* DM Serif Display */
 
 @font-face {
-	font-family: 'Bodoni';
-	src: url('../webfonts/bodoni/BodoniFLF-Roman.ttf') format('truetype');
+	font-family: 'DM Serif Display';
+	src: url('../webfonts/DMSerifDisplay/DMSerifDisplay-Regular.ttf') format('truetype');
 	font-weight: normal;
 	font-style: normal;
 }
 
 @font-face {
-	font-family: 'Bodoni';
-	src: url('../webfonts/bodoni/BodoniFLF-Italic.ttf') format('truetype');
+	font-family: 'DM Serif Display';
+	src: url('../webfonts/DMSerifDisplay/DMSerifDisplay-Italic.ttf') format('truetype');
 	font-weight: normal;
-	font-style: italic;
-}
-
-@font-face {
-	font-family: 'Bodoni';
-	src: url('../webfonts/bodoni/BodoniFLF-Bold.ttf') format('truetype');
-	font-weight: bold;
-	font-style: normal;
-}
-
-@font-face {
-	font-family: 'Bodoni';
-	src: url('../webfonts/bodoni/BodoniFLF-BoldItalic.ttf') format('truetype');
-	font-weight: bold;
 	font-style: italic;
 }
 
@@ -196,7 +182,7 @@ body *.font-sans {
 }
 
 body *.font-serif {
-	font-family: 'Bodoni', serif;
+	font-family: 'DM Serif Display', serif;
 }
 
 body *.font-display {
@@ -264,7 +250,7 @@ h6, h6 > * {
 
 h1, h1 > *, h2, h2 > *, h3, h3 > *, h4, h4 > *, h5, h5 > *, h6, h6 > * {
 	margin-top: 0;
-	font-family: 'Bodoni', 'Cambria', 'Cochin', 'Georgia', 'Times', 'Times New Roman', serif;
+	font-family: 'DM Serif Display', 'Cambria', 'Cochin', 'Georgia', 'Times', 'Times New Roman', serif;
 	font-weight: 900 !important;
 	line-height: 1.5;
 }
@@ -339,7 +325,7 @@ header .splendid-logo a {
 }
 
 .nav-link {
-	font-family: 'Raginy', 'Bodoni', 'Open Sans', sans-serif;
+	font-family: 'DM Serif Display', 'Open Sans', sans-serif;
 	line-height: 2.25rem;
 }
 
@@ -1154,7 +1140,7 @@ main article svg .stroke-butt { stroke-linecap: butt; }
 }
 
 #default h1,
-#portfolio h1 { font-family: 'Raginy', 'Bodoni', 'Cambria', 'Cochin', 'Georgia', 'Times', 'Times New Roman', serif; }
+#portfolio h1 { font-family: 'DM Serif Display', 'Cambria', 'Cochin', 'Georgia', 'Times', 'Times New Roman', serif; }
 
 body hr {
 	margin: 3rem 0 1rem;
@@ -1302,7 +1288,7 @@ blockquote::before {
 	position: absolute;
 	top: 0;
 	left: 0.75rem;
-	font-family: 'Playfair Display', 'Bodoni', serif;
+	font-family: 'DM Serif Display', serif;
 	font-size: 9rem;
 	font-style: normal;
 	font-weight: bold;
@@ -1512,7 +1498,9 @@ img[src=""] { display: none !important; }
 /* Opacity */
 
 .opacity-0 { opacity: 0 !important; }
+.opacity-25 { opacity: 25% !important; }
 .opacity-50 { opacity: 50% !important; }
+.opacity-75 { opacity: 75% !important; }
 .opacity-100 { opacity: 100% !important; }
 
 /* Transition */

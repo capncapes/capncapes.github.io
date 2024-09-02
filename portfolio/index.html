@@ -7,12 +7,20 @@ permalink: /portfolio/
 {% assign web = site.data.portfolio | where: 'category', 'web' %}
 {% assign email = site.data.portfolio | where: 'category', 'email' %}
 <div class="splendid-flex flex-col md:flex-row justify-between flex-wrap">
-	<a href="/portfolio/web/" class="splendid-flex flex-col justify-center w-full md:w-40 mb-8 md:mb-0 py-8 px-12 bg-green rounded shadow">
-		<h3 class="m-0 text-white text-center">Website Projects</h3>
-		<p class="m-0 text-xs text-white text-center uppercase">{{ web.size }} projects</p>
+	<a href="/portfolio/web/" class="splendid-flex relative flex-col justify-center w-full md:w-40 mb-8 md:mb-0 py-8 px-12 shadow">
+		<div class="overlay absolute inset-0 w-full h-full bg-green rounded z-10"></div>
+		<div class="absolute inset-0 w-full h-full z-0">
+			<img class="w-full h-full object-cover rounded" src="/assets/img/portfolio/web.webp" alt="A man browsing a website">
+		</div>
+		<h3 class="m-0 text-white text-center z-10">Website Projects</h3>
+		<p class="m-0 text-xs text-white text-center font-bold uppercase z-10">{{ web.size }} projects</p>
 	</a>
-	<a href="/portfolio/email/" class="splendid-flex flex-col justify-center w-full md:w-40 mb-8 md:mb-0 py-8 px-12 bg-blue rounded shadow">
-		<h3 class="m-0 text-white text-center">HTML Email Projects</h3>
-		<p class="m-0 text-xs text-white text-center uppercase">{{ email.size }} projects</p>
+	<a href="/portfolio/email/" class="splendid-flex relative flex-col justify-center w-full md:w-40 mb-8 md:mb-0 py-8 px-12 shadow">
+		<div class="overlay absolute inset-0 w-full h-full bg-blue rounded z-10"></div>
+		<div class="absolute inset-0 w-full h-full z-0">
+			<img class="w-full h-full object-cover rounded" src="/assets/img/portfolio/email.webp" alt="An email app on a smartphone">
+		</div>
+		<h3 class="m-0 text-white text-center z-10">HTML Email Projects</h3>
+		<p class="m-0 text-xs text-white text-center font-bold uppercase z-10">{{ email.size }} projects</p>
 	</a>
 </div>
