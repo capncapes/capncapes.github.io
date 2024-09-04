@@ -2,10 +2,10 @@
 layout: portfolio
 title: Email Portfolio
 permalink: /portfolio/email/
-category: Email
+category: email
 ---
 
-{% assign projects = site.data.portfolio | where: 'category', 'email' %}
+{% assign projects = site.portfolio_email %}
 {% if projects.size > 0 %}
 <script type="application/ld+json" class="splendid-schema-graph">
 	{
@@ -17,17 +17,17 @@ category: Email
 				{
 					"@type": "ListItem",
 					"position": {{ forloop.index }},
-					"url": "{{ project.github_code_url }}",
+					"url": "{{ project.project_url }}",
 					"item": {
 						"@type": "VisualArtwork",
 						"name": "{{ project.title }}",
-						"image": "{{ project.github_screenshot_url }}",
+						"image": "{{ project.featured_image.fallback }}",
 						"creator": {
 							"@type": "Person",
 							"name": "Brandon Caples"
 						},
-						"url": "{{ project.github_code_url }}",
-						"description": "{{ project.img_alt_text }}"
+						"url": "{{ project.project_url }}",
+						"description": "{{ project.description }}"
 					}
 				},
 			{% endfor %}
@@ -37,15 +37,17 @@ category: Email
 <div class="projects splendid-flex justify-between flex-wrap">
 	{% for project in projects %}
 		<article class="project">
-			<a href="/portfolio/email/{{ project.id }}/">
-				<div class="scroll-img-container rounded shadow" data-title="{{ project.title }}" style="background-color:{{ project.img_bg_color }};">
-					<picture class="{% if project.picture_width < 100 %}mt-5 {% endif %}mx-auto w-{{ project.picture_width }}">
-						<source type="image/webp" srcset="{{ project.img_webp_src }}" >
-						<img src="{{ project.img_fallback_src }}" alt="{{ project.img_alt_text }}" />
+			<a href="{{ project.permalink }}">
+				<div class="img-container rounded shadow" data-title="{{ project.title }}">
+					<picture class="w-full mx-auto">
+						<source type="image/webp" srcset="{{ project.featured_image.src }}" >
+						<img src="{{ project.featured_image.fallback }}" alt="{{ project.featured_image.alt }}" title="{{ project.featured_image.title }}" />
 					</picture>
 				</div>
 			</a>
-			<h4 class="text-white">{{ project.title }}</h4>
+			<a href="{{ project.permalink }}" title="{{ project.featured_image.title }}">
+				<h4 class="mt-4 mb-0 text-white" data-title="{{ project.title }}">{{ project.title }}</h4>
+			</a>
 		</article>
 	{% endfor %}
 </div>

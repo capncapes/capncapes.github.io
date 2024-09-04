@@ -43,26 +43,19 @@ scripts:
   squeaky:
   google_fonts: "Roboto:300,600|Roboto+Condensed:700|Playfair+Display:900"
   disqus_shortname:
-  katex: true # Enable if using math markup
-
-# PAGINATION
-# paginate: 3
-# paginate_path: "faith/:num"
-
-# paginate: 4
-# pagination:
-#   - paginate:
-#     path: /faith/:num
-#     per_page: 3
-#   - paginate:
-#     path: /martech/:num
-#     per_page: 2
+  katex: true
 
 # COLLECTIONS
 collections:
   book_reviews:
     output: true
     permalink: /book-reviews/:title
+  portfolio_email:
+    output: true
+    permalink: /:title
+  portfolio_web:
+    output: true
+    permalink: /:title
   ads:
     output: false
 

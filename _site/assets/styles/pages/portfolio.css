@@ -30,6 +30,14 @@ body#portfolio[class^="portfolio-"] {
 	flex-basis: 100%;
 }
 
+#portfolio article.project p:first-child {
+	margin-top: 0 !important;
+}
+
+#portfolio article.project p:last-child {
+	margin-bottom: 0 !important;
+}
+
 #portfolio .projects > .project > footer,
 #portfolio .project footer { column-gap: 2rem; }
 
@@ -52,6 +60,10 @@ body#portfolio[class^="portfolio-"] {
 	-webkit-box-direction: normal;
 	-ms-flex-direction: column;
 	flex-direction: column;
+}
+
+#portfolio .projects article.project {
+	height: fit-content;
 }
 
 @media screen and (min-width: 600px) {
@@ -82,11 +94,20 @@ body#portfolio[class^="portfolio-"] {
 	width: auto;
 	height: 350px;
 	position: relative;
-	background: pink;
+	background: transparent;
 	overflow: hidden;
 }
 
-.scroll-img-container > picture {
+.img-container {
+	width: auto;
+	height: 350px;
+	position: relative;
+	background: transparent;
+	overflow: scroll;
+}
+
+.scroll-img-container > picture,
+.img-container > picture {
 	display: block;
 	height: auto;
 	overflow: hidden;

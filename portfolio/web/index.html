@@ -5,7 +5,7 @@ permalink: /portfolio/web/
 category: Web
 ---
 
-{% assign projects = site.data.portfolio | where: 'category', 'web' %}
+{% assign projects = site.portfolio_web %}
 {% if projects.size > 0 %}
 <script type="application/ld+json" class="splendid-schema-graph">
 	{

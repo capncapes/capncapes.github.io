@@ -185,14 +185,6 @@
   
     
     
-      <url>
-        <loc>http://localhost:4000/portfolio/email/bs2405p1/</loc>
-        
-      </url>
-    
-  
-    
-    
   
     
     
@@ -289,14 +281,6 @@
     
     
       <url>
-        <loc>http://localhost:4000/portfolio/email/fl2405y1/</loc>
-        
-      </url>
-    
-  
-    
-    
-      <url>
         <loc>http://localhost:4000/faith/galatians/</loc>
         
       </url>
@@ -311,14 +295,6 @@
     
   
     
-    
-  
-    
-    
-      <url>
-        <loc>http://localhost:4000/portfolio/web/greenflow/</loc>
-        
-      </url>
     
   
     
@@ -362,7 +338,33 @@
     
     
       <url>
-        <loc>http://localhost:4000/martech/</loc>
+        <loc>http://localhost:4000/book-reviews/2/</loc>
+        
+          <lastmod>2023-10-14T07:41:50-04:00</lastmod>
+        
+      </url>
+    
+  
+    
+    
+      <url>
+        <loc>http://localhost:4000/</loc>
+        
+      </url>
+    
+  
+    
+    
+      <url>
+        <loc>http://localhost:4000/portfolio/email/</loc>
+        
+      </url>
+    
+  
+    
+    
+      <url>
+        <loc>http://localhost:4000/portfolio/</loc>
         
       </url>
     
@@ -380,9 +382,15 @@
     
     
       <url>
-        <loc>http://localhost:4000/book-reviews/2/</loc>
+        <loc>http://localhost:4000/martech/2/</loc>
         
-          <lastmod>2023-10-14T07:41:50-04:00</lastmod>
+      </url>
+    
+  
+    
+    
+      <url>
+        <loc>http://localhost:4000/martech/</loc>
         
       </url>
     
@@ -400,30 +408,6 @@
     
     
       <url>
-        <loc>http://localhost:4000/</loc>
-        
-      </url>
-    
-  
-    
-    
-      <url>
-        <loc>http://localhost:4000/martech/2/</loc>
-        
-      </url>
-    
-  
-    
-    
-      <url>
-        <loc>http://localhost:4000/portfolio/web/</loc>
-        
-      </url>
-    
-  
-    
-    
-      <url>
         <loc>http://localhost:4000/faith/</loc>
         
           <lastmod>2022-10-28T11:52:11-04:00</lastmod>
@@ -434,15 +418,7 @@
     
     
       <url>
-        <loc>http://localhost:4000/portfolio/email/</loc>
-        
-      </url>
-    
-  
-    
-    
-      <url>
-        <loc>http://localhost:4000/portfolio/</loc>
+        <loc>http://localhost:4000/portfolio/web/</loc>
         
       </url>
     
@@ -592,23 +568,7 @@
     
     
       <url>
-        <loc>http://localhost:4000/portfolio/email/ml2401p1/</loc>
-        
-      </url>
-    
-  
-    
-    
-      <url>
         <loc>http://localhost:4000/faith/nahum/</loc>
-        
-      </url>
-    
-  
-    
-    
-      <url>
-        <loc>http://localhost:4000/portfolio/web/nashville-braincore/</loc>
         
       </url>
     
@@ -681,14 +641,6 @@
     
     
       <url>
-        <loc>http://localhost:4000/portfolio/email/re24y1/</loc>
-        
-      </url>
-    
-  
-    
-    
-      <url>
         <loc>http://localhost:4000/resume/</loc>
         
       </url>
@@ -733,46 +685,6 @@
     
       <url>
         <loc>http://localhost:4000/faith/titus/</loc>
-        
-      </url>
-    
-  
-    
-    
-      <url>
-        <loc>http://localhost:4000/portfolio/email/ws22p1/</loc>
-        
-      </url>
-    
-  
-    
-    
-      <url>
-        <loc>http://localhost:4000/portfolio/email/ws22p2/</loc>
-        
-      </url>
-    
-  
-    
-    
-      <url>
-        <loc>http://localhost:4000/portfolio/email/ws22p3/</loc>
-        
-      </url>
-    
-  
-    
-    
-      <url>
-        <loc>http://localhost:4000/portfolio/email/ws22p4/</loc>
-        
-      </url>
-    
-  
-    
-    
-      <url>
-        <loc>http://localhost:4000/portfolio/email/yed2312p3/</loc>
         
       </url>
     

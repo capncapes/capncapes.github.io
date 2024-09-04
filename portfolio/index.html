@@ -4,8 +4,8 @@ title: Portfolio
 permalink: /portfolio/
 ---
 
-{% assign web = site.data.portfolio | where: 'category', 'web' %}
-{% assign email = site.data.portfolio | where: 'category', 'email' %}
+{% assign web = site.portfolio_web | where: 'category', 'web' %}
+{% assign email = site.portfolio_email | where: 'category', 'email' %}
 <div class="splendid-flex flex-col md:flex-row justify-between flex-wrap">
 	<a href="/portfolio/web/" class="splendid-flex relative flex-col justify-center w-full md:w-40 mb-8 md:mb-0 py-8 px-12 shadow">
 		<div class="overlay absolute inset-0 w-full h-full bg-green rounded z-10"></div>
