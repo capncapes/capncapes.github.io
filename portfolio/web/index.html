@@ -30,22 +30,6 @@ category: Web
 		}
 	}
 </script>
-<nav id="breadcrumb" class="px-7 md:px-10" aria-label="breadcrumb">
-	<ol class="splendid-flex relative flex-row max-w-4 mb-0 lg:mx-auto text-white" itemscope itemtype="https://schema.org/BreadcrumbList">
-		<li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
-			<a class="text-xs md:text-sm text-white" itemprop="item" href="/portfolio/">
-				<span itemprop="name">Portfolio</span>
-			</a>
-			<meta itemprop="position" content="1" />
-		</li>
-		<li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
-			<span class="text-xs md:text-sm text-white" itemprop="item" class="font-bold">
-				<span itemprop="name" class="font-bold">Web Projects</span>
-			</span>
-			<meta itemprop="position" content="2" />
-		</li>
-	</ol>
-</nav>
 <div class="projects splendid-flex justify-between flex-wrap">
 	{% for project in projects %}
 		<article class="project">

@@ -27,17 +27,21 @@ body#portfolio[class^="portfolio-"] {
 	content: "//";
 	padding: 0 0.25rem;
 	font-size: 0.85rem !important;
+	color: #F8F9FA;
 }
 
-#portfolio nav#breadcrumb ol > li a {
-	color: #F8F9FA;
+body#portfolio[class^="portfolio-"] nav#breadcrumb ol > li a {
 	-webkit-transition: all 0.3s ease-in-out;
 	-o-transition: all 0.3s ease-in-out;
 	-moz-transition: all 0.3s ease-in-out;
 	transition: all 0.3s ease-in-out;
 }
 
-#portfolio nav#breadcrumb ol > li a:hover {
+body#portfolio[class^="portfolio-"] nav#breadcrumb ol > li a {
+	color: #F8F9FA;
+}
+
+body#portfolio[class^="portfolio-"] nav#breadcrumb ol > li a:hover {
 	color: #F9D423;
 }
 
