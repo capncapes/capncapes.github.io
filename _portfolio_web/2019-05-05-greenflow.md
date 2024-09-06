@@ -6,7 +6,7 @@ date: 2019-05-05 19:19:19 -0500
 permalink: /portfolio/web/greenflow
 featured_image: {
   src: "",
-  fallback: "",
+  fallback: "/assets/img/portfolio/web/greenflow_homepage_450x300.jpg",
   social: "",
   title: "GreenFlow Distribution WordPress website",
   alt: "greenflowusa.com homepage"

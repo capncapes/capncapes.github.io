@@ -131,20 +131,36 @@ body#portfolio[class^="portfolio-"] nav#breadcrumb ol > li a:hover {
 	width: 22px;
 }
 
-.scroll-img-container {
-	width: auto;
-	height: 350px;
-	position: relative;
-	background: transparent;
-	overflow: hidden;
-}
-
-.img-container {
+body#portfolio.portfolio-email .scroll-img-container {
 	width: auto;
 	height: 350px;
 	position: relative;
 	background: transparent;
 	overflow: scroll;
+}
+
+body#portfolio.portfolio-email .img-container {
+	width: auto;
+	height: 350px;
+	position: relative;
+	background: transparent;
+	overflow: scroll;
+}
+
+body#portfolio.portfolio-web .scroll-img-container {
+	width: auto;
+	height: auto;
+	position: relative;
+	background: transparent;
+	overflow: hidden;
+}
+
+body#portfolio.portfolio-web .img-container {
+	width: auto;
+	height: auto;
+	position: relative;
+	background: transparent;
+	overflow: hidden;
 }
 
 .scroll-img-container > picture,

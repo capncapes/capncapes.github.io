@@ -6,7 +6,7 @@ date: 2021-12-03 16:17:18 -0500
 permalink: /portfolio/web/nashville-braincore
 featured_image: {
   src: "",
-  fallback: "",
+  fallback: "/assets/img/portfolio/web/nashville_braincore_homepage_450x300.jpg",
   social: "",
   title: "Nashville BrainCore Neurofeedback",
   alt: "NashvilleBrainCore.com homepage"

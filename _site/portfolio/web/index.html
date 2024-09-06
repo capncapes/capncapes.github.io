@@ -219,44 +219,36 @@
 <div class="projects splendid-flex justify-between flex-wrap">
 	
 		<article class="project">
-			<a href="/portfolio/web//portfolio/web/greenflow/">
-				<div class="scroll-img-container rounded shadow" data-title="GreenFlow Distribution">
+			<a href="/portfolio/web/greenflow">
+				<div class="img-container rounded shadow" data-title="GreenFlow Distribution">
 					<picture class="w-full mt-0 mx-auto">
 						<source type="image/webp" srcset="" >
-						<img src="" alt="" />
+						<img src="/assets/img/portfolio/web/greenflow_homepage_450x300.jpg" alt="greenflowusa.com homepage" title="GreenFlow Distribution WordPress website" />
 					</picture>
 				</div>
 			</a>
-			<h4 class="text-white">GreenFlow Distribution</h4>
+			<a href="/portfolio/web/greenflow" title="GreenFlow Distribution WordPress website">
+				<h4 class="mt-4 mb-0 text-white" data-title="GreenFlow Distribution">GreenFlow Distribution</h4>
+			</a>
 		</article>
 	
 		<article class="project">
-			<a href="/portfolio/web//portfolio/web/nashville-braincore/">
-				<div class="scroll-img-container rounded shadow" data-title="Nashville BrainCore">
+			<a href="/portfolio/web/nashville-braincore">
+				<div class="img-container rounded shadow" data-title="Nashville BrainCore">
 					<picture class="w-full mt-0 mx-auto">
 						<source type="image/webp" srcset="" >
-						<img src="" alt="" />
+						<img src="/assets/img/portfolio/web/nashville_braincore_homepage_450x300.jpg" alt="NashvilleBrainCore.com homepage" title="Nashville BrainCore Neurofeedback" />
 					</picture>
 				</div>
 			</a>
-			<h4 class="text-white">Nashville BrainCore</h4>
+			<a href="/portfolio/web/nashville-braincore" title="Nashville BrainCore Neurofeedback">
+				<h4 class="mt-4 mb-0 text-white" data-title="Nashville BrainCore">Nashville BrainCore</h4>
+			</a>
 		</article>
 	
 </div>
 
 
-
-<script>
-	document.addEventListener('DOMContentLoaded', (event) => {
-		document.querySelectorAll('.project .scroll-img-container').forEach((c) => {
-			let image = c.querySelector('picture');
-			let imageHeight = image.offsetHeight;
-			let containerHeight = c.offsetHeight;
-			let scrollDistance = imageHeight - containerHeight;
-			image.style.transition = 'transform ' + Math.abs((scrollDistance / 100) * 2) + 's linear';
-		})
-	});
-</script>
 		</main>
 		<!-- Footer : BEGIN -->
 <footer id="footer" itemscope itemtype="https://schema.org/WPFooter" class="bg-black text-white">
