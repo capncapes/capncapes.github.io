@@ -165,7 +165,23 @@
 		<div class="px-7 md:px-10">
 			<h1 class="relative max-w-4 lg:mx-auto pt-20 text-3xl lg:text-4xl text-white font-bold">Website Portfolio</h1>
 		</div>
-		<main class="lg:pt-8 pb-16 px-7 md:px-10">
+		<nav id="breadcrumb" class="px-7 md:px-10" aria-label="breadcrumb">
+			<ol class="splendid-flex relative flex-row max-w-4 mb-0 lg:mx-auto text-white" itemscope itemtype="https://schema.org/BreadcrumbList">
+				<li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+					<a class="text-xs md:text-sm text-white" itemprop="item" href="/portfolio/">
+						<span itemprop="name">Portfolio</span>
+					</a>
+					<meta itemprop="position" content="1" />
+				</li>
+				<li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+					<span class="text-xs md:text-sm text-white" itemprop="item" class="font-bold">
+						<span itemprop="name" class="font-bold">Web Projects</span>
+					</span>
+					<meta itemprop="position" content="2" />
+				</li>
+			</ol>
+		</nav>
+		<main class="pt-6 pb-16 px-7 md:px-10">
 			
 
 <script type="application/ld+json" class="splendid-schema-graph">
@@ -198,6 +214,22 @@
 		}
 	}
 </script>
+<nav id="breadcrumb" class="px-7 md:px-10" aria-label="breadcrumb">
+	<ol class="splendid-flex relative flex-row max-w-4 mb-0 lg:mx-auto text-white" itemscope itemtype="https://schema.org/BreadcrumbList">
+		<li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+			<a class="text-xs md:text-sm text-white" itemprop="item" href="/portfolio/">
+				<span itemprop="name">Portfolio</span>
+			</a>
+			<meta itemprop="position" content="1" />
+		</li>
+		<li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+			<span class="text-xs md:text-sm text-white" itemprop="item" class="font-bold">
+				<span itemprop="name" class="font-bold">Web Projects</span>
+			</span>
+			<meta itemprop="position" content="2" />
+		</li>
+	</ol>
+</nav>
 <div class="projects splendid-flex justify-between flex-wrap">
 	
 		<article class="project">

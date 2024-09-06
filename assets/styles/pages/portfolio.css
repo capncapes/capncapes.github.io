@@ -6,8 +6,39 @@ body#portfolio[class^="portfolio-"] {
 	background: linear-gradient(160deg, #44596e 40%, #30475e 60%);
 }
 
-#portfolio h1 {
+#portfolio h1,
+#portfolio nav#breadcrumb ol {
 	width: calc(100% - 5rem);
+}
+
+#portfolio nav#breadcrumb ol {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	padding: 0 !important;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: row;
+    flex-direction: row;
+	list-style-type: none !important;
+}
+
+#portfolio nav#breadcrumb ol > li:not(:last-child):after {
+	content: "//";
+	padding: 0 0.25rem;
+	font-size: 0.85rem !important;
+}
+
+#portfolio nav#breadcrumb ol > li a {
+	color: #F8F9FA;
+	-webkit-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+}
+
+#portfolio nav#breadcrumb ol > li a:hover {
+	color: #F9D423;
 }
 
 #portfolio a > .overlay {
@@ -76,6 +107,12 @@ body#portfolio[class^="portfolio-"] {
 
 	#portfolio .projects .project {
 		flex-basis: 48%;
+	}
+
+	#portfolio nav#breadcrumb ol > li:not(:last-child):after {
+		content: "//";
+		padding: 0 0.5rem;
+		font-size: 1rem !important;
 	}
 }
 
