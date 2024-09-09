@@ -35,13 +35,13 @@
 				</li>
 			</ol>
 		</nav>
-		<main class="pt-6 pb-16 px-7 md:px-10">
+		<main class="pt-12 pb-16 px-7 md:px-10">
 			{% if page.category == 'email' %}
 				<article class="project" data-title="{{ page.title }}">
 					<div class="splendid-flex flex-col lg:flex-row justify-between flex-nowrap">
 						<div class="w-full lg:w-40 mb-8 lg:mr-8 lg:mb-0">
-							<a href="/portfolio/{{ page.category }}" class="block mb-8 py-3 px-6 text-black text-left bg-white uppercase rounded" title="Return to view more portfolio emails">&larr; Back</a>
-							<div class="m-0 py-3 px-6 text-sm bg-white rounded">
+							<a href="/portfolio/{{ page.category }}" class="block mb-8 py-3 px-6 text-black text-left bg-white uppercase rounded" title="Return to view more portfolio emails">&larr; Back to emails</a>
+							<div class="m-0 py-8 px-6 text-sm bg-white rounded">
 								{{ content }}
 							</div>
 						</div>
@@ -55,10 +55,10 @@
 			{% if page.category == 'web' %}
 				<article class="project" data-title="{{ page.title }}">
 					<div class="splendid-flex w-full md:mr-8 flex-row justify-between flex-nowrap">
-						<a href="/portfolio/web/" class="block mb-8 py-3 px-6 text-black text-left bg-white uppercase rounded" title="Return to view more website projects">&larr; Back</a>
+						<a href="/portfolio/web/" class="block mb-8 py-3 px-6 text-black text-left bg-white uppercase rounded" title="Return to view more website projects">&larr; Back to web projects</a>
 						<a href="{{ page.project_url }}?ref=brandoncaples.com" class="block mb-8 py-3 px-6 text-black text-left bg-white uppercase rounded" title="View this project in production" target="_blank">View this project</a>
 					</div>
-					<div class="w-full mt-8 md:mt-0 py-8 px-12 bg-white rounded">
+					<div class="w-full mt-8 md:mt-0 py-16 px-12 bg-white rounded">
 						{{ content }}
 					</div>
 					{% if page.testimonial %}

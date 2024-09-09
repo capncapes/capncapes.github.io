@@ -30,16 +30,11 @@ category: Web
 		}
 	}
 </script>
-<div class="projects splendid-flex justify-between flex-wrap">
+<div class="projects max-w-4 mb-0 lg:mx-auto">
 	{% for project in projects %}
-		<article class="project">
+		<article class="project splendid-flex flex-col" data-title="{{ project.title }}">
 			<a href="{{ project.permalink }}">
-				<div class="img-container rounded shadow" data-title="{{ project.title }}">
-					<picture class="w-full mt-0 mx-auto">
-						<source type="image/webp" srcset="{{ project.featured_image.src }}" >
-						<img src="{{ project.featured_image.fallback }}" alt="{{ project.featured_image.alt }}" title="{{ project.featured_image.title }}" />
-					</picture>
-				</div>
+				<img src="{{ project.featured_image.src }}" class="relative text-black" alt="{{ project.featured_image.alt }}" title="{{ project.featured_image.title }}" />
 			</a>
 			<a href="{{ project.permalink }}" title="{{ project.featured_image.title }}">
 				<h4 class="mt-4 mb-0 text-white" data-title="{{ project.title }}">{{ project.title }}</h4>

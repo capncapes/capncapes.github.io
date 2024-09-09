@@ -36,9 +36,9 @@ category: email
 </script>
 <div class="projects splendid-flex justify-between flex-wrap">
 	{% for project in projects %}
-		<article class="project">
+		<article class="project" data-title="{{ project.title }}">
 			<a href="{{ project.permalink }}">
-				<div class="img-container rounded shadow" data-title="{{ project.title }}">
+				<div class="img-container rounded shadow">
 					<picture class="w-full mx-auto">
 						<source type="image/webp" srcset="{{ project.featured_image.src }}" >
 						<img src="{{ project.featured_image.fallback }}" alt="{{ project.featured_image.alt }}" title="{{ project.featured_image.title }}" />

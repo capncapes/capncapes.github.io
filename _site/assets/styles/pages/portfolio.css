@@ -6,10 +6,12 @@ body#portfolio[class^="portfolio-"] {
 	background: linear-gradient(160deg, #44596e 40%, #30475e 60%);
 }
 
-#portfolio h1,
+/* Breadcrumb navigation */
+
+/* #portfolio h1,
 #portfolio nav#breadcrumb ol {
 	width: calc(100% - 5rem);
-}
+} */
 
 #portfolio nav#breadcrumb ol {
 	display: -webkit-box;
@@ -57,16 +59,22 @@ body#portfolio[class^="portfolio-"] nav#breadcrumb ol > li a:hover {
 	opacity: 75%;
 }
 
-#portfolio .projects {
-	row-gap: 4rem;
-}
-
-#portfolio .projects .project {
-	flex-basis: 100%;
+#portfolio article.project h2,
+#portfolio article.project h3,
+#portfolio article.project h4,
+#portfolio article.project h5,
+#portfolio article.project h6 {
+	margin-top: 1.5rem;
+	margin-bottom: 0.5rem;
 }
 
 #portfolio article.project p:first-child {
 	margin-top: 0 !important;
+}
+
+#portfolio .projects .project p {
+	margin-top: 0;
+	margin-bottom: 1rem;
 }
 
 #portfolio article.project p:last-child {
@@ -91,26 +99,51 @@ body#portfolio[class^="portfolio-"] nav#breadcrumb ol > li a:hover {
 }
 
 #portfolio .projects {
-	-webkit-box-orient: vertical;
+	/* -webkit-box-orient: vertical;
 	-webkit-box-direction: normal;
 	-ms-flex-direction: column;
-	flex-direction: column;
+	flex-direction: column; */
+	display: -ms-grid;
+	display: grid;
+	width: auto;
+	margin-left: auto !important;
+	margin-right: auto !important;
+	grid-auto-flow: row;
+	gap: 1.5rem;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	list-style: none;
 }
 
 #portfolio .projects article.project {
 	height: fit-content;
 }
 
+#portfolio .projects {
+	row-gap: 2.75rem;
+}
+
+/* #portfolio .projects .project {
+	flex-basis: 100%;
+} */
+
 @media screen and (min-width: 600px) {
 	#portfolio .projects {
-		-webkit-box-orient: horizontal;
+		/* -webkit-box-orient: horizontal;
 		-webkit-box-direction: normal;
 		-ms-flex-direction: row;
-		flex-direction: row;
+		flex-direction: row; */
+		-ms-grid-columns: (1fr) [2];
+		grid-template-columns: repeat(2, 1fr);
 	}
 
-	#portfolio .projects .project {
-		flex-basis: 48%;
+	#portfolio .projects .project:nth-child(1) {
+		/* flex-basis: 48%; */
+		-ms-grid-row: 1;
+		grid-row: 1;
+		-ms-grid-column: 1;
+		grid-column: 1;
 	}
 
 	#portfolio nav#breadcrumb ol > li:not(:last-child):after {
@@ -118,12 +151,29 @@ body#portfolio[class^="portfolio-"] nav#breadcrumb ol > li a:hover {
 		padding: 0 0.5rem;
 		font-size: 1rem !important;
 	}
+
+	body#portfolio.portfolio-web .projects .project img {
+		width: 100%;
+	}
 }
 
 @media screen and (min-width: 900px) {
-	#portfolio .projects .project {
-		flex-basis: 30%;
+	body#portfolio.portfolio-email .projects {
+		-ms-grid-columns: (1fr) [3];
+		grid-template-columns: repeat(3, 1fr);
 	}
+
+	body#portfolio.portfolio-web .projects {
+		-ms-grid-columns: (1fr) [2];
+		grid-template-columns: repeat(2, 1fr);
+	}
+}
+
+body#portfolio.portfolio-email .projects {
+	overflow-y: scroll;
+	scrollbar-color: #30475E #30475E;
+	scrollbar-width: thin;
+	overflow-x: hidden;
 }
 
 #portfolio .projects > .project > footer svg,
@@ -174,3 +224,60 @@ body#portfolio.portfolio-web .img-container {
 	cursor: pointer;
 	transform: translateY(calc(-100% + 260px));
 }
+
+body#portfolio.portfolio-web .projects .project img {
+	width: 100%;
+	height: auto;
+	display: block;
+	background-color: #DEDECA;
+	aspect-ratio: 3 / 2;
+}
+
+/* body#portfolio.portfolio-web .projects .project img::before {
+	content: 'Image failed to load';
+	color: #999;
+	font-size: 14px;
+	display: block;
+	text-align: center;
+	padding-top: 80px;
+} */
+
+/* body#portfolio.portfolio-web .projects .project picture {
+	display: block;
+	position: relative;
+	width: 100%;
+	height: auto;
+	background-color: #DEDECA;
+	aspect-ratio: 3 / 2;
+} */
+  
+body#portfolio.portfolio-web .projects .project img:before {
+	content: '!';
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	font-size: 5rem;
+	line-height: 1;
+	font-family: 'DM Serif Display', 'Cambria', 'Cochin', 'Georgia', 'Times', 'Times New Roman', serif;
+	font-weight: 900;
+	color: #B1B1A1;
+	transform: translate(-50%, -50%);
+}
+
+/* Container scrollbar */
+
+/* ::-webkit-scrollbar {
+	width: 10px;
+}
+
+::-webkit-scrollbar-track {
+	background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+	background: #888;
+}
+
+::-webkit-scrollbar-thumb:hover {
+	background: #555;
+} */
