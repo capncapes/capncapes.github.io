@@ -13,7 +13,8 @@ featured_image: {
 }
 description: "This is the first email in a re-engagement campaign."
 project_url: "https://github.com/capncapes/emails/blob/main/disengaged/yarrow_mkt_yarrow-reengagement_1-discount.html"
-tags: ["engagement"]
+tags: ["engagement", "AMPscript"]
+priority: 0
 featured: true
 published: true
 ---

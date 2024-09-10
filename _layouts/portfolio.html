@@ -11,7 +11,7 @@
 		{% endif %}
 		{% include header.html %}
 		<div class="px-7 md:px-10">
-			<h1 class="relative max-w-4 lg:mx-auto pt-20 text-3xl lg:text-4xl{% if page.url != '/portfolio/' %} text-white{% endif %} font-bold">{{ page.title }}</h1>
+			<h1 class="relative max-w-4 mx-auto pt-20 text-3xl lg:text-4xl{% if page.url != '/portfolio/' %} text-white{% endif %} font-bold">{{ page.title }}</h1>
 		</div>
 		{% if page.url != '/portfolio/' %}
 			<nav id="breadcrumb" class="px-7 md:px-10" aria-label="breadcrumb">
@@ -31,9 +31,7 @@
 				</ol>
 			</nav>
 		{% endif %}
-		<main class="pt-6 pb-16 px-7 md:px-10">
-			{{ content }}
-		</main>
+		{{ content }}
 		{% include footer.html %}
 	</body>
 </html>

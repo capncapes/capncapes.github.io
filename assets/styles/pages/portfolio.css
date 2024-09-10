@@ -8,11 +8,6 @@ body#portfolio[class^="portfolio-"] {
 
 /* Breadcrumb navigation */
 
-/* #portfolio h1,
-#portfolio nav#breadcrumb ol {
-	width: calc(100% - 5rem);
-} */
-
 #portfolio nav#breadcrumb ol {
 	display: -webkit-box;
 	display: -ms-flexbox;
@@ -99,10 +94,6 @@ body#portfolio[class^="portfolio-"] nav#breadcrumb ol > li a:hover {
 }
 
 #portfolio .projects {
-	/* -webkit-box-orient: vertical;
-	-webkit-box-direction: normal;
-	-ms-flex-direction: column;
-	flex-direction: column; */
 	display: -ms-grid;
 	display: grid;
 	width: auto;
@@ -124,22 +115,13 @@ body#portfolio[class^="portfolio-"] nav#breadcrumb ol > li a:hover {
 	row-gap: 2.75rem;
 }
 
-/* #portfolio .projects .project {
-	flex-basis: 100%;
-} */
-
 @media screen and (min-width: 600px) {
 	#portfolio .projects {
-		/* -webkit-box-orient: horizontal;
-		-webkit-box-direction: normal;
-		-ms-flex-direction: row;
-		flex-direction: row; */
 		-ms-grid-columns: (1fr) [2];
 		grid-template-columns: repeat(2, 1fr);
 	}
 
 	#portfolio .projects .project:nth-child(1) {
-		/* flex-basis: 48%; */
 		-ms-grid-row: 1;
 		grid-row: 1;
 		-ms-grid-column: 1;
@@ -224,27 +206,9 @@ body#portfolio.portfolio-web .projects .project img {
 	width: 100%;
 	height: auto;
 	display: block;
-	background-color: #DEDECA;
+	background-color: #F8F9FA;
 	aspect-ratio: 3 / 2;
 }
-
-/* body#portfolio.portfolio-web .projects .project img::before {
-	content: 'Image failed to load';
-	color: #999;
-	font-size: 14px;
-	display: block;
-	text-align: center;
-	padding-top: 80px;
-} */
-
-/* body#portfolio.portfolio-web .projects .project picture {
-	display: block;
-	position: relative;
-	width: 100%;
-	height: auto;
-	background-color: #DEDECA;
-	aspect-ratio: 3 / 2;
-} */
   
 body#portfolio.portfolio-web .projects .project img:before {
 	content: '!';
@@ -258,21 +222,3 @@ body#portfolio.portfolio-web .projects .project img:before {
 	color: #B1B1A1;
 	transform: translate(-50%, -50%);
 }
-
-/* Container scrollbar */
-
-/* ::-webkit-scrollbar {
-	width: 10px;
-}
-
-::-webkit-scrollbar-track {
-	background: #f1f1f1;
-}
-
-::-webkit-scrollbar-thumb {
-	background: #888;
-}
-
-::-webkit-scrollbar-thumb:hover {
-	background: #555;
-} */

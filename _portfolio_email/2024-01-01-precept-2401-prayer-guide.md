@@ -1,6 +1,6 @@
 ---
 layout: portfolio_single
-title: "Product email, best-selling products (August promotion)"
+title: "Nurture email, prayer guide"
 category: email
 date: 2024-01-01 08:01:02 -0500
 permalink: /portfolio/email/precept-2401-prayer-guide
@@ -11,9 +11,10 @@ featured_image: {
   title: "A nurture email with prayer requests",
   alt: "A screenshot of a nurture email for Precept"
 }
-description: "This email features top-selling products for August promotion."
+description: "This email features cross-client rounded corners, even in Outlook!"
 project_url: "https://github.com/capncapes/emails/blob/main/fundraising/precept_adv_ml2401_1-prayer-guide.html"
 tags: ["nurture", "fundraising"]
+priority: 1
 featured: false
 published: true
 ---

@@ -13,7 +13,8 @@ featured_image: {
 }
 description: "This is the third email in a welcome series campaign."
 project_url: "https://github.com/capncapes/emails/blob/main/welcome/precept_mkt_generic-welcome-series_3-discovery-study__journey.html"
-tags: ["welcome", "download"]
+tags: ["welcome", "downloads"]
+priority: 2
 featured: false
 published: true
 ---

@@ -13,7 +13,8 @@ featured_image: {
 }
 description: "This is the third email in a year-end fundraising campaign."
 project_url: "https://github.com/capncapes/emails/blob/main/fundraising/year%20end%20giving/precept_adv_2023_yed_3-nigeria.html"
-tags: ["fundraising", "interactive"]
+tags: ["fundraising", "interactive", "AMPscript"]
+priority: 1
 featured: false
 published: true
 ---

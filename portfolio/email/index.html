@@ -34,30 +34,43 @@ category: email
 		]
 	}
 </script>
-<div class="projects splendid-flex justify-between flex-wrap">
-	{% for project in projects %}
-		<article class="project" data-title="{{ project.title }}">
-			<a href="{{ project.permalink }}">
-				<div class="img-container rounded shadow">
-					<picture class="w-full mx-auto">
-						<source type="image/webp" srcset="{{ project.featured_image.src }}" >
-						<img src="{{ project.featured_image.fallback }}" alt="{{ project.featured_image.alt }}" title="{{ project.featured_image.title }}" />
-					</picture>
-				</div>
-			</a>
-			<a href="{{ project.permalink }}" title="{{ project.featured_image.title }}">
-				<h4 class="mt-4 mb-0 text-white" data-title="{{ project.title }}">{{ project.title }}</h4>
-			</a>
-		</article>
-	{% endfor %}
-</div>
+<section class="mt-8 pt-10 pb-16 lg:pb-20 px-7 md:px-10 bg-sand">
+	<p class="relative max-w-4 my-0 mx-auto text-xs lg:text-sm font-normal">Welcome to my email development portfolio, where you will find a selection of the hundreds of HTML emails I've built during my career. Each email below can be previewed by hovering over the email and scrolling.</p>
+</section>
+<main class="-mt-16 pt-6 pb-16 px-7 md:px-10">
+	<div class="projects splendid-flex justify-between flex-wrap">
+		{% for project in projects %}
+			<article class="project" data-title="{{ project.title }}">
+				<a href="{{ project.permalink }}">
+					<div class="img-container rounded shadow">
+						<picture class="w-full mx-auto">
+							<source type="image/webp" srcset="{{ project.featured_image.src }}" >
+							<img src="{{ project.featured_image.fallback }}" alt="{{ project.featured_image.alt }}" title="{{ project.featured_image.title }}" />
+						</picture>
+					</div>
+				</a>
+				<a href="{{ project.permalink }}" title="{{ project.featured_image.title }}">
+					<h4 class="mt-4 mb-0 text-base text-white" data-title="{{ project.title }}">{{ project.title }}</h4>
+				</a>
+			</article>
+		{% endfor %}
+	</div>
 
-{% else %}
-<div class="splendid-flex px-6 justify-center items-center bg-white rounded">
-	<h4>There are no email projects here yet. Check back later.</h4>
-</div>
-{% endif %}
+	{% else %}
+	<div class="splendid-flex px-6 justify-center items-center bg-white rounded">
+		<h4>There are no email projects here yet. Check back later.</h4>
+	</div>
+	{% endif %}
 
+</main>
+<section class="py-12 lg:py-20 px-7 md:px-10 bg-stone">
+	<header class="max-w-4 mx-auto pb-0 text-green">
+		<h2>My email development journey</h2>
+	</header>
+	<p class="relative max-w-4 mb-5 mx-auto text-xs lg:text-sm font-normal">I have always had a preference for working with &ldquo;vanilla&rdquo; HTML, CSS, and JavaScript, which led me further into email development. I had been putting together email campaigns for years by the time I started coding emails, but my development skills allowed me to craft better, more performant emails.</p>
+	<p class="relative max-w-4 mb-5 mx-auto text-xs lg:text-sm font-normal">I found my passion for the unique challenges of email development. There are so many quirks, hacks, and bugs when it comes to HTML emails rendering consistently across email clients like Outlook, Gmail, and Yahoo, but I love the challenge.</p>
+	<p class="relative max-w-4 mb-0 mx-auto text-xs lg:text-sm font-normal">Throughout my work, I’ve always prioritized responsiveness, accessibility, and deliverability, ensuring that every email I create not only looks great but also performs well in the inbox.</p>
+</section>
 <script>
 	document.addEventListener('DOMContentLoaded', (event) => {
 		document.querySelectorAll('.project .scroll-img-container').forEach((c) => {
