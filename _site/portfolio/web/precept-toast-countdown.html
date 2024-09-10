@@ -196,15 +196,46 @@
 						<a href="https://www.precept.org?ref=brandoncaples.com" class="block mb-8 py-3 px-6 text-black text-left bg-white uppercase rounded" title="View this project in production" target="_blank">View this project</a>
 					</div>
 					<div class="w-full mt-8 md:mt-0 py-16 px-12 bg-white rounded">
-						<picture class="block md:mx-12 xl:mx-0">
+						<p>In this project, I enhanced a custom website toast on a WordPress site by adding a countdown timer feature. The timer counts down to a specific time that can be set in the UI by the user. For countdowns less than 24 hours away, there is an option to exclude the day number, providing a more streamlined display. The existing elements of the toast, such as the headline, description, and call-to-action (CTA), were left intact to ensure consistency while integrating the new functionality.</p>
+
+<picture class="block md:mx-12 xl:mx-0">
 	<source type="image/webp" srcset="/assets/img/portfolio/web/precept/precept_toast_countdown_dhms_1000x172.webp" />
 	<img src="/assets/img/portfolio/web/precept/precept_toast_countdown_dhms_1000x172.png" class="shadow" alt="A countdown timer on a website toast modal" />
 </picture>
+
+<h3 id="requirements">Requirements</h3>
+
+<p>The toast needed to count down to a specified point in time while adhering to style guidelines and allowing the signed-in user to easily select options for the toast from the WordPress dashboard.</p>
+
+<h3 id="solution">Solution</h3>
+
+<p>I used the Advanced Custom Fields plugin to add options to the user interface of the custom post type for website toasts. Within the template file, I added a small snippet of JavaScript to decrement the timer.</p>
+
+<figure class="highlight"><pre><code class="language-javascript" data-lang="javascript"><span class="nb">document</span><span class="p">.</span><span class="nx">addEventListener</span><span class="p">(</span><span class="dl">'</span><span class="s1">DOMContentLoaded</span><span class="dl">'</span><span class="p">,</span> <span class="p">()</span> <span class="o">=&gt;</span> <span class="p">{</span>
+	<span class="kd">let</span> <span class="nx">countdownDate</span> <span class="o">=</span> <span class="k">new</span> <span class="nb">Date</span><span class="p">(</span><span class="nb">document</span><span class="p">.</span><span class="nx">getElementById</span><span class="p">(</span><span class="dl">'</span><span class="s1">campaign-countdown</span><span class="dl">'</span><span class="p">).</span><span class="nx">dataset</span><span class="p">.</span><span class="nx">countdown</span><span class="p">).</span><span class="nx">getTime</span><span class="p">();</span>
+	<span class="kd">let</span> <span class="nx">timerX</span> <span class="o">=</span> <span class="nx">setInterval</span><span class="p">(</span><span class="kd">function</span><span class="p">()</span> <span class="p">{</span>
+		<span class="kd">let</span> <span class="nx">now</span> <span class="o">=</span> <span class="k">new</span> <span class="nb">Date</span><span class="p">().</span><span class="nx">getTime</span><span class="p">();</span>
+		<span class="kd">let</span> <span class="nx">duration</span> <span class="o">=</span> <span class="nx">countdownDate</span> <span class="o">-</span> <span class="nx">now</span><span class="p">;</span>
+		<span class="nb">document</span><span class="p">.</span><span class="nx">querySelector</span><span class="p">(</span><span class="dl">'</span><span class="s1">#campaign-countdown .days .number</span><span class="dl">'</span><span class="p">).</span><span class="nx">innerHTML</span> <span class="o">=</span> <span class="nx">formatTimer</span><span class="p">(</span><span class="nb">Math</span><span class="p">.</span><span class="nx">floor</span><span class="p">(</span><span class="nx">duration</span> <span class="o">/</span> <span class="p">(</span><span class="mi">1000</span> <span class="o">*</span> <span class="mi">60</span> <span class="o">*</span> <span class="mi">60</span> <span class="o">*</span> <span class="mi">24</span><span class="p">)));</span>
+		<span class="nb">document</span><span class="p">.</span><span class="nx">querySelector</span><span class="p">(</span><span class="dl">'</span><span class="s1">#campaign-countdown .hours .number</span><span class="dl">'</span><span class="p">).</span><span class="nx">innerHTML</span> <span class="o">=</span> <span class="nx">formatTimer</span><span class="p">(</span><span class="nb">Math</span><span class="p">.</span><span class="nx">floor</span><span class="p">((</span><span class="nx">duration</span> <span class="o">%</span> <span class="p">(</span><span class="mi">1000</span> <span class="o">*</span> <span class="mi">60</span> <span class="o">*</span> <span class="mi">60</span> <span class="o">*</span> <span class="mi">24</span><span class="p">))</span> <span class="o">/</span> <span class="p">(</span><span class="mi">1000</span> <span class="o">*</span> <span class="mi">60</span> <span class="o">*</span> <span class="mi">60</span><span class="p">)));</span>
+		<span class="nb">document</span><span class="p">.</span><span class="nx">querySelector</span><span class="p">(</span><span class="dl">'</span><span class="s1">#campaign-countdown .minutes .number</span><span class="dl">'</span><span class="p">).</span><span class="nx">innerHTML</span> <span class="o">=</span> <span class="nx">formatTimer</span><span class="p">(</span><span class="nb">Math</span><span class="p">.</span><span class="nx">floor</span><span class="p">((</span><span class="nx">duration</span> <span class="o">%</span> <span class="p">(</span><span class="mi">1000</span> <span class="o">*</span> <span class="mi">60</span> <span class="o">*</span> <span class="mi">60</span><span class="p">))</span> <span class="o">/</span> <span class="p">(</span><span class="mi">1000</span> <span class="o">*</span> <span class="mi">60</span><span class="p">)));</span>
+		<span class="nb">document</span><span class="p">.</span><span class="nx">querySelector</span><span class="p">(</span><span class="dl">'</span><span class="s1">#campaign-countdown .seconds .number</span><span class="dl">'</span><span class="p">).</span><span class="nx">innerHTML</span> <span class="o">=</span> <span class="nx">formatTimer</span><span class="p">(</span><span class="nb">Math</span><span class="p">.</span><span class="nx">floor</span><span class="p">((</span><span class="nx">duration</span> <span class="o">%</span> <span class="p">(</span><span class="mi">1000</span> <span class="o">*</span> <span class="mi">60</span><span class="p">))</span> <span class="o">/</span> <span class="mi">1000</span><span class="p">));</span>
+		<span class="k">if</span> <span class="p">(</span><span class="nx">duration</span> <span class="o">&lt;</span> <span class="mi">0</span><span class="p">)</span> <span class="p">{</span>
+			<span class="nx">clearInterval</span><span class="p">(</span><span class="nx">timerX</span><span class="p">);</span>
+			<span class="nb">document</span><span class="p">.</span><span class="nx">querySelectorAll</span><span class="p">(</span><span class="dl">'</span><span class="s1">#campaign-countdown .number</span><span class="dl">'</span><span class="p">).</span><span class="nx">forEach</span><span class="p">(</span><span class="nx">num</span> <span class="o">=&gt;</span> <span class="nx">num</span><span class="p">.</span><span class="nx">innerHTML</span> <span class="o">=</span> <span class="dl">'</span><span class="s1">00</span><span class="dl">'</span><span class="p">);</span>
+		<span class="p">}</span>
+	<span class="p">},</span> <span class="mi">1000</span><span class="p">);</span>
+	<span class="kd">function</span> <span class="nx">formatTimer</span><span class="p">(</span><span class="nx">n</span><span class="p">)</span> <span class="p">{</span> <span class="k">return</span> <span class="p">(</span><span class="nx">n</span> <span class="o">&lt;</span> <span class="mi">10</span><span class="p">)</span> <span class="p">?</span> <span class="dl">'</span><span class="s1">0</span><span class="dl">'</span> <span class="o">+</span> <span class="nx">n</span> <span class="p">:</span> <span class="nx">n</span> <span class="p">}</span>
+<span class="p">})</span></code></pre></figure>
 
 <picture class="block md:mx-12 xl:mx-0">
 	<source type="image/webp" srcset="/assets/img/portfolio/web/precept/precept_toast_countdown_hms_1000x172.webp" />
 	<img src="/assets/img/portfolio/web/precept/precept_toast_countdown_hms_1000x172.png" class="shadow" alt="A countdown timer on a website toast modal on Precept.org" />
 </picture>
+
+<h3 id="conclusion">Conclusion</h3>
+
+<p>The countdown feature works very well and is used often to countdown to the end of fundraising campaigns.</p>
 
 					</div>
 					

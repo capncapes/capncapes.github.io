@@ -22,7 +22,7 @@ category: Web
 				{
 					"@type": "ListItem",
 					"position": {{ forloop.index }},
-					"url": "{{ site.url }}/portfolio/web/{{ project.id }}",
+					"url": "{{ project.project_url }}",
 					"name": "{{ project.title }}"
 				},
 				{% endfor %}

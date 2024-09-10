@@ -169,13 +169,6 @@ body#portfolio[class^="portfolio-"] nav#breadcrumb ol > li a:hover {
 	}
 }
 
-body#portfolio.portfolio-email .projects {
-	overflow-y: scroll;
-	scrollbar-color: #30475E #30475E;
-	scrollbar-width: thin;
-	overflow-x: hidden;
-}
-
 #portfolio .projects > .project > footer svg,
 #portfolio .project footer svg {
 	width: 22px;
@@ -194,7 +187,9 @@ body#portfolio.portfolio-email .img-container {
 	height: 350px;
 	position: relative;
 	background: transparent;
-	overflow: scroll;
+	overflow-y: scroll;
+	overflow-x: hidden;
+	scrollbar-width: none;
 }
 
 body#portfolio.portfolio-web .scroll-img-container {
