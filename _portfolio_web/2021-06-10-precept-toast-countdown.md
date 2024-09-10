@@ -5,9 +5,9 @@ category: web
 date: 2021-06-10 10:55:00 -0500
 permalink: /portfolio/web/precept-toast-countdown
 featured_image: {
-  src: "/assets/img/portfolio/web/precept/",
-  fallback: "/assets/img/portfolio/web/precept/",
-  social: "/assets/img/portfolio/web/precept/",
+  src: "/assets/img/portfolio/web/precept/precept_toast_countdown_dhms_450x300.webp",
+  fallback: "/assets/img/portfolio/web/precept/precept_toast_countdown_dhms_450x300.jpg",
+  social: "/assets/img/portfolio/web/precept/precept_toast_countdown_dhms_1200x630.jpg",
   title: "Precept website",
   alt: "precept.org homepage"
 }

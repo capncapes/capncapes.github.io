@@ -36,7 +36,7 @@
 	
 		<meta property="og:title" content="Precept toast: Image feature">
 	
-	<meta property="og:image" content="http://localhost:4000/assets/img//assets/img/portfolio/web/precept/">
+	<meta property="og:image" content="http://localhost:4000/assets/img//assets/img/portfolio/web/precept/precept_toast_image_450x300.jpg">
 	<meta property="og:description" content="I added an image feature to an existing website toast element.">
 	
 
@@ -50,7 +50,7 @@
 	<meta property="twitter:url" content="http://localhost:4000/portfolio/web/precept-toast-image">
 	<meta name="twitter:title" content="Precept toast: Image feature">
 	<meta name="twitter:description" content="I added an image feature to an existing website toast element.">
-	<meta name="twitter:image" content="http://localhost:4000/assets/img//assets/img/portfolio/web/precept/">
+	<meta name="twitter:image" content="http://localhost:4000/assets/img//assets/img/portfolio/web/precept/precept_toast_image_450x300.jpg">
 	<meta name="twitter:image:alt" content="precept.org homepage">
 
 	<!-- CSS -->
@@ -196,15 +196,29 @@
 						<a href="https://www.precept.org?ref=brandoncaples.com" class="block mb-8 py-3 px-6 text-black text-left bg-white uppercase rounded" title="View this project in production" target="_blank">View this project</a>
 					</div>
 					<div class="w-full mt-8 md:mt-0 py-16 px-12 bg-white rounded">
-						<picture class="block md:mx-12 xl:mx-0">
-	<source type="image/webp" srcset="/assets/img/portfolio/web/precept/precept_toast_countdown_dhms_1000x172.webp" />
-	<img src="/assets/img/portfolio/web/precept/precept_toast_countdown_dhms_1000x172.png" class="shadow" alt="A countdown timer on a website toast modal" />
-</picture>
+						<p>For this feature enhancement, I added the option to include an image feature on a website toast. The existing elements of the toast, such as the headline, description, and call-to-action (CTA), were left intact to ensure consistency while integrating the new functionality.</p>
 
 <picture class="block md:mx-12 xl:mx-0">
-	<source type="image/webp" srcset="/assets/img/portfolio/web/precept/precept_toast_countdown_hms_1000x172.webp" />
-	<img src="/assets/img/portfolio/web/precept/precept_toast_countdown_hms_1000x172.png" class="shadow" alt="A countdown timer on a website toast modal on Precept.org" />
+	<source type="image/webp" srcset="/assets/img/portfolio/web/precept/precept_toast_image_fill_1000x194.webp" />
+	<img src="/assets/img/portfolio/web/precept/precept_toast_image_fill_1000x194.png" class="shadow" alt="A website toast modal with an image enhancement" />
 </picture>
+
+<h3 id="requirements">Requirements</h3>
+
+<p>Since this project was for a WordPress website, the toast options needed to be managed from the user interface of a signed-in user. There were a few existing feature options already—a simple subject, one of several icons, and <a href="/portfolio/web/precept-toast-countdown">a countdown timer</a>.</p>
+
+<h3 id="solution">Solution</h3>
+
+<p>I used the Advanced Custom Fields plugin to add the image feature settings to the user interface of the custom post type for website toasts. I added two types of image options: fill and fit. <strong>Fill</strong> causes the uploaded image to overflow behind its container, while <strong>fit</strong> frames the image inside the toast, with padding around it.</p>
+
+<picture class="block md:mx-12 xl:mx-0">
+	<source type="image/webp" srcset="/assets/img/portfolio/web/precept/precept_toast_image_fit_1000x194.webp" />
+	<img src="/assets/img/portfolio/web/precept/precept_toast_image_fit_1000x194.png" class="shadow" alt="A website toast modal with an image enhancement" />
+</picture>
+
+<h3 id="conclusion">Conclusion</h3>
+
+<p>The image feature works very well and is used often to promote new products.</p>
 
 					</div>
 					
