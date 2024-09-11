@@ -13,18 +13,26 @@ body#portfolio[class^="portfolio-"] {
 	display: -ms-flexbox;
 	display: flex;
 	padding: 0 !important;
-	-webkit-box-orient: horizontal;
+	-webkit-box-orient: vertical;
 	-webkit-box-direction: normal;
-	-ms-flex-direction: row;
-    flex-direction: row;
+	-ms-flex-direction: column;
+	flex-direction: column;
 	list-style-type: none !important;
 }
 
-#portfolio nav#breadcrumb ol > li:not(:last-child):after {
-	content: "//";
-	padding: 0 0.25rem;
+#portfolio nav#breadcrumb ol > li:nth-child(2):before,
+#portfolio nav#breadcrumb ol > li:nth-child(3):before {
+	content: "\21B3";
 	font-size: 0.85rem !important;
 	color: #F8F9FA;
+}
+
+#portfolio nav#breadcrumb ol > li:nth-child(2):before {
+	padding: 0 0.5rem;
+}
+
+#portfolio nav#breadcrumb ol > li:nth-child(3):before {
+	padding: 0 0.5rem 0 1rem;
 }
 
 body#portfolio[class^="portfolio-"] nav#breadcrumb ol > li a {
@@ -40,6 +48,23 @@ body#portfolio[class^="portfolio-"] nav#breadcrumb ol > li a {
 
 body#portfolio[class^="portfolio-"] nav#breadcrumb ol > li a:hover {
 	color: #F9D423;
+}
+
+@media screen and (min-width: 600px) {
+	#portfolio nav#breadcrumb ol {
+		-webkit-box-orient: horizontal;
+		-webkit-box-direction: normal;
+		-ms-flex-direction: row;
+		flex-direction: row;
+		list-style-type: none !important;
+	}
+
+	#portfolio nav#breadcrumb ol > li:not(:first-child):before {
+		content: "//";
+		padding: 0 0.5rem;
+		font-size: 1rem !important;
+		color: #F8F9FA;
+	}
 }
 
 #portfolio a > .overlay {
@@ -126,12 +151,6 @@ body#portfolio[class^="portfolio-"] nav#breadcrumb ol > li a:hover {
 		grid-row: 1;
 		-ms-grid-column: 1;
 		grid-column: 1;
-	}
-
-	#portfolio nav#breadcrumb ol > li:not(:last-child):after {
-		content: "//";
-		padding: 0 0.5rem;
-		font-size: 1rem !important;
 	}
 
 	body#portfolio.portfolio-web .projects .project img {
