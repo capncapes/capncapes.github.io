@@ -232,14 +232,30 @@
 		<!-- Main Menu : START -->
 		<nav id="main-menu" class="hide w-full">
 			<ul itemscope itemtype="https://schema.org/SiteNavigationElement" role="menu" aria-label="Main" class="navbar-nav w-full">
-				<li itemprop="name" role="menuitem" class="menu-item">
-					<a class="nav-link" href="/faith/">Faith Blog</a>
+				<li itemprop="name" role="menuitem" class="menu-item relative has-submenu">
+					<a itemprop="url" class="nav-link" href="/portfolio/">Portfolio</a>
+					<ul class="submenu lg:absolute mt-2 lg:mt-0">
+						<li itemprop="name" role="menuitem" class="submenu-item">
+							<a itemprop="url" class="nav-link" href="/portfolio/email/">HTML Emails</a>
+						</li>
+						<li itemprop="name" role="menuitem" class="submenu-item">
+							<a itemprop="url" class="nav-link" href="/portfolio/web/">Web Projects</a>
+						</li>
+					</ul>
+				</li>
+				<li itemprop="name" role="menuitem" class="menu-item relative has-submenu">
+					<span class="nav-item">Blogs</span>
+					<ul class="submenu lg:absolute mt-2 lg:mt-0">
+						<li itemprop="name" role="menuitem" class="submenu-item">
+							<a itemprop="url" class="nav-link" href="/martech/">MarTech Blog</a>
+						</li>
+						<li itemprop="name" role="menuitem" class="submenu-item">
+							<a itemprop="url" class="nav-link" href="/faith/">Faith Blog</a>
+						</li>
+					</ul>
 				</li>
 				<li itemprop="name" role="menuitem" class="menu-item">
-					<a class="nav-link" href="/martech/">MarTech Blog</a>
-				</li>
-				<li itemprop="name" role="menuitem" class="menu-item">
-					<a class="nav-link" href="/book-reviews/">Book Reviews</a>
+					<a itemprop="url" class="nav-link" href="/book-reviews/">Book Reviews</a>
 				</li>
 			</ul>
 		</nav>
@@ -287,11 +303,11 @@
 
 <h2 id="now">NOW()</h2>
 
-<p>The <code class="language-plaintext highlighter-rouge">NOW()</code> function simply returns the current datetime, like this: <strong>2024-09-10 23:16:31</strong>. You will probably use <code class="language-plaintext highlighter-rouge">NOW()</code> a lot. If you only need the current date or the current time, use <code class="language-plaintext highlighter-rouge">CURDATE()</code> or <code class="language-plaintext highlighter-rouge">CURTIME()</code>, respectively.</p>
+<p>The <code class="language-plaintext highlighter-rouge">NOW()</code> function simply returns the current datetime, like this: <strong>2024-09-16 15:22:55</strong>. You will probably use <code class="language-plaintext highlighter-rouge">NOW()</code> a lot. If you only need the current date or the current time, use <code class="language-plaintext highlighter-rouge">CURDATE()</code> or <code class="language-plaintext highlighter-rouge">CURTIME()</code>, respectively.</p>
 
 <h2 id="getdate">GETDATE()</h2>
 
-<p>The <code class="language-plaintext highlighter-rouge">GETDATE()</code> function works exactly like the <code class="language-plaintext highlighter-rouge">NOW()</code> function, except that <code class="language-plaintext highlighter-rouge">GETDATE()</code> returns milliseconds, too. The query result would look something like this: <strong>2024-09-10 23:16:31.029</strong>.</p>
+<p>The <code class="language-plaintext highlighter-rouge">GETDATE()</code> function works exactly like the <code class="language-plaintext highlighter-rouge">NOW()</code> function, except that <code class="language-plaintext highlighter-rouge">GETDATE()</code> returns milliseconds, too. The query result would look something like this: <strong>2024-09-16 15:22:55.218</strong>.</p>
 
 <h2 id="date">DATE()</h2>
 <p><code class="language-plaintext highlighter-rouge">DATE(date)</code></p>

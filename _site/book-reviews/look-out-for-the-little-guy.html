@@ -282,14 +282,30 @@ Overall, Look Out For the Little Guy! is a compelling and entertaining read. Itâ
 		<!-- Main Menu : START -->
 		<nav id="main-menu" class="hide w-full">
 			<ul itemscope itemtype="https://schema.org/SiteNavigationElement" role="menu" aria-label="Main" class="navbar-nav w-full">
-				<li itemprop="name" role="menuitem" class="menu-item">
-					<a class="nav-link" href="/faith/">Faith Blog</a>
+				<li itemprop="name" role="menuitem" class="menu-item relative has-submenu">
+					<a itemprop="url" class="nav-link" href="/portfolio/">Portfolio</a>
+					<ul class="submenu lg:absolute mt-2 lg:mt-0">
+						<li itemprop="name" role="menuitem" class="submenu-item">
+							<a itemprop="url" class="nav-link" href="/portfolio/email/">HTML Emails</a>
+						</li>
+						<li itemprop="name" role="menuitem" class="submenu-item">
+							<a itemprop="url" class="nav-link" href="/portfolio/web/">Web Projects</a>
+						</li>
+					</ul>
+				</li>
+				<li itemprop="name" role="menuitem" class="menu-item relative has-submenu">
+					<span class="nav-item">Blogs</span>
+					<ul class="submenu lg:absolute mt-2 lg:mt-0">
+						<li itemprop="name" role="menuitem" class="submenu-item">
+							<a itemprop="url" class="nav-link" href="/martech/">MarTech Blog</a>
+						</li>
+						<li itemprop="name" role="menuitem" class="submenu-item">
+							<a itemprop="url" class="nav-link" href="/faith/">Faith Blog</a>
+						</li>
+					</ul>
 				</li>
 				<li itemprop="name" role="menuitem" class="menu-item">
-					<a class="nav-link" href="/martech/">MarTech Blog</a>
-				</li>
-				<li itemprop="name" role="menuitem" class="menu-item">
-					<a class="nav-link" href="/book-reviews/">Book Reviews</a>
+					<a itemprop="url" class="nav-link" href="/book-reviews/">Book Reviews</a>
 				</li>
 			</ul>
 		</nav>

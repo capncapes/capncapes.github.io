@@ -84,6 +84,17 @@ body > header { overflow: scroll; }
 	margin-right: 1.75rem;
 }
 
+#nav-container li ul > li {
+	margin-left: 0;
+	margin-right: 0;
+}
+
+#nav-container li ul > li > a {
+	margin-left: 0.5rem;
+	padding-left: 0.5rem;
+	padding-right: 0.5rem;
+}
+
 .menu-icon {
 	position: relative;
 	width: 2rem;
@@ -141,11 +152,21 @@ body > header { overflow: scroll; }
 	padding: 0.5rem 0;
 }
 
-.nav-link {
+.nav-link, .nav-item {
 	display: inline;
 	font-size: 1.75rem;
 	line-height: 2.5rem;
 	text-align: left;
+}
+
+.menu-item > ul.submenu {
+	padding-inline-start: 0;
+	padding-left: 0;
+}
+
+.menu-item > ul > li > .nav-link {
+	font-size: 1.5rem;
+	line-height: 2.5rem;
 }
 
 /* ================================================================

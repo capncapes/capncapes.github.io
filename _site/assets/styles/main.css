@@ -303,6 +303,7 @@ body address, body address * {
 #splendid-header {
 	height: 15vh;
 	background-color: #F8F9FA;
+	overflow: visible !important;
 	z-index: 10100;
 }
 
@@ -324,9 +325,25 @@ header .splendid-logo a {
 	border-radius: 50%;
 }
 
-.nav-link {
+.nav-link, .nav-item {
 	font-family: 'DM Serif Display', 'Open Sans', sans-serif;
+	font-weight: 600;
 	line-height: 2.25rem;
+	color: #121212;
+}
+
+nav#main-menu {
+	overflow: visible !important;
+}
+
+#main-menu > ul > .menu-item {
+	overflow-y: visible;
+}
+
+#main-menu .menu-item > ul.submenu {
+	list-style: none !important;
+	border-left: 2px solid #121212;
+	border-right: none;
 }
 
 header .branding svg {
@@ -405,7 +422,7 @@ ul.navbar-nav {
 	list-style: none !important;
 }
 
-.nav-link, .nav-link:focus, .nav-link:active {
+ul li .nav-link {
 	color: #121212;
 	background-image: linear-gradient(#121212, #121212);
 	background-size: 0% 0.1em;
@@ -413,12 +430,28 @@ ul.navbar-nav {
 	background-position-x: 0%;
 	background-repeat: no-repeat;
 	text-align: center;
-	transition: background-size 0.3s ease-in-out;
 	text-decoration: none;
+	transition: background-size 0.3s ease-in-out;
 }
 
-.nav-link:hover, .nav-link:focus, .nav-link:active {
+ul li .nav-link:hover, ul li .nav-link:focus, ul li .nav-link:active {
 	background-size: 100% 0.1em;
+}
+
+ul li ul li .nav-link {
+	color: #121212;
+	background-image: linear-gradient(#F9D423, #F9D423);
+	background-size: 0% 0.1rem;
+	background-position: center;
+	background-repeat: no-repeat;
+	text-align: center;
+	text-decoration: none;
+	transition: background-size 0.3s ease-in-out;
+}
+
+ul.submenu li > a.nav-link:hover, ul.submenu li > a.nav-link:focus, ul.submenu li > a.nav-link:active {
+	background-size: 100% 0.2rem;
+	background-position: center;
 }
 
 /* Dark mode */
