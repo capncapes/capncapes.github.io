@@ -54,7 +54,7 @@ ul.navbar-nav.justify-center { justify-content: center; }
 #main-menu .menu-item.has-submenu::after {
 	content: '\25BC';
 	margin-left: 0;
-	font-size: 0.25rem;
+	font-size: 1rem;
 }
 
 #main-menu .menu-item > ul.submenu {
