@@ -15,7 +15,7 @@ featured_image: {
 }
 description: "This email features cross-client rounded corners and meets accessibility standards."
 project_url: "https://github.com/capncapes/emails/blob/main/events/precept_event_2024-self-paced-trainings-overview_09-september.html"
-tags: ["events"]
+tags: ["responsive", "accessible", "events"]
 priority: 1
 featured: true
 published: true

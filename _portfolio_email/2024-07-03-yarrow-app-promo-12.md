@@ -15,7 +15,7 @@ featured_image: {
 }
 description: "This is a promotional email with dynamic button text."
 project_url: "https://github.com/capncapes/emails/blob/main/app/yarrow_product_2024_app-promotion_12-identity-daily-growth.html"
-tags: ["app", "AMPscript"]
+tags: ["responsive", "accessible", "app", "AMPscript"]
 priority: 1
 featured: true
 published: true

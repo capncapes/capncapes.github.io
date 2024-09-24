@@ -5,17 +5,17 @@ category: email
 date: 2022-09-07 09:03:00 -0500
 permalink: /portfolio/email/precept-welcome-group-locator
 featured_image: {
-  desktop_src: "",
-  desktop_fallback: "https://github.com/capncapes/emails/raw/main/welcome/assets/precept_mkt_generic-welcome-series_4-group-locator__journey.jpeg",
-  mobile_src: "",
-  mobile_fallback: "",
+  desktop_src: "/assets/img/portfolio/email/precept_mkt_generic-welcome-series_4-group-locator__journey_680.webp",
+  desktop_fallback: "https://github.com/capncapes/emails/raw/main/welcome/assets/precept_mkt_generic-welcome-series_4-group-locator__journey_680.jpeg",
+  mobile_src: "/assets/img/portfolio/email/precept_mkt_generic-welcome-series_4-group-locator__journey_340.webp",
+  mobile_fallback: "https://github.com/capncapes/emails/raw/main/welcome/assets/precept_mkt_generic-welcome-series_4-group-locator__journey_340.jpeg",
   social: "assets/img/portfolio/email/mkt_generic-welcome-series_4-welcome__journey_1200x630.jpeg",
   title: "The fourth email in a welcome series",
   alt: "A screenshot of a welcome email for Precept"
 }
 description: "This is the fourth email in a welcome series campaign."
 project_url: "https://github.com/capncapes/emails/blob/main/welcome/precept_mkt_generic-welcome-series_4-group-locator__journey.html"
-tags: ["welcome", "community", "AMPscript"]
+tags: ["responsive", "accessible", "welcome", "community", "AMPscript"]
 priority: 2
 featured: false
 published: true

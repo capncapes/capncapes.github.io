@@ -15,7 +15,7 @@ featured_image: {
 }
 description: "This is a virtual event registration email."
 project_url: "https://github.com/capncapes/emails/blob/main/events/precept_event_2024-essentials-pbsm_05-may-announcement.html"
-tags: ["events"]
+tags: ["responsive", "accessible", "events"]
 priority: 2
 featured: false
 published: false

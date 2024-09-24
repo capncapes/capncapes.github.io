@@ -15,7 +15,7 @@ featured_image: {
 }
 description: "This email features cross-client rounded corners, even in Outlook!"
 project_url: "https://github.com/capncapes/emails/blob/main/fundraising/precept_adv_ml2401_1-prayer-guide.html"
-tags: ["nurture", "fundraising"]
+tags: ["responsive", "accessible", "nurture", "fundraising"]
 priority: 4
 featured: false
 published: false
