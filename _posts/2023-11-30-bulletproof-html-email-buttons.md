@@ -87,28 +87,33 @@ To avoid seeing two buttons in Outlook versions, you also need to wrap the non-O
 <table align="center" role="presentation" cellpadding="0" cellspacing="0" style="border-spacing:0 !important; border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt; margin:auto;">
   <tbody>
     <tr>
-      <td class="caples_padded" style="border-collapse:collapse; mso-line-height-rule:exactly; font-family:Helvetica, Arial, sans-serif; font-size:16px; font-weight:bold; color:#121212; word-break:break-word; padding:0;">
+      <td class="caples_padded" style="border-collapse:collapse; mso-line-height-rule:exactly; font-family:Helvetica, Arial, sans-serif; font-size:16px; font-weight:bold; color:#FFFFFE; word-break:break-word; padding: 0 0 40px;">
         <div id="" class="caples_cos_wrapper caples_cos_wrapper_widget caples_cos_wrapper_type_module" style="color:inherit; font-size:inherit; line-height: inherit;">
           <div id="" class="caples_cos_wrapper caples_cos_wrapper_widget caples_cos_wrapper_type_rich_text" style="color:inherit; font-size:inherit; line-height:inherit;">
-            <!--[if mso]>
-              <v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="https://brandoncaples.com/martech/" title="Visit the MarTech blog" target="_blank" style="height:50px; v-text-anchor:middle; width:250px;" arcsize="24%" stroke="false" fill="true" fillcolor="#2CA096" onmouseover='this.fillcolor="#30475E"'>
-                <w:anchorlock/>
-                <center style="color:#FFFFFF; font-family:Helvetica, Arial, sans-serif; font-size:20px; font-weight:bold;">
-                  Click here
-                </center>
-              </v:roundrect>
-            <![endif]-->
-            <!--[if !mso]> <!-->
-              <table align="center" cellspacing="0" cellpadding="0">
-                <tr>
-                  <td class="button-td button-td-primary" align="center" width="250" height="50" bgcolor="#2CA096" style="-webkit-border-radius:12px; -moz-border-radius:12px; border-radius:12px; border-width:0; color:#FFFFFF; display:block;">
-                    <a href="https://brandoncaples.com/martech/" title="Visit the MarTech blog" class="button-a button-a-primary" style="-webkit-border-radius:12px; -moz-border-radius:12px; border-radius:12px; border-width:0; color:#FFFFFF; font-size:20px; font-weight:bold; font-family:Helvetica, Arial, sans-serif; text-decoration:none; line-height:50px; width:100%; display:inline-block; text-align:center; text-decoration:none; -webkit-text-size-adjust:none;" target="_blank">
-                      Click here
-                    </a>
-                  </td>
-                </tr>
-              </table>
-            <!-- <![endif]-->
+            <table align="center" cellspacing="0" cellpadding="0">
+              <tr>
+                <td class="button-td button-td-primary" align="center" width="250" height="50" bgcolor="#2CA096" style="-webkit-border-radius:12px; -moz-border-radius:12px; border-radius:12px; border-width:0; color:#FFFFFE; display:block;">
+
+                  <!--[if mso]>
+                    <v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" style="height:38px; width:250px; v-text-anchor:middle;" arcsize="30%" stroke="false" fill="true" fillcolor="#2CA096" onmouseover='this.fillcolor="#30475E"'>
+                      <w:anchorlock/>
+                      <v:textbox inset="0px,0px,0px,0px">
+                        <center style="color:#FFFFFE; font-family:Arial, sans-serif; font-size:16px">
+                  <![endif]-->
+
+                  <a href="https://brandoncaples.com/martech/2023/bulletproof-html-email-buttons" title="Learn more about HTML email buttons" class="button-a button-a-primary" style="-webkit-border-radius:12px; -moz-border-radius:12px; border-radius:12px; border-width:0; color:#FFFFFE; font-size:20px; font-weight:bold; font-family:Helvetica, Arial, sans-serif; text-decoration:none; line-height:50px; width:100%; display:inline-block; text-align:center; text-decoration:none; -webkit-text-size-adjust:none;" target="_blank">
+                    Click here
+                  </a>
+
+                  <!--[if mso]>
+                        </center>
+                      </v:textbox>
+                    </v:roundrect>
+                  <![endif]-->
+
+                </td>
+              </tr>
+            </table>
           </div>
         </div>
       </td>
