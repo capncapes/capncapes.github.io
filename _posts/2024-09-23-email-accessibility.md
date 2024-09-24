@@ -13,7 +13,7 @@ tags: ["email", "a11y"]
 featured: false
 ---
 
-In today's digital world, email is a critical communication tool for reaching your audience. To ensure everyone can engage with your content, including those with disabilities, it's essential to incorporate accessibility best practices into your email development. Accessibility ensures that users of all abilities, including those using assistive technologies, can access and understand your message. Here are key areas to focus on when making emails accessible.
+In today's digital world, email is a critical communication tool for reaching your audience. To ensure everyone can engage with your content, including those with disabilities, it's essential to incorporate accessibility best practices into your email development. [Accessibility](https://www.a11yproject.com/) ensures that users of all abilities, including those using assistive technologies, can access and understand your message. Here are key areas to focus on when making emails accessible.
 
 ## Image alt text
 

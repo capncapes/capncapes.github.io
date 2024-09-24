@@ -21,7 +21,7 @@ category: email
 					"item": {
 						"@type": "VisualArtwork",
 						"name": "{{ project.title }}",
-						"image": "{{ project.featured_image.fallback }}",
+						"image": "{{ project.featured_image.desktop_fallback }}",
 						"creator": {
 							"@type": "Person",
 							"name": "Brandon Caples"
@@ -44,8 +44,8 @@ category: email
 				<a href="{{ project.permalink }}">
 					<div class="img-container rounded shadow">
 						<picture class="w-full mx-auto">
-							<source type="image/webp" srcset="{{ project.featured_image.src }}" >
-							<img src="{{ project.featured_image.fallback }}" alt="{{ project.featured_image.alt }}" title="{{ project.featured_image.title }}" />
+							<source type="image/webp" srcset="{{ project.featured_image.desktop_src }}" >
+							<img src="{{ project.featured_image.desktop_fallback }}" alt="{{ project.featured_image.alt }}" title="{{ project.featured_image.title }}" />
 						</picture>
 					</div>
 				</a>

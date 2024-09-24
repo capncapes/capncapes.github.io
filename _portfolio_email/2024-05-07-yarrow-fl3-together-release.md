@@ -5,8 +5,10 @@ category: email
 date: 2024-05-07 09:34:40 -0500
 permalink: /portfolio/email/yarrow-fl3-together-release
 featured_image: {
-  src: "",
-  fallback: "https://github.com/capncapes/emails/raw/main/ecommerce/product%20release/assets/yarrow_product_2024_faithful-living-together_1-release.jpeg",
+  desktop_src: "",
+  desktop_fallback: "https://github.com/capncapes/emails/raw/main/ecommerce/product%20release/assets/yarrow_product_2024_faithful-living-together_1-release.jpeg",
+  mobile_src: "",
+  mobile_fallback: "",
   social: "assets/img/portfolio/email/product_2024_faithful-living-together_1-release_1200x629.jpg",
   title: "A product email announcing the release of a new Bible study workbook",
   alt: "A screenshot of a product email for Yarrow"

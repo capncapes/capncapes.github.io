@@ -5,8 +5,10 @@ category: email
 date: 2024-05-28 07:00:00 -0500
 permalink: /portfolio/email/precept-2405-best-sellers
 featured_image: {
-  src: "",
-  fallback: "https://github.com/capncapes/emails/raw/main/ecommerce/catalog/assets/precept_product_2024_best-sellers_05-may_600x1890.gif",
+  desktop_src: "",
+  desktop_fallback: "https://github.com/capncapes/emails/raw/main/ecommerce/catalog/assets/precept_product_2024_best-sellers_05-may_600.gif",
+  mobile_src: "",
+  mobile_fallback: "https://github.com/capncapes/emails/raw/main/ecommerce/catalog/assets/precept_product_2024_best-sellers_05-may_340.gif",
   social: "",
   title: "A product email promoting best-selling Bible study materials",
   alt: "A screenshot of a product email for Precept"

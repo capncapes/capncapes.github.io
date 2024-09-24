@@ -5,8 +5,10 @@ category: email
 date: 2024-08-21 20:17:40 -0500
 permalink: /portfolio/email/yarrow-reengagement-discount
 featured_image: {
-  src: "",
-  fallback: "https://github.com/capncapes/emails/raw/main/disengaged/assets/yarrow_mkt_yarrow-reengagement_1-discount.jpeg",
+  desktop_src: "",
+  desktop_fallback: "https://github.com/capncapes/emails/raw/main/disengaged/assets/yarrow_mkt_yarrow-reengagement_1-discount_600.jpeg",
+  mobile_src: "",
+  mobile_fallback: "https://github.com/capncapes/emails/raw/main/disengaged/assets/yarrow_mkt_yarrow-reengagement_1-discount_340.jpeg",
   social: "",
   title: "Re-engagement email with a discount code",
   alt: "A screenshot of a re-engagement email for Yarrow"

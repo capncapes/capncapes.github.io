@@ -5,8 +5,10 @@ category: email
 date: 2022-09-07 09:00:00 -0500
 permalink: /portfolio/email/precept-welcome-intro
 featured_image: {
-  src: "",
-  fallback: "https://github.com/capncapes/emails/raw/main/welcome/assets/precept_mkt_generic-welcome-series_1-welcome__journey.jpeg",
+  desktop_src: "",
+  desktop_fallback: "https://github.com/capncapes/emails/raw/main/welcome/assets/precept_mkt_generic-welcome-series_1-welcome__journey.jpeg",
+  mobile_src: "",
+  mobile_fallback: "",
   social: "assets/img/portfolio/email/mkt_generic-welcome-series_1-welcome__journey_1200x630.jpeg",
   title: "The first email in a welcome series",
   alt: "A screenshot of a welcome email for Precept"

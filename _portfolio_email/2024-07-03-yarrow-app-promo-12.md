@@ -5,8 +5,10 @@ category: email
 date: 2024-07-03 09:26:27 -0500
 permalink: /portfolio/email/yarrow-app-promo-12
 featured_image: {
-  src: "",
-  fallback: "https://github.com/capncapes/emails/raw/main/app/assets/yarrow_product_2024_app-promotion_12-identity-daily-growth.jpeg",
+  desktop_src: "",
+  desktop_fallback: "https://github.com/capncapes/emails/raw/main/app/assets/yarrow_product_2024_app-promotion_12-identity-daily-growth.jpeg",
+  mobile_src: "",
+  mobile_fallback: "",
   social: "",
   title: "Promotional letter-style email with dynamic button text",
   alt: "A screenshot of an email for Yarrow"
