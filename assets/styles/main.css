@@ -1612,6 +1612,15 @@ body p a code { font-weight: bold; }
 
 img[src=""] { display: none !important; }
 .rounded, img.rounded, img.rounded * { border-radius: 4px !important; }
+.round, img.round { border-radius: 30px !important; }
+.tl-rounded { border-top-left-radius: 4px; }
+.tr-rounded { border-top-right-radius: 4px; }
+.bl-rounded { border-bottom-left-radius: 4px; }
+.br-rounded { border-bottom-right-radius: 4px; }
+.tl-round { border-top-left-radius: 30px; }
+.tr-round { border-top-right-radius: 30px; }
+.bl-round { border-bottom-left-radius: 30px; }
+.br-round { border-bottom-right-radius: 30px; }
 
 .list-none { padding: 0; list-style: none; }
 
