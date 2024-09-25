@@ -16,7 +16,7 @@ featured_image: {
 description: "This email announced the release of a new product."
 project_url: "https://github.com/capncapes/emails/blob/main/ecommerce/product%20release/yarrow_product_2024_faithful-living-together_1-release.html"
 tags: ["ecommerce", "AMPscript"]
-priority: 0
+priority: 1
 featured: false
 published: true
 ---
