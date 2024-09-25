@@ -5,10 +5,10 @@ category: email
 date: 2024-08-13 16:50:49 -0500
 permalink: /portfolio/email/precept-2408-best-sellers
 featured_image: {
-  desktop_src: "/assets/img/portfolio/email/ecommerce/catalog/precept_product_2024_best-sellers_08-august_600.webp",
-  desktop_fallback: "https://github.com/capncapes/emails/raw/main/ecommerce/catalog/assets/precept_product_2024_best-sellers_08-august_620.jpg",
+  desktop_src: "/assets/img/portfolio/email/ecommerce/catalog/precept_product_2024_best-sellers_08-august_620.webp",
+  desktop_fallback: "https://raw.githubusercontent.com/capncapes/emails/main/ecommerce/catalog/assets/precept_product_2024_best-sellers_08-august_620.jpg",
   mobile_src: "/assets/img/portfolio/email/ecommerce/catalog/precept_product_2024_best-sellers_08-august_340.webp",
-  mobile_fallback: "https://github.com/capncapes/emails/raw/main/ecommerce/catalog/assets/precept_product_2024_best-sellers_08-august_340.jpeg",
+  mobile_fallback: "https://raw.githubusercontent.com/capncapes/emails/main/ecommerce/catalog/assets/precept_product_2024_best-sellers_08-august_340.jpeg",
   social: "",
   title: "A product email promoting best-selling Bible study workbooks",
   alt: "A screenshot of a product email for Precept"

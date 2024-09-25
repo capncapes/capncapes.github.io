@@ -5,10 +5,10 @@ category: email
 date: 2023-12-08 07:01:07 -0500
 permalink: /portfolio/email/precept-yed-nigeria
 featured_image: {
-  desktop_src: "/assets/img/portfolio/email/welcome/precept_adv_2023_yed_3-nigeria_600.webp",
-  desktop_fallback: "https://github.com/capncapes/emails/raw/main/fundraising/year%20end%20giving/assets/precept_adv_2023_yed_3-nigeria_600.jpeg",
-  mobile_src: "/assets/img/portfolio/email/welcome/precept_adv_2023_yed_3-nigeria_340.webp",
-  mobile_fallback: "https://github.com/capncapes/emails/raw/main/fundraising/year%20end%20giving/assets/precept_adv_2023_yed_3-nigeria_340.jpeg",
+  desktop_src: "/assets/img/portfolio/email/fundraising/year%20end%20giving/precept_adv_2023_yed_3-nigeria_600.webp",
+  desktop_fallback: "https://raw.githubusercontent.com/capncapes/emails/main/fundraising/year%20end%20giving/assets/precept_adv_2023_yed_3-nigeria_600.jpeg",
+  mobile_src: "/assets/img/portfolio/email/fundraising/year%20end%20giving/precept_adv_2023_yed_3-nigeria_340.webp",
+  mobile_fallback: "https://raw.githubusercontent.com/capncapes/emails/main/fundraising/year%20end%20giving/assets/precept_adv_2023_yed_3-nigeria_340.jpeg",
   social: "",
   title: "Fundraising email with image carousel, story from Nigeria",
   alt: "A screenshot of a Fundraising email with an image carousel"

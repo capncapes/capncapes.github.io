@@ -38,19 +38,20 @@
 		<main class="pt-12 pb-16 px-7 md:px-10">
 			{% if page.category == 'email' %}
 				<article class="project" data-title="{{ page.title }}">
-					<div class="w-full mb-8">
-						<div class="m-0 py-8 px-6 text-sm bg-white rounded shadow">
+					<div class="w-full m-0 mb-8 py-8 px-6 text-sm bg-white rounded shadow">
+						{% if content %}
 							{{ content }}
-						</div>
+							<p>Hover over the mobile and desktop versions of the email below and scroll to view the entire email.</p>
+						{% endif %}
 					</div>
 					<div class="splendid-flex flex-col lg:flex-row justify-around flex-nowrap">
-						<div class="w-90 lg:w-30 min-h-60 h-full max-h-3 mx-auto lg:mx-0 overflow-scroll rounded shadow" data-item="email-mobile">
+						<div class="email-container w-90 lg:w-30 min-h-60 h-full max-h-3 mx-auto lg:mx-0 overflow-scroll rounded shadow" data-item="email-mobile">
 							<picture>
 								<source type="image/webp" srcset="{{ page.featured_image.mobile_src }}" >
 								<img src="{{ page.featured_image.mobile_fallback }}" class="w-full" alt="{{ page.featured_image.alt }}" />
 							</picture>
 						</div>
-						<div class="w-full lg:w-50 min-h-60 h-full max-h-2 mt-12 overflow-scroll rounded shadow" data-item="email-desktop">
+						<div class="email-container w-full lg:w-50 min-h-60 h-full max-h-2 mt-12 overflow-scroll rounded shadow" data-item="email-desktop">
 							<picture>
 								<source type="image/webp" srcset="{{ page.featured_image.desktop_src }}" >
 								<img src="{{ page.featured_image.desktop_fallback }}" class="w-full" alt="{{ page.featured_image.alt }}" />

@@ -9,7 +9,7 @@ featured_image: {
   desktop_fallback: "https://github.com/capncapes/emails/raw/main/fundraising/assets/precept_adv_ml2401_1-prayer-guide.jpeg",
   mobile_src: "",
   mobile_fallback: "",
-  social: "",
+  social: "/assets/img/portfolio/email/nurture/adv_ml2401_1-prayer-guide_1200x631.jpg",
   title: "A nurture email with prayer requests",
   alt: "A screenshot of a nurture email for Precept"
 }

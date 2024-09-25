@@ -241,3 +241,11 @@ body#portfolio.portfolio-web .projects .project img:before {
 	color: #B1B1A1;
 	transform: translate(-50%, -50%);
 }
+
+body#portfolio .email-container {
+	position: relative;
+	background: transparent;
+	overflow-y: scroll;
+	overflow-x: hidden;
+	scrollbar-width: none;
+}
