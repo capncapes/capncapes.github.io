@@ -224,13 +224,11 @@ ul li .nav-link, ul li .nav-item {
 main > *, main .cards-gallery {
 	margin-left: auto !important;
 	margin-right: auto !important;
-	width: calc(100% - 5rem);
 	max-width: 60rem;
 }
 
 #post main > *,
-#book-review main > *,
-main .cards-gallery {
+#book-review main > * {
 	padding-left: 2.5rem !important;
 	padding-right: 2.5rem !important;
 }
