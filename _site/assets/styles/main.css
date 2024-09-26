@@ -301,7 +301,7 @@ body address, body address * {
 ================================================================ */
 
 #splendid-header {
-	height: 15vh;
+	/* height: 15vh; */
 	background-color: #F8F9FA;
 	overflow: visible !important;
 	z-index: 10100;
@@ -450,7 +450,7 @@ ul li ul li .nav-link {
 }
 
 ul.submenu li > a.nav-link:hover, ul.submenu li > a.nav-link:focus, ul.submenu li > a.nav-link:active {
-	background-size: 100% 0.2rem;
+	background-size: 100% 0.5rem;
 	background-position: center;
 }
 
