@@ -114,26 +114,29 @@ code, code span, pre, pre span {
 .hover\:text-black:hover { color: #121212; }
 .hover\:text-white:hover { color: #F8F9FA; }
 
-body a, body p a, body p a:visited, .card .read-more:hover, #post article .tags a.tag:hover, #book-review article .tags a.tag:hover {
-	color: #F05454;
+body p a,
+.card .read-more,
+#post article .tags a.tag,
+#book-review article .tags a.tag,
+#post article .bible-books a,
+#resume a.certification {
+	color: #000000;
+	background-image: linear-gradient(#F9D423, #F9D423);
+	background-size: 100% 0.2rem;
+	background-position: bottom;
+	background-repeat: no-repeat;
+	text-decoration: none;
+	transition: background-size 0.3s ease-in-out;
 }
 
-body p a, #post article .tags a.tag:hover, #book-review article .tags a.tag:hover {
-	border-color: #F05454;
-}
-
-#post article .bible-books a.bible-book:hover {
-	color: #2CA096;
-	border-color: #2CA096;
-}
-
-body a:hover, body p a:hover {
-	color: #121212;
-}
-
-body p a:hover, body p a:active, #post article .tags a, #book-review article .tags a, #post article .bible-books a {
-	color: #121212;
-	border-color: #121212;
+body p a:hover,
+.card .read-more:hover,
+#post article .tags a.tag:hover,
+#book-review article .tags a.tag:hover,
+#post article .bible-books a:hover,
+#resume a.certification:hover {
+	background-size: 100% 0.7rem;
+	background-position: bottom;
 }
 
 /* Forms */
@@ -203,13 +206,8 @@ body, *.text-base {
 }
 
 body a, body p a {
-	font-weight: 600;
-	text-decoration: none;
-}
-
-body p a {
-	border-bottom-width: 2px;
-	border-bottom-style: solid;
+	font-weight: 700 !important;
+	text-decoration: none !important;
 }
 
 body p a[rel=footnote],

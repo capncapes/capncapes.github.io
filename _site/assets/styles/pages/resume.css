@@ -7,6 +7,10 @@
 	padding: 0;
 }
 
+#resume a {
+	line-height: 1.1;
+}
+
 #resume section > div.bg-img {
 	background-position: center;
 	background-size: 6rem;
