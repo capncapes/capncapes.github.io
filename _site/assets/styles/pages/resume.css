@@ -33,6 +33,23 @@
 	margin-bottom: 0 !important;
 }
 
+#resume #skills ul {
+	display: inline;
+	padding: 0;
+	line-height: 1.5;
+	list-style-type: none;
+}
+
+#resume #skills ul li {
+	display: inline;
+	padding: 0.2rem 0.4rem;
+	font-size: 80%;
+	background-color: #DEDECA;
+	color: #000000;
+	border-radius: 4px;
+	white-space: nowrap;
+}
+
 #resume #skills .skill,
 #resume #tech .skill {
 	break-inside: avoid;
