@@ -47,7 +47,7 @@ body#portfolio[class^="portfolio-"] nav#breadcrumb ol > li a {
 }
 
 body#portfolio[class^="portfolio-"] nav#breadcrumb ol > li a:hover {
-	color: #F9D423;
+	color: #FFC857;
 }
 
 @media screen and (min-width: 600px) {

@@ -1,35 +1,43 @@
 <!-- Footer : BEGIN -->
 <footer id="footer" itemscope itemtype="https://schema.org/WPFooter" class="bg-black text-white">
-	<div class="max-w-4 pt-16 px-6 pb-4 md:px-0">
-		<ul role="navigation" aria-label="Footer" class="two-columns sm:w-full md:w-60">
-			<li itemprop="name" role="menuitem">
-				<a href="/about/">About</a>
-			</li>
-			<li itemprop="name" role="menuitem">
-				<a href="/book-reviews/">Book Reviews</a>
-			</li>
-			<li itemprop="name" role="menuitem">
-				<a href="/martech/">MarTech Blog</a>
-			</li>
-			<li itemprop="name" role="menuitem">
-				<a href="/faith/">Faith Blog</a>
-			</li>
-			<li itemprop="name" role="menuitem">
-				<a href="/christian-resources/">Christian Resources</a>
-			</li>
-			<li itemprop="name" role="menuitem">
-				<a href="/resume/">Résumé</a>
-			</li>
-		</ul>
-		<address class="sm:w-full md:w-33">
-			<div class="mb-2">
-				Brandon Caples<br>
-				Tennessee, United States
-			</div>
+	<div class="max-w-5 mx-auto pt-16 pb-4 sm:px-14 md:px-20 lg:px-20">
+		<div class="sm:w-full md:w-60">
+			<h4 class="m-0 mb-6 text-white">Explore</h4>
+			<ul role="navigation" aria-label="Footer" class="two-columns w-full mb-4">
+				<li itemprop="name" role="menuitem">
+					<a href="/about/">About</a>
+				</li>
+				<li itemprop="name" role="menuitem">
+					<a href="/book-reviews/">Book Reviews</a>
+				</li>
+				<li itemprop="name" role="menuitem">
+					<a href="/martech/">MarTech Blog</a>
+				</li>
+				<li itemprop="name" role="menuitem">
+					<a href="/faith/">Faith Blog</a>
+				</li>
+				<li itemprop="name" role="menuitem">
+					<a href="/christian-resources/">Christian Resources</a>
+				</li>
+				<li itemprop="name" role="menuitem">
+					<a href="/resume/">Résumé</a>
+				</li>
+			</ul>
 			<div class="socials mt-6">
 				{% include icons.html %}
 			</div>
-		</address>
+		</div>
+		<div class="splendid-flex sm:w-full md:w-33 flex-col">
+			<div aria-labelledby="newsletter-heading">
+				{% include web-form.html %}
+			</div>
+			<address class="mt-12">
+				<div class="mb-0">
+					Brandon Caples<br>
+					Tennessee, United States
+				</div>
+			</address>
+		</div>
 		<div class="legal w-full text-xs">
 			<p class="sm:splendid-block md:splendid-inline">All opinions are my own, unless otherwise noted.</p>
 			<p class="sm:splendid-block md:splendid-inline">&copy; {{ "now" | date: "%Y" }} Brandon Caples</p>
