@@ -57,7 +57,7 @@ body > header { overflow: scroll; }
 }
 
 #nav-container nav:first-of-type {
-	margin-top: 15vh;
+	margin-top: 106px;
 }
 
 #nav-container nav.hide {
