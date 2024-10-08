@@ -52,9 +52,10 @@ ul.navbar-nav.justify-center { justify-content: center; }
 }
 
 #main-menu .menu-item.has-submenu::after {
-	content: '\25BC';
+	content: '+';
 	margin-left: 0;
-	font-size: 1rem;
+	font-size: 1.25rem;
+	font-weight: 900;
 }
 
 #main-menu .menu-item > ul.submenu {
