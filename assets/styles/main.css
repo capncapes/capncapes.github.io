@@ -1020,6 +1020,11 @@ form.splendid label input[type=radio]:checked + div::before {
 	border-radius: 4px;
 }
 
+.form-group.w-full .form-row.w-full .form-field.w-full input.w-full,
+.form-group.w-100 .form-row.w-100 .form-field.w-100 input.w-100 {
+	width: 100%;
+}
+
 .form-field textarea { height: 7.5rem; }
 
 /* Select dropdown field */
