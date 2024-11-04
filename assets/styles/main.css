@@ -83,7 +83,7 @@ section .splendid-cta { color: #F05454 !important; text-decoration: none !import
 .bg-gray { background-color: #6B7A8F; }
 .bg-black { background-color: #121212; }
 .bg-white { background-color: #F8F9FA; }
-.bg-glass { background: rgba(222, 222, 202, 0.25); border-radius: 16px; backdrop-filter: blur(2px); -webkit-backdrop-filter: blur(2px); border: 1px solid rgba(222, 222, 202, 0.5); }
+.bg-glass { background: rgba(222, 222, 202, 0.25); backdrop-filter: blur(2px); -webkit-backdrop-filter: blur(2px); border: 1px solid rgba(222, 222, 202, 0.5); }
 .bg-transparent { background-color: transparent; }
 
 /* Typography */
@@ -269,6 +269,7 @@ h1, h1 > *, h2, h2 > *, h3, h3 > *, h4, h4 > *, h5, h5 > *, h6, h6 > * {
 	line-height: 1.5;
 }
 
+body *.text-2xs { font-size: 0.75rem !important; }
 body *.text-xs { font-size: 0.85rem !important; }
 body *.text-sm { font-size: 1rem !important; }
 body *.text-base { font-size: 1.25rem !important; }
@@ -1300,7 +1301,7 @@ body .card a, body .card a:hover, body .card a:active, body .card a:visited {
 }
 
 .card .info {
-	background: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0.75));
+	background: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0.9));
 	-webkit-user-select: none;
 	-moz-user-select: none;
 	-ms-user-select: none;
@@ -1396,6 +1397,20 @@ div.more:hover > a > div {
 	-webkit-line-clamp: 2;
 	line-clamp: 2; 
 	-webkit-box-orient: vertical;
+}
+
+/* Tags Gallery */
+
+.tags-gallery {
+	display: -ms-grid;
+	display: grid;
+	width: auto;
+	grid-auto-flow: row;
+	gap: 1.5rem;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	list-style: none;
 }
 
 /* ================================================================
@@ -2041,8 +2056,8 @@ img[src=""] { display: none !important; }
 }
 
 #footer a {
-	color: inherit;
-	text-decoration: none;
+	color:inherit;
+	text-decoration:none;
 }
 
 #footer .socials a {
@@ -2057,7 +2072,3 @@ img[src=""] { display: none !important; }
 	-ms-flex-pack: center;
 	justify-content: center;
 }
-
-/* ================================================================
-	22	Responsive
-================================================================ */

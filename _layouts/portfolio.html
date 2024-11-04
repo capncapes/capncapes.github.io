@@ -2,7 +2,7 @@
 <html id="splendid" lang="en-US">
 	{% include head.html %}
 	<link rel="stylesheet" type="text/css" href="/assets/styles/pages/portfolio.css" media="all">
-	<body id="portfolio"{% if page.category %} class="portfolio-{{ page.category | downcase }}" data-category="{{ page.category }}"{% endif %}>
+	<body id="portfolio"{% if page.category %} class="portfolio-{{ page.category | downcase }}" data-category="{{ page.category }}"{% endif %}{% if page.url == '/portfolio/tags/' %} class="portfolio-tags"{% endif %}>
 		{% if site.scripts.gtm %}
 			<!-- Google Tag Manager (noscript) -->
 			<noscript><iframe src="https://www.googletagmanager.com/ns.html?id={{ site.scripts.gtm }}"
@@ -22,12 +22,21 @@
 						</a>
 						<meta itemprop="position" content="1" />
 					</li>
+					{% if page.category == 'email' or page.category == 'web' %}
 					<li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
 						<span class="text-xs md:text-sm text-white" itemprop="item" class="font-bold">
 							<span itemprop="name" class="font-bold">{% if page.category == 'email' %}Emails{% else %}Web Projects{% endif %}</span>
 						</span>
 						<meta itemprop="position" content="2" />
 					</li>
+					{% else %}
+					<li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+						<span class="text-xs md:text-sm text-white" itemprop="item" class="font-bold">
+							<span itemprop="name" class="font-bold">Tags</span>
+						</span>
+						<meta itemprop="position" content="2" />
+					</li>
+					{% endif %}
 				</ol>
 			</nav>
 		{% endif %}

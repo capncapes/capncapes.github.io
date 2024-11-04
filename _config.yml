@@ -57,6 +57,9 @@ collections:
   portfolio_web:
     output: true
     permalink: /:title
+  portfolio_tags:
+    permalink: /portfolio/tags/:name/
+    output: true
   ads:
     output: false
 

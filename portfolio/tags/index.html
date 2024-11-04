@@ -1,0 +1,67 @@
+---
+layout: portfolio
+title: Portfolio Tags
+permalink: /portfolio/tags/
+---
+
+{% assign projects = site.portfolio_email | concat: site.portfolio_web %}
+{% assign unique_tags = "" %}
+{% for project in projects %}
+	{% for tag in project.tags %}
+		{% unless unique_tags contains tag %}
+			{% assign unique_tags = unique_tags | append: tag | append: "," %}
+		{% endunless %}
+	{% endfor %}
+{% endfor %}
+{% assign unique_tags_array = unique_tags | split: "," | reject: "" %}
+
+{% if unique_tags_array.size > 0 %}
+<script type="application/ld+json" class="splendid-schema-graph">
+	{
+		"@context": "https://schema.org",
+		"@type": "ItemList",
+		"name": "Portfolio Tags | Brandon Caples",
+		"itemListElement": [
+			{% for tag in unique_tags_array %}
+			{% assign formatted_tag = tag | downcase | replace: " ", "-" | remove: "'" | remove: "." %}
+			{
+				"@type": "ListItem",
+				"position": {{ forloop.index }},
+				"url": "https://brandoncaples.com/portfolio/tags/{{ formatted_tag }}/",
+				"item": {
+					"@type": "VisualArtwork",
+					"name": "{{ tag }}",
+					"creator": {
+						"@type": "Person",
+						"name": "Brandon Caples"
+					},
+					"url": "https://brandoncaples.com/portfolio/tags/{{ formatted_tag }}/"
+				}
+			},
+			{% endfor %}
+		]
+	}
+</script>
+{% endif %}
+
+<section class="mt-8 pt-10 pb-16 lg:pb-20 px-7 md:px-10 bg-sand">
+	<p class="relative max-w-4 my-0 mx-auto text-xs lg:text-sm font-normal">Find related projects using the tags below.</p>
+</section>
+<main class="-mt-16 pt-6 pb-16 px-7 md:px-10">
+	{% if unique_tags_array.size > 0 %}
+	<div class="tags-gallery splendid-flex justify-between flex-wrap">
+		{% for tag in unique_tags_array %}
+		{% assign formatted_tag = tag | downcase | replace: " ", "-" | remove: "'" | remove: "." %}
+			<a href="/portfolio/tags/{{ formatted_tag }}/">
+				<article class="tag splendid-flex justify-center items-center bg-plum rounded shadow" data-title="{{ formatted_tag }}">
+					<h4 class="m-0 py-4 px-6 text-sm text-white text-center">{{ tag }}</h4>
+				</article>
+			</a>
+		{% endfor %}
+	</div>
+	{% else %}
+	<div class="splendid-flex px-6 justify-center items-center bg-white rounded">
+		<h4>There are no portfolio tags here yet. Check back later.</h4>
+	</div>
+	{% endif %}
+</main>

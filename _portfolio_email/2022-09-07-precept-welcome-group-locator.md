@@ -15,7 +15,7 @@ featured_image: {
 }
 description: "This is the fourth email in a welcome series campaign."
 project_url: "https://github.com/capncapes/emails/blob/main/welcome/precept_mkt_generic-welcome-series_4-group-locator__journey.html"
-tags: ["responsive", "accessible", "welcome", "community", "AMPscript"]
+tags: ["responsive", "accessible", "welcome", "AMPscript"]
 priority: 2
 featured: false
 published: true

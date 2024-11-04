@@ -21,7 +21,6 @@ category: MarTech
   <div class="cards-gallery mt-16 lg:mt-24">
 
     {% for post in site.categories[page.category] limit:12 %}
-    <!-- For 12+ posts, add page 2 -->
     <article itemscope itemtype="https://schema.org/BlogPosting" title="{{ post.title }}" class="card relative rounded bg-red shadow">
       <a href="{{ post.url }}">
         <div>

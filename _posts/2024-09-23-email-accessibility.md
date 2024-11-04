@@ -27,11 +27,27 @@ Tables in email are often used for layout purposes, but this can create issues f
 
 By adding the `role="presentation"` attribute to tables, you instruct screen readers to ignore the table’s structure and only read the customer-facing text. This ensures that users won't hear unnecessary content about rows and columns, keeping the message simple and clear.
 
+Of course, if your email contains any data tables, you can either leave off the `role` attribute or set its value to **table**. Additionally, use semantic markup for data tables, like `<th>` elements for table headers, the `scope` attribute (`scope="col"` or `scope="row"`) on table headers, and `<caption>` for a decriptive table title.
+
 ## Avoid using title attributes
 
 Title attributes are often used in HTML elements to provide additional information when a user hovers over a link or image. While this may seem helpful, it can be problematic for accessibility. Screen readers may read the title attribute in addition to the link text or image alt text, which can interrupt the natural flow of the message. This redundancy can confuse users and slow down their reading experience.
 
 Instead of relying on title attributes for additional context, ensure that the text of your email or alt attributes contain all necessary information.
+
+## Include `lang` and `dir` attributes
+
+Most email marketers know to include the `lang` attribute on the `<html>` tag. But as Jay Oram of [Action Rocket](https://www.actionrocket.co/blog/code-more-accessible-emails) points out, it's helpful to also include it on a wrapping element, as well as the `xml:lang` attribute on the `<body>` tag. This is because some email clients strip the `<html>` tag, thus removing the standard method of communicating the language of the document.
+
+Also from Action Rocket, including the `dir` attribute is helpful when rendering the email content. Add it to the wrapping element. This defines the direction of text. (English is read left-to-right while Hebrew is read right-to-left, for instance.)
+
+{% highlight html %}
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office">
+<body xml:lang="en">
+<div id="wrapper" lang="en" dir="ltr">
+{% endhighlight %}
+
+It seems a bit redundant, but that's email development for ya.
 
 ## Contrast ratio
 
@@ -41,7 +57,7 @@ These contrast ratios help ensure that text is readable, even for users with low
 
 ## Link visibility
 
-Links are vital to navigating emails, but if they are not clearly visible, they can easily be missed, especially by users with CVD. Ensure that links are clearly distinguishable from surrounding text, both visually and programmatically. This can be achieved by using underlines or bold text for links. Relying solely on color to differentiate links from regular text is not enough, as some users may have difficulty distinguishing colors.
+Links are vital to navigating emails, but if they are not clearly visible, they can easily be missed, especially by users with CVD. Ensure that links are clearly distinguishable from surrounding text, both visually and programmatically. This can be achieved by using underlines and/or bold text for links. Relying solely on color to differentiate links from regular text is not enough, as some users may have difficulty distinguishing colors.
 
 Make sure that links stand out with a combination of design choices like contrast, size, and style so that all users, regardless of their vision, can interact with your content.
 
@@ -78,7 +94,7 @@ By using semantic buttons, you provide a more robust and accessible user experie
 
 ## Section 508 compliance
 
-[Section 508](/martech/2023/section-508-email-compliance/) of the Rehabilitation Act requires that all electronic and information technology used by federal agencies is accessible to people with disabilities. While your emails may not be sent to government agencies, following Section 508 standards can help ensure broad accessibility for all recipients.
+[Section 508](/martech/2023/section-508-email-compliance/) of the Rehabilitation Act requires that all electronic and information technology used by federal agencies is accessible to people with disabilities. While your emails may not be sent to or from government agencies, following Section 508 standards can help ensure broad accessibility for all recipients.
 
 To meet Section 508 requirements, ensure that your emails are compatible with screen readers, keyboard navigation, and other assistive technologies. This includes using proper alt text for images, ensuring high color contrast, and using semantic HTML for structure.
 

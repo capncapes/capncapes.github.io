@@ -373,6 +373,13 @@ body > header { overflow: hidden; }
 	grid-template-columns: repeat(3, 1fr);
 }
 
+/* Tags Gallery */
+
+.tags-gallery {
+	-ms-grid-columns: (1fr)[3];
+	grid-template-columns: repeat(3, 1fr);
+}
+
 /* ================================================================
 	14	Tables
 ================================================================ */

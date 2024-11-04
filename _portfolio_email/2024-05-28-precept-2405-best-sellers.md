@@ -15,7 +15,7 @@ featured_image: {
 }
 description: "This email features top-selling products for May promotion."
 project_url: "https://github.com/capncapes/emails/blob/main/ecommerce/catalog/precept_product_2024_best-sellers_05-may.html"
-tags: ["responsive", "accessible", "ecommerce", "GIF"]
+tags: ["responsive", "accessible", "products", "GIF"]
 priority: 1
 featured: true
 published: true
