@@ -249,3 +249,8 @@ body#portfolio .email-container {
 	overflow-x: hidden;
 	scrollbar-width: none;
 }
+
+main article ul.tags {
+	list-style-type: none !important;
+	column-gap: 1rem;
+}

@@ -20,6 +20,8 @@ html, body { box-sizing: border-box; }
 
 .splendid-block { display: block; }
 .splendid-inline { display: inline; }
+.splendid-inline-block { display: inline-block; }
+.splendid-inline-flex { display: -webkit-inline-box; display: -ms-inline-flexbox; display: inline-flex; }
 .splendid-flex { display: -webkit-box; display: -ms-flexbox; display: flex; }
 .splendid-grid { display: -ms-grid; display: grid; }
 .splendid-table { display: table; }
@@ -29,6 +31,7 @@ html, body { box-sizing: border-box; }
 @media print {
 	.print\:splendid-block { display: block; }
 	.print\:splendid-inline { display: inline; }
+	.print\:splendid-inline-block { display: inline-block; }
 	.print\:splendid-flex { display: -webkit-box; display: -ms-flexbox; display: flex; }
 	.print\:splendid-grid { display: -ms-grid; display: grid; }
 	.print\:splendid-table { display: table; }
