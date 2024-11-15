@@ -61,7 +61,7 @@ TABLE OF CONTENTS
 /* Accent Color */
 
 ::selection { color: #000000; background: #FFC857; }
-.accent, #footer a { color: #FFC857 !important; }
+.accent, #footer a:hover { color: #FFC857 !important; }
 section .splendid-cta { color: #F05454 !important; text-decoration: none !important; }
 .bg-accent { background-color: #F05454 !important; }
 
@@ -269,8 +269,8 @@ h1, h1 > *, h2, h2 > *, h3, h3 > *, h4, h4 > *, h5, h5 > *, h6, h6 > * {
 	line-height: 1.5;
 }
 
-body *.text-2xs { font-size: 0.75rem !important; }
-body *.text-xs { font-size: 0.85rem !important; }
+body *.text-2xs { font-size: 0.75rem !important; line-height: 150% !important; line-height: 1.5 !important; }
+body *.text-xs { font-size: 0.85rem !important; line-height: 150% !important; line-height: 1.5 !important; }
 body *.text-sm { font-size: 1rem !important; }
 body *.text-base { font-size: 1.25rem !important; }
 body *.text-lg { font-size: 1.5rem !important; }
@@ -889,7 +889,7 @@ input[type=submit]:hover, input[type=reset]:hover { cursor: pointer; }
 
 .form-section > form { padding: 5rem 0; }
 
-.splendid-form {
+form.splendid {
 	display: grid;
 	grid-template-columns: repeat(2, 1fr);
 	row-gap: 1.5rem;
@@ -916,7 +916,7 @@ legend {
 	opacity: 0.5;
 }
 
-.splendid-form input[type=submit], .splendid-form + input[type=submit] {
+form.splendid input[type=submit], form.splendid + input[type=submit] {
 	display: block;
 	margin: 2.5rem auto 1rem;
 	color: rgba(18, 18, 18, 0.75);
@@ -925,7 +925,7 @@ legend {
 	outline: 3px solid rgba(18, 18, 18, 0.25);
 }
 
-.splendid-form input[type=submit]:hover, .splendid-form + input[type=submit]:hover {
+form.splendid input[type=submit]:hover, form.splendid + input[type=submit]:hover {
 	color: #121212;
 	outline: 3px solid #121212;
 }
@@ -963,9 +963,9 @@ legend {
 form.splendid input[type=checkbox], form.splendid input[type=radio] { display: none; }
 
 .form-group .form-field > input[type=checkbox] + label,
-form.splendid input[type=checkbox] + label,
+form.splendid label input[type=checkbox] + div,
 .form-group .form-field > input[type=radio] + label,
-form.splendid input[type=radio] + label {
+form.splendid label input[type=radio] + div {
 	display: flex;
 	position: static;
 	width: 100%;
@@ -984,8 +984,8 @@ form.splendid label input[type=radio] + div::before {
 	content: "";
 	display: inline-block;
 	margin-right: 0.5rem;
-	width: 0.75rem;
-	height: 0.75rem;
+	width: 0.8rem;
+	height: 0.8rem;
 	line-height: 1rem;
 	outline: none;
 	border: 3px solid rgba(248, 249, 250, 0.25);
@@ -1009,7 +1009,7 @@ form.splendid label input[type=radio]:checked + div::before {
 
 .form-field input, .form-field select, .form-field textarea {
 	padding: 0.25rem 1rem;
-	width: calc(100% - 2rem);
+	width: 100%;
 	height: 2.5rem;
 	font-size: 1rem;
 	font-weight: normal;
@@ -1125,9 +1125,8 @@ section.bg-white h2, section.bg-white p, section.bg-white label {
 /* Responsive */
 
 @media screen and (min-width: 600px) {
-	.splendid-form {
+	form.splendid {
 		grid-template-columns: repeat(6, 1fr);
-		column-gap: 1.5rem;
 	}
 
 	.form-field.col-1, .form-group.col-1 { grid-column: span 1; }
@@ -2040,6 +2039,7 @@ img[src=""] { display: none !important; }
 	display: flex;
 	margin: 0 auto;
 	width: calc(100% - 3rem);
+	justify-content: space-between;
 	row-gap: 1.5rem;
 	column-gap: calc(40% - (100% / 3));
 	flex-flow: row wrap;
@@ -2058,6 +2058,22 @@ img[src=""] { display: none !important; }
 #footer a {
 	color:inherit;
 	text-decoration:none;
+}
+
+#footer p.text-xs a,
+#footer p.text-2xs a {
+	color: rgba(248,249,250,0.75) !important;
+	border-bottom: none;
+	background-image: none;
+	text-decoration: underline;
+}
+
+#footer p.text-xs a:hover,
+#footer p.text-2xs a:hover {
+	color: rgba(255,200,87,0.75) !important;
+	border-bottom: none;
+	background-image: none;
+	text-decoration: underline;
 }
 
 #footer .socials a {

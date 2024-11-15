@@ -5,19 +5,10 @@ var header = document.getElementById( 'splendid-header' );
 var sticky = header.getBoundingClientRect().top;
 var timers = Array.from( document.querySelectorAll( '.countdown' ) );
 
-// Check if a form has more than one input
-const multiForm = (f) => f.elements.length > 1;
-
 ( function () {
 	timers.forEach( t => {
 		countDown(t);
 	} );
-
-	// Inject form assets
-	if ( Array.from( document.querySelectorAll( 'form' ) ).some( multiForm ) == true ) {
-		injectStyle( 'assets/css/global/forms.css' );
-		injectScript( 'assets/js/forms.js' );
-	}
 } )();
 
 // Toggle mobile navigation

@@ -1,7 +1,7 @@
 <!-- Footer : BEGIN -->
 <footer id="footer" itemscope itemtype="https://schema.org/WPFooter" class="bg-black text-white">
 	<div class="max-w-5 mx-auto pt-16 pb-4 sm:px-4 md:px-14 lg:px-16">
-		<div class="sm:w-full md:w-60">
+		<div class="sm:w-full md:w-half">
 			<h4 class="m-0 mb-6 text-white">Explore</h4>
 			<ul role="navigation" aria-label="Footer" class="two-columns w-full mb-4">
 				<li itemprop="name" role="menuitem">
@@ -24,10 +24,8 @@
 				{% include icons.html %}
 			</div>
 		</div>
-		<div class="splendid-flex sm:w-full md:w-33 flex-col">
-			<div aria-labelledby="newsletter-heading">
-				{% include web-form.html %}
-			</div>
+		<div class="splendid-flex sm:w-full md:w-40 flex-col">
+			{% include web-form.html %}
 			<address class="mt-12">
 				<div class="mb-0">
 					Brandon Caples<br>
