@@ -892,7 +892,8 @@ input[type=submit]:hover, input[type=reset]:hover { cursor: pointer; }
 form.splendid {
 	display: grid;
 	grid-template-columns: repeat(2, 1fr);
-	row-gap: 1.5rem;
+	row-gap: 0.5rem;
+	column-gap: 1rem;
 }
 
 .form-row, .form-group {
@@ -1103,6 +1104,37 @@ form.splendid label input[type=radio]:checked + div::before {
 
 .select-hide { display: none !important; }
 
+/* Brevo */
+
+.sib-form-message-panel {
+	display: none;
+}
+
+#sib-form-container .error-message {
+	background-color: rgba(240, 84, 84, 0.1);
+	border: 1px solid #F05454;
+}
+
+#sib-form-container .success-message {
+	background-color: rgba(240, 84, 84, 0.1);
+	border: 1px solid #2CA096;
+}
+
+.sib-form .input_replaced + .checkbox_tick_positive {
+	display: inline-block;
+	position: relative;
+	width: 1rem;
+	height: 1rem;
+	border: 2px solid #6B7A8F;
+	border-radius: 4px;
+	cursor: pointer;
+}
+
+.sib-form .input_replaced:checked + .checkbox_tick_positive {
+	background: #FFC857;
+	border-color: #F8F9FA;
+}
+
 /* Form colors */
 
 section.bg-red h2, section.bg-red p, section.bg-red label,
@@ -1127,6 +1159,7 @@ section.bg-white h2, section.bg-white p, section.bg-white label {
 @media screen and (min-width: 600px) {
 	form.splendid {
 		grid-template-columns: repeat(6, 1fr);
+		grid-template-columns: repeat(6, minmax(0, 1fr));
 	}
 
 	.form-field.col-1, .form-group.col-1 { grid-column: span 1; }
@@ -2051,10 +2084,6 @@ img[src=""] { display: none !important; }
 	color: rgba(248,249,250,0.75);
 }
 
-#footer .text-black {
-	color: rgba(18,18,18,0.75);
-}
-
 #footer a {
 	color:inherit;
 	text-decoration:none;
@@ -2070,7 +2099,7 @@ img[src=""] { display: none !important; }
 
 #footer p.text-xs a:hover,
 #footer p.text-2xs a:hover {
-	color: rgba(255,200,87,0.75) !important;
+	color: #FFC857 !important;
 	border-bottom: none;
 	background-image: none;
 	text-decoration: underline;

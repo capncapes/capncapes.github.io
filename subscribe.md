@@ -4,7 +4,7 @@ title: Subscribe to emails
 permalink: /subscribe/
 ---
 
-<div class="max-w-5 mx-auto pt-16 pb-4 sm:px-4 md:px-14 lg:px-16">
+<div class="max-w-4 lg:mx-auto pt-16 pb-4">
     <div class="splendid-flex w-full flex-col md:flex-row justify-between">
         <div class="w-40 mb-0">
             {% include form.html %}

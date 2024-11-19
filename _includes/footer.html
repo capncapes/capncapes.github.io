@@ -20,23 +20,25 @@
 					<a href="/resume/">Résumé</a>
 				</li>
 			</ul>
-			<div class="socials mt-6">
-				{% include icons.html %}
-			</div>
-		</div>
-		<div class="splendid-flex sm:w-full md:w-40 flex-col">
-			{% include web-form.html %}
 			<address class="mt-12">
 				<div class="mb-0">
 					Brandon Caples<br>
 					Tennessee, United States
 				</div>
 			</address>
+			<div class="socials mt-6">
+				{% include icons.html %}
+			</div>
+		</div>
+		<div class="splendid-flex sm:w-full md:w-40 flex-col">
+			{% include form-subscribe.html %}
 		</div>
 		<div class="legal w-full text-xs">
 			<p class="sm:splendid-block md:splendid-inline">All opinions are my own, unless otherwise noted.</p>
 			<p class="sm:splendid-block md:splendid-inline">&copy; {{ "now" | date: "%Y" }} Brandon Caples</p>
 		</div>
 	</div>
+	<script defer src="https://sibforms.com/forms/end-form/build/main.js"></script>
+	<script src="https://www.google.com/recaptcha/api.js?render=6Lef93UqAAAAALk3W-baYTyP5eZCxXUbooshR-u1&hl=en" async defer></script>
 </footer>
 <!-- Footer : END -->
