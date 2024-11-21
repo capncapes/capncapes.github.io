@@ -2,6 +2,7 @@
 TABLE OF CONTENTS
 	2	Typography
 	3	Header
+	4	Hero Section / Slider
 	5	Tabs Section
 	11	Single Post
 	13	Gallery Layouts
@@ -71,7 +72,6 @@ ul.navbar-nav.justify-center { justify-content: center; }
 	white-space: nowrap;
 	opacity: 0;
 	visibility: hidden;
-	/* transform: translateY(-60%); */
 	-webkit-transition: opacity 0.2s ease-in, -webkit-transform 0.3s ease-in;
 	transition: opacity 0.2s ease-in, -webkit-transform 0.3s ease-in;
 	-o-transition: opacity 0.2s ease-in, transform 0.3s ease-in;
@@ -133,6 +133,14 @@ ul li .nav-link, ul li .nav-item {
 	height: 1.4rem;
 	fill: #F8F9FA;
 	transition: transform 0.35s ease-in-out;
+}
+
+/* ================================================================
+	4	Hero Section / Slider
+================================================================ */
+
+.slide .slider-content {
+	flex: 1;
 }
 
 /* ================================================================

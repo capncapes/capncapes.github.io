@@ -1,24 +1,31 @@
-<section id="slider" class="min-h-70 p-0">
+<section id="slider" class="min-h-80 p-0">
 	{% for slide in site.data.slider %}
 		{% if slide.display %}
-		<div class="slide"{% if slide.bg_color != '' %} style="background-color: {{ slide.bg_color }};"{% else %} data-bg-color="false"{% endif %}>
-			{% if slide.img_src != "" %}
-				<div class="background" style="background-image: url('{{ slide.img_src }}');{% if slide.bg_color != '' %} filter: grayscale(100%);{% endif %}"></div>
+		<div class="slide splendid-flex p-0 flex-col lg:flex-row items-stretch bg-blue active" style="background: {{ slide.bg_color }};">
+			{% if slide.webp_src != "" or slide.jpg_src != "" %}
+				<div class="img-container relative h-full lg:w-half xl:w-60">
+					<a href="{{ slide.button_link }}" {% if slide.download !="" %}download="{{ slide.download }}" {% endif %}>
+						<picture>
+							<source type="image/webp" srcset="{{ slide.webp_src }}">
+							<img src="{{ slide.jpg_src }}" class="absolute inset-0 w-full h-full object-cover" alt="{{ slide.img_alt }}" />
+						</picture>
+					</a>
+				</div>
 			{% endif %}
-			<div class="slider-content max-w-4 mx-auto px-7 xl:px-0 pt-20 pb-12 text-white">
-				<h2 itemprop="name" class="title w-90 mb-6 mx-0 p-0 text-xl normal">{{ slide.heading }}</h2>
-				<p class="mb-10">{{ slide.desc }}</p>
-				<a href="{{ slide.button_link }}" {% if slide.download != "" %}download="{{ slide.download }}" {% endif %}class="splendid-button" role="button">{{ slide.button_text }}</a>
+			<div class="slider-content lg:w-half xl:w-40 pt-6 lg:pt-20 px-7 lg:pl-12 lg:pr-36 text-{{ slide.text_color }}">
+				<small class="label mb-4 font-bold text-xs text-{{ slide.text_color }} uppercase opacity-50">{{ slide.item_type }}</small>
+				<h2 itemprop="name" class="title w-90 mb-4 md:mb-6 mx-0 p-0 text-base md:text-lg lg:text-xl text-{{ slide.text_color }} normal">{{ slide.heading }}</h2>
+				<p class="mb-6 md:mb-8 text-sm text-{{ slide.text_color }}">{{ slide.desc }}</p>
+				<a href="{{ slide.button_link }}" {% if slide.download !="" %}download="{{ slide.download }}" {% endif %}class="splendid-button small {% if slide.text_color != 'white' %}dark{% else %}light{% endif %}" role="button">{{ slide.button_text }}</a>
 			</div>
 		</div>
 		{% endif %}
 	{% endfor %}
-
-	<nav id="slider-nav" class="splendid-flex px-7 py-4 flex-row justify-between">
+	<nav id="slider-nav" class="splendid-flex px-7 py-4 flex-row justify-between" style="display:none;">
 		<ul class="dots splendid-flex p-0 flex-row items-center">
 			<li class="prev p-0" onclick="plusSlides(-1)"></li>
 			{% for slide in site.data.slider %}
-				<li class="dot bg-white rounded" data-slide="{{ forloop.index }}"></li>
+			<li class="dot bg-white rounded" data-slide="{{ forloop.index }}"></li>
 			{% endfor %}
 			<li class="next p-0" onclick="plusSlides(1)"></li>
 		</ul>
@@ -75,4 +82,7 @@
 	// Initialize the slideshow
 	showSlide(slideIndex);
 	startSlideShow(); // Start the initial automatic sliding
+
+	// Fade in the slider nav
+	window.document.getElementById('slider-nav').style.display = 'flex';
 </script>
