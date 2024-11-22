@@ -24,7 +24,8 @@
 	<nav id="slider-nav" class="splendid-flex px-7 py-4 flex-row justify-between" style="display:none;">
 		<ul class="dots splendid-flex p-0 flex-row items-center">
 			<li class="prev p-0" onclick="plusSlides(-1)"></li>
-			{% for slide in site.data.slider %}
+			{% assign slides = site.data.slider | where: "display", true %}
+			{% for slide in slides %}
 			<li class="dot bg-white rounded" data-slide="{{ forloop.index }}"></li>
 			{% endfor %}
 			<li class="next p-0" onclick="plusSlides(1)"></li>
