@@ -1306,7 +1306,8 @@ body .card a, body .card a:hover, body .card a:active, body .card a:visited {
 
 /* Books Gallery */
 
-.books-gallery {
+.books-gallery,
+.movies-gallery {
 	display: -ms-grid;
 	display: grid;
 	width: auto;
@@ -1316,20 +1317,40 @@ body .card a, body .card a:hover, body .card a:active, body .card a:visited {
 	-ms-flex-pack: center;
 	justify-content: center;
 	list-style: none;
+	transition: all 0.2s ease-in;
 }
 
 .books-gallery article *,
+.movies-gallery article *,
 .carousel article[itemtype="https://schema.org/Book"] * {
 	line-height: 125%;
 }
 
+.movies-gallery article div[data-item="tv-cover"]::after {
+	content: "TV";
+	position: absolute;
+	bottom: 5px;
+	left: 5px;
+	width: 16px;
+	height: 16px;
+	padding: 2px;
+	font-size: 10px;
+	font-weight: 700;
+	line-height: 16px;
+	color: #121212;
+	background-color: #FFC857;
+	border-radius: 4px;
+}
+
 .books-gallery article a img,
+.movies-gallery article img,
 .carousel article[itemtype="https://schema.org/Book"] a img {
 	font-size: 0.9rem;
 	line-height: 3;
 }
 
 .books-gallery article a img::before,
+.movies-gallery article img::before,
 .carousel article[itemtype="https://schema.org/Book"] a img::before {
 	content: attr(alt);
 	position: absolute;
@@ -1342,21 +1363,22 @@ body .card a, body .card a:hover, body .card a:active, body .card a:visited {
 	border-radius: 4px;
 }
 
-.books-gallery article a .placeholder,
-.carousel article[itemtype="https://schema.org/Book"] a .placeholder {
+.books-gallery article .placeholder,
+.movies-gallery article .placeholder,
+.carousel article[itemtype="https://schema.org/Book"] .placeholder {
 	height: 0;
 	padding-top: calc(100% * (3 / 2));
 }
 
-.books-gallery article a .placeholder::before,
-.carousel article[itemtype="https://schema.org/Book"] a .placeholder::before {
+.books-gallery article .placeholder::before,
+.movies-gallery article .placeholder::before,
+.carousel article[itemtype="https://schema.org/Book"] .placeholder::before {
 	content: attr(data-content);
 	position: absolute;
 	inset: 5% 10%;
 	font-size: 0.85rem;
 	line-height: 2;
 	color: #121212;
-	background-color: #DEDECA;
 }
 
 body[data-category="Book Reviews"] .books-gallery article a img::before,
@@ -1376,6 +1398,7 @@ div.more:hover > a > div {
 }
 
 .books-gallery article .info .title,
+.movies-gallery article .info .title,
 .carousel article[itemtype="https://schema.org/Book"] .info .title {
 	display: -webkit-box;
 	width: 100%;

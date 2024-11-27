@@ -368,7 +368,8 @@ body > header { overflow: hidden; }
 
 /* Books Gallery */
 
-.books-gallery {
+.books-gallery,
+.movies-gallery {
 	-ms-grid-columns: (1fr)[3];
 	grid-template-columns: repeat(3, 1fr);
 }

@@ -232,6 +232,14 @@
     
     
       <url>
+        <loc>http://localhost:4000/entertainment/</loc>
+        
+      </url>
+    
+  
+    
+    
+      <url>
         <loc>http://localhost:4000/faith/ephesians/</loc>
         
       </url>

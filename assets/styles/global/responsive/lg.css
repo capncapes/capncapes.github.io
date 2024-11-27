@@ -254,7 +254,8 @@ main > *, main .cards-gallery {
 
 /* Books Gallery */
 
-.books-gallery {
+.books-gallery,
+.movies-gallery {
 	-ms-grid-columns: (1fr)[4];
 	grid-template-columns: repeat(4, 1fr);
 }

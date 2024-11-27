@@ -1,0 +1,120 @@
+---
+permalink: entertainment/
+---
+
+<!DOCTYPE html>
+<html id="splendid" lang="en-US">
+{% include head.html %}
+<body id="default">
+	{% if site.scripts.gtm %}
+	<!-- Google Tag Manager (noscript) -->
+	<noscript><iframe src="https://www.googletagmanager.com/ns.html?id={{ site.scripts.gtm }}" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+	<!-- End Google Tag Manager (noscript) -->
+	{% endif %}
+	{% include header.html %}
+	<div class="px-7 md:px-10 bg-yellow">
+		<h1 class="relative max-w-4 lg:mx-auto pt-20 md:pb-6 text-3xl lg:text-4xl font-bold">Movies & TV Series</h1>
+	</div>
+	<main class="lg:pt-8 pb-16 px-7 md:px-10">
+		<div id="filter-container">
+			<label for="genre-filter">Filter by Genre:</label>
+			<select id="genre-filter">
+				<option value="">All Genres</option>
+				<option value="28">Action</option>
+				<option value="12">Adventure</option>
+				<option value="16">Animation</option>
+				<option value="35">Comedy</option>
+				<option value="80">Crime</option>
+				<option value="99">Documentary</option>
+				<option value="18">Drama</option>
+				<option value="10751">Family</option>
+				<option value="14">Fantasy</option>
+				<option value="36">History</option>
+				<option value="27">Horror</option>
+				<option value="10402">Music</option>
+				<option value="9648">Mystery</option>
+				<option value="10749">Romance</option>
+				<option value="878">Science Fiction</option>
+				<option value="10770">TV Movie</option>
+				<option value="53">Thriller</option>
+				<option value="10752">War</option>
+				<option value="37">Western</option>
+			</select>
+			<label for="rating-filter">Filter by Rating:</label>
+			<select id="rating-filter">
+				<option value="">All Ratings</option>
+				<option value="PG">PG</option>
+				<option value="PG-13">PG-13</option>
+				<option value="R">R</option>
+			</select>
+		</div>
+
+		<!-- Movies Gallery : START -->
+		<div class="movies-gallery mt-16 lg:mt-24">
+		
+			{% assign movies = site.data.movies | sort: "title" %}
+			{% for item in movies %}
+			<article itemscope {% if item.itemType != 'TV_SHOW' %}itemtype="https://schema.org/Movie"{% else %}itemtype="https://schema.org/TVSeries"{% endif %} class="dvd-item splendid-flex flex-col justify-between" style="grid-auto-rows:1fr;opacity:1;" data-genres="{{ item.genreIds | jsonify }}">
+				<div class="relative overflow-hidden rounded shadow" data-item="{% if item.itemType != 'TV_SHOW' %}movie{% else %}tv{% endif %}-cover">
+					{% if item.coverLink != '' %}
+					<img class="rounded shadow" src="{{ item.coverLink }}" title="{{ item.title }}" alt="{{ item.title }} cover">
+					{% else %}
+					<div class="placeholder relative w-full h-0 bg-white rounded shadow" data-content="{{ item.title }}"></div>
+					{% endif %}
+				</div>
+				<div class="info splendid-flex p-0 flex-col justify-end items-start flex-nowrap rounded" data-item="{% if item.itemType != 'TV_SHOW' %}movie{% else %}tv{% endif %}-title">
+					<h4 itemprop="name" class="title w-90 mt-3 mb-1 mx-auto p-0 text-base normal text-black">{{ item.title }}</h4>
+					<div class="splendid-flex mb-2 p-0 flex-col justify-between flex-nowrap">
+						<span class="p-0 text-xs normal">Released: <time itemprop="datePublished" datetime="{{ item.releaseDate | date: '%Y-%m-%dT%H:%M:%S-05:00' }}" class="p-0 text-xs normal">{{ item.releaseDate | date: "%b %d, %Y" }}</time></span>
+						{% if item.itemType == 'MOVIE' %}
+						<span class="p-0 text-xs normal">Runtime: <time itemprop="duration" datetime="PT{{ item.runtime }}M" class="p-0 text-xs normal">{{ item.runtime }} minutes</time></span>
+						{% else %}
+						<span class="p-0 text-xs normal" itemprop="numberOfEpisodes">Episodes: {{ item.episodeCount }}</span>
+						{% endif %}
+					</div>
+				</div>
+			</article>
+			{% endfor %}
+		
+		</div>
+		<!-- Movies Gallery : END -->
+
+	</main>
+	<script>
+		document.addEventListener('DOMContentLoaded', () => {
+			const dvdItems = document.querySelectorAll('.dvd-item');
+			const genreFilter = document.getElementById('genre-filter');
+			const ratingFilter = document.getElementById('rating-filter');
+			
+			// Add event listeners for filters
+			genreFilter.addEventListener('change', filterCollection);
+			ratingFilter.addEventListener('change', filterCollection);
+			
+			function filterCollection() {
+				const genre = genreFilter.value;
+				const rating = ratingFilter.value;
+				
+				dvdItems.forEach(item => {
+					const genreIds = item.getAttribute('data-genres');
+					const genreArray = JSON.parse(genreIds);
+					genreArray.forEach((id) => { console.log(`Genre ID: ${id}`) });
+
+					const itemRating = item.getAttribute('data-rating');
+					
+					const matchesGenre = !genre || genreIds.includes(genre);
+					const matchesRating = !rating || itemRating === rating;
+					
+					if (matchesGenre && matchesRating) {
+						item.style.display = 'block';
+						item.style.opacity = '1.0';
+					} else {
+						item.style.opacity = '0.0';
+						item.style.display = 'none';
+					}
+				});
+			};
+		});
+	</script>
+	{% include footer.html %}
+</body>
+</html>

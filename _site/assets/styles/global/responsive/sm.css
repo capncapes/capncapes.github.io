@@ -326,7 +326,8 @@ body > header { overflow: scroll; }
 
 /* Books Gallery */
 
-.books-gallery {
+.books-gallery,
+.movies-gallery {
 	-ms-grid-columns: (1fr)[2];
 	grid-template-columns: repeat(2, 1fr);
 }
