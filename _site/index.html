@@ -193,7 +193,7 @@
 					</a>
 				</div>
 			
-			<div class="slider-content lg:w-half xl:w-40 pt-6 lg:pt-20 px-7 lg:pl-12 lg:pr-36 text-white">
+			<div class="slider-content lg:w-half xl:w-40 pt-6 lg:pt-20 px-7 lg:pr-36 text-white">
 				<small class="label mb-4 font-bold text-xs text-white uppercase opacity-50">Article</small>
 				<h2 itemprop="name" class="title w-90 mb-4 md:mb-6 mx-0 p-0 text-base md:text-lg lg:text-xl text-white normal">Email accessibility</h2>
 				<p class="mb-6 md:mb-8 text-sm text-white">Email accessibility ensures that users of all abilities can access and understand your message.</p>
@@ -214,7 +214,7 @@
 					</a>
 				</div>
 			
-			<div class="slider-content lg:w-half xl:w-40 pt-6 lg:pt-20 px-7 lg:pl-12 lg:pr-36 text-black">
+			<div class="slider-content lg:w-half xl:w-40 pt-6 lg:pt-20 px-7 lg:pr-36 text-black">
 				<small class="label mb-4 font-bold text-xs text-black uppercase opacity-50">Article</small>
 				<h2 itemprop="name" class="title w-90 mb-4 md:mb-6 mx-0 p-0 text-base md:text-lg lg:text-xl text-black normal">Product photography for marketers</h2>
 				<p class="mb-6 md:mb-8 text-sm text-black">Good product photography can make or break a marketing message.</p>
@@ -235,7 +235,7 @@
 					</a>
 				</div>
 			
-			<div class="slider-content lg:w-half xl:w-40 pt-6 lg:pt-20 px-7 lg:pl-12 lg:pr-36 text-white">
+			<div class="slider-content lg:w-half xl:w-40 pt-6 lg:pt-20 px-7 lg:pr-36 text-white">
 				<small class="label mb-4 font-bold text-xs text-white uppercase opacity-50">Book Review</small>
 				<h2 itemprop="name" class="title w-90 mb-4 md:mb-6 mx-0 p-0 text-base md:text-lg lg:text-xl text-white normal">Contagious: Why Things Catch On, by Jonah Berger</h2>
 				<p class="mb-6 md:mb-8 text-sm text-white">Contagious is a well-written and engaging book that provides valuable insights into the psychology of social influence.</p>
@@ -256,7 +256,7 @@
 					</a>
 				</div>
 			
-			<div class="slider-content lg:w-half xl:w-40 pt-6 lg:pt-20 px-7 lg:pl-12 lg:pr-36 text-black">
+			<div class="slider-content lg:w-half xl:w-40 pt-6 lg:pt-20 px-7 lg:pr-36 text-black">
 				<small class="label mb-4 font-bold text-xs text-black uppercase opacity-50">Article</small>
 				<h2 itemprop="name" class="title w-90 mb-4 md:mb-6 mx-0 p-0 text-base md:text-lg lg:text-xl text-black normal">How to automate Marketing Cloud journey analytics data</h2>
 				<p class="mb-6 md:mb-8 text-sm text-black">Understanding and leveraging journey analytics is essential for optimizing marketing efforts.</p>
@@ -290,14 +290,11 @@
 	let slideInterval;
 
 	function showSlide(index) {
-		// Remove the active class from all slides
 		slides.forEach(slide => slide.classList.remove('active'));
 		dots.forEach(dot => dot.classList.remove('active'));
 
-		// Calculate the new slide index, looping back if necessary
 		slideIndex = (index + totalSlides) % totalSlides;
 
-		// Add the active class to the current slide
 		slides[slideIndex].classList.add('active');
 		dots[slideIndex].classList.add('active');
 	}
@@ -309,8 +306,8 @@
 	}
 
 	function resetSlideShow() {
-		clearInterval(slideInterval); // Clear the existing interval
-		startSlideShow(); // Start a new interval
+		clearInterval(slideInterval);
+		startSlideShow();
 	}
 
 	dots.forEach((dot, index) => {
@@ -319,22 +316,19 @@
 		});
 	});
 
-	// Attach event listeners for navigation arrows
 	document.querySelector('.prev').addEventListener('click', () => {
 		showSlide(slideIndex - 1);
-		resetSlideShow(); // Reset the timer when a button is clicked
+		resetSlideShow();
 	});
 
 	document.querySelector('.next').addEventListener('click', () => {
 		showSlide(slideIndex + 1);
-		resetSlideShow(); // Reset the timer when a button is clicked
+		resetSlideShow();
 	});
 
-	// Initialize the slideshow
 	showSlide(slideIndex);
-	startSlideShow(); // Start the initial automatic sliding
+	startSlideShow();
 
-	// Fade in the slider nav
 	window.document.getElementById('slider-nav').style.display = 'flex';
 </script>
 
