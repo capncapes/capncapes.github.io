@@ -1,0 +1,29 @@
+#search ul#search-results {
+	padding: 0;
+	list-style-type: none;
+}
+
+#search #search-results {
+	opacity: 0;
+	transition: opacity 0.5s ease;
+}
+
+#search #search-results.visible {
+	opacity: 1;
+}
+
+#search #search-results :not(:last-child) {
+	margin-bottom: 2rem;
+}
+
+#search #search-results a {
+	color: #30475E;
+}
+
+#search #search-results a:hover {
+	color: #F05454;
+}
+
+#search #search-results a:visited {
+	color: #6B7A8F;
+}
