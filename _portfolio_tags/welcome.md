@@ -3,6 +3,7 @@ layout: portfolio_tag_single
 title: "Welcome"
 tag: welcome
 formatted_tag: welcome
+description: "Designed to engage, introduce, and build trust, welcome emails provide a warm greeting, establish expectations, and encourage exploration of a brand’s products or services."
 permalink: /portfolio/tags/welcome/
 ---
 

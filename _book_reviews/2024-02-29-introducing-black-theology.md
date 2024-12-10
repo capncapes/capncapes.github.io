@@ -17,6 +17,7 @@ featured_image: {
   alt: "Introducing Black Theology: Three Crucial Questions for the Evangelical Church"
 }
 tags: ["Christian", "race relations", "Black voices", "theology"]
+permalink: /book-reviews/introducing-black-theology
 published: true
 ---
 

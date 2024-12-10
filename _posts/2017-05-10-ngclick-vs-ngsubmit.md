@@ -11,6 +11,7 @@ description: "Angular has some nuances that can cause some trouble for beginners
 category: MarTech
 tags: ["web development"]
 featured: false
+permalink: /2017/ngclick-vs-ngsubmit
 redirect_from: /blog/ngclick-vs-ngsubmit
 ---
 

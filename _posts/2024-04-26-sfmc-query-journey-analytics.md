@@ -10,6 +10,7 @@ featured_image: {
 description: "Understanding and leveraging journey analytics is essential for optimizing marketing efforts."
 category: MarTech
 tags: ["analytics", "Salesforce Marketing Cloud", "SQL"]
+permalink: /2024/sfmc-query-journey-analytics
 featured: false
 ---
 

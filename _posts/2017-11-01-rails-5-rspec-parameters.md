@@ -12,6 +12,7 @@ category: MarTech
 tags: ["web development"]
 featured: false
 published: true
+permalink: /2017/rails-5-rspec-parameters
 redirect_from: /blog/rails-5-rspec-parameters
 ---
 

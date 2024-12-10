@@ -3,6 +3,7 @@ layout: portfolio_tag_single
 title: "Interactive Content"
 tag: interactive
 formatted_tag: interactive
+description: "Interactive content in emails and on websites invites users to engage directly with a brand through features like quizzes, polls, carousels, and clickable components."
 permalink: /portfolio/tags/interactive/
 ---
 

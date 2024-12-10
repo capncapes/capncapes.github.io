@@ -3,6 +3,7 @@ layout: portfolio_tag_single
 title: "Events"
 tag: events
 formatted_tag: events
+description: "By showcasing key details, enticing visuals, and clear calls-to-action, event emails and web pages create excitement and encourage registrations."
 permalink: /portfolio/tags/events/
 ---
 

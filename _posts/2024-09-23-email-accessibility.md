@@ -10,6 +10,7 @@ featured_image: {
 description: "Enhancing accessibility ensures that your message makes your email campaigns more successful in the long run."
 category: MarTech
 tags: ["email", "a11y"]
+permalink: /2024/email-accessibility
 featured: false
 ---
 

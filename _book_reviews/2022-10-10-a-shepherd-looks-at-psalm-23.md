@@ -17,5 +17,6 @@ featured_image: {
   alt: "A Shepherd Looks at Psalm 23, by W. Phillip Keller"
 }
 tags: ["Christian", "Psalms"]
+permalink: /book-reviews/a-shepherd-looks-at-psalm-23
 published: false
 ---

@@ -182,411 +182,1646 @@
 	</div>
 </header>
 	<div class="px-7 md:px-10 bg-yellow">
-		<div class="splendid-flex max-w-5 mx-auto pt-20 sm:px-0 md:pb-6 md:px-10 lg:px-16 flex-col md:flex-row justify-start items-center">
+		<div class="splendid-flex max-w-5 mx-auto pt-20 sm:px-0 md:pb-6 md:px-10 lg:px-16 flex-col md:flex-row justify-between items-center">
 			<h1 class="relative mb-10 md:mb-0 md:mr-10 text-3xl lg:text-4xl font-bold">Search</h1>
 			<form class="search splendid-flex mb-10 md:mb-0 flex-row" action="/search/" method="get">
 				<input id="search-box" class="input py-2 px-3" type="text" name="query">
-				<button type="submit">
+				<button class="py-2 px-3" type="submit">
 					<svg id="search" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
-    <path d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352a144 144 0 1 0 0-288 144 144 0 1 0 0 288z"/>
+	<path d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352a144 144 0 1 0 0-288 144 144 0 1 0 0 288z"/>
 </svg>
 				</button>
 			</form>
 		</div>
 	</div>
 	<main class="lg:pt-8 pb-16 px-7 md:px-10">
-		<ul id="search-results" class="max-w-5 mx-auto pt-10 sm:px-0 md:pb-6 md:px-10 lg:px-16"></ul>
+		<p class="max-w-5 mx-auto pt-0 sm:px-0 md:px-10 lg:px-16">Use the search bar to submit a query.</p>
+<ul id="search-results" class="max-w-5 mx-auto pt-10 sm:px-0 md:pb-6 md:px-10 lg:px-16"></ul>
 <script>
 	window.store = {
 		
-			"martech-2024-email-accessibility": {
-				"title": "Email accessibility",
-				"author": "",
-				"category": "MarTech",
-				"description": "Enhancing accessibility ensures that your message makes your email campaigns more successful in the long run.",
-				"url": "/martech/2024/email-accessibility"
-			}
-		, 
 		
-			"faith-2024-come-and-see": {
-				"title": "Come and see",
-				"author": "",
-				"category": "Faith",
-				"description": "Jesus offers an invitation to come and see what God has done for you.",
-				"url": "/faith/2024/come-and-see"
-			}
-		, 
+			
+			
+				
+				
+				"posts-2024-09-23-email-accessibility-md": {
+					"title": "Email accessibility",
+					"author": "Brandon Caples",
+					"category": "MarTech",
+					"description": "Enhancing accessibility ensures that your message makes your email campaigns more successful in the long run.",
+					"url": "/2024/email-accessibility",
+					"type": "MarTech Blog Post"
+				}
+			
 		
-			"martech-2024-product-photography-for-marketers": {
-				"title": "Product photography for marketers",
-				"author": "",
-				"category": "MarTech",
-				"description": "Good product photography can make or break a marketing message.",
-				"url": "/martech/2024/product-photography-for-marketers"
-			}
-		, 
+			
+			
+				, 
+				
+				"posts-2024-07-30-come-and-see-md": {
+					"title": "Come and see",
+					"author": "Brandon Caples",
+					"category": "Faith",
+					"description": "Jesus offers an invitation to come and see what God has done for you.",
+					"url": "/2024/come-and-see",
+					"type": "Faith Blog Post"
+				}
+			
 		
-			"faith-2024-embracing-divine-inheritance": {
-				"title": "Embracing our divine inheritance",
-				"author": "",
-				"category": "Faith",
-				"description": "Adoption grants us access to the very presence of God.",
-				"url": "/faith/2024/embracing-divine-inheritance"
-			}
-		, 
+			
+			
+				, 
+				
+				"posts-2024-05-16-product-photography-for-marketers-md": {
+					"title": "Product photography for marketers",
+					"author": "Brandon Caples",
+					"category": "MarTech",
+					"description": "Good product photography can make or break a marketing message.",
+					"url": "/2024/product-photography-for-marketers",
+					"type": "MarTech Blog Post"
+				}
+			
 		
-			"martech-2024-sfmc-query-journey-analytics": {
-				"title": "How to automate Marketing Cloud journey analytics data",
-				"author": "",
-				"category": "MarTech",
-				"description": "Understanding and leveraging journey analytics is essential for optimizing marketing efforts.",
-				"url": "/martech/2024/sfmc-query-journey-analytics"
-			}
-		, 
+			
+			
+				, 
+				
+				"posts-2024-04-29-embracing-divine-inheritance-md": {
+					"title": "Embracing our divine inheritance",
+					"author": "Brandon Caples",
+					"category": "Faith",
+					"description": "Adoption grants us access to the very presence of God.",
+					"url": "/2024/embracing-divine-inheritance",
+					"type": "Faith Blog Post"
+				}
+			
 		
-			"martech-2024-sfmc-web-analytics-connector": {
-				"title": "How to use Web Analytics Connector in Salesforce Marketing Cloud",
-				"author": "",
-				"category": "MarTech",
-				"description": "With its Web Analytics Connector, Marketing Cloud offers a powerful tool to gain deeper insights into customer interactions.",
-				"url": "/martech/2024/sfmc-web-analytics-connector"
-			}
-		, 
+			
+			
+				, 
+				
+				"posts-2024-04-26-sfmc-query-journey-analytics-md": {
+					"title": "How to automate Marketing Cloud journey analytics data",
+					"author": "Brandon Caples",
+					"category": "MarTech",
+					"description": "Understanding and leveraging journey analytics is essential for optimizing marketing efforts.",
+					"url": "/2024/sfmc-query-journey-analytics",
+					"type": "MarTech Blog Post"
+				}
+			
 		
-			"martech-2024-how-to-query-subscribers-who-opened-sfmc-email": {
-				"title": "How to query Salesforce Marketing Cloud subscribers who opened a specific email",
-				"author": "",
-				"category": "MarTech",
-				"description": "You can use SQL to query a database to identify email subscribers who opened a specific email campaign.",
-				"url": "/martech/2024/how-to-query-subscribers-who-opened-sfmc-email"
-			}
-		, 
+			
+			
+				, 
+				
+				"posts-2024-04-15-sfmc-web-analytics-connector-md": {
+					"title": "How to use Web Analytics Connector in Salesforce Marketing Cloud",
+					"author": "Brandon Caples",
+					"category": "MarTech",
+					"description": "With its Web Analytics Connector, Marketing Cloud offers a powerful tool to gain deeper insights into customer interactions.",
+					"url": "/2024/sfmc-web-analytics-connector",
+					"type": "MarTech Blog Post"
+				}
+			
 		
-			"faith-2024-sin-crouching-at-your-door": {
-				"title": "When sin is crouching at your door: the story of Cain and Abel",
-				"author": "",
-				"category": "Faith",
-				"description": "The story of Cain and Abel unfolds with layers of meaning, delving into the significance of names, the consequences of choices, and the divine promise given to Adam and Eve.",
-				"url": "/faith/2024/sin-crouching-at-your-door"
-			}
-		, 
+			
+			
+				, 
+				
+				"posts-2024-03-08-how-to-query-subscribers-who-opened-sfmc-email-md": {
+					"title": "How to query Salesforce Marketing Cloud subscribers who opened a specific email",
+					"author": "Brandon Caples",
+					"category": "MarTech",
+					"description": "With Marketing Cloud, you can use SQL to query a database to identify email subscribers who opened a specific email campaign.",
+					"url": "/2024/how-to-query-subscribers-who-opened-sfmc-email",
+					"type": "MarTech Blog Post"
+				}
+			
 		
-			"faith-2024-paradox-of-the-cross": {
-				"title": "The paradox of the cross: following Jesus in a world obsessed with self",
-				"author": "",
-				"category": "Faith",
-				"description": "It's in the wrestling with big questions that we truly grow in our faith and understanding.",
-				"url": "/faith/2024/paradox-of-the-cross"
-			}
-		, 
+			
+			
+				, 
+				
+				"posts-2024-02-04-sin-crouching-at-your-door-md": {
+					"title": "When sin is crouching at your door: the story of Cain and Abel",
+					"author": "Brandon Caples",
+					"category": "Faith",
+					"description": "The story of Cain and Abel unfolds with layers of meaning, delving into the significance of names, the consequences of choices, and the divine promise given to Adam and Eve.",
+					"url": "/2024/sin-crouching-at-your-door",
+					"type": "Faith Blog Post"
+				}
+			
 		
-			"martech-2023-organizational-purpose": {
-				"title": "Discovering your organizational purpose",
-				"author": "",
-				"category": "MarTech",
-				"description": "Uncovering your organizational purpose is an ongoing process, but these five questions can help.",
-				"url": "/martech/2023/organizational-purpose"
-			}
-		, 
+			
+			
+				, 
+				
+				"posts-2024-01-23-paradox-of-the-cross-md": {
+					"title": "The paradox of the cross: following Jesus in a world obsessed with self",
+					"author": "Brandon Caples",
+					"category": "Faith",
+					"description": "It's in the wrestling with big questions that we truly grow in our faith and understanding.",
+					"url": "/2024/paradox-of-the-cross",
+					"type": "Faith Blog Post"
+				}
+			
 		
-			"faith-2023-prologue-johns-gospel": {
-				"title": "In the beginning was the Word: the prologue of John&apos;s gospel",
-				"author": "",
-				"category": "Faith",
-				"description": "The prologue of John's gospel is quite possibly the most beautiful and profound passage of Scripture in the whole Bible.",
-				"url": "/faith/2023/prologue-johns-gospel"
-			}
-		, 
+			
+			
+				, 
+				
+				"posts-2023-12-20-organizational-purpose-md": {
+					"title": "Discovering your organizational purpose",
+					"author": "Brandon Caples",
+					"category": "MarTech",
+					"description": "Uncovering your organizational purpose is an ongoing process, but these five questions can help.",
+					"url": "/2023/organizational-purpose",
+					"type": "MarTech Blog Post"
+				}
+			
 		
-			"martech-2023-bulletproof-html-email-buttons": {
-				"title": "Bulletproof HTML email buttons",
-				"author": "",
-				"category": "MarTech",
-				"description": "By using a combination of HTML and CSS tricks, you can make sure your buttons are always ready to help you convert more subscribers into customers.",
-				"url": "/martech/2023/bulletproof-html-email-buttons"
-			}
-		, 
+			
+			
+				, 
+				
+				"posts-2023-12-12-prologue-johns-gospel-md": {
+					"title": "In the beginning was the Word: the prologue of John&apos;s gospel",
+					"author": "Brandon Caples",
+					"category": "Faith",
+					"description": "The prologue of John's gospel is quite possibly the most beautiful and profound passage of Scripture in the whole Bible.",
+					"url": "/2023/prologue-johns-gospel",
+					"type": "Faith Blog Post"
+				}
+			
 		
-			"faith-2023-weariness": {
-				"title": "Weariness",
-				"author": "",
-				"category": "Faith",
-				"description": "In Psalm 84, the psalmist provides a profound solution for weariness amidst life's journey.",
-				"url": "/faith/2023/weariness"
-			}
-		, 
+			
+			
+				, 
+				
+				"posts-2023-11-30-bulletproof-html-email-buttons-md": {
+					"title": "Bulletproof HTML email buttons",
+					"author": "Brandon Caples",
+					"category": "MarTech",
+					"description": "By using a combination of HTML and CSS tricks, you can make sure your buttons are always ready to help you convert more subscribers into customers.",
+					"url": "/2023/bulletproof-html-email-buttons",
+					"type": "MarTech Blog Post"
+				}
+			
 		
-			"martech-2023-section-508-email-compliance": {
-				"title": "Section 508 email compliance",
-				"author": "",
-				"category": "MarTech",
-				"description": "Section 508 is a U.S. federal law that requires all electronic and information technology (EIT) developed, procured, maintained, or used by the federal government to be accessible to people with disabilities.",
-				"url": "/martech/2023/section-508-email-compliance"
-			}
-		, 
+			
+			
+				, 
+				
+				"posts-2023-11-28-weariness-md": {
+					"title": "Weariness",
+					"author": "Brandon Caples",
+					"category": "Faith",
+					"description": "In Psalm 84, the psalmist provides a profound solution for weariness amidst life's journey.",
+					"url": "/2023/weariness",
+					"type": "Faith Blog Post"
+				}
+			
 		
-			"martech-2023-ga4-user-properties": {
-				"title": "Google Analytics 4 user properties",
-				"author": "",
-				"category": "MarTech",
-				"description": "Google Analytics 4 user properties are customizable attributes that describe groups of your users, such as their language preferences, geographic locations, or subscription status.",
-				"url": "/martech/2023/ga4-user-properties"
-			}
-		, 
+			
+			
+				, 
+				
+				"posts-2023-10-03-section-508-email-compliance-md": {
+					"title": "Section 508 email compliance",
+					"author": "Brandon Caples",
+					"category": "MarTech",
+					"description": "Section 508 is a U.S. federal law that requires all electronic and information technology (EIT) developed, procured, maintained, or used by the federal government to be accessible to people with disabilities.",
+					"url": "/2023/section-508-email-compliance",
+					"type": "MarTech Blog Post"
+				}
+			
 		
-			"martech-2023-utm-parameters": {
-				"title": "UTM parameters",
-				"author": "",
-				"category": "MarTech",
-				"description": "UTM parameters are snippets of text that can be added to the end of a URL to track the effectiveness of online marketing campaigns.",
-				"url": "/martech/2023/utm-parameters"
-			}
-		, 
+			
+			
+				, 
+				
+				"posts-2023-09-20-ga4-user-properties-md": {
+					"title": "Google Analytics 4 user properties",
+					"author": "Brandon Caples",
+					"category": "MarTech",
+					"description": "Google Analytics 4 user properties are customizable attributes that describe groups of your users, such as their language preferences, geographic locations, or subscription status.",
+					"url": "/2023/ga4-user-properties",
+					"type": "MarTech Blog Post"
+				}
+			
 		
-			"martech-2023-how-to-develop-marketing-campaign": {
-				"title": "How to develop a marketing campaign strategy that works",
-				"author": "",
-				"category": "MarTech",
-				"description": "A well-planned campaign strategy is the difference between attracting new customers and losing ground to the competition.",
-				"url": "/martech/2023/how-to-develop-marketing-campaign"
-			}
-		, 
+			
+			
+				, 
+				
+				"posts-2023-08-03-utm-parameters-md": {
+					"title": "UTM parameters",
+					"author": "Brandon Caples",
+					"category": "MarTech",
+					"description": "UTM parameters are snippets of text that can be added to the end of a URL to track the effectiveness of online marketing campaigns.",
+					"url": "/2023/utm-parameters",
+					"type": "MarTech Blog Post"
+				}
+			
 		
-			"martech-2023-google-analytics-4": {
-				"title": "Making the Switch from Universal Analytics to Google Analytics 4",
-				"author": "",
-				"category": "MarTech",
-				"description": "For years, UA has been the go-to tool for tracking website data. However, GA4 has emerged as the next generation of Google Analytics.",
-				"url": "/martech/2023/google-analytics-4"
-			}
-		, 
+			
+			
+				, 
+				
+				"posts-2023-07-31-how-to-develop-marketing-campaign-md": {
+					"title": "How to develop a marketing campaign strategy that works",
+					"author": "Brandon Caples",
+					"category": "MarTech",
+					"description": "A well-planned campaign strategy is the difference between attracting new customers and losing ground to the competition.",
+					"url": "/2023/how-to-develop-marketing-campaign",
+					"type": "MarTech Blog Post"
+				}
+			
 		
-			"martech-2023-ip-address-warming": {
-				"title": "IP address warming",
-				"author": "",
-				"category": "MarTech",
-				"description": "IP warming is like introducing yourself gradually to ESPs, building trust by sending out a few emails at first and then steadily increasing volume over time.",
-				"url": "/martech/2023/ip-address-warming"
-			}
-		, 
+			
+			
+				, 
+				
+				"posts-2023-05-09-google-analytics-4-md": {
+					"title": "Making the Switch from Universal Analytics to Google Analytics 4",
+					"author": "Brandon Caples",
+					"category": "MarTech",
+					"description": "For years, UA has been the go-to tool for tracking website data. However, GA4 has emerged as the next generation of Google Analytics.",
+					"url": "/2023/google-analytics-4",
+					"type": "MarTech Blog Post"
+				}
+			
 		
-			"faith-2023-image-and-dominion": {
-				"title": "Image and dominion",
-				"author": "",
-				"category": "Faith",
-				"description": "Our fundamental identity is that we have been created in the image of God.",
-				"url": "/faith/2023/image-and-dominion"
-			}
-		, 
+			
+			
+				, 
+				
+				"posts-2023-04-04-ip-address-warming-md": {
+					"title": "IP address warming",
+					"author": "Brandon Caples",
+					"category": "MarTech",
+					"description": "IP warming is like introducing your emails gradually to ESPs, building trust by sending out a few messages at first and then steadily increasing volume over time.",
+					"url": "_posts/2023-04-04-ip-address-warming.md",
+					"type": "MarTech Blog Post"
+				}
+			
 		
-			"faith-2023-structure-book-daniel": {
-				"title": "The structure and chronology of the book of Daniel",
-				"author": "",
-				"category": "Faith",
+			
+			
+				, 
+				
+				"posts-2023-03-05-image-and-dominion-md": {
+					"title": "Image and dominion",
+					"author": "Brandon Caples",
+					"category": "Faith",
+					"description": "Our fundamental identity is that we have been created in the image of God.",
+					"url": "/2023/image-and-dominion",
+					"type": "Faith Blog Post"
+				}
+			
+		
+			
+			
+		
+			
+			
+				, 
+				
+				"posts-2023-01-18-sql-dates-md": {
+					"title": "Using dates with SQL",
+					"author": "Brandon Caples",
+					"category": "MarTech",
+					"description": "There are several date functions that we can use to query results and manipulate data.",
+					"url": "/2023/sql-dates",
+					"type": "MarTech Blog Post"
+				}
+			
+		
+			
+			
+				, 
+				
+				"posts-2023-01-04-sql-intro-md": {
+					"title": "Introduction to SQL",
+					"author": "Brandon Caples",
+					"category": "MarTech",
+					"description": "SQL is used to store, retrieve, and manipulate data in databases.",
+					"url": "/2023/sql-intro",
+					"type": "MarTech Blog Post"
+				}
+			
+		
+			
+			
+				, 
+				
+				"posts-2022-12-15-systematic-theology-scripture-md": {
+					"title": "What is systematic theology?",
+					"author": "Brandon Caples",
+					"category": "Faith",
+					"description": "Scott R. Swain, Ph.D. teaches systematic theology and its perspective on Scripture.",
+					"url": "/2022/systematic-theology-scripture",
+					"type": "Faith Blog Post"
+				}
+			
+		
+			
+			
+				, 
+				
+				"posts-2022-12-04-waiting-hoping-md": {
+					"title": "Waiting and hoping",
+					"author": "Brandon Caples",
+					"category": "Faith",
+					"description": "What can Psalm 25 and the gospel of Matthew teach us about anxiety?",
+					"url": "/2022/waiting-hoping",
+					"type": "Faith Blog Post"
+				}
+			
+		
+			
+			
+				, 
+				
+				"posts-2022-11-03-how-to-create-a-google-account-without-gmail-md": {
+					"title": "How to create a Google account without Gmail",
+					"author": "Brandon Caples",
+					"category": "MarTech",
+					"description": "Google services require a Google account, but it doesn't have to be with Gmail. Let's learn how to create a Google account without Gmail.",
+					"url": "/2022/how-to-create-a-google-account-without-gmail",
+					"type": "MarTech Blog Post"
+				}
+			
+		
+			
+			
+				, 
+				
+				"posts-2022-06-25-git-remove-ds-store-md": {
+					"title": "Remove .DS_Store with Git",
+					"author": "Brandon Caples",
+					"category": "MarTech",
+					"description": "Don't worry; .DS_Store is harmless. But let's remove it and prevent it from showing up again.",
+					"url": "/2022/git-remove-ds-store",
+					"type": "MarTech Blog Post"
+				}
+			
+		
+			
+			
+				, 
+				
+				"posts-2022-05-26-this-is-eternal-life-md": {
+					"title": "This is eternal life: know your God",
+					"author": "Brandon Caples",
+					"category": "Faith",
+					"description": "Eternal life is not simply living forever, nor does it begin once the faithful believer dies.",
+					"url": "/2022/this-is-eternal-life",
+					"type": "Faith Blog Post"
+				}
+			
+		
+			
+			
+		
+			
+			
+		
+			
+			
+				, 
+				
+				"posts-2021-11-04-using-css-counters-md": {
+					"title": "Using CSS counters",
+					"author": "Brandon Caples",
+					"category": "MarTech",
+					"description": "CSS. Developers tend to either love it or hate it. Well, here’s a reason to love it: CSS counters.",
+					"url": "/2021/using-css-counters",
+					"type": "MarTech Blog Post"
+				}
+			
+		
+			
+			
+				, 
+				
+				"posts-2021-09-17-john-the-baptist-mistaken-for-elijah-md": {
+					"title": "Why was John the Baptist mistaken for Elijah?",
+					"author": "Brandon Caples",
+					"category": "Faith",
+					"description": "The life of John the Baptist is a great example of what God can accomplish through someone who embraces their calling.",
+					"url": "/2021/john-the-baptist-mistaken-for-elijah",
+					"type": "Faith Blog Post"
+				}
+			
+		
+			
+			
+				, 
+				
+				"posts-2021-08-24-average-color-universe-md": {
+					"title": "The average color of the universe",
+					"author": "Brandon Caples",
+					"category": "MarTech",
+					"description": "Cosmic latte may not be the flashiest color, but wouldn’t it be neat to use the average color of the universe in your next project?",
+					"url": "/2021/average-color-universe",
+					"type": "MarTech Blog Post"
+				}
+			
+		
+			
+			
+				, 
+				
+				"posts-2020-04-26-seo-terms-explained-md": {
+					"title": "SEO terms explained",
+					"author": "Brandon Caples",
+					"category": "MarTech",
+					"description": "Not everyone can afford to hire an SEO agency, so it’s helpful to have SEO terms explained in plain English.",
+					"url": "/2020/seo-terms-explained",
+					"type": "MarTech Blog Post"
+				}
+			
+		
+			
+			
+				, 
+				
+				"posts-2019-02-14-inkscape-heart-md": {
+					"title": "How to draw a heart in Inkscape",
+					"author": "Brandon Caples",
+					"category": "MarTech",
+					"description": "Today, we’re going to learn how to draw a heart in Inkscape. Inkscape is a free vector graphics editor, similar to Adobe Illustrator.",
+					"url": "/2019/inkscape-heart",
+					"type": "MarTech Blog Post"
+				}
+			
+		
+			
+			
+				, 
+				
+				"posts-2018-10-30-god-will-restore-what-was-lost-md": {
+					"title": "God will restore what was lost",
+					"author": "Brandon Caples",
+					"category": "Faith",
+					"description": "“I will restore to you the years that the swarming locust has eaten…” (Joel 2:25, ESV)",
+					"url": "/2018/god-will-restore-what-was-lost",
+					"type": "Faith Blog Post"
+				}
+			
+		
+			
+			
+				, 
+				
+				"posts-2018-09-15-what-is-seo-md": {
+					"title": "What is SEO?",
+					"author": "Brandon Caples",
+					"category": "MarTech",
+					"description": "One of the most affordable and effective tools is a well-crafted website and knowledge of search engine optimization (SEO).",
+					"url": "/2018/what-is-seo",
+					"type": "MarTech Blog Post"
+				}
+			
+		
+			
+			
+				, 
+				
+				"posts-2018-08-30-fix-sideways-images-md": {
+					"title": "How to fix sideways images on your website",
+					"author": "Brandon Caples",
+					"category": "MarTech",
+					"description": "Safari and Chrome (iOS) have a default behavior that rotates an image according to its EXIF data.",
+					"url": "/2018/fix-sideways-images",
+					"type": "MarTech Blog Post"
+				}
+			
+		
+			
+			
+				, 
+				
+				"posts-2017-11-01-rails-5-rspec-parameters-md": {
+					"title": "Rails 5 and Rspec parameters",
+					"author": "Brandon Caples",
+					"category": "MarTech",
+					"description": "Because of a deprecation to Rspec in Ruby on Rails 5, parameters must now be placed inside a params hash.",
+					"url": "/2017/rails-5-rspec-parameters",
+					"type": "MarTech Blog Post"
+				}
+			
+		
+			
+			
+				, 
+				
+				"posts-2017-05-10-ngclick-vs-ngsubmit-md": {
+					"title": "ngClick vs ngSubmit",
+					"author": "Brandon Caples",
+					"category": "MarTech",
+					"description": "Angular has some nuances that can cause some trouble for beginners learning the framework, like the difference between ng-click and ng-submit.",
+					"url": "/2017/ngclick-vs-ngsubmit",
+					"type": "MarTech Blog Post"
+				}
+			
+		
+			
+			
+				, 
+				
+				"posts-2017-03-12-im-studying-web-development-because-of-my-wife-md": {
+					"title": "I’m studying web development because of my wife",
+					"author": "Brandon Caples",
+					"category": "MarTech",
+					"description": "I spent the first few months of my marriage nearly code-free. We made plans, hiked a lot, and traveled some.",
+					"url": "/2017/im-studying-web-development-because-of-my-wife",
+					"type": "MarTech Blog Post"
+				}
+			
+		
+			
+			
+				, 
+				
+				"posts-2017-01-07-three-challenges-learning-to-code-md": {
+					"title": "Three challenges of learning to code",
+					"author": "Brandon Caples",
+					"category": "MarTech",
+					"description": "Web development is challenging; that’s part of what makes it fun.",
+					"url": "/2017/three-challenges-learning-to-code",
+					"type": "MarTech Blog Post"
+				}
+			
+		
+			
+			
+				, 
+				
+				"posts-2017-01-06-love-hate-relationship-internet-explorer-md": {
+					"title": "A love/hate relationship with Internet Explorer",
+					"author": "Brandon Caples",
+					"category": "MarTech",
+					"description": "Every web developer knows that Internet Explorer (IE) does things differently than other browsers.",
+					"url": "/2017/love-hate-relationship-internet-explorer",
+					"type": "MarTech Blog Post"
+				}
+			
+		
+		
+			, 
+			"portfolio-email-precept-welcome-intro": {
+				"title": "Project: General welcome series email #1",
+				"author": "Brandon Caples",
+				"description": "This is the first email in a welcome series campaign.",
+				"img": "/assets/img/portfolio/email/welcome/precept_mkt_generic-welcome-series_1-welcome__journey_680.webp",
+				"img_alt": "A screenshot of a welcome email for Precept",
+				"url": "/portfolio/email/precept-welcome-intro",
+				"type": "Email Project"
+			}
+		
+			, 
+			"portfolio-email-precept-welcome-pbsm": {
+				"title": "Project: General welcome series email #2",
+				"author": "Brandon Caples",
+				"description": "This is the second email in a welcome series campaign.",
+				"img": "/assets/img/portfolio/email/welcome/precept_mkt_generic-welcome-series_2-pbsm__journey_680.webp",
+				"img_alt": "A screenshot of a welcome email for Precept",
+				"url": "/portfolio/email/precept-welcome-pbsm",
+				"type": "Email Project"
+			}
+		
+			, 
+			"portfolio-email-precept-welcome-discovery-study": {
+				"title": "Project: General welcome series email #3",
+				"author": "Brandon Caples",
+				"description": "This is the third email in a welcome series campaign.",
+				"img": "/assets/img/portfolio/email/welcome/precept_mkt_generic-welcome-series_3-discovery-study__journey_680.webp",
+				"img_alt": "A screenshot of a welcome email for Precept",
+				"url": "/portfolio/email/precept-welcome-discovery-study",
+				"type": "Email Project"
+			}
+		
+			, 
+			"portfolio-email-precept-welcome-group-locator": {
+				"title": "Project: General welcome series email #4",
+				"author": "Brandon Caples",
+				"description": "This is the fourth email in a welcome series campaign.",
+				"img": "/assets/img/portfolio/email/welcome/precept_mkt_generic-welcome-series_4-group-locator__journey_680.webp",
+				"img_alt": "A screenshot of a welcome email for Precept",
+				"url": "/portfolio/email/precept-welcome-group-locator",
+				"type": "Email Project"
+			}
+		
+			, 
+			"portfolio-email-precept-yed-nigeria": {
+				"title": "Project: Fundraising email with image carousel, story from Nigeria",
+				"author": "Brandon Caples",
+				"description": "This is the third email in a year-end fundraising campaign.",
+				"img": "/assets/img/portfolio/email/fundraising/year%20end%20giving/precept_adv_2023_yed_3-nigeria_600.webp",
+				"img_alt": "A screenshot of a Fundraising email with an image carousel",
+				"url": "/portfolio/email/precept-yed-nigeria",
+				"type": "Email Project"
+			}
+		
+			, 
+			"portfolio-email-yarrow-fl3-together-release": {
+				"title": "Project: Product email announcing a new product",
+				"author": "Brandon Caples",
+				"description": "This email announced the release of a new product.",
+				"img": "",
+				"img_alt": "A screenshot of a product email for Yarrow",
+				"url": "/portfolio/email/yarrow-fl3-together-release",
+				"type": "Email Project"
+			}
+		
+			, 
+			"portfolio-email-precept-2405-best-sellers": {
+				"title": "Project: Product email, best-selling products (May promotion)",
+				"author": "Brandon Caples",
+				"description": "This email features top-selling products for May promotion.",
+				"img": "",
+				"img_alt": "A screenshot of a product email for Precept",
+				"url": "/portfolio/email/precept-2405-best-sellers",
+				"type": "Email Project"
+			}
+		
+			, 
+			"portfolio-email-yarrow-app-promo-12": {
+				"title": "Project: App promotion with dynamic button text",
+				"author": "Brandon Caples",
+				"description": "This is a promotional email with dynamic button text.",
+				"img": "/assets/img/portfolio/email/app/yarrow_product_2024_app-promotion_12-identity-daily-growth_600.webp",
+				"img_alt": "A screenshot of an email for Yarrow",
+				"url": "/portfolio/email/yarrow-app-promo-12",
+				"type": "Email Project"
+			}
+		
+			, 
+			"portfolio-email-precept-2408-best-sellers": {
+				"title": "Project: Product email, best-selling products (August promotion)",
+				"author": "Brandon Caples",
+				"description": "This email features top-selling products for August promotion.",
+				"img": "/assets/img/portfolio/email/ecommerce/catalog/precept_product_2024_best-sellers_08-august_620.webp",
+				"img_alt": "A screenshot of a product email for Precept",
+				"url": "/portfolio/email/precept-2408-best-sellers",
+				"type": "Email Project"
+			}
+		
+			, 
+			"portfolio-email-yarrow-reengagement-discount": {
+				"title": "Project: Re-engagement email with discount code",
+				"author": "Brandon Caples",
+				"description": "This is the first email in a re-engagement campaign.",
+				"img": "/assets/img/portfolio/email/disengaged/yarrow_mkt_yarrow-reengagement_1-discount_600.webp",
+				"img_alt": "A screenshot of a re-engagement email for Yarrow",
+				"url": "/portfolio/email/yarrow-reengagement-discount",
+				"type": "Email Project"
+			}
+		
+			, 
+			"portfolio-email-precept-2409-trainings": {
+				"title": "Project: Self-paced training courses",
+				"author": "Brandon Caples",
+				"description": "This email features cross-client rounded corners and meets accessibility standards.",
+				"img": "/assets/img/portfolio/email/events/precept_event_2024-self-paced-trainings-overview_09-september_600.webp",
+				"img_alt": "A screenshot of a responsive email for Precept",
+				"url": "/portfolio/email/precept-2409-trainings",
+				"type": "Email Project"
+			}
+		
+			, 
+			"portfolio-email-precept-2409-fall-group-launch": {
+				"title": "Project: Fall Bible study kickoff event",
+				"author": "Brandon Caples",
+				"description": "This email features meets accessibility standards.",
+				"img": "/assets/img/portfolio/email/events/precept_event_2024-fall-group-launch_1-announcement-a_600.webp",
+				"img_alt": "A screenshot of a responsive email for Precept Bible study leaders",
+				"url": "/portfolio/email/precept-2409-fall-group-launch",
+				"type": "Email Project"
+			}
+		
+		
+			, 
+			"portfolio-web-greenflow": {
+				"title": "GreenFlow Distribution",
+				"author": "Brandon Caples",
+				"description": "I was hired to build a WordPress site for a manufacturer of commercial cleaning products.",
+				"img": "",
+				"img_alt": "greenflowusa.com homepage",
+				"url": "/portfolio/web/greenflow",
+				"type": "Web Project"
+			}
+		
+			, 
+			"portfolio-web-precept-toast-countdown": {
+				"title": "Precept toast: Countdown",
+				"author": "Brandon Caples",
+				"description": "I added a countdown feature to an existing website toast element.",
+				"img": "",
+				"img_alt": "precept.org homepage",
+				"url": "/portfolio/web/precept-toast-countdown",
+				"type": "Web Project"
+			}
+		
+			, 
+			"portfolio-web-nashville-braincore": {
+				"title": "Nashville BrainCore",
+				"author": "Brandon Caples",
+				"description": "I was hired to develop a custom WordPress theme for a large chiropractic group in Nashville, Tennessee.",
+				"img": "",
+				"img_alt": "NashvilleBrainCore.com homepage",
+				"url": "/portfolio/web/nashville-braincore",
+				"type": "Web Project"
+			}
+		
+			, 
+			"portfolio-web-precept-toast-image": {
+				"title": "Precept toast: Image feature",
+				"author": "Brandon Caples",
+				"description": "I added an image feature to an existing website toast element.",
+				"img": "",
+				"img_alt": "precept.org homepage",
+				"url": "/portfolio/web/precept-toast-image",
+				"type": "Web Project"
+			}
+		
+		
+			, 
+			"accessible": {
+				"title": "Projects tagged with “accessible”",
+				"author": "Brandon Caples",
+				"description": "With a growing emphasis on inclusivity, it's essential to design emails that can be easily navigated and understood by everyone, including those with visual, auditory, and cognitive disabilities.",
+				"url": "/portfolio/tags/accessible/",
+				"type": "Portfolio Tag"
+			}
+			
+			, 
+			"ampscript": {
+				"title": "Projects tagged with “AMPscript”",
+				"author": "Brandon Caples",
+				"description": "By embedding AMPscript code within emails and Salesforce Marketing Cloud pages, marketers can customize messages based on subscriber data, such as name, purchase history, or location, creating a more relevant experience.",
+				"url": "/portfolio/tags/ampscript/",
+				"type": "Portfolio Tag"
+			}
+			
+			, 
+			"app": {
+				"title": "Projects tagged with “app”",
+				"author": "Brandon Caples",
+				"description": "Emails and website features promoting an app are designed to drive downloads and spark engagement. Using bold visuals, demos, and clear calls-to-action, they spotlight app benefits, guiding users to installation.",
+				"url": "/portfolio/tags/app/",
+				"type": "Portfolio Tag"
+			}
+			
+			, 
+			"downloads": {
+				"title": "Projects tagged with “downloads”",
+				"author": "Brandon Caples",
+				"description": "Emails featuring downloads provide subscribers with direct access to valuable content. These emails not only deliver useful resources but also reinforce brand value by positioning the content as an exclusive benefit.",
+				"url": "/portfolio/tags/downloads/",
+				"type": "Portfolio Tag"
+			}
+			
+			, 
+			"engagement": {
+				"title": "Projects tagged with “engagement”",
+				"author": "Brandon Caples",
+				"description": "By using targeted content, compelling subject lines, and personalized incentives, engagement emails aim to drive opens, clicks, and restore meaningful brand connections",
+				"url": "/portfolio/tags/engagement/",
+				"type": "Portfolio Tag"
+			}
+			
+			, 
+			"events": {
+				"title": "Projects tagged with “events”",
+				"author": "Brandon Caples",
+				"description": "By showcasing key details, enticing visuals, and clear calls-to-action, event emails and web pages create excitement and encourage registrations.",
+				"url": "/portfolio/tags/events/",
+				"type": "Portfolio Tag"
+			}
+			
+			, 
+			"feature-enhancements": {
+				"title": "Projects tagged with “feature enhancements”",
+				"author": "Brandon Caples",
+				"description": "Feature enhancements in web design and development aim to improve user experiences and functionality.",
+				"url": "/portfolio/tags/feature-enhancements/",
+				"type": "Portfolio Tag"
+			}
+			
+			, 
+			"fundraising": {
+				"title": "Projects tagged with “fundraising”",
+				"author": "Brandon Caples",
+				"description": "Fundraising email and web features are essential tools used by nonprofits to engage donors, share impactful stories, and drive contributions.",
+				"url": "/portfolio/tags/fundraising/",
+				"type": "Portfolio Tag"
+			}
+			
+			, 
+			"gif": {
+				"title": "Projects tagged with “GIF”",
+				"author": "Brandon Caples",
+				"description": "When used thoughtfully, GIF imagess provide an interactive feel, increase click-through rates, and make emails and web pages more memorable without overwhelming the reader.",
+				"url": "/portfolio/tags/gif/",
+				"type": "Portfolio Tag"
+			}
+			
+			, 
+			"healthcare": {
+				"title": "Projects tagged with “healthcare”",
+				"author": "Brandon Caples",
+				"description": "Designing emails and websites for the healthcare industry presents unique challenges, including compliance with regulations like HIPAA, ensuring patient privacy, and conveying complex medical information clearly.",
+				"url": "/portfolio/tags/healthcare/",
+				"type": "Portfolio Tag"
+			}
+			
+			, 
+			"interactive": {
+				"title": "Projects tagged with “interactive”",
+				"author": "Brandon Caples",
+				"description": "Interactive content in emails and on websites invites users to engage directly with a brand through features like quizzes, polls, carousels, and clickable components.",
+				"url": "/portfolio/tags/interactive/",
+				"type": "Portfolio Tag"
+			}
+			
+			, 
+			"products": {
+				"title": "Projects tagged with “products”",
+				"author": "Brandon Caples",
+				"description": "Product emails and ecommerce web features are designed to showcase offerings, drive sales, and enhance the shopping experience.",
+				"url": "/portfolio/tags/products/",
+				"type": "Portfolio Tag"
+			}
+			
+			, 
+			"responsive": {
+				"title": "Projects tagged with “responsive”",
+				"author": "Brandon Caples",
+				"description": "Responsiveness is a critical component of email marketing. Mobile users expect to see their emails formatted to their devices.",
+				"url": "/portfolio/tags/responsive/",
+				"type": "Portfolio Tag"
+			}
+			
+			, 
+			"welcome": {
+				"title": "Projects tagged with “welcome”",
+				"author": "Brandon Caples",
+				"description": "Designed to engage, introduce, and build trust, welcome emails provide a warm greeting, establish expectations, and encourage exploration of a brand’s products or services.",
+				"url": "/portfolio/tags/welcome/",
+				"type": "Portfolio Tag"
+			}
+			
+			, 
+			"wordpress": {
+				"title": "Projects tagged with “WordPress”",
+				"author": "Brandon Caples",
+				"description": "I have more than 10 years of experience working with WordPress websites, in content management and theme development capacities.",
+				"url": "/portfolio/tags/wordpress/",
+				"type": "Portfolio Tag"
+			}
+			
+		
+			, 
+			"book-reviews-weapons-of-math-destruction": {
+				"title": "Weapons of Math Destruction: How Big Data Increases Inequality and Threatens Democracy",
+				"author": "Cathy O&apos;Neil",
+				"description": "Cathy O'Neil argues that the algorithms that are increasingly being used to make decisions about our lives are often biased, opaque, and unfair.",
+				"img": "weapons-of-math-destruction.webp",
+				"img_alt": "Weapons of Math Destruction, by Cathy O'Neil",
+				"url": "/book-reviews/weapons-of-math-destruction",
+				"type": "Book Review"
+			}
+		
+			, 
+			"book-reviews-stuff-you-should-know": {
+				"title": "Stuff You Should Know: An Incomplete Compendium of Mostly Interesting Things",
+				"author": "[&quot;Josh Clark&quot;, &quot;Chuck Bryant&quot;]",
+				"description": "Josh Clark and Chuck Bryant are both excellent writers, and they have a knack for making complex topics accessible and entertaining.",
+				"img": "sysk-book.webp",
+				"img_alt": "Stuff You Should Know: An Incomplete Compendium of Mostly Interesting Things",
+				"url": "/book-reviews/stuff-you-should-know",
+				"type": "Book Review"
+			}
+		
+			, 
+			"book-reviews-world-of-wonders": {
+				"title": "World of Wonders: In Praise of Fireflies, Whale Sharks, and Other Astonishments",
+				"author": "Aimee Nezhukumatathil",
+				"description": "Nezhukumatathil does a splendid job of sharing multiple narratives at once.",
+				"img": "world-of-wonders.webp",
+				"img_alt": "World of Wonders: In Praise of Fireflies, Whale Sharks, and Other Astonishments",
+				"url": "/book-reviews/world-of-wonders",
+				"type": "Book Review"
+			}
+		
+			, 
+			"book-reviews-hinds-feet-on-high-places": {
+				"title": "Hinds&apos; Feet on High Places",
+				"author": "Hannah Hurnard",
+				"description": "This is a beautiful story of laying down one’s own will for the glory of God and being made new by Him.",
+				"img": "hinds-feet-on-high-places.webp",
+				"img_alt": "Hinds' Feet on High Places, by Hannah Hurnard",
+				"url": "/book-reviews/hinds-feet-on-high-places",
+				"type": "Book Review"
+			}
+		
+			, 
+			"book-reviews-confronting-christianity": {
+				"title": "Confronting Christianity: 12 Hard Questions for the World&apos;s Largest Religion",
+				"author": "Rebecca McLaughlin",
+				"description": "Rebecca McLaughlin's engaging and enlightening book serves as a comprehensive guide for navigating some of the most formidable challenges and objections that confront the Christian faith.",
+				"img": "confronting-christianity.webp",
+				"img_alt": "Confronting Christianity: 12 Hard Questions for the World's Largest Religion",
+				"url": "/book-reviews/confronting-christianity",
+				"type": "Book Review"
+			}
+		
+			, 
+			"book-reviews-gentle-and-lowly": {
+				"title": "Gentle and Lowly: The Heart of Christ for Sinners and Sufferers",
+				"author": "Dane Ortlund",
+				"description": "I love this book for its delicate approach to the heart of Jesus. Gentle and Lowly is not about what Christ has done, but who He is.",
+				"img": "gentle-and-lowly.webp",
+				"img_alt": "Gentle and Lowly: The Heart of Christ for Sinners and Sufferers",
+				"url": "/book-reviews/gentle-and-lowly",
+				"type": "Book Review"
+			}
+		
+			, 
+			"book-reviews-is-christmas-unbelievable": {
+				"title": "Is Christmas Unbelievable?: Four Questions Everyone Should Ask About the World&apos;s Most Famous Story",
+				"author": "Rebecca McLaughlin",
+				"description": "With its small size, short chapters, and low price, the book makes for a great Christmastime gift for church members.",
+				"img": "is-christmas-unbelievable.webp",
+				"img_alt": "Is Christmas Unbelievable?: Four Questions Everyone Should Ask About the World's Most Famous Story",
+				"url": "/book-reviews/is-christmas-unbelievable",
+				"type": "Book Review"
+			}
+		
+			, 
+			"book-reviews-being-bad-guys": {
+				"title": "Being the Bad Guys: How to Live for Jesus in a World That Says You Shouldn’t",
+				"author": "Stephen McAlpine",
+				"description": "This book explains the timeless, uncompromising movement of God’s people showing God’s love and sharing God’s good news to God’s creation.",
+				"img": "being-the-bad-guys.webp",
+				"img_alt": "Being the Bad Guys: How to Live for Jesus in a World That Says You Shouldn’t",
+				"url": "/book-reviews/being-bad-guys",
+				"type": "Book Review"
+			}
+		
+			, 
+			"book-reviews-how-the-post-office-created-america": {
+				"title": "How the Post Office Created America: A History",
+				"author": "Winifred Gallagher",
+				"description": "How the Post Office Created America is a thought-provoking and well-researched book that illuminates the often underestimated role of the postal service in shaping the United States.",
+				"img": "how-the-post-office-created-america.webp",
+				"img_alt": "How the Post Office Created America, by Winifred Gallagher",
+				"url": "/book-reviews/how-the-post-office-created-america",
+				"type": "Book Review"
+			}
+		
+			, 
+			"book-reviews-secular-creed": {
+				"title": "The Secular Creed: Engaging Five Contemporary Claims",
+				"author": "Rebecca McLaughlin",
+				"description": "In her book, Rebecca McLaughlin dedicates a chapter to each key message: Black Lives Matter, Love is Love, Gay Rights Are Civil Rights, Women’s Rights Are Human Rights, and Transgender Women Are Women.",
+				"img": "secular-creed.webp",
+				"img_alt": "The Secular Creed: Engaging Five Contemporary Claims",
+				"url": "/book-reviews/secular-creed",
+				"type": "Book Review"
+			}
+		
+			, 
+			"book-reviews-concise-history-crusades": {
+				"title": "The Concise History of the Crusades: Third Student Edition",
+				"author": "Thomas F. Madden",
+				"description": "I recommend this book for anyone who wants to have a thorough and practical understanding of these religious wars.",
+				"img": "concise-history-crusades.webp",
+				"img_alt": "The Concise History of the Crusades: Third Student Edition",
+				"url": "/book-reviews/concise-history-crusades",
+				"type": "Book Review"
+			}
+		
+			, 
+			"book-reviews-five-dysfunctions-of-a-team": {
+				"title": "The Five Dysfunctions of a Team: A Leadership Fable",
+				"author": "Patrick Lencioni",
+				"description": "The Five Dysfunctions of a Team by Patrick Lencioni is an invaluable guide to understanding and addressing the fundamental challenges that plague teams in the corporate world.",
+				"img": "five-dysfunctions.webp",
+				"img_alt": "The Five Dysfunctions of a Team: A Leadership Fable",
+				"url": "/book-reviews/five-dysfunctions-of-a-team",
+				"type": "Book Review"
+			}
+		
+			, 
+			"book-reviews-paul-the-apostle": {
+				"title": "Paul the Apostle: Missionary, Martyr, Theologian",
+				"author": "Robert E. Picirilli",
+				"description": "Paul the Apostle is a concise treatment of the life of Paul and the most highly recommended of the shorter biographies that I could find.",
+				"img": "paul-the-apostle.webp",
+				"img_alt": "Paul the Apostle, by Robert E. Picirilli",
+				"url": "/book-reviews/paul-the-apostle",
+				"type": "Book Review"
+			}
+		
+			, 
+			"book-reviews-truth-fiction-the-da-vinci-code": {
+				"title": "Truth and Fiction in The Da Vinci Code: A Historian Reveals What We Really Know about Jesus, Mary Magdalene, and Constantine",
+				"author": "Bart D. Ehrman",
+				"description": "This book is a critique of the historical claims about religious documents presented as truth in The Da Vinci Code.",
+				"img": "truth-and-fiction-in-the-da-vinci-code.webp",
+				"img_alt": "Truth and Fiction in The Da Vinci Code, by Bart D. Ehrman",
+				"url": "/book-reviews/truth-fiction-the-da-vinci-code",
+				"type": "Book Review"
+			}
+		
+			, 
+			"book-reviews-gospel-comes-with-house-key": {
+				"title": "The Gospel Comes with a House Key: Practicing Radically Ordinary Hospitality in Our Post-Christian World",
+				"author": "Rosaria Butterfield",
+				"description": "The Gospel Comes with a House Key is a great ministry handbook for middle-class Americans with large grocery budgets and extroverted tendencies. But that's not all there is to say.",
+				"img": "the-gospel-comes-with-a-house-key.webp",
+				"img_alt": "The Gospel Comes with a House Key, by Rosaria Butterfield",
+				"url": "/book-reviews/gospel-comes-with-house-key",
+				"type": "Book Review"
+			}
+		
+			, 
+			"book-reviews-cross-and-the-lynching-tree": {
+				"title": "The Cross and the Lynching Tree",
+				"author": "James H. Cone",
+				"description": "James Cone examines the complex symbols that dominated African American life during the lynching era: the cross and the lynching tree.",
+				"img": "the-cross-and-the-lynching-tree.webp",
+				"img_alt": "The Cross and the Lynching Tree, by James H. Cone",
+				"url": "/book-reviews/cross-and-the-lynching-tree",
+				"type": "Book Review"
+			}
+		
+			, 
+			"book-reviews-putting-x-through-anxiety": {
+				"title": "Putting An X Through Anxiety",
+				"author": "Louie Giglio",
+				"description": "Anxiety can seem like a giant problem in the life of a Christian, but you can be free from anxiety.",
+				"img": "putting-an-x-through-anxiety.webp",
+				"img_alt": "Putting An X Through Anxiety, by Louie Giglio",
+				"url": "/book-reviews/putting-x-through-anxiety",
+				"type": "Book Review"
+			}
+		
+			, 
+			"book-reviews-unseen-realm": {
+				"title": "The Unseen Realm: Recovering the supernatural worldview of the Bible",
+				"author": "Michael S. Heiser",
+				"description": "Through meticulous research, Michael S. Heiser conveys not only the reality, but also the significance of supernaturalism in Scripture.",
+				"img": "the-unseen-realm.webp",
+				"img_alt": "The Unseen Realm, by Michael S. Heiser",
+				"url": "/book-reviews/unseen-realm",
+				"type": "Book Review"
+			}
+		
+			, 
+			"book-reviews-the-snow-queen": {
+				"title": "The Snow Queen",
+				"author": "Hans Christian Andersen",
+				"description": "Hans Christian Andersen’s classic fairy tale The Snow Queen explores the struggle between good and evil.",
+				"img": "the-snow-queen.webp",
+				"img_alt": "The Snow Queen, by Hans Christian Andersen",
+				"url": "/book-reviews/the-snow-queen",
+				"type": "Book Review"
+			}
+		
+			, 
+			"book-reviews-hope-for-all-the-earth": {
+				"title": "Hope for All the Earth: Understanding the Story of the Old Testament",
+				"author": "Mitchell L. Chase",
+				"description": "Mitchell L. Chase delivers a concise and readable synopsis of Old Testament events and Christ’s shadows throughout.",
+				"img": "hope-for-all-the-earth.webp",
+				"img_alt": "Hope for All the Earth, by Mitchell L. Chase",
+				"url": "/book-reviews/hope-for-all-the-earth",
+				"type": "Book Review"
+			}
+		
+			, 
+			"book-reviews-history-of-ethiopia": {
+				"title": "History of Ethiopia: A Captivating Guide to Ethiopian History",
+				"author": "Captivating History",
+				"description": "There's so much to Ethiopian history that most people might never learn.",
+				"img": "history-of-ethiopia.webp",
+				"img_alt": "History of Ethiopia: A Captivating Guide to Ethiopian History",
+				"url": "/book-reviews/history-of-ethiopia",
+				"type": "Book Review"
+			}
+		
+			, 
+			"book-reviews-how-to-heal-our-racial-divide": {
+				"title": "How to Heal Our Racial Divide: What the Bible Says, and the First Christians Knew, About Racial Reconciliation",
+				"author": "Derwin L. Gray",
+				"description": "In How to Heal Our Racial Divide, Derwin Gray argues that the Bible has a lot to say about racial reconciliation and that it is central to the gospel itself.",
+				"img": "how-to-heal-our-racial-divide.webp",
+				"img_alt": "How to Heal Our Racial Divide, by Derwin L. Gray",
+				"url": "/book-reviews/how-to-heal-our-racial-divide",
+				"type": "Book Review"
+			}
+		
+			, 
+			"book-reviews-contagious": {
+				"title": "Contagious: Why Things Catch On",
+				"author": "Jonah Berger",
+				"description": "Contagious is a well-written and engaging book that provides valuable insights into the psychology of social influence.",
+				"img": "contagious.webp",
+				"img_alt": "Contagious: Why Things Catch On, by Jonah Berger",
+				"url": "/book-reviews/contagious",
+				"type": "Book Review"
+			}
+		
+			, 
+			"book-reviews-is-easter-unbelievable": {
+				"title": "Is Easter Unbelievable?: Four Questions Everyone Should Ask About the Resurrection Story",
+				"author": "Rebecca McLaughlin",
 				"description": "",
-				"url": "/faith/2023/structure-book-daniel"
+				"img": "is-easter-unbelievable.webp",
+				"img_alt": "Is Easter Unbelievable?, by Rebecca McLaughlin",
+				"url": "/book-reviews/is-easter-unbelievable",
+				"type": "Book Review"
 			}
-		, 
 		
-			"martech-2023-sql-dates": {
-				"title": "Using dates with SQL",
-				"author": "",
-				"category": "MarTech",
-				"description": "There are several date functions that we can use to query results and manipulate data.",
-				"url": "/martech/2023/sql-dates"
+			, 
+			"book-reviews-talking-about-race": {
+				"title": "Talking About Race: Gospel Hope for Hard Conversations",
+				"author": "Isaac Adams",
+				"description": "I highly recommend Talking About Race to anyone who wants to learn how to have more productive and loving conversations about race.",
+				"img": "talking-about-race.webp",
+				"img_alt": "Talking About Race, by Isaac Adams",
+				"url": "/book-reviews/talking-about-race",
+				"type": "Book Review"
 			}
-		, 
 		
-			"martech-2023-sql-intro": {
-				"title": "Introduction to SQL",
-				"author": "",
-				"category": "MarTech",
-				"description": "SQL is used to store, retrieve, and manipulate data in databases.",
-				"url": "/martech/2023/sql-intro"
+			, 
+			"book-reviews-evangelism-sovereignty-of-god": {
+				"title": "Evangelism and the Sovereignty of God",
+				"author": "J. I. Packer",
+				"description": "If God is omnipotent, why should we evangelize? J. I. Packer argues that a right understanding of God's sovereignty should not lead to passivity in evangelism.",
+				"img": "evangelism-sovereignty-of-god.webp",
+				"img_alt": "Evangelism and the Sovereignty of God, by J. I. Packer",
+				"url": "/book-reviews/evangelism-sovereignty-of-god",
+				"type": "Book Review"
 			}
-		, 
 		
-			"faith-2022-systematic-theology-scripture": {
-				"title": "What is systematic theology?",
-				"author": "",
-				"category": "Faith",
-				"description": "Scott R. Swain, Ph.D. teaches systematic theology and its perspective on Scripture.",
-				"url": "/faith/2022/systematic-theology-scripture"
+			, 
+			"book-reviews-look-out-for-the-little-guy": {
+				"title": "Look Out For the Little Guy!",
+				"author": "Scott Lang",
+				"description": "The book that's MCU canon, written by Ant-Man himself, can actually be read. And it's not bad.",
+				"img": "look-out-for-the-little-guy.webp",
+				"img_alt": "Look Out For the Little Guy, by Scott Lang",
+				"url": "/book-reviews/look-out-for-the-little-guy",
+				"type": "Book Review"
 			}
-		, 
 		
-			"faith-2022-waiting-hoping": {
-				"title": "Waiting and hoping",
-				"author": "",
-				"category": "Faith",
-				"description": "What can Psalm 25 and the gospel of Matthew teach us about anxiety?",
-				"url": "/faith/2022/waiting-hoping"
+			, 
+			"book-reviews-bullies-saints": {
+				"title": "Bullies and Saints: An Honest Look at the Good and Evil of Christian History",
+				"author": "John Dickson",
+				"description": "Has Christianity been a force for evil throughout history? John Dickson sets out to answer that question in his book.",
+				"img": "bullies-saints.webp",
+				"img_alt": "Bullies and Saints: An Honest Look at the Good and Evil of Christian History",
+				"url": "/book-reviews/bullies-saints",
+				"type": "Book Review"
 			}
-		, 
 		
-			"martech-2022-how-to-create-a-google-account-without-gmail": {
-				"title": "How to create a Google account without Gmail",
-				"author": "",
-				"category": "MarTech",
-				"description": "Google services require a Google account, but it doesn't have to be with Gmail. Let's learn how to create a Google account without Gmail.",
-				"url": "/martech/2022/how-to-create-a-google-account-without-gmail"
-			}
-		, 
-		
-			"martech-2022-git-remove-ds-store": {
-				"title": "Remove .DS_Store with Git",
-				"author": "",
-				"category": "MarTech",
-				"description": "Don't worry; .DS_Store is harmless. But let's remove it and prevent it from showing up again.",
-				"url": "/martech/2022/git-remove-ds-store"
-			}
-		, 
-		
-			"faith-2022-this-is-eternal-life": {
-				"title": "This is eternal life: know your God",
-				"author": "",
-				"category": "Faith",
-				"description": "Eternal life is not simply living forever, nor does it begin once the faithful believer dies.",
-				"url": "/faith/2022/this-is-eternal-life"
-			}
-		, 
-		
-			"faith-2022-christ-in-you-hope-of-glory": {
-				"title": "Christ in you, the hope of glory",
-				"author": "",
-				"category": "Faith",
+			, 
+			"book-reviews-the-great-dechurching": {
+				"title": "The Great Dechurching: Who’s Leaving, Why Are They Going, and What Will It Take to Bring Them Back?",
+				"author": "[&quot;Jim Davis&quot;, &quot;Michael Graham&quot;, &quot;Ryan Burge&quot;]",
 				"description": "",
-				"url": "/faith/2022/christ-in-you-hope-of-glory"
-			}
-		, 
-		
-			"faith-2022-tending-relationships": {
-				"title": "Are you tending your relationships?",
-				"author": "",
-				"category": "Faith",
-				"description": "",
-				"url": "/faith/2022/tending-relationships"
-			}
-		, 
-		
-			"martech-2021-using-css-counters": {
-				"title": "Using CSS counters",
-				"author": "",
-				"category": "MarTech",
-				"description": "CSS. Developers tend to either love it or hate it. Well, here’s a reason to love it: CSS counters.",
-				"url": "/martech/2021/using-css-counters"
-			}
-		, 
-		
-			"faith-2021-john-the-baptist-mistaken-for-elijah": {
-				"title": "Why was John the Baptist mistaken for Elijah?",
-				"author": "",
-				"category": "Faith",
-				"description": "The life of John the Baptist is a great example of what God can accomplish through someone who embraces his or her calling.",
-				"url": "/faith/2021/john-the-baptist-mistaken-for-elijah"
-			}
-		, 
-		
-			"martech-2021-average-color-universe": {
-				"title": "The average color of the universe",
-				"author": "",
-				"category": "MarTech",
-				"description": "Cosmic latte may not be the flashiest color, but wouldn’t it be neat to use the average color of the universe in your next project?",
-				"url": "/martech/2021/average-color-universe"
-			}
-		, 
-		
-			"martech-2020-seo-terms-explained": {
-				"title": "SEO terms explained",
-				"author": "",
-				"category": "MarTech",
-				"description": "Not everyone can afford to hire an SEO agency, so it’s helpful to have SEO terms explained in plain English.",
-				"url": "/martech/2020/seo-terms-explained"
-			}
-		, 
-		
-			"martech-2019-inkscape-heart": {
-				"title": "How to draw a heart in Inkscape",
-				"author": "",
-				"category": "MarTech",
-				"description": "Today, we’re going to learn how to draw a heart in Inkscape. Inkscape is a free vector graphics editor, similar to Adobe Illustrator.",
-				"url": "/martech/2019/inkscape-heart"
-			}
-		, 
-		
-			"faith-2018-god-will-restore-what-was-lost": {
-				"title": "God will restore what was lost",
-				"author": "",
-				"category": "Faith",
-				"description": "“I will restore to you the years that the swarming locust has eaten…” (Joel 2:25, ESV)",
-				"url": "/faith/2018/god-will-restore-what-was-lost"
-			}
-		, 
-		
-			"martech-2018-what-is-seo": {
-				"title": "What is SEO?",
-				"author": "",
-				"category": "MarTech",
-				"description": "One of the most affordable and effective tools is a well-crafted website and knowledge of search engine optimization (SEO).",
-				"url": "/martech/2018/what-is-seo"
-			}
-		, 
-		
-			"martech-2018-fix-sideways-images": {
-				"title": "How to fix sideways images on your website",
-				"author": "",
-				"category": "MarTech",
-				"description": "Safari and Chrome (iOS) have a default behavior that rotates an image according to its EXIF data.",
-				"url": "/martech/2018/fix-sideways-images"
-			}
-		, 
-		
-			"martech-2017-rails-5-rspec-parameters": {
-				"title": "Rails 5 and Rspec parameters",
-				"author": "",
-				"category": "MarTech",
-				"description": "Because of a deprecation to Rspec in Ruby on Rails 5, parameters must now be placed inside a params hash.",
-				"url": "/martech/2017/rails-5-rspec-parameters"
-			}
-		, 
-		
-			"martech-2017-ngclick-vs-ngsubmit": {
-				"title": "ngClick vs ngSubmit",
-				"author": "",
-				"category": "MarTech",
-				"description": "Angular has some nuances that can cause some trouble for beginners learning the framework, like the difference between ng-click and ng-submit.",
-				"url": "/martech/2017/ngclick-vs-ngsubmit"
-			}
-		, 
-		
-			"martech-2017-im-studying-web-development-because-of-my-wife": {
-				"title": "I’m studying web development because of my wife",
-				"author": "",
-				"category": "MarTech",
-				"description": "I spent the first few months of my marriage nearly code-free. We made plans, hiked a lot, and traveled some.",
-				"url": "/martech/2017/im-studying-web-development-because-of-my-wife"
-			}
-		, 
-		
-			"martech-2017-three-challenges-learning-to-code": {
-				"title": "Three challenges of learning to code",
-				"author": "",
-				"category": "MarTech",
-				"description": "Web development is challenging; that’s part of what makes it fun.",
-				"url": "/martech/2017/three-challenges-learning-to-code"
-			}
-		, 
-		
-			"martech-2017-love-hate-relationship-internet-explorer": {
-				"title": "A love/hate relationship with Internet Explorer",
-				"author": "",
-				"category": "MarTech",
-				"description": "Every web developer knows that Internet Explorer (IE) does things differently than other browsers.",
-				"url": "/martech/2017/love-hate-relationship-internet-explorer"
+				"img": "the-great-dechurching.webp",
+				"img_alt": "The Great Dechurching",
+				"url": "/book-reviews/the-great-dechurching",
+				"type": "Book Review"
 			}
 		
+			, 
+			"book-reviews-scripture-is-supreme": {
+				"title": "Scripture Is Supreme",
+				"author": "Tim Chester",
+				"description": "Amidst the cacophony of conflicting messages of this age, Chester's book resounds as a clear declaration: Scripture reigns supreme because God reigns supreme.",
+				"img": "scripture-is-supreme.webp",
+				"img_alt": "Scripture Is Supreme",
+				"url": "/book-reviews/scripture-is-supreme",
+				"type": "Book Review"
+			}
+		
+			, 
+			"book-reviews-introducing-black-theology": {
+				"title": "Introducing Black Theology: Three Crucial Questions for the Evangelical Church",
+				"author": "Bruce L. Fields",
+				"description": "Bruce L. Fields successfully distills complex theological concepts while weaving in compelling historical narratives.",
+				"img": "introducing-black-theology.webp",
+				"img_alt": "Introducing Black Theology: Three Crucial Questions for the Evangelical Church",
+				"url": "/book-reviews/introducing-black-theology",
+				"type": "Book Review"
+			}
+		
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+				, 
+				
+				"christian-resources-adoption-foster-care-tn": {
+					"title": "Adoption, Foster Care, and Child Welfare Services in Tennessee",
+					"description": "Child welfare services are managed by states, so the laws, policies, and fees you experience may differ.",
+					"url": "/christian-resources/adoption-foster-care-tn/",
+					"type": "Page"
+				}
+			
+		
+			
+		
+			
+		
+			
+		
+			
+				, 
+				
+				"christian-resources-bible-study": {
+					"title": "Bible Study Resources",
+					"description": "Enhance your Bible study time with these excellent resources.",
+					"url": "/christian-resources/bible-study/",
+					"type": "Page"
+				}
+			
+		
+			
+				, 
+				
+				"faith-books-of-the-bible": {
+					"title": "Posts by Book of the Bible",
+					"description": "Faith is a journey. Welcome to my adventure.",
+					"url": "/faith/books-of-the-bible/",
+					"type": "Page"
+				}
+			
+		
+			
+		
+			
+				, 
+				
+				"faith-colossians": {
+					"title": "Colossians",
+					"description": "Written to the Colossian church, this short letter by the apostle Paul is overflowing with Christology.",
+					"url": "/faith/colossians/",
+					"type": "Page"
+				}
+			
+		
+			
+				, 
+				
+				"christian-resources-counseling": {
+					"title": "Counseling Services",
+					"description": "A licensed counselor can provide valuable guidance in a variety of life circumstances.",
+					"url": "/christian-resources/counseling/",
+					"type": "Page"
+				}
+			
+		
+			
+				, 
+				
+				"daily-prayer-guide": {
+					"title": "Daily Prayer Guide",
+					"description": "This daily prayer guide was developed by Beth Moore.",
+					"url": "/daily-prayer-guide",
+					"type": "Page"
+				}
+			
+		
+			
+		
+			
+		
+			
+				, 
+				
+				"faith-ecclesiastes": {
+					"title": "Ecclesiastes",
+					"description": "Ecclesiastes was written around 250 BC, during the time when the Greeks ruled over Jerusalem and the Jews. The book presents a naturalistic vision of life, but ultimately recognizes the rule and reign of God in the world.",
+					"url": "/faith/ecclesiastes/",
+					"type": "Page"
+				}
+			
+		
+			
+				, 
+				
+				"entertainment": {
+					"title": "Entertainment",
+					"description": "This page is the result of a need for a list of the DVDs I own.",
+					"url": "/entertainment",
+					"type": "Page"
+				}
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+				, 
+				
+				"christian-resources-group-locators": {
+					"title": "Bible Study Group Locators",
+					"description": "Are you looking for a Bible study group near you? Or maybe a virtual group? Check out these online group locators.",
+					"url": "/christian-resources/group-locators/",
+					"type": "Page"
+				}
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+				, 
+				
+				"martech-2": {
+					"title": "Marketing Technology Blog",
+					"description": "MarTech is a blog dedicated to marketing and technology, and the convergence of the two.",
+					"url": "/martech/2",
+					"type": "Page"
+				}
+			
+		
+			
+				, 
+				
+				"faith": {
+					"title": "Faith Blog",
+					"description": "Faith is a journey. Welcome to my adventure.",
+					"url": "/faith",
+					"type": "Page"
+				}
+			
+		
+			
+				, 
+				
+				"martech": {
+					"title": "MarTech Blog",
+					"description": "MarTech is a blog dedicated to marketing and technology.",
+					"url": "/martech",
+					"type": "Page"
+				}
+			
+		
+			
+		
+			
+		
+			
+		
+			
+				, 
+				
+				"book-reviews": {
+					"title": "Book Reviews",
+					"description": "Read my reviews of books I've read.",
+					"url": "/book-reviews",
+					"type": "Page"
+				}
+			
+		
+			
+				, 
+				
+				"book-reviews-2": {
+					"title": "Book Reviews",
+					"description": "Read my reviews of books I've read.",
+					"url": "/book-reviews/2",
+					"type": "Page"
+				}
+			
+		
+			
+				, 
+				
+				"book-reviews-3": {
+					"title": "Book Reviews",
+					"description": "Read my reviews of books I've read.",
+					"url": "/book-reviews/3",
+					"type": "Page"
+				}
+			
+		
+			
+				, 
+				
+				"christian-resources": {
+					"title": "Christian Resources",
+					"description": "Browse a curated collection of Christian resources for Bible study, child welfare, counseling, and more.",
+					"url": "/christian-resources/",
+					"type": "Page"
+				}
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+				, 
+				
+				"faith-lamentations": {
+					"title": "Lamentations",
+					"description": "Lamentations is a poetic book written by the prophet Jeremiah after the destruction of Jerusalem by Nebuchadnezzar of Babylon.",
+					"url": "/faith/lamentations/",
+					"type": "Page"
+				}
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+				, 
+				
+				"christian-resources-podcasts": {
+					"title": "Podcasts",
+					"description": "With so many great podcasts available now, how can you choose just one?",
+					"url": "/christian-resources/podcasts/",
+					"type": "Page"
+				}
+			
+		
+			
+		
+			
+		
+			
+		
+			
+				, 
+				
+				"christian-resources-publications": {
+					"title": "Publications",
+					"description": "There are so many good Christian publications. Here are only a few that I recommend.",
+					"url": "/christian-resources/publications/",
+					"type": "Page"
+				}
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
 		
 	};
+	function slugify(str) { return str.toLowerCase().trim().replace(/[^\w\s-]/g, '').replace(/\s+/g, '-').replace(/-+/g, '-') };
 	console.log(window.store);
 </script>
 <script src="/assets/js/lunr.min.js"></script>
@@ -777,5 +2012,4 @@
 </footer>
 <!-- Footer : END -->
 </body>
-
 </html>

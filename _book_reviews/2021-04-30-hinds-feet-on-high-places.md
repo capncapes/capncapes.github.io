@@ -17,6 +17,7 @@ featured_image: {
   alt: "Hinds' Feet on High Places, by Hannah Hurnard"
 }
 tags: ["fiction", "Christian", "allegory"]
+permalink: /book-reviews/hinds-feet-on-high-places
 published: true
 ---
 

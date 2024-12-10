@@ -17,6 +17,7 @@ featured_image: {
   alt: "The Secular Creed: Engaging Five Contemporary Claims"
 }
 tags: ["Christian", "apologetics"]
+permalink: /book-reviews/secular-creed
 published: true
 ---
 

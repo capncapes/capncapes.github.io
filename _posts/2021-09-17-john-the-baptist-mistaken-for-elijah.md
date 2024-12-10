@@ -8,11 +8,12 @@ featured_image: {
   title: "Why was John the Baptist mistaken for Elijah?",
   alt: "John the Baptist preaches to a crowd"
 }
-description: "The life of John the Baptist is a great example of what God can accomplish through someone who embraces his or her calling."
+description: "The life of John the Baptist is a great example of what God can accomplish through someone who embraces their calling."
 category: Faith
 bible_books: ["2 Kings", "Isaiah", "Malachi", "Matthew", "John"]
 tags: ["Elijah", "John the Baptist"]
 featured: false
+permalink: /2021/john-the-baptist-mistaken-for-elijah
 published: true
 ---
 

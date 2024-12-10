@@ -10,6 +10,7 @@ featured_image: {
 description: "Not everyone can afford to hire an SEO agency, so it’s helpful to have SEO terms explained in plain English."
 category: MarTech
 tags: ["SEO"]
+permalink: /2020/seo-terms-explained
 featured: false
 ---
 

@@ -17,6 +17,7 @@ featured_image: {
   alt: "Stuff You Should Know: An Incomplete Compendium of Mostly Interesting Things"
 }
 tags: ["trivia", "nonfiction", "history", "science"]
+permalink: /book-reviews/stuff-you-should-know
 published: true
 ---
 

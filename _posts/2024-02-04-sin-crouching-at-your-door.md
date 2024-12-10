@@ -13,6 +13,7 @@ category: Faith
 bible_books: ["Genesis", "Hebrews"]
 tags: ["sin"]
 featured: false
+permalink: /2024/sin-crouching-at-your-door
 published: true
 ---
 
@@ -72,12 +73,12 @@ The author reminds Christians that, in the words of Hebrews scholar George H. Gu
 
 The interesting thing, to me, about this narrative is how much God interacts with each brother. Abel has no voice in this story; he does not speak, and his only contribution is to provide a favorable offering to God. On the other hand, Cain dominates the story and speaks directly with the Lord a lot. Cain clearly deserves judgement, but even though God does curse him (vv. 11&ndash;12), Cain is also marked for protection by the Lord (v. 15), a clear act of mercy.[^4]
 
-As we reflect on the story of Cain and Abel, we should remember God's warning to Cain in verse 7: <q>But if you do not do what is right, sin is crouching at your door; it desires to have you, **but you must rule over it.**</q> Despite Cain's willful sin, this short passage echoes the enduring theme of God's mercy in the face of our imperfections. God did not banish Cain from the divine presence; Cain left. But the Lord, in his mercy, protected Cain with a mysterious mark. God preserved his life, one can hope, for the purpose of Cain's repentance. After all, Cain surely deserved death (“life for life, eye for eye, tooth for tooth, hand for hand, foot for foot, burn for burn, wound for wound, bruise for bruise”[^5]), and so it is a mercy that God not only spared his life but protected him from the very sin that destroyed his brother Abel. We should read this story as a cautionary tale of the dangers of being too comfortable with our own sinful desires.
+As we reflect on the story of Cain and Abel, we should remember God's warning to Cain in verse 7: <q>But if you do not do what is right, sin is crouching at your door; it desires to have you, **but you must rule over it.**</q> Despite Cain's willful sin, this short passage echoes the enduring theme of God's mercy in the face of our imperfections. God did not banish Cain from the divine presence; Cain left. But the Lord, in his mercy, protected Cain with a mysterious mark. God preserved his life, one can hope, for the purpose of Cain's repentance. After all, Cain surely deserved death (&ldquo;life for life, eye for eye, tooth for tooth, hand for hand, foot for foot, burn for burn, wound for wound, bruise for bruise&rdquo;[^5]), and so it is a mercy that God not only spared his life but protected him from the very sin that destroyed his brother Abel. We should read this story as a cautionary tale of the dangers of being too comfortable with our own sinful desires.
 
 Genesis 4 ends a few verses later, with sin, violence, and anger now running rampant in the world. But there is hope in the salvation of the Lord. As Andrew E. Steinmann puts it, <q>The chapter begins with murder, but ends with people calling on God, their only refuge in a sin-filled world.</q>[^6]
 
 [^1]: The language in verse 7 of sin crouching at the door reads like a standard metaphor, especially to Western minds, but as Old Testament scholar John H. Walton identifies, the personification of sin crouching in a doorway points to a Mesopotamian demon called Rabisu that lingers around doorways. This interpretation is further strengthened by the Hebrew word for “is crouching” (*robes* or *rabis*). <q><q>Sin</q> is then being portrayed as a doorway demon waiting for its victim to cross the threshold.</q> (Walton, John H. (2001). *The NIV Application Commentary: Genesis.* Zondervan.) For a better appreciation of spiritual beings as understood by ancient readers of biblical texts, I recommend Michael S. Heiser's book <a href="/book-reviews/unseen-realm" class="italic">The Unseen Realm</a>.
-[^2]: Guthrie, George H. (1998). *The NIV Application Commentary: Hebrews.* Zondervan.
+[^2]: Guthrie, George H. (1998). <a href="https://www.amazon.com/NIV-Application-Commentary-Hebrews-Hardcover/dp/0310493900/" class="italic">The NIV Application Commentary: Hebrews</a>. Zondervan.
 [^3]: Guthrie, George H.
 [^4]: Something I've always wondered about this story is about the other people, like those who would kill Cain upon finding him, or even Cain's wife. Are these other people siblings of Cain and Abel? Are they from other families who were created in similar fashion to Adam and Eve, only later? These questions are outside the scope of this article, but I would love to explore them one day.
 [^5]: Exodus 21:23&ndash;25, <abbr title="New International Version">NIV</abbr>

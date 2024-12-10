@@ -16,7 +16,8 @@ featured_image: {
   title: "Look Out For the Little Guy!",
   alt: "Look Out For the Little Guy, by Scott Lang"
 }
-tags: ["fiction"]
+tags: ["fiction", "memoir"]
+permalink: /book-reviews/look-out-for-the-little-guy
 published: true
 ---
 

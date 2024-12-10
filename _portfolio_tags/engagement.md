@@ -3,6 +3,7 @@ layout: portfolio_tag_single
 title: "Engagement"
 tag: engagement
 formatted_tag: engagement
+description: "By using targeted content, compelling subject lines, and personalized incentives, engagement emails aim to drive opens, clicks, and restore meaningful brand connections"
 permalink: /portfolio/tags/engagement/
 ---
 

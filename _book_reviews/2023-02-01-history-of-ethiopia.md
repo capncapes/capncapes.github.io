@@ -16,7 +16,8 @@ featured_image: {
   title: "History of Ethiopia, by Captivating History",
   alt: "History of Ethiopia: A Captivating Guide to Ethiopian History"
 }
-tags: ["history"]
+tags: ["history", "nonfiction"]
+permalink: /book-reviews/history-of-ethiopia
 published: true
 ---
 

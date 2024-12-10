@@ -3,6 +3,7 @@ layout: portfolio_tag_single
 title: "AMPscript"
 tag: AMPscript
 formatted_tag: ampscript
+description: "By embedding AMPscript code within emails and Salesforce Marketing Cloud pages, marketers can customize messages based on subscriber data, such as name, purchase history, or location, creating a more relevant experience."
 permalink: /portfolio/tags/ampscript/
 ---
 

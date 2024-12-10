@@ -16,7 +16,8 @@ featured_image: {
   title: "World of Wonders, by Aimee Nezhukumatathil",
   alt: "World of Wonders: In Praise of Fireflies, Whale Sharks, and Other Astonishments"
 }
-tags: ["memoir", "nature"]
+tags: ["memoir", "nature", "nonfiction"]
+permalink: /book-reviews/world-of-wonders
 published: true
 ---
 

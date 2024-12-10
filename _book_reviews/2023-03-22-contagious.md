@@ -16,7 +16,8 @@ featured_image: {
   title: "Contagious: Why Things Catch On",
   alt: "Contagious: Why Things Catch On, by Jonah Berger"
 }
-tags: ["business", "marketing"]
+tags: ["business", "marketing", "nonfiction"]
+permalink: /book-reviews/contagious
 published: true
 ---
 

@@ -16,7 +16,8 @@ featured_image: {
   title: "The Concise History of the Crusades, by Thomas F. Madden",
   alt: "The Concise History of the Crusades: Third Student Edition"
 }
-tags: ["history", "Christian"]
+tags: ["history", "Christian", "nonfiction"]
+permalink: /book-reviews/concise-history-crusades
 published: true
 ---
 

@@ -13,6 +13,7 @@ category: Faith
 bible_books: "John"
 tags: ["eternal life", "eschatology", "gospels"]
 featured: false
+permalink: /2022/this-is-eternal-life
 published: true
 ---
 

@@ -12,6 +12,7 @@ description: "One of the most affordable and effective tools is a well-crafted w
 category: MarTech
 tags: ["SEO", "Google"]
 featured: true
+permalink: /2018/what-is-seo
 published: true
 ---
 

@@ -11,6 +11,7 @@ description: "CSS. Developers tend to either love it or hate it. Well, here’s 
 category: MarTech
 tags: ["web development", "CSS"]
 featured: false
+permalink: /2021/using-css-counters
 published: true
 ---
 

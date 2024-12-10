@@ -9,7 +9,7 @@ book: {
   publisher: "Crossway",
   author: "Rebecca McLaughlin"
 }
-description: ""
+description: "Rebecca McLaughlin's engaging and enlightening book serves as a comprehensive guide for navigating some of the most formidable challenges and objections that confront the Christian faith."
 featured_image: {
   src: "confronting-christianity.webp",
   fallback: "confronting-christianity.jpg",
@@ -17,6 +17,7 @@ featured_image: {
   alt: "Confronting Christianity: 12 Hard Questions for the World's Largest Religion"
 }
 tags: ["Christian", "apologetics"]
+permalink: /book-reviews/confronting-christianity
 published: true
 ---
 

@@ -10,8 +10,9 @@ featured_image: {
 }
 description: "By using a combination of HTML and CSS tricks, you can make sure your buttons are always ready to help you convert more subscribers into customers."
 category: MarTech
-tags: ["email", "Outlook", "Gmail", "Yahoo"]
+tags: ["email"]
 featured: false
+permalink: /2023/bulletproof-html-email-buttons
 published: true
 ---
 

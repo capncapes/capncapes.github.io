@@ -16,7 +16,8 @@ featured_image: {
   title: "How the Post Office Created America, by Winifred Gallagher",
   alt: "How the Post Office Created America, by Winifred Gallagher"
 }
-tags: ["history"]
+tags: ["history", "nonfiction"]
+permalink: /book-reviews/how-the-post-office-created-america
 published: true
 ---
 

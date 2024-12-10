@@ -10,6 +10,7 @@ featured_image: {
 description: "With its Web Analytics Connector, Marketing Cloud offers a powerful tool to gain deeper insights into customer interactions."
 category: MarTech
 tags: ["analytics", "Salesforce Marketing Cloud"]
+permalink: /2024/sfmc-web-analytics-connector
 featured: false
 ---
 

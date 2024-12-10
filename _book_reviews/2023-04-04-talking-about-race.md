@@ -17,6 +17,7 @@ featured_image: {
   alt: "Talking About Race, by Isaac Adams"
 }
 tags: ["Christian", "race relations", "Black voices"]
+permalink: /book-reviews/talking-about-race
 published: true
 ---
 

@@ -17,6 +17,7 @@ featured_image: {
   alt: "The Gospel Comes with a House Key, by Rosaria Butterfield"
 }
 tags: ["Christian"]
+permalink: /book-reviews/gospel-comes-with-house-key
 published: true
 ---
 

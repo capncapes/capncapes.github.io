@@ -10,6 +10,7 @@ featured_image: {
 description: "Good product photography can make or break a marketing message."
 category: MarTech
 tags: ["marketing", "photography"]
+permalink: /2024/product-photography-for-marketers
 featured: false
 ---
 

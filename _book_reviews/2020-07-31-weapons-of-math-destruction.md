@@ -16,7 +16,8 @@ featured_image: {
   title: "Weapons of Math Destruction: How Big Data Increases Inequality and Threatens Democracy",
   alt: "Weapons of Math Destruction, by Cathy O'Neil"
 }
-tags: ["data", "justice", "technology"]
+tags: ["data", "justice", "technology", "nonfiction"]
+permalink: /book-reviews/weapons-of-math-destruction
 published: true
 ---
 

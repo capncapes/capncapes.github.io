@@ -12,6 +12,7 @@ category: Faith
 bible_books: ["Ephesians", "Colossians"]
 tags: ["Christ", "Pauline letters"]
 featured: false
+permalink: /2022/christ-in-you-hope-of-glory
 published: true
 ---
 

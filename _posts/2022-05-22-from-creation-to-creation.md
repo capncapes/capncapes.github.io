@@ -12,6 +12,7 @@ category: Faith
 bible_books: ["Genesis", "Revelation"]
 tags: ["creation", "eschatology", "restoration"]
 featured: false
+permalink: /2022/from-creation-to-creation
 published: false
 ---
 

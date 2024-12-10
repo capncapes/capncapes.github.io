@@ -10,6 +10,7 @@ featured_image: {
 description: "I spent the first few months of my marriage nearly code-free. We made plans, hiked a lot, and traveled some."
 category: MarTech
 tags: ["web development"]
+permalink: /2017/im-studying-web-development-because-of-my-wife
 featured: false
 ---
 

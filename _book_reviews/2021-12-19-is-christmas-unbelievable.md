@@ -16,7 +16,8 @@ featured_image: {
   title: "Is Christmas Unbelievable?, by Rebecca McLaughlin",
   alt: "Is Christmas Unbelievable?: Four Questions Everyone Should Ask About the World's Most Famous Story"
 }
-tags: ["Christian", "holidays", "apologetics"]
+tags: ["Christian", "holidays", "apologetics", "history", "nonfiction"]
+permalink: /book-reviews/is-christmas-unbelievable
 published: true
 ---
 

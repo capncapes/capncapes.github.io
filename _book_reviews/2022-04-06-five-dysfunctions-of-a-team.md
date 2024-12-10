@@ -17,6 +17,7 @@ featured_image: {
   alt: "The Five Dysfunctions of a Team: A Leadership Fable"
 }
 tags: ["business", "fiction"]
+permalink: /book-reviews/five-dysfunctions-of-a-team
 published: true
 ---
 

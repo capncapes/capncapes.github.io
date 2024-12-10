@@ -16,7 +16,8 @@ featured_image: {
   title: "The Snow Queen",
   alt: "The Snow Queen, by Hans Christian Andersen"
 }
-tags: ["fiction"]
+tags: ["fiction", "allegory"]
+permalink: /book-reviews/the-snow-queen
 published: true
 ---
 

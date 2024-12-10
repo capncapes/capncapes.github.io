@@ -12,6 +12,7 @@ description: "Uncovering your organizational purpose is an ongoing process, but 
 category: MarTech
 tags: ["business"]
 featured: false
+permalink: /2023/organizational-purpose
 published: true
 ---
 

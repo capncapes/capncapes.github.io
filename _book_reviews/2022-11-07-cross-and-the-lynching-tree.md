@@ -16,13 +16,14 @@ featured_image: {
   title: "The Cross and the Lynching Tree",
   alt: "The Cross and the Lynching Tree, by James H. Cone"
 }
-tags: ["Christian", "history", "race relations", "Black voices"]
+tags: ["Christian", "history", "race relations", "Black voices", "nonfiction"]
 modal: {
   display: "true",
   type: "warning",
   title: "For your consideration",
   content: "The following book review contains direct quotations that include difficult language, including graphic depictions of racial violence."
 }
+permalink: /book-reviews/cross-and-the-lynching-tree
 published: true
 ---
 

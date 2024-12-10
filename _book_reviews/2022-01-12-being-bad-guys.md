@@ -17,6 +17,7 @@ featured_image: {
   alt: "Being the Bad Guys: How to Live for Jesus in a World That Says You Shouldn’t"
 }
 tags: ["Christian", "nonfiction"]
+permalink: /book-reviews/being-bad-guys
 published: true
 ---
 

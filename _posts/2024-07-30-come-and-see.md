@@ -12,6 +12,7 @@ description: "Jesus offers an invitation to come and see what God has done for y
 category: Faith
 bible_books: ["Psalms", "John"]
 tags: ["encouragement"]
+permalink: /2024/come-and-see
 featured: true
 published: true
 ---

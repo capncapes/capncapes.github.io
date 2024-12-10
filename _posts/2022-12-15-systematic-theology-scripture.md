@@ -13,6 +13,7 @@ category: Faith
 bible_books: ["Psalms", "Matthew", "2 Peter"]
 tags: ["systematic theology", "Scripture"]
 featured: false
+permalink: /2022/systematic-theology-scripture
 published: true
 ---
 

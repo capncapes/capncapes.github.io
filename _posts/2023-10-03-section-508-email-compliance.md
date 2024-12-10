@@ -12,6 +12,7 @@ description: "Section 508 is a U.S. federal law that requires all electronic and
 category: MarTech
 tags: ["email", "a11y"]
 featured: false
+permalink: /2023/section-508-email-compliance
 published: true
 ---
 

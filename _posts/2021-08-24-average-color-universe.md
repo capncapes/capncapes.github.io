@@ -11,6 +11,7 @@ description: "Cosmic latte may not be the flashiest color, but wouldn’t it be 
 category: MarTech
 tags: ["graphic design"]
 featured: false
+permalink: /2021/average-color-universe
 redirect_from: /blog/average-color-universe
 ---
 

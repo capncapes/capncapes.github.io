@@ -17,6 +17,7 @@ featured_image: {
   alt: "Scripture Is Supreme"
 }
 tags: ["Christian", "theology"]
+permalink: /book-reviews/scripture-is-supreme
 published: true
 ---
 

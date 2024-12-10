@@ -11,8 +11,9 @@ featured_image: {
 description: "Our fundamental identity is that we have been created in the image of God."
 category: Faith
 bible_books: ["Genesis", "Job", "Psalms"]
-tags: ["image of God"]
+tags: ["image of God", "theology"]
 featured: false
+permalink: /2023/image-and-dominion
 published: true
 ---
 

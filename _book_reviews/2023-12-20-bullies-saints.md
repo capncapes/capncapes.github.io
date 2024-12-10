@@ -17,6 +17,7 @@ featured_image: {
   alt: "Bullies and Saints: An Honest Look at the Good and Evil of Christian History"
 }
 tags: ["history", "Christian"]
+permalink: /book-reviews/bullies-saints
 published: true
 ---
 

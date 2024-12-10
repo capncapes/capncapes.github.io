@@ -16,7 +16,8 @@ featured_image: {
   title: "The Great Dechurching, by Jim Davis, Michael Graham, and Ryan Burge",
   alt: "The Great Dechurching"
 }
-tags: ["Christian", "data"]
+tags: ["Christian", "data", "nonfiction"]
+permalink: /book-reviews/the-great-dechurching
 published: true
 ---
 

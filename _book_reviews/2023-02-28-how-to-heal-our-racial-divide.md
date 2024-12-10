@@ -17,6 +17,7 @@ featured_image: {
   alt: "How to Heal Our Racial Divide, by Derwin L. Gray"
 }
 tags: ["Christian", "race relations", "Black voices"]
+permalink: /book-reviews/how-to-heal-our-racial-divide
 published: true
 ---
 

@@ -3,6 +3,7 @@ layout: portfolio_tag_single
 title: "Healthcare"
 tag: healthcare
 formatted_tag: healthcare
+description: "Designing emails and websites for the healthcare industry presents unique challenges, including compliance with regulations like HIPAA, ensuring patient privacy, and conveying complex medical information clearly."
 permalink: /portfolio/tags/healthcare/
 ---
 

@@ -156,7 +156,7 @@
     
     
       <url>
-        <loc>http://localhost:4000/hebrew/</loc>
+        <loc>http://localhost:4000/hebrew</loc>
         
       </url>
     
@@ -200,7 +200,7 @@
     
     
       <url>
-        <loc>http://localhost:4000/daily-prayer-guide/</loc>
+        <loc>http://localhost:4000/daily-prayer-guide</loc>
         
       </url>
     
@@ -232,7 +232,7 @@
     
     
       <url>
-        <loc>http://localhost:4000/entertainment/</loc>
+        <loc>http://localhost:4000/entertainment</loc>
         
       </url>
     
@@ -362,7 +362,7 @@
     
     
       <url>
-        <loc>http://localhost:4000/martech/2/</loc>
+        <loc>http://localhost:4000/martech/2</loc>
         
       </url>
     
@@ -370,7 +370,7 @@
     
     
       <url>
-        <loc>http://localhost:4000/faith/</loc>
+        <loc>http://localhost:4000/faith</loc>
         
           <lastmod>2022-10-28T11:52:11-04:00</lastmod>
         
@@ -380,7 +380,7 @@
     
     
       <url>
-        <loc>http://localhost:4000/martech/</loc>
+        <loc>http://localhost:4000/martech</loc>
         
       </url>
     
@@ -412,7 +412,7 @@
     
     
       <url>
-        <loc>http://localhost:4000/book-reviews/</loc>
+        <loc>http://localhost:4000/book-reviews</loc>
         
           <lastmod>2022-10-21T08:40:58-04:00</lastmod>
         
@@ -422,7 +422,7 @@
     
     
       <url>
-        <loc>http://localhost:4000/book-reviews/2/</loc>
+        <loc>http://localhost:4000/book-reviews/2</loc>
         
           <lastmod>2023-10-14T07:41:50-04:00</lastmod>
         
@@ -432,7 +432,7 @@
     
     
       <url>
-        <loc>http://localhost:4000/book-reviews/3/</loc>
+        <loc>http://localhost:4000/book-reviews/3</loc>
         
           <lastmod>2023-10-14T07:41:50-04:00</lastmod>
         
@@ -759,7 +759,7 @@
   
     
       <url>
-        <loc>http://localhost:4000/martech/2024/email-accessibility</loc>
+        <loc>http://localhost:4000/2024/email-accessibility</loc>
         
           <lastmod>2024-09-23T21:29:10-04:00</lastmod>
         
@@ -768,7 +768,7 @@
   
     
       <url>
-        <loc>http://localhost:4000/faith/2024/come-and-see</loc>
+        <loc>http://localhost:4000/2024/come-and-see</loc>
         
           <lastmod>2024-07-30T20:01:49-04:00</lastmod>
         
@@ -777,7 +777,7 @@
   
     
       <url>
-        <loc>http://localhost:4000/martech/2024/product-photography-for-marketers</loc>
+        <loc>http://localhost:4000/2024/product-photography-for-marketers</loc>
         
           <lastmod>2024-05-16T11:59:00-04:00</lastmod>
         
@@ -786,7 +786,7 @@
   
     
       <url>
-        <loc>http://localhost:4000/faith/2024/embracing-divine-inheritance</loc>
+        <loc>http://localhost:4000/2024/embracing-divine-inheritance</loc>
         
           <lastmod>2024-04-29T17:04:24-04:00</lastmod>
         
@@ -795,7 +795,7 @@
   
     
       <url>
-        <loc>http://localhost:4000/martech/2024/sfmc-query-journey-analytics</loc>
+        <loc>http://localhost:4000/2024/sfmc-query-journey-analytics</loc>
         
           <lastmod>2024-04-26T12:39:20-04:00</lastmod>
         
@@ -804,7 +804,7 @@
   
     
       <url>
-        <loc>http://localhost:4000/martech/2024/sfmc-web-analytics-connector</loc>
+        <loc>http://localhost:4000/2024/sfmc-web-analytics-connector</loc>
         
           <lastmod>2024-04-15T06:31:00-04:00</lastmod>
         
@@ -813,7 +813,7 @@
   
     
       <url>
-        <loc>http://localhost:4000/martech/2024/how-to-query-subscribers-who-opened-sfmc-email</loc>
+        <loc>http://localhost:4000/2024/how-to-query-subscribers-who-opened-sfmc-email</loc>
         
           <lastmod>2024-03-08T21:30:41-05:00</lastmod>
         
@@ -822,7 +822,7 @@
   
     
       <url>
-        <loc>http://localhost:4000/faith/2024/sin-crouching-at-your-door</loc>
+        <loc>http://localhost:4000/2024/sin-crouching-at-your-door</loc>
         
           <lastmod>2024-02-04T11:11:11-05:00</lastmod>
         
@@ -831,7 +831,7 @@
   
     
       <url>
-        <loc>http://localhost:4000/faith/2024/paradox-of-the-cross</loc>
+        <loc>http://localhost:4000/2024/paradox-of-the-cross</loc>
         
           <lastmod>2024-01-23T06:55:12-05:00</lastmod>
         
@@ -840,7 +840,7 @@
   
     
       <url>
-        <loc>http://localhost:4000/martech/2023/organizational-purpose</loc>
+        <loc>http://localhost:4000/2023/organizational-purpose</loc>
         
           <lastmod>2023-12-20T15:15:15-05:00</lastmod>
         
@@ -849,7 +849,7 @@
   
     
       <url>
-        <loc>http://localhost:4000/faith/2023/prologue-johns-gospel</loc>
+        <loc>http://localhost:4000/2023/prologue-johns-gospel</loc>
         
           <lastmod>2023-12-12T12:12:12-05:00</lastmod>
         
@@ -858,7 +858,7 @@
   
     
       <url>
-        <loc>http://localhost:4000/martech/2023/bulletproof-html-email-buttons</loc>
+        <loc>http://localhost:4000/2023/bulletproof-html-email-buttons</loc>
         
           <lastmod>2023-11-30T05:15:51-05:00</lastmod>
         
@@ -867,7 +867,7 @@
   
     
       <url>
-        <loc>http://localhost:4000/faith/2023/weariness</loc>
+        <loc>http://localhost:4000/2023/weariness</loc>
         
           <lastmod>2023-11-28T18:00:01-05:00</lastmod>
         
@@ -876,7 +876,7 @@
   
     
       <url>
-        <loc>http://localhost:4000/martech/2023/section-508-email-compliance</loc>
+        <loc>http://localhost:4000/2023/section-508-email-compliance</loc>
         
           <lastmod>2023-10-03T07:45:56-04:00</lastmod>
         
@@ -885,7 +885,7 @@
   
     
       <url>
-        <loc>http://localhost:4000/martech/2023/ga4-user-properties</loc>
+        <loc>http://localhost:4000/2023/ga4-user-properties</loc>
         
           <lastmod>2023-09-20T15:15:16-04:00</lastmod>
         
@@ -894,7 +894,7 @@
   
     
       <url>
-        <loc>http://localhost:4000/martech/2023/utm-parameters</loc>
+        <loc>http://localhost:4000/2023/utm-parameters</loc>
         
           <lastmod>2023-08-03T07:58:56-04:00</lastmod>
         
@@ -903,7 +903,7 @@
   
     
       <url>
-        <loc>http://localhost:4000/martech/2023/how-to-develop-marketing-campaign</loc>
+        <loc>http://localhost:4000/2023/how-to-develop-marketing-campaign</loc>
         
           <lastmod>2023-07-31T05:58:00-04:00</lastmod>
         
@@ -912,7 +912,7 @@
   
     
       <url>
-        <loc>http://localhost:4000/martech/2023/google-analytics-4</loc>
+        <loc>http://localhost:4000/2023/google-analytics-4</loc>
         
           <lastmod>2023-05-09T09:10:01-04:00</lastmod>
         
@@ -930,7 +930,7 @@
   
     
       <url>
-        <loc>http://localhost:4000/faith/2023/image-and-dominion</loc>
+        <loc>http://localhost:4000/2023/image-and-dominion</loc>
         
           <lastmod>2023-03-05T16:59:16-05:00</lastmod>
         
@@ -939,7 +939,7 @@
   
     
       <url>
-        <loc>http://localhost:4000/faith/2023/structure-book-daniel</loc>
+        <loc>http://localhost:4000/2023/structure-book-daniel</loc>
         
           <lastmod>2023-02-07T21:30:01-05:00</lastmod>
         
@@ -948,7 +948,7 @@
   
     
       <url>
-        <loc>http://localhost:4000/martech/2023/sql-dates</loc>
+        <loc>http://localhost:4000/2023/sql-dates</loc>
         
           <lastmod>2023-01-18T12:00:01-05:00</lastmod>
         
@@ -957,7 +957,7 @@
   
     
       <url>
-        <loc>http://localhost:4000/martech/2023/sql-intro</loc>
+        <loc>http://localhost:4000/2023/sql-intro</loc>
         
           <lastmod>2023-01-04T07:25:30-05:00</lastmod>
         
@@ -966,7 +966,7 @@
   
     
       <url>
-        <loc>http://localhost:4000/faith/2022/systematic-theology-scripture</loc>
+        <loc>http://localhost:4000/2022/systematic-theology-scripture</loc>
         
           <lastmod>2022-12-16T16:12:59-05:00</lastmod>
         
@@ -975,7 +975,7 @@
   
     
       <url>
-        <loc>http://localhost:4000/faith/2022/waiting-hoping</loc>
+        <loc>http://localhost:4000/2022/waiting-hoping</loc>
         
           <lastmod>2022-12-04T06:59:01-05:00</lastmod>
         
@@ -984,7 +984,7 @@
   
     
       <url>
-        <loc>http://localhost:4000/martech/2022/how-to-create-a-google-account-without-gmail</loc>
+        <loc>http://localhost:4000/2022/how-to-create-a-google-account-without-gmail</loc>
         
           <lastmod>2022-11-03T09:14:59-04:00</lastmod>
         
@@ -993,7 +993,7 @@
   
     
       <url>
-        <loc>http://localhost:4000/martech/2022/git-remove-ds-store</loc>
+        <loc>http://localhost:4000/2022/git-remove-ds-store</loc>
         
           <lastmod>2022-06-26T00:14:39-04:00</lastmod>
         
@@ -1002,7 +1002,7 @@
   
     
       <url>
-        <loc>http://localhost:4000/faith/2022/this-is-eternal-life</loc>
+        <loc>http://localhost:4000/2022/this-is-eternal-life</loc>
         
           <lastmod>2022-05-26T12:39:31-04:00</lastmod>
         
@@ -1011,7 +1011,7 @@
   
     
       <url>
-        <loc>http://localhost:4000/faith/2022/christ-in-you-hope-of-glory</loc>
+        <loc>http://localhost:4000/2022/christ-in-you-hope-of-glory</loc>
         
           <lastmod>2022-05-20T13:00:01-04:00</lastmod>
         
@@ -1020,7 +1020,7 @@
   
     
       <url>
-        <loc>http://localhost:4000/faith/2022/tending-relationships</loc>
+        <loc>http://localhost:4000/2022/tending-relationships</loc>
         
           <lastmod>2022-01-23T15:00:16-05:00</lastmod>
         
@@ -1029,7 +1029,7 @@
   
     
       <url>
-        <loc>http://localhost:4000/martech/2021/using-css-counters</loc>
+        <loc>http://localhost:4000/2021/using-css-counters</loc>
         
           <lastmod>2021-11-04T14:03:01-04:00</lastmod>
         
@@ -1038,7 +1038,7 @@
   
     
       <url>
-        <loc>http://localhost:4000/faith/2021/john-the-baptist-mistaken-for-elijah</loc>
+        <loc>http://localhost:4000/2021/john-the-baptist-mistaken-for-elijah</loc>
         
           <lastmod>2021-09-17T01:11:10-04:00</lastmod>
         
@@ -1047,7 +1047,7 @@
   
     
       <url>
-        <loc>http://localhost:4000/martech/2021/average-color-universe</loc>
+        <loc>http://localhost:4000/2021/average-color-universe</loc>
         
           <lastmod>2021-08-24T11:32:00-04:00</lastmod>
         
@@ -1056,7 +1056,7 @@
   
     
       <url>
-        <loc>http://localhost:4000/martech/2020/seo-terms-explained</loc>
+        <loc>http://localhost:4000/2020/seo-terms-explained</loc>
         
           <lastmod>2020-04-26T14:25:20-04:00</lastmod>
         
@@ -1065,7 +1065,7 @@
   
     
       <url>
-        <loc>http://localhost:4000/martech/2019/inkscape-heart</loc>
+        <loc>http://localhost:4000/2019/inkscape-heart</loc>
         
           <lastmod>2019-02-14T09:00:00-05:00</lastmod>
         
@@ -1074,7 +1074,7 @@
   
     
       <url>
-        <loc>http://localhost:4000/faith/2018/god-will-restore-what-was-lost</loc>
+        <loc>http://localhost:4000/2018/god-will-restore-what-was-lost</loc>
         
           <lastmod>2018-10-30T05:45:47-04:00</lastmod>
         
@@ -1083,7 +1083,7 @@
   
     
       <url>
-        <loc>http://localhost:4000/martech/2018/what-is-seo</loc>
+        <loc>http://localhost:4000/2018/what-is-seo</loc>
         
           <lastmod>2018-09-15T20:47:59-04:00</lastmod>
         
@@ -1092,7 +1092,7 @@
   
     
       <url>
-        <loc>http://localhost:4000/martech/2018/fix-sideways-images</loc>
+        <loc>http://localhost:4000/2018/fix-sideways-images</loc>
         
           <lastmod>2018-08-30T10:01:10-04:00</lastmod>
         
@@ -1101,7 +1101,7 @@
   
     
       <url>
-        <loc>http://localhost:4000/martech/2017/rails-5-rspec-parameters</loc>
+        <loc>http://localhost:4000/2017/rails-5-rspec-parameters</loc>
         
           <lastmod>2017-11-01T06:31:00-04:00</lastmod>
         
@@ -1110,7 +1110,7 @@
   
     
       <url>
-        <loc>http://localhost:4000/martech/2017/ngclick-vs-ngsubmit</loc>
+        <loc>http://localhost:4000/2017/ngclick-vs-ngsubmit</loc>
         
           <lastmod>2017-05-10T11:52:11-04:00</lastmod>
         
@@ -1119,7 +1119,7 @@
   
     
       <url>
-        <loc>http://localhost:4000/martech/2017/im-studying-web-development-because-of-my-wife</loc>
+        <loc>http://localhost:4000/2017/im-studying-web-development-because-of-my-wife</loc>
         
           <lastmod>2017-03-12T06:05:29-04:00</lastmod>
         
@@ -1128,7 +1128,7 @@
   
     
       <url>
-        <loc>http://localhost:4000/martech/2017/three-challenges-learning-to-code</loc>
+        <loc>http://localhost:4000/2017/three-challenges-learning-to-code</loc>
         
           <lastmod>2017-01-07T06:07:07-05:00</lastmod>
         
@@ -1137,7 +1137,7 @@
   
     
       <url>
-        <loc>http://localhost:4000/martech/2017/love-hate-relationship-internet-explorer</loc>
+        <loc>http://localhost:4000/2017/love-hate-relationship-internet-explorer</loc>
         
           <lastmod>2017-01-06T13:34:40-05:00</lastmod>
         

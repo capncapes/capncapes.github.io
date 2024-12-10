@@ -46,6 +46,7 @@ howto: {
 	]
 }
 featured: false
+permalink: /2022/how-to-create-a-google-account-without-gmail
 published: true
 ---
 

@@ -3,6 +3,7 @@ layout: portfolio_tag_single
 title: "Fundraising"
 tag: fundraising
 formatted_tag: fundraising
+description: "Fundraising email and web features are essential tools used by nonprofits to engage donors, share impactful stories, and drive contributions."
 permalink: /portfolio/tags/fundraising/
 ---
 

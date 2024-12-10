@@ -17,6 +17,7 @@ featured_image: {
   alt: "Putting An X Through Anxiety, by Louie Giglio"
 }
 tags: ["Christian", "anxiety", "Psalms"]
+permalink: /book-reviews/putting-x-through-anxiety
 published: true
 ---
 

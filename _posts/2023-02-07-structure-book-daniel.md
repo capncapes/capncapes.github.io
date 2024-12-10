@@ -12,6 +12,7 @@ category: Faith
 bible_books: ["Daniel"]
 tags: ["Daniel", "prophecy"]
 featured: false
+permalink: /2023/structure-book-daniel
 published: true
 ---
 

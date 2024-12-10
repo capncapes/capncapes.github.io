@@ -3,6 +3,7 @@ layout: portfolio_tag_single
 title: "Downloads"
 tag: downloads
 formatted_tag: downloads
+description: "Emails featuring downloads provide subscribers with direct access to valuable content. These emails not only deliver useful resources but also reinforce brand value by positioning the content as an exclusive benefit."
 permalink: /portfolio/tags/downloads/
 ---
 

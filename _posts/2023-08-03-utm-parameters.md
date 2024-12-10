@@ -12,6 +12,7 @@ description: "UTM parameters are snippets of text that can be added to the end o
 category: MarTech
 tags: ["Google Analytics 4", "data"]
 featured: false
+permalink: /2023/utm-parameters
 published: true
 ---
 

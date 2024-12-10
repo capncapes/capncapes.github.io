@@ -8,12 +8,12 @@ featured_image: {
   title: "Envelopes",
   alt: "Envelopes"
 }
-description: "IP warming is like introducing yourself gradually to ESPs, building trust by sending out a few emails at first and then steadily increasing volume over time."
+description: "IP warming is like introducing your emails gradually to ESPs, building trust by sending out a few messages at first and then steadily increasing volume over time."
 category: MarTech
 tags: ["email"]
 howto: {
-	title: "How to add a user property to Google Analytics 4 using GTM",
-	description: "Google Analytics 4 user properties are customizable attributes that describe groups of your users.",
+	title: "How to warm a new IP address",
+	description: "To warm a new IP, you must be patient, consistent, and focus on building trust with email providers.",
 	time: {
 		formatted: 'P6W',
 		duration: '6 weeks'

@@ -17,6 +17,7 @@ featured_image: {
   alt: "Truth and Fiction in The Da Vinci Code, by Bart D. Ehrman"
 }
 tags: ["Christian", "history", "biblical studies"]
+permalink: /book-reviews/truth-fiction-the-da-vinci-code
 published: true
 ---
 

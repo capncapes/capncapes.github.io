@@ -3,20 +3,86 @@ layout: search
 title: Search
 permalink: /search/
 ---
+<p class="max-w-5 mx-auto pt-0 sm:px-0 md:px-10 lg:px-16">Use the search bar to submit a query.</p>
 <ul id="search-results" class="max-w-5 mx-auto pt-10 sm:px-0 md:pb-6 md:px-10 lg:px-16"></ul>
 <script>
 	window.store = {
+		{% assign first_item = true %}
 		{% for post in site.posts %}
-			"{{ post.url | slugify }}": {
-				"title": "{{ post.title | xml_escape }}",
-				"author": "{{ post.author | xml_escape }}",
-				"category": "{{ post.category | xml_escape }}",
-				"description": {{ post.description | strip_html | strip_newlines | jsonify }},
-				"url": "{{ post.url | xml_escape }}"
+			{% assign post_url = post.permalink | default: post.path %}
+			{% if post.title and post.description and post.title != '' and post.description != '' %}
+				{% unless first_item %}, {% endunless %}
+				{% assign first_item = false %}
+				"{{ post.path | slugify }}": {
+					"title": "{{ post.title | xml_escape }}",
+					"author": "Brandon Caples",
+					"category": "{{ post.category | xml_escape }}",
+					"description": {{ post.description | strip_html | strip_newlines | jsonify }},
+					"url": "{{ post_url | xml_escape }}",
+					"type": "{{ post.category | xml_escape }} Blog Post"
+				}
+			{% endif %}
+		{% endfor %}
+		{% for email in site.portfolio_email %}
+			{% unless first_item %}, {% endunless %}
+			"{{ email.url | slugify }}": {
+				"title": "Project: {{ email.title | xml_escape }}",
+				"author": "Brandon Caples",
+				"description": {{ email.description | strip_html | strip_newlines | jsonify }},
+				"img": "{{ email.featured_image.desktop_src }}",
+				"img_alt": "{{ email.featured_image.alt }}",
+				"url": "{{ email.permalink | xml_escape }}",
+				"type": "Email Project"
 			}
-		{% unless forloop.last %}, {% endunless %}
+		{% endfor %}
+		{% for web in site.portfolio_web %}
+			{% unless first_item %}, {% endunless %}
+			"{{ web.url | slugify }}": {
+				"title": "{{ web.title | xml_escape }}",
+				"author": "Brandon Caples",
+				"description": {{ web.description | strip_html | strip_newlines | jsonify }},
+				"img": "{{ web.featured_image.desktop_src }}",
+				"img_alt": "{{ web.featured_image.alt }}",
+				"url": "{{ web.permalink | xml_escape }}",
+				"type": "Web Project"
+			}
+		{% endfor %}
+		{% for tag in site.portfolio_tags %}
+			{% unless first_item %}, {% endunless %}
+			"{{ tag.formatted_tag | slugify }}": {
+				"title": "Projects tagged with “{{ tag.tag | xml_escape }}”",
+				"author": "Brandon Caples",
+				"description": {{ tag.description | strip_html | strip_newlines | jsonify }},
+				"url": "{{ tag.permalink | xml_escape }}",
+				"type": "Portfolio Tag"
+			}
+			{% endfor %}
+		{% for review in site.book_reviews %}
+			{% unless first_item %}, {% endunless %}
+			"{{ review.url | slugify }}": {
+				"title": "{{ review.book.title | xml_escape }}",
+				"author": "{{ review.book.author | xml_escape }}",
+				"description": {{ review.description | strip_html | strip_newlines | jsonify }},
+				"img": "{{ review.featured_image.src }}",
+				"img_alt": "{{ review.featured_image.alt }}",
+				"url": "{{ review.permalink | xml_escape }}",
+				"type": "Book Review"
+			}
+		{% endfor %}
+		{% for page in site.pages %}
+			{% if page.title and page.description and page.title != '' and page.description != '' %}
+				{% unless first_item %}, {% endunless %}
+				{% assign page_url = page.permalink | default: page.path %}
+				"{{ page.url | slugify }}": {
+					"title": "{{ page.title | xml_escape }}",
+					"description": {{ page.description | strip_html | strip_newlines | jsonify }},
+					"url": "{{ page_url | xml_escape }}",
+					"type": "Page"
+				}
+			{% endif %}
 		{% endfor %}
 	};
+	function slugify(str) { return str.toLowerCase().trim().replace(/[^\w\s-]/g, '').replace(/\s+/g, '-').replace(/-+/g, '-') };
 	console.log(window.store);
 </script>
 <script src="{{ site.baseurl }}/assets/js/lunr.min.js"></script>

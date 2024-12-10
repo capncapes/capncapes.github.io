@@ -12,6 +12,7 @@ category: Faith
 bible_books: ["Jeremiah"]
 tags: ["relationships"]
 featured: false
+permalink: /2022/tending-relationships
 published: true
 ---
 

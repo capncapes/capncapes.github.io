@@ -16,7 +16,8 @@ featured_image: {
   title: "The Unseen Realm: Recovering the supernatural worldview of the Bible",
   alt: "The Unseen Realm, by Michael S. Heiser"
 }
-tags: ["Christian", "supernaturalism", "theology", "angels", "demons"]
+tags: ["Christian", "supernaturalism", "theology", "angels", "demons", "nonfiction"]
+permalink: /book-reviews/unseen-realm
 published: true
 ---
 

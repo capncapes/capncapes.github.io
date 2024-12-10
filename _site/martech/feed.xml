@@ -31,8 +31,8 @@
                 <description>
                     <![CDATA[ Enhancing accessibility ensures that your message makes your email campaigns more successful in the long run. ]]>
                 </description>
-                <link>http://localhost:4000/martech/2024/email-accessibility</link>
-                <guid isPermaLink="true">http://localhost:4000/martech/2024/email-accessibility</guid>
+                <link>http://localhost:4000/2024/email-accessibility</link>
+                <guid isPermaLink="true">http://localhost:4000/2024/email-accessibility</guid>
                 <dc:creator>
                     <![CDATA[ Brandon Caples ]]>
                 </dc:creator>
@@ -47,8 +47,8 @@
                 <description>
                     <![CDATA[ Good product photography can make or break a marketing message. ]]>
                 </description>
-                <link>http://localhost:4000/martech/2024/product-photography-for-marketers</link>
-                <guid isPermaLink="true">http://localhost:4000/martech/2024/product-photography-for-marketers</guid>
+                <link>http://localhost:4000/2024/product-photography-for-marketers</link>
+                <guid isPermaLink="true">http://localhost:4000/2024/product-photography-for-marketers</guid>
                 <dc:creator>
                     <![CDATA[ Brandon Caples ]]>
                 </dc:creator>
@@ -63,8 +63,8 @@
                 <description>
                     <![CDATA[ Understanding and leveraging journey analytics is essential for optimizing marketing efforts. ]]>
                 </description>
-                <link>http://localhost:4000/martech/2024/sfmc-query-journey-analytics</link>
-                <guid isPermaLink="true">http://localhost:4000/martech/2024/sfmc-query-journey-analytics</guid>
+                <link>http://localhost:4000/2024/sfmc-query-journey-analytics</link>
+                <guid isPermaLink="true">http://localhost:4000/2024/sfmc-query-journey-analytics</guid>
                 <dc:creator>
                     <![CDATA[ Brandon Caples ]]>
                 </dc:creator>
@@ -79,8 +79,8 @@
                 <description>
                     <![CDATA[ With its Web Analytics Connector, Marketing Cloud offers a powerful tool to gain deeper insights into customer interactions. ]]>
                 </description>
-                <link>http://localhost:4000/martech/2024/sfmc-web-analytics-connector</link>
-                <guid isPermaLink="true">http://localhost:4000/martech/2024/sfmc-web-analytics-connector</guid>
+                <link>http://localhost:4000/2024/sfmc-web-analytics-connector</link>
+                <guid isPermaLink="true">http://localhost:4000/2024/sfmc-web-analytics-connector</guid>
                 <dc:creator>
                     <![CDATA[ Brandon Caples ]]>
                 </dc:creator>
@@ -93,10 +93,10 @@
                     <![CDATA[ How to query Salesforce Marketing Cloud subscribers who opened a specific email ]]>
                 </title>
                 <description>
-                    <![CDATA[ You can use SQL to query a database to identify email subscribers who opened a specific email campaign. ]]>
+                    <![CDATA[ With Marketing Cloud, you can use SQL to query a database to identify email subscribers who opened a specific email campaign. ]]>
                 </description>
-                <link>http://localhost:4000/martech/2024/how-to-query-subscribers-who-opened-sfmc-email</link>
-                <guid isPermaLink="true">http://localhost:4000/martech/2024/how-to-query-subscribers-who-opened-sfmc-email</guid>
+                <link>http://localhost:4000/2024/how-to-query-subscribers-who-opened-sfmc-email</link>
+                <guid isPermaLink="true">http://localhost:4000/2024/how-to-query-subscribers-who-opened-sfmc-email</guid>
                 <dc:creator>
                     <![CDATA[ Brandon Caples ]]>
                 </dc:creator>
@@ -111,8 +111,8 @@
                 <description>
                     <![CDATA[ Uncovering your organizational purpose is an ongoing process, but these five questions can help. ]]>
                 </description>
-                <link>http://localhost:4000/martech/2023/organizational-purpose</link>
-                <guid isPermaLink="true">http://localhost:4000/martech/2023/organizational-purpose</guid>
+                <link>http://localhost:4000/2023/organizational-purpose</link>
+                <guid isPermaLink="true">http://localhost:4000/2023/organizational-purpose</guid>
                 <dc:creator>
                     <![CDATA[ Brandon Caples ]]>
                 </dc:creator>
@@ -127,8 +127,8 @@
                 <description>
                     <![CDATA[ By using a combination of HTML and CSS tricks, you can make sure your buttons are always ready to help you convert more subscribers into customers. ]]>
                 </description>
-                <link>http://localhost:4000/martech/2023/bulletproof-html-email-buttons</link>
-                <guid isPermaLink="true">http://localhost:4000/martech/2023/bulletproof-html-email-buttons</guid>
+                <link>http://localhost:4000/2023/bulletproof-html-email-buttons</link>
+                <guid isPermaLink="true">http://localhost:4000/2023/bulletproof-html-email-buttons</guid>
                 <dc:creator>
                     <![CDATA[ Brandon Caples ]]>
                 </dc:creator>
@@ -143,8 +143,8 @@
                 <description>
                     <![CDATA[ Section 508 is a U.S. federal law that requires all electronic and information technology (EIT) developed, procured, maintained, or used by the federal government to be accessible to people with disabilities. ]]>
                 </description>
-                <link>http://localhost:4000/martech/2023/section-508-email-compliance</link>
-                <guid isPermaLink="true">http://localhost:4000/martech/2023/section-508-email-compliance</guid>
+                <link>http://localhost:4000/2023/section-508-email-compliance</link>
+                <guid isPermaLink="true">http://localhost:4000/2023/section-508-email-compliance</guid>
                 <dc:creator>
                     <![CDATA[ Brandon Caples ]]>
                 </dc:creator>
@@ -159,8 +159,8 @@
                 <description>
                     <![CDATA[ Google Analytics 4 user properties are customizable attributes that describe groups of your users, such as their language preferences, geographic locations, or subscription status. ]]>
                 </description>
-                <link>http://localhost:4000/martech/2023/ga4-user-properties</link>
-                <guid isPermaLink="true">http://localhost:4000/martech/2023/ga4-user-properties</guid>
+                <link>http://localhost:4000/2023/ga4-user-properties</link>
+                <guid isPermaLink="true">http://localhost:4000/2023/ga4-user-properties</guid>
                 <dc:creator>
                     <![CDATA[ Brandon Caples ]]>
                 </dc:creator>
@@ -175,8 +175,8 @@
                 <description>
                     <![CDATA[ UTM parameters are snippets of text that can be added to the end of a URL to track the effectiveness of online marketing campaigns. ]]>
                 </description>
-                <link>http://localhost:4000/martech/2023/utm-parameters</link>
-                <guid isPermaLink="true">http://localhost:4000/martech/2023/utm-parameters</guid>
+                <link>http://localhost:4000/2023/utm-parameters</link>
+                <guid isPermaLink="true">http://localhost:4000/2023/utm-parameters</guid>
                 <dc:creator>
                     <![CDATA[ Brandon Caples ]]>
                 </dc:creator>
@@ -191,8 +191,8 @@
                 <description>
                     <![CDATA[ A well-planned campaign strategy is the difference between attracting new customers and losing ground to the competition. ]]>
                 </description>
-                <link>http://localhost:4000/martech/2023/how-to-develop-marketing-campaign</link>
-                <guid isPermaLink="true">http://localhost:4000/martech/2023/how-to-develop-marketing-campaign</guid>
+                <link>http://localhost:4000/2023/how-to-develop-marketing-campaign</link>
+                <guid isPermaLink="true">http://localhost:4000/2023/how-to-develop-marketing-campaign</guid>
                 <dc:creator>
                     <![CDATA[ Brandon Caples ]]>
                 </dc:creator>
@@ -207,8 +207,8 @@
                 <description>
                     <![CDATA[ For years, UA has been the go-to tool for tracking website data. However, GA4 has emerged as the next generation of Google Analytics. ]]>
                 </description>
-                <link>http://localhost:4000/martech/2023/google-analytics-4</link>
-                <guid isPermaLink="true">http://localhost:4000/martech/2023/google-analytics-4</guid>
+                <link>http://localhost:4000/2023/google-analytics-4</link>
+                <guid isPermaLink="true">http://localhost:4000/2023/google-analytics-4</guid>
                 <dc:creator>
                     <![CDATA[ Brandon Caples ]]>
                 </dc:creator>
@@ -221,7 +221,7 @@
                     <![CDATA[ IP address warming ]]>
                 </title>
                 <description>
-                    <![CDATA[ IP warming is like introducing yourself gradually to ESPs, building trust by sending out a few emails at first and then steadily increasing volume over time. ]]>
+                    <![CDATA[ IP warming is like introducing your emails gradually to ESPs, building trust by sending out a few messages at first and then steadily increasing volume over time. ]]>
                 </description>
                 <link>http://localhost:4000/martech/2023/ip-address-warming</link>
                 <guid isPermaLink="true">http://localhost:4000/martech/2023/ip-address-warming</guid>
@@ -239,8 +239,8 @@
                 <description>
                     <![CDATA[ There are several date functions that we can use to query results and manipulate data. ]]>
                 </description>
-                <link>http://localhost:4000/martech/2023/sql-dates</link>
-                <guid isPermaLink="true">http://localhost:4000/martech/2023/sql-dates</guid>
+                <link>http://localhost:4000/2023/sql-dates</link>
+                <guid isPermaLink="true">http://localhost:4000/2023/sql-dates</guid>
                 <dc:creator>
                     <![CDATA[ Brandon Caples ]]>
                 </dc:creator>
@@ -255,8 +255,8 @@
                 <description>
                     <![CDATA[ SQL is used to store, retrieve, and manipulate data in databases. ]]>
                 </description>
-                <link>http://localhost:4000/martech/2023/sql-intro</link>
-                <guid isPermaLink="true">http://localhost:4000/martech/2023/sql-intro</guid>
+                <link>http://localhost:4000/2023/sql-intro</link>
+                <guid isPermaLink="true">http://localhost:4000/2023/sql-intro</guid>
                 <dc:creator>
                     <![CDATA[ Brandon Caples ]]>
                 </dc:creator>
@@ -271,8 +271,8 @@
                 <description>
                     <![CDATA[ Google services require a Google account, but it doesn't have to be with Gmail. Let's learn how to create a Google account without Gmail. ]]>
                 </description>
-                <link>http://localhost:4000/martech/2022/how-to-create-a-google-account-without-gmail</link>
-                <guid isPermaLink="true">http://localhost:4000/martech/2022/how-to-create-a-google-account-without-gmail</guid>
+                <link>http://localhost:4000/2022/how-to-create-a-google-account-without-gmail</link>
+                <guid isPermaLink="true">http://localhost:4000/2022/how-to-create-a-google-account-without-gmail</guid>
                 <dc:creator>
                     <![CDATA[ Brandon Caples ]]>
                 </dc:creator>
@@ -287,8 +287,8 @@
                 <description>
                     <![CDATA[ Don't worry; .DS_Store is harmless. But let's remove it and prevent it from showing up again. ]]>
                 </description>
-                <link>http://localhost:4000/martech/2022/git-remove-ds-store</link>
-                <guid isPermaLink="true">http://localhost:4000/martech/2022/git-remove-ds-store</guid>
+                <link>http://localhost:4000/2022/git-remove-ds-store</link>
+                <guid isPermaLink="true">http://localhost:4000/2022/git-remove-ds-store</guid>
                 <dc:creator>
                     <![CDATA[ Brandon Caples ]]>
                 </dc:creator>
@@ -303,8 +303,8 @@
                 <description>
                     <![CDATA[ CSS. Developers tend to either love it or hate it. Well, here’s a reason to love it: CSS counters. ]]>
                 </description>
-                <link>http://localhost:4000/martech/2021/using-css-counters</link>
-                <guid isPermaLink="true">http://localhost:4000/martech/2021/using-css-counters</guid>
+                <link>http://localhost:4000/2021/using-css-counters</link>
+                <guid isPermaLink="true">http://localhost:4000/2021/using-css-counters</guid>
                 <dc:creator>
                     <![CDATA[ Brandon Caples ]]>
                 </dc:creator>
@@ -319,8 +319,8 @@
                 <description>
                     <![CDATA[ Cosmic latte may not be the flashiest color, but wouldn’t it be neat to use the average color of the universe in your next project? ]]>
                 </description>
-                <link>http://localhost:4000/martech/2021/average-color-universe</link>
-                <guid isPermaLink="true">http://localhost:4000/martech/2021/average-color-universe</guid>
+                <link>http://localhost:4000/2021/average-color-universe</link>
+                <guid isPermaLink="true">http://localhost:4000/2021/average-color-universe</guid>
                 <dc:creator>
                     <![CDATA[ Brandon Caples ]]>
                 </dc:creator>
@@ -335,8 +335,8 @@
                 <description>
                     <![CDATA[ Not everyone can afford to hire an SEO agency, so it’s helpful to have SEO terms explained in plain English. ]]>
                 </description>
-                <link>http://localhost:4000/martech/2020/seo-terms-explained</link>
-                <guid isPermaLink="true">http://localhost:4000/martech/2020/seo-terms-explained</guid>
+                <link>http://localhost:4000/2020/seo-terms-explained</link>
+                <guid isPermaLink="true">http://localhost:4000/2020/seo-terms-explained</guid>
                 <dc:creator>
                     <![CDATA[ Brandon Caples ]]>
                 </dc:creator>
@@ -351,8 +351,8 @@
                 <description>
                     <![CDATA[ Today, we’re going to learn how to draw a heart in Inkscape. Inkscape is a free vector graphics editor, similar to Adobe Illustrator. ]]>
                 </description>
-                <link>http://localhost:4000/martech/2019/inkscape-heart</link>
-                <guid isPermaLink="true">http://localhost:4000/martech/2019/inkscape-heart</guid>
+                <link>http://localhost:4000/2019/inkscape-heart</link>
+                <guid isPermaLink="true">http://localhost:4000/2019/inkscape-heart</guid>
                 <dc:creator>
                     <![CDATA[ Brandon Caples ]]>
                 </dc:creator>
@@ -367,8 +367,8 @@
                 <description>
                     <![CDATA[ One of the most affordable and effective tools is a well-crafted website and knowledge of search engine optimization (SEO). ]]>
                 </description>
-                <link>http://localhost:4000/martech/2018/what-is-seo</link>
-                <guid isPermaLink="true">http://localhost:4000/martech/2018/what-is-seo</guid>
+                <link>http://localhost:4000/2018/what-is-seo</link>
+                <guid isPermaLink="true">http://localhost:4000/2018/what-is-seo</guid>
                 <dc:creator>
                     <![CDATA[ Brandon Caples ]]>
                 </dc:creator>
@@ -383,8 +383,8 @@
                 <description>
                     <![CDATA[ Safari and Chrome (iOS) have a default behavior that rotates an image according to its EXIF data. ]]>
                 </description>
-                <link>http://localhost:4000/martech/2018/fix-sideways-images</link>
-                <guid isPermaLink="true">http://localhost:4000/martech/2018/fix-sideways-images</guid>
+                <link>http://localhost:4000/2018/fix-sideways-images</link>
+                <guid isPermaLink="true">http://localhost:4000/2018/fix-sideways-images</guid>
                 <dc:creator>
                     <![CDATA[ Brandon Caples ]]>
                 </dc:creator>
@@ -399,8 +399,8 @@
                 <description>
                     <![CDATA[ Because of a deprecation to Rspec in Ruby on Rails 5, parameters must now be placed inside a params hash. ]]>
                 </description>
-                <link>http://localhost:4000/martech/2017/rails-5-rspec-parameters</link>
-                <guid isPermaLink="true">http://localhost:4000/martech/2017/rails-5-rspec-parameters</guid>
+                <link>http://localhost:4000/2017/rails-5-rspec-parameters</link>
+                <guid isPermaLink="true">http://localhost:4000/2017/rails-5-rspec-parameters</guid>
                 <dc:creator>
                     <![CDATA[ Brandon Caples ]]>
                 </dc:creator>
@@ -415,8 +415,8 @@
                 <description>
                     <![CDATA[ Angular has some nuances that can cause some trouble for beginners learning the framework, like the difference between ng-click and ng-submit. ]]>
                 </description>
-                <link>http://localhost:4000/martech/2017/ngclick-vs-ngsubmit</link>
-                <guid isPermaLink="true">http://localhost:4000/martech/2017/ngclick-vs-ngsubmit</guid>
+                <link>http://localhost:4000/2017/ngclick-vs-ngsubmit</link>
+                <guid isPermaLink="true">http://localhost:4000/2017/ngclick-vs-ngsubmit</guid>
                 <dc:creator>
                     <![CDATA[ Brandon Caples ]]>
                 </dc:creator>
@@ -431,8 +431,8 @@
                 <description>
                     <![CDATA[ I spent the first few months of my marriage nearly code-free. We made plans, hiked a lot, and traveled some. ]]>
                 </description>
-                <link>http://localhost:4000/martech/2017/im-studying-web-development-because-of-my-wife</link>
-                <guid isPermaLink="true">http://localhost:4000/martech/2017/im-studying-web-development-because-of-my-wife</guid>
+                <link>http://localhost:4000/2017/im-studying-web-development-because-of-my-wife</link>
+                <guid isPermaLink="true">http://localhost:4000/2017/im-studying-web-development-because-of-my-wife</guid>
                 <dc:creator>
                     <![CDATA[ Brandon Caples ]]>
                 </dc:creator>
@@ -447,8 +447,8 @@
                 <description>
                     <![CDATA[ Web development is challenging; that’s part of what makes it fun. ]]>
                 </description>
-                <link>http://localhost:4000/martech/2017/three-challenges-learning-to-code</link>
-                <guid isPermaLink="true">http://localhost:4000/martech/2017/three-challenges-learning-to-code</guid>
+                <link>http://localhost:4000/2017/three-challenges-learning-to-code</link>
+                <guid isPermaLink="true">http://localhost:4000/2017/three-challenges-learning-to-code</guid>
                 <dc:creator>
                     <![CDATA[ Brandon Caples ]]>
                 </dc:creator>
@@ -463,8 +463,8 @@
                 <description>
                     <![CDATA[ Every web developer knows that Internet Explorer (IE) does things differently than other browsers. ]]>
                 </description>
-                <link>http://localhost:4000/martech/2017/love-hate-relationship-internet-explorer</link>
-                <guid isPermaLink="true">http://localhost:4000/martech/2017/love-hate-relationship-internet-explorer</guid>
+                <link>http://localhost:4000/2017/love-hate-relationship-internet-explorer</link>
+                <guid isPermaLink="true">http://localhost:4000/2017/love-hate-relationship-internet-explorer</guid>
                 <dc:creator>
                     <![CDATA[ Brandon Caples ]]>
                 </dc:creator>

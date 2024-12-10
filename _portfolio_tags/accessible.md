@@ -3,6 +3,7 @@ layout: portfolio_tag_single
 title: "Accessibility"
 tag: accessible
 formatted_tag: accessible
+description: "With a growing emphasis on inclusivity, it's essential to design emails that can be easily navigated and understood by everyone, including those with visual, auditory, and cognitive disabilities."
 permalink: /portfolio/tags/accessible/
 ---
 

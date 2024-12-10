@@ -13,6 +13,7 @@ category: Faith
 bible_books: ["Mark", "1 Corinthians"]
 tags: ["discipleship"]
 featured: false
+permalink: /2024/paradox-of-the-cross
 published: true
 ---
 

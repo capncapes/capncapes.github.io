@@ -16,7 +16,8 @@ featured_image: {
   title: "Evangelism and the Sovereignty of God",
   alt: "Evangelism and the Sovereignty of God, by J. I. Packer"
 }
-tags: ["Christian"]
+tags: ["Christian", "theology"]
+permalink: /book-reviews/evangelism-sovereignty-of-god
 published: true
 ---
 

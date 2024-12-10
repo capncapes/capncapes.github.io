@@ -16,7 +16,8 @@ featured_image: {
   title: "Gentle and Lowly, by Dane Ortlund",
   alt: "Gentle and Lowly: The Heart of Christ for Sinners and Sufferers"
 }
-tags: "Christian"
+tags: ["Christian", "nonfiction", "Christology"]
+permalink: /book-reviews/gentle-and-lowly
 published: true
 ---
 

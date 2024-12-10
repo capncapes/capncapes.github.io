@@ -3,6 +3,7 @@ layout: portfolio_tag_single
 title: "Responsiveness"
 tag: responsive
 formatted_tag: responsive
+description: "Responsiveness is a critical component of email marketing. Mobile users expect to see their emails formatted to their devices."
 permalink: /portfolio/tags/responsive/
 ---
 

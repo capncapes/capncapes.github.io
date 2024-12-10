@@ -16,7 +16,8 @@ featured_image: {
   title: "Hope for All the Earth: Understanding the Story of the Old Testament",
   alt: "Hope for All the Earth, by Mitchell L. Chase"
 }
-tags: ["Christian", "theology", "Old Testament", "Christology"]
+tags: ["Christian", "theology", "Old Testament", "Christology", "nonfiction"]
+permalink: /book-reviews/hope-for-all-the-earth
 published: true
 ---
 

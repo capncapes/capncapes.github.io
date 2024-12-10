@@ -46,6 +46,7 @@ howto: {
 	]
 }
 featured: true
+permalink: /2023/how-to-develop-marketing-campaign
 published: true
 ---
 
