@@ -7,7 +7,7 @@
 
 			for (var i = 0; i < results.length; i++) {
 				var item = store[results[i].ref];
-				console.log(item);
+				console.log(item.author);
 
 				var typeIcon = '';
 				if (item.type === 'Faith Blog Post') {
@@ -29,7 +29,7 @@
 				}
 
 				appendString += '<li data-type="' + slugify(item.type) + '"><a href="' + item.url + '"><h3 class="mt-0 mb-2 mx-0 text-lg md:text-xl">' + item.title;
-				item.type == 'Book Review' ? appendString += '<span>, by ' + item.author + '</span></h3></a>' : appendString += '</h3></a>'
+				item.type == 'Book Review' ? appendString += '<span>, by ' + stringify(item.author) + '</span></h3></a>' : appendString += '</h3></a>'
 				appendString += '<div class="splendid-flex mb-0 flex-row justify-start items-center">';
 				appendString += '<a href="' + item.url + '" class="mb-0">' + typeIcon + '</a>';
 				appendString += '<small class="m-0 ml-2 text-xs uppercase">' + item.type + '</small></div>';
@@ -44,6 +44,23 @@
 		setTimeout(() => {
 			searchResults.classList.add('visible');
 		}, 100);
+	}
+
+	function stringify(value) {
+		if (Array.isArray(value)) {
+			const length = value.length;
+			if (length === 1) {
+				return value[0];
+			} else if (length === 2) {
+				return `${value[0]} and ${value[1]}`;
+			} else {
+				const allButLast = value.slice(0, -1).join(', ');
+				const last = value[length - 1];
+				return `${allButLast}, and ${last}`;
+			}
+		} else {
+			return value;
+		}
 	}
 
 	function getQueryVariable(variable) {

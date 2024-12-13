@@ -61,7 +61,7 @@ permalink: /search/
 			{% unless first_item %}, {% endunless %}
 			"{{ review.url | slugify }}": {
 				"title": "{{ review.book.title | xml_escape }}",
-				"author": "{{ review.book.author | xml_escape }}",
+				"author": {{ review.book.author | jsonify }},
 				"description": {{ review.description | strip_html | strip_newlines | jsonify }},
 				"img": "{{ review.featured_image.src }}",
 				"img_alt": "{{ review.featured_image.alt }}",

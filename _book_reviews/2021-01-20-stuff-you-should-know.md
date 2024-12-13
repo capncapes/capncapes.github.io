@@ -9,7 +9,7 @@ book: {
   publisher: "Flatiron Books",
   author: ["Josh Clark", "Chuck Bryant"]
 }
-description: "Josh Clark and Chuck Bryant are both excellent writers, and they have a knack for making complex topics accessible and entertaining."
+description: "Josh Clark and Chuck Bryant, hosts of the popuar “Stuff You Should Know” podcast, are both excellent writers, and they have a knack for making complex topics accessible and entertaining."
 featured_image: {
   src: "sysk-book.webp",
   fallback: "sysk-book.jpeg",
