@@ -346,31 +346,7 @@
     
     
       <url>
-        <loc>http://localhost:4000/</loc>
-        
-      </url>
-    
-  
-    
-    
-      <url>
-        <loc>http://localhost:4000/portfolio/tags/</loc>
-        
-      </url>
-    
-  
-    
-    
-      <url>
-        <loc>http://localhost:4000/martech/2</loc>
-        
-      </url>
-    
-  
-    
-    
-      <url>
-        <loc>http://localhost:4000/faith</loc>
+        <loc>http://localhost:4000/faith/</loc>
         
           <lastmod>2022-10-28T11:52:11-04:00</lastmod>
         
@@ -380,7 +356,23 @@
     
     
       <url>
-        <loc>http://localhost:4000/martech</loc>
+        <loc>http://localhost:4000/martech/2/</loc>
+        
+      </url>
+    
+  
+    
+    
+      <url>
+        <loc>http://localhost:4000/</loc>
+        
+      </url>
+    
+  
+    
+    
+      <url>
+        <loc>http://localhost:4000/martech/</loc>
         
       </url>
     
@@ -404,6 +396,14 @@
     
     
       <url>
+        <loc>http://localhost:4000/portfolio/tags/</loc>
+        
+      </url>
+    
+  
+    
+    
+      <url>
         <loc>http://localhost:4000/portfolio/web/</loc>
         
       </url>
@@ -412,7 +412,7 @@
     
     
       <url>
-        <loc>http://localhost:4000/book-reviews</loc>
+        <loc>http://localhost:4000/book-reviews/</loc>
         
           <lastmod>2022-10-21T08:40:58-04:00</lastmod>
         
@@ -422,7 +422,7 @@
     
     
       <url>
-        <loc>http://localhost:4000/book-reviews/2</loc>
+        <loc>http://localhost:4000/book-reviews/2/</loc>
         
           <lastmod>2023-10-14T07:41:50-04:00</lastmod>
         
@@ -432,7 +432,7 @@
     
     
       <url>
-        <loc>http://localhost:4000/book-reviews/3</loc>
+        <loc>http://localhost:4000/book-reviews/3/</loc>
         
           <lastmod>2023-10-14T07:41:50-04:00</lastmod>
         
@@ -696,6 +696,14 @@
   
     
     
+      <url>
+        <loc>http://localhost:4000/senior-email-developer/</loc>
+        
+      </url>
+    
+  
+    
+    
   
     
     
@@ -756,6 +764,15 @@
     
     
   
+  
+    
+      <url>
+        <loc>http://localhost:4000/2025/sfmc-update-email-in-running-journey</loc>
+        
+          <lastmod>2025-08-19T07:01:11-04:00</lastmod>
+        
+      </url>
+    
   
     
       <url>

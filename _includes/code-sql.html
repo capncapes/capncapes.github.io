@@ -1,0 +1,23 @@
+{% highlight sql %}
+SELECT
+	t.TransactionID,
+	c.CustomerID,
+	c.FullName AS CustomerName,
+	c.Email AS CustomerEmail,
+	p.ProductID,
+	p.ProductName,
+	p.Category AS ProductCategory,
+	t.TransactionDate,
+	t.Quantity,
+	t.UnitPrice,
+	(t.Quantity * t.UnitPrice) AS TotalAmount,
+	TransactionStatus
+FROM Transactions AS t
+	INNER JOIN Customers c ON t.CustomerID = c.CustomerID
+	INNER JOIN Products p ON t.ProductID = p.ProductID
+WHERE t.TransactionDate BETWEEN '2024-01-01' AND '2024-12-31'
+	AND t.Status IN ('completed', 'pending')
+ORDER BY
+	t.TransactionDate DESC,
+	TotalAmount DESC
+{% endhighlight %}

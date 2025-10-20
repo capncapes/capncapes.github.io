@@ -34,6 +34,7 @@ TABLE OF CONTENTS
 .justify-between { -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; }
 .justify-around { -ms-flex-pack: distribute; justify-content: space-around; }
 .justify-evenly { -webkit-box-pack: space-evenly; -ms-flex-pack: space-evenly; justify-content: space-evenly; }
+.justify-stretch { -webkit-box-pack: stretch; -ms-flex-pack: stretch; justify-content: stretch; }
 
 /* ===================================
     1.3	Secondary Axis Layout

@@ -17,6 +17,42 @@
 	fill: #121212;
 }
 
+.socials svg {
+	display: inline;
+	margin-left: 0;
+	margin-right: 0;
+	width: 18px;
+	fill: #121212;
+}
+
 footer .socials svg {
 	fill: #F8F9FA;
 }
+
+svg .fill-none { fill: none; }
+svg .fill-red { fill: #F05454; }
+svg .fill-green { fill: #2CA096; }
+svg .fill-blue { fill: #30475E; }
+svg .fill-yellow { fill: #FFC857; }
+svg .fill-orange { fill: #FF6F59; }
+svg .fill-plum { fill: #3E2C41; }
+svg .fill-stone { fill: #EDEDE2; }
+svg .fill-sand { fill: #DEDECA; }
+svg .fill-taupe { fill: #B5A78E; }
+svg .fill-gray { fill: #6B7A8F; }
+svg .fill-black { fill: #121212; }
+svg .fill-white { fill: #F8F9FA; }
+
+svg .stroke-none { stroke: none; }
+svg .stroke-red { stroke: #F05454; }
+svg .stroke-green { stroke: #2CA096; }
+svg .stroke-blue { stroke: #30475E; }
+svg .stroke-yellow { stroke: #FFC857; }
+svg .stroke-orange { stroke: #FF6F59; }
+svg .stroke-plum { stroke: #3E2C41; }
+svg .stroke-stone { stroke: #EDEDE2; }
+svg .stroke-sand { stroke: #DEDECA; }
+svg .stroke-taupe { stroke: #B5A78E; }
+svg .stroke-gray { stroke: #6B7A8F; }
+svg .stroke-black { stroke: #121212; }
+svg .stroke-white { stroke: #F8F9FA; }

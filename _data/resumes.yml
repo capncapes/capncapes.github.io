@@ -1,0 +1,49 @@
+- title: "Digital Marketer Résumé"
+  description: "I’m a self-motivated digital marketing professional with 10 years of experience working collaboratively and individually to move projects into production. I have personal experience with many marketing channels and concentrations, as well as a career working with a diverse set of products and services."
+  file: "#"
+
+- title: "Senior Email Developer"
+  description: "5+ years of expertise designing engaging email campaigns that deliver results"
+  file: "#"
+  tags:
+    - "Email Development":
+      - HTML/CSS
+      - accessibility
+      - AMPscript
+      - MJML
+      - VML
+      - Photoshop
+      - Dreamweaver
+      - Git
+      - responsiveness
+    - "Email Marketing":
+      - design and development
+      - campaign strategy
+      - segmentation
+      - copywriting
+      - Salesforce Marketing Cloud
+      - ActiveCampaign
+      - automation
+      - customer journeys
+      - Luminate Online
+    - "Analytics & Data":
+      - MS Excel
+      - Google Analytics
+      - SQL/SOQL
+      - Google Tag Manager
+      - descriptive analytics
+    - "Frontend Web Development":
+      - HTML/CSS
+      - Bootstrap
+      - Tailwind CSS
+      - JavaScript
+      - Timber/Twig
+      - Ruby & Ruby on Rails
+      - Liquid
+      - WordPress
+      - Shopify
+      - SVG animation
+
+- title: "Data Analyst Résumé"
+  description: "Comprehensive resume for general applications."
+  file: "#"

@@ -17,12 +17,28 @@
         </image>
         <generator>https://brandoncaples.com</generator>
         
-            <lastBuildDate>Mon, 23 Sep 2024 21:29:10 -0400</lastBuildDate>
+            <lastBuildDate>Tue, 19 Aug 2025 07:01:11 -0400</lastBuildDate>
         
         <atom:link href="https://brandoncaples.com/martech/feed.xml" rel="self" type="application/rss+xml"/>
         <language>
             <![CDATA[ en ]]>
         </language>
+        
+            <item>
+                <title>
+                    <![CDATA[ How to update an email in a running journey, Salesforce Marketing Cloud (SFMC) ]]>
+                </title>
+                <description>
+                    <![CDATA[ Change the content of a Journey Builder email without stopping the journey. ]]>
+                </description>
+                <link>http://localhost:4000/2025/sfmc-update-email-in-running-journey</link>
+                <guid isPermaLink="true">http://localhost:4000/2025/sfmc-update-email-in-running-journey</guid>
+                <dc:creator>
+                    <![CDATA[ Brandon Caples ]]>
+                </dc:creator>
+                <pubDate>Tue, 19 Aug 2025 07:01:11 -0400</pubDate>
+                
+            </item>
         
             <item>
                 <title>

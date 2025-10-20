@@ -1,4 +1,45 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-12-14T23:56:26-05:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">capncapes.github.io</title><subtitle>A blog site built with Jekyll consisting of two blogs, a feed of book reviews, and other content pages.</subtitle><author><name>Brandon Caples</name><email>brandon.caples@gmail.com</email></author><entry><title type="html">Email accessibility</title><link href="http://localhost:4000/2024/email-accessibility" rel="alternate" type="text/html" title="Email accessibility" /><published>2024-09-23T21:29:10-04:00</published><updated>2024-09-23T21:29:10-04:00</updated><id>http://localhost:4000/2024/email-accessibility</id><content type="html" xml:base="http://localhost:4000/2024/email-accessibility">&lt;p&gt;In today’s digital world, email is a critical communication tool for reaching your audience. To ensure everyone can engage with your content, including those with disabilities, it’s essential to incorporate accessibility best practices into your email development. &lt;a href=&quot;https://www.a11yproject.com/&quot;&gt;Accessibility&lt;/a&gt; ensures that users of all abilities, including those using assistive technologies, can access and understand your message. Here are key areas to focus on when making emails accessible.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2025-10-20T12:17:42-04:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">capncapes.github.io</title><subtitle>A blog site built with Jekyll consisting of two blogs, a feed of book reviews, and other content pages.</subtitle><author><name>Brandon Caples</name><email>brandon.caples@gmail.com</email></author><entry><title type="html">How to update an email in a running journey, Salesforce Marketing Cloud (SFMC)</title><link href="http://localhost:4000/2025/sfmc-update-email-in-running-journey" rel="alternate" type="text/html" title="How to update an email in a running journey, Salesforce Marketing Cloud (SFMC)" /><published>2025-08-19T07:01:11-04:00</published><updated>2025-08-19T07:01:11-04:00</updated><id>http://localhost:4000/2025/sfmc-update-email-in-running-journey</id><content type="html" xml:base="http://localhost:4000/2025/sfmc-update-email-in-running-journey">&lt;h2 id=&quot;what-is-journey-builder&quot;&gt;What is Journey Builder?&lt;/h2&gt;
+
+&lt;p&gt;Salesforce Marketing Cloud (SFMC) Journey Builder is a powerful tool that allows marketers to design and automate personalized customer journeys across multiple channels. It helps businesses map out the customer experience from initial contact to conversion and beyond, using real-time data and behavior triggers.&lt;/p&gt;
+
+&lt;p&gt;Key features include:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Drag-and-drop interface for building journeys visually&lt;/li&gt;
+  &lt;li&gt;Multi-channel engagement via email, SMS, push notifications, and ads&lt;/li&gt;
+  &lt;li&gt;Real-time decision splits based on customer actions or attributes&lt;/li&gt;
+  &lt;li&gt;Integration with CRM data for personalized messaging&lt;/li&gt;
+  &lt;li&gt;Analytics and reporting to track performance and optimize campaigns&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;SFMC Journey Builder empowers marketers to deliver the right message at the right time, enhancing customer engagement and driving loyalty.&lt;/p&gt;
+
+&lt;h2 id=&quot;scenario&quot;&gt;Scenario&lt;/h2&gt;
+
+&lt;p&gt;Picture this: You’ve set up a journey in Marketing Cloud’s Journey Builder for a sale launching tomorrow. The first message in the journey is an email to build excitement for the sale, and it has already started sending to the audience. The next email will send tomorrow morning and include product links and sale prices. But you’ve just learned that a few of the sale items need to change before the next email sends. The journey has already started! How can you edit the content of the next email without stopping the journey?&lt;/p&gt;
+
+&lt;p&gt;This is a common scenario for organizations. Campaigns change often, sometimes even after starting. Not to worry; Marketing Cloud can handle &lt;a href=&quot;https://help.salesforce.com/s/articleView?id=mktg.mc_jb_update_an_email_in_a_running_journey.htm&amp;amp;type=5&quot;&gt;updating an email activity in a journey&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;how-to-edit-email-content-in-a-running-journey&quot;&gt;How to edit email content in a running journey&lt;/h2&gt;
+
+&lt;p&gt;Follow these simple steps to edit a Journey Builder email (or several) in a running journey:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Go to the &lt;strong&gt;Triggered Emails&lt;/strong&gt; screen within Email Studio by hovering over the &lt;em&gt;Interactions&lt;/em&gt; tab and selecting &lt;em&gt;Triggered Emails&lt;/em&gt;.&lt;/li&gt;
+  &lt;li&gt;Open the &lt;em&gt;Journey Builder Sends&lt;/em&gt; folder in the left pane and find the appropriate journey and journey version. Click on the journey version that you need to edit.&lt;/li&gt;
+  &lt;li&gt;Select the appropriate email by checking the box next to it.&lt;/li&gt;
+  &lt;li&gt;With the box checked, click the &lt;strong&gt;Pause&lt;/strong&gt; button.&lt;/li&gt;
+  &lt;li&gt;Make any necessary edits to the email within Email Studio. (Make sure you’re editing the email that’s been added to the journey.)&lt;/li&gt;
+  &lt;li&gt;On the &lt;strong&gt;Triggered Emails&lt;/strong&gt; screen, ensure that the email is still checked (or check it again) and click the &lt;strong&gt;Publish Changes&lt;/strong&gt; button.&lt;/li&gt;
+  &lt;li&gt;After seeing the success message, check the box again and click the &lt;strong&gt;Start/Restart&lt;/strong&gt; button.&lt;/li&gt;
+  &lt;li&gt;Confirm the changes by selecting the email within Journey Builder, choosing &lt;em&gt;Activity Summary&lt;/em&gt;, and clicking the &lt;strong&gt;Preview &amp;amp; Test&lt;/strong&gt; button.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;That’s it! The email is now updated.&lt;/p&gt;
+
+&lt;p&gt;Be sure to wait for the success message after each action on the &lt;strong&gt;Triggered Emails&lt;/strong&gt; screen. They can take a few seconds to appear.&lt;/p&gt;
+
+&lt;p&gt;You can confirm that your changes were applied by viewing the &lt;em&gt;Activity Summary&lt;/em&gt; and previewing the email, which should now show your recent changes.&lt;/p&gt;</content><author><name>Brandon Caples</name><email>brandon.caples@gmail.com</email></author><category term="MarTech" /><category term="Salesforce Marketing Cloud" /><category term="email" /><summary type="html">What is Journey Builder?</summary></entry><entry><title type="html">Email accessibility</title><link href="http://localhost:4000/2024/email-accessibility" rel="alternate" type="text/html" title="Email accessibility" /><published>2024-09-23T21:29:10-04:00</published><updated>2024-09-23T21:29:10-04:00</updated><id>http://localhost:4000/2024/email-accessibility</id><content type="html" xml:base="http://localhost:4000/2024/email-accessibility">&lt;p&gt;In today’s digital world, email is a critical communication tool for reaching your audience. To ensure everyone can engage with your content, including those with disabilities, it’s essential to incorporate accessibility best practices into your email development. &lt;a href=&quot;https://www.a11yproject.com/&quot;&gt;Accessibility&lt;/a&gt; ensures that users of all abilities, including those using assistive technologies, can access and understand your message. Here are key areas to focus on when making emails accessible.&lt;/p&gt;
 
 &lt;h2 id=&quot;image-alt-text&quot;&gt;Image alt text&lt;/h2&gt;
 
@@ -685,28 +726,4 @@ or withheld his love from me!&lt;/p&gt;
 
 &lt;p&gt;Following Jesus is not about self-promotion or earthly comfort. It’s about embracing a transformative journey, stepping outside our comfort zones, and living with the hope of something far greater than ourselves. It’s about a daily dance with the paradox: the death of self that births new life, the embrace of weakness that unleashes true strength, the acceptance of suffering that leads to ultimate victory.&lt;/p&gt;
 
-&lt;p&gt;So, the next time you find yourself struggling with the challenges of Christian living, remember the confused disciples on dusty paths and Paul’s unwavering faith in the crucified and risen Lord. The paradox of the cross is not an easy pill to swallow, but it’s ultimately the only path to true and lasting hope.&lt;/p&gt;</content><author><name>Brandon Caples</name><email>brandon.caples@gmail.com</email></author><category term="Faith" /><category term="discipleship" /><summary type="html">Imagine Jesus, the revolutionary Rabbi, walking along dusty paths, trailed by a motley crew. His closest disciples, eager and clueless in equal measure, trip over their own ambition and misinterpret his cryptic pronouncements. In Mark’s gospel, this dynamic explodes in three key moments:</summary></entry><entry><title type="html">Discovering your organizational purpose</title><link href="http://localhost:4000/2023/organizational-purpose" rel="alternate" type="text/html" title="Discovering your organizational purpose" /><published>2023-12-20T15:15:15-05:00</published><updated>2023-12-20T15:15:15-05:00</updated><id>http://localhost:4000/2023/organizational-purpose</id><content type="html" xml:base="http://localhost:4000/2023/organizational-purpose">&lt;p&gt;Every organization, from bustling startups to established giants, needs a guiding light. This isn’t just about turning a profit; it’s about understanding the &lt;em&gt;why&lt;/em&gt; behind your existence, the &lt;em&gt;how&lt;/em&gt; that defines your character, and the &lt;em&gt;what&lt;/em&gt; that sets you apart. In short, it’s about discovering your organizational purpose.&lt;/p&gt;
-
-&lt;p&gt;Unraveling this purpose isn’t always straightforward, but it’s a journey worth taking. And there’s a roadmap to guide you to better understanding your organization and your stakeholders. With only five basic questions, you can uncover your organizational purpose.&lt;/p&gt;
-
-&lt;h2 id=&quot;why-do-we-exist&quot;&gt;Why do we exist?&lt;/h2&gt;
-
-&lt;p&gt;This is your big-picture vision. It’s the reason you were created in the first place, the impact you want to make on the world—&lt;strong&gt;your mission&lt;/strong&gt;. Is it to revolutionize healthcare? To empower communities? To inspire creativity? Whatever it is, it should be bigger than just selling a product or service.&lt;/p&gt;
-
-&lt;h2 id=&quot;how-do-we-behave&quot;&gt;How do we behave?&lt;/h2&gt;
-
-&lt;p&gt;Behaviors reflect &lt;strong&gt;values&lt;/strong&gt;. These are the guiding principles that underpin your actions. They define how you interact with stakeholders, make decisions, and navigate challenges. Are you collaborative, innovative, customer-centric? Embracing these values fosters a strong internal culture and attracts like-minded people to your cause.&lt;/p&gt;
-
-&lt;h2 id=&quot;what-do-we-do&quot;&gt;What do we do?&lt;/h2&gt;
-
-&lt;p&gt;What is it that your organization does? &lt;strong&gt;Products and services&lt;/strong&gt; are the tangible expression of your mission and values—the problems you solve, the needs you fulfill. But remember, it’s not just about what you do, but why you do it. How do your offerings align with your broader purpose?&lt;/p&gt;
-
-&lt;h2 id=&quot;how-will-we-succeed&quot;&gt;How will we succeed?&lt;/h2&gt;
-
-&lt;p&gt;Every journey needs a destination. This is your main organizational goal, the mountain you’re striving to climb. It could be achieving market leadership, exceeding customer satisfaction, or making a significant social impact. Define your success metric and keep it visible, reminding yourself and your team what you’re working towards.&lt;/p&gt;
-
-&lt;h2 id=&quot;what-is-most-important-now&quot;&gt;What is most important now?&lt;/h2&gt;
-
-&lt;p&gt;With a clear long-term goal, it’s time to break it down into actionable steps. What are the key milestones you need to achieve in the next twelve months? What projects will drive you closer to your mountain peak? This short-term focus keeps your team motivated and ensures you’re making steady progress towards your ultimate vision.&lt;/p&gt;
-
-&lt;p&gt;Remember, uncovering your organizational purpose is an ongoing process. It’s not a one-time declaration, but a living document that evolves with your organization’s growth and the changing landscape around you. By regularly revisiting these questions, you’ll stay aligned, inspired, and on track to achieving your true potential.&lt;/p&gt;</content><author><name>Brandon Caples</name><email>brandon.caples@gmail.com</email></author><category term="MarTech" /><category term="business" /><summary type="html">Every organization, from bustling startups to established giants, needs a guiding light. This isn’t just about turning a profit; it’s about understanding the why behind your existence, the how that defines your character, and the what that sets you apart. In short, it’s about discovering your organizational purpose.</summary></entry></feed>
+&lt;p&gt;So, the next time you find yourself struggling with the challenges of Christian living, remember the confused disciples on dusty paths and Paul’s unwavering faith in the crucified and risen Lord. The paradox of the cross is not an easy pill to swallow, but it’s ultimately the only path to true and lasting hope.&lt;/p&gt;</content><author><name>Brandon Caples</name><email>brandon.caples@gmail.com</email></author><category term="Faith" /><category term="discipleship" /><summary type="html">Imagine Jesus, the revolutionary Rabbi, walking along dusty paths, trailed by a motley crew. His closest disciples, eager and clueless in equal measure, trip over their own ambition and misinterpret his cryptic pronouncements. In Mark’s gospel, this dynamic explodes in three key moments:</summary></entry></feed>

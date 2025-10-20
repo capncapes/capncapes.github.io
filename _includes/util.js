@@ -14,3 +14,10 @@ function contact(e, i = "email") {
 		return decodedPhone;
 	}
 }
+
+// Update attributes of an element
+function updateAttributes(element, attributes) {
+	for (const [key, value] of Object.entries(attributes)) {
+		element.setAttribute(key, value);
+	}
+}
