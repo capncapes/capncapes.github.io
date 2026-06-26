@@ -16,7 +16,7 @@ featured: false
 
 Search engine optimization (SEO) can be very complicated, and even small changes to search engines’ algorithms can cause panic in the marketing community. There’s an entire SEO industry of professionals who spend 100% of their time optimizing websites for clients. But not everyone can afford to hire an SEO agency, so it’s helpful to have SEO terms explained in plain English for those of us who plan to get our hands dirty.
 
-If you’re asking yourself, [“What is SEO?”](2018-09-15-what-is-seo.md) check out my article answering that very question. It’s important to understand what search engine optimization is and how to use that knowledge. Essentially, it boils down to this: SEO is the practice of making strategic and technical changes to a web page in order to position it to rank on search engine results pages (SERP).
+If you’re asking yourself, <a href="https://brandoncaples.com/2018/what-is-seo">“What is SEO?”</a> check out my article answering that very question. It’s important to understand what search engine optimization is and how to use that knowledge. Essentially, it boils down to this: SEO is the practice of making strategic and technical changes to a web page in order to position it to rank on search engine results pages (SERP).
 
 ## SEO Terms Explained
 
