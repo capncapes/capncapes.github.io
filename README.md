@@ -4,7 +4,7 @@
 
 <p align="center"><img src="https://raw.githubusercontent.com/capncapes/capncapes.github.io/master/assets/img/capncapes.github.io.png" alt="project-image"></p>
 
-<p id="description">A blog site built with Jekyll consisting of two blogs a feed of book reviews and other content pages.</p>
+<p id="description">A blog site built with Jekyll consisting of two blogs, a feed of book reviews, and other content pages.</p>
 
 <h2>🚀 Live Site</h2>
 

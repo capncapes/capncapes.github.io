@@ -94,8 +94,12 @@
 	<link rel="stylesheet" type="text/css" href="/assets/styles/global/responsive/lg.css" media="screen and (min-width: 900px)">
 	<link rel="stylesheet" type="text/css" href="/assets/styles/global/responsive/xl.css" media="screen and (min-width: 1200px)">
 
+	{% if page.layout == 'resume' %}
+	<link rel="stylesheet" type="text/css" href="/assets/styles/pages/resume.css" media="all">
+	{% endif %}
+
 	{% if page.layout == 'search' %}
-	<link rel="stylesheet" type="text/css" href="/assets/styles/pages/search.css">
+	<link rel="stylesheet" type="text/css" href="/assets/styles/pages/search.css" media="all">
 	{% endif %}
 
 	<!--Favicon-->
@@ -106,6 +110,13 @@
 		<link rel="canonical" href="{{ page.canonical.url | absolute_url }}" />
 	{% else %}
 		<link rel="canonical" href="{{ page.url | absolute_url }}" />
+	{% endif %}
+
+	<!-- Robots -->
+	{% if page.robots %}
+		<meta name="robots" content="{{ page.robots }}" />
+	{% else %}
+		<meta name="robots" content="index, follow" />
 	{% endif %}
 
 	<!-- RSS -->

@@ -1,0 +1,260 @@
+{%- assign person = site.data.resume.person -%}
+{%- assign companies = site.data.resume.experience.companies -%}
+{%- assign certifications = site.data.resume.certifications -%}
+{%- assign education = site.data.resume.education -%}
+{%- assign nav = site.data.resume.nav -%}
+
+{%- comment %}
+	Flatten this page's skill tags into one array — used for JSON-LD knowsAbout and for the FAQ "what skills" answer.
+{% endcomment -%}
+{%- assign flat_skills = "" | split: "" -%}
+{%- for group in page.resume_skills -%}
+	{%- assign flat_skills = flat_skills | concat: group.tags -%}
+{%- endfor -%}
+
+{%- comment %}
+	Resolve the first company/position in this page's experience list — used for the "current role" FAQ answer and the Person schema's worksFor.
+{% endcomment -%}
+{%- assign first_vcompany = page.resume_experience | first -%}
+{%- assign first_company = companies | where: "slug", first_vcompany.company | first -%}
+{%- assign first_vposition = first_vcompany.positions | first -%}
+{%- assign first_position = first_company.positions | where: "slug", first_vposition.slug | first -%}
+
+{%- comment %}
+	Build a comma-separated list of every company on this page — used for the "where has he worked" FAQ answer.
+{% endcomment -%}
+{%- assign company_names = "" -%}
+{%- for vcompany in page.resume_experience -%}
+	{%- assign c = companies | where: "slug", vcompany.company | first -%}
+	{%- if forloop.first -%}
+		{%- assign company_names = c.company -%}
+	{%- else -%}
+		{%- assign company_names = company_names | append: ", " | append: c.company -%}
+	{%- endif -%}
+{%- endfor -%}
+
+<!DOCTYPE html>
+<html id="splendid" lang="en-US">
+	{% include head.html %}
+	<script type="application/ld+json" id="resume-json-ld">
+		{
+			"@context": "https://schema.org",
+			"@type": "Person",
+			"@id": "{{ page.canonical }}#person",
+			"name": {{ person.name | jsonify }},
+			"url": {{ person.url | jsonify }},
+			"image": {{ person.image | jsonify }},
+			"jobTitle": {{ page.resume_title | jsonify }},
+			"description": {{ page.resume_meta_description | strip | jsonify }},
+			"knowsAbout": [
+				{%- for tag in flat_skills %}{{ tag | jsonify }}{% unless forloop.last %},{% endunless %}{% endfor %}
+			],
+			"hasOccupation": {
+				"@type": "Occupation",
+				"name": {{ page.resume_title | jsonify }},
+				"description": {{ page.resume_meta_description | strip | jsonify }}
+			},
+			"mainEntityOfPage": "{{ page.canonical }}",
+			"sameAs": [
+				{{ person.profiles.linkedin | jsonify }},
+				{{ person.profiles.trailhead | jsonify }},
+				{{ person.profiles.github | jsonify }}
+			],
+			"worksFor": {
+				"@type": "Organization",
+				"name": {{ first_company.company | jsonify }}
+			},
+			"alumniOf": {
+				"@type": "CollegeOrUniversity",
+				"name": {{ education[0].institution | jsonify }}
+			},
+			"hasCredential": [
+				{%- for cert in certifications %}{
+					"@type": "EducationalOccupationalCredential",
+					"name": {{ cert.name | jsonify }},
+					"credentialCategory": "certification",
+					"recognizedBy": { "@type": "Organization", "name": {{ cert.issuer | jsonify }} },
+					"dateCreated": {{ cert.date_iso | jsonify }}
+				}{% unless forloop.last %},{% endunless %}
+				{% endfor -%}
+			]
+		}
+	</script>
+	<script type="application/ld+json">
+		{
+			"@context": "https://schema.org",
+			"@type": "BreadcrumbList",
+			"itemListElement": [
+				{ "@type": "ListItem", "position": 1, "name": "Home", "item": "https://brandoncaples.com/" },
+				{ "@type": "ListItem", "position": 2, "name": "Résumé", "item": "{{ page.canonical }}" }
+			]
+		}
+	</script>
+	<script type="application/ld+json" id="faq-json-ld">
+		{
+			"@context": "https://schema.org",
+			"@type": "FAQPage",
+			"mainEntity": [
+				{
+					"@type": "Question",
+					"name": "What does Brandon Caples do?",
+					"acceptedAnswer": { "@type": "Answer", "text": {{ page.resume_summary | strip | jsonify }} }
+				},
+				{
+					"@type": "Question",
+					"name": "What is Brandon Caples' current role?",
+					"acceptedAnswer": { "@type": "Answer", "text": "Brandon Caples currently works as a {{ page.resume_title }}, most recently serving as {{ first_position.title }} at {{ first_company.company }}." }
+				},
+				{
+					"@type": "Question",
+					"name": "What skills does Brandon Caples specialize in?",
+					"acceptedAnswer": { "@type": "Answer", "text": {{ flat_skills | join: ", " | jsonify }} }
+				},
+				{
+					"@type": "Question",
+					"name": "Where has Brandon Caples worked?",
+					"acceptedAnswer": { "@type": "Answer", "text": {{ company_names | jsonify }} }
+				}
+			]
+		}
+	</script>
+	<body id="resume">
+		{% if site.scripts.gtm %}
+			<!-- Google Tag Manager (noscript) -->
+			<noscript><iframe src="https://www.googletagmanager.com/ns.html?id={{ site.scripts.gtm }}"
+			height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+			<!-- End Google Tag Manager (noscript) -->
+		{% endif %}
+		{% include header.html %}
+		<div class="px-7 md:px-10 bg-blue">
+			<h1 class="relative max-w-5 lg:mx-26 pt-20 text-3xl lg:text-4xl font-bold text-white">{{ page.resume_title }}</h1>
+			<div class="splendid-flex max-w-5 lg:mx-26 pb-12 flex-row justify-start items-center">
+				<div class="no-print">
+					<a href="{{ page.resume_download_href }}" class="splendid-button" download>Download résumé</a>
+				</div>
+				<div class="resume__contact-info relative my-0 mx-8 lg:mx-12 pt-0 text-xs font-bold text-white">
+					<a href="{{ person.profiles.linkedin }}" target="_blank" rel="noopener" class="info-item">
+						<span class="info-icon">{% include icons/linkedin.svg %}</span>
+						<span class="sm:hidden info-text text-white">LinkedIn</span>
+					</a>
+					<a href="{{ person.profiles.trailhead }}" target="_blank" rel="noopener" class="info-item">
+						<span class="info-icon">{% include icons/trailhead.svg %}</span>
+						<span class="sm:hidden info-text text-white">Salesforce Trailhead</span>
+					</a>
+					<a href="{{ person.profiles.github }}" target="_blank" rel="noopener" class="info-item">
+						<span class="info-icon">{% include icons/github.svg %}</span>
+						<span class="sm:hidden info-text text-white">GitHub</span>
+					</a>
+				</div>
+			</div>
+		</div>
+		<main class="lg:pt-8 pb-16 px-7 md:px-10">
+			<article id="resume" class="resume-page resume--split">
+				<div class="resume__columns">
+					<div class="resume__main text-sm">
+						<section id="summary" class="resume__section" aria-labelledby="summary-heading">
+							<div class="resume__section-title">
+								<h2 id="summary-heading">Summary</h2>
+							</div>
+							<p>{{ page.resume_summary | strip }}</p>
+						</section>
+						<section id="experience" class="resume__section" aria-labelledby="experience-heading">
+							<div class="resume__section-title">
+								<h2 id="experience-heading">Experience</h2>
+							</div>
+							<div id="experience-content">
+								{% for vcompany in page.resume_experience %}
+									{% assign company = companies | where: "slug", vcompany.company | first %}
+									<div class="company">
+										<h3 class="mb-2 text-xl">{{ company.company }}</h3>
+										{% for vpos in vcompany.positions %}
+											{% assign position = company.positions | where: "slug", vpos.slug | first %}
+											<div class="position">
+												<div class="position__row">
+													<h4 class="text-base">{{ position.title }}</h4>
+													<p class="time-served">{{ position.dates }}</p>
+												</div>
+												<ul>
+													{% if vpos.bullet_ids %}
+														{% for id in vpos.bullet_ids %}
+															{% assign bullet = position.bullets | where: "id", id | first %}
+															<li>{{ bullet.text }}</li>
+														{% endfor %}
+													{% else %}
+														{% for b in position.bullets %}<li>{{ b.text }}</li>{% endfor %}
+													{% endif %}
+												</ul>
+											</div>
+										{% endfor %}
+									</div>
+								{% endfor %}
+							</div>
+						</section>
+					</div><!-- /.resume__main -->
+					<div class="resume__side">
+						<section id="skills" class="resume__section" aria-labelledby="skills-heading">
+							<div class="resume__section-title">
+								<h2 id="skills-heading">Skills</h2>
+							</div>
+							<div id="skills-content">
+								{% for group in page.resume_skills %}
+								<div class="skill">
+									<h3>{{ group.heading }}:</h3>
+									<ul>{% for tag in group.tags %}<li>{{ tag }}</li>{% endfor %}</ul>
+								</div>
+								{% endfor %}
+							</div>
+						</section>
+						<section id="certifications" class="resume__section" aria-labelledby="certifications-heading">
+							<div class="resume__section-title">
+								<h2 id="certifications-heading">Certifications</h2>
+							</div>
+							{% for cert in certifications %}
+							<div class="position">
+								<h3>{{ cert.name }}</h3>
+								<p class="time-served"><time datetime="{{ cert.date_iso }}">{{ cert.date }}</time> &nbsp;&middot;&nbsp; {{ cert.issuer }}</p>
+								{% if cert.url %}<p><a href="{{ cert.url }}" target="_blank" rel="noopener">View certification</a></p>{% endif %}
+							</div>
+							{% endfor %}
+						</section>
+						<section id="education" class="resume__section" aria-labelledby="education-heading">
+							<div class="resume__section-title">
+								<h2 id="education-heading">Education</h2>
+							</div>
+							{% for edu in education %}
+							<div class="position">
+								<h3>{{ edu.degree }}: {{ edu.field }}</h3>
+								<p>{% if edu.minor %}Minor: {{ edu.minor }} &nbsp;&middot;&nbsp; {% endif %}{{ edu.institution }} &nbsp;&middot;&nbsp; {{ edu.date }}</p>
+							</div>
+							{% endfor %}
+						</section>
+					</div><!-- /.resume__side -->
+				</div><!-- /.resume__columns -->
+				<section id="faq" class="resume__section resume__section--full" aria-labelledby="faq-heading">
+					<div class="resume__section-title">
+						<h2 id="faq-heading">Frequently Asked Questions</h2>
+					</div>
+					<div id="faq-content">
+						<div class="faq-item">
+							<h3>What does Brandon Caples do?</h3>
+							<p>{{ page.resume_summary | strip }}</p>
+						</div>
+						<div class="faq-item">
+							<h3>What is Brandon Caples' current role?</h3>
+							<p>Brandon Caples currently works as a {{ page.resume_title }}, most recently serving as {{ first_position.title }} at {{ first_company.company }}.</p>
+						</div>
+						<div class="faq-item">
+							<h3>What skills does Brandon Caples specialize in?</h3>
+							<p>{{ flat_skills | join: ", " }}</p>
+						</div>
+						<div class="faq-item">
+							<h3>Where has Brandon Caples worked?</h3>
+							<p>{{ company_names }}</p>
+						</div>
+					</div>
+				</section>
+			</article><!-- /#resume -->
+		</main>
+		{% include footer.html %}
+	</body>
+</html>

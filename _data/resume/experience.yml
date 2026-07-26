@@ -1,0 +1,148 @@
+companies:
+  - slug: precept
+    company: Precept
+    company_also: Precept Ministries International
+    dates: Dec 2019 – Jun 2026
+    positions:
+      - slug: senior-marketing-automation-specialist
+        title: Senior Marketing Automation Specialist
+        title_alt: Senior Marketing & Email Specialist
+        dates: Jun 2024 – Jun 2026
+        bullets:
+          - id: precept-sr-list-growth
+            text: Grew the email subscriber list by 35.8% by identifying list decline and recommending lead generation tactics.
+          - id: precept-sr-ctr
+            text: Increased quarterly average click rates for product emails by 13% through advanced segmentation and AI send optimization.
+          - id: precept-sr-revenue
+            text: Built email campaigns that generated $660K+ in attributed revenue over 12 months using AMPscript-driven dynamic content and SQL-based audience segmentation.
+          - id: precept-sr-platform
+            text: Led transition to new marketing platform, including requirements research, template migration, data integration, and IP warming.
+          - id: precept-sr-qa
+            text: Reduced email quality assurance (QA) issues by 39% over tenure, accelerating campaign approvals by an average of 3.1 days.
+          - id: precept-sr-segments
+            text: Designed complex audience segments to support lifecycle marketing, lead nurturing, and triggered journey campaigns.
+          - id: precept-sr-podcast
+            text: Partnered with marketing stakeholders to launch a podcast averaging 5,500 IAB downloads per month.
+          - id: precept-sr-docs
+            text: Maintained process and technical documentation to support team consistency and scalability.
+          - id: precept-sr-openrate
+            text: Increased open rates an average of 3 percentage points quarter-over-quarter through advanced segmentation, AI scheduling, and subject line A/B testing.
+          - id: precept-sr-modernize
+            text: Modernized email development processes, improving accessibility and render consistency across email clients.
+          - id: precept-sr-mentor
+            text: Cross-trained and mentored team members in HTML/CSS, email deliverability, operational processes, and CMS management.
+          - id: precept-sr-component-lib
+            text: Created a modular component library for efficiently building scalable HTML email templates.
+      - slug: digital-media-web-developer
+        title: Digital Media & Web Developer
+        dates: Dec 2019 – Jun 2024
+        bullets:
+          - id: precept-dmwd-deliverability
+            text: Improved email deliverability from a variable 94–99% range to a consistent 99.5%+ across all campaigns.
+          - id: precept-dmwd-accessibility
+            text: Produced 1,300+ responsive and accessible campaigns, consistently achieving a 100% accessibility score (Email on Acid).
+          - id: precept-dmwd-components
+            text: Developed new web components for fundraising campaigns, including countdown timers and SVG animations.
+          - id: precept-dmwd-ga4
+            text: Transitioned six <abbr title="Universal Analytics">UA</abbr> properties to <abbr title="Google Analytics 4">GA4</abbr> and unified multiple siloed accounts.
+          - id: precept-dmwd-utm
+            text: Redefined UTM tracking standards and wrote custom tracking scripts; managed web forms and submissions.
+
+  - slug: mercy-multiplied
+    company: Mercy Multiplied America
+    dates: Apr 2018 – Dec 2019
+    positions:
+      - slug: web-content-specialist
+        title: Web Content Specialist
+        dates: Apr 2018 – Dec 2019
+        bullets:
+          - id: mercy-email-campaigns
+            text: Executed end-to-end email campaigns, including planning, HTML coding, copywriting, and design.
+          - id: mercy-landing-pages
+            text: Built event registration landing pages, donation forms, and content directories to support fundraising and audience growth.
+          - id: mercy-website-standards
+            text: Maintained website code and content standards, optimized for SEO, and managed digital advertising.
+          - id: mercy-blog-strategy
+            text: Planned and launched a new blogging strategy that increased website engagement.
+          - id: mercy-website-redesign
+            text: Redesigned and rebuilt the full Mercy Multiplied website (hundreds of pages), delivering improved information architecture.
+          - id: mercy-luminate
+            text: Built and executed end-to-end HTML email campaigns in Blackbaud Luminate Online, including donor appeal and year-end giving communications through cross-functional collaboration.
+
+  - slug: columbia-coatings
+    company: Columbia Coatings
+    dates: Jun 2017 – Feb 2018
+    positions:
+      - slug: digital-marketing-specialist
+        title: Digital Marketing Specialist
+        dates: Jun 2017 – Feb 2018
+        bullets:
+          - id: columbia-newsletter
+            text: Managed concept, design, and implementation of weekly email newsletter.
+          - id: columbia-ecommerce
+            text: Managed 4,000+ ecommerce product listings and maintained site content to support customer experience and conversion.
+          - id: columbia-social
+            text: Increased customer engagement through social media marketing.
+          - id: columbia-content
+            text: Produced product-focused content and training materials, including product videos, imagery, and sales resources.
+          - id: columbia-photo
+            text: Retouched product photos and graphically designed marketing collateral.
+
+  - slug: southwestern-investment
+    company: Southwestern Investment Group
+    dates: Jan 2016 – Jun 2017
+    positions:
+      - slug: director-client-communications
+        title: "Director of Client Communications, Deering Wealth Team"
+        dates: Jan 2016 – Jun 2017
+        bullets:
+          - id: southwestern-comms
+            text: Produced cohesive client communications and content that strengthened brand consistency across marketing channels.
+          - id: southwestern-events
+            text: Planned, coordinated, and executed client events and seminars.
+          - id: southwestern-client-engagement
+            text: Engaged with clients to manage event participation and schedule financial meetings.
+          - id: southwestern-compliance
+            text: Navigated finance industry regulatory compliance for public-facing materials.
+
+  - slug: batson-chiropractic
+    company: Batson Chiropractic Group
+    dates: Aug 2013 – Jan 2016
+    positions:
+      - slug: marketing-director
+        title: Marketing Director
+        dates: Aug 2013 – Jan 2016
+        bullets:
+          - id: batson-build-program
+            text: Built the marketing program from the ground up — inheriting a near-dormant social presence, a third-party-managed website, and a sporadic email newsletter; left behind a fully integrated marketing function.
+          - id: batson-growth
+            text: Oversaw 60% business growth over 2.5 years.
+          - id: batson-newpatients
+            text: Increased monthly new patients from a baseline average of 64 to 81 per month (25.9% increase).
+          - id: batson-automation
+            text: Planned and implemented customer email journeys and workflow automations, reducing errors and improving efficiency.
+          - id: batson-facebook
+            text: Grew Facebook following by 267% through targeted social media marketing.
+          - id: batson-website
+            text: Launched nashvillebraincore.com and optimized its content for search engines.
+          - id: batson-collateral
+            text: "Managed all design and production of marketing collateral: web, print, email, social, outdoor, and event materials."
+          - id: batson-events
+            text: Planned and executed all events, including festivals, learning lunches, and corporate sales events.
+          - id: batson-infusionsoft
+            text: Implemented email marketing automation including a welcome series and journey workflows using Infusionsoft (Keap).
+          - id: batson-referral
+            text: Planned and executed community events (seminars, festivals, contests) and a referral program that drove growth.
+
+  - slug: caples-web-consulting
+    company: Caples Web Consulting
+    dates: Apr 2018 – Present
+    positions:
+      - slug: email-web-consultant
+        title: Email & Web Consultant
+        dates: Apr 2018 – Present
+        bullets:
+          - id: cwc-services
+            text: Deliver custom web and marketing solutions, including website and email audits, SEO strategy, customer analysis and segmentation, email templates, email journeys, landing pages, AI visibility, and analytics implementations.
+          - id: cwc-jsonld
+            text: Implemented JSON-LD and microdata structured data (schema) on brandoncaples.com to improve content SEO.
