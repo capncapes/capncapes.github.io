@@ -23,7 +23,7 @@ howto: {
 			name: "Triggered Emails",
 			text: "Go to the Triggered Emails screen within Email Studio by hovering over the Interactions tab and selecting Triggered Emails."
 		},
-        {
+		{
 			name: "Open the journey folder",
 			text: "Open the Journey Builder Sends folder in the left pane and find the appropriate journey and journey version."
 		},
@@ -53,7 +53,7 @@ howto: {
 		}
 	]
 }
-featured: true
+featured: false
 permalink: /2025/sfmc-update-email-in-running-journey
 published: true
 ---

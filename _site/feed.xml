@@ -1,4 +1,32 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2026-07-26T23:43:45-04:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">capncapes.github.io</title><subtitle>A blog site built with Jekyll consisting of two blogs, a feed of book reviews, and other content pages.</subtitle><author><name>Brandon Caples</name><email>brandon.caples@gmail.com</email></author><entry><title type="html">How to update an email in a running journey, Salesforce Marketing Cloud (SFMC)</title><link href="http://localhost:4000/2025/sfmc-update-email-in-running-journey" rel="alternate" type="text/html" title="How to update an email in a running journey, Salesforce Marketing Cloud (SFMC)" /><published>2025-08-19T07:01:11-04:00</published><updated>2025-08-19T07:01:11-04:00</updated><id>http://localhost:4000/2025/sfmc-update-email-in-running-journey</id><content type="html" xml:base="http://localhost:4000/2025/sfmc-update-email-in-running-journey">&lt;h2 id=&quot;what-is-journey-builder&quot;&gt;What is Journey Builder?&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2026-07-27T10:55:19-04:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">capncapes.github.io</title><subtitle>A blog site built with Jekyll consisting of two blogs, a feed of book reviews, and other content pages.</subtitle><author><name>Brandon Caples</name><email>brandon.caples@gmail.com</email></author><entry><title type="html">AI Assistant added to Default Channel Group in Google Analytics</title><link href="http://localhost:4000/2026/ga4-ai-assistant-channel" rel="alternate" type="text/html" title="AI Assistant added to Default Channel Group in Google Analytics" /><published>2026-05-15T13:21:11-04:00</published><updated>2026-05-15T13:21:11-04:00</updated><id>http://localhost:4000/2026/ga4-ai-assistant-channel</id><content type="html" xml:base="http://localhost:4000/2026/ga4-ai-assistant-channel">&lt;p&gt;The landscape of marketing analytics is shifting as Google introduces a pivotal update to its Default Channel Group in Google Analytics 4 (GA4). As of 13 May 2026, a new category specifically for “AI Assistant” traffic has been integrated, marking a significant step forward in how marketers understand and attribute modern web traffic. Yes, there is finally a &lt;a href=&quot;https://support.google.com/analytics/answer/9164320?hl=en#05132026&quot;&gt;Google Analytics channel group for AI assistants&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;refining-data-accuracy-in-the-age-of-ai-assistants&quot;&gt;Refining data accuracy in the age of AI assistants&lt;/h2&gt;
+
+&lt;p&gt;Before now, identifying visitors originating from AI tools and large language models (LLMs) was a complex task requiring a regex rule in a custom channel group:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-regex&quot; data-lang=&quot;regex&quot;&gt;(chatgpt|openai|anthropic|deepseek|deep-seek|llama|ollama|grok).com|(gemini|bard).google.com|(perplexity|claude|copy|chaton).ai|deepmind.google|(copilot.microsoft|edgeservices.bing).com|huggingface.co|edge\scopilot&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Without a custom AI detection rule, traffic from these sources often appeared as general referrals, muddying traditional marketing channels and making it difficult to assess the true impact of AI-driven discovery. This update automates the classification of these sources into the AI Assistant group, providing a clearer, more segmented view of the user journey.&lt;/p&gt;
+
+&lt;h2 id=&quot;strategic-benefits-for-marketers&quot;&gt;Strategic benefits for marketers&lt;/h2&gt;
+
+&lt;p&gt;The significance of this update extends beyond simple organization:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Enhanced attribution:&lt;/strong&gt; Marketers can now accurately differentiate between traditional referral traffic (like blogs or partner sites) and AI-generated traffic, allowing for better-informed budget allocation.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Improved reporting:&lt;/strong&gt; With standardized classification, building time-saving reports for stakeholders becomes more efficient, ensuring everyone with property access can view accurate AI traffic metrics.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Trend analysis:&lt;/strong&gt; Monitoring the growth of the AI Assistant channel over time helps brands understand how much of their audience is shifting toward AI-mediated search and discovery.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;three-new-updates&quot;&gt;Three new updates&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Medium:&lt;/strong&gt; AI traffic will now have a medium value of “ai-assistant”.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Channel group:&lt;/strong&gt; AI sessions will be categorized under the “AI Assistant” default channel.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Campaign:&lt;/strong&gt; AI traffic will be identified with a campaign value of “ai-assistant”.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;As AI tools continue to gain popularity, this update ensures that GA4 remains a robust tool for data-driven decision-making in 2026 and beyond.&lt;/p&gt;</content><author><name>Brandon Caples</name><email>brandon.caples@gmail.com</email></author><category term="MarTech" /><category term="Google Analytics 4" /><category term="data" /><summary type="html">The landscape of marketing analytics is shifting as Google introduces a pivotal update to its Default Channel Group in Google Analytics 4 (GA4). As of 13 May 2026, a new category specifically for “AI Assistant” traffic has been integrated, marking a significant step forward in how marketers understand and attribute modern web traffic. Yes, there is finally a Google Analytics channel group for AI assistants.</summary></entry><entry><title type="html">How to update an email in a running journey, Salesforce Marketing Cloud (SFMC)</title><link href="http://localhost:4000/2025/sfmc-update-email-in-running-journey" rel="alternate" type="text/html" title="How to update an email in a running journey, Salesforce Marketing Cloud (SFMC)" /><published>2025-08-19T07:01:11-04:00</published><updated>2025-08-19T07:01:11-04:00</updated><id>http://localhost:4000/2025/sfmc-update-email-in-running-journey</id><content type="html" xml:base="http://localhost:4000/2025/sfmc-update-email-in-running-journey">&lt;h2 id=&quot;what-is-journey-builder&quot;&gt;What is Journey Builder?&lt;/h2&gt;
 
 &lt;p&gt;Salesforce Marketing Cloud (SFMC) Journey Builder is a powerful tool that allows marketers to design and automate personalized customer journeys across multiple channels. It helps businesses map out the customer experience from initial contact to conversion and beyond, using real-time data and behavior triggers.&lt;/p&gt;
 
@@ -690,40 +718,4 @@ or withheld his love from me!&lt;/p&gt;
       &lt;p&gt;Steinmann, Andrew E. (2019). &lt;em&gt;Genesis: An Introduction and Commentary.&lt;/em&gt; IVP Academic, an imprint of InterVarsity Press. &lt;a href=&quot;#fnref:6&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
     &lt;/li&gt;
   &lt;/ol&gt;
-&lt;/div&gt;</content><author><name>Brandon Caples</name><email>brandon.caples@gmail.com</email></author><category term="Faith" /><category term="sin" /><summary type="html">In Genesis 4:1–16, the tale of Cain and Abel unfolds, weaving a narrative of jealousy, sin, and divine judgment. This ancient story holds timeless lessons about human nature, the consequences of envy, and the merciful nature of God.</summary></entry><entry><title type="html">The paradox of the cross: following Jesus in a world obsessed with self</title><link href="http://localhost:4000/2024/paradox-of-the-cross" rel="alternate" type="text/html" title="The paradox of the cross: following Jesus in a world obsessed with self" /><published>2024-01-23T06:55:12-05:00</published><updated>2024-01-23T06:55:12-05:00</updated><id>http://localhost:4000/2024/paradox-of-the-cross</id><content type="html" xml:base="http://localhost:4000/2024/paradox-of-the-cross">&lt;p&gt;Imagine Jesus, the revolutionary Rabbi, walking along dusty paths, trailed by a motley crew. His closest disciples, eager and clueless in equal measure, trip over their own ambition and misinterpret his cryptic pronouncements. In Mark’s gospel, this dynamic explodes in three key moments:&lt;/p&gt;
-
-&lt;h3 id=&quot;mark-83133&quot;&gt;Mark 8:31–33&lt;/h3&gt;
-
-&lt;p&gt;Jesus predicts his suffering and death, only to be met with Peter’s horrified rebuke. Jesus’ response is stark: &lt;q&gt;Get behind me, Satan! You do not have in mind the concerns of God, but merely human concerns.&lt;/q&gt; (&lt;abbr title=&quot;New International Version&quot;&gt;NIV&lt;/abbr&gt;)&lt;/p&gt;
-
-&lt;h3 id=&quot;mark-93132&quot;&gt;Mark 9:31–32&lt;/h3&gt;
-
-&lt;p&gt;Again, Jesus foretells his death, and again the disciples are consumed with self-importance, arguing about who will be the greatest in the kingdom. Jesus responds by placing a child in their midst, reminding them that true greatness lies in humility and service, not earthly power. &lt;q&gt;Anyone who wants to be first must be the very last, and the servant of all.&lt;/q&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;mark-103234&quot;&gt;Mark 10:32–34&lt;/h3&gt;
-
-&lt;p&gt;As they approach Jerusalem, Jesus paints a terrifying picture of his upcoming rejection, crucifixion, and resurrection. This time, the disciples are silent, gripped by fear and confusion.&lt;/p&gt;
-
-&lt;p&gt;These passages offer a jarring portrait of discipleship. Jesus preaches self-denial and suffering, while his followers cling desperately to notions of earthly glory and self-preservation. This disconnect resonates deeply with Paul’s words to the church in Corinth:&lt;/p&gt;
-
-&lt;p&gt;&lt;q&gt;If Christ has not been raised, your faith is futile, and you are still in your sins. Then those who have died in Christ are lost. If only for this life we have hope in Christ, we are of all people most to be pitied.&lt;/q&gt; (1 Corinthians 15:17–19)&lt;/p&gt;
-
-&lt;p&gt;Paul’s stark declaration forces us to confront the central paradox of Christianity: the cross, a symbol of weakness and defeat, becomes the source of hope and victory. To follow Jesus is to embrace this paradox, to accept a path that runs counter to human instinct and worldly ambition.&lt;/p&gt;
-
-&lt;p&gt;Galatians 2:20 echoes this sentiment: &lt;q&gt;I have been crucified with Christ and I no longer live, but Christ lives in me. And the life I now live in the flesh I live by faith in the Son of God, who loved me and gave himself for me.&lt;/q&gt;&lt;/p&gt;
-
-&lt;p&gt;Here, Paul speaks of a radical transformation, a death to self and a rebirth in Christ. This is not mere metaphor; it’s a daily surrender to the values of the kingdom, where power is found in vulnerability, and life flows from embracing death.&lt;/p&gt;
-
-&lt;p&gt;But why endure such hardship? 1 Corinthians offers an answer:&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;But Christ has indeed been raised from the dead, the firstfruits of those who have fallen asleep. &lt;sup&gt;21&lt;/sup&gt; For since death came through a man, the resurrection of the dead comes also through a man. &lt;sup&gt;22&lt;/sup&gt; For as in Adam all die, so in Christ all will be made alive. &lt;sup&gt;23&lt;/sup&gt; But each in turn: Christ, the firstfruits; then, when he comes, those who belong to him. &lt;sup&gt;24&lt;/sup&gt; Then the end will come, when he hands over the kingdom to God the Father after he has destroyed all dominion, authority and power. &lt;sup&gt;25&lt;/sup&gt; For he must reign until he has put all his enemies under his feet. &lt;sup&gt;26&lt;/sup&gt; The last enemy to be destroyed is death.&lt;/p&gt;
-
-  &lt;p&gt;1 Corinthians 15:20–26, NIV&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;In the resurrection, we glimpse the ultimate destination: a world free from sin, suffering, and death, where God’s kingdom reigns triumphant. The path there, however, is paved with the stones of self-denial and the paradox of the cross.&lt;/p&gt;
-
-&lt;p&gt;Following Jesus is not about self-promotion or earthly comfort. It’s about embracing a transformative journey, stepping outside our comfort zones, and living with the hope of something far greater than ourselves. It’s about a daily dance with the paradox: the death of self that births new life, the embrace of weakness that unleashes true strength, the acceptance of suffering that leads to ultimate victory.&lt;/p&gt;
-
-&lt;p&gt;So, the next time you find yourself struggling with the challenges of Christian living, remember the confused disciples on dusty paths and Paul’s unwavering faith in the crucified and risen Lord. The paradox of the cross is not an easy pill to swallow, but it’s ultimately the only path to true and lasting hope.&lt;/p&gt;</content><author><name>Brandon Caples</name><email>brandon.caples@gmail.com</email></author><category term="Faith" /><category term="discipleship" /><summary type="html">Imagine Jesus, the revolutionary Rabbi, walking along dusty paths, trailed by a motley crew. His closest disciples, eager and clueless in equal measure, trip over their own ambition and misinterpret his cryptic pronouncements. In Mark’s gospel, this dynamic explodes in three key moments:</summary></entry></feed>
+&lt;/div&gt;</content><author><name>Brandon Caples</name><email>brandon.caples@gmail.com</email></author><category term="Faith" /><category term="sin" /><summary type="html">In Genesis 4:1–16, the tale of Cain and Abel unfolds, weaving a narrative of jealousy, sin, and divine judgment. This ancient story holds timeless lessons about human nature, the consequences of envy, and the merciful nature of God.</summary></entry></feed>
