@@ -21,6 +21,14 @@
 	background-repeat: no-repeat;
 }
 
+#resume #experience .company .position .position__row {
+	margin-bottom: 0.35rem !important;
+}
+
+#resume #experience .company .position ul {
+	margin-top: 0 !important;
+}
+
 #resume #experience .position .time-served {
 	line-height: 1.5;
 }
@@ -28,11 +36,6 @@
 #resume #experience .position p:last-child {
 	margin-bottom: 0 !important;
 }
-
-/* ===================================================================
-   Header contact info-items (replaces old .contact text row + separate
-   .socials icon row with one consolidated icon+label row)
-   =================================================================== */
 
 #resume .resume__contact-info {
 	display: flex;
@@ -63,17 +66,11 @@
 	fill: var(--splendid-white);
 }
 
-/* ===================================================================
-   Section titles — circular icon badge + heading, in the site's
-   existing accent colors (blue badge, sand ring, matching the palette
-   already used sitewide in main.css)
-   =================================================================== */
-
 #resume .resume__section-title {
 	display: flex;
 	align-items: center;
 	gap: 0.75rem;
-	margin-bottom: 1.25rem;
+	margin-bottom: 0;
 }
 
 #resume .resume__section-title h2 {
@@ -102,13 +99,6 @@
 #resume .resume__section-title .icon-badge + h2 {
 	position: absolute;
 }
-
-/* ===================================================================
-   Two-column split body — main (summary + experience) / side (skills,
-   certifications, education), matching the CodePen layout structure.
-   Existing #resume section > * spacing rules from md.css still apply
-   inside each column; only float/width is new here.
-   =================================================================== */
 
 #resume.resume--split .resume__columns {
 	overflow: visible;
@@ -162,20 +152,23 @@
 
 /* Skills — inline pills, one flowing line per group */
 
-#resume #skills ul {
-	display: inline;
+#resume #skills .skill ul,
+#resume #faq .faq-item ul.faq-skills-list {
+	display: flex;
+	margin: 0;
 	padding: 0;
+	flex-direction: row;
+	flex-wrap: wrap;
 	line-height: 1.5;
 	list-style-type: none;
 }
 
 #resume #skills ul li {
-	display: inline;
 	margin: 0 0.15rem 0.35rem 0;
 	padding: 0.2rem 0.6rem;
 	font-size: 60%;
-	background-color: #DEDECA;
 	color: #121212;
+	background-color: #DEDECA;
 	border-radius: 50px;
 }
 
@@ -192,17 +185,17 @@
 	margin-bottom: 0.75rem;
 }
 
-#resume #skills .skill h3 {
-	margin: 0;
-	font-size: 1.15rem;
+#resume #skills .skill h3,
+#resume #certifications h3,
+#resume #education h3,
+#resume #faq .faq-item h3 {
+	margin: 0 0 0.5rem;
+	font-size: 1.25rem !important;
 	min-width: 0;
 }
 
-#resume #skills .skill ul {
-	display: flex;
-	margin: 0;
-	flex-direction: row;
-	flex-wrap: wrap;
+#resume #skills .skill h3 {
+	padding: 0 0.3rem;
 }
 
 #resume #skills .skill .bar,
@@ -218,6 +211,26 @@
 
 #resume #skills .skill .bar { border-bottom-color: #2CA096; }
 #resume #tech .skill .bar { border-bottom-color: #30475E; }
+
+#resume #certifications .position {
+	margin: 0 auto 0 !important;
+}
+
+#resume #faq .faq-item ul.faq-skills-list { max-width: 72rem; }
+
+#resume #faq .faq-item ul.faq-skills-list > li {
+	margin: 0 0 0.35rem;
+	padding: 0 0 0.2rem;
+	font-size: 80%;
+}
+
+#resume #faq .faq-item ul.faq-skills-list > li:last-child { margin-right: 0 !important; }
+
+#resume #faq .faq-item ul.faq-skills-list > li:not(:last-child)::after {
+	content: "•";
+	margin: 0 0.5rem;
+	color: #30475E;
+}
 
 /* Version switcher */
 
@@ -241,14 +254,12 @@
 	margin-bottom: 1.5rem;
 }
 
-#resume #faq .faq-item h3 {
-	margin-bottom: 0.25rem;
+#resume section#faq,
+#resume section#faq > *,
+#resume #faq .faq-item > h3,
+#resume #faq .faq-item > p {
+	max-width: 72rem;
 }
-
-/* ===================================================================
-   Responsive — stack columns below 900px, matching the site's existing
-   breakpoint conventions
-   =================================================================== */
 
 @media only screen and (max-width: 899px) {
 	#resume.resume--split .resume__main,
@@ -266,11 +277,6 @@
 		background-repeat: no-repeat;
 	}
 }
-
-/* ===================================================================
-   Print — keep the two-column layout (this is what the source CodePen
-   was actually designed for), hide interactive-only elements
-   =================================================================== */
 
 @media print {
 	html, body {
@@ -377,8 +383,5 @@
 		height: 0.85rem;
 	}
 
-	/* FAQ isn't useful on a printed résumé — hide it there */
-	#resume #faq {
-		display: none !important;
-	}
+	#resume #faq { display: none !important; }
 }

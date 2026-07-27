@@ -4,9 +4,6 @@
 {%- assign education = site.data.resume.education -%}
 {%- assign nav = site.data.resume.nav -%}
 
-{%- comment %}
-	Flatten this page's skill tags into one array — used for JSON-LD knowsAbout and for the FAQ "what skills" answer.
-{% endcomment -%}
 {%- assign flat_skills = "" | split: "" -%}
 {%- for group in page.resume_skills -%}
 	{%- assign flat_skills = flat_skills | concat: group.tags -%}
@@ -212,8 +209,8 @@
 							{% for cert in certifications %}
 							<div class="position">
 								<h3>{{ cert.name }}</h3>
-								<p class="time-served"><time datetime="{{ cert.date_iso }}">{{ cert.date }}</time> &nbsp;&middot;&nbsp; {{ cert.issuer }}</p>
-								{% if cert.url %}<p><a href="{{ cert.url }}" target="_blank" rel="noopener">View certification</a></p>{% endif %}
+								<p class="time-served my-0 text-sm">{{ cert.issuer }} &nbsp;&middot;&nbsp; <time datetime="{{ cert.date_iso }}">{{ cert.date }}</time></p>
+								{% if cert.url %}<p class="my-0"><a href="{{ cert.url }}" target="_blank" rel="noopener" class="my-0 text-xs">View certification</a></p>{% endif %}
 							</div>
 							{% endfor %}
 						</section>
@@ -224,37 +221,48 @@
 							{% for edu in education %}
 							<div class="position">
 								<h3>{{ edu.degree }}: {{ edu.field }}</h3>
-								<p>{% if edu.minor %}Minor: {{ edu.minor }} &nbsp;&middot;&nbsp; {% endif %}{{ edu.institution }} &nbsp;&middot;&nbsp; {{ edu.date }}</p>
+								<p class="my-0 text-sm">{{ edu.institution }} &nbsp;&middot;&nbsp; {{ edu.date }}</p>
 							</div>
 							{% endfor %}
 						</section>
 					</div><!-- /.resume__side -->
 				</div><!-- /.resume__columns -->
-				<section id="faq" class="resume__section resume__section--full" aria-labelledby="faq-heading">
-					<div class="resume__section-title">
-						<h2 id="faq-heading">Frequently Asked Questions</h2>
-					</div>
-					<div id="faq-content">
-						<div class="faq-item">
-							<h3>What does Brandon Caples do?</h3>
-							<p>{{ page.resume_summary | strip }}</p>
-						</div>
-						<div class="faq-item">
-							<h3>What is Brandon Caples' current role?</h3>
-							<p>Brandon Caples currently works as a {{ page.resume_title }}, most recently serving as {{ first_position.title }} at {{ first_company.company }}.</p>
-						</div>
-						<div class="faq-item">
-							<h3>What skills does Brandon Caples specialize in?</h3>
-							<p>{{ flat_skills | join: ", " }}</p>
-						</div>
-						<div class="faq-item">
-							<h3>Where has Brandon Caples worked?</h3>
-							<p>{{ company_names }}</p>
-						</div>
-					</div>
-				</section>
 			</article><!-- /#resume -->
+			<section id="faq" class="resume__section resume__section--full" aria-labelledby="faq-heading">
+				<div class="resume__section-title">
+					<h2 id="faq-heading">Frequently Asked Questions</h2>
+				</div>
+				<div id="faq-content">
+					<div class="faq-item">
+						<h3>What does Brandon Caples do?</h3>
+						<p>{{ page.resume_faq_summary | strip }}</p>
+					</div>
+					<div class="faq-item">
+						<h3>What is Brandon Caples' current role?</h3>
+						<p>Brandon Caples currently works in marketing automation, most recently serving as {{ first_position.title }} at {{ first_company.company }}.</p>
+					</div>
+					<div class="faq-item">
+						<h3>What skills does Brandon Caples specialize in?</h3>
+						<p>Brandon Caples specializes in the following skills:</p>
+						<ul class="faq-skills-list">
+							{% for tag in flat_skills %}<li>{{ tag }}</li>{% endfor %}
+						</ul>
+					</div>
+					<div class="faq-item">
+						<h3>Where has Brandon Caples worked?</h3>
+						<p>{{ company_names }}</p>
+					</div>
+				</div>
+			</section>
 		</main>
+		<script type="text/javascript">
+			const listItems = document.querySelectorAll("#resume #faq li");
+			listItems.forEach(li => {
+				if (li.textContent.includes("\u00A0")) {
+					li.textContent = li.textContent.replace(/\u00A0/g, " ");
+				}
+			});
+		</script>
 		{% include footer.html %}
 	</body>
 </html>
