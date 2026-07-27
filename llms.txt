@@ -1,0 +1,30 @@
+# Brandon Caples
+
+> Marketing automation specialist and web consultant with 10+ years designing lifecycle email campaigns, building complex audience segments, and improving performance through data-driven optimization — primarily in Salesforce Marketing Cloud. Also works as an independent consultant (Caples Web Consulting) building websites, email systems, and SEO/AEO-optimized content for small businesses and nonprofits.
+
+## Resume
+- [Marketing Automation Specialist Résumé](https://brandoncaples.com/resume/): Professional email marketing automation résumé — Salesforce Marketing Cloud, audience segmentation, lifecycle marketing, SQL, AMPscript.
+
+## Portfolio
+- [Portfolio](https://brandoncaples.com/portfolio/): Portfolio overview and entry point to web and email projects.
+- [Email Portfolio](https://brandoncaples.com/portfolio/email/): Portfolio of HTML email development projects.
+- [Web Portfolio](https://brandoncaples.com/portfolio/web/): Portfolio of website projects, including full website renovations, partial website projects, landing pages, and feature enhancements.
+
+## MarTech Blog
+- [MarTech Blog](https://brandoncaples.com/martech/): Articles on marketing technology, email deployment and strategy, business analytics, and Salesforce Marketing Cloud implementation.
+- [IP Address Warming](https://brandoncaples.com/martech/2023/ip-address-warming): How to warm a new sending IP address to protect email deliverability and sender reputation.
+- [How to Query SFMC Subscribers Who Opened a Specific Email](https://brandoncaples.com/2024/how-to-query-subscribers-who-opened-sfmc-email): SQL query guide for identifying Salesforce Marketing Cloud subscribers who opened a given email.
+- [Email Accessibility](https://brandoncaples.com/2024/email-accessibility): Best practices for building accessible HTML email campaigns.
+- [Section 508 Email Compliance](https://brandoncaples.com/2023/section-508-email-compliance): Overview of Section 508 accessibility requirements as applied to email marketing.
+- [UTM Parameters](https://brandoncaples.com/2023/utm-parameters): Guide to structuring and standardizing UTM tracking parameters for campaign attribution.
+- [How to Develop a Marketing Campaign Strategy That Works](https://brandoncaples.com/2023/how-to-develop-marketing-campaign): Framework for planning and executing an effective marketing campaign strategy.
+
+## About
+- [Home](https://brandoncaples.com/): Website overview and entry point to résumé and blog content.
+- [About](https://brandoncaples.com/about/): About Brandon Caples, including background and experience.
+
+## Contact & Profiles
+- [LinkedIn](https://www.linkedin.com/in/brandoncaples)
+- [GitHub](https://github.com/capncapes)
+- [Salesforce Trailhead](https://www.salesforce.com/trailblazer/bcaples)
+- [Alignable](https://www.alignable.com/biz/businesses/15533029)
