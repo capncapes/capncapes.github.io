@@ -2,7 +2,7 @@
 <html id="splendid" lang="en-US">
 	{% include head.html %}
 	<body id="bible" class="{{ page.id }}" data-book="{{ page.title }}">
-		{% if site.scripts.gtm %}
+		{% if jekyll.environment == 'production' and site.scripts.gtm %}
 			<!-- Google Tag Manager (noscript) -->
 			<noscript><iframe src="https://www.googletagmanager.com/ns.html?id={{ site.scripts.gtm }}"
 			height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>

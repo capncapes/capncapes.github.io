@@ -3,7 +3,7 @@
 	{% include head.html %}
 	{% assign ads = site.data.ads | where: "category", page.category %}
 	<body id="post" class="{% if page.featured_image.fallback != '' %}has-featured-image{% endif %} {% if ads.size > 0 %}has-ads{% endif %}">
-		{% if site.scripts.gtm %}
+		{% if jekyll.environment == 'production' and site.scripts.gtm %}
 			<!-- Google Tag Manager (noscript) -->
 			<noscript><iframe src="https://www.googletagmanager.com/ns.html?id={{ site.scripts.gtm }}"
 			height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>

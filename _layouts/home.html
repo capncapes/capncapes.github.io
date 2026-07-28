@@ -2,7 +2,7 @@
 <html id="splendid" lang="en-US">
 	{% include head.html %}
 	<body id="home">
-		{% if site.scripts.gtm %}
+		{% if jekyll.environment == 'production' and site.scripts.gtm %}
 			<!-- Google Tag Manager (noscript) -->
 			<noscript><iframe src="https://www.googletagmanager.com/ns.html?id={{ site.scripts.gtm }}"
 			height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
@@ -15,7 +15,7 @@
 		<section class="posts-section pb-20 md:pb-0">
 			<header class="pt-20 pb-8 px-7 xl:px-0">
 				<h2>MarTech Blog</h2>
-				<p>Pour over the latest trends, tips, and tutorials in marketing technology to help you stay ahead in the fast-paced digital landscape. Whether you're looking to enhance your skills or keep up with industry developments, you'll find valuable insights and resources here.</p>
+				<p>Pore over the latest trends, tips, and tutorials in marketing technology to help you stay ahead in the fast-paced digital landscape. Whether you're looking to enhance your skills or keep up with industry developments, you'll find valuable insights and resources here.</p>
 			</header>
 			<div class="cards-gallery mt-0">
 

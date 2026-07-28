@@ -3,7 +3,7 @@
 	{% include head.html %}
 	<link rel="stylesheet" type="text/css" href="/assets/styles/pages/portfolio.css" media="all">
 	<body id="portfolio"{% if page.category %} class="portfolio-{{ page.category | downcase }}" data-category="{{ page.category }}"{% endif %}{% if page.url == '/portfolio/tags/' %} class="portfolio-tags"{% endif %}>
-		{% if site.scripts.gtm %}
+		{% if jekyll.environment == 'production' and site.scripts.gtm %}
 			<!-- Google Tag Manager (noscript) -->
 			<noscript><iframe src="https://www.googletagmanager.com/ns.html?id={{ site.scripts.gtm }}"
 			height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
