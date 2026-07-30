@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Making the Switch from Universal Analytics to Google Analytics 4"
+title: "Making the switch from Universal Analytics to Google Analytics 4"
 date: 2023-05-09 08:10:01 -0500
 featured_image: {
   src: "analytics-laptop.webp",
