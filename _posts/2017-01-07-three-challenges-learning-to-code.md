@@ -31,7 +31,7 @@ The other crucial back-end skill for any web developer is a solid command of the
 
 The Document Object Model (DOM) is a central component of web development. The DOM is a structured representation of an HTML or XML document. Traversing the DOM involves selecting from four different types of nodes: document nodes, element nodes, attribute nodes, and text nodes.
 
-One of the reasons some people struggle with traversing the DOM is the similarity between `innerText` and `textContent`. Both of these properties access nodes on the DOM, but Internet Explorer’s `innerText` ignores content hidden with CSS, whereas `textContent` accesses all text content. (Read my [blog post on Internet Explorer](/martech/2017/love-hate-relationship-internet-explorer/) for more on these properties.)
+One of the reasons some people struggle with traversing the DOM is the similarity between `innerText` and `textContent`. Both of these properties access nodes on the DOM, but Internet Explorer’s `innerText` ignores content hidden with CSS, whereas `textContent` accesses all text content. (Read my [blog post on Internet Explorer](/2017/love-hate-relationship-internet-explorer/) for more on these properties.)
 
 ## Avoiding a challenge
 
