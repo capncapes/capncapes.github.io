@@ -13,7 +13,7 @@ category: MarTech
 tags: ["consumer psychology", "marketing"]
 featured: true
 permalink: /2026/taste-simplicity-in-luxury-marketing
-published: false
+published: true
 ---
 
 ## Taste is the new luxury
