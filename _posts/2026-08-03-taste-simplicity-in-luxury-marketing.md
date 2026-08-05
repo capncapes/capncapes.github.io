@@ -3,7 +3,7 @@ layout: post
 title: "Taste and simplicity in luxury marketing"
 date: 2026-08-03 07:31:59 -0400
 featured_image: {
-  src: "taste-simplicity-in-luxury-marketing.jpg",
+  src: "taste-simplicity-in-luxury-marketing.webp",
   fallback: "taste-simplicity-in-luxury-marketing.jpg",
   title: "Luxury marketing, luxury travel, hotel marketing",
   alt: "The foyer of a luxury hotel"
