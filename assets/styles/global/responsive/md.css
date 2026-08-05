@@ -412,6 +412,11 @@ main > * {
 	max-width: 60rem;
 }
 
+#home section > .w-full, #home section > .w-100,
+#default section > .w-full, #default section > .w-100 {
+	max-width: unset !important;
+}
+
 #resume section > * {
 	margin: 0 auto 2rem;
 	padding: 0 0 1rem;

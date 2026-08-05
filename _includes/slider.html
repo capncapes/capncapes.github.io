@@ -1,83 +1,344 @@
-<section id="slider" class="min-h-80 p-0">
-	{% for slide in site.data.slider %}
-		{% if slide.display %}
-		<div class="slide splendid-flex p-0 flex-col lg:flex-row items-stretch bg-blue active" style="background: {{ slide.bg_color }};">
-			{% if slide.webp_src != "" or slide.jpg_src != "" %}
-				<div class="img-container relative h-full lg:w-half xl:w-60">
-					<a href="{{ slide.button_link }}" {% if slide.download !="" %}download="{{ slide.download }}" {% endif %}>
-						<picture>
-							<source type="image/webp" srcset="{{ slide.webp_src }}">
-							<img src="{{ slide.jpg_src }}" class="absolute inset-0 w-full h-full object-cover" alt="{{ slide.img_alt }}" />
-						</picture>
-					</a>
-				</div>
-			{% endif %}
-			<div class="slider-content lg:w-half xl:w-40 pt-6 lg:pt-20 px-7 lg:pr-36 text-{{ slide.text_color }}">
-				<small class="label mb-4 font-bold text-xs text-{{ slide.text_color }} uppercase opacity-50">{{ slide.item_type }}</small>
-				<h2 itemprop="name" class="title w-90 mb-4 md:mb-6 mx-0 p-0 text-base md:text-lg lg:text-xl text-{{ slide.text_color }} normal">{{ slide.heading }}</h2>
-				<p class="mb-6 md:mb-8 text-sm text-{{ slide.text_color }}">{{ slide.desc }}</p>
-				<a href="{{ slide.button_link }}" {% if slide.download !="" %}download="{{ slide.download }}" {% endif %}class="splendid-button small {% if slide.text_color != 'white' %}dark{% else %}light{% endif %}" role="button">{{ slide.button_text }}</a>
-			</div>
-		</div>
-		{% endif %}
-	{% endfor %}
-	<nav id="slider-nav" class="splendid-flex px-7 py-4 flex-row justify-between" style="display:none;">
-		<ul class="dots splendid-flex p-0 flex-row items-center">
-			<li class="prev p-0" onclick="plusSlides(-1)"></li>
+<section id="slider" class="carousel" aria-roledescription="carousel" aria-label="Featured highlights">
+	<div class="carousel__viewport w-full">
+		<ul class="carousel__list">
 			{% assign slides = site.data.slider | where: "display", true %}
 			{% for slide in slides %}
-			<li class="dot bg-white rounded" data-slide="{{ forloop.index }}"></li>
+			<li class="carousel__item" tabindex="0" role="group" aria-roledescription="slide" aria-label="{{ forloop.index }} of {{ slides.size }}">
+				<div class="card relative rounded shadow" style="background:{{ slide.bg_color }};">
+					<a href="{{ slide.button_link }}">
+						{% if slide.webp_src != "" or slide.jpg_src != "" %}
+						<div class="absolute inset-0 w-full h-full z-0">
+							<picture>
+								<source type="image/webp" srcset="{{ slide.webp_src }}">
+								<img src="{{ slide.jpg_src }}" class="w-full h-full object-cover rounded" alt="{{ slide.img_alt }}">
+							</picture>
+						</div>
+						{% endif %}
+						<div class="info absolute w-full h-full top-0 p-0 splendid-flex py-6 px-4 flex-col justify-end items-start flex-nowrap rounded">
+							<small class="label mb-2 font-bold text-xs text-white uppercase opacity-75">{{ slide.item_type }}</small>
+							<h3 class="title w-90 mb-2 mx-0 p-0 text-base text-white normal">{{ slide.heading }}</h3>
+							<p class="desc mb-4 text-sm text-white">{{ slide.desc }}</p>
+							<span class="splendid-button small light">{{ slide.button_text }}</span>
+						</div>
+					</a>
+				</div>
+			</li>
 			{% endfor %}
-			<li class="next p-0" onclick="plusSlides(1)"></li>
 		</ul>
+	</div>
+
+	<nav class="carousel__nav">
+		<button type="button" class="prev" aria-label="Previous slide">
+			<svg width="20" height="20" viewBox="0 0 24 24"><path d="M9.586 4l-6.586 6.586a2 2 0 0 0 0 2.828l6.586 6.586a2 2 0 0 0 2.18 .434l.145 -.068a2 2 0 0 0 1.089 -1.78v-2.586h7a2 2 0 0 0 2 -2v-4l-.005 -.15a2 2 0 0 0 -1.995 -1.85l-7 -.001v-2.585a2 2 0 0 0 -3.414 -1.414z"/></svg>
+		</button>
+		<button type="button" class="next" aria-label="Next slide">
+			<svg width="20" height="20" viewBox="0 0 24 24"><path d="M12.089 3.634a2 2 0 0 0 -1.089 1.78l-.001 2.586h-6.999a2 2 0 0 0 -2 2v4l.005 .15a2 2 0 0 0 1.995 1.85l6.999 -.001l.001 2.587a2 2 0 0 0 3.414 1.414l6.586 -6.586a2 2 0 0 0 0 -2.828l-6.586 -6.586a2 2 0 0 0 -2.18 -.434l-.145 .068z"/></svg>
+		</button>
 	</nav>
 </section>
+
+<style>
+	#slider.carousel {
+		--card-w: clamp(9rem, 15vw, 15rem);
+		--gap: 1.25rem;
+		display: grid;
+		width: 100%;
+		max-width: 100%;
+		padding: 3rem 0 1rem;
+	}
+
+	#splendid #home section.carousel > .carousel__viewport {
+		padding: 0 0 2.5rem;
+	}
+
+	#slider .carousel__viewport {
+		width: 100%;
+		overflow: hidden;
+	}
+
+	#slider .carousel__list {
+		display: flex;
+		align-items: stretch;
+		gap: var(--gap);
+		margin: 0;
+		padding: 0;
+		list-style: none;
+		will-change: transform;
+		transition: transform 0.7s cubic-bezier(.65, .05, .36, 1);
+	}
+
+	#slider .carousel__list.no-transition {
+		transition: none !important;
+	}
+
+	#slider .carousel__item {
+		position: relative;
+		flex: 0 0 var(--card-w);
+		width: var(--card-w);
+		height: clamp(13rem, 22vw, 20rem);
+		outline: none;
+		transition: flex-basis 0.7s cubic-bezier(.65, .05, .36, 1), width 0.7s cubic-bezier(.65, .05, .36, 1);
+	}
+
+	#slider .carousel__item.active {
+		flex: 0 0 calc(var(--card-w) * 2);
+		width: calc(var(--card-w) * 2);
+	}
+
+	#slider .carousel__item .card {
+		position: absolute;
+		inset: 0;
+		overflow: hidden;
+		cursor: pointer;
+		transition: box-shadow 0.3s ease;
+	}
+
+	#slider .carousel__item.active .card {
+		box-shadow: 0 10px 40px rgba(0, 0, 0, 0.35);
+		cursor: default;
+	}
+
+	#slider .carousel__item:not(.active) .desc,
+	#slider .carousel__item:not(.active) .label,
+	#slider .carousel__item:not(.active) .splendid-button {
+		display: none;
+		opacity: 0;
+		transition: opacity 0.3s ease;
+	}
+
+	#slider .carousel__nav {
+		display: flex;
+		justify-content: center;
+		gap: 1rem;
+		padding: 0 2rem;
+	}
+
+	#slider .carousel__nav button {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		width: 2.5rem;
+		height: 2.5rem;
+		padding: 0;
+		color: #121212;
+		background-color: transparent;
+		border: 2px solid #121212;
+		border-radius: 50px;
+		cursor: pointer;
+		transition: background-color 0.2s ease, color 0.2s ease;
+	}
+
+	#slider .carousel__nav button:hover {
+		color: #F8F9FA;
+		background-color: #121212;
+	}
+
+	#slider .carousel__nav button svg {
+		margin: 0;
+		fill: currentColor;
+	}
+
+	@media only screen and (max-width: 599px) {
+		#slider.carousel {
+			--card-w: clamp(7rem, 55vw, 12rem);
+			--gap: 0.75rem;
+		}
+
+		#slider .carousel__item {
+			height: clamp(11rem, 55vw, 16rem);
+		}
+	}
+</style>
+
 <script>
-	let slideIndex = 0;
-	const slides = document.querySelectorAll('.slide');
-	const dots = document.querySelectorAll('.dot');
-	const totalSlides = slides.length;
-	let slideInterval;
+(function () {
+	'use strict';
 
-	function showSlide(index) {
-		slides.forEach(slide => slide.classList.remove('active'));
-		dots.forEach(dot => dot.classList.remove('active'));
+	var section = document.getElementById('slider');
+	var viewport = section && section.querySelector('.carousel__viewport');
+	var list = section && section.querySelector('.carousel__list');
+	if (!section || !viewport || !list) return;
 
-		slideIndex = (index + totalSlides) % totalSlides;
+	var realItems = Array.prototype.slice.call(list.children);
+	var N = realItems.length;
+	if (N < 1) return;
 
-		slides[slideIndex].classList.add('active');
-		dots[slideIndex].classList.add('active');
+	if (N === 1) {
+		realItems[0].classList.add('active');
+		var navEl = section.querySelector('.carousel__nav');
+		if (navEl) navEl.style.display = 'none';
+		return;
 	}
 
-	function startSlideShow() {
-		slideInterval = setInterval(() => {
-			showSlide(slideIndex + 1);
-		}, 7000);
-	}
+	var COPIES = 5;
+	var AUTOPLAY_MS = 5000;
+	var TRANSITION_MS = 700;
 
-	function resetSlideShow() {
-		clearInterval(slideInterval);
-		startSlideShow();
-	}
-
-	dots.forEach((dot, index) => {
-		dot.addEventListener('click', () => {
-			showSlide(index);
+	var frag = document.createDocumentFragment();
+	var working = [];
+	for (var c = 0; c < COPIES; c++) {
+		realItems.forEach(function (el) {
+			var node = (c === Math.floor(COPIES / 2)) ? el : el.cloneNode(true);
+			if (c !== Math.floor(COPIES / 2)) node.setAttribute('aria-hidden', 'true');
+			working.push(node);
+			frag.appendChild(node);
 		});
+	}
+	list.innerHTML = '';
+	list.appendChild(frag);
+
+	var midStart = Math.floor(COPIES / 2) * N;
+	var activePointer = midStart + (1 % N); // start on the 2nd real slide (position 1)
+
+	var autoTimer = null, snapTimer = null;
+	var hovering = false;
+	var reduceMotion = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+	// Measured once at stable moments (init / resize) — never mid-transition,
+	// and never from getComputedStyle() on the --card-w custom property,
+	// which returns its literal authored text (e.g. "clamp(9rem, 15vw, 15rem)")
+	// rather than a resolved pixel value, so parseFloat() on it was silently
+	// producing NaN and breaking every transform calculation.
+	var CACHE = { cardW: 0, gap: 0 };
+
+	function measure() {
+		var resting = working[activePointer === 0 ? 1 : 0];
+		CACHE.cardW = resting.getBoundingClientRect().width;
+		var gapStr = getComputedStyle(list).columnGap || getComputedStyle(list).gap;
+		CACHE.gap = parseFloat(gapStr) || 0;
+	}
+
+	function widthOf(i) {
+		return (i === activePointer) ? CACHE.cardW * 2 : CACHE.cardW;
+	}
+
+	function offsetOf(i) {
+		var x = 0;
+		for (var k = 0; k < i; k++) x += widthOf(k) + CACHE.gap;
+		return x;
+	}
+
+	function clearActiveClasses() {
+		working.forEach(function (el) { el.classList.remove('active'); });
+	}
+
+	function render(animate) {
+		clearActiveClasses();
+		working[activePointer].classList.add('active');
+
+		var peek = CACHE.cardW * 0.4;
+		var windowStart = activePointer - 1;
+		var tx = (peek - widthOf(windowStart)) - offsetOf(windowStart);
+
+		if (!animate) list.classList.add('no-transition');
+		list.style.transform = 'translateX(' + tx + 'px)';
+		if (!animate) {
+			void list.offsetHeight;
+			list.classList.remove('no-transition');
+		}
+	}
+
+	function recenterIfNeeded() {
+		var lower = N;
+		var upper = working.length - N;
+		var moved = false;
+		while (activePointer < lower) { activePointer += N; moved = true; }
+		while (activePointer >= upper) { activePointer -= N; moved = true; }
+		if (moved) render(false); // safe: transitions have settled by the time this runs
+	}
+
+	function clearAllTimers() {
+		clearInterval(autoTimer); autoTimer = null;
+		clearTimeout(snapTimer); snapTimer = null;
+	}
+
+	function next() {
+		activePointer += 1;
+		render(true);
+		snapTimer = setTimeout(recenterIfNeeded, TRANSITION_MS + 40);
+	}
+
+	function prev() {
+		activePointer -= 1;
+		render(true);
+		snapTimer = setTimeout(recenterIfNeeded, TRANSITION_MS + 40);
+	}
+
+	function startAutoplay() {
+		clearInterval(autoTimer); autoTimer = null;
+		if (reduceMotion || hovering) return;
+		autoTimer = setInterval(next, AUTOPLAY_MS);
+	}
+
+	function manualStep(fn) {
+		clearAllTimers();
+		fn();
+		startAutoplay();
+	}
+
+	// Position 0 → shift right by one. Position 2+ → shift left until it's
+	// in position 1. Already active → click handler below never calls this.
+	// One activePointer jump + one render() covers all cases; the CSS
+	// transition interpolates whichever direction/distance that implies.
+	function selectCard(el) {
+		var idx = working.indexOf(el);
+		if (idx === -1) return;
+		clearAllTimers();
+		activePointer = idx;
+		render(true);
+		snapTimer = setTimeout(function () {
+			recenterIfNeeded();
+			startAutoplay();
+		}, TRANSITION_MS + 40);
+	}
+
+	measure();
+	render(false);
+	startAutoplay();
+
+	var prevBtn = section.querySelector('.prev');
+	var nextBtn = section.querySelector('.next');
+	if (nextBtn) nextBtn.addEventListener('click', function () { manualStep(next); });
+	if (prevBtn) prevBtn.addEventListener('click', function () { manualStep(prev); });
+
+	list.addEventListener('click', function (e) {
+		var item = e.target.closest('.carousel__item');
+		if (!item) return;
+		if (!item.classList.contains('active')) {
+			e.preventDefault();
+			selectCard(item);
+		}
 	});
 
-	document.querySelector('.prev').addEventListener('click', () => {
-		showSlide(slideIndex - 1);
-		resetSlideShow();
+	list.addEventListener('keydown', function (e) {
+		if (e.key === 'ArrowLeft') { manualStep(prev); }
+		if (e.key === 'ArrowRight') { manualStep(next); }
+		if (e.key === 'Enter' || e.key === ' ') {
+			var item = e.target.closest('.carousel__item');
+			if (item && !item.classList.contains('active')) {
+				e.preventDefault();
+				selectCard(item);
+			}
+		}
 	});
 
-	document.querySelector('.next').addEventListener('click', () => {
-		showSlide(slideIndex + 1);
-		resetSlideShow();
+	viewport.addEventListener('mouseenter', function () {
+		hovering = true;
+		clearInterval(autoTimer); autoTimer = null;
 	});
 
-	showSlide(slideIndex);
-	startSlideShow();
+	viewport.addEventListener('mouseleave', function () {
+		hovering = false;
+		if (!snapTimer) startAutoplay();
+	});
 
-	window.document.getElementById('slider-nav').style.display = 'flex';
+	var resizeTimeout;
+	window.addEventListener('resize', function () {
+		clearTimeout(resizeTimeout);
+		resizeTimeout = setTimeout(function () {
+			measure();  // --card-w changes at the 599px breakpoint
+			render(false);
+		}, 150);
+	});
+})();
 </script>
