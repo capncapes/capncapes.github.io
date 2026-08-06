@@ -4,7 +4,7 @@
 			{% assign slides = site.data.slider | where: "display", true %}
 			{% for slide in slides %}
 			<li class="carousel__item" tabindex="0" role="group" aria-roledescription="slide" aria-label="{{ forloop.index }} of {{ slides.size }}">
-				<div class="card relative rounded shadow" style="background:{{ slide.bg_color }};">
+				<div class="card relative rounded-lg shadow" style="background:{{ slide.bg_color }};">
 					<a href="{{ slide.button_link }}">
 						{% if slide.webp_src != "" or slide.jpg_src != "" %}
 						<div class="absolute inset-0 w-full h-full z-0">
@@ -16,9 +16,8 @@
 						{% endif %}
 						<div class="info absolute w-full h-full top-0 p-0 splendid-flex py-6 px-4 flex-col justify-end items-start flex-nowrap rounded">
 							<small class="label mb-2 font-bold text-xs text-white uppercase opacity-75">{{ slide.item_type }}</small>
-							<h3 class="title w-90 mb-2 mx-0 p-0 text-base text-white normal">{{ slide.heading }}</h3>
-							<p class="desc mb-4 text-sm text-white">{{ slide.desc }}</p>
-							<span class="splendid-button small light">{{ slide.button_text }}</span>
+							<h3 class="title w-90 mb-2 mx-0 p-0 text-white normal">{{ slide.heading }}</h3>
+							<p class="desc mb-0 text-xs text-white">{{ slide.desc }}</p>
 						</div>
 					</a>
 				</div>
@@ -85,6 +84,15 @@
 		width: calc(var(--card-w) * 2);
 	}
 
+	#slider .carousel__item .info h3.title {
+		font-size: 1.25rem !important;
+		transition: font-size 0.7s ease-in;
+	}
+
+	#slider .carousel__item.active .info h3.title {
+		font-size: 1.5rem !important;
+	}
+
 	#slider .carousel__item .card {
 		position: absolute;
 		inset: 0;
@@ -98,12 +106,23 @@
 		cursor: default;
 	}
 
-	#slider .carousel__item:not(.active) .desc,
-	#slider .carousel__item:not(.active) .label,
-	#slider .carousel__item:not(.active) .splendid-button {
-		display: none;
+	#slider .carousel__item:not(.active) .label {
 		opacity: 0;
 		transition: opacity 0.3s ease;
+	}
+
+	#slider .carousel__item .desc {
+		position: absolute;
+		opacity: 0;
+		transform: translateY(150%);
+		transition: transform 0.5s ease-in, opacity 0.4s ease-in;
+	}
+
+	#slider .carousel__item.active .desc {
+		position: static;
+		opacity: 1;
+		transform: translateY(0);
+		transition-delay: 0.1s;
 	}
 
 	#slider .carousel__nav {

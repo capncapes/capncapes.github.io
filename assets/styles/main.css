@@ -1940,6 +1940,7 @@ body p a code { font-weight: bold; }
 
 img[src=""] { display: none !important; }
 .rounded, img.rounded, img.rounded * { border-radius: 4px !important; }
+.rounded-lg, img.rounded-lg { border-radius: 16px !important; }
 .round, img.round { border-radius: 30px !important; }
 .tl-rounded { border-top-left-radius: 4px; }
 .tr-rounded { border-top-right-radius: 4px; }
