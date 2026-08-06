@@ -2,7 +2,7 @@
 <html id="splendid" lang="en-US">
 	{% include head.html %}
 	<link rel="stylesheet" type="text/css" href="/assets/styles/pages/portfolio.css" media="all">
-	<body id="portfolio" class="portfolio-tag tag-{{ page.tag | downcase }}" data-tag="{{ page.tag }}">
+	<body id="portfolio" class="portfolio-tag tag-{{ page.tag | downcase }} overflow-x-hidden" data-tag="{{ page.tag }}">
 		{% if jekyll.environment == 'production' and site.scripts.gtm %}
 			<!-- Google Tag Manager (noscript) -->
 			<noscript><iframe src="https://www.googletagmanager.com/ns.html?id={{ site.scripts.gtm }}"

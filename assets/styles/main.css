@@ -35,6 +35,8 @@ TABLE OF CONTENTS
 @import url(global/flex.css);
 @import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=Open+Sans:ital,wght@0,400;0,600;1,400;1,600&display=swap');
 
+html, body { overflow-x: hidden; }
+
 :root {
 	font-size: 16px;
 	line-height: 200%;

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html id="splendid" lang="en-US">
 	{% include head.html %}
-	<body id="book-review" data-book="{{ page.book.title }}"{% if page.featured_image.src != '' %} class="has-featured-image"{% endif %}>
+	<body id="book-review" data-book="{{ page.book.title }}" class="overflow-x-hidden{% if page.featured_image.src != '' %} has-featured-image{% endif %}">
 		{% if jekyll.environment == 'production' and site.scripts.gtm %}
 			<!-- Google Tag Manager (noscript) -->
 			<noscript><iframe src="https://www.googletagmanager.com/ns.html?id={{ site.scripts.gtm }}"
