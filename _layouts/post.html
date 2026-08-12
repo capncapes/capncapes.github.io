@@ -81,11 +81,10 @@
 							"caption": "{{ site.meta.title }}"
 						},
 						"logo": "{{ site.url }}/assets/img/logomark.png",
-						"description": "I live in Tennessee with my wife, our son, and our goldendoodle.",
+						"description": "Brandon Caples is a marketing automation specialist and web consultant in Tennessee.",
 						"sameAs": [
 							"https://www.linkedin.com/in/brandoncaples/",
 							"https://github.com/capncapes",
-							"https://twitter.com/caplesweb",
 							"https://www.salesforce.com/trailblazer/bcaples"
 						]
 					}{% if page.howto %},
@@ -115,6 +114,63 @@
 						],
 						"inLanguage": "en-US"
 					}{% endif %}
+					{%- if page.citation and page.citation.size > 0 %}
+					  "citation": [
+						{%- for source in page.citation %}
+						{
+						  "@type": {{ source.type | default: "ScholarlyArticle" | jsonify }},
+						  "name": {{ source.name | jsonify }}
+						  {%- if source.url %},
+						  "url": {{ source.url | jsonify }}
+						  {%- endif %}
+						  {%- if source.sameAs and source.sameAs.size > 0 %},
+						  "sameAs": [
+							{%- for identifier in source.sameAs %}
+							{{ identifier | jsonify }}{% unless forloop.last %},{% endunless %}
+							{%- endfor %}
+						  ]
+						  {%- endif %}
+						  {%- if source.author and source.author.size > 0 %},
+						  "author": [
+							{%- for person in source.author %}
+							{
+							  "@type": {{ person.type | default: "Person" | jsonify }},
+							  "name": {{ person.name | jsonify }}
+							  {%- if person.sameAs and person.sameAs.size > 0 %},
+							  "sameAs": [
+								{%- for profile in person.sameAs %}
+								{{ profile | jsonify }}{% unless forloop.last %},{% endunless %}
+								{%- endfor %}
+							  ]
+							  {%- endif %}
+							}{% unless forloop.last %},{% endunless %}
+							{%- endfor %}
+						  ]
+						  {%- endif %}
+						}{% unless forloop.last %},{% endunless %}
+						{%- endfor %}
+					  ]
+					  {%- endif %}
+					  {%- if page.mentions and page.mentions.size > 0 %}{% if page.citation and page.citation.size > 0 %},{% endif %}
+					  "mentions": [
+						{%- for entity in page.mentions %}
+						{
+						  "@type": {{ entity.type | default: "Thing" | jsonify }},
+						  "name": {{ entity.name | jsonify }}
+						  {%- if entity.url %},
+						  "url": {{ entity.url | jsonify }}
+						  {%- endif %}
+						  {%- if entity.sameAs and entity.sameAs.size > 0 %},
+						  "sameAs": [
+							{%- for identifier in entity.sameAs %}
+							{{ identifier | jsonify }}{% unless forloop.last %},{% endunless %}
+							{%- endfor %}
+						  ]
+						  {%- endif %}
+						}{% unless forloop.last %},{% endunless %}
+						{%- endfor %}
+					  ]
+					  {%- endif %}
 				]
 			}
 		</script>

@@ -83,6 +83,7 @@ section .splendid-cta { color: #F05454 !important; text-decoration: none !import
 .bg-sand { background-color: #DEDECA; }
 .bg-taupe { background-color: #B5A78E; }
 .bg-gray { background-color: #6B7A8F; }
+.bg-gradient-dark { background: linear-gradient(160deg, #6B7A8F 40%, #30475e 60%); }
 .bg-black { background-color: #121212; }
 .bg-white { background-color: #F8F9FA; }
 .bg-glass { background: rgba(222, 222, 202, 0.25); backdrop-filter: blur(2px); -webkit-backdrop-filter: blur(2px); border: 1px solid rgba(222, 222, 202, 0.5); }
@@ -1464,26 +1465,56 @@ div.more:hover > a > div {
 	14	Tables
 ================================================================ */
 
-table {
+#splendid main article table {
 	width: 100%;
+	margin-top: 3.5rem;
+	margin-bottom: 3.5rem;
 	text-align: left;
 	line-height: 150%;
 	border-collapse: collapse;
+}
+
+#splendid main table caption {
+	padding: 0.5rem;
+	font-weight: bold;
+	background-color: #B5A78E;
+	text-align: left;
+	border: none;
+	border-top-left-radius: 6px;
+	border-top-right-radius: 6px;
 }
 
 table tbody tr:nth-of-type(odd) {
 	background: #EDEDE2;
 }
 
-th, td {
+table thead tr th, table thead tr td {
 	padding: 0.25rem 0.5rem;
 	border: 2px solid #DEDECA;
 	vertical-align: text-top;
 }
 
-th {
+table thead tr th {
+	font-size: 1rem !important;
 	font-weight: bold;
 	background-color: #DEDECA;
+	vertical-align: bottom;
+}
+
+table tbody tr th {
+	padding-top: 0.25rem;
+	padding-bottom: 0.25rem;
+	font-size: 0.85rem !important;
+	font-weight: bold;
+	background-color: #DEDECA;
+	vertical-align: baseline;
+}
+
+table tbody tr td {
+	font-size: 0.85rem !important;
+	line-height: 150% !important;
+	line-height: 1.5 !important;
+	vertical-align: baseline;
 }
 
 /* ================================================================
@@ -1502,6 +1533,11 @@ body section > * {
 
 .two-columns, .three-columns, .four-columns, .five-columns, .six-columns {
 	margin: 0;
+}
+
+#splendid main ol li::marker {
+	font-family: 'DM Serif Display', 'Cambria', 'Cochin', 'Georgia', 'Times', 'Times New Roman', serif;
+	font-weight: 700;
 }
 
 ul.two-columns, ul.three-columns, ul.four-columns, ul.five-columns, ul.six-columns,

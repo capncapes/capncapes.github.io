@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2026-08-05T23:43:47-04:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">capncapes.github.io</title><subtitle>A blog site built with Jekyll consisting of two blogs, a feed of book reviews, and other content pages.</subtitle><author><name>Brandon Caples</name><email>brandon.caples@gmail.com</email></author><entry><title type="html">Taste and simplicity in luxury marketing</title><link href="http://localhost:4000/2026/taste-simplicity-in-luxury-marketing" rel="alternate" type="text/html" title="Taste and simplicity in luxury marketing" /><published>2026-08-03T07:31:59-04:00</published><updated>2026-08-03T07:31:59-04:00</updated><id>http://localhost:4000/2026/taste-simplicity-in-luxury-marketing</id><content type="html" xml:base="http://localhost:4000/2026/taste-simplicity-in-luxury-marketing">&lt;h2 id=&quot;taste-is-the-new-luxury&quot;&gt;Taste is the new luxury&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2026-08-12T07:55:51-04:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">capncapes.github.io</title><subtitle>A blog site built with Jekyll consisting of two blogs, a feed of book reviews, and other content pages.</subtitle><author><name>Brandon Caples</name><email>brandon.caples@gmail.com</email></author><entry><title type="html">Taste and simplicity in luxury marketing</title><link href="http://localhost:4000/2026/taste-simplicity-in-luxury-marketing" rel="alternate" type="text/html" title="Taste and simplicity in luxury marketing" /><published>2026-08-03T07:31:59-04:00</published><updated>2026-08-03T07:31:59-04:00</updated><id>http://localhost:4000/2026/taste-simplicity-in-luxury-marketing</id><content type="html" xml:base="http://localhost:4000/2026/taste-simplicity-in-luxury-marketing">&lt;h2 id=&quot;taste-is-the-new-luxury&quot;&gt;Taste is the new luxury&lt;/h2&gt;
 
 &lt;p&gt;In an era where AI can generate seemingly-infinite content in seconds, human taste has become the scarcest and most valuable asset in luxury marketing. The brands that will endure are not those that produce the most, but those that exercise the most discerning judgment about what deserves to exist at all. Taste is luxury. Simplicity is quality.&lt;/p&gt;
 
@@ -133,7 +133,482 @@
 
 &lt;p&gt;Be sure to wait for the success message after each action on the &lt;strong&gt;Triggered Emails&lt;/strong&gt; screen. They can take a few seconds to appear.&lt;/p&gt;
 
-&lt;p&gt;You can confirm that your changes were applied by viewing the &lt;em&gt;Activity Summary&lt;/em&gt; and previewing the email, which should now show your recent changes.&lt;/p&gt;</content><author><name>Brandon Caples</name><email>brandon.caples@gmail.com</email></author><category term="MarTech" /><category term="Salesforce Marketing Cloud" /><category term="email" /><summary type="html">What is Journey Builder?</summary></entry><entry><title type="html">Email accessibility</title><link href="http://localhost:4000/2024/email-accessibility" rel="alternate" type="text/html" title="Email accessibility" /><published>2024-09-23T21:29:10-04:00</published><updated>2024-09-23T21:29:10-04:00</updated><id>http://localhost:4000/2024/email-accessibility</id><content type="html" xml:base="http://localhost:4000/2024/email-accessibility">&lt;p&gt;In today’s digital world, email is a critical communication tool for reaching your audience. To ensure everyone can engage with your content, including those with disabilities, it’s essential to incorporate accessibility best practices into your email development. &lt;a href=&quot;https://www.a11yproject.com/&quot;&gt;Accessibility&lt;/a&gt; ensures that users of all abilities, including those using assistive technologies, can access and understand your message. Here are key areas to focus on when making emails accessible.&lt;/p&gt;
+&lt;p&gt;You can confirm that your changes were applied by viewing the &lt;em&gt;Activity Summary&lt;/em&gt; and previewing the email, which should now show your recent changes.&lt;/p&gt;</content><author><name>Brandon Caples</name><email>brandon.caples@gmail.com</email></author><category term="MarTech" /><category term="Salesforce Marketing Cloud" /><category term="email" /><summary type="html">What is Journey Builder?</summary></entry><entry><title type="html">Steps toward wonderful solutions in business</title><link href="http://localhost:4000/2025/steps-toward-wonderful-solutions" rel="alternate" type="text/html" title="Steps toward wonderful solutions in business" /><published>2025-02-08T14:08:25-05:00</published><updated>2025-02-08T14:08:25-05:00</updated><id>http://localhost:4000/2025/steps-toward-wonderful-solutions</id><content type="html" xml:base="http://localhost:4000/2025/steps-toward-wonderful-solutions">&lt;p class=&quot;note&quot;&gt;This article is adapted from original graduate coursework in business analytics and revised for a marketing-practitioner audience.&lt;/p&gt;
+
+&lt;h2 id=&quot;introduction-to-habitual-domains-theory&quot;&gt;Introduction to Habitual Domains Theory&lt;/h2&gt;
+
+&lt;p&gt;Advancements in data mining research over the last few decades have offered the potential for significant leaps forward in product and service quality, organizational goal achievement, and stakeholder satisfaction through appropriate implementations of knowledge derived via analytics campaigns. However, as Larbani and Yu note in their 2020 paper &lt;a href=&quot;https://doi.org/10.1007/s40745-020-00290-0&quot; class=&quot;italic&quot;&gt;&lt;cite&gt;Empowering Data Mining Sciences by Habitual Domains Theory, Part I: The Concept of Wonderful Solution&lt;/cite&gt;&lt;/a&gt;, many organizations fail to apply their data mining outcomes appropriately (Larbani &amp;amp; Yu, 374). By outcomes, it is meant that the breakdowns often occur during the final step in the chain of knowledge discovery, post-processing—after knowledge has been derived from the data. Though the source of a particular breakdown could possibly lie earlier in the chain of knowledge discovery, the Larbani and Yu operate under the assumption that earlier steps were performed satisfactorily and with accurate data.&lt;/p&gt;
+
+&lt;p&gt;In Part I of the paper, Larbani and Yu present the foundation for understanding how decision makers come to conclusions when presented with derived knowledge from data mining outcomes, focusing on &lt;strong&gt;Habitual Domains Theory&lt;/strong&gt; and how best to apply the authors’ general model for empowering leaders at the decision-making stage of knowledge discovery.&lt;/p&gt;
+
+&lt;p&gt;It’s important to understand how psychology affects the decision-making process. Each person’s habitual domain—their ideas, actions, and ways of thinking—is shaped by their experiences, memories, and knowledge. A person’s habitual domain (HD), once stabilized over time due to a decrease in novel encounters, can limit their ability to reach their potential—all the thoughts, feelings, and actions they’re capable of generating. This leaves a person to operate within a subset of their potential. The way they think and act becomes predictable and even rote.&lt;sup id=&quot;fnref:1&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt; However, through new experiences or considerable effort, a person can reach more of their potential and expand their actual domain, thus increasing the collection of ideas and concepts available for future decisions.&lt;/p&gt;
+
+&lt;h2 id=&quot;what-are-the-eight-hypotheses-of-habitual-domains-theory&quot;&gt;What are the eight hypotheses of Habitual Domains Theory?&lt;/h2&gt;
+
+&lt;p&gt;Habitual Domains Theory rests on eight hypotheses which stipulate how the brain and mind function. Observing these hypotheses, we can assume that ideas are represented by neural networks in the brain that are reinforced with repeated use, that every normal brain has the capacity to store all intended data systematically, that the brain can efficiently restructure ideas to optimize retrieval, that, when learning new information, the brain forms associations with what is already known, that the mind continuously monitors a person’s current state relative to an ideal state, that attention is paid to the event with the greatest influence on the perceived deviation from the ideal state, that the mind tends to select the action which most closely aligns with reaching the ideal state, and that the mind’s innate need for external input requires focused attention in order to process those external inputs. (Larbani &amp;amp; Yu, 380)&lt;/p&gt;
+
+&lt;table class=&quot;splendid-table table_hdt-hypotheses&quot;&gt;
+  &lt;caption&gt;The eight hypotheses of Habitual Domains Theory&lt;/caption&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th scope=&quot;col&quot;&gt;Hypothesis&lt;/th&gt;
+      &lt;th scope=&quot;col&quot;&gt;Definition&lt;/th&gt;
+      &lt;th scope=&quot;col&quot;&gt;Related concepts&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr id=&quot;circuit-pattern-hypothesis&quot;&gt;
+      &lt;th scope=&quot;row&quot;&gt;Circuit Pattern Hypothesis (H1)&lt;/th&gt;
+      &lt;td&gt;Thoughts, concepts, and ideas are represented as mental or neural patterns. Repetition reinforces these patterns, making familiar interpretations and responses more likely.&lt;/td&gt;
+      &lt;td&gt;Learning, repetition, mental models&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr id=&quot;unlimited-capacity-hypothesis&quot;&gt;
+      &lt;th scope=&quot;row&quot;&gt;Unlimited Capacity Hypothesis (H2)&lt;/th&gt;
+      &lt;td&gt;The normal human mind can encode and retain a very large range of intended thoughts, concepts, and messages, even when they are not immediately accessible.&lt;/td&gt;
+      &lt;td&gt;Memory, knowledge storage, recall&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr id=&quot;efficient-restructuring-hypothesis&quot;&gt;
+      &lt;th scope=&quot;row&quot;&gt;Efficient Restructuring Hypothesis (H3)&lt;/th&gt;
+      &lt;td&gt;Stored knowledge is continually organized and reorganized so relevant information can be retrieved efficiently when a person needs to respond, decide, or solve a problem.&lt;/td&gt;
+      &lt;td&gt;Memory retrieval, cognitive organization&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr id=&quot;analogy-association-hypothesis&quot;&gt;
+      &lt;th scope=&quot;row&quot;&gt;Analogy and Association Hypothesis (H4)&lt;/th&gt;
+      &lt;td&gt;People learn about new events, ideas, and situations primarily by relating them to familiar knowledge, experiences, or patterns.&lt;/td&gt;
+      &lt;td&gt;Association, analogy, prior knowledge&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr id=&quot;goal-setting-state-evaluation-hypothesis&quot;&gt;
+      &lt;th scope=&quot;row&quot;&gt;Goal Setting and State Evaluation Hypothesis (H5)&lt;/th&gt;
+      &lt;td&gt;People maintain goals or preferred states and continually compare their perceived current state with those desired conditions.
+      &lt;/td&gt;
+      &lt;td&gt;Goals, feedback, self-evaluation&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr id=&quot;charge-structure-attention-allocation-hypothesis&quot;&gt;
+      &lt;th scope=&quot;row&quot;&gt;Charge Structure and Attention Allocation Hypothesis (H6)&lt;/th&gt;
+      &lt;td&gt;A perceived gap between a current state and a desired goal creates psychological charge, such as concern or urgency. The changing mix of charges influences what receives attention.
+      &lt;/td&gt;
+      &lt;td&gt;Motivation, priorities, attention&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr id=&quot;discharge-hypothesis&quot;&gt;
+      &lt;th scope=&quot;row&quot;&gt;Discharge Hypothesis (H7)&lt;/th&gt;
+      &lt;td&gt;People tend to choose actions that reduce psychological charge and leave the least remaining tension, following the least-resistance principle.
+      &lt;/td&gt;
+      &lt;td&gt;Decision-making, action selection, least resistance&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr id=&quot;information-input-hypothesis&quot;&gt;
+      &lt;th scope=&quot;row&quot;&gt;Information Input Hypothesis (H8)&lt;/th&gt;
+      &lt;td&gt;People have an inherent need to gather external information, but information generally influences thinking only when it receives sufficient attention to be processed.
+      &lt;/td&gt;
+      &lt;td&gt;Information seeking, perception, attention&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p class=&quot;note -mt-10 mb-14 px-2 text-xs italic&quot;&gt;Source note: The hypothesis names and underlying concepts are adapted from P. L. Yu’s Habitual Domains Theory. Definitions on this page are plain-language editorial summaries for reference and are not direct quotations.&lt;/p&gt;
+
+&lt;p&gt;When faced with a difficult problem, a decision maker experiences an increase in “charge” produced by the problem. As a person experiences different situations, each event produces various amounts of charge, and the event producing the most charge will receive the most attention. An example of this is seen in &lt;a href=&quot;buffer.com/resources/from-0-to-1000000-users-the-journey-and-statistics-of-buffer/&quot;&gt;the early years of social media management company Buffer&lt;/a&gt;. European cofounders, Joel Gascoigne and Leo Widrich, moved their startup to San Francisco in July of 2011 to be closer to both the talent pool in Silicon Valley and potential investors, but the event receiving the most charge, investment funding, was exceeded by a sudden and more urgent issue. While they were focused on securing funding and planning for growth, their American visas stalled, forcing them to move abroad, first to Hong Kong, then to Israel. They needed a solution to reduce their charge level, and what they came up with catapulted Buffer to success.&lt;/p&gt;
+
+&lt;h2 id=&quot;decision-making-problems-and-decision-elements&quot;&gt;Decision-making problems and decision elements&lt;/h2&gt;
+
+&lt;p&gt;Larbani and Yu recognize four broad categories of decision-making problems: &lt;strong&gt;routine problems&lt;/strong&gt;, for which the decision maker knows a good solution and uses it regularly; &lt;strong&gt;mixed routine problems&lt;/strong&gt;, which consist of multiple routine problems; &lt;strong&gt;fuzzy problems&lt;/strong&gt;, for which the decision maker knows the requisites for a solution but has not mastered them; and &lt;strong&gt;challenging problems&lt;/strong&gt;, for which the decision maker has little to no knowledge of a solution. Routine and mixed routine problems are solved easily and often, fuzzy problems can be solved by planning and learning new skills, and challenging problems may not be solved unless the decision maker attains significant new knowledge and skills. (Larbani &amp;amp; Yu, 382–383)&lt;/p&gt;
+
+&lt;p&gt;The decision making process involves many elements. With any decision, there’s a set of alternatives, the criteria used to measure performance, outcomes resulting from the set of alternatives, preferences to compare decision alternatives based on outcomes, and information input—whether solicited or unsolicited. These are the decision elements. (Larbani &amp;amp; Yu, 384)&lt;/p&gt;
+
+&lt;p&gt;The decision elements are affected by environmental facets: the decision maker’s state of mind, the various stages of the process, participants in the process, unknown information, and the decision maker’s perceived allowable time to solve the problem. These facets can prevent a decision maker from coming to a good solution in various ways—the overconfidence or fears of the decision maker, inappropriate steps in the process, a key player missing an important meeting, unknown information, or a shortened deadline that results in missed opportunities to explore alternatives. (Larbani &amp;amp; Yu, 385–387)&lt;/p&gt;
+
+&lt;p&gt;Complications arise when decision elements and environmental facets are dynamic, operating in changeable spaces. When multiple parameters, or all of them, are changeable, the problem is known as a &lt;strong&gt;decision-making in changeable spaces (DMCS) problem&lt;/strong&gt;. The concept of a “wonderful solution” to a DMCS problem inherently requires a deviation from the ideal state.&lt;/p&gt;
+
+&lt;p&gt;The decision maker must first realize that the solution requires expanding his habitual domain and is not achieved easily or without obtaining new knowledge. As the Buffer leaders traveled the world, they experienced new situations, talked to a lot of people, and changed the parameters within their control, notably, how they worked with their new team in Israel while planning to return to San Francisco. DMCS problems are challenging, but not impossible, as Larbani and Yu demonstrate in &lt;a href=&quot;https://doi.org/10.1007/s40745-020-00291-z&quot; class=&quot;italic&quot;&gt;&lt;cite&gt;Part II: Reaching Wonderful Solutions&lt;/cite&gt;&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;the-7-8-9-principles-of-deep-knowledge-for-habitual-domain-expansion&quot;&gt;The 7-8-9 principles of deep knowledge for habitual domain expansion&lt;/h2&gt;
+
+&lt;p&gt;In order to expand his habitual domain, a decision maker can incorporate twenty-four principles: the seven empowering operators, the eight basic methods for habitual domain expansion, and the nine principles for deep knowledge (Larbani &amp;amp; Yu, 552). Taken together, these twenty-four principles are known as the &lt;q&gt;7-8-9 principles of deep knowledge for HD expansion,&lt;/q&gt; (Larbani &amp;amp; Yu, 551) which can eventually become part of the decision maker’s habitual domain with enough utilization.&lt;/p&gt;
+
+&lt;p&gt;The seven empowering operators are mental tools available to the decision maker to help clear his head and encourage a healthy state of mind. They are positive affirmations that create a calming sense of clarity in the midst of what may likely be an anxious moment that requires a difficult decision. The seven operators invoke the uniqueness of every human, commitment to one’s goals, determinism, responsibility, and other affirmations that &lt;q&gt;become strong and powerful circuit patterns in our brain&lt;/q&gt; (Larbani &amp;amp; Yu, 552) with repeated use. Rather than focusing on the direness of a problem, the decision maker benefits from centering his mind on the seven operators.&lt;/p&gt;
+
+&lt;h3 id=&quot;the-seven-empowering-operators&quot;&gt;The seven empowering operators&lt;/h3&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Everyone is a priceless living entity.&lt;/li&gt;
+  &lt;li&gt;Clear, specific, and challenging goals produce energy for our lives.&lt;/li&gt;
+  &lt;li&gt;There are reasons for everything that occurs.&lt;/li&gt;
+  &lt;li&gt;Every task is part of my life’s mission.&lt;/li&gt;
+  &lt;li&gt;I am the owner of my living domain.&lt;/li&gt;
+  &lt;li&gt;Be appreciative and grateful, and don’t forget to give back to society.&lt;/li&gt;
+  &lt;li&gt;Our remaining lifetime is our most valuable asset; enjoy it fully and make it meaningful.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;picture class=&quot;block my-12 md:mx-12 xl:mx-0&quot;&gt;
+  &lt;source type=&quot;image/webp&quot; srcset=&quot;/assets/img/martech/habitual_domains_theory_seven_empowering_operators.webp&quot; /&gt;
+  &lt;img src=&quot;/assets/img/martech/habitual_domains_theory_seven_empowering_operators.png&quot; class=&quot;shadow&quot; alt=&quot;Seven empowering operators, seven self-perpetuating operators, Habitual Domains Theory&quot; /&gt;
+&lt;/picture&gt;
+
+&lt;p&gt;There are also eight basic methods, which Larbani and Yu suggest &lt;q&gt;can enable us to generate new ideas, new concepts,&lt;/q&gt; (553) and expand one’s habitual domain. The eight basic methods involve actively seeking knowledge, picturing the problem from a higher perspective, associating with others, changing what can be changed, taking breaks when the charge structure is too great, changing one’s environment, praying or meditating, and brainstorming.&lt;/p&gt;
+
+&lt;h3 id=&quot;the-eight-basic-methods-for-habitual-domain-expansion&quot;&gt;The eight basic methods for habitual domain expansion&lt;/h3&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Active association — set aside preconceptions and deliberately acquire new knowledge.&lt;/li&gt;
+  &lt;li&gt;Elevated observation — increase awareness and take a higher-level, longer-range view.&lt;/li&gt;
+  &lt;li&gt;Association — connect seemingly related or unrelated things to uncover similarities, differences, and new relationships.&lt;/li&gt;
+  &lt;li&gt;Changing relevant parameters — alter a problem variable, such as size, time, cost, scope, or constraints, to reveal different options.&lt;/li&gt;
+  &lt;li&gt;Changing the environment — expose yourself to a new setting, experience, role, source of information, or context.&lt;/li&gt;
+  &lt;li&gt;Brainstorming — draw on multiple perspectives and freely generate possibilities before judging them.&lt;/li&gt;
+  &lt;li&gt;Advancing by retreating — temporarily step away from a problem or current mental frame so a new perspective can emerge.&lt;/li&gt;
+  &lt;li&gt;Meditation or prayer — use quiet reflection to create conditions for insight, intuition, or reframing.
+slideshare&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Larbani and Yu make special mention of two of the eight methods in their paper: active association and changing the relevant parameters. By associating with other people, the decision maker can gain new knowledge and expand his habitual domain. Moreover, many problems that we might face involve parameters that can be changed, in whole or in part, to allow for a more holistic view of the situation.&lt;/p&gt;
+
+&lt;p&gt;Buffer’s Gascoigne and Widrich were bound by their habitual domain—that for their startup to succeed they must be physically located near their talent pool and investors. But through travel, new relationships, brainstorming, and changing how they work, they made the decision to be &lt;a href=&quot;https://joel.is/the-joys-and-benefits-of-working-as-a-distributed-team/&quot;&gt;a fully remote team&lt;/a&gt;, expanding their access to talent, reducing overhead costs, and giving Buffer an early advantage in remote work culture. This decision led them to adopt other policies that have positively affected both the financial success of the company and the happiness of its employees. Moreover, Buffer has released a report every year since 2018 on the state of remote work, which offers insights into remote work culture, productivity, and career outlooks.&lt;/p&gt;
+
+&lt;h3 id=&quot;the-nine-principles-for-deep-knowledge-in-habitual-domains-theory&quot;&gt;The nine principles for deep knowledge in Habitual Domains Theory&lt;/h3&gt;
+
+&lt;p&gt;The nine principles for deep knowledge offer strategies for expanding one’s habitual domain. When combined, they form a powerful toolset for the decision maker. The first, the &lt;strong&gt;Deep and Down Principle&lt;/strong&gt;, suggests that there is more opportunity for a wonderful solution when a decision maker’s charge structure is low (Larbani &amp;amp; Yu, 554).&lt;/p&gt;
+
+&lt;p&gt;The &lt;strong&gt;Alternating Principle&lt;/strong&gt; states that our assumptions should sometimes change or be omitted from consideration in order for us to generate new ideas from different sets of assumptions. The &lt;strong&gt;Contrasting and Complementing Principle&lt;/strong&gt;, that ideas and entities can be compared for their similarities and differences, and the &lt;strong&gt;Revolving and Cycling Principle&lt;/strong&gt;, that everything has a finite life cycle, are both useful in the context of product or organizational performance. (Larbani &amp;amp; Yu, 555) All three of these principles could have helped major toy retailer Toys “R” Us move into e-commerce during a time of high demand for toys and heavy competition in the market.&lt;sup id=&quot;fnref:2&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:2&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;2&lt;/a&gt;&lt;/sup&gt; Instead, the company experienced declining sales for several years&lt;sup id=&quot;fnref:3&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:3&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;3&lt;/a&gt;&lt;/sup&gt; before finally adopting an e-commerce strategy in 2017. (See Figure 1 showing net sales between 2009 and 2016.) By then, it was too late, the company having clearly misperceived the allowable time to solve the problem. &lt;a href=&quot;https://www.forbes.com/sites/adamhartung/2017/09/20/toys-r-us-is-a-lesson-in-how-bad-assumptions-feed-bad-financial-planning-creating-failure/&quot;&gt;Toys “R” Us filed for bankruptcy in September of 2017.&lt;/a&gt;&lt;/p&gt;
+
+&lt;script type=&quot;text/javascript&quot;&gt;
+  window.addEventListener(&quot;load&quot;, function () {
+    const toysRUsDataPoints = [
+      { label: &quot;2009&quot;, y: 13600000000 },
+      { label: &quot;2010&quot;, y: 13900000000 },
+      { label: &quot;2011&quot;, y: 13900000000 },
+      { label: &quot;2012&quot;, y: 13500000000 },
+      { label: &quot;2013&quot;, y: 12500000000 },
+      { label: &quot;2014&quot;, y: 12300000000 },
+      { label: &quot;2015&quot;, y: 11800000000 },
+      { label: &quot;2016&quot;, y: 11500000000 }
+    ];
+
+    const dataPoints1 = toysRUsDataPoints.map(function (point, index) {
+      return {
+        ...point,
+        x: index
+      };
+    });
+
+    function formatCurrencyAbbreviationToys(value) {
+      const toysAbsoluteValue = Math.abs(value);
+
+      if (toysAbsoluteValue &gt;= 1000000000) {
+        const billions = value / 1000000000;
+        return &quot;$&quot; + (
+          Number.isInteger(billions) ? billions : billions.toFixed(1)
+        ) + &quot;B&quot;;
+      }
+
+      return &quot;$&quot; + value;
+    }
+
+    var toysChart = new CanvasJS.Chart(&quot;toysChartContainer&quot;, {
+      title: {
+        text: &quot;Toys \&quot;R\&quot; Us Net Sales, by Year (2009–2016)&quot;,
+        fontColor: &quot;#30475E&quot;,
+        fontFamily: &quot;DM Serif Display&quot;,
+        fontWeight: &quot;900&quot;
+      },
+
+      backgroundColor: &quot;transparent&quot;,
+      animationEnabled: true,
+
+      axisY: {
+        title: &quot;Net Sales (in Billions)&quot;,
+        titleFontColor: &quot;#121212&quot;,
+        titleFontFamily: &quot;Open Sans&quot;,
+        titleFontWeight: &quot;700&quot;,
+        labelFormatter: function (e) {
+          return formatCurrencyAbbreviationToys(e.value);
+        }
+      },
+
+      axisX: {
+        minimum: 0,
+        maximum: dataPoints1.length - 1,
+        interval: 1,
+        gridColor: &quot;#EDEDE2&quot;,
+        gridThickness: 1,
+        labelFormatter: function (e) {
+          const point = dataPoints1[Math.round(e.value)];
+          return point ? point.label : &quot;&quot;;
+        }
+      },
+
+      toolTip: {
+        backgroundColor: &quot;#F8F9FA&quot;,
+        borderColor: &quot;#121212&quot;,
+        borderThickness: 1,
+        fontColor: &quot;#121212&quot;,
+        cornerRadius: 4
+      },
+
+      data: [{
+        type: &quot;line&quot;,
+        color: &quot;#F05454&quot;,
+        markerSize: 7,
+        markerType: &quot;circle&quot;,
+        markerColor: &quot;#F8F9FA&quot;,
+        markerBorderColor: &quot;#F05454&quot;,
+        markerBorderThickness: 2,
+        highlightEnabled: true,
+        yValueFormatString: &quot;$#,###,,,.0B&quot;,
+        toolTipContent: &quot;&lt;span style=&apos;color:#30475E;font-weight:700;&apos;&gt;&lt;b&gt;{label}&lt;/b&gt;&lt;/span&gt;&lt;br/&gt;{y}&quot;,
+        dataPoints: dataPoints1
+      }]
+    });
+
+    toysChart.render();
+  });
+&lt;/script&gt;
+
+&lt;div id=&quot;toysChartContainer&quot; class=&quot;my-12 md:my-16&quot; style=&quot;height:300px; width:100%;&quot;&gt;&lt;/div&gt;
+
+&lt;p&gt;The failure of Toys “R” Us to capitalize on the e-commerce boom grew out of the assumption that consumers would continue to prefer brick-and-mortar stores over online shopping, along with large amounts of debt and competition with companies like Walmart, which was &lt;a href=&quot;https://www.forbes.com/sites/adamhartung/2017/09/20/toys-r-us-is-a-lesson-in-how-bad-assumptions-feed-bad-financial-planning-creating-failure/&quot;&gt;outselling Toys “R” Us&lt;/a&gt; by 2005. Leaders at Toys “R” Us remained in a rigid habitual domain. They were also dealing with a lot of corporate debt, which undoubtedly generated high levels of charge, preventing new ideas in the potential domain.&lt;/p&gt;
+
+&lt;p&gt;The &lt;strong&gt;Inner Connection Principle&lt;/strong&gt; refers to mutually beneficial relationships between people. When two people know and understand each other well, they can predict each other’s behaviors and thought patterns. This mutual symbiosis helps each person to achieve their own goals while helping the other with theirs. It is connected to the first empowering operator: &lt;q&gt;Everyone is a priceless living entity. We are all unique creations who carry the spark of the divine&lt;/q&gt; (Larbani &amp;amp; Yu, 552). Because Joel Gascoigne wanted Buffer to continue to attract talented employees that both give and receive respect within the company, Buffer adopted bold new policies on transparency, open communication, and work-life balance. These policies, like &lt;a href=&quot;https://buffer.com/metrics&quot;&gt;published company financials&lt;/a&gt; and salaries, flexible work routines, a focus on customer happiness, and employee well-being initiatives have led to a percent change in annual recurring revenue (ARR) of +1,398% between 2013 and 2019, as indicated in Figure 2.&lt;/p&gt;
+
+&lt;script type=&quot;text/javascript&quot;&gt;
+  window.addEventListener(&quot;load&quot;, function () {
+    const bufferDataPoints = [
+      { label: &quot;Jan 2013&quot;, y: 828945 },
+      { label: &quot;Feb 2013&quot;, y: 914603 },
+      { label: &quot;Mar 2013&quot;, y: 996197 },
+      { label: &quot;Apr 2013&quot;, y: 1078165 },
+      { label: &quot;May 2013&quot;, y: 1169261 },
+      { label: &quot;Jun 2013&quot;, y: 1266885 },
+      { label: &quot;Jul 2013&quot;, y: 1361942 },
+      { label: &quot;Aug 2013&quot;, y: 1456762 },
+      { label: &quot;Sep 2013&quot;, y: 1640846 },
+      { label: &quot;Oct 2013&quot;, y: 1826072 },
+      { label: &quot;Nov 2013&quot;, y: 2025045 },
+      { label: &quot;Dec 2013&quot;, y: 2256243 },
+      { label: &quot;Jan 2014&quot;, y: 2577483 },
+      { label: &quot;Feb 2014&quot;, y: 2840910 },
+      { label: &quot;Mar 2014&quot;, y: 3067783 },
+      { label: &quot;Apr 2014&quot;, y: 3316334 },
+      { label: &quot;May 2014&quot;, y: 3578756 },
+      { label: &quot;Jun 2014&quot;, y: 3822552 },
+      { label: &quot;Jul 2014&quot;, y: 4095936 },
+      { label: &quot;Aug 2014&quot;, y: 4310556 },
+      { label: &quot;Sep 2014&quot;, y: 4467135 },
+      { label: &quot;Oct 2014&quot;, y: 4807222 },
+      { label: &quot;Nov 2014&quot;, y: 5042859 },
+      { label: &quot;Dec 2014&quot;, y: 5228811 },
+      { label: &quot;Jan 2015&quot;, y: 5529749 },
+      { label: &quot;Feb 2015&quot;, y: 5781425 },
+      { label: &quot;Mar 2015&quot;, y: 6104134 },
+      { label: &quot;Apr 2015&quot;, y: 6375467 },
+      { label: &quot;May 2015&quot;, y: 6715660 },
+      { label: &quot;Jun 2015&quot;, y: 7023577 },
+      { label: &quot;Jul 2015&quot;, y: 7345552 },
+      { label: &quot;Aug 2015&quot;, y: 7627109 },
+      { label: &quot;Sep 2015&quot;, y: 7904755 },
+      { label: &quot;Oct 2015&quot;, y: 7967518 },
+      { label: &quot;Nov 2015&quot;, y: 8239097 },
+      { label: &quot;Dec 2015&quot;, y: 8433365 },
+      { label: &quot;Jan 2016&quot;, y: 8717012 },
+      { label: &quot;Feb 2016&quot;, y: 9008215 },
+      { label: &quot;Mar 2016&quot;, y: 9402739 },
+      { label: &quot;Apr 2016&quot;, y: 9752733 },
+      { label: &quot;May 2016&quot;, y: 10132411 },
+      { label: &quot;Jun 2016&quot;, y: 10542028 },
+      { label: &quot;Jul 2016&quot;, y: 10839656 },
+      { label: &quot;Aug 2016&quot;, y: 11313043 },
+      { label: &quot;Sep 2016&quot;, y: 11835640 },
+      { label: &quot;Oct 2016&quot;, y: 12294974 },
+      { label: &quot;Nov 2016&quot;, y: 12501692 },
+      { label: &quot;Dec 2016&quot;, y: 12771451 },
+      { label: &quot;Jan 2017&quot;, y: 13080642 },
+      { label: &quot;Feb 2017&quot;, y: 13378173 },
+      { label: &quot;Mar 2017&quot;, y: 13791908 },
+      { label: &quot;Apr 2017&quot;, y: 14042913 },
+      { label: &quot;May 2017&quot;, y: 14383407 },
+      { label: &quot;Jun 2017&quot;, y: 14677986 },
+      { label: &quot;Jul 2017&quot;, y: 14941149 },
+      { label: &quot;Aug 2017&quot;, y: 15300531 },
+      { label: &quot;Sep 2017&quot;, y: 15501430 },
+      { label: &quot;Oct 2017&quot;, y: 15830283 },
+      { label: &quot;Nov 2017&quot;, y: 16085848 },
+      { label: &quot;Dec 2017&quot;, y: 16244339 },
+      { label: &quot;Jan 2018&quot;, y: 16430843 },
+      { label: &quot;Feb 2018&quot;, y: 16594746 },
+      { label: &quot;Mar 2018&quot;, y: 16979654 },
+      { label: &quot;Apr 2018&quot;, y: 17267489 },
+      { label: &quot;May 2018&quot;, y: 17999376 },
+      { label: &quot;Jun 2018&quot;, y: 18477325 },
+      { label: &quot;Jul 2018&quot;, y: 18616455 },
+      { label: &quot;Aug 2018&quot;, y: 18896672 },
+      { label: &quot;Sep 2018&quot;, y: 19121301 },
+      { label: &quot;Oct 2018&quot;, y: 19441839 },
+      { label: &quot;Nov 2018&quot;, y: 19535565 },
+      { label: &quot;Dec 2018&quot;, y: 19559387 },
+      { label: &quot;Jan 2019&quot;, y: 19861544 },
+      { label: &quot;Feb 2019&quot;, y: 20040141 },
+      { label: &quot;Mar 2019&quot;, y: 20303058 },
+      { label: &quot;Apr 2019&quot;, y: 20359355 },
+      { label: &quot;May 2019&quot;, y: 20745507 },
+      { label: &quot;Jun 2019&quot;, y: 20872800 },
+      { label: &quot;Jul 2019&quot;, y: 20881245 },
+      { label: &quot;Aug 2019&quot;, y: 21081179 },
+      { label: &quot;Sep 2019&quot;, y: 21380099 },
+      { label: &quot;Oct 2019&quot;, y: 22123833 },
+      { label: &quot;Nov 2019&quot;, y: 22120357 },
+      { label: &quot;Dec 2019&quot;, y: 22218825 },
+      { label: &quot;Jan 2020&quot;, y: 22356047 },
+      { label: &quot;Feb 2020&quot;, y: 22263801 }
+    ];
+
+    // Give each monthly point a sequential numeric x-coordinate
+    const dataPoints2 = bufferDataPoints.map(function (point, index) {
+      return {
+        ...point,
+        x: index
+      };
+    });
+
+    // Adds minor (quarterly) lines at Apr, Jul, and Oct
+    const quarterlyGridLines = Array.from(
+      { length: Math.floor((dataPoints2.length - 1) / 3) },
+      function (_, index) {
+        return (index + 1) * 3;
+      }
+    )
+      .filter(function (x) {
+        return x % 12 !== 0;
+      })
+      .map(function (x) {
+        return {
+          value: x,
+          color: &quot;#E5E7EB&quot;,
+          thickness: 1,
+          showOnTop: false
+        };
+      });
+
+    function formatCurrencyAbbreviationBuffer(value) {
+      const absoluteValue = Math.abs(value);
+
+      if (absoluteValue &gt;= 1000000) {
+        const millions = value / 1000000;
+        return &quot;$&quot; + (
+          Number.isInteger(millions) ? millions : millions.toFixed(1)
+        ) + &quot;M&quot;;
+      }
+
+      if (absoluteValue &gt;= 1000) {
+        const thousands = value / 1000;
+        return &quot;$&quot; + (
+          Number.isInteger(thousands) ? thousands : thousands.toFixed(1)
+        ) + &quot;K&quot;;
+      }
+
+      return &quot;$&quot; + value;
+    }
+
+    var bufferChart = new CanvasJS.Chart(&quot;bufferChartContainer&quot;, {
+      title: {
+        text: &quot;Buffer Revenue, by Month (2013–2020)&quot;,
+        fontColor: &quot;#30475E&quot;,
+        fontFamily: &quot;DM Serif Display&quot;,
+        fontWeight: &quot;900&quot;
+      },
+
+      backgroundColor: &quot;transparent&quot;,
+      animationEnabled: true,
+
+      axisY: {
+        title: &quot;Annual Recurring Revenue&quot;,
+          titleFontColor: &quot;#121212&quot;,
+          titleFontFamily: &quot;Open Sans&quot;,
+          titleFontWeight: &quot;700&quot;,
+        labelFormatter: function (e) {
+          return formatCurrencyAbbreviationBuffer(e.value);
+        }
+      },
+
+      axisX: {
+        minimum: 0,
+        maximum: dataPoints2.length - 1,
+        interval: 12,
+        gridColor: &quot;#EDEDE2&quot;,
+        gridThickness: 1,
+        stripLines: quarterlyGridLines,
+
+        labelFormatter: function (e) {
+          const point = dataPoints2[Math.round(e.value)];
+          return point ? point.label : &quot;&quot;;
+        }
+      },
+
+      toolTip: {
+        backgroundColor: &quot;#F8F9FA&quot;,
+        borderColor: &quot;#121212&quot;,
+        borderThickness: 1,
+        fontColor: &quot;#121212&quot;,
+        cornerRadius: 4
+      },
+
+      data: [{
+        type: &quot;line&quot;,
+        color: &quot;#2CA096&quot;,
+        markerSize: 0,
+        markerColor: &quot;#F8F9FA&quot;,
+        markerBorderColor: &quot;#2CA096&quot;,
+        markerBorderThickness: 1,
+        highlightEnabled: true,
+        yValueFormatString: &quot;$#,##0&quot;,
+        toolTipContent: &quot;&lt;span style=&apos;color:#30475E;font-weight:700;&apos;&gt;&lt;b&gt;{label}&lt;/b&gt;&lt;/span&gt;&lt;br/&gt;{y}&quot;,
+        dataPoints: dataPoints2
+      }]
+    });
+
+    bufferChart.render();
+  });
+&lt;/script&gt;
+
+&lt;div id=&quot;bufferChartContainer&quot; class=&quot;my-12 md:my-16&quot; style=&quot;height:300px; width:100%;&quot;&gt;&lt;/div&gt;
+
+&lt;p&gt;According to the &lt;strong&gt;Changing and Transforming Principle&lt;/strong&gt;, significant changes to one or more parameters of a system can transform the entire system, as was the case with Buffer when the company hired too quickly, growing from 34 employees to 94 between 2015 and 2016. According to CEO Joel Gascoigne, the need to grow revenue quickly generated poor hiring decisions, which led to &lt;a href=&quot;https://buffer.com/resources/layoffs-and-moving-forward/&quot;&gt;layoffs of 11% of the company&lt;/a&gt;, salary cuts for the cofounders, and the reduction of popular employee perks. That hiring rapidly changed most job functions at Buffer, with many employees moving from generalized work to specializations. This transformed the company itself. The layoffs quickly reversed the new job functions, along with impacting morale.&lt;/p&gt;
+
+&lt;p&gt;Buffer leadership likely could have avoided that trouble by employing the Contradiction Principle, though. A decision maker can greatly expand his habitual domain using the &lt;strong&gt;Contradiction Principle&lt;/strong&gt;. The principle states that, once a problem conclusion is reached, it would be wise to attempt to come to a contradictory conclusion using a different approach to the problem. Had Buffer approached its revenue growth problem from a different perspective than the original conclusion to keep hiring new employees, the company may have identified multiple job functions that either weren’t needed or could be completed satisfactorily with current staff.&lt;/p&gt;
+
+&lt;p&gt;The &lt;strong&gt;Cracking and Ripping Principle&lt;/strong&gt; asserts that all entities—people, organizations, nations—are imperfect and therefore have weaknesses, or cracks, that can be exploited in a competitive landscape (Larbani &amp;amp; Yu, 556). The competition between Toys “R” Us and Walmart stands out due to Walmart’s ability to &lt;a href=&quot;https://www.mbaknol.com/management-case-studies/case-study-the-rise-and-fall-of-toys-r-us/&quot;&gt;undercut Toys “R” Us&lt;/a&gt; in two ways: price and shopping experience. Walmart used toys as a loss leader and was able to create a much better in-store experience, especially considering that shoppers could buy toys and everyday essentials in the same trip (Francis).&lt;/p&gt;
+
+&lt;p&gt;Finally, the &lt;strong&gt;Void Principle&lt;/strong&gt; acknowledges that there is substance outside of our own habitual domain; that space is not empty (Larbani &amp;amp; Yu, 556). When a decision maker fails to grasp this principle, he can miss out on significant new ideas and concepts, simply by thinking he knows enough to solve the problem at hand.&lt;/p&gt;
+
+&lt;picture class=&quot;block my-12 md:mx-12 xl:mx-0 bg-gradient-dark rounded&quot;&gt;
+  &lt;source type=&quot;image/webp&quot; srcset=&quot;/assets/img/martech/hdt_nine_principles_for_deep_knowledge_1200x1036.webp&quot; /&gt;
+  &lt;img src=&quot;/assets/img/martech/hdt_nine_principles_for_deep_knowledge_1200x1036.png&quot; class=&quot;shadow&quot; alt=&quot;Nine principles for deep knowledge, how to achieve deep knowledge using Habitual Domains Theory&quot; /&gt;
+&lt;/picture&gt;
+
+&lt;p&gt;There are many factors at play when working with decision-making in changeable spaces problems. The eight hypotheses of brain and mind functions should be understood, the ten decision elements and environmental facets must be considered, and the 7-8-9 framework for solving challenging problems should be employed in order to reach a wonderful solution.&lt;/p&gt;
+
+&lt;h2 id=&quot;application-of-hd-theory&quot;&gt;Application of HD Theory&lt;/h2&gt;
+
+&lt;p&gt;The research of Larbani and Yu will inform my own work as a data analyst in several ways. As many organizations rely on outdated assumptions and even the personalities of leadership, I will apply data-driven insights to push innovation forward and expand the habitual domain of my working team. Through excellent customer support, Buffer collects user data and feedback constantly to inform its decisions about new product features, which demonstrates its commitment to expanding its own habitual domain.&lt;/p&gt;
+
+&lt;p&gt;Even when an organization recognizes the importance of data to decision making—many do at a low level—there’s often a breakdown once the data capture has occurred. The company cannot fully leverage the data if it doesn’t move beyond basic reporting (descriptive analytics). That was my motivation for learning business analytics at the graduate level. Predictive modeling can highlight areas of opportunity and avoid cracks in the foundation. By identifying gaps where data are underutilized, I can recommend additional key performance indicators (KPIs) or apply prescriptive analytics to solve problems.&lt;/p&gt;
+
+&lt;p&gt;To me, one of the strongest of the eight methods for expanding and enriching habitual domains is active association. As I reflect on my marketing career thus far, it’s clear that my successes have usually been linked to relationships, whether it was asking a colleague for their perspective, sourcing ideas from customers, or actively collaborating cross-functionally to solve a common problem. With this revelatory insight and new knowledge of its surrounding factors, I feel confident in my ability to bring groups together to solve big problems.&lt;/p&gt;
+
+&lt;p&gt;I plan to predict future problems with data. By detecting anomalies early, I can help to prevent blips from becoming trends. For example, in nonprofit fundraising, it’s common to nurture a small group of major donors which provide a large percentage of annual revenue. But with so much relying on only a few people, the organization could easily face a crisis if some of those people stopped giving. A better approach is to leverage the existing network of major donors to identify and cultivate a broader community of like-minded mid-level donors. There are undoubtedly shared characteristics between the two groups that can be identified and even used to develop a third group of micro-donors. These are potentially people who are already connected to the organization but require personalized messaging in order to convert, or in some cases, reconvert. All three groups can play significant roles in fundraising campaigns.&lt;/p&gt;
+
+&lt;p&gt;Finally, I plan to employ visualizations and narratives to bring data to life. Cognitive biases can easily prevent decision makers from acting on existing data, but through storytelling techniques, data insights can be used to expand everyone’s habitual domain and generate new ideas. I believe these principles can help me cultivate a culture where data-driven decision making is the norm and not a platitude.&lt;/p&gt;
+
+&lt;div class=&quot;footnotes&quot; role=&quot;doc-endnotes&quot;&gt;
+  &lt;ol&gt;
+    &lt;li id=&quot;fn:1&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;The concept of habitual domains also applies to groups of people, like organizations or governments. &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:2&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;Between 1992 and 2012, the &lt;a href=&quot;https://www.bls.gov/osmr/research-papers/2020/pdf/ec200080.pdf&quot;&gt;U.S. national toys market Herfindahl-Hirschman Index (HHI)&lt;/a&gt;, a common measure of market competition, increased from 0.084 to 0.134, a +59.52% change. &lt;a href=&quot;#fnref:2&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:3&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;Toys “R” Us, Inc. SEC Form 10-K Annual Reports: &lt;a href=&quot;https://www.sec.gov/Archives/edgar/data/1005414/000119312510065825/d10k.htm&quot;&gt;2009&lt;/a&gt;, &lt;a href=&quot;https://www.sec.gov/Archives/edgar/data/1005414/000119312511075428/d10k.htm&quot;&gt;2010&lt;/a&gt;, &lt;a href=&quot;https://www.sec.gov/Archives/edgar/data/1005414/%20000100541412000010/tru201110k.htm&quot;&gt;2011&lt;/a&gt;, &lt;a href=&quot;https://www.sec.gov/Archives/edgar/data/1005414/000100541413000008/tru201210k.htm&quot;&gt;2012&lt;/a&gt;, &lt;a href=&quot;https://www.sec.gov/Archives/edgar/data/1005414/000100541414000010/tru201310k.htm&quot;&gt;2013&lt;/a&gt;, &lt;a href=&quot;https://www.sec.gov/Archives/edgar/data/1005414/000100541415000010/tru201410k.htm&quot;&gt;2014&lt;/a&gt;, &lt;a href=&quot;https://www.sec.gov/Archives/edgar/data/1005414/000100541416000080/tru201510k.htm&quot;&gt;2015&lt;/a&gt;, &lt;a href=&quot;https://www.sec.gov/Archives/edgar/data/1005414/%20000100541417000011/tru201610k.htm&quot;&gt;2016&lt;/a&gt;. &lt;a href=&quot;#fnref:3&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/div&gt;</content><author><name>Brandon Caples</name><email>brandon.caples@gmail.com</email></author><category term="MarTech" /><category term="data" /><category term="business" /><summary type="html">This article is adapted from original graduate coursework in business analytics and revised for a marketing-practitioner audience.</summary></entry><entry><title type="html">Email accessibility</title><link href="http://localhost:4000/2024/email-accessibility" rel="alternate" type="text/html" title="Email accessibility" /><published>2024-09-23T21:29:10-04:00</published><updated>2024-09-23T21:29:10-04:00</updated><id>http://localhost:4000/2024/email-accessibility</id><content type="html" xml:base="http://localhost:4000/2024/email-accessibility">&lt;p&gt;In today’s digital world, email is a critical communication tool for reaching your audience. To ensure everyone can engage with your content, including those with disabilities, it’s essential to incorporate accessibility best practices into your email development. &lt;a href=&quot;https://www.a11yproject.com/&quot;&gt;Accessibility&lt;/a&gt; ensures that users of all abilities, including those using assistive technologies, can access and understand your message. Here are key areas to focus on when making emails accessible.&lt;/p&gt;
 
 &lt;h2 id=&quot;image-alt-text&quot;&gt;Image alt text&lt;/h2&gt;
 
@@ -618,81 +1093,4 @@ or withheld his love from me!&lt;/p&gt;
 
 &lt;h2 id=&quot;unleash-the-power-of-marketing-cloud-data&quot;&gt;Unleash the Power of Marketing Cloud Data&lt;/h2&gt;
 
-&lt;p&gt;The Web Analytics Connector is a powerful tool for marketers seeking to bridge the gap between email marketing and website analytics. By using the WAC, you can gain a deeper understanding of your email campaigns’ impact and optimize your marketing efforts for maximum ROI.&lt;/p&gt;</content><author><name>Brandon Caples</name><email>brandon.caples@gmail.com</email></author><category term="MarTech" /><category term="analytics" /><category term="Salesforce Marketing Cloud" /><summary type="html">The Salesforce Marketing Cloud Web Analytics Connector (WAC) is your secret weapon for bridging the gap between email marketing and website analytics.</summary></entry><entry><title type="html">How to query Salesforce Marketing Cloud subscribers who opened a specific email</title><link href="http://localhost:4000/2024/how-to-query-subscribers-who-opened-sfmc-email" rel="alternate" type="text/html" title="How to query Salesforce Marketing Cloud subscribers who opened a specific email" /><published>2024-03-08T21:30:41-05:00</published><updated>2024-03-08T21:30:41-05:00</updated><id>http://localhost:4000/2024/how-to-query-subscribers-who-opened-sfmc-email</id><content type="html" xml:base="http://localhost:4000/2024/how-to-query-subscribers-who-opened-sfmc-email">&lt;p&gt;Salesforce Marketing Cloud offers a robust set of tools for crafting targeted email campaigns. But what if you need to leverage the full potential of your Salesforce data to create even more precise audience segments?  This is where SQL comes in.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;/martech/2023/sql-intro&quot;&gt;SQL (Structured Query Language)&lt;/a&gt; empowers you to write custom queries and extract specific data points from your Salesforce database directly within Marketing Cloud. This unlocks a world of possibilities for personalizing your marketing efforts.&lt;/p&gt;
-
-&lt;p&gt;Today, we’ll use SQL to query a Salesforce database and identify email subscribers who opened a specific email campaign.&lt;/p&gt;
-
-&lt;p&gt;To get started, navigate to &lt;strong&gt;Automation Studio&lt;/strong&gt; within Marketing Cloud. Here, you’ll utilize the SQL Query activity to write and execute your query. You can use Query Studio to see the results of your query before adding it to Automation Studio.&lt;/p&gt;
-
-&lt;p&gt;Here’s a sample SQL query that fetches subscribers who opened a specific email:&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-sql&quot; data-lang=&quot;sql&quot;&gt;&lt;span class=&quot;k&quot;&gt;SELECT&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;DISTINCT&lt;/span&gt;
-	&lt;span class=&quot;n&quot;&gt;con&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Id&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;AS&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;SubscriberKey&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-	&lt;span class=&quot;n&quot;&gt;con&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;FirstName&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-	&lt;span class=&quot;n&quot;&gt;con&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;LastName&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-	&lt;span class=&quot;n&quot;&gt;con&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Email&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-	&lt;span class=&quot;n&quot;&gt;j&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;EmailName&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-	&lt;span class=&quot;n&quot;&gt;s&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;JobID&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-	&lt;span class=&quot;n&quot;&gt;s&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;eventdate&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;AS&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;SendDate&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;FROM&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;_Sent&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;AS&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;s&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;LEFT&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;JOIN&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Contact_Salesforce&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;AS&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;con&lt;/span&gt;
-	&lt;span class=&quot;k&quot;&gt;ON&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;s&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;SubscriberKey&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;con&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Id&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;LEFT&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;JOIN&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;_Job&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;AS&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;j&lt;/span&gt;
-	&lt;span class=&quot;k&quot;&gt;ON&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;s&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;JobID&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;j&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;JobID&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;LEFT&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;JOIN&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;_Open&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;AS&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;o&lt;/span&gt;
-	&lt;span class=&quot;k&quot;&gt;ON&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;s&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;JobID&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;o&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;JobID&lt;/span&gt;
-	&lt;span class=&quot;k&quot;&gt;AND&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;s&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;ListID&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;o&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;ListID&lt;/span&gt;
-	&lt;span class=&quot;k&quot;&gt;AND&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;s&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;BatchID&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;o&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;BatchID&lt;/span&gt;
-	&lt;span class=&quot;k&quot;&gt;AND&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;s&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;SubscriberID&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;o&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;SubscriberID&lt;/span&gt;
-	&lt;span class=&quot;k&quot;&gt;AND&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;o&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;IsUnique&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;WHERE&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;o&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;SubscriberID&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;IS&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;NOT&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;NULL&lt;/span&gt;
-	&lt;span class=&quot;k&quot;&gt;AND&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;con&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Id&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;IS&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;NOT&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;NULL&lt;/span&gt;
-	&lt;span class=&quot;k&quot;&gt;AND&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;s&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;JobID&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&apos;[Place job ID here]&apos;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;h2 id=&quot;query-breakdown&quot;&gt;Query breakdown&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;SELECT DISTINCT&lt;/code&gt;: Retrieves distinct values for each selected field, avoiding duplicates.&lt;/li&gt;
-  &lt;li&gt;Joined tables:
-    &lt;ul&gt;
-      &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;[_Sent]&lt;/code&gt;: Contains email send data.&lt;/li&gt;
-      &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Contact_Salesforce&lt;/code&gt;: Houses contact information from Salesforce.&lt;/li&gt;
-      &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;[_Job]&lt;/code&gt;: Stores email job details like name and ID.&lt;/li&gt;
-      &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;[_Open]&lt;/code&gt;: Captures email open activity.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Filtering criteria:
-    &lt;ul&gt;
-      &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;o.SubscriberID IS NOT NULL&lt;/code&gt;: Filters for subscribers who opened the email.&lt;/li&gt;
-      &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;con.Id IS NOT NULL&lt;/code&gt;: Ensures contact information is available.&lt;/li&gt;
-      &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;s.JobID = &apos;[...]&apos;&lt;/code&gt;: Targets a specific email job. This is the 6-digit “Job ID” number associated with each sent email.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Retrieved fields:
-    &lt;ul&gt;
-      &lt;li&gt;SubscriberKey, FirstName, LastName, Email&lt;/li&gt;
-      &lt;li&gt;EmailName (campaign name), JobID, SendDate&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;applying-the-query&quot;&gt;Applying the query&lt;/h2&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;Replace &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;[Job ID number]&lt;/code&gt; with the actual ID of the email campaign you’re analyzing.&lt;/li&gt;
-  &lt;li&gt;Paste the code into an SQL Query activity within Marketing Cloud’s Automation Studio.&lt;/li&gt;
-  &lt;li&gt;Choose a destination Data Extension to store the retrieved subscriber data.&lt;/li&gt;
-  &lt;li&gt;Validate the code and schedule the automation.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h2 id=&quot;key-points&quot;&gt;Key points&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Use &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;DISTINCT&lt;/code&gt; to prevent duplicate records.&lt;/li&gt;
-  &lt;li&gt;Join multiple tables to gather comprehensive information.&lt;/li&gt;
-  &lt;li&gt;Filter results using WHERE to target specific subscribers and campaigns.&lt;/li&gt;
-  &lt;li&gt;Validate code before execution.&lt;/li&gt;
-  &lt;li&gt;Select relevant fields to extract meaningful insights.&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>Brandon Caples</name><email>brandon.caples@gmail.com</email></author><category term="MarTech" /><category term="SQL" /><category term="Salesforce Marketing Cloud" /><summary type="html">Salesforce Marketing Cloud offers a robust set of tools for crafting targeted email campaigns. But what if you need to leverage the full potential of your Salesforce data to create even more precise audience segments? This is where SQL comes in.</summary></entry></feed>
+&lt;p&gt;The Web Analytics Connector is a powerful tool for marketers seeking to bridge the gap between email marketing and website analytics. By using the WAC, you can gain a deeper understanding of your email campaigns’ impact and optimize your marketing efforts for maximum ROI.&lt;/p&gt;</content><author><name>Brandon Caples</name><email>brandon.caples@gmail.com</email></author><category term="MarTech" /><category term="analytics" /><category term="Salesforce Marketing Cloud" /><summary type="html">The Salesforce Marketing Cloud Web Analytics Connector (WAC) is your secret weapon for bridging the gap between email marketing and website analytics.</summary></entry></feed>

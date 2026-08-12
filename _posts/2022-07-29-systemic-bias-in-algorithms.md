@@ -11,6 +11,17 @@ featured_image: {
 description: "The algorithm is not introducing bias from scratch; it is formalizing and scaling patterns that already exist."
 category: MarTech
 tags: ["data"]
+mentions:
+  - type: Person
+    name: "Cathy O’Neil"
+    url: "https://cathyoneil.org/"
+
+  - type: Book
+    name: "Weapons of Math Destruction: How Big Data Increases Inequality and Threatens Democracy"
+    url: "https://www.penguinrandomhouse.com/books/241363/weapons-of-math-destruction-by-cathy-oneil/"
+    sameAs:
+      - "https://search.worldcat.org/title/932385614"
+
 featured: true
 permalink: /2022/systemic-bias-in-algorithms
 published: true

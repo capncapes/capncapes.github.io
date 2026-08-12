@@ -11,6 +11,11 @@ featured_image: {
 description: "Google Analytics 4 user properties are customizable attributes that describe groups of your users, such as their language preferences, geographic locations, or subscription status."
 category: MarTech
 tags: ["Google Analytics 4", "data"]
+mentions:
+  - type: SoftwareApplication
+    name: "Google Analytics 4"
+    sameAs: "https://analytics.google.com/"
+  
 howto: {
 	title: "How to add a user property to Google Analytics 4 using GTM",
 	description: "Google Analytics 4 user properties are customizable attributes that describe groups of your users.",

@@ -321,7 +321,7 @@ body > header { overflow: hidden; }
 
 #post article > ol, #post article > ul,
 #book-review article > ol, #book-review article > ul {
-	padding-left: 6rem;
+	padding-left: 5.5rem;
 	padding-right: 3rem;
 }
 
@@ -385,6 +385,7 @@ body > header { overflow: hidden; }
 	14	Tables
 ================================================================ */
 
+table caption,
 th, td {
 	padding: 0.25rem 0.5rem;
 	text-align: left;

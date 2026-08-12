@@ -1,9 +1,9 @@
 # Brandon Caples
 
-> Marketing automation specialist and web consultant with 10+ years designing lifecycle email campaigns, building complex audience segments, and improving performance through data-driven optimization — primarily in Salesforce Marketing Cloud. Also works as an independent consultant (Caples Web Consulting) building websites, email systems, and SEO/AEO-optimized content for small businesses and nonprofits.
+> Marketing automation specialist and web consultant with 10+ years in digital marketing, most recently designing lifecycle email campaigns, building complex audience segments, and improving performance through data-driven optimization — primarily in Salesforce Marketing Cloud. Also works as an independent consultant (Caples Web Consulting) building websites, email systems, and SEO/AEO-optimized content for small businesses and nonprofits.
 
 ## Resume
-- [Marketing Automation Specialist Résumé](https://brandoncaples.com/resume/): Professional email marketing automation résumé — Salesforce Marketing Cloud, audience segmentation, lifecycle marketing, SQL, AMPscript.
+- [Marketing Automation Manager Résumé](https://brandoncaples.com/resume/): Professional email marketing automation résumé — Salesforce Marketing Cloud, audience segmentation, lifecycle marketing, SQL, AMPscript.
 
 ## Portfolio
 - [Portfolio](https://brandoncaples.com/portfolio/): Portfolio overview and entry point to web and email projects.

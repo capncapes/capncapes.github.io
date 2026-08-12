@@ -11,6 +11,40 @@ featured_image: {
 description: "In an age where AI can replicate almost anything, human taste is the new luxury."
 category: MarTech
 tags: ["consumer psychology", "marketing"]
+citation:
+  - type: PodcastEpisode
+    name: "Luxury Business Secrets with LVMH Chairwoman"
+    url: "https://fashionandfounders.buzzsprout.com/2177930/episodes/19515140-luxury-business-secrets-with-lvmh-chairwoman"
+    sameAs: "https://open.spotify.com/episode/4YSeFiespkQEQK5hIdNhd9"
+    datePublished: "2026-07-19"
+    episodeNumber: 42
+    duration: "PT58M03S"
+    partOfSeries:
+      type: PodcastSeries
+      name: "Fashion & Founders The Podcast"
+      url: "https://fashionandfounders.buzzsprout.com/"
+
+    author:
+      - type: Person
+        name: "Victoria Smith"
+
+    mentions:
+      - type: Person
+        name: "Pauline Brown"
+
+mentions:
+  - type: Person
+    name: "Pauline Brown"
+    sameAs: "https://www.linkedin.com/in/paulinejbrown/"
+
+  - type: Person
+    name: "Nikheel Advani"
+    sameAs: "https://www.linkedin.com/in/nikheel-advani-53184640/"
+
+  - type: DefinedTerm
+    name: "New Look"
+    url: "https://aesthetics.fandom.com/wiki/New_Look"
+
 featured: true
 permalink: /2026/taste-simplicity-in-luxury-marketing
 published: true

@@ -200,7 +200,7 @@ ul li .nav-link, ul li .nav-item {
 }
 
 #post article > ol, #post article > ul {
-	padding-left: 7rem;
+	padding-left: 5.5rem;
 	padding-right: 3rem;
 }
 
@@ -275,6 +275,7 @@ main > *, main .cards-gallery {
 	14	Tables
 ================================================================ */
 
+table caption,
 th, tr {
 	border: 2px solid #DEDECA;
 }
