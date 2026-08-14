@@ -17,7 +17,7 @@ category: Faith
 bible_books: ["Deuteronomy", "Joel"]
 tags: ["restoration"]
 featured: false
-permalink: /2018/god-will-restore-what-was-lost
+redirect_from: /2018/god-will-restore-what-was-lost
 published: true
 ---
 

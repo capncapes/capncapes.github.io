@@ -55,7 +55,7 @@ howto: {
 	]
 }
 featured: true
-permalink: /2023/ga4-user-properties
+redirect_from: /2023/ga4-user-properties
 published: true
 ---
 

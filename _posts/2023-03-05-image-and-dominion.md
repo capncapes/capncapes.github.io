@@ -13,7 +13,7 @@ category: Faith
 bible_books: ["Genesis", "Job", "Psalms"]
 tags: ["image of God", "theology"]
 featured: false
-permalink: /2023/image-and-dominion
+redirect_from: /2023/image-and-dominion
 published: true
 ---
 

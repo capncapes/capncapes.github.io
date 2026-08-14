@@ -51,7 +51,7 @@ howto: {
 	]
 }
 featured: false
-permalink: /2023/google-analytics-4
+redirect_from: /2023/google-analytics-4
 published: true
 ---
 

@@ -13,7 +13,7 @@ category: Faith
 bible_books: ["Psalms", "Matthew"]
 tags: ["anxiety", "grief"]
 featured: true
-permalink: /2022/waiting-hoping
+redirect_from: /2022/waiting-hoping
 published: true
 ---
 

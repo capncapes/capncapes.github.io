@@ -24,29 +24,21 @@ citation:
       name: "Fashion & Founders The Podcast"
       url: "https://fashionandfounders.buzzsprout.com/"
 
-    author:
-      - type: Person
-        name: "Victoria Smith"
-
-    mentions:
-      - type: Person
-        name: "Pauline Brown"
-
 mentions:
   - type: Person
     name: "Pauline Brown"
-    sameAs: "https://www.linkedin.com/in/paulinejbrown/"
+    url: "https://www.linkedin.com/in/paulinejbrown/"
 
   - type: Person
     name: "Nikheel Advani"
-    sameAs: "https://www.linkedin.com/in/nikheel-advani-53184640/"
+    url: "https://www.linkedin.com/in/nikheel-advani-53184640/"
 
   - type: DefinedTerm
     name: "New Look"
     url: "https://aesthetics.fandom.com/wiki/New_Look"
 
 featured: true
-permalink: /2026/taste-simplicity-in-luxury-marketing
+redirect_from: /2026/taste-simplicity-in-luxury-marketing
 published: true
 ---
 

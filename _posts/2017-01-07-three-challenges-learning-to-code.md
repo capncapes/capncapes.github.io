@@ -11,7 +11,7 @@ description: "Web development is challenging; that’s part of what makes it fun
 category: MarTech
 tags: ["CSS", "HTML", "Git", "JavaScript"]
 featured: false
-permalink: /2017/three-challenges-learning-to-code
+redirect_from: /2017/three-challenges-learning-to-code
 published: true
 ---
 

@@ -23,7 +23,7 @@ mentions:
       - "https://search.worldcat.org/title/932385614"
 
 featured: true
-permalink: /2022/systemic-bias-in-algorithms
+redirect_from: /2022/systemic-bias-in-algorithms
 published: true
 ---
 

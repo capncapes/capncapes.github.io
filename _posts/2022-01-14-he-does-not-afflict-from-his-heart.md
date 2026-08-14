@@ -13,7 +13,7 @@ category: Faith
 bible_books: "Lamentations"
 tags: ["suffering", "Jeremiah"]
 featured: false
-permalink: /2022/he-does-not-afflict-from-his-heart
+redirect_from: /2022/he-does-not-afflict-from-his-heart
 published: false
 ---
 

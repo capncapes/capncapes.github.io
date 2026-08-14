@@ -13,7 +13,7 @@ category: Faith
 bible_books: ["2 Kings", "Isaiah", "Malachi", "Matthew", "John"]
 tags: ["Elijah", "John the Baptist"]
 featured: false
-permalink: /2021/john-the-baptist-mistaken-for-elijah
+redirect_from: /2021/john-the-baptist-mistaken-for-elijah
 published: true
 ---
 

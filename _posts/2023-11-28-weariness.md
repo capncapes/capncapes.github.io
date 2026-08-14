@@ -13,7 +13,7 @@ category: Faith
 bible_books: ["Psalms"]
 tags: ["faith", "suffering"]
 featured: false
-permalink: /2023/weariness
+redirect_from: /2023/weariness
 published: true
 ---
 

@@ -12,9 +12,8 @@ category: MarTech
 tags: ["web development"]
 featured: false
 published: true
-permalink: /2017/love-hate-relationship-internet-explorer
+redirect_from: /2017/love-hate-relationship-internet-explorer
 redirect_from: /blog/love-hate-relationship-internet-explorer
-redirect_from: /martech/2017/love-hate-relationship-internet-explorer/
 ---
 
 Okay, maybe _love_ is a strong word here, at least for me. Every web developer knows that Internet Explorer (IE) does things differently than other browsers, and I try to avoid it when I can, but how avoidable is it really?

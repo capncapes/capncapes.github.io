@@ -54,7 +54,7 @@ howto: {
 	]
 }
 featured: false
-permalink: /2025/sfmc-update-email-in-running-journey
+redirect_from: /2025/sfmc-update-email-in-running-journey
 published: true
 ---
 

@@ -12,7 +12,7 @@ description: "Google Analytics has recently added a new AI Assistant channel to 
 category: MarTech
 tags: ["Google Analytics 4", "data"]
 featured: true
-permalink: /2026/ga4-ai-assistant-channel
+redirect_from: /2026/ga4-ai-assistant-channel
 published: true
 ---
 

@@ -11,7 +11,7 @@ description: "Adoption grants us access to the very presence of God."
 category: Faith
 bible_books: ["Romans"]
 tags: ["adoption", "Holy Spirit"]
-permalink: /2024/embracing-divine-inheritance
+redirect_from: /2024/embracing-divine-inheritance
 featured: false
 ---
 

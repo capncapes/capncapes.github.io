@@ -12,8 +12,13 @@ description: "Scott R. Swain, Ph.D. teaches systematic theology and its perspect
 category: Faith
 bible_books: ["Psalms", "Matthew", "2 Peter"]
 tags: ["systematic theology", "Scripture"]
+mentions:
+  - type: Person
+    name: "Scott R. Swain"
+    url: "https://rts.edu/people/dr-scott-r-swain/"
+
 featured: false
-permalink: /2022/systematic-theology-scripture
+redirect_from: /2022/systematic-theology-scripture
 published: true
 ---
 

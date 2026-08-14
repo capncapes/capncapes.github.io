@@ -31,7 +31,7 @@ howto: {
 }
 featured: false
 published: true
-permalink: /2018/fix-sideways-images
+redirect_from: /2018/fix-sideways-images
 redirect_from: /blog/fix-sideways-images
 ---
 

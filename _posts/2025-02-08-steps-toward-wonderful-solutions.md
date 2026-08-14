@@ -62,7 +62,7 @@ mentions:
 
   - type: SoftwareApplication
     name: "Google Analytics 4"
-    sameAs:
+    url:
       - "https://analytics.google.com/"
 
   - type: WebPage
@@ -70,7 +70,7 @@ mentions:
     url: "https://buffer.com/metrics"
 
 featured: false
-permalink: /2025/steps-toward-wonderful-solutions
+redirect_from: /2025/steps-toward-wonderful-solutions
 published: true
 ---
 

@@ -38,7 +38,7 @@ howto: {
 	]
 }
 featured: false
-permalink: /2022/git-remove-ds-store
+redirect_from: /2022/git-remove-ds-store
 published: true
 ---
 

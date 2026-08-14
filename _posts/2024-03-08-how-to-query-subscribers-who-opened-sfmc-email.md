@@ -10,7 +10,7 @@ featured_image: {
 description: "With Marketing Cloud, you can use SQL to query a database to identify email subscribers who opened a specific email campaign."
 category: MarTech
 tags: ["SQL", "Salesforce Marketing Cloud"]
-permalink: /2024/how-to-query-subscribers-who-opened-sfmc-email
+redirect_from: /2024/how-to-query-subscribers-who-opened-sfmc-email
 featured: false
 ---
 

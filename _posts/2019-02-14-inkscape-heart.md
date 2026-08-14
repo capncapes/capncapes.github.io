@@ -58,7 +58,7 @@ howto: {
 }
 featured: false
 published: true
-permalink: /2019/inkscape-heart
+redirect_from: /2019/inkscape-heart
 redirect_from: /blog/inkscape-heart
 ---
 

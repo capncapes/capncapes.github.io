@@ -13,7 +13,7 @@ category: Faith
 bible_books: ["Proverbs", "John"]
 tags: ["Christ", "gospels"]
 featured: true
-permalink: /2023/prologue-johns-gospel
+redirect_from: /2023/prologue-johns-gospel
 published: true
 ---
 

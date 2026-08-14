@@ -12,7 +12,7 @@ description: "By using a combination of HTML and CSS tricks, you can make sure y
 category: MarTech
 tags: ["email"]
 featured: false
-permalink: /2023/bulletproof-html-email-buttons
+redirect_from: /2023/bulletproof-html-email-buttons
 published: true
 ---
 

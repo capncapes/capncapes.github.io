@@ -13,7 +13,7 @@ category: Faith
 bible_books: ["Genesis", "Hebrews"]
 tags: ["sin"]
 featured: false
-permalink: /2024/sin-crouching-at-your-door
+redirect_from: /2024/sin-crouching-at-your-door
 published: true
 ---
 
