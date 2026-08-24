@@ -88,172 +88,172 @@
 	<body id="post" class="overflow-x-hidden has-featured-image has-ads">
 		
 		<script type="application/ld+json" class="splendid-schema-graph">
+		{
+		  "@context": "https://schema.org",
+		  "@graph": [
 			{
-				"@context": "https://schema.org/",
-				"@graph": [
+			  "@type": "WebSite",
+			  "@id": "http://localhost:4000#website",
+			  "url": "http://localhost:4000",
+			  "name": "Brandon Caples",
+			  "description": "I am a marketing professional working at the intersection of strategy and technology.",
+			  "publisher": {
+				"@id": "http://localhost:4000#/schema/person/3fbbe8e23fcabc3da5c9cbc102d346c9"
+			  },
+			  "inLanguage": "en-US"
+			},
+			
+			{
+			  "@type": "ImageObject",
+			  "inLanguage": "en-US",
+			  "@id": "http://localhost:4000/martech/2023/how-to-develop-marketing-campaign#primaryimage",
+			  "url": "http://localhost:4000/assets/img/martech/chocolate-cake.jpeg",
+			  "contentUrl": "http://localhost:4000/assets/img/martech/chocolate-cake.jpeg",
+			  "caption": "Launching a marketing campaign is like baking a cake."
+			},
+			
+			{
+			  "@type": ["Article", "BlogPosting"],
+			  "@id": "http://localhost:4000/martech/2023/how-to-develop-marketing-campaign#article",
+			  "name": "How to develop a marketing campaign strategy that works",
+			  "isPartOf": {
+				"@id": "http://localhost:4000/martech/2023/how-to-develop-marketing-campaign#webpage"
+			  },
+			  "author": {
+				"@id": "http://localhost:4000#/schema/person/3fbbe8e23fcabc3da5c9cbc102d346c9",
+				"@type": "Person",
+				"name": "Brandon Caples"
+			  },
+			  "headline": "How to develop a marketing campaign strategy that works",
+			  "datePublished": "2023-07-31T05:58:00-04:00",
+			  "mainEntityOfPage": {
+				"@id": "http://localhost:4000/martech/2023/how-to-develop-marketing-campaign#webpage"
+			  },
+			  "publisher": {
+				"@id": "http://localhost:4000#/schema/person/3fbbe8e23fcabc3da5c9cbc102d346c9"
+			  },
+			  "image": {
+				"@id": "http://localhost:4000/martech/2023/how-to-develop-marketing-campaign#primaryimage"
+			  },
+			  "thumbnailUrl": "http://localhost:4000/assets/img/martech/chocolate-cake.jpeg",
+			  "keywords": [
+				
+				"marketing"
+				
+			  ],
+			  "articleSection": "MarTech",
+			  "inLanguage": "en-US"
+			},
+			{
+			  "@type": ["Person", "Organization"],
+			  "@id": "http://localhost:4000#/schema/person/3fbbe8e23fcabc3da5c9cbc102d346c9",
+			  "name": "Brandon Caples",
+			  "image": {
+				"@type": "ImageObject",
+				"inLanguage": "en-US",
+				"@id": "http://localhost:4000#/schema/person/image/",
+				"url": "http://localhost:4000/assets/img/brandon_caples.jpeg",
+				"contentUrl": "http://localhost:4000/assets/img/brandon_caples.jpeg",
+				"width": 600,
+				"height": 600,
+				"caption": "Brandon Caples"
+			  },
+			  "logo": "http://localhost:4000/assets/img/logomark.png",
+			  "description": "Brandon Caples is a marketing automation specialist and web consultant in Tennessee.",
+			  "sameAs": [
+				"https://www.linkedin.com/in/brandoncaples/",
+				"https://github.com/capncapes",
+				"https://www.salesforce.com/trailblazer/bcaples"
+			  ]
+			},
+			{
+			  "@type": "HowTo",
+			  "@id": "http://localhost:4000/martech/2023/how-to-develop-marketing-campaign#howto-1",
+			  "name": "How to develop a marketing campaign strategy that works",
+			  "mainEntityOfPage": {
+				"@id": "http://localhost:4000/martech/2023/how-to-develop-marketing-campaign#article"
+			  },
+			  "description": "A well-planned campaign strategy is the difference between attracting new customers and losing ground to the competition.",
+			  "totalTime": "P1D",
+			  "step": [
+				
+				{
+				  "@type": "HowToStep",
+				  "url": "http://localhost:4000/martech/2023/how-to-develop-marketing-campaign#how-to-step-1",
+				  "name": "Uncover organizational challenges",
+				  "itemListElement": [
 					{
-						"@type": "WebSite",
-						"@id": "http://localhost:4000#website",
-						"url": "http://localhost:4000",
-						"name": "Brandon Caples",
-						"description": "I am a marketing professional working at the intersection of strategy and technology.",
-						"publisher": {
-							"@id": "http://localhost:4000#/schema/person/3fbbe8e23fcabc3da5c9cbc102d346c9"
-						},
-						"inLanguage": "en-US"
-					},
-					
-					{
-						"@type": "ImageObject",
-						"inLanguage": "en-US",
-						"@id": "http://localhost:4000/martech/2023/how-to-develop-marketing-campaign#primaryimage",
-						"url": "http://localhost:4000/assets/img/martech/chocolate-cake.jpeg",
-						"contentUrl": "http://localhost:4000/assets/img/martech/chocolate-cake.jpeg",
-						"caption": "Launching a marketing campaign is like baking a cake."
-					},
-					
-					{
-						"@type": [
-							"Article",
-							"BlogPosting"
-						],
-						"@id": "http://localhost:4000/martech/2023/how-to-develop-marketing-campaign#article",
-						"name": "How to develop a marketing campaign strategy that works",
-						"isPartOf": {
-							"@id": "http://localhost:4000/martech/2023/how-to-develop-marketing-campaign#webpage"
-						},
-						"author": {
-							"@id": "http://localhost:4000#/schema/person/3fbbe8e23fcabc3da5c9cbc102d346c9"
-							"@type": "Person",
-							"name": "Brandon Caples"
-						},
-						"headline": "How to develop a marketing campaign strategy that works",
-						"datePublished": "2023-07-31T05:58:00-05:00",
-						"mainEntityOfPage": {
-							"@id": "http://localhost:4000/martech/2023/how-to-develop-marketing-campaign#webpage"
-						},
-						"publisher": {
-							"@id": "http://localhost:4000#/schema/person/3fbbe8e23fcabc3da5c9cbc102d346c9"
-						},
-						"image": "http://localhost:4000/assets/img/martech/chocolate-cake.jpeg",
-						"thumbnailUrl": "http://localhost:4000/assets/img/martech/chocolate-cake.jpeg",
-						"keywords": [ "marketing"],
-						"articleSection": "MarTech",
-						"inLanguage": "en-US"
-					},
-					{
-						"@type": [
-							"Person",
-							"Organization"
-						],
-						"@id": "http://localhost:4000#/schema/person/3fbbe8e23fcabc3da5c9cbc102d346c9",
-						"name": "Brandon Caples",
-						"image": {
-							"@type": "ImageObject",
-							"inLanguage": "en-US",
-							"@id": "http://localhost:4000#/schema/person/image/",
-							"url": "http://localhost:4000/assets/img/brandon_caples.jpeg",
-							"contentUrl": "http://localhost:4000/assets/img/brandon_caples.jpeg",
-							"width": 600,
-							"height": 600,
-							"caption": "Brandon Caples"
-						},
-						"logo": "http://localhost:4000/assets/img/logomark.png",
-						"description": "Brandon Caples is a marketing automation specialist and web consultant in Tennessee.",
-						"sameAs": [
-							"https://www.linkedin.com/in/brandoncaples/",
-							"https://github.com/capncapes",
-							"https://www.salesforce.com/trailblazer/bcaples"
-						]
-					},
-					{
-						"@type": "HowTo",
-						"@id": "http://localhost:4000/martech/2023/how-to-develop-marketing-campaign#howto-1",
-						"name": "How to develop a marketing campaign strategy that works",
-						"mainEntityOfPage": {
-							"@id": "http://localhost:4000/martech/2023/how-to-develop-marketing-campaign#article"
-						},
-						"description": "A well-planned campaign strategy is the difference between attracting new customers and losing ground to the competition.",
-						"totalTime": P1D,
-						"step": [
-						
-							{
-								"@type": "HowToStep",
-								"url": "http://localhost:4000/martech/2023/how-to-develop-marketing-campaign#how-to-step-1",
-								"name": "Uncover organizational challenges",
-								"itemListElement": [
-									{
-										"@type": "HowToDirection",
-										"text": "Ask discovery questions to identify challenges that can be addressed."
-									}
-								]
-							},
-						
-							{
-								"@type": "HowToStep",
-								"url": "http://localhost:4000/martech/2023/how-to-develop-marketing-campaign#how-to-step-2",
-								"name": "Identify your target audience",
-								"itemListElement": [
-									{
-										"@type": "HowToDirection",
-										"text": "Who are you trying to reach? What are their needs, aspirations, and challenges?"
-									}
-								]
-							},
-						
-							{
-								"@type": "HowToStep",
-								"url": "http://localhost:4000/martech/2023/how-to-develop-marketing-campaign#how-to-step-3",
-								"name": "Determine measurable KPIs",
-								"itemListElement": [
-									{
-										"@type": "HowToDirection",
-										"text": "hoose measurable key performance indicators that align with your goals and provide actionable insights."
-									}
-								]
-							},
-						
-							{
-								"@type": "HowToStep",
-								"url": "http://localhost:4000/martech/2023/how-to-develop-marketing-campaign#how-to-step-4",
-								"name": "Formulate a hypothesis",
-								"itemListElement": [
-									{
-										"@type": "HowToDirection",
-										"text": "Formulate a hypothesis to guide your campaign development and allow you to test and refine your approach."
-									}
-								]
-							},
-						
-							{
-								"@type": "HowToStep",
-								"url": "http://localhost:4000/martech/2023/how-to-develop-marketing-campaign#how-to-step-5",
-								"name": "Review necessary content",
-								"itemListElement": [
-									{
-										"@type": "HowToDirection",
-										"text": "Take an inventory of your content needs. What type of content will resonate with your target audience?"
-									}
-								]
-							},
-						
-							{
-								"@type": "HowToStep",
-								"url": "http://localhost:4000/martech/2023/how-to-develop-marketing-campaign#how-to-step-6",
-								"name": "Analyze and refine",
-								"itemListElement": [
-									{
-										"@type": "HowToDirection",
-										"text": "Analyze your campaign. Be ready to adapt your strategy as you learn new insights."
-									}
-								]
-							},
-						
-						],
-						"inLanguage": "en-US"
+					  "@type": "HowToDirection",
+					  "text": "Ask discovery questions to identify challenges that can be addressed."
 					}
-				]
+				  ]
+				},
+				
+				{
+				  "@type": "HowToStep",
+				  "url": "http://localhost:4000/martech/2023/how-to-develop-marketing-campaign#how-to-step-2",
+				  "name": "Identify your target audience",
+				  "itemListElement": [
+					{
+					  "@type": "HowToDirection",
+					  "text": "Who are you trying to reach? What are their needs, aspirations, and challenges?"
+					}
+				  ]
+				},
+				
+				{
+				  "@type": "HowToStep",
+				  "url": "http://localhost:4000/martech/2023/how-to-develop-marketing-campaign#how-to-step-3",
+				  "name": "Determine measurable KPIs",
+				  "itemListElement": [
+					{
+					  "@type": "HowToDirection",
+					  "text": "hoose measurable key performance indicators that align with your goals and provide actionable insights."
+					}
+				  ]
+				},
+				
+				{
+				  "@type": "HowToStep",
+				  "url": "http://localhost:4000/martech/2023/how-to-develop-marketing-campaign#how-to-step-4",
+				  "name": "Formulate a hypothesis",
+				  "itemListElement": [
+					{
+					  "@type": "HowToDirection",
+					  "text": "Formulate a hypothesis to guide your campaign development and allow you to test and refine your approach."
+					}
+				  ]
+				},
+				
+				{
+				  "@type": "HowToStep",
+				  "url": "http://localhost:4000/martech/2023/how-to-develop-marketing-campaign#how-to-step-5",
+				  "name": "Review necessary content",
+				  "itemListElement": [
+					{
+					  "@type": "HowToDirection",
+					  "text": "Take an inventory of your content needs. What type of content will resonate with your target audience?"
+					}
+				  ]
+				},
+				
+				{
+				  "@type": "HowToStep",
+				  "url": "http://localhost:4000/martech/2023/how-to-develop-marketing-campaign#how-to-step-6",
+				  "name": "Analyze and refine",
+				  "itemListElement": [
+					{
+					  "@type": "HowToDirection",
+					  "text": "Analyze your campaign. Be ready to adapt your strategy as you learn new insights."
+					}
+				  ]
+				}
+				
+			  ],
+			  "inLanguage": "en-US"
 			}
+		  ]
+		}
 		</script>
 		<header id="splendid-header" itemscope itemtype="https://schema.org/WPHeader" class="splendid-flex sticky top-0 py-0 px-10 flex-col justify-center items-center shadow">
 	<div id="nav-container" class="container splendid-flex w-full max-w-5 mx-auto py-7 lg:py-0 sm:px-0 md:px-10 lg:px-16 flex-row flex-nowrap justify-between items-center">

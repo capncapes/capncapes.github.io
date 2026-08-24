@@ -14,27 +14,27 @@
 			<h1 class="relative max-w-4 mx-auto pt-20 text-3xl lg:text-4xl{% if page.url != '/portfolio/' %} text-white{% endif %} font-bold">{{ page.title }}</h1>
 		</div>
 		{% if page.url != '/portfolio/' %}
-			<nav id="breadcrumb" class="px-7 md:px-10" aria-label="breadcrumb">
+			<nav id="breadcrumb" class="px-7 md:px-10" aria-label="Breadcrumb">
 				<ol class="splendid-flex relative flex-row max-w-4 mb-0 lg:mx-auto" itemscope itemtype="https://schema.org/BreadcrumbList">
 					<li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
-						<a class="text-xs md:text-sm text-white" itemprop="item" href="/portfolio/">
+						<a class="text-xs md:text-sm text-white" itemprop="item" href="{{ '/portfolio/' | relative_url }}">
 							<span itemprop="name">Portfolio</span>
 						</a>
-						<meta itemprop="position" content="1" />
+						<meta itemprop="position" content="1">
 					</li>
 					{% if page.category == 'email' or page.category == 'web' %}
 					<li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
-						<span class="text-xs md:text-sm text-white" itemprop="item" class="font-bold">
-							<span itemprop="name" class="font-bold">{% if page.category == 'email' %}Emails{% else %}Web Projects{% endif %}</span>
+						<span class="text-xs md:text-sm text-white font-bold" itemprop="name">
+						  {% if page.category == 'email' %}Emails{% else %}Web Projects{% endif %}
 						</span>
-						<meta itemprop="position" content="2" />
+						<meta itemprop="position" content="2">
 					</li>
 					{% else %}
 					<li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
-						<span class="text-xs md:text-sm text-white" itemprop="item" class="font-bold">
-							<span itemprop="name" class="font-bold">{{ page.title }}</span>
+						<span class="text-xs md:text-sm text-white font-bold" itemprop="name">
+						  {{ page.title }}
 						</span>
-						<meta itemprop="position" content="2" />
+						<meta itemprop="position" content="2">
 					</li>
 					{% endif %}
 				</ol>

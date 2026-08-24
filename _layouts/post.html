@@ -10,169 +10,153 @@
 			<!-- End Google Tag Manager (noscript) -->
 		{% endif %}
 		<script type="application/ld+json" class="splendid-schema-graph">
+		{
+		  "@context": "https://schema.org",
+		  "@graph": [
 			{
-				"@context": "https://schema.org/",
-				"@graph": [
+			  "@type": "WebSite",
+			  "@id": {{ site.url | append: '#website' | jsonify }},
+			  "url": {{ site.url | jsonify }},
+			  "name": {{ site.meta.title | jsonify }},
+			  "description": {{ site.meta.description | jsonify }},
+			  "publisher": {
+				"@id": {{ site.url | append: '#/schema/person/3fbbe8e23fcabc3da5c9cbc102d346c9' | jsonify }}
+			  },
+			  "inLanguage": "en-US"
+			},
+			{% if page.featured_image.fallback %}
+			{
+			  "@type": "ImageObject",
+			  "inLanguage": "en-US",
+			  "@id": {{ page.url | absolute_url | append: '#primaryimage' | jsonify }},
+			  "url": {{ site.url | append: '/assets/img/' | append: page.category | downcase | append: '/' | append: page.featured_image.fallback | jsonify }},
+			  "contentUrl": {{ site.url | append: '/assets/img/' | append: page.category | downcase | append: '/' | append: page.featured_image.fallback | jsonify }},
+			  "caption": {{ page.featured_image.alt | jsonify }}
+			},
+			{% endif %}
+			{
+			  "@type": ["Article", "BlogPosting"],
+			  "@id": {{ page.url | absolute_url | append: '#article' | jsonify }},
+			  "name": {{ page.title | jsonify }},
+			  "isPartOf": {
+				"@id": {{ page.url | absolute_url | append: '#webpage' | jsonify }}
+			  },
+			  "author": {
+				"@id": {{ site.url | append: '#/schema/person/3fbbe8e23fcabc3da5c9cbc102d346c9' | jsonify }},
+				"@type": "Person",
+				"name": "Brandon Caples"
+			  },
+			  "headline": {{ page.title | jsonify }},
+			  "datePublished": {{ page.date | date: '%Y-%m-%dT%H:%M:%S%:z' | jsonify }},
+			  "mainEntityOfPage": {
+				"@id": {{ page.url | absolute_url | append: '#webpage' | jsonify }}
+			  },
+			  "publisher": {
+				"@id": {{ site.url | append: '#/schema/person/3fbbe8e23fcabc3da5c9cbc102d346c9' | jsonify }}
+			  }{% if page.featured_image.fallback %},
+			  "image": {
+				"@id": {{ page.url | absolute_url | append: '#primaryimage' | jsonify }}
+			  },
+			  "thumbnailUrl": {{ site.url | append: '/assets/img/' | append: page.category | downcase | append: '/' | append: page.featured_image.fallback | jsonify }}{% endif %},
+			  "keywords": [
+				{% for tag in page.tags %}
+				{{ tag | jsonify }}{% unless forloop.last %},{% endunless %}
+				{% endfor %}
+			  ],
+			  "articleSection": {{ page.category | jsonify }},
+			  "inLanguage": "en-US"{% if page.citation and page.citation.size > 0 %},
+			  "citation": [
+				{% for source in page.citation %}
+				{
+				  "@type": {{ source.type | default: "ScholarlyArticle" | jsonify }},
+				  "name": {{ source.name | jsonify }}{% if source.url %},
+				  "url": {{ source.url | jsonify }}{% endif %}{% if source.sameAs and source.sameAs.size > 0 %},
+				  "sameAs": [
+					{% for identifier in source.sameAs %}
+					{{ identifier | jsonify }}{% unless forloop.last %},{% endunless %}
+					{% endfor %}
+				  ]{% endif %}{% if source.author and source.author.size > 0 %},
+				  "author": [
+					{% for person in source.author %}
 					{
-						"@type": "WebSite",
-						"@id": "{{ site.url }}#website",
-						"url": "{{ site.url }}",
-						"name": "{{ site.meta.title }}",
-						"description": "{{ site.meta.description }}",
-						"publisher": {
-							"@id": "{{ site.url }}#/schema/person/3fbbe8e23fcabc3da5c9cbc102d346c9"
-						},
-						"inLanguage": "en-US"
-					},
-					{% if page.featured_image.fallback %}
-					{
-						"@type": "ImageObject",
-						"inLanguage": "en-US",
-						"@id": "{{ page.url | absolute_url }}#primaryimage",
-						"url": "{{ site.url }}/assets/img/{{ page.category | downcase }}/{{ page.featured_image.fallback }}",
-						"contentUrl": "{{ site.url }}/assets/img/{{ page.category | downcase }}/{{ page.featured_image.fallback }}",
-						"caption": "{{ page.featured_image.alt }}"
-					},
-					{% endif %}
-					{
-						"@type": [
-							"Article",
-							"BlogPosting"
-						],
-						"@id": "{{ page.url | absolute_url }}#article",
-						"name": "{{ page.title }}",
-						"isPartOf": {
-							"@id": "{{ page.url | absolute_url }}#webpage"
-						},
-						"author": {
-							"@id": "{{ site.url }}#/schema/person/3fbbe8e23fcabc3da5c9cbc102d346c9"
-							"@type": "Person",
-							"name": "Brandon Caples"
-						},
-						"headline": "{{ page.title }}",
-						"datePublished": "{{ page.date | date: '%Y-%m-%dT%H:%M:%S-05:00' }}",
-						"mainEntityOfPage": {
-							"@id": "{{ page.url | absolute_url }}#webpage"
-						},
-						"publisher": {
-							"@id": "{{ site.url }}#/schema/person/3fbbe8e23fcabc3da5c9cbc102d346c9"
-						},
-						"image": "{{ site.url }}/assets/img/{{ page.category | downcase }}/{{ page.featured_image.fallback }}",
-						"thumbnailUrl": "{{ site.url }}/assets/img/{{ page.category | downcase }}/{{ page.featured_image.fallback }}",
-						"keywords": [{% for t in page.tags %} "{{ t }}"{% if forloop.last != true %},{% endif %}{% endfor %}],
-						"articleSection": "{{ page.category }}",
-						"inLanguage": "en-US"
-					},
-					{
-						"@type": [
-							"Person",
-							"Organization"
-						],
-						"@id": "{{ site.url }}#/schema/person/3fbbe8e23fcabc3da5c9cbc102d346c9",
-						"name": "{{ site.meta.title }}",
-						"image": {
-							"@type": "ImageObject",
-							"inLanguage": "en-US",
-							"@id": "{{ site.url }}#/schema/person/image/",
-							"url": "{{ site.url }}/assets/img/brandon_caples.jpeg",
-							"contentUrl": "{{ site.url }}/assets/img/brandon_caples.jpeg",
-							"width": 600,
-							"height": 600,
-							"caption": "{{ site.meta.title }}"
-						},
-						"logo": "{{ site.url }}/assets/img/logomark.png",
-						"description": "Brandon Caples is a marketing automation specialist and web consultant in Tennessee.",
-						"sameAs": [
-							"https://www.linkedin.com/in/brandoncaples/",
-							"https://github.com/capncapes",
-							"https://www.salesforce.com/trailblazer/bcaples"
-						]
-					}{% if page.howto %},
-					{
-						"@type": "HowTo",
-						"@id": "{{ page.url | absolute_url }}#howto-1",
-						"name": "{{ page.howto.title }}",
-						"mainEntityOfPage": {
-							"@id": "{{ page.url | absolute_url }}#article"
-						},
-						"description": "{{ page.howto.description }}",
-						"totalTime": {{ page.howto.time.formatted }},
-						"step": [
-						{% for step in page.howto.steps %}
-							{
-								"@type": "HowToStep",
-								"url": "{{ page.url | absolute_url }}#how-to-step-{{ forloop.index0 | plus: 1 }}",
-								"name": "{{ step.name }}",
-								"itemListElement": [
-									{
-										"@type": "HowToDirection",
-										"text": "{{ step.text }}"
-									}
-								]
-							},
+					  "@type": {{ person.type | default: "Person" | jsonify }},
+					  "name": {{ person.name | jsonify }}{% if person.sameAs and person.sameAs.size > 0 %},
+					  "sameAs": [
+						{% for profile in person.sameAs %}
+						{{ profile | jsonify }}{% unless forloop.last %},{% endunless %}
 						{% endfor %}
-						],
-						"inLanguage": "en-US"
-					}{% endif %}
-					{%- if page.citation and page.citation.size > 0 %}
-					  "citation": [
-						{%- for source in page.citation %}
-						{
-						  "@type": {{ source.type | default: "ScholarlyArticle" | jsonify }},
-						  "name": {{ source.name | jsonify }}
-						  {%- if source.url %},
-						  "url": {{ source.url | jsonify }}
-						  {%- endif %}
-						  {%- if source.sameAs and source.sameAs.size > 0 %},
-						  "sameAs": [
-							{%- for identifier in source.sameAs %}
-							{{ identifier | jsonify }}{% unless forloop.last %},{% endunless %}
-							{%- endfor %}
-						  ]
-						  {%- endif %}
-						  {%- if source.author and source.author.size > 0 %},
-						  "author": [
-							{%- for person in source.author %}
-							{
-							  "@type": {{ person.type | default: "Person" | jsonify }},
-							  "name": {{ person.name | jsonify }}
-							  {%- if person.sameAs and person.sameAs.size > 0 %},
-							  "sameAs": [
-								{%- for profile in person.sameAs %}
-								{{ profile | jsonify }}{% unless forloop.last %},{% endunless %}
-								{%- endfor %}
-							  ]
-							  {%- endif %}
-							}{% unless forloop.last %},{% endunless %}
-							{%- endfor %}
-						  ]
-						  {%- endif %}
-						}{% unless forloop.last %},{% endunless %}
-						{%- endfor %}
-					  ]
-					  {%- endif %}
-					  {%- if page.mentions and page.mentions.size > 0 %}{% if page.citation and page.citation.size > 0 %},{% endif %}
-					  "mentions": [
-						{%- for entity in page.mentions %}
-						{
-						  "@type": {{ entity.type | default: "Thing" | jsonify }},
-						  "name": {{ entity.name | jsonify }}
-						  {%- if entity.url %},
-						  "url": {{ entity.url | jsonify }}
-						  {%- endif %}
-						  {%- if entity.sameAs and entity.sameAs.size > 0 %},
-						  "sameAs": [
-							{%- for identifier in entity.sameAs %}
-							{{ identifier | jsonify }}{% unless forloop.last %},{% endunless %}
-							{%- endfor %}
-						  ]
-						  {%- endif %}
-						}{% unless forloop.last %},{% endunless %}
-						{%- endfor %}
-					  ]
-					  {%- endif %}
-				]
-			}
+					  ]{% endif %}
+					}{% unless forloop.last %},{% endunless %}
+					{% endfor %}
+				  ]{% endif %}
+				}{% unless forloop.last %},{% endunless %}
+				{% endfor %}
+			  ]{% endif %}{% if page.mentions and page.mentions.size > 0 %},
+			  "mentions": [
+				{% for entity in page.mentions %}
+				{
+				  "@type": {{ entity.type | default: "Thing" | jsonify }},
+				  "name": {{ entity.name | jsonify }}{% if entity.url %},
+				  "url": {{ entity.url | jsonify }}{% endif %}{% if entity.sameAs and entity.sameAs.size > 0 %},
+				  "sameAs": [
+					{% for identifier in entity.sameAs %}
+					{{ identifier | jsonify }}{% unless forloop.last %},{% endunless %}
+					{% endfor %}
+				  ]{% endif %}
+				}{% unless forloop.last %},{% endunless %}
+				{% endfor %}
+			  ]{% endif %}
+			},
+			{
+			  "@type": ["Person", "Organization"],
+			  "@id": {{ site.url | append: '#/schema/person/3fbbe8e23fcabc3da5c9cbc102d346c9' | jsonify }},
+			  "name": {{ site.meta.title | jsonify }},
+			  "image": {
+				"@type": "ImageObject",
+				"inLanguage": "en-US",
+				"@id": {{ site.url | append: '#/schema/person/image/' | jsonify }},
+				"url": {{ site.url | append: '/assets/img/brandon_caples.jpeg' | jsonify }},
+				"contentUrl": {{ site.url | append: '/assets/img/brandon_caples.jpeg' | jsonify }},
+				"width": 600,
+				"height": 600,
+				"caption": {{ site.meta.title | jsonify }}
+			  },
+			  "logo": {{ site.url | append: '/assets/img/logomark.png' | jsonify }},
+			  "description": "Brandon Caples is a marketing automation specialist and web consultant in Tennessee.",
+			  "sameAs": [
+				"https://www.linkedin.com/in/brandoncaples/",
+				"https://github.com/capncapes",
+				"https://www.salesforce.com/trailblazer/bcaples"
+			  ]
+			}{% if page.howto %},
+			{
+			  "@type": "HowTo",
+			  "@id": {{ page.url | absolute_url | append: '#howto-1' | jsonify }},
+			  "name": {{ page.howto.title | jsonify }},
+			  "mainEntityOfPage": {
+				"@id": {{ page.url | absolute_url | append: '#article' | jsonify }}
+			  },
+			  "description": {{ page.howto.description | jsonify }},
+			  "totalTime": {{ page.howto.time.formatted | jsonify }},
+			  "step": [
+				{% for step in page.howto.steps %}
+				{
+				  "@type": "HowToStep",
+				  "url": {{ page.url | absolute_url | append: '#how-to-step-' | append: forloop.index | jsonify }},
+				  "name": {{ step.name | jsonify }},
+				  "itemListElement": [
+					{
+					  "@type": "HowToDirection",
+					  "text": {{ step.text | jsonify }}
+					}
+				  ]
+				}{% unless forloop.last %},{% endunless %}
+				{% endfor %}
+			  ],
+			  "inLanguage": "en-US"
+			}{% endif %}
+		  ]
+		}
 		</script>
 		{% include header.html %}
 		<main class="lg:w-70 lg:pt-24 pb-16 px-7 md:px-10">

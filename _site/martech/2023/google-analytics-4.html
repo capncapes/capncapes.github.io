@@ -90,181 +90,187 @@
 	<body id="post" class="overflow-x-hidden has-featured-image has-ads">
 		
 		<script type="application/ld+json" class="splendid-schema-graph">
+		{
+		  "@context": "https://schema.org",
+		  "@graph": [
 			{
-				"@context": "https://schema.org/",
-				"@graph": [
-					{
-						"@type": "WebSite",
-						"@id": "http://localhost:4000#website",
-						"url": "http://localhost:4000",
-						"name": "Brandon Caples",
-						"description": "I am a marketing professional working at the intersection of strategy and technology.",
-						"publisher": {
-							"@id": "http://localhost:4000#/schema/person/3fbbe8e23fcabc3da5c9cbc102d346c9"
-						},
-						"inLanguage": "en-US"
-					},
+			  "@type": "WebSite",
+			  "@id": "http://localhost:4000#website",
+			  "url": "http://localhost:4000",
+			  "name": "Brandon Caples",
+			  "description": "I am a marketing professional working at the intersection of strategy and technology.",
+			  "publisher": {
+				"@id": "http://localhost:4000#/schema/person/3fbbe8e23fcabc3da5c9cbc102d346c9"
+			  },
+			  "inLanguage": "en-US"
+			},
+			
+			{
+			  "@type": "ImageObject",
+			  "inLanguage": "en-US",
+			  "@id": "http://localhost:4000/martech/2023/google-analytics-4#primaryimage",
+			  "url": "http://localhost:4000/assets/img/martech/analytics-laptop.jpeg",
+			  "contentUrl": "http://localhost:4000/assets/img/martech/analytics-laptop.jpeg",
+			  "caption": "An open laptop viewing a Google Analytics 4 report"
+			},
+			
+			{
+			  "@type": ["Article", "BlogPosting"],
+			  "@id": "http://localhost:4000/martech/2023/google-analytics-4#article",
+			  "name": "Making the switch from Universal Analytics to Google Analytics 4",
+			  "isPartOf": {
+				"@id": "http://localhost:4000/martech/2023/google-analytics-4#webpage"
+			  },
+			  "author": {
+				"@id": "http://localhost:4000#/schema/person/3fbbe8e23fcabc3da5c9cbc102d346c9",
+				"@type": "Person",
+				"name": "Brandon Caples"
+			  },
+			  "headline": "Making the switch from Universal Analytics to Google Analytics 4",
+			  "datePublished": "2023-05-09T09:10:01-04:00",
+			  "mainEntityOfPage": {
+				"@id": "http://localhost:4000/martech/2023/google-analytics-4#webpage"
+			  },
+			  "publisher": {
+				"@id": "http://localhost:4000#/schema/person/3fbbe8e23fcabc3da5c9cbc102d346c9"
+			  },
+			  "image": {
+				"@id": "http://localhost:4000/martech/2023/google-analytics-4#primaryimage"
+			  },
+			  "thumbnailUrl": "http://localhost:4000/assets/img/martech/analytics-laptop.jpeg",
+			  "keywords": [
+				
+				"Google Analytics 4",
+				
+				"data"
+				
+			  ],
+			  "articleSection": "MarTech",
+			  "inLanguage": "en-US",
+			  "mentions": [
+				
+				{
+				  "@type": "SoftwareApplication",
+				  "name": "Google Analytics 4",
+				  "sameAs": [
 					
-					{
-						"@type": "ImageObject",
-						"inLanguage": "en-US",
-						"@id": "http://localhost:4000/martech/2023/google-analytics-4#primaryimage",
-						"url": "http://localhost:4000/assets/img/martech/analytics-laptop.jpeg",
-						"contentUrl": "http://localhost:4000/assets/img/martech/analytics-laptop.jpeg",
-						"caption": "An open laptop viewing a Google Analytics 4 report"
-					},
+					"https://analytics.google.com/"
 					
+				  ]
+				}
+				
+			  ]
+			},
+			{
+			  "@type": ["Person", "Organization"],
+			  "@id": "http://localhost:4000#/schema/person/3fbbe8e23fcabc3da5c9cbc102d346c9",
+			  "name": "Brandon Caples",
+			  "image": {
+				"@type": "ImageObject",
+				"inLanguage": "en-US",
+				"@id": "http://localhost:4000#/schema/person/image/",
+				"url": "http://localhost:4000/assets/img/brandon_caples.jpeg",
+				"contentUrl": "http://localhost:4000/assets/img/brandon_caples.jpeg",
+				"width": 600,
+				"height": 600,
+				"caption": "Brandon Caples"
+			  },
+			  "logo": "http://localhost:4000/assets/img/logomark.png",
+			  "description": "Brandon Caples is a marketing automation specialist and web consultant in Tennessee.",
+			  "sameAs": [
+				"https://www.linkedin.com/in/brandoncaples/",
+				"https://github.com/capncapes",
+				"https://www.salesforce.com/trailblazer/bcaples"
+			  ]
+			},
+			{
+			  "@type": "HowTo",
+			  "@id": "http://localhost:4000/martech/2023/google-analytics-4#howto-1",
+			  "name": "How to add a user property to Google Analytics 4 using GTM",
+			  "mainEntityOfPage": {
+				"@id": "http://localhost:4000/martech/2023/google-analytics-4#article"
+			  },
+			  "description": "Google Analytics 4 user properties are customizable attributes that describe groups of your users.",
+			  "totalTime": "PT10M",
+			  "step": [
+				
+				{
+				  "@type": "HowToStep",
+				  "url": "http://localhost:4000/martech/2023/google-analytics-4#how-to-step-1",
+				  "name": "Create a new GA4 property",
+				  "itemListElement": [
 					{
-						"@type": [
-							"Article",
-							"BlogPosting"
-						],
-						"@id": "http://localhost:4000/martech/2023/google-analytics-4#article",
-						"name": "Making the switch from Universal Analytics to Google Analytics 4",
-						"isPartOf": {
-							"@id": "http://localhost:4000/martech/2023/google-analytics-4#webpage"
-						},
-						"author": {
-							"@id": "http://localhost:4000#/schema/person/3fbbe8e23fcabc3da5c9cbc102d346c9"
-							"@type": "Person",
-							"name": "Brandon Caples"
-						},
-						"headline": "Making the switch from Universal Analytics to Google Analytics 4",
-						"datePublished": "2023-05-09T09:10:01-05:00",
-						"mainEntityOfPage": {
-							"@id": "http://localhost:4000/martech/2023/google-analytics-4#webpage"
-						},
-						"publisher": {
-							"@id": "http://localhost:4000#/schema/person/3fbbe8e23fcabc3da5c9cbc102d346c9"
-						},
-						"image": "http://localhost:4000/assets/img/martech/analytics-laptop.jpeg",
-						"thumbnailUrl": "http://localhost:4000/assets/img/martech/analytics-laptop.jpeg",
-						"keywords": [ "Google Analytics 4", "data"],
-						"articleSection": "MarTech",
-						"inLanguage": "en-US"
-					},
-					{
-						"@type": [
-							"Person",
-							"Organization"
-						],
-						"@id": "http://localhost:4000#/schema/person/3fbbe8e23fcabc3da5c9cbc102d346c9",
-						"name": "Brandon Caples",
-						"image": {
-							"@type": "ImageObject",
-							"inLanguage": "en-US",
-							"@id": "http://localhost:4000#/schema/person/image/",
-							"url": "http://localhost:4000/assets/img/brandon_caples.jpeg",
-							"contentUrl": "http://localhost:4000/assets/img/brandon_caples.jpeg",
-							"width": 600,
-							"height": 600,
-							"caption": "Brandon Caples"
-						},
-						"logo": "http://localhost:4000/assets/img/logomark.png",
-						"description": "Brandon Caples is a marketing automation specialist and web consultant in Tennessee.",
-						"sameAs": [
-							"https://www.linkedin.com/in/brandoncaples/",
-							"https://github.com/capncapes",
-							"https://www.salesforce.com/trailblazer/bcaples"
-						]
-					},
-					{
-						"@type": "HowTo",
-						"@id": "http://localhost:4000/martech/2023/google-analytics-4#howto-1",
-						"name": "How to add a user property to Google Analytics 4 using GTM",
-						"mainEntityOfPage": {
-							"@id": "http://localhost:4000/martech/2023/google-analytics-4#article"
-						},
-						"description": "Google Analytics 4 user properties are customizable attributes that describe groups of your users.",
-						"totalTime": PT10M,
-						"step": [
-						
-							{
-								"@type": "HowToStep",
-								"url": "http://localhost:4000/martech/2023/google-analytics-4#how-to-step-1",
-								"name": "Create a new GA4 property",
-								"itemListElement": [
-									{
-										"@type": "HowToDirection",
-										"text": "Create a new Google Analytics 4 property."
-									}
-								]
-							},
-						
-							{
-								"@type": "HowToStep",
-								"url": "http://localhost:4000/martech/2023/google-analytics-4#how-to-step-2",
-								"name": "Update tracking codes",
-								"itemListElement": [
-									{
-										"@type": "HowToDirection",
-										"text": "Update the tracking code on your website to include the new GA4 snippet and your measurement ID."
-									}
-								]
-							},
-						
-							{
-								"@type": "HowToStep",
-								"url": "http://localhost:4000/martech/2023/google-analytics-4#how-to-step-3",
-								"name": "Enable data import",
-								"itemListElement": [
-									{
-										"@type": "HowToDirection",
-										"text": "Utilize the data import feature to bring historical data from Universal Analytics into your GA4 property."
-									}
-								]
-							},
-						
-							{
-								"@type": "HowToStep",
-								"url": "http://localhost:4000/martech/2023/google-analytics-4#how-to-step-4",
-								"name": "Set up events",
-								"itemListElement": [
-									{
-										"@type": "HowToDirection",
-										"text": "Review your existing events in Universal Analytics and recreate them in GA4 using the new event-driven model."
-									}
-								]
-							},
-						
-							{
-								"@type": "HowToStep",
-								"url": "http://localhost:4000/martech/2023/google-analytics-4#how-to-step-5",
-								"name": "Set up conversions",
-								"itemListElement": [
-									{
-										"@type": "HowToDirection",
-										"text": "Set up conversion events in Settings."
-									}
-								]
-							},
-						
-							{
-								"@type": "HowToStep",
-								"url": "http://localhost:4000/martech/2023/google-analytics-4#how-to-step-6",
-								"name": "Explore new features",
-								"itemListElement": [
-									{
-										"@type": "HowToDirection",
-										"text": "Experiment with the new tools and features to maximize the value of your analytics data."
-									}
-								]
-							},
-						
-						],
-						"inLanguage": "en-US"
+					  "@type": "HowToDirection",
+					  "text": "Create a new Google Analytics 4 property."
 					}
-					  "mentions": [
-						{
-						  "@type": "SoftwareApplication",
-						  "name": "Google Analytics 4",
-						  "sameAs": [
-							"https://analytics.google.com/"
-						  ]
-						}
-					  ]
-				]
+				  ]
+				},
+				
+				{
+				  "@type": "HowToStep",
+				  "url": "http://localhost:4000/martech/2023/google-analytics-4#how-to-step-2",
+				  "name": "Update tracking codes",
+				  "itemListElement": [
+					{
+					  "@type": "HowToDirection",
+					  "text": "Update the tracking code on your website to include the new GA4 snippet and your measurement ID."
+					}
+				  ]
+				},
+				
+				{
+				  "@type": "HowToStep",
+				  "url": "http://localhost:4000/martech/2023/google-analytics-4#how-to-step-3",
+				  "name": "Enable data import",
+				  "itemListElement": [
+					{
+					  "@type": "HowToDirection",
+					  "text": "Utilize the data import feature to bring historical data from Universal Analytics into your GA4 property."
+					}
+				  ]
+				},
+				
+				{
+				  "@type": "HowToStep",
+				  "url": "http://localhost:4000/martech/2023/google-analytics-4#how-to-step-4",
+				  "name": "Set up events",
+				  "itemListElement": [
+					{
+					  "@type": "HowToDirection",
+					  "text": "Review your existing events in Universal Analytics and recreate them in GA4 using the new event-driven model."
+					}
+				  ]
+				},
+				
+				{
+				  "@type": "HowToStep",
+				  "url": "http://localhost:4000/martech/2023/google-analytics-4#how-to-step-5",
+				  "name": "Set up conversions",
+				  "itemListElement": [
+					{
+					  "@type": "HowToDirection",
+					  "text": "Set up conversion events in Settings."
+					}
+				  ]
+				},
+				
+				{
+				  "@type": "HowToStep",
+				  "url": "http://localhost:4000/martech/2023/google-analytics-4#how-to-step-6",
+				  "name": "Explore new features",
+				  "itemListElement": [
+					{
+					  "@type": "HowToDirection",
+					  "text": "Experiment with the new tools and features to maximize the value of your analytics data."
+					}
+				  ]
+				}
+				
+			  ],
+			  "inLanguage": "en-US"
 			}
+		  ]
+		}
 		</script>
 		<header id="splendid-header" itemscope itemtype="https://schema.org/WPHeader" class="splendid-flex sticky top-0 py-0 px-10 flex-col justify-center items-center shadow">
 	<div id="nav-container" class="container splendid-flex w-full max-w-5 mx-auto py-7 lg:py-0 sm:px-0 md:px-10 lg:px-16 flex-row flex-nowrap justify-between items-center">

@@ -90,113 +90,123 @@
 	<body id="post" class="overflow-x-hidden has-featured-image has-ads">
 		
 		<script type="application/ld+json" class="splendid-schema-graph">
+		{
+		  "@context": "https://schema.org",
+		  "@graph": [
 			{
-				"@context": "https://schema.org/",
-				"@graph": [
-					{
-						"@type": "WebSite",
-						"@id": "http://localhost:4000#website",
-						"url": "http://localhost:4000",
-						"name": "Brandon Caples",
-						"description": "I am a marketing professional working at the intersection of strategy and technology.",
-						"publisher": {
-							"@id": "http://localhost:4000#/schema/person/3fbbe8e23fcabc3da5c9cbc102d346c9"
-						},
-						"inLanguage": "en-US"
-					},
+			  "@type": "WebSite",
+			  "@id": "http://localhost:4000#website",
+			  "url": "http://localhost:4000",
+			  "name": "Brandon Caples",
+			  "description": "I am a marketing professional working at the intersection of strategy and technology.",
+			  "publisher": {
+				"@id": "http://localhost:4000#/schema/person/3fbbe8e23fcabc3da5c9cbc102d346c9"
+			  },
+			  "inLanguage": "en-US"
+			},
+			
+			{
+			  "@type": "ImageObject",
+			  "inLanguage": "en-US",
+			  "@id": "http://localhost:4000/martech/2026/taste-simplicity-in-luxury-marketing#primaryimage",
+			  "url": "http://localhost:4000/assets/img/martech/taste-simplicity-in-luxury-marketing.jpg",
+			  "contentUrl": "http://localhost:4000/assets/img/martech/taste-simplicity-in-luxury-marketing.jpg",
+			  "caption": "The foyer of a luxury hotel"
+			},
+			
+			{
+			  "@type": ["Article", "BlogPosting"],
+			  "@id": "http://localhost:4000/martech/2026/taste-simplicity-in-luxury-marketing#article",
+			  "name": "Taste and simplicity in luxury marketing",
+			  "isPartOf": {
+				"@id": "http://localhost:4000/martech/2026/taste-simplicity-in-luxury-marketing#webpage"
+			  },
+			  "author": {
+				"@id": "http://localhost:4000#/schema/person/3fbbe8e23fcabc3da5c9cbc102d346c9",
+				"@type": "Person",
+				"name": "Brandon Caples"
+			  },
+			  "headline": "Taste and simplicity in luxury marketing",
+			  "datePublished": "2026-08-03T07:31:59-04:00",
+			  "mainEntityOfPage": {
+				"@id": "http://localhost:4000/martech/2026/taste-simplicity-in-luxury-marketing#webpage"
+			  },
+			  "publisher": {
+				"@id": "http://localhost:4000#/schema/person/3fbbe8e23fcabc3da5c9cbc102d346c9"
+			  },
+			  "image": {
+				"@id": "http://localhost:4000/martech/2026/taste-simplicity-in-luxury-marketing#primaryimage"
+			  },
+			  "thumbnailUrl": "http://localhost:4000/assets/img/martech/taste-simplicity-in-luxury-marketing.jpg",
+			  "keywords": [
+				
+				"consumer psychology",
+				
+				"marketing"
+				
+			  ],
+			  "articleSection": "MarTech",
+			  "inLanguage": "en-US",
+			  "citation": [
+				
+				{
+				  "@type": "PodcastEpisode",
+				  "name": "Luxury Business Secrets with LVMH Chairwoman",
+				  "url": "https://fashionandfounders.buzzsprout.com/2177930/episodes/19515140-luxury-business-secrets-with-lvmh-chairwoman",
+				  "sameAs": [
 					
-					{
-						"@type": "ImageObject",
-						"inLanguage": "en-US",
-						"@id": "http://localhost:4000/martech/2026/taste-simplicity-in-luxury-marketing#primaryimage",
-						"url": "http://localhost:4000/assets/img/martech/taste-simplicity-in-luxury-marketing.jpg",
-						"contentUrl": "http://localhost:4000/assets/img/martech/taste-simplicity-in-luxury-marketing.jpg",
-						"caption": "The foyer of a luxury hotel"
-					},
+					"https://open.spotify.com/episode/4YSeFiespkQEQK5hIdNhd9"
 					
-					{
-						"@type": [
-							"Article",
-							"BlogPosting"
-						],
-						"@id": "http://localhost:4000/martech/2026/taste-simplicity-in-luxury-marketing#article",
-						"name": "Taste and simplicity in luxury marketing",
-						"isPartOf": {
-							"@id": "http://localhost:4000/martech/2026/taste-simplicity-in-luxury-marketing#webpage"
-						},
-						"author": {
-							"@id": "http://localhost:4000#/schema/person/3fbbe8e23fcabc3da5c9cbc102d346c9"
-							"@type": "Person",
-							"name": "Brandon Caples"
-						},
-						"headline": "Taste and simplicity in luxury marketing",
-						"datePublished": "2026-08-03T07:31:59-05:00",
-						"mainEntityOfPage": {
-							"@id": "http://localhost:4000/martech/2026/taste-simplicity-in-luxury-marketing#webpage"
-						},
-						"publisher": {
-							"@id": "http://localhost:4000#/schema/person/3fbbe8e23fcabc3da5c9cbc102d346c9"
-						},
-						"image": "http://localhost:4000/assets/img/martech/taste-simplicity-in-luxury-marketing.jpg",
-						"thumbnailUrl": "http://localhost:4000/assets/img/martech/taste-simplicity-in-luxury-marketing.jpg",
-						"keywords": [ "consumer psychology", "marketing"],
-						"articleSection": "MarTech",
-						"inLanguage": "en-US"
-					},
-					{
-						"@type": [
-							"Person",
-							"Organization"
-						],
-						"@id": "http://localhost:4000#/schema/person/3fbbe8e23fcabc3da5c9cbc102d346c9",
-						"name": "Brandon Caples",
-						"image": {
-							"@type": "ImageObject",
-							"inLanguage": "en-US",
-							"@id": "http://localhost:4000#/schema/person/image/",
-							"url": "http://localhost:4000/assets/img/brandon_caples.jpeg",
-							"contentUrl": "http://localhost:4000/assets/img/brandon_caples.jpeg",
-							"width": 600,
-							"height": 600,
-							"caption": "Brandon Caples"
-						},
-						"logo": "http://localhost:4000/assets/img/logomark.png",
-						"description": "Brandon Caples is a marketing automation specialist and web consultant in Tennessee.",
-						"sameAs": [
-							"https://www.linkedin.com/in/brandoncaples/",
-							"https://github.com/capncapes",
-							"https://www.salesforce.com/trailblazer/bcaples"
-						]
-					}
-					  "citation": [
-						{
-						  "@type": "PodcastEpisode",
-						  "name": "Luxury Business Secrets with LVMH Chairwoman",
-						  "url": "https://fashionandfounders.buzzsprout.com/2177930/episodes/19515140-luxury-business-secrets-with-lvmh-chairwoman",
-						  "sameAs": [
-							"https://open.spotify.com/episode/4YSeFiespkQEQK5hIdNhd9"
-						  ]
-						}
-					  ],
-					  "mentions": [
-						{
-						  "@type": "Person",
-						  "name": "Pauline Brown",
-						  "url": "https://www.linkedin.com/in/paulinejbrown/"
-						},
-						{
-						  "@type": "Person",
-						  "name": "Nikheel Advani",
-						  "url": "https://www.linkedin.com/in/nikheel-advani-53184640/"
-						},
-						{
-						  "@type": "DefinedTerm",
-						  "name": "New Look",
-						  "url": "https://aesthetics.fandom.com/wiki/New_Look"
-						}
-					  ]
-				]
+				  ]
+				}
+				
+			  ],
+			  "mentions": [
+				
+				{
+				  "@type": "Person",
+				  "name": "Pauline Brown",
+				  "url": "https://www.linkedin.com/in/paulinejbrown/"
+				},
+				
+				{
+				  "@type": "Person",
+				  "name": "Nikheel Advani",
+				  "url": "https://www.linkedin.com/in/nikheel-advani-53184640/"
+				},
+				
+				{
+				  "@type": "DefinedTerm",
+				  "name": "New Look",
+				  "url": "https://aesthetics.fandom.com/wiki/New_Look"
+				}
+				
+			  ]
+			},
+			{
+			  "@type": ["Person", "Organization"],
+			  "@id": "http://localhost:4000#/schema/person/3fbbe8e23fcabc3da5c9cbc102d346c9",
+			  "name": "Brandon Caples",
+			  "image": {
+				"@type": "ImageObject",
+				"inLanguage": "en-US",
+				"@id": "http://localhost:4000#/schema/person/image/",
+				"url": "http://localhost:4000/assets/img/brandon_caples.jpeg",
+				"contentUrl": "http://localhost:4000/assets/img/brandon_caples.jpeg",
+				"width": 600,
+				"height": 600,
+				"caption": "Brandon Caples"
+			  },
+			  "logo": "http://localhost:4000/assets/img/logomark.png",
+			  "description": "Brandon Caples is a marketing automation specialist and web consultant in Tennessee.",
+			  "sameAs": [
+				"https://www.linkedin.com/in/brandoncaples/",
+				"https://github.com/capncapes",
+				"https://www.salesforce.com/trailblazer/bcaples"
+			  ]
 			}
+		  ]
+		}
 		</script>
 		<header id="splendid-header" itemscope itemtype="https://schema.org/WPHeader" class="splendid-flex sticky top-0 py-0 px-10 flex-col justify-center items-center shadow">
 	<div id="nav-container" class="container splendid-flex w-full max-w-5 mx-auto py-7 lg:py-0 sm:px-0 md:px-10 lg:px-16 flex-row flex-nowrap justify-between items-center">

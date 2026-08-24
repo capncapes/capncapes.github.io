@@ -90,86 +90,88 @@
 	<body id="post" class="overflow-x-hidden has-featured-image has-ads">
 		
 		<script type="application/ld+json" class="splendid-schema-graph">
+		{
+		  "@context": "https://schema.org",
+		  "@graph": [
 			{
-				"@context": "https://schema.org/",
-				"@graph": [
-					{
-						"@type": "WebSite",
-						"@id": "http://localhost:4000#website",
-						"url": "http://localhost:4000",
-						"name": "Brandon Caples",
-						"description": "I am a marketing professional working at the intersection of strategy and technology.",
-						"publisher": {
-							"@id": "http://localhost:4000#/schema/person/3fbbe8e23fcabc3da5c9cbc102d346c9"
-						},
-						"inLanguage": "en-US"
-					},
-					
-					{
-						"@type": "ImageObject",
-						"inLanguage": "en-US",
-						"@id": "http://localhost:4000/martech/2024/how-to-query-subscribers-who-opened-sfmc-email#primaryimage",
-						"url": "http://localhost:4000/assets/img/martech/abstract-technology.jpeg",
-						"contentUrl": "http://localhost:4000/assets/img/martech/abstract-technology.jpeg",
-						"caption": "Structured Query Language (SQL)"
-					},
-					
-					{
-						"@type": [
-							"Article",
-							"BlogPosting"
-						],
-						"@id": "http://localhost:4000/martech/2024/how-to-query-subscribers-who-opened-sfmc-email#article",
-						"name": "How to query Salesforce Marketing Cloud subscribers who opened a specific email",
-						"isPartOf": {
-							"@id": "http://localhost:4000/martech/2024/how-to-query-subscribers-who-opened-sfmc-email#webpage"
-						},
-						"author": {
-							"@id": "http://localhost:4000#/schema/person/3fbbe8e23fcabc3da5c9cbc102d346c9"
-							"@type": "Person",
-							"name": "Brandon Caples"
-						},
-						"headline": "How to query Salesforce Marketing Cloud subscribers who opened a specific email",
-						"datePublished": "2024-03-08T21:30:41-05:00",
-						"mainEntityOfPage": {
-							"@id": "http://localhost:4000/martech/2024/how-to-query-subscribers-who-opened-sfmc-email#webpage"
-						},
-						"publisher": {
-							"@id": "http://localhost:4000#/schema/person/3fbbe8e23fcabc3da5c9cbc102d346c9"
-						},
-						"image": "http://localhost:4000/assets/img/martech/abstract-technology.jpeg",
-						"thumbnailUrl": "http://localhost:4000/assets/img/martech/abstract-technology.jpeg",
-						"keywords": [ "SQL", "Salesforce Marketing Cloud"],
-						"articleSection": "MarTech",
-						"inLanguage": "en-US"
-					},
-					{
-						"@type": [
-							"Person",
-							"Organization"
-						],
-						"@id": "http://localhost:4000#/schema/person/3fbbe8e23fcabc3da5c9cbc102d346c9",
-						"name": "Brandon Caples",
-						"image": {
-							"@type": "ImageObject",
-							"inLanguage": "en-US",
-							"@id": "http://localhost:4000#/schema/person/image/",
-							"url": "http://localhost:4000/assets/img/brandon_caples.jpeg",
-							"contentUrl": "http://localhost:4000/assets/img/brandon_caples.jpeg",
-							"width": 600,
-							"height": 600,
-							"caption": "Brandon Caples"
-						},
-						"logo": "http://localhost:4000/assets/img/logomark.png",
-						"description": "Brandon Caples is a marketing automation specialist and web consultant in Tennessee.",
-						"sameAs": [
-							"https://www.linkedin.com/in/brandoncaples/",
-							"https://github.com/capncapes",
-							"https://www.salesforce.com/trailblazer/bcaples"
-						]
-					}
-				]
+			  "@type": "WebSite",
+			  "@id": "http://localhost:4000#website",
+			  "url": "http://localhost:4000",
+			  "name": "Brandon Caples",
+			  "description": "I am a marketing professional working at the intersection of strategy and technology.",
+			  "publisher": {
+				"@id": "http://localhost:4000#/schema/person/3fbbe8e23fcabc3da5c9cbc102d346c9"
+			  },
+			  "inLanguage": "en-US"
+			},
+			
+			{
+			  "@type": "ImageObject",
+			  "inLanguage": "en-US",
+			  "@id": "http://localhost:4000/martech/2024/how-to-query-subscribers-who-opened-sfmc-email#primaryimage",
+			  "url": "http://localhost:4000/assets/img/martech/abstract-technology.jpeg",
+			  "contentUrl": "http://localhost:4000/assets/img/martech/abstract-technology.jpeg",
+			  "caption": "Structured Query Language (SQL)"
+			},
+			
+			{
+			  "@type": ["Article", "BlogPosting"],
+			  "@id": "http://localhost:4000/martech/2024/how-to-query-subscribers-who-opened-sfmc-email#article",
+			  "name": "How to query Salesforce Marketing Cloud subscribers who opened a specific email",
+			  "isPartOf": {
+				"@id": "http://localhost:4000/martech/2024/how-to-query-subscribers-who-opened-sfmc-email#webpage"
+			  },
+			  "author": {
+				"@id": "http://localhost:4000#/schema/person/3fbbe8e23fcabc3da5c9cbc102d346c9",
+				"@type": "Person",
+				"name": "Brandon Caples"
+			  },
+			  "headline": "How to query Salesforce Marketing Cloud subscribers who opened a specific email",
+			  "datePublished": "2024-03-08T21:30:41-05:00",
+			  "mainEntityOfPage": {
+				"@id": "http://localhost:4000/martech/2024/how-to-query-subscribers-who-opened-sfmc-email#webpage"
+			  },
+			  "publisher": {
+				"@id": "http://localhost:4000#/schema/person/3fbbe8e23fcabc3da5c9cbc102d346c9"
+			  },
+			  "image": {
+				"@id": "http://localhost:4000/martech/2024/how-to-query-subscribers-who-opened-sfmc-email#primaryimage"
+			  },
+			  "thumbnailUrl": "http://localhost:4000/assets/img/martech/abstract-technology.jpeg",
+			  "keywords": [
+				
+				"SQL",
+				
+				"Salesforce Marketing Cloud"
+				
+			  ],
+			  "articleSection": "MarTech",
+			  "inLanguage": "en-US"
+			},
+			{
+			  "@type": ["Person", "Organization"],
+			  "@id": "http://localhost:4000#/schema/person/3fbbe8e23fcabc3da5c9cbc102d346c9",
+			  "name": "Brandon Caples",
+			  "image": {
+				"@type": "ImageObject",
+				"inLanguage": "en-US",
+				"@id": "http://localhost:4000#/schema/person/image/",
+				"url": "http://localhost:4000/assets/img/brandon_caples.jpeg",
+				"contentUrl": "http://localhost:4000/assets/img/brandon_caples.jpeg",
+				"width": 600,
+				"height": 600,
+				"caption": "Brandon Caples"
+			  },
+			  "logo": "http://localhost:4000/assets/img/logomark.png",
+			  "description": "Brandon Caples is a marketing automation specialist and web consultant in Tennessee.",
+			  "sameAs": [
+				"https://www.linkedin.com/in/brandoncaples/",
+				"https://github.com/capncapes",
+				"https://www.salesforce.com/trailblazer/bcaples"
+			  ]
 			}
+		  ]
+		}
 		</script>
 		<header id="splendid-header" itemscope itemtype="https://schema.org/WPHeader" class="splendid-flex sticky top-0 py-0 px-10 flex-col justify-center items-center shadow">
 	<div id="nav-container" class="container splendid-flex w-full max-w-5 mx-auto py-7 lg:py-0 sm:px-0 md:px-10 lg:px-16 flex-row flex-nowrap justify-between items-center">

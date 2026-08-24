@@ -88,160 +88,160 @@
 	<body id="post" class="overflow-x-hidden has-featured-image has-ads">
 		
 		<script type="application/ld+json" class="splendid-schema-graph">
+		{
+		  "@context": "https://schema.org",
+		  "@graph": [
 			{
-				"@context": "https://schema.org/",
-				"@graph": [
+			  "@type": "WebSite",
+			  "@id": "http://localhost:4000#website",
+			  "url": "http://localhost:4000",
+			  "name": "Brandon Caples",
+			  "description": "I am a marketing professional working at the intersection of strategy and technology.",
+			  "publisher": {
+				"@id": "http://localhost:4000#/schema/person/3fbbe8e23fcabc3da5c9cbc102d346c9"
+			  },
+			  "inLanguage": "en-US"
+			},
+			
+			{
+			  "@type": "ImageObject",
+			  "inLanguage": "en-US",
+			  "@id": "http://localhost:4000/martech/2023/ip-address-warming#primaryimage",
+			  "url": "http://localhost:4000/assets/img/martech/envelopes.jpeg",
+			  "contentUrl": "http://localhost:4000/assets/img/martech/envelopes.jpeg",
+			  "caption": "Envelopes"
+			},
+			
+			{
+			  "@type": ["Article", "BlogPosting"],
+			  "@id": "http://localhost:4000/martech/2023/ip-address-warming#article",
+			  "name": "IP address warming",
+			  "isPartOf": {
+				"@id": "http://localhost:4000/martech/2023/ip-address-warming#webpage"
+			  },
+			  "author": {
+				"@id": "http://localhost:4000#/schema/person/3fbbe8e23fcabc3da5c9cbc102d346c9",
+				"@type": "Person",
+				"name": "Brandon Caples"
+			  },
+			  "headline": "IP address warming",
+			  "datePublished": "2023-04-04T19:13:26-04:00",
+			  "mainEntityOfPage": {
+				"@id": "http://localhost:4000/martech/2023/ip-address-warming#webpage"
+			  },
+			  "publisher": {
+				"@id": "http://localhost:4000#/schema/person/3fbbe8e23fcabc3da5c9cbc102d346c9"
+			  },
+			  "image": {
+				"@id": "http://localhost:4000/martech/2023/ip-address-warming#primaryimage"
+			  },
+			  "thumbnailUrl": "http://localhost:4000/assets/img/martech/envelopes.jpeg",
+			  "keywords": [
+				
+				"email"
+				
+			  ],
+			  "articleSection": "MarTech",
+			  "inLanguage": "en-US"
+			},
+			{
+			  "@type": ["Person", "Organization"],
+			  "@id": "http://localhost:4000#/schema/person/3fbbe8e23fcabc3da5c9cbc102d346c9",
+			  "name": "Brandon Caples",
+			  "image": {
+				"@type": "ImageObject",
+				"inLanguage": "en-US",
+				"@id": "http://localhost:4000#/schema/person/image/",
+				"url": "http://localhost:4000/assets/img/brandon_caples.jpeg",
+				"contentUrl": "http://localhost:4000/assets/img/brandon_caples.jpeg",
+				"width": 600,
+				"height": 600,
+				"caption": "Brandon Caples"
+			  },
+			  "logo": "http://localhost:4000/assets/img/logomark.png",
+			  "description": "Brandon Caples is a marketing automation specialist and web consultant in Tennessee.",
+			  "sameAs": [
+				"https://www.linkedin.com/in/brandoncaples/",
+				"https://github.com/capncapes",
+				"https://www.salesforce.com/trailblazer/bcaples"
+			  ]
+			},
+			{
+			  "@type": "HowTo",
+			  "@id": "http://localhost:4000/martech/2023/ip-address-warming#howto-1",
+			  "name": "How to warm a new IP address",
+			  "mainEntityOfPage": {
+				"@id": "http://localhost:4000/martech/2023/ip-address-warming#article"
+			  },
+			  "description": "To warm a new IP, you must be patient, consistent, and focus on building trust with email providers.",
+			  "totalTime": "P6W",
+			  "step": [
+				
+				{
+				  "@type": "HowToStep",
+				  "url": "http://localhost:4000/martech/2023/ip-address-warming#how-to-step-1",
+				  "name": "Plan your sending schedule",
+				  "itemListElement": [
 					{
-						"@type": "WebSite",
-						"@id": "http://localhost:4000#website",
-						"url": "http://localhost:4000",
-						"name": "Brandon Caples",
-						"description": "I am a marketing professional working at the intersection of strategy and technology.",
-						"publisher": {
-							"@id": "http://localhost:4000#/schema/person/3fbbe8e23fcabc3da5c9cbc102d346c9"
-						},
-						"inLanguage": "en-US"
-					},
-					
-					{
-						"@type": "ImageObject",
-						"inLanguage": "en-US",
-						"@id": "http://localhost:4000/martech/2023/ip-address-warming#primaryimage",
-						"url": "http://localhost:4000/assets/img/martech/envelopes.jpeg",
-						"contentUrl": "http://localhost:4000/assets/img/martech/envelopes.jpeg",
-						"caption": "Envelopes"
-					},
-					
-					{
-						"@type": [
-							"Article",
-							"BlogPosting"
-						],
-						"@id": "http://localhost:4000/martech/2023/ip-address-warming#article",
-						"name": "IP address warming",
-						"isPartOf": {
-							"@id": "http://localhost:4000/martech/2023/ip-address-warming#webpage"
-						},
-						"author": {
-							"@id": "http://localhost:4000#/schema/person/3fbbe8e23fcabc3da5c9cbc102d346c9"
-							"@type": "Person",
-							"name": "Brandon Caples"
-						},
-						"headline": "IP address warming",
-						"datePublished": "2023-04-04T19:13:26-05:00",
-						"mainEntityOfPage": {
-							"@id": "http://localhost:4000/martech/2023/ip-address-warming#webpage"
-						},
-						"publisher": {
-							"@id": "http://localhost:4000#/schema/person/3fbbe8e23fcabc3da5c9cbc102d346c9"
-						},
-						"image": "http://localhost:4000/assets/img/martech/envelopes.jpeg",
-						"thumbnailUrl": "http://localhost:4000/assets/img/martech/envelopes.jpeg",
-						"keywords": [ "email"],
-						"articleSection": "MarTech",
-						"inLanguage": "en-US"
-					},
-					{
-						"@type": [
-							"Person",
-							"Organization"
-						],
-						"@id": "http://localhost:4000#/schema/person/3fbbe8e23fcabc3da5c9cbc102d346c9",
-						"name": "Brandon Caples",
-						"image": {
-							"@type": "ImageObject",
-							"inLanguage": "en-US",
-							"@id": "http://localhost:4000#/schema/person/image/",
-							"url": "http://localhost:4000/assets/img/brandon_caples.jpeg",
-							"contentUrl": "http://localhost:4000/assets/img/brandon_caples.jpeg",
-							"width": 600,
-							"height": 600,
-							"caption": "Brandon Caples"
-						},
-						"logo": "http://localhost:4000/assets/img/logomark.png",
-						"description": "Brandon Caples is a marketing automation specialist and web consultant in Tennessee.",
-						"sameAs": [
-							"https://www.linkedin.com/in/brandoncaples/",
-							"https://github.com/capncapes",
-							"https://www.salesforce.com/trailblazer/bcaples"
-						]
-					},
-					{
-						"@type": "HowTo",
-						"@id": "http://localhost:4000/martech/2023/ip-address-warming#howto-1",
-						"name": "How to warm a new IP address",
-						"mainEntityOfPage": {
-							"@id": "http://localhost:4000/martech/2023/ip-address-warming#article"
-						},
-						"description": "To warm a new IP, you must be patient, consistent, and focus on building trust with email providers.",
-						"totalTime": P6W,
-						"step": [
-						
-							{
-								"@type": "HowToStep",
-								"url": "http://localhost:4000/martech/2023/ip-address-warming#how-to-step-1",
-								"name": "Plan your sending schedule",
-								"itemListElement": [
-									{
-										"@type": "HowToDirection",
-										"text": "Create a send schedule, allowing for about six weeks to complete the IP warming process."
-									}
-								]
-							},
-						
-							{
-								"@type": "HowToStep",
-								"url": "http://localhost:4000/martech/2023/ip-address-warming#how-to-step-2",
-								"name": "Authenticate your emails",
-								"itemListElement": [
-									{
-										"@type": "HowToDirection",
-										"text": "Implement SPF, DKIM, and DMARC to authenticate your emails and prevent spoofing."
-									}
-								]
-							},
-						
-							{
-								"@type": "HowToStep",
-								"url": "http://localhost:4000/martech/2023/ip-address-warming#how-to-step-3",
-								"name": "Segment your subscribers",
-								"itemListElement": [
-									{
-										"@type": "HowToDirection",
-										"text": "Don't send the same email to everyone. Segment your list based on engagement levels and email service provider."
-									}
-								]
-							},
-						
-							{
-								"@type": "HowToStep",
-								"url": "http://localhost:4000/martech/2023/ip-address-warming#how-to-step-4",
-								"name": "Monitor email analytics",
-								"itemListElement": [
-									{
-										"@type": "HowToDirection",
-										"text": "Use email sending platforms or analytics tools to track your sending reputation."
-									}
-								]
-							},
-						
-							{
-								"@type": "HowToStep",
-								"url": "http://localhost:4000/martech/2023/ip-address-warming#how-to-step-5",
-								"name": "Maintain a clean list",
-								"itemListElement": [
-									{
-										"@type": "HowToDirection",
-										"text": "Regularly remove inactive or unsubscribed recipients from your list."
-									}
-								]
-							},
-						
-						],
-						"inLanguage": "en-US"
+					  "@type": "HowToDirection",
+					  "text": "Create a send schedule, allowing for about six weeks to complete the IP warming process."
 					}
-				]
+				  ]
+				},
+				
+				{
+				  "@type": "HowToStep",
+				  "url": "http://localhost:4000/martech/2023/ip-address-warming#how-to-step-2",
+				  "name": "Authenticate your emails",
+				  "itemListElement": [
+					{
+					  "@type": "HowToDirection",
+					  "text": "Implement SPF, DKIM, and DMARC to authenticate your emails and prevent spoofing."
+					}
+				  ]
+				},
+				
+				{
+				  "@type": "HowToStep",
+				  "url": "http://localhost:4000/martech/2023/ip-address-warming#how-to-step-3",
+				  "name": "Segment your subscribers",
+				  "itemListElement": [
+					{
+					  "@type": "HowToDirection",
+					  "text": "Don't send the same email to everyone. Segment your list based on engagement levels and email service provider."
+					}
+				  ]
+				},
+				
+				{
+				  "@type": "HowToStep",
+				  "url": "http://localhost:4000/martech/2023/ip-address-warming#how-to-step-4",
+				  "name": "Monitor email analytics",
+				  "itemListElement": [
+					{
+					  "@type": "HowToDirection",
+					  "text": "Use email sending platforms or analytics tools to track your sending reputation."
+					}
+				  ]
+				},
+				
+				{
+				  "@type": "HowToStep",
+				  "url": "http://localhost:4000/martech/2023/ip-address-warming#how-to-step-5",
+				  "name": "Maintain a clean list",
+				  "itemListElement": [
+					{
+					  "@type": "HowToDirection",
+					  "text": "Regularly remove inactive or unsubscribed recipients from your list."
+					}
+				  ]
+				}
+				
+			  ],
+			  "inLanguage": "en-US"
 			}
+		  ]
+		}
 		</script>
 		<header id="splendid-header" itemscope itemtype="https://schema.org/WPHeader" class="splendid-flex sticky top-0 py-0 px-10 flex-col justify-center items-center shadow">
 	<div id="nav-container" class="container splendid-flex w-full max-w-5 mx-auto py-7 lg:py-0 sm:px-0 md:px-10 lg:px-16 flex-row flex-nowrap justify-between items-center">

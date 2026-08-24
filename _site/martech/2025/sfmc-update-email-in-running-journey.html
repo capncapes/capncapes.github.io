@@ -90,196 +90,198 @@
 	<body id="post" class="overflow-x-hidden has-featured-image has-ads">
 		
 		<script type="application/ld+json" class="splendid-schema-graph">
+		{
+		  "@context": "https://schema.org",
+		  "@graph": [
 			{
-				"@context": "https://schema.org/",
-				"@graph": [
+			  "@type": "WebSite",
+			  "@id": "http://localhost:4000#website",
+			  "url": "http://localhost:4000",
+			  "name": "Brandon Caples",
+			  "description": "I am a marketing professional working at the intersection of strategy and technology.",
+			  "publisher": {
+				"@id": "http://localhost:4000#/schema/person/3fbbe8e23fcabc3da5c9cbc102d346c9"
+			  },
+			  "inLanguage": "en-US"
+			},
+			
+			{
+			  "@type": "ImageObject",
+			  "inLanguage": "en-US",
+			  "@id": "http://localhost:4000/martech/2025/sfmc-update-email-in-running-journey#primaryimage",
+			  "url": "http://localhost:4000/assets/img/martech/sfmc-journey-builder-map.png",
+			  "contentUrl": "http://localhost:4000/assets/img/martech/sfmc-journey-builder-map.png",
+			  "caption": "Salesforce Marketing Cloud Journey Builder map"
+			},
+			
+			{
+			  "@type": ["Article", "BlogPosting"],
+			  "@id": "http://localhost:4000/martech/2025/sfmc-update-email-in-running-journey#article",
+			  "name": "How to update an email in a running journey, Salesforce Marketing Cloud (SFMC)",
+			  "isPartOf": {
+				"@id": "http://localhost:4000/martech/2025/sfmc-update-email-in-running-journey#webpage"
+			  },
+			  "author": {
+				"@id": "http://localhost:4000#/schema/person/3fbbe8e23fcabc3da5c9cbc102d346c9",
+				"@type": "Person",
+				"name": "Brandon Caples"
+			  },
+			  "headline": "How to update an email in a running journey, Salesforce Marketing Cloud (SFMC)",
+			  "datePublished": "2025-08-19T07:01:11-04:00",
+			  "mainEntityOfPage": {
+				"@id": "http://localhost:4000/martech/2025/sfmc-update-email-in-running-journey#webpage"
+			  },
+			  "publisher": {
+				"@id": "http://localhost:4000#/schema/person/3fbbe8e23fcabc3da5c9cbc102d346c9"
+			  },
+			  "image": {
+				"@id": "http://localhost:4000/martech/2025/sfmc-update-email-in-running-journey#primaryimage"
+			  },
+			  "thumbnailUrl": "http://localhost:4000/assets/img/martech/sfmc-journey-builder-map.png",
+			  "keywords": [
+				
+				"Salesforce Marketing Cloud",
+				
+				"email"
+				
+			  ],
+			  "articleSection": "MarTech",
+			  "inLanguage": "en-US"
+			},
+			{
+			  "@type": ["Person", "Organization"],
+			  "@id": "http://localhost:4000#/schema/person/3fbbe8e23fcabc3da5c9cbc102d346c9",
+			  "name": "Brandon Caples",
+			  "image": {
+				"@type": "ImageObject",
+				"inLanguage": "en-US",
+				"@id": "http://localhost:4000#/schema/person/image/",
+				"url": "http://localhost:4000/assets/img/brandon_caples.jpeg",
+				"contentUrl": "http://localhost:4000/assets/img/brandon_caples.jpeg",
+				"width": 600,
+				"height": 600,
+				"caption": "Brandon Caples"
+			  },
+			  "logo": "http://localhost:4000/assets/img/logomark.png",
+			  "description": "Brandon Caples is a marketing automation specialist and web consultant in Tennessee.",
+			  "sameAs": [
+				"https://www.linkedin.com/in/brandoncaples/",
+				"https://github.com/capncapes",
+				"https://www.salesforce.com/trailblazer/bcaples"
+			  ]
+			},
+			{
+			  "@type": "HowTo",
+			  "@id": "http://localhost:4000/martech/2025/sfmc-update-email-in-running-journey#howto-1",
+			  "name": "How to update a Journey Builder email in a running journey",
+			  "mainEntityOfPage": {
+				"@id": "http://localhost:4000/martech/2025/sfmc-update-email-in-running-journey#article"
+			  },
+			  "description": "Change the content of a Journey Builder email without stopping the journey.",
+			  "totalTime": "PT5M",
+			  "step": [
+				
+				{
+				  "@type": "HowToStep",
+				  "url": "http://localhost:4000/martech/2025/sfmc-update-email-in-running-journey#how-to-step-1",
+				  "name": "Triggered Emails",
+				  "itemListElement": [
 					{
-						"@type": "WebSite",
-						"@id": "http://localhost:4000#website",
-						"url": "http://localhost:4000",
-						"name": "Brandon Caples",
-						"description": "I am a marketing professional working at the intersection of strategy and technology.",
-						"publisher": {
-							"@id": "http://localhost:4000#/schema/person/3fbbe8e23fcabc3da5c9cbc102d346c9"
-						},
-						"inLanguage": "en-US"
-					},
-					
-					{
-						"@type": "ImageObject",
-						"inLanguage": "en-US",
-						"@id": "http://localhost:4000/martech/2025/sfmc-update-email-in-running-journey#primaryimage",
-						"url": "http://localhost:4000/assets/img/martech/sfmc-journey-builder-map.png",
-						"contentUrl": "http://localhost:4000/assets/img/martech/sfmc-journey-builder-map.png",
-						"caption": "Salesforce Marketing Cloud Journey Builder map"
-					},
-					
-					{
-						"@type": [
-							"Article",
-							"BlogPosting"
-						],
-						"@id": "http://localhost:4000/martech/2025/sfmc-update-email-in-running-journey#article",
-						"name": "How to update an email in a running journey, Salesforce Marketing Cloud (SFMC)",
-						"isPartOf": {
-							"@id": "http://localhost:4000/martech/2025/sfmc-update-email-in-running-journey#webpage"
-						},
-						"author": {
-							"@id": "http://localhost:4000#/schema/person/3fbbe8e23fcabc3da5c9cbc102d346c9"
-							"@type": "Person",
-							"name": "Brandon Caples"
-						},
-						"headline": "How to update an email in a running journey, Salesforce Marketing Cloud (SFMC)",
-						"datePublished": "2025-08-19T07:01:11-05:00",
-						"mainEntityOfPage": {
-							"@id": "http://localhost:4000/martech/2025/sfmc-update-email-in-running-journey#webpage"
-						},
-						"publisher": {
-							"@id": "http://localhost:4000#/schema/person/3fbbe8e23fcabc3da5c9cbc102d346c9"
-						},
-						"image": "http://localhost:4000/assets/img/martech/sfmc-journey-builder-map.png",
-						"thumbnailUrl": "http://localhost:4000/assets/img/martech/sfmc-journey-builder-map.png",
-						"keywords": [ "Salesforce Marketing Cloud", "email"],
-						"articleSection": "MarTech",
-						"inLanguage": "en-US"
-					},
-					{
-						"@type": [
-							"Person",
-							"Organization"
-						],
-						"@id": "http://localhost:4000#/schema/person/3fbbe8e23fcabc3da5c9cbc102d346c9",
-						"name": "Brandon Caples",
-						"image": {
-							"@type": "ImageObject",
-							"inLanguage": "en-US",
-							"@id": "http://localhost:4000#/schema/person/image/",
-							"url": "http://localhost:4000/assets/img/brandon_caples.jpeg",
-							"contentUrl": "http://localhost:4000/assets/img/brandon_caples.jpeg",
-							"width": 600,
-							"height": 600,
-							"caption": "Brandon Caples"
-						},
-						"logo": "http://localhost:4000/assets/img/logomark.png",
-						"description": "Brandon Caples is a marketing automation specialist and web consultant in Tennessee.",
-						"sameAs": [
-							"https://www.linkedin.com/in/brandoncaples/",
-							"https://github.com/capncapes",
-							"https://www.salesforce.com/trailblazer/bcaples"
-						]
-					},
-					{
-						"@type": "HowTo",
-						"@id": "http://localhost:4000/martech/2025/sfmc-update-email-in-running-journey#howto-1",
-						"name": "How to update a Journey Builder email in a running journey",
-						"mainEntityOfPage": {
-							"@id": "http://localhost:4000/martech/2025/sfmc-update-email-in-running-journey#article"
-						},
-						"description": "Change the content of a Journey Builder email without stopping the journey.",
-						"totalTime": PT5M,
-						"step": [
-						
-							{
-								"@type": "HowToStep",
-								"url": "http://localhost:4000/martech/2025/sfmc-update-email-in-running-journey#how-to-step-1",
-								"name": "Triggered Emails",
-								"itemListElement": [
-									{
-										"@type": "HowToDirection",
-										"text": "Go to the Triggered Emails screen within Email Studio by hovering over the Interactions tab and selecting Triggered Emails."
-									}
-								]
-							},
-						
-							{
-								"@type": "HowToStep",
-								"url": "http://localhost:4000/martech/2025/sfmc-update-email-in-running-journey#how-to-step-2",
-								"name": "Open the journey folder",
-								"itemListElement": [
-									{
-										"@type": "HowToDirection",
-										"text": "Open the Journey Builder Sends folder in the left pane and find the appropriate journey and journey version."
-									}
-								]
-							},
-						
-							{
-								"@type": "HowToStep",
-								"url": "http://localhost:4000/martech/2025/sfmc-update-email-in-running-journey#how-to-step-3",
-								"name": "Select the email",
-								"itemListElement": [
-									{
-										"@type": "HowToDirection",
-										"text": "Check the box next to the appropriate email."
-									}
-								]
-							},
-						
-							{
-								"@type": "HowToStep",
-								"url": "http://localhost:4000/martech/2025/sfmc-update-email-in-running-journey#how-to-step-4",
-								"name": "Pause the email",
-								"itemListElement": [
-									{
-										"@type": "HowToDirection",
-										"text": "With the box checked, click the Pause button."
-									}
-								]
-							},
-						
-							{
-								"@type": "HowToStep",
-								"url": "http://localhost:4000/martech/2025/sfmc-update-email-in-running-journey#how-to-step-5",
-								"name": "Edit the email",
-								"itemListElement": [
-									{
-										"@type": "HowToDirection",
-										"text": "Make any edits to the email within Email Studio."
-									}
-								]
-							},
-						
-							{
-								"@type": "HowToStep",
-								"url": "http://localhost:4000/martech/2025/sfmc-update-email-in-running-journey#how-to-step-6",
-								"name": "Publish the changes",
-								"itemListElement": [
-									{
-										"@type": "HowToDirection",
-										"text": "On the Triggered Emails screen, ensure that the email is still checked (or check it again) and click the Publish Changes button."
-									}
-								]
-							},
-						
-							{
-								"@type": "HowToStep",
-								"url": "http://localhost:4000/martech/2025/sfmc-update-email-in-running-journey#how-to-step-7",
-								"name": "Restart the triggered email",
-								"itemListElement": [
-									{
-										"@type": "HowToDirection",
-										"text": "After seeing the success message, check the box again and click the Start/Restart button."
-									}
-								]
-							},
-						
-							{
-								"@type": "HowToStep",
-								"url": "http://localhost:4000/martech/2025/sfmc-update-email-in-running-journey#how-to-step-8",
-								"name": "Confirm the changes",
-								"itemListElement": [
-									{
-										"@type": "HowToDirection",
-										"text": "Confirm the changes by selecting the email within Journey Builder, choosing Activity Summary, and clicking the Preview & Test button."
-									}
-								]
-							},
-						
-						],
-						"inLanguage": "en-US"
+					  "@type": "HowToDirection",
+					  "text": "Go to the Triggered Emails screen within Email Studio by hovering over the Interactions tab and selecting Triggered Emails."
 					}
-				]
+				  ]
+				},
+				
+				{
+				  "@type": "HowToStep",
+				  "url": "http://localhost:4000/martech/2025/sfmc-update-email-in-running-journey#how-to-step-2",
+				  "name": "Open the journey folder",
+				  "itemListElement": [
+					{
+					  "@type": "HowToDirection",
+					  "text": "Open the Journey Builder Sends folder in the left pane and find the appropriate journey and journey version."
+					}
+				  ]
+				},
+				
+				{
+				  "@type": "HowToStep",
+				  "url": "http://localhost:4000/martech/2025/sfmc-update-email-in-running-journey#how-to-step-3",
+				  "name": "Select the email",
+				  "itemListElement": [
+					{
+					  "@type": "HowToDirection",
+					  "text": "Check the box next to the appropriate email."
+					}
+				  ]
+				},
+				
+				{
+				  "@type": "HowToStep",
+				  "url": "http://localhost:4000/martech/2025/sfmc-update-email-in-running-journey#how-to-step-4",
+				  "name": "Pause the email",
+				  "itemListElement": [
+					{
+					  "@type": "HowToDirection",
+					  "text": "With the box checked, click the Pause button."
+					}
+				  ]
+				},
+				
+				{
+				  "@type": "HowToStep",
+				  "url": "http://localhost:4000/martech/2025/sfmc-update-email-in-running-journey#how-to-step-5",
+				  "name": "Edit the email",
+				  "itemListElement": [
+					{
+					  "@type": "HowToDirection",
+					  "text": "Make any edits to the email within Email Studio."
+					}
+				  ]
+				},
+				
+				{
+				  "@type": "HowToStep",
+				  "url": "http://localhost:4000/martech/2025/sfmc-update-email-in-running-journey#how-to-step-6",
+				  "name": "Publish the changes",
+				  "itemListElement": [
+					{
+					  "@type": "HowToDirection",
+					  "text": "On the Triggered Emails screen, ensure that the email is still checked (or check it again) and click the Publish Changes button."
+					}
+				  ]
+				},
+				
+				{
+				  "@type": "HowToStep",
+				  "url": "http://localhost:4000/martech/2025/sfmc-update-email-in-running-journey#how-to-step-7",
+				  "name": "Restart the triggered email",
+				  "itemListElement": [
+					{
+					  "@type": "HowToDirection",
+					  "text": "After seeing the success message, check the box again and click the Start/Restart button."
+					}
+				  ]
+				},
+				
+				{
+				  "@type": "HowToStep",
+				  "url": "http://localhost:4000/martech/2025/sfmc-update-email-in-running-journey#how-to-step-8",
+				  "name": "Confirm the changes",
+				  "itemListElement": [
+					{
+					  "@type": "HowToDirection",
+					  "text": "Confirm the changes by selecting the email within Journey Builder, choosing Activity Summary, and clicking the Preview & Test button."
+					}
+				  ]
+				}
+				
+			  ],
+			  "inLanguage": "en-US"
 			}
+		  ]
+		}
 		</script>
 		<header id="splendid-header" itemscope itemtype="https://schema.org/WPHeader" class="splendid-flex sticky top-0 py-0 px-10 flex-col justify-center items-center shadow">
 	<div id="nav-container" class="container splendid-flex w-full max-w-5 mx-auto py-7 lg:py-0 sm:px-0 md:px-10 lg:px-16 flex-row flex-nowrap justify-between items-center">
