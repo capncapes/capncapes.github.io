@@ -1,4 +1,315 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2026-08-23T21:19:38-04:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">capncapes.github.io</title><subtitle>A blog site built with Jekyll consisting of two blogs, a feed of book reviews, and other content pages.</subtitle><author><name>Brandon Caples</name><email>brandon.caples@gmail.com</email></author><entry><title type="html">Taste and simplicity in luxury marketing</title><link href="http://localhost:4000/martech/2026/taste-simplicity-in-luxury-marketing" rel="alternate" type="text/html" title="Taste and simplicity in luxury marketing" /><published>2026-08-03T07:31:59-04:00</published><updated>2026-08-03T07:31:59-04:00</updated><id>http://localhost:4000/martech/2026/taste-simplicity-in-luxury-marketing</id><content type="html" xml:base="http://localhost:4000/martech/2026/taste-simplicity-in-luxury-marketing">&lt;h2 id=&quot;taste-is-the-new-luxury&quot;&gt;Taste is the new luxury&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2026-08-25T19:57:29-04:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">capncapes.github.io</title><subtitle>A blog site built with Jekyll consisting of two blogs, a feed of book reviews, and other content pages.</subtitle><author><name>Brandon Caples</name><email>brandon.caples@gmail.com</email></author><entry><title type="html">Email marketing ROI in 2026: Why email still delivers the best return</title><link href="http://localhost:4000/martech/2026/email-marketing-roi" rel="alternate" type="text/html" title="Email marketing ROI in 2026: Why email still delivers the best return" /><published>2026-08-25T07:59:59-04:00</published><updated>2026-08-25T07:59:59-04:00</updated><id>http://localhost:4000/martech/2026/email-marketing-roi</id><content type="html" xml:base="http://localhost:4000/martech/2026/email-marketing-roi">&lt;h2 id=&quot;email-marketing-roi-in-2026-why-email-still-outperforms-social-paid-media-tv-print-and-ott&quot;&gt;Email marketing ROI in 2026: Why email still outperforms social, paid media, TV, print, and OTT&lt;/h2&gt;
+
+&lt;p&gt;Email remains the most efficient channel for lean marketing teams because it combines owned reach, low marginal distribution cost, strong measurement, and repeatable automation. Litmus reports that email generates an average of $36 for every $1 spent, and its recent benchmark reporting shows many teams fall in the 10:1 to 50:1 ROI range depending on industry, program maturity, and campaign type. That performance matters even more in a market where &lt;a href=&quot;https://www.gartner.com/en/articles/cmo-spend&quot;&gt;Gartner’s 2026 CMO Spend Survey&lt;/a&gt; found that 59% of CMOs do not have enough budget to reach their goals, while paid media now claims a larger share of total marketing budgets.&lt;/p&gt;
+
+&lt;p&gt;For small marketing and communications teams, this is more than a channel preference. It is a resource-allocation decision. When budgets are tight and paid media costs continue to rise, the channels that compound over time become more valuable than the channels that require constant reinvestment just to maintain reach.&lt;/p&gt;
+
+&lt;h2 id=&quot;why-email-still-wins&quot;&gt;Why email still wins&lt;/h2&gt;
+
+&lt;p&gt;Email is an owned channel. That distinction matters because owned channels let a team keep reaching people after the initial acquisition cost has already been paid. Paid social, search, OTT, display, print, and TV all have roles in a modern marketing mix, but most of them function as rented access: once spend stops, the reach largely stops as well.&lt;/p&gt;
+
+&lt;p&gt;Email behaves differently. A subscriber has granted permission, identity resolution is stronger than on most social platforms, and each message can be segmented by behavior, lifecycle stage, purchase history, geography, or engagement depth. That combination makes email more useful for conversion, retention, fundraising, reactivation, and customer lifetime value programs than channels built primarily for awareness.&lt;/p&gt;
+
+&lt;p&gt;The attention case is also stronger than many marketers assume. In the &lt;a href=&quot;https://lnkd.in/p/e5PzfJye&quot;&gt;AdQuick infographic&lt;/a&gt; below, Gmail, Outlook Live, Yahoo Mail, and AOL Mail together represent nearly one-quarter of Americans’ time spent on websites, reinforcing that email is still a habitual digital destination rather than a legacy utility. Adam Singer, VP of Marketing at AdQuick, puts it best: &lt;q&gt;Email is a way more important channel than any single social media company. If you have an engaged email list you are never at the whim of algos.&lt;/q&gt;&lt;/p&gt;
+
+&lt;picture class=&quot;block my-12 md:mx-12 xl:mx-0 bg-gradient-dark rounded&quot;&gt;
+  &lt;source type=&quot;image/webp&quot; srcset=&quot;/assets/img/martech/adquick_americans_time_on_websites_835x793.webp&quot; /&gt;
+  &lt;img src=&quot;/assets/img/martech/adquick_americans_time_on_websites_835x793.jpeg&quot; class=&quot;shadow&quot; alt=&quot;Distribution of online attention across platforms, infographic by AdQuick&quot; /&gt;
+&lt;/picture&gt;
+
+&lt;h2 id=&quot;the-budget-reality-in-2026&quot;&gt;The budget reality in 2026&lt;/h2&gt;
+
+&lt;p&gt;The strongest argument for email in 2026 is not nostalgia or channel loyalty. It is efficiency under pressure. Gartner’s 2026 CMO Spend Survey found that 59% of CMOs say they do not have enough budget to achieve their goals. At the same time, Gartner reported that &lt;a href=&quot;https://www.chiefmarketer.com/gartner-cmo-spend-survey-budgets-reflect-increase-in-consumption-based-martech-paid-media-spend/&quot;&gt;paid media rose to 31.4% of marketing budgets&lt;/a&gt;, which means a larger share of spend is now flowing into channels exposed to auction pressure and media inflation.&lt;/p&gt;
+
+&lt;p&gt;For a small team, that creates a strategic fork in the road:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Keep increasing spend in rented channels to defend reach.&lt;/li&gt;
+  &lt;li&gt;Invest more heavily in owned channels that keep producing after the campaign ends.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Email is one of the clearest answers to the second path because the economics improve over time. A strong welcome series, abandoned-cart flow, donor nurture sequence, event reminder program, onboarding sequence, or renewal campaign can continue delivering returns long after the original build work is complete.&lt;/p&gt;
+
+&lt;h2 id=&quot;email-list-versus-social-following&quot;&gt;Email list versus social following&lt;/h2&gt;
+
+&lt;p&gt;An engaged email list is fundamentally different from a social media following.&lt;/p&gt;
+
+&lt;h3 id=&quot;qualitative-differences&quot;&gt;Qualitative differences&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;An email subscriber has explicitly opted in to receive communication.&lt;/li&gt;
+  &lt;li&gt;A social follower may never see the brand’s content because distribution is controlled by platform algorithms.&lt;/li&gt;
+  &lt;li&gt;Email supports one-to-one personalization, triggered journeys, and lifecycle messaging.&lt;/li&gt;
+  &lt;li&gt;Social is better suited to discovery, conversation, and awareness than reliable distribution.&lt;/li&gt;
+  &lt;li&gt;Email data is portable across platforms; social audience access is controlled by the platform owner.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;These differences shape outcomes. A list of 25,000 engaged subscribers is often more commercially useful than a social audience many times larger because the email audience can be segmented, automated, and measured much more precisely.&lt;/p&gt;
+
+&lt;h3 id=&quot;quantitative-differences&quot;&gt;Quantitative differences&lt;/h3&gt;
+
+&lt;p&gt;Mailchimp’s benchmark data shows an overall average email open rate of 35.63% and an average click rate of 2.62% across industries. Nonprofits average 40.04% opens and 3.27% clicks, while ecommerce averages 29.81% opens and 1.74% clicks. By contrast, broad social ROI benchmarks are typically much lower than email once labor, creative production, and inconsistent organic reach are fully costed.&lt;/p&gt;
+
+&lt;p&gt;This does not make social media unimportant. Social is excellent for top-of-funnel discovery, community visibility, creator partnerships, and brand reinforcement. But social followings are weaker monetization assets because access to the audience is conditional; email lists are stronger because the brand can orchestrate communication directly.&lt;/p&gt;
+
+&lt;h2 id=&quot;average-roi-by-channel&quot;&gt;Average ROI by channel&lt;/h2&gt;
+
+&lt;p&gt;The table below consolidates broad benchmark ranges from current research. These figures are directional averages rather than universal constants, but they are useful for channel planning and executive discussions.&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Channel&lt;/th&gt;
+      &lt;th style=&quot;text-align: right&quot;&gt;Average ROI&lt;/th&gt;
+      &lt;th&gt;Practical interpretation&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Email&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;$36 to $42 per $1 spent.&lt;/td&gt;
+      &lt;td&gt;Best blend of efficiency, measurability, and compounding value.&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;SMS&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;Often high for retention and triggered commerce, but no single universal benchmark is as standardized as email.&lt;/td&gt;
+      &lt;td&gt;Best used alongside email for urgency and mobile-first conversion.&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Organic social&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;Often below 2:1 when fully costed.&lt;/td&gt;
+      &lt;td&gt;Strong for awareness and community, weak for predictable owned reach.&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;SEO&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;Roughly $7.48 to $22.24 per $1 spent depending on methodology and time horizon.&lt;/td&gt;
+      &lt;td&gt;Powerful compounding channel, but slower to mature than email.&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Paid media&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;Roughly $1.75 to $2 per $1 spent in broad benchmark reporting.&lt;/td&gt;
+      &lt;td&gt;Useful for acquisition and scale, but margin pressure is constant.&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Print&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;Commonly evaluated through response rate, recall, and brand lift rather than standardized ROI.&lt;/td&gt;
+      &lt;td&gt;Valuable in niche contexts, expensive to scale.&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;TV&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;Usually assessed through reach, brand impact, and lift studies rather than direct-response ROI.&lt;/td&gt;
+      &lt;td&gt;Strong for awareness, less efficient for most small teams.&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;OTT&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;Around $1.90 per $1 in recent benchmark summaries.&lt;/td&gt;
+      &lt;td&gt;More targetable than linear TV, but still media-cost heavy.&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h2 id=&quot;why-automation-increases-email-roi&quot;&gt;Why automation increases email ROI&lt;/h2&gt;
+
+&lt;p&gt;Email’s advantage grows when the channel is automated rather than treated as a standalone newsletter function. Modern platforms such as Klaviyo, HubSpot, Salesforce Marketing Cloud, ActiveCampaign, Mailchimp, and Adobe Campaign allow teams to trigger messages based on customer behavior, stage changes, purchase events, lead scores, web activity, and CRM status.&lt;/p&gt;
+
+&lt;p&gt;Common high-performing automations include:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Welcome series.&lt;/li&gt;
+  &lt;li&gt;Browse abandonment.&lt;/li&gt;
+  &lt;li&gt;Cart abandonment.&lt;/li&gt;
+  &lt;li&gt;Post-purchase cross-sell and replenishment.&lt;/li&gt;
+  &lt;li&gt;Re-engagement or winback programs.&lt;/li&gt;
+  &lt;li&gt;Lead nurture sequences.&lt;/li&gt;
+  &lt;li&gt;Donor cultivation and recurring-giving reminders.&lt;/li&gt;
+  &lt;li&gt;Event registration and attendance reminders.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Litmus reports that customer engagement emails, promotional emails, and newsletters are among the highest-ROI email types, and recent case-study reporting shows triggered flows can contribute disproportionate revenue compared with one-off campaigns.&lt;/p&gt;
+
+&lt;h2 id=&quot;industry-patterns&quot;&gt;Industry patterns&lt;/h2&gt;
+
+&lt;p&gt;Email works across industries, but it does not work the same way in every industry. Program design, list source, buying cycle, and compliance constraints all influence performance. The benchmark data below is useful because it shows where email engagement is naturally stronger and where segmentation discipline matters most.&lt;/p&gt;
+
+&lt;h3 id=&quot;email-engagement-by-industry&quot;&gt;Email engagement by industry&lt;/h3&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Industry&lt;/th&gt;
+      &lt;th style=&quot;text-align: right&quot;&gt;Email benchmark signal&lt;/th&gt;
+      &lt;th&gt;Source-based interpretation&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;E-commerce / retail&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;29.81% open rate, 1.74% click rate.&lt;/td&gt;
+      &lt;td&gt;High promotional pressure lowers engagement, but lifecycle automation can raise revenue sharply.&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Healthcare&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;21.44% open rate for hospitals and health care.&lt;/td&gt;
+      &lt;td&gt;Trust, reminders, and educational messaging tend to outperform broad promotional sends.&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Real estate&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;30.13% open rate for residential real estate; 24.62% for commercial real estate.&lt;/td&gt;
+      &lt;td&gt;Lead nurture and timing sensitivity make email valuable across long consideration cycles.&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Nonprofits&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;40.04% open rate, 3.27% click rate.&lt;/td&gt;
+      &lt;td&gt;Mission alignment and recurring stewardship make email unusually effective.&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Fashion&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;28.09% open rate for apparel; 40.56% for luxury goods.&lt;/td&gt;
+      &lt;td&gt;Launches, drops, and segmentation by product affinity are key.&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Travel&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;23.04% open rate for travel and tourism.&lt;/td&gt;
+      &lt;td&gt;Timing, pricing alerts, and destination-specific personalization matter.&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Beauty&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;28.26% open rate for cosmetics and personal care.&lt;/td&gt;
+      &lt;td&gt;Replenishment, tutorials, and new-product sequences support repeat purchase.&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h3 id=&quot;cross-channel-roi-patterns-by-industry&quot;&gt;Cross-channel ROI patterns by industry&lt;/h3&gt;
+
+&lt;p&gt;Standardized cross-channel ROI by industry is less robust than &lt;a href=&quot;https://www.sender.net/marketing-glossary/return-on-investment-roi/statistics/&quot;&gt;email engagement benchmarking&lt;/a&gt;, so the table below presents defensible directional patterns from current benchmark summaries rather than false precision.&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Industry&lt;/th&gt;
+      &lt;th&gt;Email&lt;/th&gt;
+      &lt;th&gt;SMS&lt;/th&gt;
+      &lt;th&gt;Paid media&lt;/th&gt;
+      &lt;th&gt;Organic social&lt;/th&gt;
+      &lt;th&gt;OTT&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;E-commerce / retail&lt;/td&gt;
+      &lt;td&gt;Very strong; often above benchmark when flows are mature.&lt;/td&gt;
+      &lt;td&gt;Strong for urgency, flash sales, and back-in-stock alerts.&lt;/td&gt;
+      &lt;td&gt;Effective for acquisition, but rising costs compress margin.&lt;/td&gt;
+      &lt;td&gt;Useful for product discovery, weaker for owned conversion.&lt;/td&gt;
+      &lt;td&gt;Mostly top-funnel or retargeting support.&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Healthcare&lt;/td&gt;
+      &lt;td&gt;Strong for reminders, education, and retention.&lt;/td&gt;
+      &lt;td&gt;Strong for appointment prompts and urgent reminders.&lt;/td&gt;
+      &lt;td&gt;Often expensive relative to conversion path.&lt;/td&gt;
+      &lt;td&gt;Better for trust and education than immediate ROI.&lt;/td&gt;
+      &lt;td&gt;Primarily awareness-driven.&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Real estate&lt;/td&gt;
+      &lt;td&gt;Strong for nurture and listing alerts.&lt;/td&gt;
+      &lt;td&gt;Strong for showing reminders and lead follow-up.&lt;/td&gt;
+      &lt;td&gt;Viable, but CPL pressure is high.&lt;/td&gt;
+      &lt;td&gt;Helpful for local visibility and agent branding.&lt;/td&gt;
+      &lt;td&gt;Limited direct-response role.&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Nonprofits&lt;/td&gt;
+      &lt;td&gt;Strong for fundraising, stewardship, and recurring giving.&lt;/td&gt;
+      &lt;td&gt;Strong for urgent appeals and event reminders.&lt;/td&gt;
+      &lt;td&gt;Acquisition can be costly.&lt;/td&gt;
+      &lt;td&gt;Useful for advocacy and community visibility.&lt;/td&gt;
+      &lt;td&gt;Limited in direct fundraising efficiency.&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Fashion&lt;/td&gt;
+      &lt;td&gt;Strong for launches, promotions, and customer retention.&lt;/td&gt;
+      &lt;td&gt;Strong for urgency and drop culture.&lt;/td&gt;
+      &lt;td&gt;Effective, but discount dependence can erode profitability.&lt;/td&gt;
+      &lt;td&gt;Strong for discovery, weak for durable ownership.&lt;/td&gt;
+      &lt;td&gt;Mostly awareness and creator-adjacent support.&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Travel&lt;/td&gt;
+      &lt;td&gt;Strong for booking nurture, alerts, and rebooking.&lt;/td&gt;
+      &lt;td&gt;Strong for time-sensitive updates.&lt;/td&gt;
+      &lt;td&gt;Search and retargeting can work, but are expensive.&lt;/td&gt;
+      &lt;td&gt;Strong for inspiration, weaker for direct monetization.&lt;/td&gt;
+      &lt;td&gt;Good for destination awareness.&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Beauty&lt;/td&gt;
+      &lt;td&gt;Strong for replenishment, education, and launches.&lt;/td&gt;
+      &lt;td&gt;Strong for promotions and urgency.&lt;/td&gt;
+      &lt;td&gt;Useful for acquisition, but CAC can rise quickly.&lt;/td&gt;
+      &lt;td&gt;Strong for creator-led awareness.&lt;/td&gt;
+      &lt;td&gt;Limited outside brand-building campaigns.&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h2 id=&quot;when-other-channels-still-matter&quot;&gt;When other channels still matter&lt;/h2&gt;
+
+&lt;p&gt;A strong argument for email does not require dismissing the rest of the media mix. Each channel does a different job.&lt;/p&gt;
+
+&lt;h3 id=&quot;where-each-channel-fits-best&quot;&gt;Where each channel fits best&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Email:&lt;/strong&gt; Retention, conversion, lifecycle communication, donor cultivation, cross-sell, reactivation.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;SMS:&lt;/strong&gt; Urgent alerts, mobile conversion nudges, reminders, flash offers.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Organic social:&lt;/strong&gt; Awareness, thought leadership, brand visibility, community interaction.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;SEO:&lt;/strong&gt; Long-term discovery, evergreen demand capture, authority building.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Paid media:&lt;/strong&gt; New-customer acquisition, retargeting, controlled reach, testable offers.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Print:&lt;/strong&gt; Local presence, credibility, targeted direct mail, donor or membership campaigns.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;TV:&lt;/strong&gt; Broad awareness, trust building, regional saturation.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;OTT:&lt;/strong&gt; Audience targeting with video creative and stronger household-level precision than linear TV.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The practical lesson is not to eliminate other channels. It is to stop asking awareness channels to perform like owned conversion channels. Email should usually sit at the center of the system because it turns acquisition from other channels into reusable audience value.&lt;/p&gt;
+
+&lt;h2 id=&quot;what-a-modern-email-program-looks-like&quot;&gt;What a modern email program looks like&lt;/h2&gt;
+
+&lt;p&gt;A high-performing email program in 2026 usually includes more than a newsletter calendar. It includes:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;List growth tied to clear value exchange.&lt;/li&gt;
+  &lt;li&gt;Segmentation by lifecycle, engagement, and intent.&lt;/li&gt;
+  &lt;li&gt;Triggered automation that responds to user behavior.&lt;/li&gt;
+  &lt;li&gt;Testing for subject lines, send time, creative format, and offer strategy.&lt;/li&gt;
+  &lt;li&gt;Deliverability discipline, including consent management and list hygiene.&lt;/li&gt;
+  &lt;li&gt;Revenue attribution connected to CRM, ecommerce, or analytics systems.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;This is where marketing automation platforms matter. Klaviyo is especially common in ecommerce because of its flow architecture and revenue attribution. HubSpot is often strong for B2B lifecycle orchestration. Salesforce Marketing Cloud remains relevant for enterprises that need heavy segmentation and cross-channel orchestration. ActiveCampaign is attractive for smaller teams that want automation depth without enterprise complexity. Mailchimp remains common in small organizations because it pairs execution tooling with accessible benchmark education.&lt;/p&gt;
+
+&lt;h2 id=&quot;faq&quot;&gt;FAQ&lt;/h2&gt;
+
+&lt;h3 id=&quot;is-email-still-the-highest-roi-marketing-channel-in-2026&quot;&gt;Is email still the highest-ROI marketing channel in 2026?&lt;/h3&gt;
+
+&lt;p&gt;Current benchmark research continues to place email at the top of the ROI stack, with average returns around $36 to $42 for every $1 spent. While exact results vary by industry and execution quality, email remains unusually efficient because it combines owned distribution with strong automation and measurement.&lt;/p&gt;
+
+&lt;h3 id=&quot;why-does-email-outperform-social-media-for-roi&quot;&gt;Why does email outperform social media for ROI?&lt;/h3&gt;
+
+&lt;p&gt;Email outperforms social because subscribers have opted in, audience access is not throttled by an algorithm in the same way, and campaigns can be personalized, segmented, and automated around real customer behavior. Social is strong for awareness and discovery, but weaker as a durable monetization asset.&lt;/p&gt;
+
+&lt;h3 id=&quot;is-sms-better-than-email&quot;&gt;Is SMS better than email?&lt;/h3&gt;
+
+&lt;p&gt;SMS is not a replacement for email. It is a complementary channel. SMS is especially effective for urgency, reminders, and high-intent prompts, while email is better suited to richer content, lifecycle depth, and scalable owned communication.&lt;/p&gt;
+
+&lt;h3 id=&quot;should-small-teams-prioritize-email-over-paid-media&quot;&gt;Should small teams prioritize email over paid media?&lt;/h3&gt;
+
+&lt;p&gt;Small teams should usually prioritize email as the core owned channel while using paid media selectively for acquisition and amplification. That approach is especially important in a market where most CMOs report budget constraints and paid media takes a growing share of spend.&lt;/p&gt;
+
+&lt;h3 id=&quot;which-industries-benefit-most-from-email-marketing&quot;&gt;Which industries benefit most from email marketing?&lt;/h3&gt;
+
+&lt;p&gt;Email is effective across nearly every industry, but nonprofit, ecommerce, real estate, beauty, travel, and fashion programs often benefit significantly because they combine repeat engagement opportunities with strong segmentation potential.&lt;/p&gt;</content><author><name>Brandon Caples</name><email>brandon.caples@gmail.com</email></author><category term="MarTech" /><category term="email" /><category term="marketing" /><summary type="html">Email marketing ROI in 2026: Why email still outperforms social, paid media, TV, print, and OTT</summary></entry><entry><title type="html">Taste and simplicity in luxury marketing</title><link href="http://localhost:4000/martech/2026/taste-simplicity-in-luxury-marketing" rel="alternate" type="text/html" title="Taste and simplicity in luxury marketing" /><published>2026-08-03T07:31:59-04:00</published><updated>2026-08-03T07:31:59-04:00</updated><id>http://localhost:4000/martech/2026/taste-simplicity-in-luxury-marketing</id><content type="html" xml:base="http://localhost:4000/martech/2026/taste-simplicity-in-luxury-marketing">&lt;h2 id=&quot;taste-is-the-new-luxury&quot;&gt;Taste is the new luxury&lt;/h2&gt;
 
 &lt;p&gt;In an era where AI can generate seemingly-infinite content in seconds, human taste has become the scarcest and most valuable asset in luxury marketing. The brands that will endure are not those that produce the most, but those that exercise the most discerning judgment about what deserves to exist at all. Taste is luxury. Simplicity is quality.&lt;/p&gt;
 
@@ -1052,45 +1363,4 @@ or withheld his love from me!&lt;/p&gt;
 
 &lt;p&gt;This SQL query provides valuable insights into the performance of journeys within Salesforce Marketing Cloud. By analyzing metrics such as sends, opens, clicks, bounces, and unsubscribes on a daily basis, marketers can assess the effectiveness of their campaigns, identify areas for improvement, and tailor future strategies to better engage their audience.&lt;/p&gt;
 
-&lt;p&gt;Understanding and leveraging journey analytics is essential for optimizing marketing efforts, enhancing customer experiences, and driving overall business success in Salesforce Marketing Cloud.&lt;/p&gt;</content><author><name>Brandon Caples</name><email>brandon.caples@gmail.com</email></author><category term="MarTech" /><category term="analytics" /><category term="Salesforce Marketing Cloud" /><category term="SQL" /><summary type="html">In Salesforce Marketing Cloud, analyzing the performance of journeys is crucial for optimizing marketing strategies and enhancing customer engagement. One effective way to gain insights into journey performance is by querying the system’s data views using SQL. In this article, I’ll break down a SQL query designed to retrieve daily journey analytics from Salesforce Marketing Cloud.</summary></entry><entry><title type="html">How to use Web Analytics Connector in Salesforce Marketing Cloud</title><link href="http://localhost:4000/martech/2024/sfmc-web-analytics-connector" rel="alternate" type="text/html" title="How to use Web Analytics Connector in Salesforce Marketing Cloud" /><published>2024-04-15T06:31:00-04:00</published><updated>2024-04-15T06:31:00-04:00</updated><id>http://localhost:4000/martech/2024/sfmc-web-analytics-connector</id><content type="html" xml:base="http://localhost:4000/martech/2024/sfmc-web-analytics-connector">&lt;p&gt;The Salesforce Marketing Cloud Web Analytics Connector (WAC) is your secret weapon for bridging the gap between email marketing and website analytics.&lt;/p&gt;
-
-&lt;h2 id=&quot;what-is-the-web-analytics-connector&quot;&gt;What is the Web Analytics Connector?&lt;/h2&gt;
-
-&lt;p&gt;The WAC acts as a bridge between Marketing Cloud and your favorite web analytics service, like Google Analytics or Adobe Analytics. It works by automatically adding custom tags (parameters) to the links in your emails. When a subscriber clicks a link, the tags are sent to your web analytics tool, allowing you to track specific details about that click, such as:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Campaign ID:&lt;/strong&gt; Identify which email campaign drove the website traffic.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Subscriber data:&lt;/strong&gt; See individual subscriber behavior based on email opens, clicks, and website visits.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Link clicked:&lt;/strong&gt; Track which specific links within your email are most engaging.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;benefits-of-using-the-web-analytics-connector&quot;&gt;Benefits of using the Web Analytics Connector&lt;/h2&gt;
-
-&lt;p&gt;By leveraging the WAC, you gain a wealth of insights into your email marketing effectiveness:&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;Measure campaign performance: See which email campaigns drive the most website traffic and conversions.&lt;/li&gt;
-  &lt;li&gt;Optimize link placement: Identify the most clicked links within your emails and refine your email design for better engagement.&lt;/li&gt;
-  &lt;li&gt;Personalize the customer Journey: Use subscriber data captured through the WAC to tailor website experiences for individual subscribers.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h2 id=&quot;how-to-use-the-web-analytics-connector&quot;&gt;How to use the Web Analytics Connector&lt;/h2&gt;
-
-&lt;p&gt;There are four levels of &lt;a href=&quot;https://ampscript.com/web-analytics-connector-wac/&quot; target=&quot;_blank&quot;&gt;parameter management&lt;/a&gt;: Account, Email, Subscriber, and Link levels. These various levels of parameters can be managed in &lt;strong&gt;Parameter Manager&lt;/strong&gt;. Once the Web Analytics Connector is set up in your account, Parameter Manager can be accessed by visiting &lt;strong&gt;Setup&lt;/strong&gt; from the top-right menu of Marketing Cloud (beneath the name of the logged-in user). Next, find &lt;strong&gt;Data Management&lt;/strong&gt; &amp;gt; &lt;strong&gt;Parameter Management&lt;/strong&gt; in the menu on the left side of the screen.&lt;/p&gt;
-
-&lt;picture class=&quot;block md:mx-12 xl:mx-0&quot;&gt;
-	&lt;source type=&quot;image/webp&quot; srcset=&quot;/assets/img/martech/sfmc_parameter_manager.webp&quot; /&gt;
-	&lt;img src=&quot;/assets/img/martech/sfmc_parameter_manager.jpeg&quot; class=&quot;shadow&quot; alt=&quot;Parameter Manager within Salesforce Marketing Cloud&quot; /&gt;
-&lt;/picture&gt;
-
-&lt;p&gt;You can enter parameters into the textbox to be inserted automatically at the end of each link of your emails. Parameters can be hardcoded or formatted dynamically using AMPscript.&lt;/p&gt;
-
-&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;utm_term=marketingcloud​&amp;amp;sfmc_key=%%_subscriberkey%%​&amp;amp;utm_medium=email​&amp;amp;mc_source_code__c=%%__AdditionalEmailAttribute1%%​&amp;amp;utm_source=%%__AdditionalEmailAttribute2%%​&amp;amp;utm_campaign=%%__AdditionalEmailAttribute3%%&lt;/code&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;getting-started-with-the-web-analytics-connector&quot;&gt;Getting started with the Web Analytics Connector&lt;/h2&gt;
-
-&lt;p&gt;The &lt;a href=&quot;https://help.salesforce.com/s/articleView?id=sf.mc_wa_web_analytics_connector.htm&amp;amp;type=5&quot; target=&quot;_blank&quot;&gt;Salesforce Marketing Cloud documentation&lt;/a&gt; offers comprehensive resources on setting up and using the WAC, including &lt;a href=&quot;https://mc.chat/web-analytics-connector/&quot; target=&quot;_blank&quot;&gt;step-by-step guides&lt;/a&gt; and troubleshooting tips.&lt;/p&gt;
-
-&lt;h2 id=&quot;unleash-the-power-of-marketing-cloud-data&quot;&gt;Unleash the Power of Marketing Cloud Data&lt;/h2&gt;
-
-&lt;p&gt;The Web Analytics Connector is a powerful tool for marketers seeking to bridge the gap between email marketing and website analytics. By using the WAC, you can gain a deeper understanding of your email campaigns’ impact and optimize your marketing efforts for maximum ROI.&lt;/p&gt;</content><author><name>Brandon Caples</name><email>brandon.caples@gmail.com</email></author><category term="MarTech" /><category term="analytics" /><category term="Salesforce Marketing Cloud" /><summary type="html">The Salesforce Marketing Cloud Web Analytics Connector (WAC) is your secret weapon for bridging the gap between email marketing and website analytics.</summary></entry></feed>
+&lt;p&gt;Understanding and leveraging journey analytics is essential for optimizing marketing efforts, enhancing customer experiences, and driving overall business success in Salesforce Marketing Cloud.&lt;/p&gt;</content><author><name>Brandon Caples</name><email>brandon.caples@gmail.com</email></author><category term="MarTech" /><category term="analytics" /><category term="Salesforce Marketing Cloud" /><category term="SQL" /><summary type="html">In Salesforce Marketing Cloud, analyzing the performance of journeys is crucial for optimizing marketing strategies and enhancing customer engagement. One effective way to gain insights into journey performance is by querying the system’s data views using SQL. In this article, I’ll break down a SQL query designed to retrieve daily journey analytics from Salesforce Marketing Cloud.</summary></entry></feed>
