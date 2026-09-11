@@ -12,6 +12,7 @@
 
 ## MarTech Blog
 - [MarTech Blog](https://brandoncaples.com/martech/): Articles on marketing technology, email deployment and strategy, business analytics, and Salesforce Marketing Cloud implementation.
+- [Email Marketing ROI in 2026](https://brandoncaples.com/martech/2026/email-marketing-roi): Why email still delivers the best return on investment for marketing teams.
 - [IP Address Warming](https://brandoncaples.com/martech/2023/ip-address-warming): How to warm a new sending IP address to protect email deliverability and sender reputation.
 - [How to Query SFMC Subscribers Who Opened a Specific Email](https://brandoncaples.com/2024/how-to-query-subscribers-who-opened-sfmc-email): SQL query guide for identifying Salesforce Marketing Cloud subscribers who opened a given email.
 - [Email Accessibility](https://brandoncaples.com/2024/email-accessibility): Best practices for building accessible HTML email campaigns.
